@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # (myst-content/math)=
-# # Nanotermodinamikara sarrera
+# #2. Nanotermodinamikara sarrera
 # 
 # Jupyter Book uses [MathJax](http://docs.mathjax.org/) for typesetting math in your HTML book build.
 # This allows you to have LaTeX-style mathematics in your online content.

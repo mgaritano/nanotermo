@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In-line math &#8212; Nanotermodinamika</title>
+    <title>Ekuazioekin frogak &#8212; Nanotermodinamika</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -56,7 +56,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="3. Hill-en teoria" href="hill.html" />
-    <link rel="prev" title="1. Sarrera" href="intro.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="nanointro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -103,7 +103,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   In-line math
+   Ekuazioekin frogak
   </a>
  </li>
  <li class="toctree-l1">
@@ -113,12 +113,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="tpn.html">
-   Multzo isotermo-isobaroa
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
+   4. Multzo isotermo-isobaroa
   </a>
  </li>
  <li class="toctree-l1">
@@ -232,7 +227,7 @@ const thebe_selector_output = ".output, .cell_output"
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
-   In-line math
+   Ekuazioekin frogak
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -267,7 +262,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>In-line math</h1>
+                <h1>Ekuazioekin frogak</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -279,7 +274,7 @@ const thebe_selector_output = ".output, .cell_output"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
-   In-line math
+   Ekuazioekin frogak
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -326,8 +321,8 @@ If you are using a lot of math, you may want to try using version 3, which claim
 </div>
 <p>See the <span class="xref myst">Sphinx documentation</span> for details.</p>
 <p>:::</p>
-<div class="section" id="in-line-math">
-<h1>In-line math<a class="headerlink" href="#in-line-math" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ekuazioekin-frogak">
+<h1>Ekuazioekin frogak<a class="headerlink" href="#ekuazioekin-frogak" title="Permalink to this headline">¶</a></h1>
 <p>To insert in-line math use the <code class="docutils literal notranslate"><span class="pre">$</span></code> symbol within a Markdown cell.
 For example, the text <code class="docutils literal notranslate"><span class="pre">$this_{is}^{inline}$</span></code> will produce: <span class="math notranslate nohighlight">\(this_{is}^{inline}\)</span>.</p>
 </div>
@@ -353,10 +348,9 @@ equation, wrap the equation in either <code class="docutils literal notranslate"
 </pre></div>
 </div>
 <p>Once enabled, you can define math blocks like so:</p>
-<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>gather*<span class="nb">}</span>
-a<span class="nb">_</span>1=b<span class="nb">_</span>1+c<span class="nb">_</span>1<span class="k">\\</span>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>equation<span class="nb">}</span>
 a<span class="nb">_</span>2=b<span class="nb">_</span>2+c<span class="nb">_</span>2-d<span class="nb">_</span>2+e<span class="nb">_</span>2
-<span class="k">\end</span><span class="nb">{</span>gather*<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>equation<span class="nb">}</span>
 
 <span class="k">\begin</span><span class="nb">{</span>align<span class="nb">}</span>
 a<span class="nb">_{</span>11<span class="nb">}&amp;</span> =b<span class="nb">_{</span>11<span class="nb">}&amp;</span>
@@ -367,13 +361,12 @@ a<span class="nb">_{</span>21<span class="nb">}&amp;</span> =b<span class="nb">_
 </pre></div>
 </div>
 <p>which results in:</p>
-<div class="amsmath math notranslate nohighlight">
-\[\begin{gather*}
-a_1=b_1+c_1\\
+<div class="amsmath math notranslate nohighlight" id="equation-259af0a5-8454-4fb2-b02b-0e41e8d5b87c">
+<span class="eqno">(1)<a class="headerlink" href="#equation-259af0a5-8454-4fb2-b02b-0e41e8d5b87c" title="Permalink to this equation">¶</a></span>\[\begin{equation}
 a_2=b_2+c_2-d_2+e_2
-\end{gather*}\]</div>
-<div class="amsmath math notranslate nohighlight" id="equation-b6c73105-e98b-4901-954d-5ee6de742b62">
-<span class="eqno">(1)<a class="headerlink" href="#equation-b6c73105-e98b-4901-954d-5ee6de742b62" title="Permalink to this equation">¶</a></span>\[\begin{align}
+\end{equation}\]</div>
+<div class="amsmath math notranslate nohighlight" id="equation-3117a50b-bc2c-4f26-8b17-5bc93812b0d1">
+<span class="eqno">(2)<a class="headerlink" href="#equation-3117a50b-bc2c-4f26-8b17-5bc93812b0d1" title="Permalink to this equation">¶</a></span>\[\begin{align}
 a_{11}&amp; =b_{11}&amp;
   a_{12}&amp; =b_{12}\\
 a_{21}&amp; =b_{21}&amp;
@@ -403,13 +396,13 @@ w<span class="ge">_{t+1} = (1 + r_</span>{t+1}) s(w_t) + y_{t+1}
 </div>
 <p>will generate</p>
 <div class="math notranslate nohighlight" id="equation-my-label">
-<span class="eqno">(2)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">¶</a></span>\[ \begin{align}\begin{aligned}E=TS-pV```\\Alternatively you can use the dollar math syntax with a prefixed label:\\```md
+<span class="eqno">(3)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">¶</a></span>\[ \begin{align}\begin{aligned}E=TS-pV```\\Alternatively you can use the dollar math syntax with a prefixed label:\\```md
 $$
 E=TS-pV
 $$ (my_other_label)\end{aligned}\end{align} \]</div>
 <p>which generates</p>
 <div class="math notranslate nohighlight" id="equation-my-other-label">
-<span class="eqno">(3)<a class="headerlink" href="#equation-my-other-label" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(4)<a class="headerlink" href="#equation-my-other-label" title="Permalink to this equation">¶</a></span>\[
   w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
 \]</div>
 <p>:::{note}
@@ -430,8 +423,8 @@ the <code class="docutils literal notranslate"><span class="pre">{eq}</span></co
 </div>
 <p>results in</p>
 <ul class="simple">
-<li><p>A link to an equation directive: <a class="reference internal" href="#equation-my-label">(2)</a></p></li>
-<li><p>A link to a dollar math block: <a class="reference internal" href="#equation-my-other-label">(3)</a></p></li>
+<li><p>A link to an equation directive: <a class="reference internal" href="#equation-my-label">(3)</a></p></li>
+<li><p>A link to a dollar math block: <a class="reference internal" href="#equation-my-other-label">(4)</a></p></li>
 </ul>
 <p>:::{note}
 <code class="docutils literal notranslate"><span class="pre">\labels</span></code> inside LaTeX environment are not currently identified, and so cannot be referenced.
@@ -465,11 +458,11 @@ We hope to implement this in a future update (see <a class="reference external" 
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="nanointro.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">1. Sarrera</p>
+            <p class="prev-next-title">&lt;no title&gt;</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="hill.html" title="next page">

@@ -21,7 +21,7 @@
 # 
 # :::
 # 
-# ## In-line math
+# ## Ekuazioekin frogak
 # 
 # To insert in-line math use the `$` symbol within a Markdown cell.
 # For example, the text `$this_{is}^{inline}$` will produce: $this_{is}^{inline}$.
@@ -56,10 +56,9 @@
 # Once enabled, you can define math blocks like so:
 # 
 # ```latex
-# \begin{gather*}
-# a_1=b_1+c_1\\
+# \begin{equation}
 # a_2=b_2+c_2-d_2+e_2
-# \end{gather*}
+# \end{equation}
 # 
 # \begin{align}
 # a_{11}& =b_{11}&
@@ -71,10 +70,9 @@
 # 
 # which results in:
 # 
-# \begin{gather*}
-# a_1=b_1+c_1\\
+# \begin{equation}
 # a_2=b_2+c_2-d_2+e_2
-# \end{gather*}
+# \end{equation}
 # 
 # \begin{align}
 # a_{11}& =b_{11}&

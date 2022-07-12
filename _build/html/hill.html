@@ -55,7 +55,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Erreferentziak" href="erreferentziak.html" />
+    <link rel="next" title="4" href="tpn.html" />
     <link rel="prev" title="2" href="nanointro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -109,6 +109,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="tpn.html">
+   4
   </a>
  </li>
  <li class="toctree-l1">
@@ -215,7 +220,12 @@ const thebe_selector_output = ".output, .cell_output"
   <ul class="visible nav section-nav flex-column">
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#hill-en-teoria">
-     Hill-en teoria
+     3.1 Hill-en teoria
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
+     3.2 Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
     </a>
    </li>
   </ul>
@@ -252,7 +262,12 @@ const thebe_selector_output = ".output, .cell_output"
   <ul class="visible nav section-nav flex-column">
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#hill-en-teoria">
-     Hill-en teoria
+     3.1 Hill-en teoria
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
+     3.2 Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
     </a>
    </li>
   </ul>
@@ -272,7 +287,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="sistema-txikien-termodinamika">
 <h1>Sistema Txikien Termodinamika<a class="headerlink" href="#sistema-txikien-termodinamika" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="hill-en-teoria">
-<h2>Hill-en teoria<a class="headerlink" href="#hill-en-teoria" title="Permalink to this headline">¶</a></h2>
+<h2>3.1 Hill-en teoria<a class="headerlink" href="#hill-en-teoria" title="Permalink to this headline">¶</a></h2>
 <p>Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua, sistema horren <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero (<span class="math notranslate nohighlight">\(\mathcal{N}\rightarrow \infty\)</span>), sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
 Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, termodinamika klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.</p>
 <div class="admonition-oharra admonition">
@@ -311,6 +326,31 @@ Bestalde, <a class="reference internal" href="#equation-gibbs-small">(7)</a> adi
 <p>Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, <span class="math notranslate nohighlight">\(\bar{E}, S, \bar{V}\)</span> eta <span class="math notranslate nohighlight">\(\bar{N}\)</span> aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, <span class="math notranslate nohighlight">\(S = S_{t}/\mathcal{N}\)</span> aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitatza (ikus \ref{b} eranskina).</p>
 <p>Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen \ref{npt}., \ref{fase}. eta \ref{nano}. atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.</p>
 </div>
+<div class="section" id="hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
+<h2>3.2 Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia<a class="headerlink" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia" title="Permalink to this headline">¶</a></h2>
+<p>Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartutakoan multzoaren propietate estentsibo guztiak (<span class="math notranslate nohighlight">\(S_{t}, V_{t}, N_{t}\)</span>) aldaezin mantendu ditugu.
+Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, eta ez beste ezerk, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  <span class="math notranslate nohighlight">\(E, V\)</span> eta <span class="math notranslate nohighlight">\(N\)</span> finko mantentzea galarazten baitu. Ondorioz, sistema txikiei <span class="math notranslate nohighlight">\((T, p, \mu)\)</span> aldagaiak esleitu behar izan dizkiegu nahitaez.</p>
+<p>Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, <span class="math notranslate nohighlight">\((A, B, C,...)\)</span> ingurune-aldagaien aurrean <span class="math notranslate nohighlight">\(\mathcal{E}(T, p, \mu)\)</span> banatze-potentzialaren orokorpena definitu beharrean gaude. Berori <span class="math notranslate nohighlight">\(X(A, B, C...)\)</span> hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion \textbf{aldaki-energia} da. Noski, multzo nanokanonikoaren kasuan <span class="math notranslate nohighlight">\(X(T,p,\mu) = \mathcal{E}(T, p, \mu)\)</span> genuke, baina, oro har, ez da hori beteko.</p>
+<p>Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak <span class="math notranslate nohighlight">\((T,V,\mu)\)</span> izango dira. Gauzak horrela, <span class="math notranslate nohighlight">\(E_{t} = \mathcal{N}\bar{E}\)</span>, <span class="math notranslate nohighlight">\(S_{t} = \mathcal{N}S\)</span>, <span class="math notranslate nohighlight">\(V_{t} = \mathcal{N}V\)</span> eta <span class="math notranslate nohighlight">\(N_{t} = \mathcal{N}\bar{N}\)</span> izango ditugu. Aipatzekoa da <span class="math notranslate nohighlight">\(V\)</span> bolumenak ez daramala marratxoa, kasu honetan berori ez baita batez besteko magnitudea. Jarraian, <a class="reference internal" href="#equation-hill-gibbs">(4)</a> berridatziko dugu, oraingoan, ordea, <span class="math notranslate nohighlight">\(V\)</span> agerraraziz (<span class="math notranslate nohighlight">\(\mathrm{d}V_{t} = \mathcal{N}\mathrm{d}V + V\mathrm{d}\mathcal{N}\)</span>):</p>
+<div class="math notranslate nohighlight" id="equation-degc">
+<span class="eqno">(9)<a class="headerlink" href="#equation-degc" title="Permalink to this equation">¶</a></span>\[\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathcal{N}\mathrm{d}V + \mu \mathrm{d}N_{t} + (\mathcal{E}-pV)\mathrm{d}\mathcal{N}\]</div>
+<p>Hortik aipaturiko aldaki-energia definituko dugu:</p>
+<div class="math notranslate nohighlight" id="equation-xgc">
+<span class="eqno">(10)<a class="headerlink" href="#equation-xgc" title="Permalink to this equation">¶</a></span>\[X(T,V,\mu) = \mathcal{E}-pV := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V,N_{t}} := -\widehat{p}\;V\;.\]</div>
+<p>Esanak esan, <a class="reference internal" href="#equation-xgc">(10)</a> ekuazioari so eginez gero, <span class="math notranslate nohighlight">\(X\)</span> ingurune honetan <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> baino aldagai are aproposagoa dela ikusiko dugu, berorrek baitarama multzo makrokanonikoaren berezko izaera. Hain zuzen, aldaki bat sartzean, multzo osoaren <span class="math notranslate nohighlight">\(V_{t}\)</span> bolumena aldatu egingo da, horrek bermatuko baitu sistema txiki bakoitzaren <span class="math notranslate nohighlight">\(V\)</span> bolumenak aldaezin iraungo duela. Beraz, multzo zehatz honetako aldaki-energia, multzoak hautemango duen eta <span class="math notranslate nohighlight">\(\widehat{p}\)</span> presioak ereduztatuko duen lan mekanikotzat har daiteke: <span class="math notranslate nohighlight">\(-\widehat{p}\;V\)</span>. Jakina, <span class="math notranslate nohighlight">\(p\neq \widehat{p}\)</span>, presio bien energiarako ekarpenek ez baitute esangura bera: lehenengoarena sistema txikiei dagokie, eta bigarrenarena multzo osora hedatzen da. Ondorioz, efektu finituak direla eta, sistema txikien kasuan adierazpen desberdinak izango dituzte, eta eskualde termodinamikoan bat etorriko dira.</p>
+<p>Segidan, <a class="reference internal" href="#equation-xgc">(10)</a> ekuazioa erabiliz, eta lehengo ataleko prozedura jarraituz, espresio hauetara iritsiko gara:</p>
+<div class="math notranslate nohighlight" id="equation-e-small-gc">
+<span class="eqno">(11)<a class="headerlink" href="#equation-e-small-gc" title="Permalink to this equation">¶</a></span>\[\bar{E} = TS - \widehat{p}\;V + \mu \bar{N} \; ,\]</div>
+<div class="math notranslate nohighlight" id="equation-de-small-gc">
+<span class="eqno">(12)<a class="headerlink" href="#equation-de-small-gc" title="Permalink to this equation">¶</a></span>\[\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}V + \mu \mathrm{d}\bar{N} \; .\]</div>
+<p>Horiek agerian uzten dute, <span class="math notranslate nohighlight">\(p\)</span> eta <span class="math notranslate nohighlight">\(\widehat{p}\)</span> presioen arteko desberdintza dela eta, <span class="math notranslate nohighlight">\(\bar{E}\)</span> ez dela funtzio Euler-homogeneoa. Jarraian, Legendreren bi transformazio aplikatuz,</p>
+<div class="math notranslate nohighlight" id="equation-pot-gc">
+<span class="eqno">(13)<a class="headerlink" href="#equation-pot-gc" title="Permalink to this equation">¶</a></span>\[\mathrm{d}(-\widehat{p}\;V) := \mathrm{d}\Psi(T,V,\mu) = -S\mathrm{d}T - p\mathrm{d}V - \bar{N}\mathrm{d}\mu \; .\]</div>
+<p>Bertatik, hitzez azaldutakoa laburbildu ez ezik, beharrezkoa duen adierazgarritasuna emango dioten adierazpenak erdietsiko ditugu:</p>
+<div class="math notranslate nohighlight" id="equation-gc-summ">
+<span class="eqno">(14)<a class="headerlink" href="#equation-gc-summ" title="Permalink to this equation">¶</a></span>\[\boxed {-\widehat{p} := \frac{-\widehat{p}\;V}{V} \quad \pmb{\neq} \quad -p := \left[\frac{\partial(-\widehat{p}\;V)}{\partial V}\right]_{T,\mu} \quad ; \quad \mathcal{E} = - (\widehat{p} - p)V} \; .\]</div>
+<p>Hala, <span class="math notranslate nohighlight">\(\widehat{p}\)</span> <strong>presio integral</strong> eta <span class="math notranslate nohighlight">\(p\)</span> <strong>presio diferentzial</strong> izendatuko ditugu. Beroriek bereizten dituzten ez-linealtasunaren ondoriozko ekarpen <em>txikiak</em> banatze-potentzialak biltzen ditu.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -345,10 +385,10 @@ Bestalde, <a class="reference internal" href="#equation-gibbs-small">(7)</a> adi
             <p class="prev-next-title">2</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="erreferentziak.html" title="next page">
+    <a class='right-next' id="next-link" href="tpn.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Erreferentziak</p>
+        <p class="prev-next-title">4</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

@@ -39,14 +39,14 @@ $(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
 \\
 \bar{E} = TS - p\bar{V} + \widehat{\mu}N
 ```
-$(c)$ Gibbs-en energia askea ($F(T,p,N)$). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena. Eman azalpenak.
+$(c)$ Gibbs-en energia askea ($F(T,p,N)$). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena. 
 
 ```{dropdown} __Erantzuna__
 ```{math}
 F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 \\
 \\
-\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \; .
+\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
 \\
 \\
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}

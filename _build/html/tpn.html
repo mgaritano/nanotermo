@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>&lt;no title&gt; &#8212; Nanotermodinamika</title>
+    <title>4 &#8212; Nanotermodinamika</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,10 +51,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
-    <link rel="prev" title="3. Hill-en teoria" href="hill.html" />
+    <link rel="next" title="Erreferentziak" href="erreferentziak.html" />
+    <link rel="prev" title="3" href="hill.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -80,7 +82,7 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/portada.jpg" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">Nanotermodinamika</h1>
@@ -98,25 +100,20 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="nanointro.html">
-   2. Nanotermodinamikara sarrera
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="sarrera.html">
-   2. Nanotermodinamikara sarrera
+   2
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="hill.html">
-   3. Hill-en teoria
+   3
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown-notebooks.html">
-   Notebooks with MyST Markdown
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   4
   </a>
  </li>
  <li class="toctree-l1">
@@ -165,9 +162,9 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/tpn.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="_sources/tpn.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.ipynb</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -210,7 +207,35 @@ const thebe_selector_output = ".output, .cell_output"
                 <i class="fas fa-list"></i> Contents
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   4
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
+   Multzo isotermo-isobaroa:
+   <span class="math notranslate nohighlight">
+    \((T,p,N)\)
+   </span>
+   ingurune-aldagaiak
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#multzoaren-azterketa">
+     4.1 Multzoaren azterketa
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ariketa">
+       Ariketa
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
 </ul>
 
             </nav>
@@ -221,7 +246,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1><no title></h1>
+                <h1>4</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -230,7 +255,35 @@ const thebe_selector_output = ".output, .cell_output"
                             <h2> Contents </h2>
                         </div>
                         <nav aria-label="Page">
-                            <ul class="simple visible nav section-nav flex-column">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   4
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
+   Multzo isotermo-isobaroa:
+   <span class="math notranslate nohighlight">
+    \((T,p,N)\)
+   </span>
+   ingurune-aldagaiak
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#multzoaren-azterketa">
+     4.1 Multzoaren azterketa
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ariketa">
+       Ariketa
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
 </ul>
 
                         </nav>
@@ -240,7 +293,80 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  
+  <div class="section" id="id1">
+<h1>4<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
+<h1>Multzo isotermo-isobaroa: <span class="math notranslate nohighlight">\((T,p,N)\)</span> ingurune-aldagaiak<a class="headerlink" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak" title="Permalink to this headline">¶</a></h1>
+<p>Kapitulu honen fisikari heldu baino lehen, honako honi erreparatu behar diogu: \ref{nano}. atalean ikusiko dugunez, multzo nanokanonikorako <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> trantsizioa <span class="math notranslate nohighlight">\(Q(T,V,N)\)</span> partizio-funtzio kanonikotik abiatzen dugu normalean, Legendreren transformazioen laguntzaz. Kontua da tarteko multzotzat makrokanonikoa <span class="math notranslate nohighlight">\((T,V,\mu)\)</span> hautatuz gero, zenbaitetan bidea malkartsua gertatuko zaigula. Bada, bolumenean barreneko integrala barik <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruan zeharreko batukaria kalkulatzeak lana arinduko digu.
+Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohighlight">\((T,p,N)\)</span> barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez <span class="math notranslate nohighlight">\(T\)</span> eta <span class="math notranslate nohighlight">\(p\)</span> finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, \ref{npt_ex} azpiatalean lan honetako lehenbiziko adibideari helduko diogu, hurbilketa bereziekin bada ere.</p>
+<p>Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du.</p>
+<div class="section" id="multzoaren-azterketa">
+<h2>4.1 Multzoaren azterketa<a class="headerlink" href="#multzoaren-azterketa" title="Permalink to this headline">¶</a></h2>
+<p>Kontrol-aldagaitzat <span class="math notranslate nohighlight">\((T,p,N)\)</span> dituzten sistema txikiek <span class="math notranslate nohighlight">\(\bar{E}=E_{t}/\mathcal{N}\)</span>, <span class="math notranslate nohighlight">\(\bar{V}=V_{t}/\mathcal{N}\)</span> eta <span class="math notranslate nohighlight">\(N=N_{t}/\mathcal{N}\)</span> aldagai estentsiboak izango dituzte.</p>
+<div class="section" id="ariketa">
+<h3>Ariketa<a class="headerlink" href="#ariketa" title="Permalink to this headline">¶</a></h3>
+<p>Aurreko esaldian aipatutakoa aintzat hartuz, eta <span class="xref myst"></span>. ataleko azalpenei segituz, eraiki honako adierazpenak:</p>
+<p><span class="math notranslate nohighlight">\((a)\)</span> Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta <span class="math notranslate nohighlight">\(X(T,p,N)\)</span> aldaki-energia. Emaitzak azaldu.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}\;
+\\
+\\
+X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
+\end{split}\]</div>
+</div>
+</details><details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Azalpenak</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<p class="card-text">Kasu honetan, <span class="math notranslate nohighlight">\(N\)</span> ingurune-aldagaia agerrarazi behar dugu ekuazioan, <span class="math notranslate nohighlight">\(\mathrm{d}N_{t} = \mathcal{N}\mathrm{d}N + N\mathrm{d}\mathcal{N}\)</span> erabiliz. Berorrek <span class="math notranslate nohighlight">\(N_{t}\)</span> magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik <span class="math notranslate nohighlight">\(N\)</span> partikuladun sorta berri bat gehitzen genbilzkioke eta. Aipaturiko ekarpen kimikoa <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako <span class="math notranslate nohighlight">\(\mu\)</span> potentzialaren esanahi bera.</p>
+</div>
+</details><p><span class="math notranslate nohighlight">\((b)\)</span> Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
+\\
+\\
+\bar{E} = TS - p\bar{V} + \widehat{\mu}N\end{split}\]</div>
+</div>
+</details><p><span class="math notranslate nohighlight">\((c)\)</span> Gibbs-en energia askea (<span class="math notranslate nohighlight">\(F(T,p,N)\)</span>). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena. Eman azalpenak.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
+\\
+\\
+\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \; .
+\\
+\\
+\boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
+\end{split}\]</div>
+</div>
+</details></div>
+</div>
+</div>
+
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
@@ -270,13 +396,13 @@ const thebe_selector_output = ".output, .cell_output"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">3. Hill-en teoria</p>
+            <p class="prev-next-title">3</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="markdown-notebooks.html" title="next page">
+    <a class='right-next' id="next-link" href="erreferentziak.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+        <p class="prev-next-title">Erreferentziak</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

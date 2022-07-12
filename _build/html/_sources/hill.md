@@ -1,9 +1,9 @@
-(hill)=
+(hillsec)=
 ## 3
 
 ## Sistema Txikien Termodinamika
 
-###  Hill-en teoria
+###  3.1 Hill-en teoria
 
 Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua, sistema horren $\mathcal{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero ($\mathcal{N}\rightarrow \infty$), sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
 Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, termodinamika klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.
@@ -78,3 +78,56 @@ Ikusten dugunez, termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kual
 Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\bar{E}, S, \bar{V}$ eta $\bar{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathcal{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitatza (ikus \ref{b} eranskina).
 
 Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen \ref{npt}., \ref{fase}. eta \ref{nano}. atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
+
+
+### 3.2 Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
+
+Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartutakoan multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.
+Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, eta ez beste ezerk, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  $E, V$ eta $N$ finko mantentzea galarazten baitu. Ondorioz, sistema txikiei $(T, p, \mu)$ aldagaiak esleitu behar izan dizkiegu nahitaez.
+
+Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, $(A, B, C,...)$ ingurune-aldagaien aurrean $\mathcal{E}(T, p, \mu)$ banatze-potentzialaren orokorpena definitu beharrean gaude. Berori $X(A, B, C...)$ hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion \textbf{aldaki-energia} da. Noski, multzo nanokanonikoaren kasuan $X(T,p,\mu) = \mathcal{E}(T, p, \mu)$ genuke, baina, oro har, ez da hori beteko.
+
+Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak $(T,V,\mu)$ izango dira. Gauzak horrela, $E_{t} = \mathcal{N}\bar{E}$, $S_{t} = \mathcal{N}S$, $V_{t} = \mathcal{N}V$ eta $N_{t} = \mathcal{N}\bar{N}$ izango ditugu. Aipatzekoa da $V$ bolumenak ez daramala marratxoa, kasu honetan berori ez baita batez besteko magnitudea. Jarraian, {eq}`hill-gibbs` berridatziko dugu, oraingoan, ordea, $V$ agerraraziz ($\mathrm{d}V_{t} = \mathcal{N}\mathrm{d}V + V\mathrm{d}\mathcal{N}$):
+
+
+```{math}
+:label: degc
+\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathcal{N}\mathrm{d}V + \mu \mathrm{d}N_{t} + (\mathcal{E}-pV)\mathrm{d}\mathcal{N}
+```
+
+Hortik aipaturiko aldaki-energia definituko dugu:
+
+```{math}
+:label: xgc
+X(T,V,\mu) = \mathcal{E}-pV := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V,N_{t}} := -\widehat{p}\;V\;.
+```
+
+Esanak esan, {eq}`xgc` ekuazioari so eginez gero, $X$ ingurune honetan $\mathcal{E}$ baino aldagai are aproposagoa dela ikusiko dugu, berorrek baitarama multzo makrokanonikoaren berezko izaera. Hain zuzen, aldaki bat sartzean, multzo osoaren $V_{t}$ bolumena aldatu egingo da, horrek bermatuko baitu sistema txiki bakoitzaren $V$ bolumenak aldaezin iraungo duela. Beraz, multzo zehatz honetako aldaki-energia, multzoak hautemango duen eta $\widehat{p}$ presioak ereduztatuko duen lan mekanikotzat har daiteke: $-\widehat{p}\;V$. Jakina, $p\neq \widehat{p}$, presio bien energiarako ekarpenek ez baitute esangura bera: lehenengoarena sistema txikiei dagokie, eta bigarrenarena multzo osora hedatzen da. Ondorioz, efektu finituak direla eta, sistema txikien kasuan adierazpen desberdinak izango dituzte, eta eskualde termodinamikoan bat etorriko dira.
+
+Segidan, {eq}`xgc` ekuazioa erabiliz, eta lehengo ataleko prozedura jarraituz, espresio hauetara iritsiko gara:
+
+```{math}
+:label: e_small_gc
+\bar{E} = TS - \widehat{p}\;V + \mu \bar{N} \; ,
+```
+
+```{math}
+:label: dE_small_gc
+\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}V + \mu \mathrm{d}\bar{N} \; .
+```
+
+Horiek agerian uzten dute, $p$ eta $\widehat{p}$ presioen arteko desberdintza dela eta, $\bar{E}$ ez dela funtzio Euler-homogeneoa. Jarraian, Legendreren bi transformazio aplikatuz,
+
+```{math}
+:label: pot_gc
+\mathrm{d}(-\widehat{p}\;V) := \mathrm{d}\Psi(T,V,\mu) = -S\mathrm{d}T - p\mathrm{d}V - \bar{N}\mathrm{d}\mu \; .
+```
+
+Bertatik, hitzez azaldutakoa laburbildu ez ezik, beharrezkoa duen adierazgarritasuna emango dioten adierazpenak erdietsiko ditugu:
+
+```{math}
+:label: gc_summ
+\boxed {-\widehat{p} := \frac{-\widehat{p}\;V}{V} \quad \pmb{\neq} \quad -p := \left[\frac{\partial(-\widehat{p}\;V)}{\partial V}\right]_{T,\mu} \quad ; \quad \mathcal{E} = - (\widehat{p} - p)V} \; .
+```
+
+Hala, $\widehat{p}$ __presio integral__ eta $p$ __presio diferentzial__ izendatuko ditugu. Beroriek bereizten dituzten ez-linealtasunaren ondoriozko ekarpen _txikiak_ banatze-potentzialak biltzen ditu.

@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Sarrera &#8212; Nanotermodinamika</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >let toggleHintShow = 'Click to show';</script>
+    <script >let toggleHintHide = 'Click to hide';</script>
+    <script >let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script >const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2" href="nanointro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/portada.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Nanotermodinamika</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 current">
+  <a class="reference internal" href="#">
+   1. Sarrera
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="nanointro.html">
+   2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hill.html">
+   3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="erreferentziak.html">
+   Erreferentziak
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/intro.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>1. Sarrera</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="sarrera">
+<h1>1. Sarrera<a class="headerlink" href="#sarrera" title="Permalink to this headline">¶</a></h1>
+<p>Termodinamika, ezbairik gabe, zientzian hedadura handieneko teoria da gaur-gaurkoz, bere postulatuak alor orotara barreiatzen baitira, atomoen barnetik hasiz eta unibertsora zabalduz. Izan ere, fisika estatistikoa bidelagun duela, zientzialariak naturaren izaera termikoa ulertzeko nahitaezkoak diren hurbilketez eta lanabesez zuzkitzen ditu. Hain zuzen, jakina denez, edozein sistemak erakusten duen portaerak  termodinamikaren oinarrizko bi legeei segitzen die; energiaren kontserbazioari, alde batetik, eta entropiaren etengabeko igoerari, bestetik. Azken puntu horri datxekio, hein handi batean, Einsteinek bere baieztapenean azaltzen duen irmotasuna.</p>
+<p>Era berean, aintzakotzat izan beharrekoa da ezen sistema batean burutzen diren azterketa termodinamikoak bi hurbilketa nagusitan dautzala eskuarki; sistema hori makroskopikotzat eta homogeneotzat hartzean, alegia. Bada, esan beharrekoa da, baldintza horiek dakartzaten mugei eutsita ere, kasu gehientsuetan teoria horrek egundoko arrakasta izan duela, arestian aipatutakoa indartuz.</p>
+<p>Dena dela ere, historikoki izan da hasiera batean tinkoak ziruditen irizpideok kolokan jarri dituen zenbait gertaera. XIX. mende amaieran, esaterako, erreakzio kimikoetan lehen legea hausten zela ohartu ziren. Horren harira, Gibbs-ek 1876an zuzenketa garrantzitsua txertatu zuen, <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak ezaugarritzen duen molekulen gehikuntzaren ondoriozko energiarako ekarpena, preseski <span id="id1">[<a class="reference internal" href="erreferentziak.html#id2" title="R. V. Chamberlin, M. R. Clark, V. Mujica, and G. H. Wolf. An introduction to nanothermodynamics: thermal equilibrium for heterogeneous and finite-sized systems. 2020. doi:10.48550/ARXIV.2007.13031.">CCMW20</a>]</span>. Berorrek, energiaren kontserbazioa berrezartzeaz gain, termodinamikaren eremua handitu egin zuen. XX. mendea heldutakoan, teoria kuantikoaren sorkuntzak eta garapenak sistema are txikiagoen azterketa ahalbidetu zuen. Hori dela eta, faktore eragile berriak azaldu ziren, esate baterako, <em>simetria lokala</em> eta <em>tamaina finituko efektuak</em>. Baina berorien eragina ez zegoen ordura arteko termodinamika klasikoaren bitartez erabat azaltzerik. Adibidez, saiakuntza espektroskopiko batzuetan nanometroen eskalan tenperatura-banaketa heterogeneoak aurkitu dira <span id="id2">[<a class="reference internal" href="erreferentziak.html#id3" title="R. Richert and S. Weinstein. Nonlinear dielectric response and thermodynamic heterogeneity in liquids. Physical Review Letters, 97:095703, 2006. doi:10.1103/PhysRevLett.97.095703.">RW06</a>]</span>. Horrek, zer esanik ez, lege makroskopikoek <span class="math notranslate nohighlight">\(T\)</span> tenperaturari ematen dioten izaera homogeneoa eta intentsiboa zapuzten du.</p>
+<p>Arazo horiei irtenbidea emateko, teoria klasikoari zuzenketak gehitu dizkioten tresnak sortu dira, hala nola fluktuazio-teoremak zein termodinamika estokastikoa, zeintzuek ekarpen eta ospe esanguratsua izan baitute. Baina teoria horiek sistema bero-iturri homogeneo batekin ukipen termikoan egotea eskatzen dute, eta material gehienen kasuan (likidoak, kristalak, polimeroak…) ez da posible azken baldintza hori betearaztea <span id="id3">[<a class="reference internal" href="erreferentziak.html#id4" title="R. V. Chamberlin, Michael R. Clark, Vladimiro Mujica, and George H. Wolf. Multiscale thermodynamics: energy, entropy, and symmetry from atoms to bulk behavior. Symmetry, 2021. doi:10.3390/sym13040721.">CCMW21</a>]</span>.</p>
+<p>Dena den, badago efektu horiei beste ikuspuntu batetik heltzen dien teoria, zeina, tamalez, hain entzutetsua izan ez den. Lan honetan aztergai izango dugun teoria horrek <em>Sistema Txikien Termodinamika</em> du izena, eta <strong>Terrell Leslie Hill</strong> fisikari eta biologoak (1917-2014) garatu zuen 1960. hamarkadaren hasieran.</p>
+<div class="figure align-default" id="hill">
+<a class="reference internal image-reference" href="_images/hill.jpg"><img alt="_images/hill.jpg" src="_images/hill.jpg" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">T. L. Hill</span><a class="headerlink" href="#hill" title="Permalink to this image">¶</a></p>
+</div>
+<p>Hill-ek 1962an <em>Thermodynamics of Small Systems</em> artikulua <span id="id4">[<a class="reference internal" href="erreferentziak.html#id5" title="T. L. Hill. Thermodynamics of Small Systems. The Journal of Chemical Physics, 36(12):3182-3197, 1962. doi:https://doi.org/10.1063/1.1732447.">Hil62</a>]</span>, eta, hortik bi urtera, izen bera daraman liburu-parea <span id="id5">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">Hil64</a>]</span> plazaratu zituen, nanotermodinamikaren oinarri matematikoak zein aplikazioak azalduz.</p>
+<div class="admonition-oharra admonition">
+<p class="admonition-title">Oharra</p>
+<p>Hill-ek ez darabil <em>nanotermodinamika</em> hitza bere lanetan. Izan ere, 1960. hamarkadan oraindik sistema esperimental gutxi batzuen azterketari egokitu zekizkiokeen bere ideiak. Hala, autoreak gerora txertatu zuen termino hori (2000. urtean), bere lanari xarma berezia emango ziolakoan.</p>
+</div>
+<p>Hala ere, urte gutxiren buruan, esparru horretako lana bertan behera utzi, eta biologia molekularrean ikertzeari ekin zion. Zoritxarrez, azken sei hamarkadetan ez da bere lanari jarraipen nabarmena eman dion fisikaririk izan. Edonola ere, aipatu beharrekoa da, 2020az geroztik, Norvegiako NTNU unibertsitateko ikerlari-talde batek <span id="id6">[<a class="reference internal" href="erreferentziak.html#id8" title="S. Kjelstrup et al. Small systems thermodynamics. URL: https://www.researchgate.net/project/Small-systems-thermodynamics (visited on 2022-06-22).">eal</a>]</span> badiharduela Hill-en lana berrabiarazi eta bultzatu nahian, eta, teoria laburbiltzen duen liburua argitaratzeaz gain <span id="id7">[<a class="reference internal" href="erreferentziak.html#id9" title="D. Bedeaux et al. Nanothermodynamics - General Theory, chapter 1-4. PoreLab, Trondheim, Norway, 2020.">eal20</a>]</span>, berori saiakuntzetara eta simulazio molekularretara eraman dutela, emaitza adierazgarriak erdietsiz; adibidez, adsortzioaren kasuan <span id="id8">[<a class="reference internal" href="erreferentziak.html#id10" title="B. A. Strøm, Jianying He, Dick Bedeaux, and Signe Kjelstrup. When thermodynamic properties of adsorbed films depend on size: fundamental theory and case study. Nanomaterials, 2020. doi:10.3390/nano10091691.">SHBK20</a>]</span>, <span id="id9">[<a class="reference internal" href="erreferentziak.html#id11" title="Bjørn A. Strøm, Dick Bedeaux, and Sondre K. Schnell. Adsorption of an ideal gas on a small spherical adsorbent. Nanomaterials, 2021. doi:10.3390/nano11020431.">SBS21</a>]</span>.</p>
+<p>Funtsean, Hill-en teoria termodinamikak sistema aske, heterogeneo eta nahi bezain txikiak zehaztasun handiagoz ezaugarritzea posible egiten duen orokorpena da. Bestela esanda, sistema txikiek baitezpadako dituzten hedapen finituko zuzenketak eta moldaketak eransten dizkie ekuazio klasikoei. Beroriek ezaugarritzeko, aurrerago aurkeztuko dugun potentzial termodinamiko berria sortu zuen. Nolanahi ere, sistemak handituz doazen heinean, ekarpenok ahulduz doaz, eta adierazpen makroskopikoak berreskuratzen dira.</p>
+<p>Ildo horretatik, gradu amaierako lan honen lehenengo zatia (\ref{sarrera} - \ref{nano} atalak) bereziki Termodinamika eta Fisika Estatistikoa irakasgaira dago bideratuta, eta, hain zuzen, lehengo paragrafoan aipatutakoan sakontzea du helburutzat. Azalpen teorikoak aurkeztuz, eta tarteka adibide adierazgarriak sartuz, ikasleak \textit{ohiko} termodinamikatik haratago eramatea, eta nanotermodinamikak sistema txikien azterketan duen eraginaz ohartaraztea da xedea, teoria horren nondik norakoez jabetu daitezen bidenabar. Horiek horrela, euren ikaskuntzan aurrerapauso nabaria egingo dute.</p>
+<p>Hasteko, <a class="reference internal" href="nanointro.html"><span class="doc std std-doc">2</span></a>. zatian zubi-lanetan jardungo dugu, dagoeneko ikasia dugun mekanika estatistikoaren oinarriak gogora ekarri  <span id="id10">[<a class="reference internal" href="erreferentziak.html#id12" title="H. B. Callen. Thermodynamics and an Introduction to Thermostatistics, 2nd Edition, chapter 1-3, 9. Dover Publications, Inc., New York, 1988.">Cal88</a>]</span> <span id="id11">[<a class="reference internal" href="erreferentziak.html#id13" title="Y. Verbin D. J. Amit. Statistical Physics: an Introductory Course, chapter 3-4. World Scientific Publishing Co., Singapore, 1999.">DJA99</a>]</span> <span id="id12">[<a class="reference internal" href="erreferentziak.html#id14" title="R. K. Pathria. Statistical Mechanics, 2nd Edition, chapter 1-4. ELSEVIER, Butterworth-Heinemann, Massachusetts, 1996.">Pat96</a>]</span>, eta berorrek nanotermodinamikarekin duen lotura ezartzeko. Behin ideia nagusiak finkatuz gero, \ref{hillsec}. atalburuan Hill-en  formalismoan sartuko gara <span id="id13">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">Hil64</a>]</span> <span id="id14">[<a class="reference internal" href="erreferentziak.html#id9" title="D. Bedeaux et al. Nanothermodynamics - General Theory, chapter 1-4. PoreLab, Trondheim, Norway, 2020.">eal20</a>]</span>. Hortik abiatuz, \ref{npt}. kapituluan garrantzi handia duen multzo isotermo-isobaroan lehenbiziko adibideak landuko ditugu, eta tamaina finituko ekarpenen ondorio bitxiei hurbiletik erreparatuko diegu. Jarraian, \ref{fase}. gaian etenaldi berezia egingo dugu, sistema txikietako fase-trantsizioak aztertzeko. Teoriarekin amaitzeko, \ref{nano}. atalean ildo nagusira bihurtuko gara. Termodinamikaz haratago doan multzo estatistiko \textit{berria} aurkezteaz bat, bertan adibide bereziak berraztertuko ditugu, esangura handiko emaitzak erdietsiz. Amaitzeko, \ref{ad_gi}. atalean adibide mardulagoa aztertuko dugu, <span id="id15">[<a class="reference internal" href="erreferentziak.html#id11" title="Bjørn A. Strøm, Dick Bedeaux, and Sondre K. Schnell. Adsorption of an ideal gas on a small spherical adsorbent. Nanomaterials, 2021. doi:10.3390/nano11020431.">SBS21</a>]</span> artikuluari jarraikiz. Berori Hill-en teoriaren egungo erabilgarritasunaren adierazle garbia da, eta, zalantza izpirik gabe, 1960. hamarkadaz haratago heltzen ari denaren seinale.</p>
+<p>Bada, luzamendutan ibili barik, \textit{ohiko} termodinamikatik nanotermodinamikara eramango gaituen zubia gurutzatzeari ekingo diogu. Honako hauek dira jorratuko ditugun gaiak:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="nanointro.html">2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanointro.html#nanotermodinamikara-sarrera">Nanotermodinamikara sarrera</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hill.html">3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hill.html#sistema-txikien-termodinamika">Sistema Txikien Termodinamika</a></li>
+<li class="toctree-l1"><a class="reference internal" href="erreferentziak.html">Erreferentziak</a></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="nanointro.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">2</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mikel Garitano Telleria<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

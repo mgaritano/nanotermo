@@ -4,9 +4,10 @@
 # (myst-content/math)=
 # #2. Nanotermodinamikara sarrera
 # 
-# Jupyter Book uses [MathJax](http://docs.mathjax.org/) for typesetting math in your HTML book build.
-# This allows you to have LaTeX-style mathematics $x=2$ in your online content.
-# This page shows you a few ways to control this.
+# Mekanika estatistikoak esku artean dugun sistemaren fisika bere osagai mikroskopikoen dinamikaren bidez deskribatzea du erronkatzat.
+# Horretarako, sistemaren aldakiz (edo kopiaz) osaturiko multzo estatistikoez baliatzen da.
+# Aldaki-kopurua oso handia bada, denboran geldikortasuna eta oreka estatistikoa bermatzen dira, azterketa termodinamikoa abian jartzeko ezinbesteko baldintzak, egiazki.
+# Berebat, jakin dakigunez, kanpotik ezarritako askatasun-baldintzen arabera, multzoari berari izaera jakina eman diezaiokegu.
 # 
 # By default MathJax version 2 is currently used.
 # If you are using a lot of math, you may want to try using version 3, which claims to improve load speeds by 60 - 80%:

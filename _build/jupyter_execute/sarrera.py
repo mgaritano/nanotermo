@@ -5,7 +5,7 @@
 # #2. Nanotermodinamikara sarrera
 # 
 # Jupyter Book uses [MathJax](http://docs.mathjax.org/) for typesetting math in your HTML book build.
-# This allows you to have LaTeX-style mathematics in your online content.
+# This allows you to have LaTeX-style mathematics $x=2$ in your online content.
 # This page shows you a few ways to control this.
 # 
 # By default MathJax version 2 is currently used.
@@ -74,12 +74,6 @@
 # a_2=b_2+c_2-d_2+e_2
 # \end{equation}
 # 
-# \begin{align}
-# a_{11}& =b_{11}&
-#   a_{12}& =b_{12}\\
-# a_{21}& =b_{21}&
-#   a_{22}& =b_{22}+c_{22}
-# \end{align}
 # 
 # :::{seealso}
 # The MyST guides to [dollar math syntax](myst-parser:syntax/math), [LaTeX math syntax](myst-parser:syntax/amsmath), and [how MyST-Parser works with MathJax](myst-parser:syntax/mathjax).

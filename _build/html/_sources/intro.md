@@ -20,7 +20,7 @@ T. L. Hill
 
 Hill-ek 1962an _Thermodynamics of Small Systems_ artikulua {cite}`hill_art`, eta, hortik bi urtera, izen bera daraman liburu-parea {cite}`hill` plazaratu zituen, nanotermodinamikaren oinarri matematikoak zein aplikazioak azalduz.
 
-```{note}
+```{admonition} Oharra
 Hill-ek ez darabil _nanotermodinamika_ hitza bere lanetan. Izan ere, 1960. hamarkadan oraindik sistema esperimental gutxi batzuen azterketari egokitu zekizkiokeen bere ideiak. Hala, autoreak gerora txertatu zuen termino hori (2000. urtean), bere lanari xarma berezia emango ziolakoan.
 ```
  Hala ere, urte gutxiren buruan, esparru horretako lana bertan behera utzi, eta biologia molekularrean ikertzeari ekin zion. Zoritxarrez, azken sei hamarkadetan ez da bere lanari jarraipen nabarmena eman dion fisikaririk izan. Edonola ere, aipatu beharrekoa da, 2020az geroztik, Norvegiako NTNU unibertsitateko ikerlari-talde batek {cite}`noruegos` badiharduela Hill-en lana berrabiarazi eta bultzatu nahian, eta, teoria laburbiltzen duen liburua argitaratzeaz gain {cite}`nano`, berori saiakuntzetara eta simulazio molekularretara eraman dutela, emaitza adierazgarriak erdietsiz; adibidez, adsortzioaren kasuan {cite}`ads_t`, {cite}`ads`.

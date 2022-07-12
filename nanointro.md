@@ -70,4 +70,6 @@ Efektu horiek guztiek mundu makroskopikoan behatzen ez den ondorio batera garama
 
 Hori da, erabat esateko, Hill-en teoriaren muina. Hurrengo atalean, berori aurkeztu ez ezik, erlazio termodinamikoei zer-nolako eraldaketak dakarzkien aztertzeari ekingo diogu.
 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+\begin{equation}
+ x = {-b \pm \sqrt{b^2-4ac} \over 2a} 
+\end{equation}

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3. Hill-en teoria &#8212; Nanotermodinamika</title>
+    <title>Erreferentziak &#8212; Nanotermodinamika</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,8 +53,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="4. Multzo isotermo-isobaroa" href="tpn.html" />
-    <link rel="prev" title="Ekuazioekin frogak" href="sarrera.html" />
+    <link rel="prev" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -104,8 +103,8 @@ const thebe_selector_output = ".output, .cell_output"
    Ekuazioekin frogak
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="hill.html">
    3. Hill-en teoria
   </a>
  </li>
@@ -117,6 +116,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="markdown-notebooks.html">
    Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Erreferentziak
   </a>
  </li>
 </ul>
@@ -160,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/hill.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/erreferentziak.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -180,7 +184,7 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fhill.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ferreferentziak.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -201,24 +205,6 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-myst">
-   What is MyST?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sample-roles-and-directivs">
-   Sample Roles and Directivs
-  </a>
- </li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -226,64 +212,46 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>3. Hill-en teoria</h1>
+                <h1>Erreferentziak</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-myst">
-   What is MyST?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sample-roles-and-directivs">
-   Sample Roles and Directivs
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="hill-en-teoria">
-<h1>3. Hill-en teoria<a class="headerlink" href="#hill-en-teoria" title="Permalink to this headline">¶</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<div class="section" id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Permalink to this headline">¶</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
-</div>
-<div class="section" id="sample-roles-and-directivs">
-<h2>Sample Roles and Directivs<a class="headerlink" href="#sample-roles-and-directivs" title="Permalink to this headline">¶</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
-</div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <a class="reference internal" href="markdown-notebooks.html"><span class="doc">Notebooks with MyST Markdown</span></a>.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="erreferentziak">
+<h1>Erreferentziak<a class="headerlink" href="#erreferentziak" title="Permalink to this headline">¶</a></h1>
+<div class="docutils container" id="id1">
+<dl class="citation">
+<dt class="label" id="id2"><span class="brackets">CCMW20</span></dt>
+<dd><p>R. V. Chamberlin, M. R. Clark, V. Mujica, and G. H. Wolf. An introduction to nanothermodynamics: thermal equilibrium for heterogeneous and finite-sized systems. 2020. <a class="reference external" href="https://doi.org/10.48550/ARXIV.2007.13031">doi:10.48550/ARXIV.2007.13031</a>.</p>
+</dd>
+<dt class="label" id="id4"><span class="brackets">CCMW21</span></dt>
+<dd><p>R. V. Chamberlin, Michael R. Clark, Vladimiro Mujica, and George H. Wolf. Multiscale thermodynamics: energy, entropy, and symmetry from atoms to bulk behavior. <em>Symmetry</em>, 2021. <a class="reference external" href="https://doi.org/10.3390/sym13040721">doi:10.3390/sym13040721</a>.</p>
+</dd>
+<dt class="label" id="id9"><span class="brackets">eal20</span></dt>
+<dd><p>D. Bedeaux et al. <em>Nanothermodynamics - General Theory</em>, chapter 1-4. PoreLab, Trondheim, Norway, 2020.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets">eal</span></dt>
+<dd><p>S. Kjelstrup et al. Small systems thermodynamics. URL: <a class="reference external" href="https://www.researchgate.net/project/Small-systems-thermodynamics">https://www.researchgate.net/project/Small-systems-thermodynamics</a> (visited on 2022-06-22).</p>
+</dd>
+<dt class="label" id="id5"><span class="brackets">Hil62</span></dt>
+<dd><p>T. L. Hill. Thermodynamics of Small Systems. <em>The Journal of Chemical Physics</em>, 36(12):3182–3197, 1962. <a class="reference external" href="https://doi.org/https://doi.org/10.1063/1.1732447">doi:https://doi.org/10.1063/1.1732447</a>.</p>
+</dd>
+<dt class="label" id="id3"><span class="brackets">RW06</span></dt>
+<dd><p>R. Richert and S. Weinstein. Nonlinear dielectric response and thermodynamic heterogeneity in liquids. <em>Physical Review Letters</em>, 97:095703, 2006. <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.97.095703">doi:10.1103/PhysRevLett.97.095703</a>.</p>
+</dd>
+<dt class="label" id="id10"><span class="brackets">SHBK20</span></dt>
+<dd><p>B. A. Strøm, Jianying He, Dick Bedeaux, and Signe Kjelstrup. When thermodynamic properties of adsorbed films depend on size: fundamental theory and case study. <em>Nanomaterials</em>, 2020. <a class="reference external" href="https://doi.org/10.3390/nano10091691">doi:10.3390/nano10091691</a>.</p>
+</dd>
+<dt class="label" id="id11"><span class="brackets">SBS21</span></dt>
+<dd><p>Bjørn A. Strøm, Dick Bedeaux, and Sondre K. Schnell. Adsorption of an ideal gas on a small spherical adsorbent. <em>Nanomaterials</em>, 2021. <a class="reference external" href="https://doi.org/10.3390/nano11020431">doi:10.3390/nano11020431</a>.</p>
+</dd>
+</dl>
 </div>
 </div>
 
@@ -312,19 +280,12 @@ that is being called.</p>
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="sarrera.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="markdown-notebooks.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Ekuazioekin frogak</p>
+            <p class="prev-next-title">Notebooks with MyST Markdown</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="tpn.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">4. Multzo isotermo-isobaroa</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             

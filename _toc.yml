@@ -5,8 +5,4 @@ format: jb-book
 root: intro
 chapters:
 - file: nanointro
-- file: sarrera
-- file: hill
-- file: tpn
-- file: notebooks
-- file: markdown-notebooks
+- file: erreferentziak

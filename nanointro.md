@@ -1,4 +1,7 @@
-# 2. Nanotermodinamikara sarrera
+(nanointro)=
+## 2
+
+## Nanotermodinamikara sarrera
 
 Mekanika estatistikoak esku artean dugun sistemaren fisika bere osagai mikroskopikoen dinamikaren bidez deskribatzea du erronkatzat; horretarako, sistemaren aldakiz (edo kopiaz) osaturiko multzo estatistikoez baliatzen da.  Aldaki-kopurua oso handia bada, denboran geldikortasuna eta oreka estatistikoa bermatzen dira, azterketa termodinamikoa abian jartzeko ezinbesteko baldintzak, egiazki. Berebat, jakin dakigunez, kanpotik ezarritako askatasun-baldintzen arabera, multzoari berari izaera jakina eman diezaiokegu.
 

@@ -1,15 +1,14 @@
 (hillsec)=
-## 3
-
 ## Sistema Txikien Termodinamika
 
-###  3.1 Hill-en teoria
+(hillteo)=
+###  Hill-en teoria
 
 Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua, sistema horren $\mathcal{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero ($\mathcal{N}\rightarrow \infty$), sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
 Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, termodinamika klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.
 
 ```{admonition} Oharra
- Hill-en teoriak ere __hipotesi ergodikoari__ deutso: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, ultzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
+ Hill-en teoriak ere __hipotesi ergodikoari__ deutso: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, multzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
 
 ```
 
@@ -39,7 +38,7 @@ Hurrengo urratsa, {eq}`hill-gibbs` ekuaziotik barne-energiaren adierazpena erdie
 \small E_{t} \left(=\int \mathrm{d}E_{t} = T \int \mathrm{d}S_{t} - p \int \mathrm{d}V_{t} + \mu \int \mathrm{d}N_{t} + \mathcal{E} \int \mathrm{d}\mathcal{N}\right) = TS_{t} - pV_{t} + \mu N_{t} + \mathcal{E}\mathcal{N} \; .
 ```
 
-Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: _Euler-homogeneotasuna_ (ikus \ref{a} eranskina). Hain zuzen, $E_{t}, S_{t}, V_{t}, N_{t}$ eta $\mathcal{N}$ lehen ordenako funtzio Euler-homogeneoak dira $V$ zein $N$ aldagaiekiko. Are gehiago, tenperatura, presioa eta partikula-kopurua aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik $(T, p, \mu,\mathcal{E})$ sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.
+Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: _Euler-homogeneotasuna_ (ikus [](euler) eranskina). Hain zuzen, $E_{t}, S_{t}, V_{t}, N_{t}$ eta $\mathcal{N}$ lehen ordenako funtzio Euler-homogeneoak dira $V$ zein $N$ aldagaiekiko. Are gehiago, tenperatura, presioa eta partikula-kopurua aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik $(T, p, \mu,\mathcal{E})$ sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.
 
 Lehengo hariari ekinez, sistema txiki baten ezaugarriak ondorioztatzea da helburua, beroriek multzo osoaren funtzioen aldaki-kopuruarekiko batez bestekoak bailiran adieraziz. Beraz, $\bar{E} \equiv E_{t}/\mathcal{N}$; $S \equiv S_{t}/\mathcal{N}$; $\bar{V} \equiv V_{t}/\mathcal{N}$; $\bar{N} \equiv N_{t}/\mathcal{N}$ definituz, multzoaren azpisistema bakarrak ekuazio honi segituko lioke:
 
@@ -75,12 +74,12 @@ Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`
 Ikusten dugunez, termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kualitatiboki aipatutako kontzeptuei azalpen mardulagoak eta landuagoak eman dizkiegu. Horrek sailkapen-irizpide zorrotza eraikitzea ahalbidetzen du: _Sistema bat txikia, da baldin eta bere banatze-potentziala finitua eta bazterrezina bada_.
 
 
-Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\bar{E}, S, \bar{V}$ eta $\bar{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathcal{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitatza (ikus \ref{b} eranskina).
+Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\bar{E}, S, \bar{V}$ eta $\bar{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathcal{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitatza (ikus [](entropy) eranskina).
 
-Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen \ref{npt}., \ref{fase}. eta \ref{nano}. atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
+Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
 
 
-### 3.2 Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
+### Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
 
 Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartutakoan multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.
 Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, eta ez beste ezerk, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  $E, V$ eta $N$ finko mantentzea galarazten baitu. Ondorioz, sistema txikiei $(T, p, \mu)$ aldagaiak esleitu behar izan dizkiegu nahitaez.

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4 &#8212; Nanotermodinamika</title>
+    <title>Multzo isotermo-isobaroa: \((T,p,N)\) ingurune-aldagaiak &#8212; NANOTERMODINAMIKA</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -55,8 +55,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Erreferentziak" href="erreferentziak.html" />
-    <link rel="prev" title="3" href="hill.html" />
+    <link rel="next" title="Sistema txikietako fase-trantsizioak" href="fase.html" />
+    <link rel="prev" title="Sistema Txikien Termodinamika" href="hill.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -85,7 +85,7 @@ const thebe_selector_output = ".output, .cell_output"
       <img src="_static/portada.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">Nanotermodinamika</h1>
+      <h1 class="site-logo" id="site-title">NANOTERMODINAMIKA</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -96,24 +96,47 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   1. Sarrera
+   Sarrera
   </a>
  </li>
 </ul>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="nanointro.html">
-   2
+   Nanotermodinamikara sarrera
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="hill.html">
-   3
+   Sistema Txikien Termodinamika
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   4
+   Multzo isotermo-isobaroa:
+   <span class="math notranslate nohighlight">
+    \((T,p,N)\)
+   </span>
+   ingurune-aldagaiak
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fase.html">
+   Sistema txikietako fase-trantsizioak
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="tpmu.html">
+   Multzo nanokanonikoa:
+   <span class="math notranslate nohighlight">
+    \((T,p,\mu)\)
+   </span>
+   ingurune-aldagaiak
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="adsorbent.html">
+   Gas ideala eta adsorbatzaile esferiko txikia
   </a>
  </li>
  <li class="toctree-l1">
@@ -208,33 +231,22 @@ const thebe_selector_output = ".output, .cell_output"
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzoaren-azterketa">
+   Multzoaren azterketa
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
-   Multzo isotermo-isobaroa:
-   <span class="math notranslate nohighlight">
-    \((T,p,N)\)
-   </span>
-   ingurune-aldagaiak
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#multzoaren-azterketa">
-     4.1 Multzoaren azterketa
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ariketa">
+     Ariketa
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#ariketa">
-       Ariketa
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-helize-haril-trantsizioa">
+   Adibidea: helize-haril trantsizioa
+  </a>
  </li>
 </ul>
 
@@ -246,7 +258,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>4</h1>
+                <h1>Multzo isotermo-isobaroa: (T,p,N) ingurune-aldagaiak</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -256,33 +268,22 @@ const thebe_selector_output = ".output, .cell_output"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzoaren-azterketa">
+   Multzoaren azterketa
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
-   Multzo isotermo-isobaroa:
-   <span class="math notranslate nohighlight">
-    \((T,p,N)\)
-   </span>
-   ingurune-aldagaiak
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#multzoaren-azterketa">
-     4.1 Multzoaren azterketa
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ariketa">
+     Ariketa
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#ariketa">
-       Ariketa
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-helize-haril-trantsizioa">
+   Adibidea: helize-haril trantsizioa
+  </a>
  </li>
 </ul>
 
@@ -293,16 +294,13 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  <div class="section" id="id1">
-<h1>4<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
+  <div class="section" id="multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak">
 <h1>Multzo isotermo-isobaroa: <span class="math notranslate nohighlight">\((T,p,N)\)</span> ingurune-aldagaiak<a class="headerlink" href="#multzo-isotermo-isobaroa-t-p-n-ingurune-aldagaiak" title="Permalink to this headline">¶</a></h1>
-<p>Kapitulu honen fisikari heldu baino lehen, honako honi erreparatu behar diogu: \ref{nano}. atalean ikusiko dugunez, multzo nanokanonikorako <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> trantsizioa <span class="math notranslate nohighlight">\(Q(T,V,N)\)</span> partizio-funtzio kanonikotik abiatzen dugu normalean, Legendreren transformazioen laguntzaz. Kontua da tarteko multzotzat makrokanonikoa <span class="math notranslate nohighlight">\((T,V,\mu)\)</span> hautatuz gero, zenbaitetan bidea malkartsua gertatuko zaigula. Bada, bolumenean barreneko integrala barik <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruan zeharreko batukaria kalkulatzeak lana arinduko digu.
-Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohighlight">\((T,p,N)\)</span> barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez <span class="math notranslate nohighlight">\(T\)</span> eta <span class="math notranslate nohighlight">\(p\)</span> finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, \ref{npt_ex} azpiatalean lan honetako lehenbiziko adibideari helduko diogu, hurbilketa bereziekin bada ere.</p>
+<p>Kapitulu honen fisikari heldu baino lehen, honako honi erreparatu behar diogu: <a class="reference internal" href="tpmu.html"><span class="doc std std-doc">Multzo nanokanonikoa: (T,p,\mu) ingurune-aldagaiak</span></a> atalean ikusiko dugunez, multzo nanokanonikorako <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> trantsizioa <span class="math notranslate nohighlight">\(Q(T,V,N)\)</span> partizio-funtzio kanonikotik abiatzen dugu normalean, Legendreren transformazioen laguntzaz. Kontua da tarteko multzotzat makrokanonikoa <span class="math notranslate nohighlight">\((T,V,\mu)\)</span> hautatuz gero, zenbaitetan bidea malkartsua gertatuko zaigula. Bada, bolumenean barreneko integrala barik <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruan zeharreko batukaria kalkulatzeak lana arinduko digu.
+Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohighlight">\((T,p,N)\)</span> barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez <span class="math notranslate nohighlight">\(T\)</span> eta <span class="math notranslate nohighlight">\(p\)</span> finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, <a class="reference internal" href="#helix-coil"><span class="std std-ref">Adibidea: helize-haril trantsizioa</span></a> azpiatalean lan honetako lehenbiziko adibideari helduko diogu, hurbilketa bereziekin bada ere.</p>
 <p>Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du.</p>
 <div class="section" id="multzoaren-azterketa">
-<h2>4.1 Multzoaren azterketa<a class="headerlink" href="#multzoaren-azterketa" title="Permalink to this headline">¶</a></h2>
+<h2>Multzoaren azterketa<a class="headerlink" href="#multzoaren-azterketa" title="Permalink to this headline">¶</a></h2>
 <p>Kontrol-aldagaitzat <span class="math notranslate nohighlight">\((T,p,N)\)</span> dituzten sistema txikiek <span class="math notranslate nohighlight">\(\bar{E}=E_{t}/\mathcal{N}\)</span>, <span class="math notranslate nohighlight">\(\bar{V}=V_{t}/\mathcal{N}\)</span> eta <span class="math notranslate nohighlight">\(N=N_{t}/\mathcal{N}\)</span> aldagai estentsiboak izango dituzte.</p>
 <div class="section" id="ariketa">
 <h3>Ariketa<a class="headerlink" href="#ariketa" title="Permalink to this headline">¶</a></h3>
@@ -363,7 +361,30 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
 \end{split}\]</div>
 </div>
-</details></div>
+</details><p>Ariketa horretako <span class="math notranslate nohighlight">\((c)\)</span> atalean, sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa erakusten du: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
+<div class="math notranslate nohighlight" id="equation-dmuhat">
+<span class="eqno">(15)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}\]</div>
+<p>Interesgarria litzateke <span class="math notranslate nohighlight">\(\mathrm{d}\mu\)</span> potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,</p>
+<div class="math notranslate nohighlight">
+\[\left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; .\]</div>
+<p>Horrenbestez,</p>
+<div class="math notranslate nohighlight" id="equation-dmu">
+<span class="eqno">(16)<a class="headerlink" href="#equation-dmu" title="Permalink to this equation">¶</a></span>\[\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathcal{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .\]</div>
+<p>Ikus daitekeen legez, <a class="reference internal" href="#equation-dmuhat">(15)</a> eta <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek <span class="math notranslate nohighlight">\(N\)</span> aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioko azkenengo gaia <span class="math notranslate nohighlight">\(\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N\)</span> dugu, zeina ez baita nulua. Horrek <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, <span class="math notranslate nohighlight">\(\mu = \mu(T,p,N)\)</span> erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, <a class="reference internal" href="nanointro.html#equation-gibbs-duhem">(3)</a> erlazioarekin (Gibbs-Duhem).</p>
+<p>Horiez gain, entalpia <span class="math notranslate nohighlight">\(H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS\)</span> dela aintzat hartuz,</p>
+<div class="math notranslate nohighlight" id="equation-muhat">
+<span class="eqno">(17)<a class="headerlink" href="#equation-muhat" title="Permalink to this equation">¶</a></span>\[\widehat{\mu} = \frac{H}{N} - T\frac{S}{N} \; ,\]</div>
+<p>eta</p>
+<div class="math notranslate nohighlight" id="equation-mu">
+<span class="eqno">(18)<a class="headerlink" href="#equation-mu" title="Permalink to this equation">¶</a></span>\[\mu := \left(\frac{\partial F}{\partial N}\right)_{T,p} = \left(\frac{\partial H}{\partial N}\right)_{T,p} - T\left(\frac{\partial S}{\partial N}\right)_{T,p} \; .\]</div>
+<p>Bertatik honakoa lor daiteke:</p>
+<div class="math notranslate nohighlight" id="equation-h">
+<span class="eqno">(19)<a class="headerlink" href="#equation-h" title="Permalink to this equation">¶</a></span>\[\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .\]</div>
+<p>Jarraian datorkigun <a class="reference internal" href="#helix-coil"><span class="std std-ref">Adibidea: helize-haril trantsizioa</span></a> adibidean <a class="reference internal" href="#equation-h">(19)</a> ekuazio-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen eitea behatuko dugu.</p>
+</div>
+</div>
+<div class="section" id="adibidea-helize-haril-trantsizioa">
+<span id="helix-coil"></span><h2>Adibidea: helize-haril trantsizioa<a class="headerlink" href="#adibidea-helize-haril-trantsizioa" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -396,13 +417,13 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">3</p>
+            <p class="prev-next-title">Sistema Txikien Termodinamika</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="erreferentziak.html" title="next page">
+    <a class='right-next' id="next-link" href="fase.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Erreferentziak</p>
+        <p class="prev-next-title">Sistema txikietako fase-trantsizioak</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

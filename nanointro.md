@@ -45,6 +45,8 @@ adierazpenera iritsiko gara. Diferentzial totala hartuz,
 \mathrm{d}E = T\mathrm{d}S + S\mathrm{d}T -p\mathrm{d}V - V\mathrm{d}p + \mu \mathrm{d}N + N \mathrm{d}\mu \; ,
 ```
 
+$$ \mathrm{d}E = T\mathrm{d}S + S\mathrm{d}T -p\mathrm{d}V - V\mathrm{d}p + \mu \mathrm{d}N + N \mathrm{d}\mu $$
+
 eta berori  {eq}`gibbs` ekuazioarekin berdinduz gero, Gibbs-Duhem erlazioa lortuko dugu:
 
 ```{math}

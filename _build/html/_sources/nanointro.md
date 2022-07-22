@@ -28,33 +28,26 @@ Arestian esandakoari helduz, horiek dira termodinamikako liburuetan azaltzen dir
 
 Baina kontua zera da: oraingoz azaldu zaizkigun multzo estatistiko guztietan aldagai estentsibo bat, gutxienez, inguruneak zehazten du ($E, V$ edota $N$). Are gehiago, __Gibbs-Duhem__ erlazioari jarraituz, badirudi sistema makroskopikoari ezin dakizkiokeela hiru aldagai intentsiboak aldi berean, bakoitza bere kabuz, finkatu. Hori argiroago ikusteko, sistema makroskopiko baten barne-energiaren aldakuntzak betetzen duen __Gibbs-en ekuazioa__ idatziko dugu:
 
-```{math}
-:label: gibbs
+$$
 \mathrm{d}E(S,V,N) = T\mathrm{d}S - p\mathrm{d}V + \mu \mathrm{d}N \; .
-```
+$$ (gibbs)
 
 Integratuz,
 
-```{math}
-:label: E
+$$
 \mathrm{d}E(S,V,N) = TS - pV + \mu N
-```
+$$ (E)
 adierazpenera iritsiko gara. Diferentzial totala hartuz,
-
-```{math}
-\mathrm{d}E = T\mathrm{d}S + S\mathrm{d}T -p\mathrm{d}V - V\mathrm{d}p + \mu \mathrm{d}N + N \mathrm{d}\mu \; ,
-```
 
 $$
 \mathrm{d}E = T\mathrm{d}S + S\mathrm{d}T -p\mathrm{d}V - V\mathrm{d}p + \mu \mathrm{d}N + N \mathrm{d}\mu
-$$ (dE_berria)
+$$
 
 eta berori  {eq}`gibbs` ekuazioarekin berdinduz gero, Gibbs-Duhem erlazioa lortuko dugu:
 
-```{math}
-:label: gibbs-duhem
+$$
 \boxed{N\mathrm{d}\mu = -S\mathrm{d}T + V\mathrm{d}p} \; .
-```
+$$ (gibbs-duhem)
 
 Gaineko {eq}`gibbs-duhem` ekuazioak aurrez esandakoa berresten du, muga garrantzitsua ezarriz: $\mu$ potentzial kimikoak, $T$ tenperaturak eta $p$ presioak ez dute, hirurek batera, aske izaterik. Horietatik bi aukeratuz gero, hirugarrena berorien funtziopean zehaztuta geratuko da. Bada, orain arte azaldutako ideiak sendotasun handikoak eta urraezinak dela pentsa genezake. Aztergai dugun irudi-sortan badago, alabaina, __aurreko hori inola ere iradokitzen ez duen__, eta oraindik aurkeztu ez dugun multzo estatistikoa.
 

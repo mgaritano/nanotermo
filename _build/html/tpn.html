@@ -314,11 +314,13 @@ Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohi
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
 <div class="math notranslate nohighlight">
-\[\begin{split}\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}\;
-\\
-\\
+\[
+\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
 X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
-\end{split}\]</div>
+\]</div>
 </div>
 </details><details class="sphinx-bs dropdown card mb-3">
 <summary class="summary-title card-header">
@@ -338,10 +340,13 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
 <div class="math notranslate nohighlight">
-\[\begin{split}\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
-\\
-\\
-\bar{E} = TS - p\bar{V} + \widehat{\mu}N\end{split}\]</div>
+\[
+\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\bar{E} = TS - p\bar{V} + \widehat{\mu}N
+\]</div>
 </div>
 </details><p><span class="math notranslate nohighlight">\((c)\)</span> Gibbs-en energia askea (<span class="math notranslate nohighlight">\(F(T,p,N)\)</span>). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.</p>
 <details class="sphinx-bs dropdown card mb-3">
@@ -352,35 +357,50 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
 <div class="math notranslate nohighlight">
-\[\begin{split}F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
-\\
-\\
+\[
+F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
+\]</div>
+<div class="math notranslate nohighlight">
+\[
 \mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
-\\
-\\
+\]</div>
+<div class="math notranslate nohighlight">
+\[
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
-\end{split}\]</div>
+\]</div>
 </div>
 </details><p>Ariketa horretako <span class="math notranslate nohighlight">\((c)\)</span> atalean, sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa erakusten du: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
 <div class="math notranslate nohighlight" id="equation-dmuhat">
-<span class="eqno">(16)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}\]</div>
+<span class="eqno">(15)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[
+\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
+\]</div>
 <p>Interesgarria litzateke <span class="math notranslate nohighlight">\(\mathrm{d}\mu\)</span> potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,</p>
 <div class="math notranslate nohighlight">
-\[\left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; .\]</div>
+\[
+\left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; .
+\]</div>
 <p>Horrenbestez,</p>
 <div class="math notranslate nohighlight" id="equation-dmu">
-<span class="eqno">(17)<a class="headerlink" href="#equation-dmu" title="Permalink to this equation">¶</a></span>\[\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathcal{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .\]</div>
-<p>Ikus daitekeen legez, <a class="reference internal" href="#equation-dmuhat">(16)</a> eta <a class="reference internal" href="#equation-dmu">(17)</a> ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek <span class="math notranslate nohighlight">\(N\)</span> aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, <a class="reference internal" href="#equation-dmu">(17)</a> ekuazioko azkenengo gaia <span class="math notranslate nohighlight">\(\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N\)</span> dugu, zeina ez baita nulua. Horrek <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, <span class="math notranslate nohighlight">\(\mu = \mu(T,p,N)\)</span> erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, <a class="reference internal" href="nanointro.html#equation-gibbs-duhem">(4)</a> erlazioarekin (Gibbs-Duhem).</p>
+<span class="eqno">(16)<a class="headerlink" href="#equation-dmu" title="Permalink to this equation">¶</a></span>\[
+\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathcal{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
+\]</div>
+<p>Ikus daitekeen legez, <a class="reference internal" href="#equation-dmuhat">(15)</a> eta <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek <span class="math notranslate nohighlight">\(N\)</span> aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioko azkenengo gaia <span class="math notranslate nohighlight">\(\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N\)</span> dugu, zeina ez baita nulua. Horrek <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, <span class="math notranslate nohighlight">\(\mu = \mu(T,p,N)\)</span> erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, <a class="reference internal" href="nanointro.html#equation-gibbs-duhem">(3)</a> erlazioarekin (Gibbs-Duhem).</p>
 <p>Horiez gain, entalpia <span class="math notranslate nohighlight">\(H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS\)</span> dela aintzat hartuz,</p>
 <div class="math notranslate nohighlight" id="equation-muhat">
-<span class="eqno">(18)<a class="headerlink" href="#equation-muhat" title="Permalink to this equation">¶</a></span>\[\widehat{\mu} = \frac{H}{N} - T\frac{S}{N} \; ,\]</div>
+<span class="eqno">(17)<a class="headerlink" href="#equation-muhat" title="Permalink to this equation">¶</a></span>\[
+\widehat{\mu} = \frac{H}{N} - T\frac{S}{N} \; ,
+\]</div>
 <p>eta</p>
 <div class="math notranslate nohighlight" id="equation-mu">
-<span class="eqno">(19)<a class="headerlink" href="#equation-mu" title="Permalink to this equation">¶</a></span>\[\mu := \left(\frac{\partial F}{\partial N}\right)_{T,p} = \left(\frac{\partial H}{\partial N}\right)_{T,p} - T\left(\frac{\partial S}{\partial N}\right)_{T,p} \; .\]</div>
+<span class="eqno">(18)<a class="headerlink" href="#equation-mu" title="Permalink to this equation">¶</a></span>\[
+\mu := \left(\frac{\partial F}{\partial N}\right)_{T,p} = \left(\frac{\partial H}{\partial N}\right)_{T,p} - T\left(\frac{\partial S}{\partial N}\right)_{T,p} \; .
+\]</div>
 <p>Bertatik honakoa lor daiteke:</p>
 <div class="math notranslate nohighlight" id="equation-h">
-<span class="eqno">(20)<a class="headerlink" href="#equation-h" title="Permalink to this equation">¶</a></span>\[\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .\]</div>
-<p>Jarraian datorkigun <a class="reference internal" href="#helix-coil"><span class="std std-ref">Adibidea: helize-haril trantsizioa</span></a> adibidean <a class="reference internal" href="#equation-h">(20)</a> ekuazio-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen eitea behatuko dugu.</p>
+<span class="eqno">(19)<a class="headerlink" href="#equation-h" title="Permalink to this equation">¶</a></span>\[
+\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .
+\]</div>
+<p>Jarraian datorkigun <a class="reference internal" href="#helix-coil"><span class="std std-ref">Adibidea: helize-haril trantsizioa</span></a> adibidean <a class="reference internal" href="#equation-h">(19)</a> ekuazio-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen eitea behatuko dugu.</p>
 </div>
 </div>
 <div class="section" id="adibidea-helize-haril-trantsizioa">

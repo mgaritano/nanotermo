@@ -248,6 +248,13 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#adibidea-helize-haril-trantsizioa">
    Adibidea: helize-haril trantsizioa
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Ariketa
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -285,6 +292,13 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#adibidea-helize-haril-trantsizioa">
    Adibidea: helize-haril trantsizioa
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Ariketa
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -432,6 +446,48 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
       r_{H}^N &amp; \text{$r&gt;1$ bada.}\Rightarrow N = n_{H}
     \end{cases}  
 \end{split}\]</div>
+<p>Hortik agerikoa da <span class="math notranslate nohighlight">\(r=1\)</span> denean, katean bat-bateko helize-haril <strong>fase-trantsizioa</strong> gertatuko dela (limite termodinamikoan).</p>
+<p>Hurrengo pausoa, <a class="reference internal" href="#equation-d-short">(21)</a> ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbs-en energia askea <span class="math notranslate nohighlight">\(F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta\)</span> dugu.</p>
+<div class="section" id="id2">
+<h3>Ariketa<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><span class="math notranslate nohighlight">\((a)\)</span> Kalkulatu <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> eta <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak, <span class="math notranslate nohighlight">\(F(T,f,N)\)</span> adierazpenaren laguntzaz.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight">
+\[
+\widehat{\mu} := \frac{F}{N} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\mu := \left(\frac{\partial F}{\partial N}\right)_{T,f} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right]
+\]</div>
+</div>
+</details><p><span class="math notranslate nohighlight">\((b)\)</span> Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, <span class="math notranslate nohighlight">\(r = 0,5 ; r = 0,98\)</span> eta <span class="math notranslate nohighlight">\(r=1,05\)</span> balioak erabiliz.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight">
+\[
+\mathcal{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
+\]</div>
+<div class="figure align-default" id="epsilon-tfn">
+<a class="reference internal image-reference" href="_images/epsilon_tfn.PNG"><img alt="_images/epsilon_tfn.PNG" src="_images/epsilon_tfn.PNG" style="height: 300px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, <span class="math notranslate nohighlight">\(r\)</span> erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala (<span class="math notranslate nohighlight">\(r\rightarrow1\)</span>) geroz eta tarte zabalagoa hartuko du, eta <span class="math notranslate nohighlight">\(\mathcal{E}\rightarrow\mathcal{E}_{0} = -k_{\mathrm{B}}T \ln 2\)</span> konstanterantz gerturatuko da.</span><a class="headerlink" href="#epsilon-tfn" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</details><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 

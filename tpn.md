@@ -104,3 +104,28 @@ name: helix-coil
 ---
   “Helize-haril” kateak helize-unitateak ($H$) eta haril-unitateak ($C$) dauzka. Mutur banatan $f$  indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, $N\rightarrow \infty$ hurbilketa asintotikoa ez badarabilgu, katean sistema txikien berezitasunak azaleratuko dira. Oroz gain, beroriek makroskopikoki intentsiboak diren aldagaiei nabarmenki erasango diete.
 ```
+
+Demagun orain haril-unitateak ($C$) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: $C\;H\;H\;H\;C$ ; $C\;C\;H\;H\;H$ ; $H\;H\;H\;C\;C$. Orokortuz, baldintza horrek sistemari $g(n_{H}) = N-n_{H}+1$ endekapena lekarkioke. Jakina, $H$-unitaterik ez balego, $g=1$ izango genuke, sistemak bakarrik $C$-unitateak baileuzkake. $C$- eta $H$-unitateen partizio-funtzio kanonikoak $q_{H}(T)$ eta $q_{C}(T)$ izendatuko ditugu. Beraz, kate osora zabalduz, $Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}$ genuke. Horiek horrela, $\Delta(T,f,N)$ partizio-funtzioa eraikiko dugu:
+
+$$
+\Delta := \sum_{l} Q(T,l,N)e^{fl/k_{\mathrm{B}}T}
+     = \sum_{n_{H}=0}^{N} g(n_{H})q_{C}^{N-n_{H}}q_{H}^{n_{H}}e^{\left[\left(N-n_{H}\right)l_{C} + n_{H}l_{H}\right]f/k_{\mathrm{B}}T} \; .
+$$ (d)
+
+Batukariaren kalkulua saihesteko, eta, batez ere, bertatik eratortzen diren magnitudeen adierazpenak laburbiltzeko, hurbilketa nahiko gordina erabiliko dugu: unitate guztiak soilik $H$ egoeran edo soilik $C$ egoeran egon daitezke. Irudiko adibidean, esaterako, $H\;H\;H\;H\;H$ eta $C\;C\;C\;C\;C$ sortak izan ahalko genituzke. Horrela, bada, batukaritik $n_{H}=0$ eta $n_{H}=N$ gaiak erauziz, eta gai bakoitzaren endekapena aintzakotzat hartuz, hona iritsiko gara:
+
+$$
+\Delta = q_{C}^Ne^{Nl_{C}f/k_{\mathrm{B}}T} + q_{H}^Ne^{Nl_{H}f/k_{\mathrm{B}}T} = r_{C}^N(1 + r^N)\; .
+$$ (d_short)
+
+Ekuazioa $r_{C,H}(T,f) = q_{C,H}(T)\exp(fl_{C,H}/k_{\mathrm{B}}T)$ eta $r=r_{H}/r_{C}$ txertatuz trinkotu dugu. Aipatzekoa da {eq}`d_short` partizio-funtzioak adierazten duen eredu sinplifikatua ez-errealista izanagatik, adibide didaktiko honen xedeari ez diola eragingo.
+
+Ezer baino lehen, azter dezagun partizio-funtzioaren $N\rightarrow \infty$ limitea:
+
+$$
+\Delta(T,f,N) =
+    \begin{cases}
+      r_{C}^N & \text{$r<1$ bada.}\Rightarrow N = n_{C} \\
+      r_{H}^N & \text{$r>1$ bada.}\Rightarrow N = n_{H}
+    \end{cases}  
+$$

@@ -411,6 +411,27 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 <span id="heco"></span><a class="reference internal image-reference" href="_images/helix-coil.PNG"><img alt="_images/helix-coil.PNG" src="_images/helix-coil.PNG" style="height: 200px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">“Helize-haril” kateak helize-unitateak (<span class="math notranslate nohighlight">\(H\)</span>) eta haril-unitateak (<span class="math notranslate nohighlight">\(C\)</span>) dauzka. Mutur banatan <span class="math notranslate nohighlight">\(f\)</span>  indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, <span class="math notranslate nohighlight">\(N\rightarrow \infty\)</span> hurbilketa asintotikoa ez badarabilgu, katean sistema txikien berezitasunak azaleratuko dira. Oroz gain, beroriek makroskopikoki intentsiboak diren aldagaiei nabarmenki erasango diete.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
+<p>Demagun orain haril-unitateak (<span class="math notranslate nohighlight">\(C\)</span>) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: <span class="math notranslate nohighlight">\(C\;H\;H\;H\;C\)</span> ; <span class="math notranslate nohighlight">\(C\;C\;H\;H\;H\)</span> ; <span class="math notranslate nohighlight">\(H\;H\;H\;C\;C\)</span>. Orokortuz, baldintza horrek sistemari <span class="math notranslate nohighlight">\(g(n_{H}) = N-n_{H}+1\)</span> endekapena lekarkioke. Jakina, <span class="math notranslate nohighlight">\(H\)</span>-unitaterik ez balego, <span class="math notranslate nohighlight">\(g=1\)</span> izango genuke, sistemak bakarrik <span class="math notranslate nohighlight">\(C\)</span>-unitateak baileuzkake. <span class="math notranslate nohighlight">\(C\)</span>- eta <span class="math notranslate nohighlight">\(H\)</span>-unitateen partizio-funtzio kanonikoak <span class="math notranslate nohighlight">\(q_{H}(T)\)</span> eta <span class="math notranslate nohighlight">\(q_{C}(T)\)</span> izendatuko ditugu. Beraz, kate osora zabalduz, <span class="math notranslate nohighlight">\(Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}\)</span> genuke. Horiek horrela, <span class="math notranslate nohighlight">\(\Delta(T,f,N)\)</span> partizio-funtzioa eraikiko dugu:</p>
+<div class="math notranslate nohighlight" id="equation-d">
+<span class="eqno">(20)<a class="headerlink" href="#equation-d" title="Permalink to this equation">¶</a></span>\[
+\Delta := \sum_{l} Q(T,l,N)e^{fl/k_{\mathrm{B}}T}
+     = \sum_{n_{H}=0}^{N} g(n_{H})q_{C}^{N-n_{H}}q_{H}^{n_{H}}e^{\left[\left(N-n_{H}\right)l_{C} + n_{H}l_{H}\right]f/k_{\mathrm{B}}T} \; .
+\]</div>
+<p>Batukariaren kalkulua saihesteko, eta, batez ere, bertatik eratortzen diren magnitudeen adierazpenak laburbiltzeko, hurbilketa nahiko gordina erabiliko dugu: unitate guztiak soilik <span class="math notranslate nohighlight">\(H\)</span> egoeran edo soilik <span class="math notranslate nohighlight">\(C\)</span> egoeran egon daitezke. Irudiko adibidean, esaterako, <span class="math notranslate nohighlight">\(H\;H\;H\;H\;H\)</span> eta <span class="math notranslate nohighlight">\(C\;C\;C\;C\;C\)</span> sortak izan ahalko genituzke. Horrela, bada, batukaritik <span class="math notranslate nohighlight">\(n_{H}=0\)</span> eta <span class="math notranslate nohighlight">\(n_{H}=N\)</span> gaiak erauziz, eta gai bakoitzaren endekapena aintzakotzat hartuz, hona iritsiko gara:</p>
+<div class="math notranslate nohighlight" id="equation-d-short">
+<span class="eqno">(21)<a class="headerlink" href="#equation-d-short" title="Permalink to this equation">¶</a></span>\[
+\Delta = q_{C}^Ne^{Nl_{C}f/k_{\mathrm{B}}T} + q_{H}^Ne^{Nl_{H}f/k_{\mathrm{B}}T} = r_{C}^N(1 + r^N)\; .
+\]</div>
+<p>Ekuazioa <span class="math notranslate nohighlight">\(r_{C,H}(T,f) = q_{C,H}(T)\exp(fl_{C,H}/k_{\mathrm{B}}T)\)</span> eta <span class="math notranslate nohighlight">\(r=r_{H}/r_{C}\)</span> txertatuz trinkotu dugu. Aipatzekoa da <a class="reference internal" href="#equation-d-short">(21)</a> partizio-funtzioak adierazten duen eredu sinplifikatua ez-errealista izanagatik, adibide didaktiko honen xedeari ez diola eragingo.</p>
+<p>Ezer baino lehen, azter dezagun partizio-funtzioaren <span class="math notranslate nohighlight">\(N\rightarrow \infty\)</span> limitea:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\Delta(T,f,N) =
+    \begin{cases}
+      r_{C}^N &amp; \text{$r&lt;1$ bada.}\Rightarrow N = n_{C} \\
+      r_{H}^N &amp; \text{$r&gt;1$ bada.}\Rightarrow N = n_{H}
+    \end{cases}  
+\end{split}\]</div>
 </div>
 </div>
 

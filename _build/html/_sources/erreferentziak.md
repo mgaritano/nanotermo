@@ -1,4 +1,5 @@
 # Erreferentziak
 
 ```{bibliography}
+   :style: unsrt
 ```

@@ -1,2 +1,2 @@
 (entropy)=
-## _Entropiaren esangura_
+## **_B_** _Entropiaren esangura_

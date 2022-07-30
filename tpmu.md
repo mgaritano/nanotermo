@@ -1,2 +1,2 @@
 (tpmu)=
-## Multzo nanokanonikoa: $(T,p,\mu)$ ingurune-aldagaiak
+## **6**. Multzo nanokanonikoa: $(T,p,\mu)$ ingurune-aldagaiak

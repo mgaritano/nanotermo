@@ -203,7 +203,7 @@ Fase-trantsizioen gaian murgildutakoan ([5.](fase) atalean) izango dugu [5](nhpl
 (gitpn)=
 ###  **4.3** Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
 
-Bigarren sistemaren azterketa [C](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara.
+Bigarren sistemaren azterketa [C](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan {eq}`qtvngi` zaharrari Legendreren transformazioa aplikatuz.
 
 ```{admonition} Oharra
  $$
@@ -221,7 +221,7 @@ $$
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 $$ (ftpngi)
 
-berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, $\mathcal{E}=0$. Aipatzekoa da multzo kanonikoan $\mathcal{E}>0$ lortu dugula.
+berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, $\mathcal{E}=0$. Aipatzekoa da multzo kanonikoan $\mathcal{E}>0$ lortu dugula (ikus {eq}`epsilon_tvn` ekuazioa).
 
 Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:
 
@@ -229,6 +229,6 @@ $$
 \boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 $$ (stpngi)
 
-Berori beste ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \bar{V}=V$ onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
+Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \bar{V}=V$ onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
 
 Aurrerago, [6](tpmu) atalean, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.

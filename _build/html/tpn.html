@@ -152,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gas%20ideala.html">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -551,7 +590,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <div class="section" id="adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan">
 <span id="gitpn"></span><h2><strong>4.3</strong> Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan<a class="headerlink" href="#adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan" title="Permalink to this headline">¶</a></h2>
-<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref">C</span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara.</p>
+<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref">C</span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan <a class="reference internal" href="gas%20ideala.html#equation-qtvngi">(25)</a> zaharrari Legendreren transformazioa aplikatuz.</p>
 <div class="admonition-oharra admonition">
 <p class="admonition-title">Oharra</p>
 <div class="math notranslate nohighlight">
@@ -568,13 +607,13 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 <span class="eqno">(23)<a class="headerlink" href="#equation-ftpngi" title="Permalink to this equation">¶</a></span>\[
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 \]</div>
-<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula.</p>
+<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula (ikus <a class="reference internal" href="gas%20ideala.html#equation-epsilon-tvn">(29)</a> ekuazioa).</p>
 <p>Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:</p>
 <div class="math notranslate nohighlight" id="equation-stpngi">
 <span class="eqno">(24)<a class="headerlink" href="#equation-stpngi" title="Permalink to this equation">¶</a></span>\[
 \boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 \]</div>
-<p>Berori beste ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz\footnote{Aurrerago eraikiko dugun \ref{pnplotagg} irudiarekin lotutako arrazoibidea aintzat hartu dugu hemen ere.}), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
+<p>Berori <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(28)</a> ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
 <p>Aurrerago, <a class="reference internal" href="tpmu.html#tpmu"><span class="std std-ref">6</span></a> atalean, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.</p>
 </div>
 </div>

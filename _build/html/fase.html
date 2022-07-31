@@ -52,6 +52,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="6. Multzo nanokanonikoa: \((T,p,\mu)\) ingurune-aldagaiak" href="tpmu.html" />
@@ -150,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gas%20ideala.html">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -240,6 +281,19 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#itzulgarritasuna-eta-oreka-baldintzak">
+   Itzulgarritasuna eta oreka-baldintzak
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -252,6 +306,19 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#itzulgarritasuna-eta-oreka-baldintzak">
+   Itzulgarritasuna eta oreka-baldintzak
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -260,6 +327,30 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="section" id="sistema-txikietako-fase-trantsizioak">
 <h1><strong>5</strong>. Sistema txikietako fase-trantsizioak<a class="headerlink" href="#sistema-txikietako-fase-trantsizioak" title="Permalink to this headline">¶</a></h1>
+<p>Aparteko zati honetan, tamaina finituko efektuek bi oreka-egoeren arteko fase-trantsizioaren jokamoldeari dakarzkioten berezitasunen inguruan jardungo dugu.</p>
+<div class="section" id="itzulgarritasuna-eta-oreka-baldintzak">
+<span id="itzul"></span><h2>Itzulgarritasuna eta oreka-baldintzak<a class="headerlink" href="#itzulgarritasuna-eta-oreka-baldintzak" title="Permalink to this headline">¶</a></h2>
+<p>Hill-en teoriari segituz, <span class="math notranslate nohighlight">\(\mathcal{N}(\rightarrow \infty)\)</span> aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta (<span class="math notranslate nohighlight">\(E,V,N\)</span>) sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  <span id="id1">[<a class="reference internal" href="erreferentziak.html#id16" title="T. L. Hill. An Introduction to Statistical Thermodynamics, chapter 2.3. Addison-Wesley, Inc., Massachusetts, 1960.">14</a>]</span>, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote (<span class="math notranslate nohighlight">\(\mathrm{d}S_{t}&gt;0\)</span>), harik eta oreka berrezartzen den arte (<span class="math notranslate nohighlight">\(\mathrm{d}S_{t}=0\)</span>). Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.</p>
+<p>Oro har, prozesu espontaneo bat \ref{esp} irudiaren bidez ereduzta daiteke. Hasiera batean, kanpo-oztopo baten eraginpean dago sistema. Ondorioz, egoera kuantiko posible guztietatik soilik batzuk edukiko du eskuragai: <span class="math notranslate nohighlight">\(\Omega_{i}(E,V,N)\)</span>.
+Kanpo-galarazpen hori kenduz gero, sistemaren egoera aldatu egingo da. Hain zuzen, aldakiek aurrez debekatuta egon diren egoeretara ere sarbidea izango dute; hortaz, bukaeran, <span class="math notranslate nohighlight">\(\Omega_{f}(E,V,N) &gt; \Omega_{i}(E,V,N)\)</span> izango dugu. Aktibazio-energiaren gutxitzearen edo potentzial baten minimizazioaren bidez gauzatu daiteke prozesu hori.
+Hasierako eztabaidaren harira, entropia maximizatzeak energia askea minimizatzea dakar.</p>
+<div class="figure align-default" id="esp">
+<a class="reference internal image-reference" href="_images/esp.PNG"><img alt="_images/esp.PNG" src="_images/esp.PNG" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Prozesu espontaneoaren ereduztapena.  Gasak kutxaren ezkerraldetik alde egitea ekiditen du bereizte-hormak. Amaieran ez dago hormarik, eta, horren eraginez, bolumenaren osotasunera hedatu da gasa, era espontaneoan. Hasieratik bukaerara, entropia igo egin da.</span><a class="headerlink" href="#esp" title="Permalink to this image">¶</a></p>
+</div>
+<p>Entropiak <span class="math notranslate nohighlight">\(S_{t} = \mathcal{N}k_{\mathrm{B}}\ln \Omega\)</span> betetzen duenez, prozesu finitu eta espontaneoa amaitutakoan,</p>
+<div class="math notranslate nohighlight" id="equation-sesp">
+<span class="eqno">(25)<a class="headerlink" href="#equation-sesp" title="Permalink to this equation">¶</a></span>\[
+\Delta S_{t} = S_{f}^{t} - S_{i}^{t} = \mathcal{N}k_{\mathrm{B}}\ln\left(\frac{\Omega_f}{\Omega_i}\right) &gt; 0 \; .
+\]</div>
+<p>Termodinamikaren lege garrantzitsuenetariko baten esangura biltzen du ekuazio horrek. Hain zuzen, aurkako prozesua era espontaneoan jazoko balitz, <span class="math notranslate nohighlight">\(\Delta S_{t} &lt; 0\)</span> izango genuke, eta bigarren printzipioa hautsiko litzateke. Hala eta guztiz ere, <span class="math notranslate nohighlight">\(\mathcal{N} \rightarrow \infty\)</span> onartu dugunez, <strong>multzoan</strong>, alegia, sistema guzti-guztietan,  horrelakorik gertatzeko probabilitatea kasik nulua da, hau da,</p>
+<div class="math notranslate nohighlight" id="equation-probcont">
+<span class="eqno">(26)<a class="headerlink" href="#equation-probcont" title="Permalink to this equation">¶</a></span>\[
+ P_{f \rightarrow i}^{t} := \frac{\Omega_{i}}{\Omega_{f}} = \exp\left(-\frac{\Delta S_{t}}{\mathcal{N}k_{\mathrm{B}}}\right) \rightarrow 0 \; .
+ \]</div>
+<p>Alabaina, <strong>azpisistemetan</strong>, <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> barik <span class="math notranslate nohighlight">\(N\)</span> izango genuke, eta, beraz, <span class="math notranslate nohighlight">\( P_{f\rightarrow i}\propto e^{-N}\)</span>. Bada, <span class="math notranslate nohighlight">\(N\)</span> magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, <span class="math notranslate nohighlight">\(N\)</span> oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen (<span class="math notranslate nohighlight">\(\Delta S &lt; 0\)</span>) aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hill-en teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, <span class="math notranslate nohighlight">\(\Delta S = \Delta S_{t}/\mathcal{N}\)</span>  betetzen dela aintzat hartuz.</p>
+<p>Eztabaida honen harira, <a class="reference internal" href="tpmu.html#tpmu"><span class="std std-ref">6.4</span></a> atalean sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">

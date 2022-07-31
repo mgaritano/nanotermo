@@ -10,4 +10,7 @@ chapters:
 - file: fase
 - file: tpmu
 - file: adsorbent
+- file: euler
+- file: entropy
+- file: gas ideala
 - file: erreferentziak

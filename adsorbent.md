@@ -1,2 +1,2 @@
 (app)=
-## Gas ideala eta adsorbatzaile esferiko txikia
+## **7**. Gas ideala eta adsorbatzaile esferiko txikia

@@ -132,7 +132,10 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="fase.html">
-   Sistema txikietako fase-trantsizioak
+   <strong>
+    5
+   </strong>
+   . Sistema txikietako fase-trantsizioak
   </a>
  </li>
  <li class="toctree-l1">
@@ -149,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gas%20ideala.html">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -262,7 +304,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Mekanika estatistikoak esku artean dugun sistemaren fisika bere osagai mikroskopikoen dinamikaren bidez deskribatzea du erronkatzat; horretarako, sistemaren aldakiz (edo kopiaz) osaturiko multzo estatistikoez baliatzen da.  Aldaki-kopurua oso handia bada, denboran geldikortasuna eta oreka estatistikoa bermatzen dira, azterketa termodinamikoa abian jartzeko ezinbesteko baldintzak, egiazki. Berebat, jakin dakigunez, kanpotik ezarritako askatasun-baldintzen arabera, multzoari berari izaera jakina eman diezaiokegu.</p>
 <div class="figure align-default" id="multzo">
 <a class="reference internal image-reference" href="_images/multzoak.png"><img alt="_images/multzoak.png" src="_images/multzoak.png" style="height: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Multzo mikrokanonikoa, kanonikoa eta makrokanonikoa hagitz ezagunak dira, eta termodinamikan zabalki erabiliak. Nanonakonikoa, ordea, lehen begiratuan arrotza gerta lekiguke.</span><a class="headerlink" href="#multzo" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Multzo mikrokanonikoa, kanonikoa eta makrokanonikoa hagitz ezagunak dira, eta Termodinamikan zabalki erabiliak. Nanonakonikoa, ordea, lehen begiratuan arrotza gerta lekiguke.</span><a class="headerlink" href="#multzo" title="Permalink to this image">¶</a></p>
 </div>
 <p>Lehenbizi, azpisistema erabat isolatuz osaturiko multzo <strong>mikrokanonikoa</strong> dugu. Bertan, sistemaren aldakiek ez dute elkar ikusten, hots, horietako bakoitzean aldagai estentsibo guztiek (<span class="math notranslate nohighlight">\(E\)</span> barne-energiak, <span class="math notranslate nohighlight">\(V\)</span> bolumenak eta <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruak) finko diraute. Gauzak horrela, sistema aztertzeko abiapuntua makroskopikoki behatuko den <em>makroegoeraren</em> baliokideak diren <em>mikroegoeren</em> kopurua, <span class="math notranslate nohighlight">\(\Omega(E,V,N)\)</span>, <em>zenbatzea</em> da. Jarraian, Boltzmann-en ekuazioak, <span class="math notranslate nohighlight">\(k_{\mathrm{B}}\)</span> Boltzmann-en konstantearen bidez, entropia itzuliko digu: <span class="math notranslate nohighlight">\(S(E,V,N) := k_{\mathrm{B}} \ln \Omega\)</span>.</p>
 <div class="admonition-oharra admonition">
@@ -275,7 +317,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p><strong>Argibide garrantzitsua</strong>: Lan guztian zehar Hill-ek bere liburuan erabiltzen duen antzinako edo ezohiko notazioari eutsiko diogu. Hala, potentzial termodinamikoak hizki hauen bidez izendatuko ditugu: Barne-energia <span class="math notranslate nohighlight">\(\rightarrow E\)</span> ; Helmholtz-en energia askea <span class="math notranslate nohighlight">\(\rightarrow A\)</span> ; Entalpia <span class="math notranslate nohighlight">\(\rightarrow H\)</span> ; Gibbs-en energia askea <span class="math notranslate nohighlight">\(\rightarrow F\)</span>. Eraldaketa horiek ez biezaiote irakurleari nahasmena sorraraz.</p>
 </div>
 <p>Azkenik, aldakiei elkarren artean energia ez ezik, materia ere trukatzea onartuko balitzaie, multzo are askeagoa erdietsiko genuke, <strong>makrokanonikoa</strong>, alegia. Askatasun-gradu kimikoari dagokion Legendreren transformazioa aplikatuz, partizio-funtzio makrokanonikoa eraikiko dugu: <span class="math notranslate nohighlight">\(\Xi (T, V, \mu) := \sum_{N_{i}} Q(T,V,N_{i})e^{\mu N_{i}/k_{\mathrm{B}}T}\)</span>, eta, hortik, multzo horren egoera-funtzioa den gran-potentziala:  <span class="math notranslate nohighlight">\(\Psi (T,V,\mu) = -k_{\mathrm{B}}T\ln \Xi\)</span>.</p>
-<p>Arestian esandakoari helduz, horiek dira termodinamikako liburuetan azaltzen diren multzo estatistikoak. Egia da, bai, badugula aldaera gehiago definitzerik; esaterako, <span class="math notranslate nohighlight">\((T,p,N)\)</span> ingurune-aldagaiek ezaugarritzen duten multzo isotermo-isobaroa. Aurrerago ikusiko dugunez, multzo horrek berebiziko esangura du sistema txikien termodinamikan. Halaber, osagai bat baino gehiagodun sistemetan zilegi da multzo osmotikoa <span class="math notranslate nohighlight">\((T,p,N_{1},\mu_{2})\)</span> ere erabiltzea.</p>
+<p>Arestian esandakoari helduz, horiek dira Termodinamikako liburuetan azaltzen diren multzo estatistikoak. Egia da, bai, badugula aldaera gehiago definitzerik; esaterako, <span class="math notranslate nohighlight">\((T,p,N)\)</span> ingurune-aldagaiek ezaugarritzen duten multzo isotermo-isobaroa. Aurrerago ikusiko dugunez, multzo horrek berebiziko esangura du sistema txikien analisian. Halaber, osagai bat baino gehiagodun sistemetan zilegi da multzo osmotikoa <span class="math notranslate nohighlight">\((T,p,N_{1},\mu_{2})\)</span> ere erabiltzea.</p>
 <p>Baina kontua zera da: oraingoz azaldu zaizkigun multzo estatistiko guztietan aldagai estentsibo bat, gutxienez, inguruneak zehazten du (<span class="math notranslate nohighlight">\(E, V\)</span> edota <span class="math notranslate nohighlight">\(N\)</span>). Are gehiago, <strong>Gibbs-Duhem</strong> erlazioari jarraituz, badirudi sistema makroskopikoari ezin dakizkiokeela hiru aldagai intentsiboak aldi berean, bakoitza bere kabuz, finkatu. Hori argiroago ikusteko, sistema makroskopiko baten barne-energiaren aldakuntzak betetzen duen <strong>Gibbs-en ekuazioa</strong> idatziko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-gibbs">
 <span class="eqno">(1)<a class="headerlink" href="#equation-gibbs" title="Permalink to this equation">¶</a></span>\[
@@ -298,11 +340,11 @@ const thebe_selector_output = ".output, .cell_output"
 \]</div>
 <p>Gaineko <a class="reference internal" href="#equation-gibbs-duhem">(3)</a> ekuazioak aurrez esandakoa berresten du, muga garrantzitsua ezarriz: <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak, <span class="math notranslate nohighlight">\(T\)</span> tenperaturak eta <span class="math notranslate nohighlight">\(p\)</span> presioak ez dute, hirurek batera, aske izaterik. Horietatik bi aukeratuz gero, hirugarrena berorien funtziopean zehaztuta geratuko da. Bada, orain arte azaldutako ideiak sendotasun handikoak eta urraezinak dela pentsa genezake. Aztergai dugun irudi-sortan badago, alabaina, <strong>aurreko hori inola ere iradokitzen ez duen</strong>, eta oraindik aurkeztu ez dugun multzo estatistikoa.</p>
 <p>Arretaz errepara bekio <a class="reference internal" href="#multzo"><span class="std std-numref">2</span></a>d irudiari. Osagai bakarreko azpisistemei askatasun-gradu guztiak abiarazi zaizkie, inguruneko aldagai-sortatzat <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> dute eta. Hori dela eta, elkarren artean energia, partikulak eta bolumena truka ditzakete ezein kanpo-galarazpenik gabe!</p>
-<p>Aurrekoaren harira, bi arazori aurre egin beharrean gaude. Baina, horretarako, nanotermodinamikan murgiltzen hasi beharko dugu ezinbestean. Kezka-iturriok honakoak dira: alde batetik, argi dago <strong>multzo nanokanonikok</strong> <a class="reference internal" href="#equation-gibbs-duhem">(3)</a> baldintza hausten duela. Beraz, esan berri duguna aintzat hartuz, multzo horren bidez ez dugu sistema makroskopiko bat deskribatzerik izango. Hill-ek horri honela ihardetsiko lioke: <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> sortak soilik <strong>sistema txikiak</strong> ezaugarritzeko balio du (tamaina finitukoak). Bide horretatik, <a class="reference internal" href="hill.html#hillteo"><span class="std std-ref">Hill-en teoria</span></a> zatian azalduko dugu Hill-en arabera zein den, zehazki, sistema bat <em>txiki</em> izatearen esangura, fisikaren nahiz matematikaren ikuspuntutik.</p>
+<p>Aurrekoaren harira, bi arazori aurre egin beharrean gaude. Baina, horretarako, Nanotermodinamikan murgiltzen hasi beharko dugu ezinbestean. Kezka-iturriok honakoak dira: alde batetik, argi dago <strong>multzo nanokanonikok</strong> <a class="reference internal" href="#equation-gibbs-duhem">(3)</a> baldintza hausten duela. Beraz, esan berri duguna aintzat hartuz, multzo horren bidez ez dugu sistema makroskopiko bat deskribatzerik izango. Hill-ek horri honela ihardetsiko lioke: <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> sortak soilik <strong>sistema txikiak</strong> ezaugarritzeko balio du (tamaina finitukoak). Bide horretatik, <a class="reference internal" href="hill.html#hillteo"><span class="std std-ref">Hill-en teoria</span></a> zatian azalduko dugu Hill-en arabera zein den, zehazki, sistema bat <em>txiki</em> izatearen esangura, fisikaren nahiz matematikaren ikuspuntutik.</p>
 <p>Bestetik, <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> aldagaiak hirurak batera askeak izan daitezen, eta, horrela, berorien bidez multzo nanokanonikoa zehazteko gai izateko, sistema txiki horri nahitaez beste askatasun-gradu bat gaineratu beharko zaio, lehengoekin batera <a class="reference internal" href="#equation-gibbs-duhem">(3)</a> bezalako ekuazio eraldatu bati jarrai diezaion. Bada, berariazko askatasun-gradu hori, hain zuzen ere, Hill-ek txertatu zuen, eta, tamaina finituko efektuen eragina kontuan izanik, aztergai dugun sistemaren aldakiz osatutako multzoak bere barnean dituen <em>aldaki horien kopurua</em> (<span class="math notranslate nohighlight">\(\mathcal{N}\)</span>) aldatzeko duen gaitasunari dagokio. Bestela esanda, multzo estatistiko txiki batean, gainontzeko aldagai estentsiboak (<span class="math notranslate nohighlight">\(S, V, N\)</span>) aldaezin mantentzen ditugularik, multzo horren <strong>banatzean eragiteak</strong> bere barne-energiari erasango dio. Horren ondorioz, Gibbs-en <a class="reference internal" href="#equation-gibbs">(1)</a>  ekuazioari beste ekarpen bat gehitu beharko diogu. Azken esaldiak <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> magnitudearen konjokatu intentsiboa aurkeztera gakartza nahitaez:  <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> hizkiaren bidez adieraziko dugun <strong>banatze-potentziala</strong>.</p>
 <p>Multzo nanokanonikoaren fisika estatistikoari dagokion tresneria aurrerago eraikiko dugu. Aitzitik, eztabaida honi hausnarketa kualitatibo baten bidez emango diogu itxiera.</p>
 <p>Banatze-potentzialak sistemaren gainazal- eta ertz-efektuak, zein azpisistemen biraketa edota translazioa hartzen ditu aintzakotzat. Sistema txikien kasuan eragileok ezin dira baztergarritzat jo, hori energiaren kontserbazioaren aurka bailihoake, eta, gainera, entropiaren maximizazioa eragotziko bailuke. Halaber, aipaturiko zuzenketek makroskopikoki estentsiboak diren propietateen izaera birdefinituko dute, beti ezingo baitugu onartu <span class="math notranslate nohighlight">\(N\)</span> magnitudearekin linealki aldatuko direnik. Zenbaitetan <span class="math notranslate nohighlight">\(\propto N^{2/3}\)</span> edo <span class="math notranslate nohighlight">\(\propto N^{1/3}\)</span> erlazioak ere kontuan izan beharko dira. Aurrekoarekin batera, berorien aldagai konjokatuek intentsibo izateari utziko diote; esate baterako, arrotza gerta balekiguke ere, sistema txiki baten presioak eta tenperaturak tamainarekiko menpekotasuna dute. Horren ondorioz, estentsibotasunari dagokion aldagaien sailkapen-irizpidea beroriek <em>makroskopikoki</em> daukaten izaeran oinarritu beharko dugu aurrerantzean.</p>
-<p>Efektu horiek guztiek mundu makroskopikoan behatzen ez den ondorio batera garamatzate: sistema txiki baten funtzio termodinamikoak multzoz multzo aldatu egingo dira, azterketan erabiliko diren ingurune-aldagaien arabera. Esaldi hori arras esanguratsua da. Esaterako, gas idealaren entropia multzo estatistiko egokian kalkulatzeak Gibbs-en paradoxari konponbide berritzailea eman diezaioke <span id="id1">[<a class="reference internal" href="erreferentziak.html#id4" title="R. V. Chamberlin, Michael R. Clark, Vladimiro Mujica, and George H. Wolf. Multiscale thermodynamics: energy, entropy, and symmetry from atoms to bulk behavior. Symmetry, 2021. doi:10.3390/sym13040721.">CCMW21</a>]</span>. Noski, sistema handituz joango balitz, ekarpen finituak biltzen dituen banatze-potentziala are baztergarriago bilakatuko litzateke. Horrek, mailaz maila, <em>ohiko</em> termodinamikarantz gindekarzke itzulian. Bertan, hain zuzen, barne-energiak <span class="math notranslate nohighlight">\(E \gg \mathcal{E}\)</span> beteko luke, baita gainontzeko gai <em>handiek</em> ere.</p>
+<p>Efektu horiek guztiek mundu makroskopikoan behatzen ez den ondorio batera garamatzate: sistema txiki baten funtzio termodinamikoak multzoz multzo aldatu egingo dira, azterketan erabiliko diren ingurune-aldagaien arabera. Esaldi hori arras esanguratsua da. Esaterako, gas idealaren entropia multzo estatistiko egokian kalkulatzeak Gibbs-en paradoxari konponbide berritzailea eman diezaioke <span id="id1">[<a class="reference internal" href="erreferentziak.html#id4" title="R. V. Chamberlin, Michael R. Clark, Vladimiro Mujica, and George H. Wolf. Multiscale thermodynamics: energy, entropy, and symmetry from atoms to bulk behavior. Symmetry, 2021. doi:10.3390/sym13040721.">3</a>]</span>. Noski, sistema handituz joango balitz, ekarpen finituak biltzen dituen banatze-potentziala are baztergarriago bilakatuko litzateke. Horrek, mailaz maila, <em>ohiko</em> Termodinamikarantz gindekarzke itzulian. Bertan, hain zuzen, barne-energiak <span class="math notranslate nohighlight">\(E \gg \mathcal{E}\)</span> beteko luke, baita gainontzeko gai <em>handiek</em> ere.</p>
 <p>Hori da, erabat esateko, Hill-en teoriaren muina. Hurrengo atalean, berori aurkeztu ez ezik, erlazio termodinamikoei zer-nolako eraldaketak dakarzkien aztertzeari ekingo diogu.</p>
 </div>
 

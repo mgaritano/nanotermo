@@ -52,8 +52,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Erreferentziak" href="erreferentziak.html" />
+    <link rel="prev" title="B Entropiaren esangura" href="entropy.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -97,7 +101,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="nanointro.html">
    <strong>
@@ -128,7 +132,10 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="fase.html">
-   Sistema txikietako fase-trantsizioak
+   <strong>
+    5
+   </strong>
+   . Sistema txikietako fase-trantsizioak
   </a>
  </li>
  <li class="toctree-l1">
@@ -145,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -255,6 +301,43 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="section" id="c-gas-ideal-klasikoa-multzo-kanonikoan">
 <h1><strong><em>C</em></strong> <em>Gas ideal klasikoa, multzo kanonikoan</em><a class="headerlink" href="#c-gas-ideal-klasikoa-multzo-kanonikoan" title="Permalink to this headline">¶</a></h1>
+<p>Aztergai dugun sistema <span class="math notranslate nohighlight">\(V\)</span> bolumenean dagoen eta <span class="math notranslate nohighlight">\(N\)</span> partikula monoatomiko aske eta bereiztezinek osatzen duten gasa da. Baldintza horiek nabarmen arinduko digute lana, aintzakotzat hartu beharreko energiarako ekarpena zinetikoa besterik ez baita izango: <span class="math notranslate nohighlight">\(H(q,p) = \sum_{i=1}^N \frac{p_{i}^2}{2m_{i}}\)</span>.</p>
+<p>Azterketa fase-espazioan abiatu dugu;  partikula bakarraren posizio- eta momentu-koordenatuak <span class="math notranslate nohighlight">\((q_{i},p_{i})\)</span> dira. Bada, egoera kuantiko baten eta fase-espazioko bolumen-elementu baten arteko erlazioa <span class="math notranslate nohighlight">\(\mathrm{d}^{3N}q\;\mathrm{d}^{3N}p/(N!h^{3N})\)</span> denez, partizio-funtzioa eraikiko dugu, <span id="id1">[<a class="reference internal" href="erreferentziak.html#id14" title="R. K. Pathria. Statistical Mechanics, 2nd Edition, chapter 1-4. ELSEVIER, Butterworth-Heinemann, Massachusetts, 1996.">12</a>]</span> liburuari jarraituz eta <span class="math notranslate nohighlight">\(\Lambda = h/\sqrt{2\pi mk_{\mathrm{B}}T}\)</span> uhin-luzera termikoa dugula gogora ekarriz.</p>
+<div class="math notranslate nohighlight" id="equation-qtvngi">
+<span class="eqno">(27)<a class="headerlink" href="#equation-qtvngi" title="Permalink to this equation">¶</a></span>\[
+Q(T, V, N)=\frac{1}{N ! h^{3 N}} \int \prod_{i=1}^{N} \mathrm{d}^{3} q_{i} \; \mathrm{d}^{3} p_{i} \; \exp\left({-\frac{1}{k_{\mathrm{B}}T} \frac{ p_{i}^2}{2 m}}\right)  = \frac{V^N}{N!\Lambda^{3N}}\; .
+\]</div>
+<p>Hala, Helmholtz-en energia askea idatziko dugu.</p>
+<div class="math notranslate nohighlight" id="equation-atvngi">
+<span class="eqno">(28)<a class="headerlink" href="#equation-atvngi" title="Permalink to this equation">¶</a></span>\[
+A(T,V,N) = k_{\mathrm{B}}T\left(N\ln\frac{\Lambda^3}{V} + \ln N!\right)
+\]</div>
+<p>Aurrera egin aurretik, jabetu gaitezen adierazpenean <span class="math notranslate nohighlight">\(N!\)</span> ageri zaigula. Limite termodinamikoan <span class="math notranslate nohighlight">\(\ln N! \sim N\ln N - N\)</span> hurbilketa badarabilgu ere, Nanotermodinamikan haratago joan beharrean gaude. Horretarako, lehenbizi Stirling-en seriea idatziko dugu.</p>
+<div class="math notranslate nohighlight" id="equation-stirling">
+<span class="eqno">(29)<a class="headerlink" href="#equation-stirling" title="Permalink to this equation">¶</a></span>\[
+\small \ln N! = N \ln N-N+ \ln \sqrt{2 \pi N}+\frac{1}{12 N}-\frac{1}{360 N^{3}}+\frac{1}{1260 N^{5}}-\frac{1}{1680 N^{7}}+\cdots
+\]</div>
+<p>Kontua da <span class="math notranslate nohighlight">\(N\)</span> txikia denean, <a class="reference internal" href="#equation-stirling">(29)</a> ekuazioko eskuinaldeko lehen bi gaiez bestalde, hirugarrena eta laugarrena ere kontuan izan beharko ditugula, gutxienez. Hartutako erabakia entropian islatuko dugu:</p>
+<div class="math notranslate nohighlight" id="equation-stvngi">
+<span class="eqno">(30)<a class="headerlink" href="#equation-stvngi" title="Permalink to this equation">¶</a></span>\[
+\boxed{ S(T,V,N) = N k_{\mathrm{B}} \left[\ln \left(\frac{V}{\Lambda^{3} N}\right)+\frac{5}{2}\right]- k_{\mathrm{B}}\left[ \ln \sqrt{2 \pi N} + \frac{1}{12N}\right]} \; .
+\]</div>
+<p>Horrela, azken bi ekarpen <em>txikiek</em> entropia txikituko dutela ohartuko gara, eta batik bat eskualde nanotermodinamikoan izango dute eragina. Bide batez, banatze-potentzialari ere erreparatuko diogu. <span class="math notranslate nohighlight">\(A(T,V,N)\)</span> energiari Legendreren bi transformazio aplikatuz, <span class="math notranslate nohighlight">\(\mathcal{E}(T,p,\mu) = A +pV - \mu_{N} N\)</span> dugu. Alde batetik, gas idealak <span class="math notranslate nohighlight">\(pV=Nk_{\mathrm{B}}T\)</span> betetzen du. Bestetik, <span class="math notranslate nohighlight">\(\mu_{N}\)</span> delakoa diferentzia-ekuazio baten bidez definituko dugu: <span class="math notranslate nohighlight">\( \mu_{N} = A_{N+1}-A_{N}\)</span>. Sistema oso txikien kasuan berori ekuazio diferentziala baino aproposagoa da.</p>
+<div class="admonition-oharra admonition">
+<p class="admonition-title">Oharra</p>
+<p>Hill-en liburuan azaltzen denez <span id="id2">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">5</a>]</span>, <span class="math notranslate nohighlight">\(N\)</span> aldagai diskretutzat hartu behar da <span class="math notranslate nohighlight">\(N&lt; \mathcal{O}(50)\)</span> denean.</p>
+</div>
+<p>Era berean, Taylorren hurbilketa erabiliko dugu (<span class="math notranslate nohighlight">\(N+1 \rightarrow N\)</span>). Ondorioz,</p>
+<div class="math notranslate nohighlight">
+\[
+\mu_{N} = -k_{\mathrm{B}}T\ln\left(\frac{1}{N+1}\frac{V}{\Lambda^3}\right) \approx -k_{\mathrm{B}}T\left[\ln\left(\frac{V}{\Lambda^3 N}\right) - \frac{1}{N} + \frac{1}{2N^2}\right] \; .
+\]</div>
+<p>Behin potentzial kimikoa finkatuz gero, banatze-potentziala eraikitzeko gai izango gara:</p>
+<div class="math notranslate nohighlight" id="equation-epsilon-tvn">
+<span class="eqno">(31)<a class="headerlink" href="#equation-epsilon-tvn" title="Permalink to this equation">¶</a></span>\[
+\mathcal{E} \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] &gt; 0 \; .
+\]</div>
+<p>Askatasun-graduak abiarazi ahala, tamaina finituko ekarpen horiek ez dira bere horretan mantenduko. Azken esaldi hori Nanotermodinamikaren funtsezko ondorio bati darraio: ekuazio termodinamikoak azterketan erabiliko diren multzo estatistikoekin batera aldatu egingo dira.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -281,7 +364,21 @@ const thebe_selector_output = ".output, .cell_output"
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="entropy.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><strong><em>B</em></strong> <em>Entropiaren esangura</em></p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="erreferentziak.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Erreferentziak</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             
         </div>

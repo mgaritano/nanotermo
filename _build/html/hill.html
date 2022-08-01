@@ -152,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gas%20ideala.html">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -249,11 +288,17 @@ const thebe_selector_output = ".output, .cell_output"
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hill-en-teoria">
+   <strong>
+    3.1
+   </strong>
    Hill-en teoria
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
+   <strong>
+    3.2
+   </strong>
    Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
   </a>
  </li>
@@ -279,11 +324,17 @@ const thebe_selector_output = ".output, .cell_output"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hill-en-teoria">
+   <strong>
+    3.1
+   </strong>
    Hill-en teoria
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
+   <strong>
+    3.2
+   </strong>
    Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
   </a>
  </li>
@@ -299,7 +350,7 @@ const thebe_selector_output = ".output, .cell_output"
   <div class="section" id="sistema-txikien-termodinamika">
 <h1><strong>3</strong>. Sistema Txikien Termodinamika<a class="headerlink" href="#sistema-txikien-termodinamika" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="hill-en-teoria">
-<span id="hillteo"></span><h2>Hill-en teoria<a class="headerlink" href="#hill-en-teoria" title="Permalink to this headline">¶</a></h2>
+<span id="hillteo"></span><h2><strong>3.1</strong> Hill-en teoria<a class="headerlink" href="#hill-en-teoria" title="Permalink to this headline">¶</a></h2>
 <p>Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua, sistema horren <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero (<span class="math notranslate nohighlight">\(\mathcal{N}\rightarrow \infty\)</span>), sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
 Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, termodinamika klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.</p>
 <div class="admonition-oharra admonition">
@@ -327,7 +378,7 @@ Hurrengo urratsa, <a class="reference internal" href="#equation-hill-gibbs">(4)<
 <span class="eqno">(5)<a class="headerlink" href="#equation-pausoa" title="Permalink to this equation">¶</a></span>\[
 \small E_{t} \left(=\int \mathrm{d}E_{t} = T \int \mathrm{d}S_{t} - p \int \mathrm{d}V_{t} + \mu \int \mathrm{d}N_{t} + \mathcal{E} \int \mathrm{d}\mathcal{N}\right) = TS_{t} - pV_{t} + \mu N_{t} + \mathcal{E}\mathcal{N} \; .
 \]</div>
-<p>Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: <em>Euler-homogeneotasuna</em> (ikus <a class="reference internal" href="euler.html"><span class="doc std std-doc">Eulerren ekuazioa</span></a> eranskina). Hain zuzen, <span class="math notranslate nohighlight">\(E_{t}, S_{t}, V_{t}, N_{t}\)</span> eta <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> lehen ordenako funtzio Euler-homogeneoak dira <span class="math notranslate nohighlight">\(V\)</span> zein <span class="math notranslate nohighlight">\(N\)</span> aldagaiekiko. Are gehiago, tenperatura, presioa eta partikula-kopurua aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik <span class="math notranslate nohighlight">\((T, p, \mu,\mathcal{E})\)</span> sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.</p>
+<p>Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: <em>Euler-homogeneotasuna</em> (ikus <a class="reference internal" href="euler.html"><span class="doc std std-doc">A Eulerren ekuazioa</span></a> eranskina). Hain zuzen, <span class="math notranslate nohighlight">\(E_{t}, S_{t}, V_{t}, N_{t}\)</span> eta <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> lehen ordenako funtzio Euler-homogeneoak dira <span class="math notranslate nohighlight">\(V\)</span> zein <span class="math notranslate nohighlight">\(N\)</span> aldagaiekiko. Are gehiago, tenperatura, presioa eta partikula-kopurua aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik <span class="math notranslate nohighlight">\((T, p, \mu,\mathcal{E})\)</span> sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.</p>
 <p>Lehengo hariari ekinez, sistema txiki baten ezaugarriak ondorioztatzea da helburua, beroriek multzo osoaren funtzioen aldaki-kopuruarekiko batez bestekoak bailiran adieraziz. Beraz, <span class="math notranslate nohighlight">\(\bar{E} \equiv E_{t}/\mathcal{N}\)</span>; <span class="math notranslate nohighlight">\(S \equiv S_{t}/\mathcal{N}\)</span>; <span class="math notranslate nohighlight">\(\bar{V} \equiv V_{t}/\mathcal{N}\)</span>; <span class="math notranslate nohighlight">\(\bar{N} \equiv N_{t}/\mathcal{N}\)</span> definituz, multzoaren azpisistema bakarrak ekuazio honi segituko lioke:</p>
 <div class="math notranslate nohighlight" id="equation-e-small">
 <span class="eqno">(6)<a class="headerlink" href="#equation-e-small" title="Permalink to this equation">¶</a></span>\[
@@ -355,7 +406,7 @@ Bestalde, <a class="reference internal" href="#equation-gibbs-small">(7)</a> adi
 <p>Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.</p>
 </div>
 <div class="section" id="hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia">
-<h2>Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia<a class="headerlink" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia" title="Permalink to this headline">¶</a></h2>
+<h2><strong>3.2</strong> Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia<a class="headerlink" href="#hill-gibbs-ekuazioaren-orokorpena-eta-aldaki-energia" title="Permalink to this headline">¶</a></h2>
 <p>Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartutakoan multzoaren propietate estentsibo guztiak (<span class="math notranslate nohighlight">\(S_{t}, V_{t}, N_{t}\)</span>) aldaezin mantendu ditugu.
 Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, eta ez beste ezerk, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  <span class="math notranslate nohighlight">\(E, V\)</span> eta <span class="math notranslate nohighlight">\(N\)</span> finko mantentzea galarazten baitu. Ondorioz, sistema txikiei <span class="math notranslate nohighlight">\((T, p, \mu)\)</span> aldagaiak esleitu behar izan dizkiegu nahitaez.</p>
 <p>Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, <span class="math notranslate nohighlight">\((A, B, C,...)\)</span> ingurune-aldagaien aurrean <span class="math notranslate nohighlight">\(\mathcal{E}(T, p, \mu)\)</span> banatze-potentzialaren orokorpena definitu beharrean gaude. Berori <span class="math notranslate nohighlight">\(X(A, B, C...)\)</span> hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion \textbf{aldaki-energia} da. Noski, multzo nanokanonikoaren kasuan <span class="math notranslate nohighlight">\(X(T,p,\mu) = \mathcal{E}(T, p, \mu)\)</span> genuke, baina, oro har, ez da hori beteko.</p>

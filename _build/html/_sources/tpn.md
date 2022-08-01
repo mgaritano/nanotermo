@@ -6,6 +6,7 @@ Hala, ibilbide hori multzo isotermo-isobaroan $(T,p,N)$ barrena burutzea mesedeg
 
 Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du.
 
+(tpn azter)=
 ###  **4.1** Multzoaren azterketa
 
 Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathcal{N}$, $\bar{V}=V_{t}/\mathcal{N}$ eta $N=N_{t}/\mathcal{N}$ aldagai estentsiboak izango dituzte.

@@ -52,6 +52,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="C Gas ideal klasikoa, multzo kanonikoan" href="gas%20ideala.html" />
@@ -299,6 +301,25 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="section" id="b-entropiaren-esangura">
 <h1><strong><em>B</em></strong> <em>Entropiaren esangura</em><a class="headerlink" href="#b-entropiaren-esangura" title="Permalink to this headline">¶</a></h1>
+<p>Eranskin honen helburua entropiaren izaera gainerako aldagai estentsiboena ez bezalakoa dela ikusaraztea da
+<span id="id1">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">5</a>, <a class="reference internal" href="erreferentziak.html#id18" title="D. F. Styer. Insight into Entropy. APS, 68:1090–1096, 2000. doi:https://doi.org/10.1119/1.1287353.">15</a>]</span>. Horretarako, sarreran aurkeztutako Boltzmann-en adierazpenetik abiatuko gara: <span class="math notranslate nohighlight">\(S = k_{\mathrm{B}}\ln\Omega\)</span>. Bada, demagun <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> sistemaz osaturiko multzoa dugula. Beroriek <span class="math notranslate nohighlight">\(n\)</span> egoera kuantikotan banatuko ditugu. Horietako bakoitzean <span class="math notranslate nohighlight">\(\mathcal{N} _ {i}\)</span> sistema egongo da, eta <span class="math notranslate nohighlight">\(\sum_{i=1}^{n} \mathcal{N}_ {i} = \mathcal{N}\)</span>. Era berean, <span class="math notranslate nohighlight">\(p_{i} = \mathcal{N}_{i}/\mathcal{N}\)</span> definituko dugu, hots, partikula bat <span class="math notranslate nohighlight">\(i\)</span> egoeran egoteko probabilitatea. Aldaki guztiak baliokideak, askeak eta bereizgarriak direnez,</p>
+<div class="math notranslate nohighlight">
+\[
+\Omega = \frac{\mathcal{N} !}{\mathcal{N} _ {1}!\cdot ... \cdot \mathcal{N}_{n}!}
+\]</div>
+<p>idaztea zilegi da. Aldaki-kopuruak <span class="math notranslate nohighlight">\(\mathcal{N}\rightarrow\infty\)</span> betetzen duela onartuz, Stirling-en hurbilketa erabiltzea daukagu: <span class="math notranslate nohighlight">\(\ln \mathcal{N}! \approx \mathcal{N}\ln\mathcal{N} - \mathcal{N}\)</span>. Beraz,</p>
+<div class="math notranslate nohighlight">
+\[
+\ln\Omega \approx \mathcal{N}\ln\mathcal{N} - \sum_{i=1}^{n}\mathcal{N} _ {i}\ln\mathcal{N}_{i} \; .
+\]</div>
+<p>Eragiketak eginez gero, guztizko entropia era honetan berridatziko dugu:</p>
+<div class="math notranslate nohighlight">
+\[
+ S_{t} = -\mathcal{N}k_{\mathrm{B}}\sum_{i=1}^{n}\frac{\mathcal{N}_ {i}}{\mathcal{N}}\ln \left(\frac{\mathcal{N}_ {i}}{\mathcal{N}}\right) = \mathcal{N}\left(-k_{\mathrm{B}}\sum_{i=1}^{n}p_{i}\ln p_{i}\right) = \mathcal{N}S \; .
+ \]</div>
+<p>Lortu berri dugun ekuaziotik bi ondorio nagusi atera daiteke: aldakien <span class="math notranslate nohighlight">\(S\)</span> magnitudea <em>batukorra</em> da (estentsiboa), ez haatik propietate mekaniko baten batez bestekoa. Hain zuzen, egoera kuantiko bakarrari ezin dakioke entropia jakina egokitu, berori sistema txiki guztietan zeharreko probabilitate-banaketaren baitan dago eta.</p>
+<p>Ekuazioak berak aditzera ematen duenez, makroegoerarekin bateragarriak diren mikroegoeren kopurua altua balitz, probabilitate-banaketa nahikoa uniformea litzateke, hots, mikroegoera jakin baten (edo batzuen) eskuragarritasuna ez litzateke gainontzekoenekiko gailenduko. Hala, <span class="math notranslate nohighlight">\(p_{i}\)</span> guztiak arras txikiak lirateke eta, hortaz, berorien logaritmoak moduluz izugarriak, baina zero azpitik, entropiaren igoera indartuz. Aitzitik, bakarrik egoera gutxi batzuk baldin baleude baimenduta, <span class="math notranslate nohighlight">\(S_{t}\)</span> guztizko entropiak behera legike <span class="math notranslate nohighlight">\((p_{i}\rightarrow 1)\)</span>, sistemaren ordena estatistikoa eta, funtsean, aurresangarritasuna, areagotuz.</p>
+<p>Esandakoa aintzat hartuz, azpisistema bakoitzak batez besteko <span class="math notranslate nohighlight">\(\bar{S}\)</span> balio baten inguruko entropia jakin bat duela iradokitzea ez dator bat magnitude honen izaerarekin.</p>
 </div>
 
     <script type="text/x-thebe-config">

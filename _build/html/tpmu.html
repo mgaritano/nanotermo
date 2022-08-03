@@ -56,8 +56,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Gas ideala eta adsorbatzaile esferiko txikia" href="adsorbent.html" />
-    <link rel="prev" title="Sistema txikietako fase-trantsizioak" href="fase.html" />
+    <link rel="next" title="7. Gas ideala eta adsorbatzaile esferiko txikia" href="adsorbent.html" />
+    <link rel="prev" title="5. Sistema txikietako fase-trantsizioak" href="fase.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -132,7 +132,10 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="fase.html">
-   Sistema txikietako fase-trantsizioak
+   <strong>
+    5
+   </strong>
+   . Sistema txikietako fase-trantsizioak
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -149,7 +152,46 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="adsorbent.html">
-   Gas ideala eta adsorbatzaile esferiko txikia
+   <strong>
+    7
+   </strong>
+   . Gas ideala eta adsorbatzaile esferiko txikia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="euler.html">
+   <strong>
+    <em>
+     A
+    </em>
+   </strong>
+   <em>
+    Eulerren ekuazioa
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="entropy.html">
+   <strong>
+    <em>
+     B
+    </em>
+   </strong>
+   <em>
+    Entropiaren esangura
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gas%20ideala.html">
+   <strong>
+    <em>
+     C
+    </em>
+   </strong>
+   <em>
+    Gas ideal klasikoa, multzo kanonikoan
+   </em>
   </a>
  </li>
  <li class="toctree-l1">
@@ -239,6 +281,45 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzoaren-azterketa">
+   <strong>
+    6.1
+   </strong>
+   Multzoaren azterketa
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-agregatu-lineala">
+   <strong>
+    6.2
+   </strong>
+   Adibidea: Agregatu lineala
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ariketa">
+     Ariketa
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan">
+   <strong>
+    6.3
+   </strong>
+   Adibidea: Gas ideal klasikoa, multzo nanokanonikoan
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -251,6 +332,45 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multzoaren-azterketa">
+   <strong>
+    6.1
+   </strong>
+   Multzoaren azterketa
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-agregatu-lineala">
+   <strong>
+    6.2
+   </strong>
+   Adibidea: Agregatu lineala
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ariketa">
+     Ariketa
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan">
+   <strong>
+    6.3
+   </strong>
+   Adibidea: Gas ideal klasikoa, multzo nanokanonikoan
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -259,6 +379,137 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="section" id="multzo-nanokanonikoa-t-p-mu-ingurune-aldagaiak">
 <h1><strong>6</strong>. Multzo nanokanonikoa: <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> ingurune-aldagaiak<a class="headerlink" href="#multzo-nanokanonikoa-t-p-mu-ingurune-aldagaiak" title="Permalink to this headline">¶</a></h1>
+<p>Azken-aurreko kapitulu honetan teoriaren alor esanguratsuenari ekingo diogu. Demagun esku artean dugun sistema <span class="math notranslate nohighlight">\(N\)</span> monomeroz osaturiko polimero agregatua dela, eta berori <span class="math notranslate nohighlight">\(T\)</span> tenperaturan eta <span class="math notranslate nohighlight">\(p\)</span> presiopean dagoela. Bada, molekulen arteko lotze-indarrak aski sendoak ez balira, luzaroan <span class="math notranslate nohighlight">\(N\)</span> molekulen kopuruak ez lirauke finko, fluktuazioak jasango bailituzke. Hori dela eta, sistemari <span class="math notranslate nohighlight">\(\mu\)</span> potentzial-kimikoa esleitu beharko genioke hirugarren ingurune-aldagaitzat; alegia, azterketa <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> aldagaidun azpisistemak biltzen dituen multzo  nanokanonikoaren bitartez burutu beharko genuke baitezpada.</p>
+<p>Alabaina, har dezagun gogoan <a class="reference internal" href="intro.html#sarrera"><span class="std std-ref">1</span></a>. atalean aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.</p>
+<div class="admonition-oharra admonition">
+<p class="admonition-title">Oharra</p>
+<p>Hill-ek bere liburuan <em>multzo orokortu</em> izena erabiltzen du.</p>
+</div>
+<p>Ildo horretatik, <a class="reference internal" href="#mupt-linagg"><span class="std std-ref">6.2</span></a> eta <a class="reference internal" href="#mupt-gi"><span class="std std-ref">6.3</span></a> adibideetako sistemei askatasun-gradu guztiak abiarazteak sorrarazten dituen ekarpen finituak kalkulatu, eta beroriek <strong>entropian</strong> duten eraginari erreparatuko diogu, ondorio esanahitsuak erdietsiz. Berebat, limite makroskopikoan lortzen diren emaitzak gainontzeko multzo estatistikoenekin bateragarriak direnentz egiaztatuko dugu. Baina, lehenik, azterketarako beharrezkoa izango zaigun tresneria aurkeztuko dugu laburki.</p>
+<div class="section" id="multzoaren-azterketa">
+<span id="mupt-azter"></span><h2><strong>6.1</strong> Multzoaren azterketa<a class="headerlink" href="#multzoaren-azterketa" title="Permalink to this headline">¶</a></h2>
+<p>Aipatzekoa da multzo honi dagozkion adierazpen gehienak <a class="reference internal" href="hill.html#hillteo"><span class="std std-ref">3.1</span></a> atalean eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, <a class="reference internal" href="hill.html#equation-h-g-d">(8)</a> ekuazioa berridatziz, <span class="math notranslate nohighlight">\(S\)</span> entropia, <span class="math notranslate nohighlight">\(\bar{V}\)</span> bolumena eta <span class="math notranslate nohighlight">\(\bar{N}\)</span> partikula-kopuruaren erlazioetara iritsiko gara:</p>
+<div class="math notranslate nohighlight" id="equation-depsilonnew">
+<span class="eqno">(35)<a class="headerlink" href="#equation-depsilonnew" title="Permalink to this equation">¶</a></span>\[
+ \mathrm{d}\mathcal{E}(T,p,\mu) = \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathcal{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
+ \]</div>
+<p>Jarraian, Fisika Estatistikoarekin lotura ezartze aldera, <span class="math notranslate nohighlight">\(\Upsilon(T,p,\mu)\)</span> hizkiaren bidez adieraziko dugun <strong>partizio-funtzio nanokanonikoaren</strong> eta multzoaren izaeraren isla den banatze-potentzialaren arteko erlazioa idatziko dugu:</p>
+<div class="math notranslate nohighlight" id="equation-epspf">
+<span class="eqno">(36)<a class="headerlink" href="#equation-epspf" title="Permalink to this equation">¶</a></span>\[
+  \mathcal{E}(T,p,\mu) := -k_{\mathrm{B}}T\ln \Upsilon \; .
+\]</div>
+<p>Partizio-funtzio orokortua gainontzekoei kasuan kasuko Legendreren transformazioak aplikatuz kalkulatuko dugu. Esate baterako, multzo isotermo-isobarotik abiatuz,</p>
+<div class="math notranslate nohighlight" id="equation-upsilon-def">
+<span class="eqno">(37)<a class="headerlink" href="#equation-upsilon-def" title="Permalink to this equation">¶</a></span>\[
+\Upsilon(T,p,\mu) := \sum_{E,V,N}\Omega(E,V,N)e^{-E/k_{\mathrm{B}}T}e^{-pV/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T} \equiv \sum_{N}\Delta(T,p,N)e^{\mu N/k_{\mathrm{B}}T} \; .
+\]</div>
+</div>
+<div class="section" id="adibidea-agregatu-lineala">
+<span id="mupt-linagg"></span><h2><strong>6.2</strong> Adibidea: Agregatu lineala<a class="headerlink" href="#adibidea-agregatu-lineala" title="Permalink to this headline">¶</a></h2>
+<p>Adibide honetako sistema txikia <a class="reference internal" href="#agg"><span class="std std-ref">10</span></a>. irudian azaltzen da. Multzo makroskopikoa sistema bereizgarriz osaturiko gas diluitua dela onartuko dugu. Horrela, aldakien arteko elkarrekintzak baztergarritzat joko dira, eta askatasun-gradu mekanikoa ez da aintzat hartuko.</p>
+<div class="figure align-default" id="agg">
+<a class="reference internal image-reference" href="_images/aggregate.PNG"><img alt="_images/aggregate.PNG" src="_images/aggregate.PNG" style="height: 225px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Agregatu lineala <span class="math notranslate nohighlight">\(N\)</span> monomeroz osaturiko <span class="math notranslate nohighlight">\(Nm\)</span> masadun eta <span class="math notranslate nohighlight">\(Na\)</span> luzeradun hagaxka luzea da. Barne-higidurarekin lotutako <span class="math notranslate nohighlight">\(j(T)\)</span> partizio-funtzioa dute unitateek; eta lehen auzokoen arteko elkarrekintza-energia <span class="math notranslate nohighlight">\(\epsilon\)</span> da, negatiboa (<span class="math notranslate nohighlight">\(N-1\)</span> ekarpen). Berebat, zentrutik igarotzen den ardatzarekiko biratu dezake hagaxkak. Inertzia-momentua <span class="math notranslate nohighlight">\(I = \frac{1}{12}N^{3}ma^{2}\)</span> da.</span><a class="headerlink" href="#agg" title="Permalink to this image">¶</a></p>
+</div>
+<p>Lehenbizi, sistema <strong>multzo kanonikoan</strong> aztertuko dugu. Biraketari dagokion partizio-funtzioa</p>
+<div class="math notranslate nohighlight">
+\[
+Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
+\]</div>
+<p>daukagu.</p>
+<div class="admonition-oharra admonition">
+<p class="admonition-title">Oharra</p>
+<p>Ikus <span id="id1">[<a class="reference internal" href="erreferentziak.html#id14" title="R. K. Pathria. Statistical Mechanics, 2nd Edition, chapter 1-4. ELSEVIER, Butterworth-Heinemann, Massachusetts, 1996.">12</a>]</span> liburuko 6. kapituluko 11. oin-oharra. Aurrerantzean, <span class="math notranslate nohighlight">\(\alpha(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T\)</span> erabiliko dugu.</p>
+</div>
+<p>Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera <span class="math notranslate nohighlight">\(c = \alpha e^{\epsilon/k_{\mathrm{B}}T}\)</span> definituz,</p>
+<div class="math notranslate nohighlight" id="equation-qagg">
+<span class="eqno">(38)<a class="headerlink" href="#equation-qagg" title="Permalink to this equation">¶</a></span>\[
+\boxed{Q(T,N) := j(T)^{N} \cdot Q_{\mathrm{rot}}(T,N) \cdot e^{-(N-1)\epsilon/k_{\mathrm{B}}T} = c\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T}} \quad (N\geq1)\; .
+\]</div>
+<p>Ohartu gaitezen <span class="math notranslate nohighlight">\(N=0\)</span> denean ez dela ez biraketarik ez, are gutxiago, elkarrekintza-energiarik egongo. Hori dela eta, partizio-funtzio intrintsekotik <span class="math notranslate nohighlight">\(Q(T,0)=j(T)^0=1\)</span> izango dugu.</p>
+<div class="section" id="ariketa">
+<h3>Ariketa<a class="headerlink" href="#ariketa" title="Permalink to this headline">¶</a></h3>
+<p><span class="math notranslate nohighlight">\((a)\)</span> Kalkulatu <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> eta <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak, baita berorien <span class="math notranslate nohighlight">\(N\rightarrow \infty\)</span> limitea ere.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<p class="card-text">Partizio-funtzio kanonikoa erabiliz (<a class="reference internal" href="#equation-qagg">(38)</a> ekuazioa), eta <span class="math notranslate nohighlight">\(N\widehat{\mu} = -k_{\mathrm{B}}T\ln Q(T,N)\)</span> betetzen dela gogora ekarriz,</p>
+<div class="math notranslate nohighlight" id="equation-muagg">
+<span class="eqno">(39)<a class="headerlink" href="#equation-muagg" title="Permalink to this equation">¶</a></span>\[\begin{split}
+\left.\begin{array}{l}
+\widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon - \frac{\ln(\alpha N^3)}{N}k_{\mathrm{B}}T \\\\
+\mu=-k_{\mathrm{B}}T\ln j + \epsilon -\frac{3}{N}k_{\mathrm{B}} T
+\end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j + \epsilon
+\end{split}\]</div>
+</div>
+</details><p><span class="math notranslate nohighlight">\((b)\)</span> Eraiki <span class="math notranslate nohighlight">\(S(T,N)/k_{\mathrm{B}}\)</span> adierazpena. Aztertu limite makroskopikoan zer gertatzen den.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Erantzuna</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<div class="math notranslate nohighlight" id="equation-stnagg">
+<span class="eqno">(40)<a class="headerlink" href="#equation-stnagg" title="Permalink to this equation">¶</a></span>\[
+\frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\ln j + NT\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \color{red}\{\color{black}1 + \ln\left(\alpha N^3\right) \color{red}\}
+\]</div>
+<p class="card-text">Giltza gorrien artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak dira, limite termodinamikoan aurreko bi gai linealek baitaukate gailentasuna. Badirudi, hortaz, sistema makroskopikoak ez duela biraketaren eragina hautemango, ez eta unitateen arteko <span class="math notranslate nohighlight">\(\epsilon\)</span> elkarrekintza ere.</p>
+</div>
+</details><p>Horiek horrela, askatasun-gradu kimikoa abiarazi, eta <strong>multzo nanokanonikora</strong> igaroko gara. Hala, adierazpenetan <span class="math notranslate nohighlight">\( x  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}\)</span> erlazioa sartuz, eta <a class="reference internal" href="#equation-upsilon-def">(37)</a> definizioan <a class="reference internal" href="#equation-qagg">(38)</a> ekuazioa txertatuz,</p>
+<div class="math notranslate nohighlight" id="equation-upsilontn">
+<span class="eqno">(41)<a class="headerlink" href="#equation-upsilontn" title="Permalink to this equation">¶</a></span>\[
+\boxed{\Upsilon(T,\mu) = 1 + c\sum_{N=1}^{\infty}  N^{3}\;x^N = 1 +  c \left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]}\; , \; \vert x \vert &lt; 1 \; ,
+\]</div>
+<p>izango dugu partizio-funtzio orokortua.</p>
+<details class="sphinx-bs dropdown card mb-3">
+<summary class="summary-title card-header">
+<strong>Seriearen garapena</strong><div class="summary-down docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="summary-up docutils">
+<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="summary-content card-body docutils">
+<p class="card-text">Abiatu gaitezen dagoeneko ezaguna dugun honako serie geometriko honetatik:</p>
+<div class="math notranslate nohighlight">
+\[
+\sum_{N=1}^{\infty}x^N = \frac{1}{1-x} \; , \; \vert x \vert &lt; 1 \; .
+\]</div>
+<p class="card-text">Jarraian, bi aldeen <span class="math notranslate nohighlight">\(x\)</span>-rekiko deribatuak kalkulatzeaz bat, <span class="math notranslate nohighlight">\(x\)</span>-rekin biderkatuko ditugu.</p>
+<div class="math notranslate nohighlight">
+\[
+\sum_{N=1}^{\infty}Nx^N = \frac{x}{(x-1)^2}
+\]</div>
+<p class="card-text">Prozedura berbera segituz, <span class="math notranslate nohighlight">\(\sum_{N=1}^{\infty}N^2x^N\)</span> kalkulatu, eta, jarraian, beharrezkoa zaigun <span class="math notranslate nohighlight">\(\sum_{N=1}^{\infty}N^3x^N\)</span> berdintza eraikiko dugu:</p>
+<div class="math notranslate nohighlight">
+\[
+\sum_{N=1}^{\infty}N^3x^N = \frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2} \; .
+\]</div>
+</div>
+</details><p>Bertatik, eta <a class="reference internal" href="#equation-epspf">(36)</a> berdintza erabiliz,</p>
+<div class="math notranslate nohighlight" id="equation-epsagg">
+<span class="eqno">(42)<a class="headerlink" href="#equation-epsagg" title="Permalink to this equation">¶</a></span>\[
+\mathcal{E}(T,\mu) = -k_{\mathrm{B}}T\ln \left\{1 + c\left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]\right\} \;
+\]</div>
+<p>da banatze-potentziala.</p>
+<p>Kontuan izan beharrekoa da, <a class="reference internal" href="#equation-muagg">(39)</a> ekuazioko <span class="math notranslate nohighlight">\(\mu^{(0)}\)</span> potentzialari erreparatuz, <span class="math notranslate nohighlight">\(x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}\)</span> berridaztea daukagula. Hortaz, limite makroskopikoan <span class="math notranslate nohighlight">\(x\rightarrow 1\)</span> beteko da. Azter dezagun, bada, batez besteko partikula-kopuruan <span class="math notranslate nohighlight">\(x\)</span> magnitudeak duen eragina.</p>
+<div class="math notranslate nohighlight" id="equation-barnagg">
+<span class="eqno">(43)<a class="headerlink" href="#equation-barnagg" title="Permalink to this equation">¶</a></span>\[
+\bar{N} := -\left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T} = c \; x \; P(0)\left[\frac{12 x(x-1)-24 x^{2}}{(x-1)^{5}}-\frac{x+1}{(x-1)^{3}}\right]
+\]</div>
+<p>Espero bezala, <span class="math notranslate nohighlight">\(\bar{N}(x\rightarrow 1) \rightarrow \infty\)</span> betetzen da. Entropiaren adierazpen berria eraiki, eta <a class="reference internal" href="#equation-barnagg">(43)</a> ekuazioaren laguntzaz trinkotuko dugu:</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {\mu}  = \bar{N}\ln j + \bar{N}T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left[1-\frac{\epsilon}{k_{\mathrm{B}} T}\right]\left[\frac{6 x^{2}}{(x-1)^{4}}+\frac{x}{(x-1)^{2}}\right] \right\}
+\]</div>
+</div>
+</div>
+<div class="section" id="adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan">
+<span id="mupt-gi"></span><h2><strong>6.3</strong> Adibidea: Gas ideal klasikoa, multzo nanokanonikoan<a class="headerlink" href="#adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan" title="Permalink to this headline">¶</a></h2>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -290,13 +541,13 @@ const thebe_selector_output = ".output, .cell_output"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Sistema txikietako fase-trantsizioak</p>
+            <p class="prev-next-title"><strong>5</strong>. Sistema txikietako fase-trantsizioak</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="adsorbent.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Gas ideala eta adsorbatzaile esferiko txikia</p>
+        <p class="prev-next-title"><strong>7</strong>. Gas ideala eta adsorbatzaile esferiko txikia</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

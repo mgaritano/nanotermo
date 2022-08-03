@@ -51,7 +51,7 @@ name: faseirudi
   $(a)$ Limite termodinamikoan, lehen ordenako fase-trantsizioan sistemak $p-\bar{V}$ __lerro isotermoari__ jarraitzen dio, $A$ egoeratik $B$-ra zuzenean igaroz. Hain zuzen, __kurba etena__ egonkortasunaren aurka doa, bertan komprimagarritasuna negatiboa baita, hots, $\kappa_{T} = -\left(\partial p/\partial V\right)_{T} < 0$. $(b)$ __Sistema txikien kasuan__,  $A$ eta $B$ egoerak aldi berean egongo dira $\Delta p$ gunean. Limite makroskopikoan, argi eta garbi, $\Delta p \rightarrow p_{0}$ beteko da.
 ```
 
-Sistema txikia baldin balitz, aldiz, trantsizioa ez litzateke hain zorrotza izango. Aurki ikusiko dugunez, $\Delta p$ presio-tartearen hedadurak lotura zuzena du sistemaren tamainarekin ($N$). Baina horri ekin aurretik, bada ildo beretik doan argitu beharreko beste kontu bat. Izan ere, [7b](faseirudi). irudiak aditzera ematen duenez, hasierako $\bar{V} _ {A}$ eta bukaerako $\bar{V}_ {B}$ bolumenen inguruan agertzen diren fluktuazioak hautemangarriak dira. Beste hitzez esateko, $\bar{V}_ {A}$ eta $\bar{V}_{B}$ bolumenen inguruetara ere zertxobait aldenduko da $P(V)$ probabilitatea. Bada, azaldutako eboluzioaren isla [8](prob). irudia da.
+Sistema txikia baldin balitz, aldiz, trantsizioa ez litzateke hain zorrotza izango. Aurki ikusiko dugunez, $\Delta p$ presio-tartearen hedadurak lotura zuzena du sistemaren tamainarekin ($N$). Baina horri ekin aurretik, bada ildo beretik doan argitu beharreko beste kontu bat. Izan ere, [7b](faseirudi) irudiak aditzera ematen duenez, hasierako $\bar{V} _ {A}$ eta bukaerako $\bar{V}_ {B}$ bolumenen inguruan agertzen diren fluktuazioak hautemangarriak dira. Beste hitzez esateko, $\bar{V}_ {A}$ eta $\bar{V}_{B}$ bolumenen inguruetara ere zertxobait aldenduko da $P(V)$ probabilitatea. Bada, azaldutako eboluzioaren isla [8](prob). irudia da.
 
 ```{figure} prob.PNG
 ---
@@ -82,7 +82,7 @@ $$
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
 
 
-Horiek horrela, darabilgun orain sistema txikien termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathcal{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathcal{N}_ {A}$ eta $\mathcal{N}_ {B}$ azpisistema dago. [4.1](tpn azter) ataletik, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
+Horiek horrela, darabilgun orain sistema txikien termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathcal{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathcal{N}_ {A}$ eta $\mathcal{N}_ {B}$ azpisistema dago. [4.1](tpn_azter) ataletik, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
 eta banaketa posible guztien ekarpena kontuan hartuz (konfigurazio-mailako entropia), energia totala hauxe dugu:
 
 $$
@@ -101,7 +101,7 @@ $$
 $$ (fracnanb)
 berdintzara iritsiko gara. So egin diezaiogun berorri.
 
-Oro har, [4.1](tpn azter) ataleko azalpenei jarraituz, potentzial kimiko integrala ingurune-aldagaien funtzioa da, hau da, $\widehat{\mu}_ {A,B} = \widehat{\mu}_ {A,B}(T,p,N)$. Hortaz, $p$ presioa finka dezakegu, halako moldez non bi potentzialak bat etorriko diren ($\widehat{\mu}_ {A} = \widehat{\mu}_ {B}$). Presioaren balio hori [7a](faseirudi) irudiko $p_{0}$ delakoa da. Era berean, {eq}`fracnanb` ekuazioaren arabera, $\mathcal{N}_ {A} = \mathcal{N}_ {B}$  beteko da. Baina, $p_{0}$ baliotik zertxobait aldenduko balitz presioa, halako moduan non $\widehat{\mu}_ {A} \gtrsim \widehat{\mu}_ {B}$ edo $\widehat{\mu}_ {B} \gtrsim \widehat{\mu}_ {A}$, $N\rightarrow\infty$ limitean sistema ia guztiek $B$ eta $A$ egoeretara egingo lukete jauzi, hurrenez hurren, eta $\mathcal{N}_ {B} \gg \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gg \mathcal{N}_ {B}$ beteko litzateke. Bestela esanda, {eq}`fracnanb` ekuazioaren limite makroskopikoa bateragarria da _bi egoeren hurbilketarekin_. Edonola ere, $N$ behar bezain handia ez balitz, aurrekoa behatzeko presioa nabarmen aldendu beharko litzateke $p_{0}$ puntutik. Hori dela eta, $\Delta p$ presio-tarte aski zabal batean $\mathcal{N} _ {B} \gtrsim \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gtrsim \mathcal{N}_{B}$ behatuko genuke, eta egoera batetik besterako jauzia leunagoa litzateke.
+Oro har, [4.1](tpn_azter) ataleko azalpenei jarraituz, potentzial kimiko integrala ingurune-aldagaien funtzioa da, hau da, $\widehat{\mu}_ {A,B} = \widehat{\mu}_ {A,B}(T,p,N)$. Hortaz, $p$ presioa finka dezakegu, halako moldez non bi potentzialak bat etorriko diren ($\widehat{\mu}_ {A} = \widehat{\mu}_ {B}$). Presioaren balio hori [7a](faseirudi) irudiko $p_{0}$ delakoa da. Era berean, {eq}`fracnanb` ekuazioaren arabera, $\mathcal{N}_ {A} = \mathcal{N}_ {B}$  beteko da. Baina, $p_{0}$ baliotik zertxobait aldenduko balitz presioa, halako moduan non $\widehat{\mu}_ {A} \gtrsim \widehat{\mu}_ {B}$ edo $\widehat{\mu}_ {B} \gtrsim \widehat{\mu}_ {A}$, $N\rightarrow\infty$ limitean sistema ia guztiek $B$ eta $A$ egoeretara egingo lukete jauzi, hurrenez hurren, eta $\mathcal{N}_ {B} \gg \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gg \mathcal{N}_ {B}$ beteko litzateke. Bestela esanda, {eq}`fracnanb` ekuazioaren limite makroskopikoa bateragarria da _bi egoeren hurbilketarekin_. Edonola ere, $N$ behar bezain handia ez balitz, aurrekoa behatzeko presioa nabarmen aldendu beharko litzateke $p_{0}$ puntutik. Hori dela eta, $\Delta p$ presio-tarte aski zabal batean $\mathcal{N} _ {B} \gtrsim \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gtrsim \mathcal{N}_{B}$ behatuko genuke, eta egoera batetik besterako jauzia leunagoa litzateke.
 
 
 Fase-trantsizioen azterketari buru emateko, aipatu beharrekoa da $p=p_{0}$ puntuan ($T,p,N$) ingurune-aldagaiek konstante iraun behar dutela. Orduan, berdintza manten dadin, balio horien inguruko aldakuntzek $\mathrm{d}\widehat{\mu} _ {A}=\mathrm{d}\widehat{\mu}_{B}$ bete behar dute nahitaez. Baldintza hori eta {eq}`dmuhat` ekuazioa erabiliz, hona helduko gara:
@@ -130,7 +130,7 @@ $$
 berdintzetara iritsiko gara. Ekuazio horren bidez {eq}`fracnanb` erlazioa berridatziko dugu:
 
 $$
-\frac{\mathcal{N} _ {A}}{\mathcal{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}T}\right]\; .
+\frac{\mathcal{N}_ {A}}{\mathcal{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
 $$
 Era berean, ekuazio beretik guztizko bolumena idatziz,
 
@@ -200,4 +200,4 @@ Agerikoa da limite makroskopikoan behatuko den tenperaturari gehitu dizkiogun ek
 
 
 
-Kapitulu honetan zehar aztertu ditugun fase-trantsizioekin loturiko iruzkinek biziki indartu dute [4.1](tpn azter) atalean aurresandakoa. Batik bat, __$\widehat{\mu}$ potentzial kimiko integralaren__ berezko izaera finkatzeko lagungarriak izan zaizkigu. Hain zuzen, ikusi dugu berori azpisistema osoek pairatzen dituzten aldaketen adierazle dela ({eq}`fracnanb` ekuazioa); eta, hartara, sistema txiki horiez osatutako __multzoaren propietateei__ erasaten diela. Aitzitik, __$\mu$ potentzial kimiko diferentzialak sistema txiki soilei__ eragiten dieten banakako molekulen aldakuntzak hartzen ditu aintzakotzat. Nanotermodinamikak zorrozki bereizten ditu bi efektu horiek. 
+Kapitulu honetan zehar aztertu ditugun fase-trantsizioekin loturiko iruzkinek biziki indartu dute [4.1](tpn_azter) atalean aurresandakoa. Batik bat, __$\widehat{\mu}$ potentzial kimiko integralaren__ berezko izaera finkatzeko lagungarriak izan zaizkigu. Hain zuzen, ikusi dugu berori azpisistema osoek pairatzen dituzten aldaketen adierazle dela ({eq}`fracnanb` ekuazioa); eta, hartara, sistema txiki horiez osatutako __multzoaren propietateei__ erasaten diela. Aitzitik, __$\mu$ potentzial kimiko diferentzialak sistema txiki soilei__ eragiten dieten banakako molekulen aldakuntzak hartzen ditu aintzakotzat. Nanotermodinamikak zorrozki bereizten ditu bi efektu horiek.

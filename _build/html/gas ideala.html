@@ -304,22 +304,22 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Aztergai dugun sistema <span class="math notranslate nohighlight">\(V\)</span> bolumenean dagoen eta <span class="math notranslate nohighlight">\(N\)</span> partikula monoatomiko aske eta bereiztezinek osatzen duten gasa da. Baldintza horiek nabarmen arinduko digute lana, aintzakotzat hartu beharreko energiarako ekarpena zinetikoa besterik ez baita izango: <span class="math notranslate nohighlight">\(H(q,p) = \sum_{i=1}^N \frac{p_{i}^2}{2m_{i}}\)</span>.</p>
 <p>Azterketa fase-espazioan abiatu dugu;  partikula bakarraren posizio- eta momentu-koordenatuak <span class="math notranslate nohighlight">\((q_{i},p_{i})\)</span> dira. Bada, egoera kuantiko baten eta fase-espazioko bolumen-elementu baten arteko erlazioa <span class="math notranslate nohighlight">\(\mathrm{d}^{3N}q\;\mathrm{d}^{3N}p/(N!h^{3N})\)</span> denez, partizio-funtzioa eraikiko dugu, <span id="id1">[<a class="reference internal" href="erreferentziak.html#id14" title="R. K. Pathria. Statistical Mechanics, 2nd Edition, chapter 1-4. ELSEVIER, Butterworth-Heinemann, Massachusetts, 1996.">12</a>]</span> liburuari jarraituz eta <span class="math notranslate nohighlight">\(\Lambda = h/\sqrt{2\pi mk_{\mathrm{B}}T}\)</span> uhin-luzera termikoa dugula gogora ekarriz.</p>
 <div class="math notranslate nohighlight" id="equation-qtvngi">
-<span class="eqno">(35)<a class="headerlink" href="#equation-qtvngi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(44)<a class="headerlink" href="#equation-qtvngi" title="Permalink to this equation">¶</a></span>\[
 Q(T, V, N)=\frac{1}{N ! h^{3 N}} \int \prod_{i=1}^{N} \mathrm{d}^{3} q_{i} \; \mathrm{d}^{3} p_{i} \; \exp\left({-\frac{1}{k_{\mathrm{B}}T} \frac{ p_{i}^2}{2 m}}\right)  = \frac{V^N}{N!\Lambda^{3N}}\; .
 \]</div>
 <p>Hala, Helmholtz-en energia askea idatziko dugu.</p>
 <div class="math notranslate nohighlight" id="equation-atvngi">
-<span class="eqno">(36)<a class="headerlink" href="#equation-atvngi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(45)<a class="headerlink" href="#equation-atvngi" title="Permalink to this equation">¶</a></span>\[
 A(T,V,N) = k_{\mathrm{B}}T\left(N\ln\frac{\Lambda^3}{V} + \ln N!\right)
 \]</div>
 <p>Aurrera egin aurretik, jabetu gaitezen adierazpenean <span class="math notranslate nohighlight">\(N!\)</span> ageri zaigula. Limite termodinamikoan <span class="math notranslate nohighlight">\(\ln N! \sim N\ln N - N\)</span> hurbilketa badarabilgu ere, Nanotermodinamikan haratago joan beharrean gaude. Horretarako, lehenbizi Stirling-en seriea idatziko dugu.</p>
 <div class="math notranslate nohighlight" id="equation-stirling">
-<span class="eqno">(37)<a class="headerlink" href="#equation-stirling" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(46)<a class="headerlink" href="#equation-stirling" title="Permalink to this equation">¶</a></span>\[
 \small \ln N! = N \ln N-N+ \ln \sqrt{2 \pi N}+\frac{1}{12 N}-\frac{1}{360 N^{3}}+\frac{1}{1260 N^{5}}-\frac{1}{1680 N^{7}}+\cdots
 \]</div>
-<p>Kontua da <span class="math notranslate nohighlight">\(N\)</span> txikia denean, <a class="reference internal" href="#equation-stirling">(37)</a> ekuazioko eskuinaldeko lehen bi gaiez bestalde, hirugarrena eta laugarrena ere kontuan izan beharko ditugula, gutxienez. Hartutako erabakia entropian islatuko dugu:</p>
+<p>Kontua da <span class="math notranslate nohighlight">\(N\)</span> txikia denean, <a class="reference internal" href="#equation-stirling">(46)</a> ekuazioko eskuinaldeko lehen bi gaiez bestalde, hirugarrena eta laugarrena ere kontuan izan beharko ditugula, gutxienez. Hartutako erabakia entropian islatuko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-stvngi">
-<span class="eqno">(38)<a class="headerlink" href="#equation-stvngi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(47)<a class="headerlink" href="#equation-stvngi" title="Permalink to this equation">¶</a></span>\[
 \boxed{ S(T,V,N) = N k_{\mathrm{B}} \left[\ln \left(\frac{V}{\Lambda^{3} N}\right)+\frac{5}{2}\right]- k_{\mathrm{B}}\left[ \ln \sqrt{2 \pi N} + \frac{1}{12N}\right]} \; .
 \]</div>
 <p>Horrela, azken bi ekarpen <em>txikiek</em> entropia txikituko dutela ohartuko gara, eta batik bat eskualde nanotermodinamikoan izango dute eragina. Bide batez, banatze-potentzialari ere erreparatuko diogu. <span class="math notranslate nohighlight">\(A(T,V,N)\)</span> energiari Legendreren bi transformazio aplikatuz, <span class="math notranslate nohighlight">\(\mathcal{E}(T,p,\mu) = A +pV - \mu_{N} N\)</span> dugu. Alde batetik, gas idealak <span class="math notranslate nohighlight">\(pV=Nk_{\mathrm{B}}T\)</span> betetzen du. Bestetik, <span class="math notranslate nohighlight">\(\mu_{N}\)</span> delakoa diferentzia-ekuazio baten bidez definituko dugu: <span class="math notranslate nohighlight">\( \mu_{N} = A_{N+1}-A_{N}\)</span>. Sistema oso txikien kasuan berori ekuazio diferentziala baino aproposagoa da.</p>
@@ -334,7 +334,7 @@ A(T,V,N) = k_{\mathrm{B}}T\left(N\ln\frac{\Lambda^3}{V} + \ln N!\right)
 \]</div>
 <p>Behin potentzial kimikoa finkatuz gero, banatze-potentziala eraikitzeko gai izango gara:</p>
 <div class="math notranslate nohighlight" id="equation-epsilon-tvn">
-<span class="eqno">(39)<a class="headerlink" href="#equation-epsilon-tvn" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(48)<a class="headerlink" href="#equation-epsilon-tvn" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] &gt; 0 \; .
 \]</div>
 <p>Askatasun-graduak abiarazi ahala, tamaina finituko ekarpen horiek ez dira bere horretan mantenduko. Azken esaldi hori Nanotermodinamikaren funtsezko ondorio bati darraio: ekuazio termodinamikoak azterketan erabiliko diren multzo estatistikoekin batera aldatu egingo dira.</p>

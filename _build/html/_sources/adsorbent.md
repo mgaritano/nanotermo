@@ -95,7 +95,7 @@ $$
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 $$
 
-Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, [15](plot1) grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma$.
+Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, [15](plot1). irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma$.
 
 ```{figure} plot1.PNG
 ---
@@ -117,7 +117,7 @@ Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trant
 
 Kurbei egokitutako parametroak argon gasari dagozkio: $\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}$ ; $\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}$ ; $\epsilon_{\text{Ar}} = 0,0104 \;$eV.
 
-Era berean, [16](plot2) irudiko kurbak eraikitzerakoan, {eq}`adshgd` ekuazioa aintzat hartuz, honako erlazioa erabili dugu.
+Era berean, [16](plot2). irudiko kurbak eraikitzerakoan, {eq}`adshgd` ekuazioa aintzat hartuz, honako erlazioa erabili dugu.
 
 $$
 \bar{n} \equiv \frac{\bar{N}}{\Omega} = - \left(\frac{\partial \widehat{\gamma}}{\partial \mu}\right)_ {T,\Omega} = \frac{1}{\Lambda^2}e^{(\mu -U_{S})/k_{\mathrm{B}}T} \; .

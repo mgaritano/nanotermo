@@ -185,7 +185,12 @@ $$
 (mupt_gi)=
 ### **6.3** Adibidea: Gas ideal klasikoa, multzo nanokanonikoan
 
-Sistema honen bigarren berrazterketaren abiapuntua [4.3](gitpn) ataleko {eq}`dtpn_gi` ekuazioa da. Hala, $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
+Sistema honen bigarren berrazterketaren abiapuntua [4.3](gitpn) ataleko {eq}`dtpn_gi` ekuazioa da.
+
+#### Ariketa
+Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $\bar{N}$, $\bar{V}$ eta $S(T,p,\mu)$ magnitudeak.
+```{dropdown} __Erantzuna__
+ $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
 $$
 \Upsilon(T,p,\mu) = \sum_{N=0}^{\infty} \left(\frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right)^{N} = \frac{1}{1 - k_{\mathrm{B}}T\lambda/(p\Lambda^3)} \; , \; \left| \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3} \right| < 1
@@ -207,8 +212,8 @@ eta, horrela, entropiaren hirugarren adierazpenera iritsiko gara.
 $$
 \boxed{S(T,p,\mu) =  \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + k_{\mathrm{B}}\ln(\bar{N} + 1)}
 $$ (stpmugi)
-
-Errepara diezaiogun multzo nanokanonikoak itzulitako entropiari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi ([12](sn100). irudia).
+```
+Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi ([12](sn100). irudia).
 
 ```{figure} sn100.PNG
 ---

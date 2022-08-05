@@ -1,3 +1,9 @@
+```{epigraph}
+$\huge \mathbf{\text{NANOTERMODINAMIKA}}$
+
+
+```
+
 
 ```{epigraph}
 _Classical thermodynamics... is the only physical theory of universal content which I am convinced that, within the framework of the applicability of its basic concepts, will never be overthrown._

@@ -47,7 +47,7 @@ $$
  (fase1order)=
  ###  **5.2** Lehen ordenako fase-trantsizioak, $(T,p,N)$ sistema txikietan
 
-Demagun sistema makroskopiko bat hasierako faseko egoeratik  bukaerako beste batera eraman nahi dugula. Lehenbiziko  egoeran, berorren egoera-ekuazioa funtzio jarraitua eta deribagarria da, hots, zuzen definituta dago. Alabaina, aldiuneren batean bigarren faserako bat-bateko aldakuntza jasango du, ez-jarraitutasun bortitzak pairatuz; alegia, sisteman lehen ordenako fase-trantsizioa gertatuko da ([7a](faseirudi) irudia).
+Demagun sistema makroskopiko bat hasierako faseko egoeratik  bukaerako beste batera eraman nahi dugula. Lehenbiziko  egoeran, bere egoera-ekuazioa funtzio jarraitua eta deribagarria da, hots, zuzen definituta dago. Alabaina, aldiuneren batean bigarren faserako bat-bateko aldakuntza jasango du, ez-jarraitutasun bortitzak pairatuz; alegia, sisteman lehen ordenako fase-trantsizioa gertatuko da ([7a](faseirudi) irudia).
 
 
 ```{figure} faseirudi.PNG
@@ -74,7 +74,7 @@ $$
 P(V_{i}) := \frac{Q(T,V_{i},N)e^{- pV_{i}/k_{\mathrm{B}}T}}{\sum_{V_{i}}Q(T,V_{i},N)e^{-pV_{i}/k_{\mathrm{B}}T}} = \frac{Q(T,V_{i},N)e^{-pV_{i}/k_{\mathrm{B}}T}}{\Delta(T,p,N)}\;.
 $$ (pvi)
 
-Orain, [8](prob). irudiaren inguruko iruzkinei jarraikiz,  $P(\bar{V} _ {A,B})/P(\bar{V} _ {0})$ erlazioa kalkulatuko dugu, zeina _bi egoeren hurbilketaren_ erabileraren zilegitasunaren adierazle izango den. Azterketa fisika estatistikotik bideratuko dugu, {cite}`sm` liburuaren laguntzaz. Kontua da $A$ eta $B$ egoeren erdian dagoen egoera batean jatorrizko biak ere azalduko direla, bereizte-geruza baten bidez bananduta. Bertako molekula-kopurua $N^{2/3}$ inguru izango da, eta, hortaz, molekula horien arteko elkarrekintzek $A(T,V,N)$ energiarako ekarpena izango dute, zeina, hain zuzen, $N^{2/3}k_{\mathrm{B}}T$ ordenakoa izango den. Puntu horren inguruko partizio-funtzioak, hartara, itxura hau izango du:
+Orain, [8](prob). irudiaren inguruko iruzkinei jarraikiz,  $P(\bar{V} _ {A,B})/P(\bar{V} _ {0})$ erlazioa kalkulatuko dugu, zeina _bi egoeren hurbilketaren_ erabileraren zilegitasunaren adierazlea izango den. Azterketa Fisika Estatistikotik bideratuko dugu, {cite}`sm` liburuaren laguntzaz. Kontua da $A$ eta $B$ egoeren erdian dagoen egoera batean jatorrizko biak ere azalduko direla, bereizte-geruza baten bidez bananduta. Bertako molekula-kopuruaren magnitude-ordena $N^{2/3}$ izango da, eta, hortaz, molekula horien arteko elkarrekintzek $A(T,V,N)$ energiarako ekarpena izango dute, zeina, hain zuzen, $N^{2/3}k_{\mathrm{B}}T$ ordenakoa izango den. Puntu horren inguruko partizio-funtzioak, hartara, itxura hau izango du:
 
 $$
 Q(T,\bar{V} _ {0},N) = e^{-A(T,V,N)/k_{\mathrm{B}}T-N^{2/3}} = Q(T,V,N)e^{-N^{2/3}} \; .
@@ -89,7 +89,7 @@ $$
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
 
 
-Horiek horrela, darabilgun orain sistema txikien termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathcal{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathcal{N}_ {A}$ eta $\mathcal{N}_ {B}$ azpisistema dago. [4.1](tpn_azter) ataletik, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
+Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathcal{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathcal{N}_ {A}$ eta $\mathcal{N}_ {B}$ azpisistema dago. [4.1](tpn_azter) ataletik, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
 eta banaketa posible guztien ekarpena kontuan hartuz (konfigurazio-mailako entropia), energia totala hauxe dugu:
 
 $$
@@ -123,7 +123,7 @@ Jakina, aztergai dugun puntuan $\Delta \widehat{\mu} = \widehat{\mu} _ {B}-\wide
 $$
 \boxed{\left(\frac{\partial p}{\partial T}\right)_ {N} = \frac{\Delta S}{\Delta V}\quad ; \quad \left(\frac{\partial T}{\partial N}\right)_ {p} = \frac{\Delta \mu}{N\Delta \mathrm{s}}\quad ; \quad \left(\frac{\partial p}{\partial N}\right)_{T} = -\frac{\Delta \mu}{N\Delta \mathrm{v}}} \quad ,
 $$ (neweq)
-non $\mathrm{v} = V/N$ eta $\mathrm{s} = S/N$ diren. Ekuazio-sortako bigarren eta hirugarren erlazioak ez dira termodinamikan ageri. Beroriek argiro iradokitzen dute tenperatura eta presioa ez direla, oro har, magnitude intentsiboak. Bada, ildo beretik, eta, aurrerapen gisara, [5.2.2](cryst_melt) adibidean, tamainarekiko menpekoa den $T$ tenperatura lortuko dugu.
+non $\mathrm{v} = V/N$ eta $\mathrm{s} = S/N$ diren. Ekuazio-sortako bigarren eta hirugarren erlazioak ez dira Termodinamikan ageri. Beroriek argiro iradokitzen dute tenperatura eta presioa ez direla, oro har, magnitude intentsiboak. Bada, ildo beretik, eta, aurrerapen gisara, [5.2.2](cryst_melt) adibidean, tamainarekiko menpekoa den $T$ tenperatura lortuko dugu.
 
 
 (fase_simple)=
@@ -207,4 +207,4 @@ Agerikoa da limite makroskopikoan behatuko den tenperaturari gehitu dizkiogun ek
 
 
 
-Kapitulu honetan zehar aztertu ditugun fase-trantsizioekin loturiko iruzkinek biziki indartu dute [4.1](tpn_azter) atalean aurresandakoa. Batik bat, __$\widehat{\mu}$ potentzial kimiko integralaren__ berezko izaera finkatzeko lagungarriak izan zaizkigu. Hain zuzen, ikusi dugu berori azpisistema osoek pairatzen dituzten aldaketen adierazle dela ({eq}`fracnanb` ekuazioa); eta, hartara, sistema txiki horiez osatutako __multzoaren propietateei__ erasaten diela. Aitzitik, __$\mu$ potentzial kimiko diferentzialak sistema txiki soilei__ eragiten dieten banakako molekulen aldakuntzak hartzen ditu aintzakotzat. Nanotermodinamikak zorrozki bereizten ditu bi efektu horiek.
+Kapitulu honetan zehar aztertu ditugun fase-trantsizioekin loturiko iruzkinek biziki indartu dute [4.1](tpn_azter) atalean aurresandakoa. Batik bat, __$\widehat{\mu}$ potentzial kimiko integralaren__ berezko izaera finkatzeko lagungarriak izan zaizkigu. Hain zuzen, ikusi dugu berori azpisistema osoek pairatzen dituzten aldaketen adierazlea dela ({eq}`fracnanb` ekuazioa); eta, hartara, sistema txiki horiez osatutako __multzoaren propietateei__ erasaten diela. Aitzitik, __$\mu$ potentzial kimiko diferentzialak sistema txiki soilei__ eragiten dieten banakako molekulen aldakuntzak hartzen ditu aintzakotzat. Nanotermodinamikak zorrozki bereizten ditu bi efektu horiek.

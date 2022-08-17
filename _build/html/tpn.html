@@ -159,6 +159,11 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="ondorioak.html">
+   Ondorioak
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="euler.html">
    <strong>
     <em>
@@ -401,7 +406,7 @@ Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohi
 <p>Kontrol-aldagaitzat <span class="math notranslate nohighlight">\((T,p,N)\)</span> dituzten sistema txikiek <span class="math notranslate nohighlight">\(\bar{E}=E_{t}/\mathcal{N}\)</span>, <span class="math notranslate nohighlight">\(\bar{V}=V_{t}/\mathcal{N}\)</span> eta <span class="math notranslate nohighlight">\(N=N_{t}/\mathcal{N}\)</span> aldagai estentsiboak izango dituzte.</p>
 <div class="section" id="ariketa">
 <h3>Ariketa<a class="headerlink" href="#ariketa" title="Permalink to this headline">¶</a></h3>
-<p>Aurreko esaldian aipatutakoa aintzat hartuz, eta <span class="xref myst"></span>. ataleko azalpenei segituz, eraiki honako adierazpenak:</p>
+<p>Aurreko esaldian aipatutakoa aintzat hartuz, eta <a class="reference internal" href="hill.html#hillsec"><span class="std std-ref">3</span></a>. ataleko azalpenei segituz, eraiki honako adierazpenak:</p>
 <p><span class="math notranslate nohighlight">\((a)\)</span> Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta <span class="math notranslate nohighlight">\(X(T,p,N)\)</span> aldaki-energia. Emaitzak azaldu.</p>
 <details class="sphinx-bs dropdown card mb-3">
 <summary class="summary-title card-header">
@@ -412,7 +417,7 @@ Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohi
 </summary><div class="summary-content card-body docutils">
 <div class="math notranslate nohighlight">
 \[
-\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
+\mathrm{d}E_{t}(S_{t},V_{t},N,\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
 \]</div>
 <div class="math notranslate nohighlight">
 \[
@@ -467,7 +472,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 \]</div>
 </div>
 </details><p><strong>———————————————————————————————————————————–</strong></p>
-<p>Ariketa horretako <span class="math notranslate nohighlight">\((c)\)</span> atalean, sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa erakusten du: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
+<p>Ariketa horretako <span class="math notranslate nohighlight">\((c)\)</span> atalean, sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa agertzen da: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
 <div class="math notranslate nohighlight" id="equation-dmuhat">
 <span class="eqno">(15)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
@@ -488,7 +493,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <div class="section" id="adibidea-helize-haril-trantsizioa">
 <span id="helix-coil"></span><h2><strong>4.2</strong> Adibidea: helize-haril trantsizioa<a class="headerlink" href="#adibidea-helize-haril-trantsizioa" title="Permalink to this headline">¶</a></h2>
-<p>Esku artean dugun sistema <a class="reference internal" href="#heco"><span class="std std-ref">3</span></a>. irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, <span class="math notranslate nohighlight">\(l_{H}\)</span> eta <span class="math notranslate nohighlight">\(l_{C}\)</span> luzerako <span class="math notranslate nohighlight">\(n_{H}\)</span> helize- eta <span class="math notranslate nohighlight">\(n_{C} = N - n_{H}\)</span> haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta <span class="math notranslate nohighlight">\(N\)</span> aldaezin mantenduko dela. Azterketa termodinamikoa <span class="math notranslate nohighlight">\((T,f,N)\)</span> aldagai-sortaren bitartez gauzatuko dugu, <span class="math notranslate nohighlight">\(f\)</span> indarraren konjokatu estentsiboa <span class="math notranslate nohighlight">\(\bar{l}\)</span>, unitateen batez besteko luzera, hartuta.</p>
+<p>Esku artean dugun sistema <a class="reference internal" href="#heco"><span class="std std-ref">3</span></a>. irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, <span class="math notranslate nohighlight">\(l_{H}\)</span> eta <span class="math notranslate nohighlight">\(l_{C}\)</span> luzerako <span class="math notranslate nohighlight">\(n_{H}\)</span> helize- eta <span class="math notranslate nohighlight">\(n_{C} = N - n_{H}\)</span> haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta <span class="math notranslate nohighlight">\(N\)</span> aldaezin mantenduko dela. Azterketa termodinamikoa <span class="math notranslate nohighlight">\((T,f,N)\)</span> aldagai-sortaren bitartez gauzatuko dugu, <span class="math notranslate nohighlight">\(f\)</span> indarraren konjokatu estentsiboa <span class="math notranslate nohighlight">\(\bar{l}\)</span>, katearen batez besteko luzera, hartuta.</p>
 <div class="figure align-default" id="id1">
 <span id="heco"></span><a class="reference internal image-reference" href="_images/helix-coil.PNG"><img alt="_images/helix-coil.PNG" src="_images/helix-coil.PNG" style="height: 200px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">“Helize-haril” kateak helize-unitateak (<span class="math notranslate nohighlight">\(H\)</span>) eta haril-unitateak (<span class="math notranslate nohighlight">\(C\)</span>) dauzka. Mutur banatan <span class="math notranslate nohighlight">\(f\)</span>  indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, <span class="math notranslate nohighlight">\(N\rightarrow \infty\)</span> hurbilketa asintotikoa ez badarabilgu, katean sistema txikien berezitasunak azaleratuko dira. Oroz gain, beroriek makroskopikoki intentsiboak diren aldagaiei nabarmenki erasango diete.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
@@ -535,7 +540,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 \mu := \left(\frac{\partial F}{\partial N}\right)_{T,f} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right]
 \]</div>
 </div>
-</details><p><span class="math notranslate nohighlight">\((b)\)</span> Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, <span class="math notranslate nohighlight">\(r = 0,5 ; r = 0,98\)</span> eta <span class="math notranslate nohighlight">\(r=1,05\)</span> balioak erabiliz.</p>
+</details><p><span class="math notranslate nohighlight">\((b)\)</span> Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, <span class="math notranslate nohighlight">\(r = 0,5 \; ;  \; r = 0,98\)</span> eta <span class="math notranslate nohighlight">\(r=1,05\)</span> balioak erabiliz.</p>
 <details class="sphinx-bs dropdown card mb-3">
 <summary class="summary-title card-header">
 <strong>Erantzuna</strong><div class="summary-down docutils">
@@ -553,7 +558,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 </div>
 </details><p><strong>———————————————————————————————————————————–</strong></p>
-<p>Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak <span class="math notranslate nohighlight">\(r\)</span> erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz <span class="math notranslate nohighlight">\(\bar{n} _ {H}/N \)</span>. Orain arte ez bezala, aurrerantzean <span class="math notranslate nohighlight">\(n_{H}\)</span> kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: <span class="math notranslate nohighlight">\(\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}\)</span>. Bada, horretarako, <span class="math notranslate nohighlight">\(\bar{n} _ {H}\)</span> itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:</p>
+<p>Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak <span class="math notranslate nohighlight">\(r\)</span> erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz (<span class="math notranslate nohighlight">\(\bar{n} _ {H}/N \)</span>). Orain arte ez bezala, aurrerantzean <span class="math notranslate nohighlight">\(n_{H}\)</span> kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: <span class="math notranslate nohighlight">\(\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}\)</span>. Bada, horretarako, <span class="math notranslate nohighlight">\(\bar{n} _ {H}\)</span> itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:</p>
 <div class="math notranslate nohighlight" id="equation-nhdef">
 <span class="eqno">(19)<a class="headerlink" href="#equation-nhdef" title="Permalink to this equation">¶</a></span>\[
 \bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
@@ -590,7 +595,11 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <div class="section" id="adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan">
 <span id="gitpn"></span><h2><strong>4.3</strong> Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan<a class="headerlink" href="#adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan" title="Permalink to this headline">¶</a></h2>
-<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref"><em><strong>C</strong></em></span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan <a class="reference internal" href="gas%20ideala.html#equation-qtvngi">(35)</a> zaharrari Legendreren transformazioa aplikatuz.</p>
+<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref"><em><strong>C</strong></em></span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan <a class="reference internal" href="gas%20ideala.html#equation-qtvngi">(70)</a> zaharrari Legendreren transformazioa aplikatuz.</p>
+<div class="math notranslate nohighlight" id="equation-dtpn-gi">
+<span class="eqno">(22)<a class="headerlink" href="#equation-dtpn-gi" title="Permalink to this equation">¶</a></span>\[
+\Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
+\]</div>
 <div class="admonition-oharra admonition">
 <p class="admonition-title">Oharra</p>
 <div class="math notranslate nohighlight">
@@ -598,22 +607,18 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
  \int_{0}^{\infty}\mathrm{d}x \; x^n e^{-ax} = \Gamma(n+1)a^{-n-1}
  \]</div>
 </div>
-<div class="math notranslate nohighlight" id="equation-dtpn-gi">
-<span class="eqno">(22)<a class="headerlink" href="#equation-dtpn-gi" title="Permalink to this equation">¶</a></span>\[
-\Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
-\]</div>
 <p>Aipatzekoa da jada ez dela <span class="math notranslate nohighlight">\(N!\)</span> agertzen. Are gehiago, Gibbs-en energia askea idatziz gero,</p>
 <div class="math notranslate nohighlight" id="equation-ftpngi">
 <span class="eqno">(23)<a class="headerlink" href="#equation-ftpngi" title="Permalink to this equation">¶</a></span>\[
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 \]</div>
-<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula (ikus <a class="reference internal" href="gas%20ideala.html#equation-epsilon-tvn">(39)</a> ekuazioa).</p>
+<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula (ikus <a class="reference internal" href="gas%20ideala.html#equation-epsilon-tvn">(74)</a> ekuazioa).</p>
 <p>Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:</p>
 <div class="math notranslate nohighlight" id="equation-stpngi">
 <span class="eqno">(24)<a class="headerlink" href="#equation-stpngi" title="Permalink to this equation">¶</a></span>\[
 \boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 \]</div>
-<p>Berori <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(38)</a> ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
+<p>Berori <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(73)</a> ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
 <p>Aurrerago, <a class="reference internal" href="tpmu.html#tpmu"><span class="std std-ref">6</span></a>. atalean, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.</p>
 </div>
 </div>

@@ -89,13 +89,13 @@ $$
 U(a, r) =  \int_{\text{V}}\mathrm{d}^{3}\mathbf{r}\;u(r) = \frac{16 \pi \epsilon \rho \sigma^{3}}{3}\left[\frac{\left(15 a^{3} r^{6}+63 a^{5} r^{4}+45 a^{7} r^{2}+5 a^{9}\right) \sigma^{9}}{15\left(r^{2}-a^{2}\right)^{9}}-\frac{a^{3} \sigma^{3}}{\left(r^{2}-a^{2}\right)^{3}}\right] \; .
 $$ (uar)
 
-Segidan, {eq}`uar`adierazpena minimizatuko dugu, hartara $a$ eta $R$ erradioen arteko erlazioa ezartzeko, eta, era berean, $U_{S}$ oreka-potentziala erdiesteko.
+Segidan, {eq}`uar` adierazpena minimizatuko dugu, hartara $a$ eta $R$ erradioen arteko erlazioa ezartzeko, eta, era berean, $U_{S}$ oreka-potentziala erdiesteko.
 
 $$
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 $$
 
-Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, [15](plot1). irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma$.
+Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, [15](plot1). irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;$.
 
 ```{figure} plot1.PNG
 ---
@@ -115,7 +115,7 @@ Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trant
 
 ```
 
-Kurbei egokitutako parametroak argon gasari dagozkio: $\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}$ ; $\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}$ ; $\epsilon_{\text{Ar}} = 0,0104 \;$eV.
+Kurbei egokitutako parametroak argon gasari dagozkio: $\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}$ ; $\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}$ ; $\epsilon_{\text{Ar}} = 0,0104 \; \mathrm{eV}$.
 
 Era berean, [16](plot2). irudiko kurbak eraikitzerakoan, {eq}`adshgd` ekuazioa aintzat hartuz, honako erlazioa erabili dugu.
 

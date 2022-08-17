@@ -56,7 +56,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="A Eulerren ekuazioa" href="euler.html" />
+    <link rel="next" title="Ondorioak" href="ondorioak.html" />
     <link rel="prev" title="6. Multzo nanokanonikoa: \((T,p,\mu)\) ingurune-aldagaiak" href="tpmu.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -159,6 +159,11 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="ondorioak.html">
+   Ondorioak
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="euler.html">
    <strong>
     <em>
@@ -192,11 +197,6 @@ const thebe_selector_output = ".output, .cell_output"
    <em>
     Gas ideal klasikoa, multzo kanonikoan
    </em>
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ondorioak.html">
-   Ondorioak
   </a>
  </li>
  <li class="toctree-l1">
@@ -427,12 +427,12 @@ u(r) = 4\epsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r
 <span class="eqno">(68)<a class="headerlink" href="#equation-uar" title="Permalink to this equation">¶</a></span>\[
 U(a, r) =  \int_{\text{V}}\mathrm{d}^{3}\mathbf{r}\;u(r) = \frac{16 \pi \epsilon \rho \sigma^{3}}{3}\left[\frac{\left(15 a^{3} r^{6}+63 a^{5} r^{4}+45 a^{7} r^{2}+5 a^{9}\right) \sigma^{9}}{15\left(r^{2}-a^{2}\right)^{9}}-\frac{a^{3} \sigma^{3}}{\left(r^{2}-a^{2}\right)^{3}}\right] \; .
 \]</div>
-<p>Segidan, <a class="reference internal" href="#equation-uar">(68)</a>adierazpena minimizatuko dugu, hartara <span class="math notranslate nohighlight">\(a\)</span> eta <span class="math notranslate nohighlight">\(R\)</span> erradioen arteko erlazioa ezartzeko, eta, era berean, <span class="math notranslate nohighlight">\(U_{S}\)</span> oreka-potentziala erdiesteko.</p>
+<p>Segidan, <a class="reference internal" href="#equation-uar">(68)</a> adierazpena minimizatuko dugu, hartara <span class="math notranslate nohighlight">\(a\)</span> eta <span class="math notranslate nohighlight">\(R\)</span> erradioen arteko erlazioa ezartzeko, eta, era berean, <span class="math notranslate nohighlight">\(U_{S}\)</span> oreka-potentziala erdiesteko.</p>
 <div class="math notranslate nohighlight">
 \[
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 \]</div>
-<p>Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan <span class="math notranslate nohighlight">\(\rho = 3/\left[4\pi(\sigma/2)^3\right]\)</span> hartzen da. Gauzak horrela, <a class="reference internal" href="#plot1"><span class="std std-ref">15</span></a>. irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako <a class="reference internal" href="#equation-ghat">(65)</a> eta <a class="reference internal" href="#equation-g">(66)</a> ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: <span class="math notranslate nohighlight">\(\mathcal{E}/\Omega = \widehat{\gamma} - \gamma\)</span>.</p>
+<p>Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan <span class="math notranslate nohighlight">\(\rho = 3/\left[4\pi(\sigma/2)^3\right]\)</span> hartzen da. Gauzak horrela, <a class="reference internal" href="#plot1"><span class="std std-ref">15</span></a>. irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako <a class="reference internal" href="#equation-ghat">(65)</a> eta <a class="reference internal" href="#equation-g">(66)</a> ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: <span class="math notranslate nohighlight">\(\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;\)</span>.</p>
 <div class="figure align-default" id="plot1">
 <a class="reference internal image-reference" href="_images/plot1.PNG"><img alt="_images/plot1.PNG" src="_images/plot1.PNG" style="height: 300px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">Sistema txikia denean (esaterako, <span class="math notranslate nohighlight">\(a/\sigma&lt;40\)</span> eremuan), gainazal-tentsioak nabarmenki estentsiboak dira, eta, horrez gain, bi kurbak argi bereiz daitezke. Dena den, adsorbatzailearen tamainak gora egin ahala, banatze-potentziala indargabetuz doa. Hori dela eta, <span class="math notranslate nohighlight">\(\widehat{\gamma}\)</span> eta <span class="math notranslate nohighlight">\(\gamma\)</span> kurbek gutxinaka izaera intentsiboa berreskuratu, eta, era berean, bat egitera joko dute. Hala, <span class="math notranslate nohighlight">\(a/\sigma = 100\)</span> puntuan sistema jada eskualde makroskopikorako trantsiziora gerturatzen dabil.</span><a class="headerlink" href="#plot1" title="Permalink to this image">¶</a></p>
@@ -441,7 +441,7 @@ U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 <a class="reference internal image-reference" href="_images/plot2.PNG"><img alt="_images/plot2.PNG" src="_images/plot2.PNG" style="height: 300px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trantsizio are bortitzagoa pairatzen dute (<span class="math notranslate nohighlight">\(a/\sigma \approx 50\)</span>). Halaber, gainazal-tentsio integralak bi dimentsioko gas idealaren legeari segitzen diola ikus daiteke, hots, <span class="math notranslate nohighlight">\(-\widehat{\gamma}\Omega = \bar{N}k_{\mathrm{B}}T\)</span>.</span><a class="headerlink" href="#plot2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Kurbei egokitutako parametroak argon gasari dagozkio: <span class="math notranslate nohighlight">\(\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\epsilon_{\text{Ar}} = 0,0104 \;\)</span>eV.</p>
+<p>Kurbei egokitutako parametroak argon gasari dagozkio: <span class="math notranslate nohighlight">\(\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\epsilon_{\text{Ar}} = 0,0104 \; \mathrm{eV}\)</span>.</p>
 <p>Era berean, <a class="reference internal" href="#plot2"><span class="std std-ref">16</span></a>. irudiko kurbak eraikitzerakoan, <a class="reference internal" href="#equation-adshgd">(61)</a> ekuazioa aintzat hartuz, honako erlazioa erabili dugu.</p>
 <div class="math notranslate nohighlight" id="equation-nadsorb">
 <span class="eqno">(69)<a class="headerlink" href="#equation-nadsorb" title="Permalink to this equation">¶</a></span>\[
@@ -495,10 +495,10 @@ U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
             <p class="prev-next-title"><strong>6</strong>. Multzo nanokanonikoa: <span class="math notranslate nohighlight">\((T,p,\mu)\)</span> ingurune-aldagaiak</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="euler.html" title="next page">
+    <a class='right-next' id="next-link" href="ondorioak.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><strong><em>A</em></strong> <em>Eulerren ekuazioa</em></p>
+        <p class="prev-next-title">Ondorioak</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

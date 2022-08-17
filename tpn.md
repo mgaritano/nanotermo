@@ -13,13 +13,13 @@ Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathcal{N
 
 ####  Ariketa
 
-Aurreko esaldian aipatutakoa aintzat hartuz, eta [](hillsec). ataleko azalpenei segituz, eraiki honako adierazpenak:
+Aurreko esaldian aipatutakoa aintzat hartuz, eta [3](hillsec). ataleko azalpenei segituz, eraiki honako adierazpenak:
 
 $(a)$ Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta $X(T,p,N)$ aldaki-energia. Emaitzak azaldu.
 
 ```{dropdown} __Erantzuna__
 $$
-\mathrm{d}E_{t}(S_{t},V,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
+\mathrm{d}E_{t}(S_{t},V_{t},N,\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
 $$
 $$
 X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
@@ -56,7 +56,7 @@ $$
 **-----------------------------------------------------------------------------------------------------------------------------------**
 
 
-Ariketa horretako $(c)$ atalean, sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa erakusten du: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
+Ariketa horretako $(c)$ atalean, sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
 
 $$
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
@@ -81,7 +81,7 @@ Jarraian datorkigun [4.2](helix_coil) adibidean $\widehat{\mu}$ eta $\mu$ potent
 (helix_coil)=
 ###  **4.2** Adibidea: helize-haril trantsizioa
 
-Esku artean dugun sistema [3](heco). irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjokatu estentsiboa $\bar{l}$, unitateen batez besteko luzera, hartuta.
+Esku artean dugun sistema [3](heco). irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjokatu estentsiboa $\bar{l}$, katearen batez besteko luzera, hartuta.
 
 (heco)=
 ```{figure} helix-coil.PNG
@@ -134,7 +134,7 @@ $$
 $$
 ```
 
-$(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, $r = 0,5 ; r = 0,98$ eta $r=1,05$ balioak erabiliz.
+$(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, $r = 0,5 \; ;  \; r = 0,98$ eta $r=1,05$ balioak erabiliz.
 
 ```{dropdown} __Erantzuna__
 $$
@@ -152,7 +152,7 @@ name: epsilon_tfn
 
 **-----------------------------------------------------------------------------------------------------------------------------------**
 
-Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $\bar{n} _ {H}/N $. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}$. Bada, horretarako, $\bar{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
+Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz ($\bar{n} _ {H}/N $). Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}$. Bada, horretarako, $\bar{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
 
 $$
 \bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
@@ -204,17 +204,17 @@ Fase-trantsizioen gaian murgildutakoan ([5.](fase) atalean) izango dugu [5](nhpl
 (gitpn)=
 ###  **4.3** Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
 
-Bigarren sistemaren azterketa [___C___](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, berorri askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan {eq}`qtvngi` zaharrari Legendreren transformazioa aplikatuz.
+Bigarren sistemaren azterketa [___C___](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan {eq}`qtvngi` zaharrari Legendreren transformazioa aplikatuz.
+
+$$
+\Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
+$$ (dtpn_gi)
 
 ```{admonition} Oharra
  $$
  \int_{0}^{\infty}\mathrm{d}x \; x^n e^{-ax} = \Gamma(n+1)a^{-n-1}
  $$
 ```
-
-$$
-\Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
-$$ (dtpn_gi)
 
 Aipatzekoa da jada ez dela $N!$ agertzen. Are gehiago, Gibbs-en energia askea idatziz gero,
 

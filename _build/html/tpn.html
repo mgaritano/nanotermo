@@ -160,7 +160,9 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ondorioak.html">
-   Ondorioak
+   <strong>
+    Ondorioak
+   </strong>
   </a>
  </li>
  <li class="toctree-l1">
@@ -415,12 +417,12 @@ Hala, ibilbide hori multzo isotermo-isobaroan <span class="math notranslate nohi
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-dettpn">
+<span class="eqno">(15)<a class="headerlink" href="#equation-dettpn" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}E_{t}(S_{t},V_{t},N,\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
 \]</div>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-xtpn">
+<span class="eqno">(16)<a class="headerlink" href="#equation-xtpn" title="Permalink to this equation">¶</a></span>\[
 X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
 \]</div>
 </div>
@@ -441,12 +443,12 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-detpn">
+<span class="eqno">(17)<a class="headerlink" href="#equation-detpn" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
 \]</div>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-etpn">
+<span class="eqno">(18)<a class="headerlink" href="#equation-etpn" title="Permalink to this equation">¶</a></span>\[
 \bar{E} = TS - p\bar{V} + \widehat{\mu}N
 \]</div>
 </div>
@@ -458,23 +460,23 @@ X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-ftpn">
+<span class="eqno">(19)<a class="headerlink" href="#equation-ftpn" title="Permalink to this equation">¶</a></span>\[
 F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 \]</div>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-dftpn">
+<span class="eqno">(20)<a class="headerlink" href="#equation-dftpn" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
 \]</div>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-mumuhat">
+<span class="eqno">(21)<a class="headerlink" href="#equation-mumuhat" title="Permalink to this equation">¶</a></span>\[
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
 \]</div>
 </div>
 </details><p><strong>———————————————————————————————————————————–</strong></p>
-<p>Ariketa horretako <span class="math notranslate nohighlight">\((c)\)</span> atalean, sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa agertzen da: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
+<p>Gaineko <a class="reference internal" href="#equation-ftpn">(19)</a> ekuazioan sistema txikiaren Gibbs-en energia askearen eta <strong>potentzial kimiko integralaren</strong> arteko erlazioa agertzen da: <span class="math notranslate nohighlight">\(F := \widehat{\mu}N\)</span>. Azken horrek, <span class="math notranslate nohighlight">\(\mu\)</span> <strong>potentzial kimiko diferentzialarekin</strong> batera, banatze-potentziala finkatzen du. Ildo horri segituz, <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> potentzialak ekuazio hau beteko du:</p>
 <div class="math notranslate nohighlight" id="equation-dmuhat">
-<span class="eqno">(15)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(22)<a class="headerlink" href="#equation-dmuhat" title="Permalink to this equation">¶</a></span>\[
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
 \]</div>
 <p>Interesgarria litzateke <span class="math notranslate nohighlight">\(\mathrm{d}\mu\)</span> potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,</p>
@@ -484,10 +486,10 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 \]</div>
 <p>Horrenbestez,</p>
 <div class="math notranslate nohighlight" id="equation-dmu">
-<span class="eqno">(16)<a class="headerlink" href="#equation-dmu" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(23)<a class="headerlink" href="#equation-dmu" title="Permalink to this equation">¶</a></span>\[
 \boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathcal{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
 \]</div>
-<p>Ikus daitekeen legez, <a class="reference internal" href="#equation-dmuhat">(15)</a> eta <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek <span class="math notranslate nohighlight">\(N\)</span> aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, <a class="reference internal" href="#equation-dmu">(16)</a> ekuazioko azkenengo gaia <span class="math notranslate nohighlight">\(\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N\)</span> dugu, zeina ez baita nulua. Horrek <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, <span class="math notranslate nohighlight">\(\mu = \mu(T,p,N)\)</span> erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, <a class="reference internal" href="nanointro.html#equation-gibbs-duhem">(3)</a> erlazioarekin (Gibbs-Duhem).</p>
+<p>Ikus daitekeen legez, <a class="reference internal" href="#equation-dmuhat">(22)</a> eta <a class="reference internal" href="#equation-dmu">(23)</a> ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek <span class="math notranslate nohighlight">\(N\)</span> aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, <a class="reference internal" href="#equation-dmu">(23)</a> ekuazioko azkenengo gaia <span class="math notranslate nohighlight">\(\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N\)</span> dugu, zeina ez baita nulua. Horrek <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, <span class="math notranslate nohighlight">\(\mu = \mu(T,p,N)\)</span> erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, <a class="reference internal" href="nanointro.html#equation-gibbs-duhem">(3)</a> erlazioarekin (Gibbs-Duhem).</p>
 <p>Jarraian datorkigun <a class="reference internal" href="#helix-coil"><span class="std std-ref">4.2</span></a> adibidean <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> eta <span class="math notranslate nohighlight">\(\mu\)</span> potentzial-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen itxura behatuko dugu.</p>
 </div>
 </div>
@@ -500,16 +502,16 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <p>Demagun orain haril-unitateak (<span class="math notranslate nohighlight">\(C\)</span>) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: <span class="math notranslate nohighlight">\(C\;H\;H\;H\;C\)</span> ; <span class="math notranslate nohighlight">\(C\;C\;H\;H\;H\)</span> ; <span class="math notranslate nohighlight">\(H\;H\;H\;C\;C\)</span>. Orokortuz, baldintza horrek sistemari <span class="math notranslate nohighlight">\(g(n_{H}) = N-n_{H}+1\)</span> endekapena lekarkioke. Jakina, <span class="math notranslate nohighlight">\(H\)</span>-unitaterik ez balego, <span class="math notranslate nohighlight">\(g=1\)</span> izango genuke, sistemak bakarrik <span class="math notranslate nohighlight">\(C\)</span>-unitateak baileuzkake. <span class="math notranslate nohighlight">\(C\)</span>- eta <span class="math notranslate nohighlight">\(H\)</span>-unitateen partizio-funtzio kanonikoak <span class="math notranslate nohighlight">\(q_{H}(T)\)</span> eta <span class="math notranslate nohighlight">\(q_{C}(T)\)</span> izendatuko ditugu. Beraz, kate osora zabalduz, <span class="math notranslate nohighlight">\(Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}\)</span> genuke. Horiek horrela, <span class="math notranslate nohighlight">\(\Delta(T,f,N)\)</span> partizio-funtzioa eraikiko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-d">
-<span class="eqno">(17)<a class="headerlink" href="#equation-d" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(24)<a class="headerlink" href="#equation-d" title="Permalink to this equation">¶</a></span>\[
 \Delta := \sum_{l} Q(T,l,N)e^{fl/k_{\mathrm{B}}T}
      = \sum_{n_{H}=0}^{N} g(n_{H})q_{C}^{N-n_{H}}q_{H}^{n_{H}}e^{\left[\left(N-n_{H}\right)l_{C} + n_{H}l_{H}\right]f/k_{\mathrm{B}}T} \; .
 \]</div>
 <p>Batukariaren kalkulua saihesteko, eta, batez ere, bertatik eratortzen diren magnitudeen adierazpenak laburbiltzeko, hurbilketa nahiko gordina erabiliko dugu: unitate guztiak soilik <span class="math notranslate nohighlight">\(H\)</span> egoeran edo soilik <span class="math notranslate nohighlight">\(C\)</span> egoeran egon daitezke. Irudiko adibidean, esaterako, <span class="math notranslate nohighlight">\(H\;H\;H\;H\;H\)</span> eta <span class="math notranslate nohighlight">\(C\;C\;C\;C\;C\)</span> sortak izan ahalko genituzke. Horrela, bada, batukaritik <span class="math notranslate nohighlight">\(n_{H}=0\)</span> eta <span class="math notranslate nohighlight">\(n_{H}=N\)</span> gaiak erauziz, eta gai bakoitzaren endekapena aintzakotzat hartuz, hona iritsiko gara:</p>
 <div class="math notranslate nohighlight" id="equation-d-short">
-<span class="eqno">(18)<a class="headerlink" href="#equation-d-short" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(25)<a class="headerlink" href="#equation-d-short" title="Permalink to this equation">¶</a></span>\[
 \Delta = q_{C}^Ne^{Nl_{C}f/k_{\mathrm{B}}T} + q_{H}^Ne^{Nl_{H}f/k_{\mathrm{B}}T} = r_{C}^N(1 + r^N)\; .
 \]</div>
-<p>Ekuazioa <span class="math notranslate nohighlight">\(r_{C,H}(T,f) = q_{C,H}(T)\exp(fl_{C,H}/k_{\mathrm{B}}T)\)</span> eta <span class="math notranslate nohighlight">\(r=r_{H}/r_{C}\)</span> txertatuz trinkotu dugu. Aipatzekoa da <a class="reference internal" href="#equation-d-short">(18)</a> partizio-funtzioak adierazten duen eredu sinplifikatua ez-errealista izanagatik, adibide didaktiko honen xedeari ez diola eragingo.</p>
+<p>Ekuazioa <span class="math notranslate nohighlight">\(r_{C,H}(T,f) = q_{C,H}(T)\exp(fl_{C,H}/k_{\mathrm{B}}T)\)</span> eta <span class="math notranslate nohighlight">\(r=r_{H}/r_{C}\)</span> txertatuz trinkotu dugu. Aipatzekoa da <a class="reference internal" href="#equation-d-short">(25)</a> partizio-funtzioak adierazten duen eredu sinplifikatua ez-errealista izanagatik, adibide didaktiko honen xedeari ez diola eragingo.</p>
 <p>Ezer baino lehen, azter dezagun partizio-funtzioaren <span class="math notranslate nohighlight">\(N\rightarrow \infty\)</span> limitea:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
@@ -520,7 +522,7 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
     \end{cases}  
 \end{split}\]</div>
 <p>Hortik agerikoa da <span class="math notranslate nohighlight">\(r=1\)</span> denean, katean bat-bateko helize-haril <strong>fase-trantsizioa</strong> gertatuko dela (limite termodinamikoan).</p>
-<p>Hurrengo pausoa, <a class="reference internal" href="#equation-d-short">(18)</a> ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbs-en energia askea <span class="math notranslate nohighlight">\(F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta\)</span> dugu.</p>
+<p>Hurrengo pausoa, <a class="reference internal" href="#equation-d-short">(25)</a> ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbs-en energia askea <span class="math notranslate nohighlight">\(F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta\)</span> dugu.</p>
 <div class="section" id="id2">
 <h3>Ariketa<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\((a)\)</span> Kalkulatu <span class="math notranslate nohighlight">\(\widehat{\mu}\)</span> eta <span class="math notranslate nohighlight">\(\mu\)</span> potentzial kimikoak, <span class="math notranslate nohighlight">\(F(T,f,N)\)</span> adierazpenaren laguntzaz.</p>
@@ -531,12 +533,12 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-muhathelix">
+<span class="eqno">(26)<a class="headerlink" href="#equation-muhathelix" title="Permalink to this equation">¶</a></span>\[
 \widehat{\mu} := \frac{F}{N} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right]
 \]</div>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-muhelix">
+<span class="eqno">(27)<a class="headerlink" href="#equation-muhelix" title="Permalink to this equation">¶</a></span>\[
 \mu := \left(\frac{\partial F}{\partial N}\right)_{T,f} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right]
 \]</div>
 </div>
@@ -548,8 +550,8 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-epsilonhelix">
+<span class="eqno">(28)<a class="headerlink" href="#equation-epsilonhelix" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
 \]</div>
 <div class="figure align-default" id="epsilon-tfn">
@@ -560,26 +562,26 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </details><p><strong>———————————————————————————————————————————–</strong></p>
 <p>Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak <span class="math notranslate nohighlight">\(r\)</span> erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz (<span class="math notranslate nohighlight">\(\bar{n} _ {H}/N \)</span>). Orain arte ez bezala, aurrerantzean <span class="math notranslate nohighlight">\(n_{H}\)</span> kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: <span class="math notranslate nohighlight">\(\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}\)</span>. Bada, horretarako, <span class="math notranslate nohighlight">\(\bar{n} _ {H}\)</span> itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:</p>
 <div class="math notranslate nohighlight" id="equation-nhdef">
-<span class="eqno">(19)<a class="headerlink" href="#equation-nhdef" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(29)<a class="headerlink" href="#equation-nhdef" title="Permalink to this equation">¶</a></span>\[
 \bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
 \]</div>
-<p>Gauzak horrela, hasteko <a class="reference internal" href="#equation-d">(17)</a> ekuazioko batukaritik <span class="math notranslate nohighlight">\(n_{H}=0\)</span> gaia atera eta <span class="math notranslate nohighlight">\(\Delta\)</span> honela berridatziko dugu:</p>
-<div class="math notranslate nohighlight">
-\[
+<p>Gauzak horrela, hasteko <a class="reference internal" href="#equation-d">(24)</a> ekuazioko batukaritik <span class="math notranslate nohighlight">\(n_{H}=0\)</span> gaia atera eta <span class="math notranslate nohighlight">\(\Delta\)</span> honela berridatziko dugu:</p>
+<div class="math notranslate nohighlight" id="equation-dnew">
+<span class="eqno">(30)<a class="headerlink" href="#equation-dnew" title="Permalink to this equation">¶</a></span>\[
     \Delta = r_{C}^N\left[1+\sum_{n_{H}=1}^{N}\left(N-n_{H}+1\right)r^{n_{H}}\right]\; .
 \]</div>
-<p>Hala, <a class="reference internal" href="#equation-nhdef">(19)</a> definizioari jarraituz,</p>
+<p>Hala, <a class="reference internal" href="#equation-nhdef">(29)</a> definizioari jarraituz,</p>
 <div class="math notranslate nohighlight" id="equation-nbar">
-<span class="eqno">(20)<a class="headerlink" href="#equation-nbar" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(31)<a class="headerlink" href="#equation-nbar" title="Permalink to this equation">¶</a></span>\[
 \bar{n}_{H} := \frac{r_{C}^N\left[0+\sum_{n_{H}=1}^{N}n_{H}\left(N-n_{H}+1\right)r^{n_{H}}\right]}{\Delta} = r\frac{\partial}{\partial r}\ln \Delta \; .
 \]</div>
 <div class="tip admonition">
 <p class="admonition-title">Iradokizuna</p>
 <p>Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela.</p>
 </div>
-<p>Bada, <a class="reference internal" href="#equation-nbar">(20)</a> ekuazioan <a class="reference internal" href="#equation-d-short">(18)</a> adierazpena ordezkatuz gero, azkenean ere! iritsiko gara helmugara:</p>
+<p>Bada, <a class="reference internal" href="#equation-nbar">(31)</a> ekuazioan <a class="reference internal" href="#equation-d-short">(25)</a> adierazpena ordezkatuz gero, azkenean ere! iritsiko gara helmugara:</p>
 <div class="math notranslate nohighlight" id="equation-fraction-n">
-<span class="eqno">(21)<a class="headerlink" href="#equation-fraction-n" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(32)<a class="headerlink" href="#equation-fraction-n" title="Permalink to this equation">¶</a></span>\[
 \boxed{\frac{\bar{n} _ {H}}{N} = \frac{r}{N}\frac{\partial}{\partial r}\ln\left[r_{C}^N(1 + r^N)\right] = \frac{r^N}{1+r^N}}\; .
 \]</div>
 <p>Errepara diezaiogun orain ekuazio horren adierazpen grafikoari:</p>
@@ -595,9 +597,9 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <div class="section" id="adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan">
 <span id="gitpn"></span><h2><strong>4.3</strong> Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan<a class="headerlink" href="#adibidea-gas-ideal-klasikoa-multzo-isotermo-isobaroan" title="Permalink to this headline">¶</a></h2>
-<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref"><em><strong>C</strong></em></span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan <a class="reference internal" href="gas%20ideala.html#equation-qtvngi">(70)</a> zaharrari Legendreren transformazioa aplikatuz.</p>
+<p>Bigarren sistemaren azterketa <a class="reference internal" href="gas%20ideala.html#gitvn"><span class="std std-ref"><em><strong>C</strong></em></span></a> eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan <a class="reference internal" href="gas%20ideala.html#equation-qtvngi">(81)</a> zaharrari Legendreren transformazioa aplikatuz.</p>
 <div class="math notranslate nohighlight" id="equation-dtpn-gi">
-<span class="eqno">(22)<a class="headerlink" href="#equation-dtpn-gi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(33)<a class="headerlink" href="#equation-dtpn-gi" title="Permalink to this equation">¶</a></span>\[
 \Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
 \]</div>
 <div class="admonition-oharra admonition">
@@ -609,16 +611,16 @@ F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
 </div>
 <p>Aipatzekoa da jada ez dela <span class="math notranslate nohighlight">\(N!\)</span> agertzen. Are gehiago, Gibbs-en energia askea idatziz gero,</p>
 <div class="math notranslate nohighlight" id="equation-ftpngi">
-<span class="eqno">(23)<a class="headerlink" href="#equation-ftpngi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(34)<a class="headerlink" href="#equation-ftpngi" title="Permalink to this equation">¶</a></span>\[
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 \]</div>
-<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula (ikus <a class="reference internal" href="gas%20ideala.html#equation-epsilon-tvn">(74)</a> ekuazioa).</p>
+<p>berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, <span class="math notranslate nohighlight">\(\widehat{\mu}=\mu\)</span>, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span>. Aipatzekoa da multzo kanonikoan <span class="math notranslate nohighlight">\(\mathcal{E}&gt;0\)</span> lortu dugula (ikus <a class="reference internal" href="gas%20ideala.html#equation-epsilon-tvn">(85)</a> ekuazioa).</p>
 <p>Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:</p>
 <div class="math notranslate nohighlight" id="equation-stpngi">
-<span class="eqno">(24)<a class="headerlink" href="#equation-stpngi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(35)<a class="headerlink" href="#equation-stpngi" title="Permalink to this equation">¶</a></span>\[
 \boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 \]</div>
-<p>Berori <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(73)</a> ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
+<p>Berori <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(84)</a> ekuazioarekin alderatuz (eta <span class="math notranslate nohighlight">\(Nk_{\mathrm{B}}T/p = \bar{V}=V\)</span> onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!</p>
 <p>Aurrerago, <a class="reference internal" href="tpmu.html#tpmu"><span class="std std-ref">6</span></a>. atalean, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.</p>
 </div>
 </div>

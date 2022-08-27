@@ -20,10 +20,10 @@ $(a)$ Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta $X(T,p,N)$ aldaki-energi
 ```{dropdown} __Erantzuna__
 $$
 \mathrm{d}E_{t}(S_{t},V_{t},N,\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
-$$
+$$ (dEttpn)
 $$
 X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
-$$
+$$ (xtpn)
 ```
 
 ```{dropdown} __Azalpenak__
@@ -34,29 +34,29 @@ $(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
 ```{dropdown} __Erantzuna__
 $$
 \mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
-$$
+$$ (detpn)
 $$
 \bar{E} = TS - p\bar{V} + \widehat{\mu}N
-$$
+$$ (etpn)
 ```
 $(c)$ Gibbs-en energia askea ($F(T,p,N)$). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
 
 ```{dropdown} __Erantzuna__
 $$
 F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
-$$
+$$ (ftpn)
 $$
 \mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
-$$
+$$ (dftpn)
 $$
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
-$$
+$$ (mumuhat)
 ```
 
 **-----------------------------------------------------------------------------------------------------------------------------------**
 
 
-Ariketa horretako $(c)$ atalean, sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
+Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
 
 $$
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
@@ -128,10 +128,10 @@ $(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, $F(T,f,N)$ adiera
 ```{dropdown} __Erantzuna__
 $$
 \widehat{\mu} := \frac{F}{N} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right]
-$$
+$$ (muhathelix)
 $$
 \mu := \left(\frac{\partial F}{\partial N}\right)_{T,f} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right]
-$$
+$$ (muhelix)
 ```
 
 $(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, $r = 0,5 \; ;  \; r = 0,98$ eta $r=1,05$ balioak erabiliz.
@@ -139,7 +139,7 @@ $(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azal
 ```{dropdown} __Erantzuna__
 $$
 \mathcal{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
-$$
+$$ (epsilonhelix)
 
 (eps_graph)=
 ```{figure} epsilon_tfn.PNG
@@ -162,7 +162,7 @@ Gauzak horrela, hasteko {eq}`d` ekuazioko batukaritik $n_{H}=0$ gaia atera eta $
 
 $$
     \Delta = r_{C}^N\left[1+\sum_{n_{H}=1}^{N}\left(N-n_{H}+1\right)r^{n_{H}}\right]\; .
-$$
+$$ (dnew)
 
 Hala, {eq}`nhdef` definizioari jarraituz,
 

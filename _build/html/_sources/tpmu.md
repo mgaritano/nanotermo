@@ -50,7 +50,7 @@ Lehenbizi, sistema __multzo kanonikoan__ aztertuko dugu. Biraketari dagokion par
 
 $$
 Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
-$$
+$$ (qrot)
 daukagu.
 
 ```{admonition} Oharra
@@ -228,7 +228,7 @@ Gainera, {eq}`epsilontpmugi` ekuazioaren eskuinaldeak entropiarako gehikuntza ho
 
 $$
 S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
-$$
+$$ (stpmuginew)
 
 Jarraian datorren [6.4](stabeps) atalean $\mathcal{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ([13](gisub). irudia).
 

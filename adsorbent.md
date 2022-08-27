@@ -129,13 +129,13 @@ Bestalde, grafikoetako iruzkinei jarraituz, eta {eq}`adsgandghat` zein {eq}`g` e
 
 $$
 \mathcal{E} = \widehat{\gamma}\Omega - \Omega \left[\frac{\partial (\widehat{\gamma}\Omega)}{\partial \Omega}\right]_{T,\mu}
-$$
+$$ (epsilonads)
 adierazpena betetzen duen horretan, izaera linealarekiko desbideraketen gidaritzan dago.
 
 Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak ($\mathcal{E}<0$) multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
 
 $$
 \mathcal{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .
-$$
+$$ (epsilonadsfree)
 
 Azterketari amaiera emateko, aipatu beharrekoa da aplikazio honetan zenbait hurbilketatan oinarritutako adsortzioaren eredu bakuna erabili dugula: alde batetik, gasa idealtzat hartu dugu, eta, bestetik, orekako $U_{S}$ potentziala soilik gainazalarekiko menpekoa dela onartu dugu. Dena dela ere, Sistema Txikien Termodinamikaren kontzeptuak adsortziora era ulergarri eta didaktikoan moldatzeko adibide arras egokia da.

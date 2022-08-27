@@ -160,7 +160,9 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ondorioak.html">
-   Ondorioak
+   <strong>
+    Ondorioak
+   </strong>
   </a>
  </li>
  <li class="toctree-l1">
@@ -363,55 +365,55 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <p>Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera <span class="math notranslate nohighlight">\(\Omega\)</span> da, eta <span class="math notranslate nohighlight">\(T\)</span> tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta <span class="math notranslate nohighlight">\((T,\Omega,\mu)\)</span> da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, <a class="reference internal" href="#adsorbent"><span class="std std-ref">14</span></a>. irudiko azalpenei segituz eta Hill-en teorian oinarrituz (<a class="reference internal" href="hill.html#hillteo"><span class="std std-ref">3.1</span></a> atala), <span class="math notranslate nohighlight">\(\mathcal{N}\)</span> aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, <span class="math notranslate nohighlight">\(S_{t}=\mathcal{N}S\)</span>, <span class="math notranslate nohighlight">\(\Omega_{t}=\mathcal{N}\Omega\)</span> eta <span class="math notranslate nohighlight">\(N_{t}=\mathcal{N}\bar{N}\)</span> dira. Horien bidez, dagokion ekuazioa lortuko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-adseq">
-<span class="eqno">(57)<a class="headerlink" href="#equation-adseq" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(74)<a class="headerlink" href="#equation-adseq" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} + \gamma\mathcal{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathcal{E}+ \gamma\Omega\right)\mathrm{d}\mathcal{N} ,
 \]</div>
 <p>non <span class="math notranslate nohighlight">\(\gamma\)</span> <strong>gainazal-tentsio diferentziala</strong> den, hau da, <span class="math notranslate nohighlight">\(\Omega\)</span> aldagaiaren konjokatua, limite makroskopikoan intentsiboa. Berebat, <span class="math notranslate nohighlight">\(\widehat{\gamma}\)</span> <strong>gainazal-tentsio integralaren</strong> bitartez aldaki-energia eta banatze-potentziala definituko ditugu:</p>
 <div class="math notranslate nohighlight" id="equation-adsx">
-<span class="eqno">(58)<a class="headerlink" href="#equation-adsx" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(75)<a class="headerlink" href="#equation-adsx" title="Permalink to this equation">¶</a></span>\[
 X(T,\Omega,\mu) = \mathcal{E} + \gamma\Omega  := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},\Omega,N_{t}} := \widehat{\gamma}\Omega \; .
 \]</div>
 <p>Sistema txikietara igaroz, barne-energiak honakoa beteko du, aldagaien ez-homogeneotasuna agerian utziz.</p>
 <div class="math notranslate nohighlight" id="equation-adsde">
-<span class="eqno">(59)<a class="headerlink" href="#equation-adsde" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(76)<a class="headerlink" href="#equation-adsde" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}\bar{E} = T\mathrm{d}S + \gamma\mathrm{d}\Omega + \mu \mathrm{d}\bar{N}
 \]</div>
 <div class="math notranslate nohighlight" id="equation-adse">
-<span class="eqno">(60)<a class="headerlink" href="#equation-adse" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(77)<a class="headerlink" href="#equation-adse" title="Permalink to this equation">¶</a></span>\[
 \bar{E} = TS + \widehat{\gamma}\Omega + \mu \bar{N}
 \]</div>
 <p>Ekuazio-bikotetik Hill-Gibbs-Duhem erlaziora helduko gara.</p>
 <div class="math notranslate nohighlight" id="equation-adshgd">
-<span class="eqno">(61)<a class="headerlink" href="#equation-adshgd" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(78)<a class="headerlink" href="#equation-adshgd" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}(\widehat{\gamma}\Omega) = -S\mathrm{d}T + \gamma \mathrm{d}\Omega - \bar{N} \mathrm{d}\mu
 \]</div>
 <p>Hortik gainazal-tentsioen arteko erlazioa finkatuko dugu (makroskopikoki bat datoz).</p>
 <div class="math notranslate nohighlight" id="equation-adsgandghat">
-<span class="eqno">(62)<a class="headerlink" href="#equation-adsgandghat" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(79)<a class="headerlink" href="#equation-adsgandghat" title="Permalink to this equation">¶</a></span>\[
 \gamma := \left[\frac{\partial(\widehat{\gamma}\Omega)}{\partial \Omega}\right]_ {T, \mu} = \widehat{\gamma} + \Omega\left(\frac{\partial \widehat{\gamma}}{\partial \Omega}\right)_{T,\mu} \; .
 \]</div>
 <p>Segidan, Fisika Estatistikora igaroko gara. Xurgatutako geruzaren partizio-funtzio kanonikoak bi ekarpen bilduko ditu: <span class="math notranslate nohighlight">\(\Omega\)</span> gainazalera mugatutako gas idealari dagokiona, eta orekako <span class="math notranslate nohighlight">\(U_{S}\)</span> elkarrekintza-energiaren eragina aintzat hartzen duena. Horiek horrela,</p>
 <div class="math notranslate nohighlight" id="equation-adsq">
-<span class="eqno">(63)<a class="headerlink" href="#equation-adsq" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(80)<a class="headerlink" href="#equation-adsq" title="Permalink to this equation">¶</a></span>\[
 Q(T,\Omega,N) = \frac{\Omega^N}{N!\Lambda^{2N}}\cdot e^{-NU_{S}/k_{\mathrm{B}}T} \; .
 \]</div>
 <p>Askatasun-gradu kimikoari dagokion Legendreren transformazioa aplikatuz, partizio-funtzio makrokanonikoa idatziko dugu.</p>
 <div class="math notranslate nohighlight" id="equation-adsxi">
-<span class="eqno">(64)<a class="headerlink" href="#equation-adsxi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(81)<a class="headerlink" href="#equation-adsxi" title="Permalink to this equation">¶</a></span>\[
 \Xi(T,\Omega,\mu) = \sum_{N=0}^{\infty} \frac{\Omega^N}{N!\Lambda^{2N}} e^{N(\mu -U_{S})/k_{\mathrm{B}}T} = \exp\left[\frac{\Omega}{\Lambda^2}e^{(\mu -U_{S})/k_{\mathrm{B}}T}\right]
 \]</div>
 <p>Jarraian, <span class="math notranslate nohighlight">\(\Psi(T,\Omega,\mu) := \widehat{\gamma}\Omega := -k_{\mathrm{B}}T\ln\Xi\)</span> dela gogora ekarriz, grafikoen eraikuntzarako erabiliko ditugun adierazpenak honakoak dira.</p>
 <div class="math notranslate nohighlight" id="equation-ghat">
-<span class="eqno">(65)<a class="headerlink" href="#equation-ghat" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(82)<a class="headerlink" href="#equation-ghat" title="Permalink to this equation">¶</a></span>\[
 \boxed{\widehat{\gamma} = -\frac{k_{\mathrm{B}}T}{\Lambda^2}e^{(\mu -U_{S})/k_{\mathrm{B}}T}}
 \]</div>
 <div class="math notranslate nohighlight" id="equation-g">
-<span class="eqno">(66)<a class="headerlink" href="#equation-g" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(83)<a class="headerlink" href="#equation-g" title="Permalink to this equation">¶</a></span>\[
 \boxed{\gamma=-\frac{k_{\mathrm{B}} T}{\Lambda^{2}} e^{(\mu -U_{S})/k_{\mathrm{B}}T}\left[1-\frac{ \Omega}{k_{\mathrm{B}}T}\left(\frac{\partial U_{S}}{\partial \Omega}\right)_{T, \mu}\right]}
 \]</div>
 <div class="admonition-oharra admonition">
 <p class="admonition-title">Oharra</p>
-<p>Gainazal-tentsio diferentziala <a class="reference internal" href="#equation-adsgandghat">(62)</a> ekuazioaren laguntzaz lortu dugu.</p>
+<p>Gainazal-tentsio diferentziala <a class="reference internal" href="#equation-adsgandghat">(79)</a> ekuazioaren laguntzaz lortu dugu.</p>
 </div>
 <p>Baina,  lehenbizi adsorbatzailearen eta gas-partikulen arteko elkarrekintza ereduztatu beharrean gaude, hartara <span class="math notranslate nohighlight">\(U(a,r)\)</span> eraiki, eta, hortik <span class="math notranslate nohighlight">\(U_{S}\)</span> potentzialera iristeko.</p>
 </div>
@@ -419,20 +421,20 @@ Q(T,\Omega,N) = \frac{\Omega^N}{N!\Lambda^{2N}}\cdot e^{-NU_{S}/k_{\mathrm{B}}T}
 <h2><strong>7.2</strong> Elkarrekintza-potentziala eta Emaitzak<a class="headerlink" href="#elkarrekintza-potentziala-eta-emaitzak" title="Permalink to this headline">¶</a></h2>
 <p>Adsorbatzailea <span class="math notranslate nohighlight">\(\rho\)</span> dentsitateko esfera trinkoa da. Bolumen-elementuak gas-partikula batekin duen elkarrekintza Lennard-Jones-en 12-6 potentzial-ereduarekin ereduztatuko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-lj">
-<span class="eqno">(67)<a class="headerlink" href="#equation-lj" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(84)<a class="headerlink" href="#equation-lj" title="Permalink to this equation">¶</a></span>\[
 u(r) = 4\epsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right] \; ,
 \]</div>
 <p>non <span class="math notranslate nohighlight">\(\sigma\)</span> eta <span class="math notranslate nohighlight">\(\epsilon\)</span> luzera- eta energia-parametroak diren, hurrenez hurren. Berori adsorbatzailearen bolumenean zehar integratuz lortuko dugu <span class="math notranslate nohighlight">\(U(a,r)\)</span> potentziala:</p>
 <div class="math notranslate nohighlight" id="equation-uar">
-<span class="eqno">(68)<a class="headerlink" href="#equation-uar" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(85)<a class="headerlink" href="#equation-uar" title="Permalink to this equation">¶</a></span>\[
 U(a, r) =  \int_{\text{V}}\mathrm{d}^{3}\mathbf{r}\;u(r) = \frac{16 \pi \epsilon \rho \sigma^{3}}{3}\left[\frac{\left(15 a^{3} r^{6}+63 a^{5} r^{4}+45 a^{7} r^{2}+5 a^{9}\right) \sigma^{9}}{15\left(r^{2}-a^{2}\right)^{9}}-\frac{a^{3} \sigma^{3}}{\left(r^{2}-a^{2}\right)^{3}}\right] \; .
 \]</div>
-<p>Segidan, <a class="reference internal" href="#equation-uar">(68)</a> adierazpena minimizatuko dugu, hartara <span class="math notranslate nohighlight">\(a\)</span> eta <span class="math notranslate nohighlight">\(R\)</span> erradioen arteko erlazioa ezartzeko, eta, era berean, <span class="math notranslate nohighlight">\(U_{S}\)</span> oreka-potentziala erdiesteko.</p>
+<p>Segidan, <a class="reference internal" href="#equation-uar">(85)</a> adierazpena minimizatuko dugu, hartara <span class="math notranslate nohighlight">\(a\)</span> eta <span class="math notranslate nohighlight">\(R\)</span> erradioen arteko erlazioa ezartzeko, eta, era berean, <span class="math notranslate nohighlight">\(U_{S}\)</span> oreka-potentziala erdiesteko.</p>
 <div class="math notranslate nohighlight">
 \[
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 \]</div>
-<p>Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan <span class="math notranslate nohighlight">\(\rho = 3/\left[4\pi(\sigma/2)^3\right]\)</span> hartzen da. Gauzak horrela, <a class="reference internal" href="#plot1"><span class="std std-ref">15</span></a>. irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako <a class="reference internal" href="#equation-ghat">(65)</a> eta <a class="reference internal" href="#equation-g">(66)</a> ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: <span class="math notranslate nohighlight">\(\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;\)</span>.</p>
+<p>Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan <span class="math notranslate nohighlight">\(\rho = 3/\left[4\pi(\sigma/2)^3\right]\)</span> hartzen da. Gauzak horrela, <a class="reference internal" href="#plot1"><span class="std std-ref">15</span></a>. irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako <a class="reference internal" href="#equation-ghat">(82)</a> eta <a class="reference internal" href="#equation-g">(83)</a> ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: <span class="math notranslate nohighlight">\(\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;\)</span>.</p>
 <div class="figure align-default" id="plot1">
 <a class="reference internal image-reference" href="_images/plot1.PNG"><img alt="_images/plot1.PNG" src="_images/plot1.PNG" style="height: 300px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">Sistema txikia denean (esaterako, <span class="math notranslate nohighlight">\(a/\sigma&lt;40\)</span> eremuan), gainazal-tentsioak nabarmenki estentsiboak dira, eta, horrez gain, bi kurbak argi bereiz daitezke. Dena den, adsorbatzailearen tamainak gora egin ahala, banatze-potentziala indargabetuz doa. Hori dela eta, <span class="math notranslate nohighlight">\(\widehat{\gamma}\)</span> eta <span class="math notranslate nohighlight">\(\gamma\)</span> kurbek gutxinaka izaera intentsiboa berreskuratu, eta, era berean, bat egitera joko dute. Hala, <span class="math notranslate nohighlight">\(a/\sigma = 100\)</span> puntuan sistema jada eskualde makroskopikorako trantsiziora gerturatzen dabil.</span><a class="headerlink" href="#plot1" title="Permalink to this image">¶</a></p>
@@ -442,21 +444,21 @@ U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 <p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trantsizio are bortitzagoa pairatzen dute (<span class="math notranslate nohighlight">\(a/\sigma \approx 50\)</span>). Halaber, gainazal-tentsio integralak bi dimentsioko gas idealaren legeari segitzen diola ikus daiteke, hots, <span class="math notranslate nohighlight">\(-\widehat{\gamma}\Omega = \bar{N}k_{\mathrm{B}}T\)</span>.</span><a class="headerlink" href="#plot2" title="Permalink to this image">¶</a></p>
 </div>
 <p>Kurbei egokitutako parametroak argon gasari dagozkio: <span class="math notranslate nohighlight">\(\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}\)</span> ; <span class="math notranslate nohighlight">\(\epsilon_{\text{Ar}} = 0,0104 \; \mathrm{eV}\)</span>.</p>
-<p>Era berean, <a class="reference internal" href="#plot2"><span class="std std-ref">16</span></a>. irudiko kurbak eraikitzerakoan, <a class="reference internal" href="#equation-adshgd">(61)</a> ekuazioa aintzat hartuz, honako erlazioa erabili dugu.</p>
+<p>Era berean, <a class="reference internal" href="#plot2"><span class="std std-ref">16</span></a>. irudiko kurbak eraikitzerakoan, <a class="reference internal" href="#equation-adshgd">(78)</a> ekuazioa aintzat hartuz, honako erlazioa erabili dugu.</p>
 <div class="math notranslate nohighlight" id="equation-nadsorb">
-<span class="eqno">(69)<a class="headerlink" href="#equation-nadsorb" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(86)<a class="headerlink" href="#equation-nadsorb" title="Permalink to this equation">¶</a></span>\[
 \bar{n} \equiv \frac{\bar{N}}{\Omega} = - \left(\frac{\partial \widehat{\gamma}}{\partial \mu}\right)_ {T,\Omega} = \frac{1}{\Lambda^2}e^{(\mu -U_{S})/k_{\mathrm{B}}T} \; .
 \]</div>
-<p>Hasteko, aipatu beharrekoa da adsorbatzailearen erradioaren zeroranzko limitean berori partikula puntualtzat jo dugula. Hortaz, <a class="reference internal" href="#equation-lj">(67)</a> ekuazioa minimizatuz, kasu horretan <span class="math notranslate nohighlight">\(R(a\rightarrow 0) =2^{1/6}\sigma\)</span> erabili dugu.</p>
-<p>Bestalde, grafikoetako iruzkinei jarraituz, eta <a class="reference internal" href="#equation-adsgandghat">(62)</a> zein <a class="reference internal" href="#equation-g">(66)</a> ekuazioei erreparatuz gero, argi dago sistema txikien eskalan <span class="math notranslate nohighlight">\(\widehat{\gamma}\Omega\)</span> bezalako funtzio termodinamikoek esferaren <span class="math notranslate nohighlight">\(\Omega\)</span> azalerarekiko menpekotasun ez-lineala aurkezten dutela. Horren eraginez, gainazal-tentsioek jokaera ez-intentsiboa daukate, eta, halaber, berorien arteko aldentzea nabarmena da. Edonola ere, limite makroskopikoak linealtasuna berrezarriko du, eta, hartara, <span class="math notranslate nohighlight">\(\partial\left(\widehat{\gamma}\Omega\right)/\partial \Omega  = (\widehat{\gamma}\Omega)/\Omega\)</span> berdintza berreskuratuko dugu. Banatze-potentzialak, hain zuzen ere,</p>
-<div class="math notranslate nohighlight">
-\[
+<p>Hasteko, aipatu beharrekoa da adsorbatzailearen erradioaren zeroranzko limitean berori partikula puntualtzat jo dugula. Hortaz, <a class="reference internal" href="#equation-lj">(84)</a> ekuazioa minimizatuz, kasu horretan <span class="math notranslate nohighlight">\(R(a\rightarrow 0) =2^{1/6}\sigma\)</span> erabili dugu.</p>
+<p>Bestalde, grafikoetako iruzkinei jarraituz, eta <a class="reference internal" href="#equation-adsgandghat">(79)</a> zein <a class="reference internal" href="#equation-g">(83)</a> ekuazioei erreparatuz gero, argi dago sistema txikien eskalan <span class="math notranslate nohighlight">\(\widehat{\gamma}\Omega\)</span> bezalako funtzio termodinamikoek esferaren <span class="math notranslate nohighlight">\(\Omega\)</span> azalerarekiko menpekotasun ez-lineala aurkezten dutela. Horren eraginez, gainazal-tentsioek jokaera ez-intentsiboa daukate, eta, halaber, berorien arteko aldentzea nabarmena da. Edonola ere, limite makroskopikoak linealtasuna berrezarriko du, eta, hartara, <span class="math notranslate nohighlight">\(\partial\left(\widehat{\gamma}\Omega\right)/\partial \Omega  = (\widehat{\gamma}\Omega)/\Omega\)</span> berdintza berreskuratuko dugu. Banatze-potentzialak, hain zuzen ere,</p>
+<div class="math notranslate nohighlight" id="equation-epsilonads">
+<span class="eqno">(87)<a class="headerlink" href="#equation-epsilonads" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} = \widehat{\gamma}\Omega - \Omega \left[\frac{\partial (\widehat{\gamma}\Omega)}{\partial \Omega}\right]_{T,\mu}
 \]</div>
 <p>adierazpena betetzen duen horretan, izaera linealarekiko desbideraketen gidaritzan dago.</p>
 <p>Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak (<span class="math notranslate nohighlight">\(\mathcal{E}&lt;0\)</span>) multzoaren <span class="math notranslate nohighlight">\(\Omega_{t}\)</span> guztizko azalera birbanatzea lekarke. Hortaz, <span class="math notranslate nohighlight">\((T,\gamma,\mu)\)</span> ingurne-aldagaidun azpisistemetako <span class="math notranslate nohighlight">\(\Omega\)</span> azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,</p>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-epsilonadsfree">
+<span class="eqno">(88)<a class="headerlink" href="#equation-epsilonadsfree" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .
 \]</div>
 <p>Azterketari amaiera emateko, aipatu beharrekoa da aplikazio honetan zenbait hurbilketatan oinarritutako adsortzioaren eredu bakuna erabili dugula: alde batetik, gasa idealtzat hartu dugu, eta, bestetik, orekako <span class="math notranslate nohighlight">\(U_{S}\)</span> potentziala soilik gainazalarekiko menpekoa dela onartu dugu. Dena dela ere, Sistema Txikien Termodinamikaren kontzeptuak adsortziora era ulergarri eta didaktikoan moldatzeko adibide arras egokia da.</p>
@@ -498,7 +500,7 @@ U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
     <a class='right-next' id="next-link" href="ondorioak.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Ondorioak</p>
+        <p class="prev-next-title"><strong>Ondorioak</strong></p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

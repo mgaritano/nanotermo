@@ -115,7 +115,7 @@ Fase-trantsizioen azterketari buru emateko, aipatu beharrekoa da $p=p_{0}$ puntu
 
 $$
 \frac{S_{A}-S_{B}}{N}\;\mathrm{d}T + \frac{V_{B}-V_{A}}{N}\;\mathrm{d}p + \frac{(\mu_{B}-\mu_{A}) + (\widehat{\mu} _ {A} - \widehat{\mu}_{B})}{N}\;\mathrm{d}N = 0 \; .
-$$
+$$ (sasb)
 
 Jakina, aztergai dugun puntuan $\Delta \widehat{\mu} = \widehat{\mu} _ {B}-\widehat{\mu}_{A}=0$ betetzen da. Hori kontuan izanik, gainontzeko magnitudeen aldakuntzekin honako erlazioak lortuko ditugu:
 
@@ -133,18 +133,18 @@ _Bi egoeren hurbilketaren_ zuzentasuna era kuantitatiboan adieraztea da adibide 
 
 $$
 \widehat{\mu}_ {A,B} = \widehat{\mu} + \bar{\mathrm{v}}_ {A,B}\left(p-p_{0}\right)
-$$
+$$ (muhatab)
 berdintzetara iritsiko gara. Ekuazio horren bidez {eq}`fracnanb` erlazioa berridatziko dugu:
 
 $$
 \frac{\mathcal{N}_ {A}}{\mathcal{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
-$$
+$$ (nanbex)
 Era berean, ekuazio beretik guztizko bolumena idatziz,
 
 $$
 \left(\frac{\partial F}{\partial p}\right)_{T,N
 } := \bar{V} = \frac{\mathcal{N}_ {A}}{\mathcal{N}}\bar{V}_ {A} + \frac{\mathcal{N}_ {B}}{\mathcal{N}}\bar{V}_ {B}\equiv P_{A}\bar{V}_ {A} +  P_{B}\bar{V}_{B} \; ,
-$$
+$$ (vtotex)
 eta, $P_{A} = (\bar{\mathrm{v}} - \bar{\mathrm{v}}_ {B}) / (\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B})$ eta $P_{B}=1-P_{A}$ direla ohartuz, hona iritsiko gara:
 
 $$

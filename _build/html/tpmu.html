@@ -160,7 +160,9 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ondorioak.html">
-   Ondorioak
+   <strong>
+    Ondorioak
+   </strong>
   </a>
  </li>
  <li class="toctree-l1">
@@ -425,17 +427,17 @@ const thebe_selector_output = ".output, .cell_output"
 <span id="mupt-azter"></span><h2><strong>6.1</strong> Multzoaren azterketa<a class="headerlink" href="#multzoaren-azterketa" title="Permalink to this headline">¶</a></h2>
 <p>Aipatzekoa da multzo honi dagozkion adierazpen gehienak <a class="reference internal" href="hill.html#hillteo"><span class="std std-ref">3.1</span></a> atalean eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, <a class="reference internal" href="hill.html#equation-h-g-d">(8)</a> ekuazioa berridatziz, <span class="math notranslate nohighlight">\(S\)</span> entropia, <span class="math notranslate nohighlight">\(\bar{V}\)</span> bolumena eta <span class="math notranslate nohighlight">\(\bar{N}\)</span> partikula-kopuruaren erlazioetara iritsiko gara:</p>
 <div class="math notranslate nohighlight" id="equation-depsilonnew">
-<span class="eqno">(35)<a class="headerlink" href="#equation-depsilonnew" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(50)<a class="headerlink" href="#equation-depsilonnew" title="Permalink to this equation">¶</a></span>\[
  \mathrm{d}\mathcal{E}(T,p,\mu) = \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathcal{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
  \]</div>
 <p>Jarraian, Fisika Estatistikoarekin lotura ezartze aldera, <span class="math notranslate nohighlight">\(\Upsilon(T,p,\mu)\)</span> hizkiaren bidez adieraziko dugun <strong>partizio-funtzio nanokanonikoaren</strong> eta multzoaren izaeraren isla den banatze-potentzialaren arteko erlazioa idatziko dugu:</p>
 <div class="math notranslate nohighlight" id="equation-epspf">
-<span class="eqno">(36)<a class="headerlink" href="#equation-epspf" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(51)<a class="headerlink" href="#equation-epspf" title="Permalink to this equation">¶</a></span>\[
   \mathcal{E}(T,p,\mu) := -k_{\mathrm{B}}T\ln \Upsilon \; .
 \]</div>
 <p>Partizio-funtzio orokortua gainontzekoei kasuan kasuko Legendreren transformazioak aplikatuz kalkulatuko dugu. Esate baterako, multzo isotermo-isobarotik abiatuz,</p>
 <div class="math notranslate nohighlight" id="equation-upsilon-def">
-<span class="eqno">(37)<a class="headerlink" href="#equation-upsilon-def" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(52)<a class="headerlink" href="#equation-upsilon-def" title="Permalink to this equation">¶</a></span>\[
 \Upsilon(T,p,\mu) := \sum_{E,V,N}\Omega(E,V,N)e^{-E/k_{\mathrm{B}}T}e^{-pV/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T} \equiv \sum_{N}\Delta(T,p,N)e^{\mu N/k_{\mathrm{B}}T} \; .
 \]</div>
 </div>
@@ -447,8 +449,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Agregatu lineala <span class="math notranslate nohighlight">\(N\)</span> monomeroz osaturiko <span class="math notranslate nohighlight">\(Nm\)</span> masadun eta <span class="math notranslate nohighlight">\(Na\)</span> luzeradun hagaxka luzea da. Barne-higidurarekin lotutako <span class="math notranslate nohighlight">\(j(T)\)</span> partizio-funtzioa dute unitateek; eta lehen auzokoen arteko elkarrekintza-energia <span class="math notranslate nohighlight">\(\epsilon\)</span> da, negatiboa (<span class="math notranslate nohighlight">\(N-1\)</span> ekarpen). Berebat, zentrutik igarotzen den ardatzarekiko biratu dezake hagaxkak. Inertzia-momentua <span class="math notranslate nohighlight">\(I = \frac{1}{12}N^{3}ma^{2}\)</span> da.</span><a class="headerlink" href="#agg" title="Permalink to this image">¶</a></p>
 </div>
 <p>Lehenbizi, sistema <strong>multzo kanonikoan</strong> aztertuko dugu. Biraketari dagokion partizio-funtzioa</p>
-<div class="math notranslate nohighlight">
-\[
+<div class="math notranslate nohighlight" id="equation-qrot">
+<span class="eqno">(53)<a class="headerlink" href="#equation-qrot" title="Permalink to this equation">¶</a></span>\[
 Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
 \]</div>
 <p>daukagu.</p>
@@ -458,7 +460,7 @@ Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
 </div>
 <p>Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera <span class="math notranslate nohighlight">\(c = \alpha e^{\epsilon/k_{\mathrm{B}}T}\)</span> definituz,</p>
 <div class="math notranslate nohighlight" id="equation-qagg">
-<span class="eqno">(38)<a class="headerlink" href="#equation-qagg" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(54)<a class="headerlink" href="#equation-qagg" title="Permalink to this equation">¶</a></span>\[
 \boxed{Q(T,N) := j(T)^{N} \cdot Q_{\mathrm{rot}}(T,N) \cdot e^{-(N-1)\epsilon/k_{\mathrm{B}}T} = c\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T}} \quad (N\geq1)\; .
 \]</div>
 <p>Ohartu gaitezen <span class="math notranslate nohighlight">\(N=0\)</span> denean ez dela ez biraketarik ez, are gutxiago, elkarrekintza-energiarik egongo. Hori dela eta, partizio-funtzio intrintsekotik <span class="math notranslate nohighlight">\(Q(T,0)=j(T)^0=1\)</span> izango dugu.</p>
@@ -472,9 +474,9 @@ Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<p class="card-text">Partizio-funtzio kanonikoa erabiliz (<a class="reference internal" href="#equation-qagg">(38)</a> ekuazioa), eta <span class="math notranslate nohighlight">\(N\widehat{\mu} = -k_{\mathrm{B}}T\ln Q(T,N)\)</span> betetzen dela gogora ekarriz,</p>
+<p class="card-text">Partizio-funtzio kanonikoa erabiliz (<a class="reference internal" href="#equation-qagg">(54)</a> ekuazioa), eta <span class="math notranslate nohighlight">\(N\widehat{\mu} = -k_{\mathrm{B}}T\ln Q(T,N)\)</span> betetzen dela gogora ekarriz,</p>
 <div class="math notranslate nohighlight" id="equation-muagg">
-<span class="eqno">(39)<a class="headerlink" href="#equation-muagg" title="Permalink to this equation">¶</a></span>\[\begin{split}
+<span class="eqno">(55)<a class="headerlink" href="#equation-muagg" title="Permalink to this equation">¶</a></span>\[\begin{split}
 \left.\begin{array}{l}
 \widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon - \frac{\ln(\alpha N^3)}{N}k_{\mathrm{B}}T \\\\
 \mu=-k_{\mathrm{B}}T\ln j + \epsilon -\frac{3}{N}k_{\mathrm{B}} T
@@ -490,14 +492,14 @@ Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
 <div class="math notranslate nohighlight" id="equation-stnagg">
-<span class="eqno">(40)<a class="headerlink" href="#equation-stnagg" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(56)<a class="headerlink" href="#equation-stnagg" title="Permalink to this equation">¶</a></span>\[
 \frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\ln j + NT\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \{1 + \ln\left(\alpha N^3\right) \}
 \]</div>
 <p class="card-text">Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak dira, limite termodinamikoan aurreko bi gai linealek baitaukate gailentasuna. Badirudi, hortaz, sistema makroskopikoak ez duela biraketaren eragina hautemango, ez eta unitateen arteko <span class="math notranslate nohighlight">\(\epsilon\)</span> elkarrekintza ere.</p>
 </div>
-</details><p>Horiek horrela, askatasun-gradu kimikoa abiarazi, eta <strong>multzo nanokanonikora</strong> igaroko gara. Hala, adierazpenetan <span class="math notranslate nohighlight">\( x  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}\)</span> erlazioa sartuz, eta <a class="reference internal" href="#equation-upsilon-def">(37)</a> definizioan <a class="reference internal" href="#equation-qagg">(38)</a> ekuazioa txertatuz,</p>
+</details><p>Horiek horrela, askatasun-gradu kimikoa abiarazi, eta <strong>multzo nanokanonikora</strong> igaroko gara. Hala, adierazpenetan <span class="math notranslate nohighlight">\( x  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}\)</span> erlazioa sartuz, eta <a class="reference internal" href="#equation-upsilon-def">(52)</a> definizioan <a class="reference internal" href="#equation-qagg">(54)</a> ekuazioa txertatuz,</p>
 <div class="math notranslate nohighlight" id="equation-upsilontn">
-<span class="eqno">(41)<a class="headerlink" href="#equation-upsilontn" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(57)<a class="headerlink" href="#equation-upsilontn" title="Permalink to this equation">¶</a></span>\[
 \boxed{\Upsilon(T,\mu) = 1 + c\sum_{N=1}^{\infty}  N^{3}\;x^N = 1 +  c \left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]}\; , \; \vert x \vert &lt; 1 \; ,
 \]</div>
 <p>izango dugu partizio-funtzio orokortua.</p>
@@ -524,40 +526,40 @@ Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
 \sum_{N=1}^{\infty}N^3x^N = \frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2} \; .
 \]</div>
 </div>
-</details><p>Bertatik, eta <a class="reference internal" href="#equation-epspf">(36)</a> berdintza erabiliz,</p>
+</details><p>Bertatik, eta <a class="reference internal" href="#equation-epspf">(51)</a> berdintza erabiliz,</p>
 <div class="math notranslate nohighlight" id="equation-epsagg">
-<span class="eqno">(42)<a class="headerlink" href="#equation-epsagg" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(58)<a class="headerlink" href="#equation-epsagg" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E}(T,\mu) = -k_{\mathrm{B}}T\ln \left\{1 + c\left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]\right\} \;
 \]</div>
 <p>da banatze-potentziala.</p>
-<p>Kontuan izan beharrekoa da, <a class="reference internal" href="#equation-muagg">(39)</a> ekuazioko <span class="math notranslate nohighlight">\(\mu^{(0)}\)</span> potentzialari erreparatuz, <span class="math notranslate nohighlight">\(x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}\)</span> berridaztea daukagula. Hortaz, limite makroskopikoan <span class="math notranslate nohighlight">\(x\rightarrow 1\)</span> beteko da. Azter dezagun, bada, batez besteko partikula-kopuruan <span class="math notranslate nohighlight">\(x\)</span> magnitudeak duen eragina.</p>
+<p>Kontuan izan beharrekoa da, <a class="reference internal" href="#equation-muagg">(55)</a> ekuazioko <span class="math notranslate nohighlight">\(\mu^{(0)}\)</span> potentzialari erreparatuz, <span class="math notranslate nohighlight">\(x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}\)</span> berridaztea daukagula. Hortaz, limite makroskopikoan <span class="math notranslate nohighlight">\(x\rightarrow 1\)</span> beteko da. Azter dezagun, bada, batez besteko partikula-kopuruan <span class="math notranslate nohighlight">\(x\)</span> magnitudeak duen eragina.</p>
 <div class="math notranslate nohighlight" id="equation-barnagg">
-<span class="eqno">(43)<a class="headerlink" href="#equation-barnagg" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(59)<a class="headerlink" href="#equation-barnagg" title="Permalink to this equation">¶</a></span>\[
 \bar{N} := -\left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T} = c \; x \; P(0)\left[\frac{12 x(x-1)-24 x^{2}}{(x-1)^{5}}-\frac{x+1}{(x-1)^{3}}\right]
 \]</div>
-<p>Espero bezala, <span class="math notranslate nohighlight">\(\bar{N}(x\rightarrow 1) \rightarrow \infty\)</span> betetzen da. Entropiaren adierazpen berria eraiki, eta <a class="reference internal" href="#equation-barnagg">(43)</a> ekuazioaren laguntzaz trinkotuko dugu:</p>
+<p>Espero bezala, <span class="math notranslate nohighlight">\(\bar{N}(x\rightarrow 1) \rightarrow \infty\)</span> betetzen da. Entropiaren adierazpen berria eraiki, eta <a class="reference internal" href="#equation-barnagg">(59)</a> ekuazioaren laguntzaz trinkotuko dugu:</p>
 <div class="math notranslate nohighlight">
 \[
 \frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {\mu}  = \bar{N}\ln j + \bar{N}T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}
 \]</div>
 <div class="math notranslate nohighlight" id="equation-stmuagg">
-<span class="eqno">(44)<a class="headerlink" href="#equation-stmuagg" title="Permalink to this equation">¶</a></span>\[ + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left[1-\frac{\epsilon}{k_{\mathrm{B}} T}\right]\left[\frac{6 x^{2}}{(x-1)^{4}}+\frac{x}{(x-1)^{2}}\right] \right\}
+<span class="eqno">(60)<a class="headerlink" href="#equation-stmuagg" title="Permalink to this equation">¶</a></span>\[ + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left[1-\frac{\epsilon}{k_{\mathrm{B}} T}\right]\left[\frac{6 x^{2}}{(x-1)^{4}}+\frac{x}{(x-1)^{2}}\right] \right\}
 \]</div>
 <p>Ohartu gaitezen aurreko bi ekuazioetan azaltzen den <span class="math notranslate nohighlight">\(P(0)\)</span> funtzioa sistemak <span class="math notranslate nohighlight">\(N\)</span> unitate izateko probabilitateak betetzen duen adierazpenetik erauzi dugula, alegia,</p>
 <div class="math notranslate nohighlight" id="equation-probagg">
-<span class="eqno">(45)<a class="headerlink" href="#equation-probagg" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(61)<a class="headerlink" href="#equation-probagg" title="Permalink to this equation">¶</a></span>\[
 P(N) := \frac{Q(T,N)e^{N\mu/k_{\mathrm{B}}T}}{\Upsilon}
 \]</div>
 <p>ekuaziotik. Halaber, <span class="math notranslate nohighlight">\(Q(T,0) = 1\)</span> denez, <span class="math notranslate nohighlight">\(P(0) = 1/\Upsilon\)</span> beteko da.</p>
-<p>Adibidearen mamiari helduz, erka ditzagun <a class="reference internal" href="#equation-stnagg">(40)</a> eta <a class="reference internal" href="#equation-stmuagg">(44)</a> ekuazioak. Lehenengo bi gaiek tankera bera aurkezten dutela dirudi. Alabaina, ernai ibili behar dugu, adierazpen batean <span class="math notranslate nohighlight">\(N\)</span> ageri baita; eta, bestean, ordea, batez besteko <span class="math notranslate nohighlight">\(\bar{N}\)</span>. Itsumustuan aritu barik, eraiki dezagun <span class="math notranslate nohighlight">\(P(N)\)</span> magnitudearen adierazpen grafikoa:</p>
+<p>Adibidearen mamiari helduz, erka ditzagun <a class="reference internal" href="#equation-stnagg">(56)</a> eta <a class="reference internal" href="#equation-stmuagg">(60)</a> ekuazioak. Lehenengo bi gaiek tankera bera aurkezten dutela dirudi. Alabaina, ernai ibili behar dugu, adierazpen batean <span class="math notranslate nohighlight">\(N\)</span> ageri baita; eta, bestean, ordea, batez besteko <span class="math notranslate nohighlight">\(\bar{N}\)</span>. Itsumustuan aritu barik, eraiki dezagun <span class="math notranslate nohighlight">\(P(N)\)</span> magnitudearen adierazpen grafikoa:</p>
 <div class="figure align-default" id="pn-plot">
 <a class="reference internal image-reference" href="_images/pn_plot.PNG"><img alt="_images/pn_plot.PNG" src="_images/pn_plot.PNG" style="height: 300px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Sistema txikien eskualdean (<span class="math notranslate nohighlight">\(x \ll 1\)</span>), maximo zolia du <span class="math notranslate nohighlight">\(N=\bar{N}\)</span> puntuan probabilitate-banaketak, <a class="reference internal" href="#equation-barnagg">(43)</a> ekuazioaren bidez egiazta daitekeenez. Aitzitik, sistema handitu ahala, maximoaren kokapena lausotu egingo da, eta ez da <span class="math notranslate nohighlight">\(\mathrm{max}[P(N)] = P(\bar{N})\)</span> beteko.</span><a class="headerlink" href="#pn-plot" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Sistema txikien eskualdean (<span class="math notranslate nohighlight">\(x \ll 1\)</span>), maximo zolia du <span class="math notranslate nohighlight">\(N=\bar{N}\)</span> puntuan probabilitate-banaketak, <a class="reference internal" href="#equation-barnagg">(59)</a> ekuazioaren bidez egiazta daitekeenez. Aitzitik, sistema handitu ahala, maximoaren kokapena lausotu egingo da, eta ez da <span class="math notranslate nohighlight">\(\mathrm{max}[P(N)] = P(\bar{N})\)</span> beteko.</span><a class="headerlink" href="#pn-plot" title="Permalink to this image">¶</a></p>
 </div>
-<p>Orain bai, <a class="reference internal" href="#pn-plot"><span class="std std-ref">11</span></a>. irudiko oharrei atxikiz, zilegi zaigu <a class="reference internal" href="#equation-stnagg">(40)</a> eta <a class="reference internal" href="#equation-stmuagg">(44)</a> ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko <a class="reference internal" href="#equation-stnagg">(40)</a> ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko <a class="reference internal" href="#equation-stmuagg">(44)</a> adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, errotazioaz bestalde, <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!</p>
+<p>Orain bai, <a class="reference internal" href="#pn-plot"><span class="std std-ref">11</span></a>. irudiko oharrei atxikiz, zilegi zaigu <a class="reference internal" href="#equation-stnagg">(56)</a> eta <a class="reference internal" href="#equation-stmuagg">(60)</a> ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko <a class="reference internal" href="#equation-stnagg">(56)</a> ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko <a class="reference internal" href="#equation-stmuagg">(60)</a> adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, errotazioaz bestalde, <span class="math notranslate nohighlight">\(N\)</span> partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!</p>
 <div class="admonition-oharrak admonition">
 <p class="admonition-title">Oharrak</p>
-<p>Oharteman bedi <a class="reference internal" href="#equation-stmuagg">(44)</a> ekuazioan <span class="math notranslate nohighlight">\(\epsilon &lt; 0\)</span> eta <span class="math notranslate nohighlight">\(x,P(0)&lt;1\)</span> betetzen dela. Bestalde, Hill-ek <span id="id2">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">5</a>]</span> liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: <span class="math notranslate nohighlight">\(S-S^{(0)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;\)</span>.</p>
+<p>Oharteman bedi <a class="reference internal" href="#equation-stmuagg">(60)</a> ekuazioan <span class="math notranslate nohighlight">\(\epsilon &lt; 0\)</span> eta <span class="math notranslate nohighlight">\(x,P(0)&lt;1\)</span> betetzen dela. Bestalde, Hill-ek <span id="id2">[<a class="reference internal" href="erreferentziak.html#id6" title="T. L. Hill. Thermodynamics of Small Systems. Part 1 and 2., chapter 1-10; 15. Dover Publications, Inc., New York, 1964.">5</a>]</span> liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: <span class="math notranslate nohighlight">\(S-S^{(0)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;\)</span>.</p>
 </div>
 <p>Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: (a) sistema erabat askean gertatzen den entropiaren handiagotzea, eta, (b) Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.</p>
 <div class="math notranslate nohighlight">
@@ -572,7 +574,7 @@ P(N) := \frac{Q(T,N)e^{N\mu/k_{\mathrm{B}}T}}{\Upsilon}
 </div>
 <div class="section" id="adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan">
 <span id="mupt-gi"></span><h2><strong>6.3</strong> Adibidea: Gas ideal klasikoa, multzo nanokanonikoan<a class="headerlink" href="#adibidea-gas-ideal-klasikoa-multzo-nanokanonikoan" title="Permalink to this headline">¶</a></h2>
-<p>Sistema honen bigarren berrazterketaren abiapuntua <a class="reference internal" href="tpn.html#gitpn"><span class="std std-ref">4.3</span></a> ataleko <a class="reference internal" href="tpn.html#equation-dtpn-gi">(22)</a> ekuazioa da.</p>
+<p>Sistema honen bigarren berrazterketaren abiapuntua <a class="reference internal" href="tpn.html#gitpn"><span class="std std-ref">4.3</span></a> ataleko <a class="reference internal" href="tpn.html#equation-dtpn-gi">(33)</a> ekuazioa da.</p>
 <div class="section" id="id3">
 <h3>Ariketa<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>Eraiki honako adierazpen hauek: <span class="math notranslate nohighlight">\(\Upsilon(T,p,\mu)\)</span> partizio-funtzioa, <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> banatze-potentziala eta <span class="math notranslate nohighlight">\(\bar{N}\)</span>, <span class="math notranslate nohighlight">\(\bar{V}\)</span> eta <span class="math notranslate nohighlight">\(S(T,p,\mu)\)</span> magnitudeak.</p>
@@ -585,33 +587,33 @@ P(N) := \frac{Q(T,N)e^{N\mu/k_{\mathrm{B}}T}}{\Upsilon}
 </summary><div class="summary-content card-body docutils">
 <p class="card-text"><span class="math notranslate nohighlight">\(\Delta(T,p,N)\)</span> partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,</p>
 <div class="math notranslate nohighlight" id="equation-upsilongi">
-<span class="eqno">(46)<a class="headerlink" href="#equation-upsilongi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(62)<a class="headerlink" href="#equation-upsilongi" title="Permalink to this equation">¶</a></span>\[
 \Upsilon(T,p,\mu) = \sum_{N=0}^{\infty} \left(\frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right)^{N} = \frac{1}{1 - k_{\mathrm{B}}T\lambda/(p\Lambda^3)} \; , \; \left| \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3} \right| &lt; 1
 \]</div>
 <p class="card-text">izango dugu partizio-funtzio orokortua. Bertan <span class="math notranslate nohighlight">\(\lambda = e^{\mu/k_{\mathrm{B}}T}\)</span> ordezkatu dugu. Hortaz,</p>
 <div class="math notranslate nohighlight" id="equation-epsilontpmugi">
-<span class="eqno">(47)<a class="headerlink" href="#equation-epsilontpmugi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(63)<a class="headerlink" href="#equation-epsilontpmugi" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E}(T,p,\mu) = k_{\mathrm{B}}T \ln\left(1- \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right) = -k_{\mathrm{B}}T \ln(\bar{N} + 1) &lt; 0 \; .
 \]</div>
-<p class="card-text">Eskuinaldea <a class="reference internal" href="#equation-barnbarvtpmugi">(48)</a> bikotearen laguntzaz berridatzi dugu:</p>
+<p class="card-text">Eskuinaldea <a class="reference internal" href="#equation-barnbarvtpmugi">(64)</a> bikotearen laguntzaz berridatzi dugu:</p>
 <div class="math notranslate nohighlight" id="equation-barnbarvtpmugi">
-<span class="eqno">(48)<a class="headerlink" href="#equation-barnbarvtpmugi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(64)<a class="headerlink" href="#equation-barnbarvtpmugi" title="Permalink to this equation">¶</a></span>\[
  \bar{N} = \frac{1}{p\Lambda^3/(k_{\mathrm{B}}T\lambda) - 1} \quad , \quad \bar{V} = \frac{\bar{N}k_{\mathrm{B}}T}{p} \; .
 \]</div>
 <p class="card-text">Horrela, entropiaren hirugarren adierazpenera iritsiko gara.</p>
 <div class="math notranslate nohighlight" id="equation-stpmugi">
-<span class="eqno">(49)<a class="headerlink" href="#equation-stpmugi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(65)<a class="headerlink" href="#equation-stpmugi" title="Permalink to this equation">¶</a></span>\[
 \boxed{S(T,p,\mu) =  \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + k_{\mathrm{B}}\ln(\bar{N} + 1)}
 \]</div>
 </div>
-</details><p>Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren <a class="reference internal" href="#equation-stpmugi">(49)</a> ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(73)</a> eta <a class="reference internal" href="tpn.html#equation-stpngi">(24)</a> adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen <em>estentsiboa</em> (<span class="math notranslate nohighlight">\(S_{0}\)</span>) da gai nagusia. Baina, aurreneko bien aldean, <a class="reference internal" href="#equation-stpmugi">(49)</a> ekuazioak bigarren gai <em>positibo</em> bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi (<a class="reference internal" href="#sn100"><span class="std std-ref">12</span></a>. irudia).</p>
+</details><p>Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren <a class="reference internal" href="#equation-stpmugi">(65)</a> ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako <a class="reference internal" href="gas%20ideala.html#equation-stvngi">(90)</a> eta <a class="reference internal" href="tpn.html#equation-stpngi">(35)</a> adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen <em>estentsiboa</em> (<span class="math notranslate nohighlight">\(S_{0}\)</span>) da gai nagusia. Baina, aurreneko bien aldean, <a class="reference internal" href="#equation-stpmugi">(65)</a> ekuazioak bigarren gai <em>positibo</em> bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi (<a class="reference internal" href="#sn100"><span class="std std-ref">12</span></a>. irudia).</p>
 <div class="figure align-default" id="sn100">
 <a class="reference internal image-reference" href="_images/sn100.PNG"><img alt="_images/sn100.PNG" src="_images/sn100.PNG" style="height: 350px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">Kurbak Ar gasari dagozkio (1 mol). Datuak honakoak dira: <span class="math notranslate nohighlight">\(\Lambda = 16,7 \; \mathrm{pm}\)</span> ; <span class="math notranslate nohighlight">\(T=273,15 \; \mathrm{K}\)</span> ; <span class="math notranslate nohighlight">\(N/V = 2,687\cdot10^{25}\; \mathrm{at/m^3}\)</span>. Agerikoa da, askatasun-graduak abiarazi ahala, eskualde nanotermodinamikoan tamaina finituko efektuek entropia handitu ez ezik, <span class="math notranslate nohighlight">\(S/Nk_{\mathrm{B}}\)</span> magnitudea estentsibo bihurrarazi dutela.</span><a class="headerlink" href="#sn100" title="Permalink to this image">¶</a></p>
 </div>
-<p>Gainera, <a class="reference internal" href="#equation-epsilontpmugi">(47)</a> ekuazioaren eskuinaldeak entropiarako gehikuntza hori banatze-potentzialerako ekarpen <em>negatibo</em> eta <em>ez-estentsiboaren</em> ondoriozkoa dela diosku, alegia,</p>
-<div class="math notranslate nohighlight">
-\[
+<p>Gainera, <a class="reference internal" href="#equation-epsilontpmugi">(63)</a> ekuazioaren eskuinaldeak entropiarako gehikuntza hori banatze-potentzialerako ekarpen <em>negatibo</em> eta <em>ez-estentsiboaren</em> ondoriozkoa dela diosku, alegia,</p>
+<div class="math notranslate nohighlight" id="equation-stpmuginew">
+<span class="eqno">(66)<a class="headerlink" href="#equation-stpmuginew" title="Permalink to this equation">¶</a></span>\[
 S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
 \]</div>
 <p>Jarraian datorren <a class="reference internal" href="#stabeps"><span class="std std-ref">6.4</span></a> atalean <span class="math notranslate nohighlight">\(\mathcal{E}&lt;0\)</span> izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu (<a class="reference internal" href="#gisub"><span class="std std-ref">13</span></a>. irudia).</p>
@@ -619,7 +621,7 @@ S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
 <a class="reference internal image-reference" href="_images/gibbsparadox.PNG"><img alt="_images/gibbsparadox.PNG" src="_images/gibbsparadox.PNG" style="height: 300px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">Multzo nanokanonikoan <strong>banatzearen areagotzeak bereizgarritasuna indartuko du</strong>. Izan ere, hasiera batean bi aldakietako bakoitzean egon diren partikulak bereiztezinak izan dira, hain zuzen, aldakikide izateagatik. Aitzitik, bukaeran, azpisistemen arteko bereizte-hormek bereizgarri bihurrarazi dituzte. Horren ondorioz, entropiak gora egingo du.</span><a class="headerlink" href="#gisub" title="Permalink to this image">¶</a></p>
 </div>
-<p>Irudia eta <a class="reference internal" href="#equation-stpmugi">(49)</a> ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: <span class="math notranslate nohighlight">\(\Delta S = k_{\mathrm{B}}\ln(\bar{N}+1)\)</span>. Banatzeari dagokion orekan, <span class="math notranslate nohighlight">\(\bar{N} \rightarrow 0\)</span> eta, hortik, <span class="math notranslate nohighlight">\(\Delta S_{\text{oreka}}=0\)</span>. Baina, partikulako entropia hazi egingo da: <span class="math notranslate nohighlight">\(\lim_{\bar{N} \rightarrow 0}\Delta S/\bar{N} = 1\)</span>.</p>
+<p>Irudia eta <a class="reference internal" href="#equation-stpmugi">(65)</a> ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: <span class="math notranslate nohighlight">\(\Delta S = k_{\mathrm{B}}\ln(\bar{N}+1)\)</span>. Banatzeari dagokion orekan, <span class="math notranslate nohighlight">\(\bar{N} \rightarrow 0\)</span> eta, hortik, <span class="math notranslate nohighlight">\(\Delta S_{\text{oreka}}=0\)</span>. Baina, partikulako entropia hazi egingo da: <span class="math notranslate nohighlight">\(\lim_{\bar{N} \rightarrow 0}\Delta S/\bar{N} = 1\)</span>.</p>
 <p>Aipatu beharrekoa da gaineko <a class="reference internal" href="#gisub"><span class="std std-ref">13</span></a>. irudiari lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek <span class="math notranslate nohighlight">\(\Delta S = 0\)</span> izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, <strong>Gibbs-en paradoxarekin</strong> egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereiztezintasuna inposatuko dugu, eta, badirudi Gibbs-en <span class="math notranslate nohighlight">\(1/N!\)</span> <em>ad hoc</em> faktoreak arazoa konpontzen duela…</p>
 <p>Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era <strong>itzulezinean</strong> <em>nahasiko</em> dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbs-en paradoxa saihestuko dugu bidenabar <span id="id4">[<a class="reference internal" href="erreferentziak.html#id2" title="R. V. Chamberlin, M. R. Clark, V. Mujica, and G. H. Wolf. An introduction to nanothermodynamics: thermal equilibrium for heterogeneous and finite-sized systems. 2020. doi:10.48550/ARXIV.2007.13031.">1</a>, <a class="reference internal" href="erreferentziak.html#id4" title="R. V. Chamberlin, Michael R. Clark, Vladimiro Mujica, and George H. Wolf. Multiscale thermodynamics: energy, entropy, and symmetry from atoms to bulk behavior. Symmetry, 2021. doi:10.3390/sym13040721.">3</a>]</span>.</p>
 <p>Soluzio berritzailearen atzean dautzan tamaina finituko efektuak <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.</p>
@@ -629,34 +631,34 @@ S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
 <span id="stabeps"></span><h2><strong>6.4</strong> Banatze-potentziala eta egonkortasuna<a class="headerlink" href="#banatze-potentziala-eta-egonkortasuna" title="Permalink to this headline">¶</a></h2>
 <p>Hasteko, dakargun gogora <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> potentzialaren definizioa: multzoaren aldaki-kopuruan eragiteak berorren guztizko energiari dakarkion ekarpena, gainontzeko kasuan kasuko ingurune-aldagaiak konstante mantenduz, hau da,</p>
 <div class="math notranslate nohighlight" id="equation-epsilonnewdef">
-<span class="eqno">(50)<a class="headerlink" href="#equation-epsilonnewdef" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(67)<a class="headerlink" href="#equation-epsilonnewdef" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_ {S_{t},V_{t}, N_{t}} \equiv \left(\frac{\partial A_{t}}{\partial \mathcal{N}}\right)_ {T,V_{t}, N_{t}} \equiv \left(\frac{\partial F_{t}}{\partial \mathcal{N}}\right)_ {T,p, N_ {t}} \; .
 \]</div>
 <p>Bestela esanda, multzo nanokanonikoaren kasuan, aldaki berri bat sorrarazteko multzoari berari egin beharreko lana da.</p>
 <p>Horren harira, atal honetan denboran batez besteko <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute (<span class="math notranslate nohighlight">\(N \geq 1\)</span>). Era berean, multzoko inguruneko aldagai-sorta <span class="math notranslate nohighlight">\((T,p,N_{t})\)</span> izango dugu, non <span class="math notranslate nohighlight">\(N_{t}=\bar{\mathcal{N}}\bar{N}\)</span> den.</p>
-<p>Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du <span class="math notranslate nohighlight">\(F_{t}(T,p,N_{t})\)</span> energia askeak, eta, beraz, <span class="math notranslate nohighlight">\(\mathrm{d}F_{t}&lt;0\)</span>. Prozesuak dirauela multzoa isolatuta mantentzen bada, <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, <a class="reference internal" href="#equation-epsilonnewdef">(50)</a> ekuazioaren eskuinaldetik,</p>
+<p>Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du <span class="math notranslate nohighlight">\(F_{t}(T,p,N_{t})\)</span> energia askeak, eta, beraz, <span class="math notranslate nohighlight">\(\mathrm{d}F_{t}&lt;0\)</span>. Prozesuak dirauela multzoa isolatuta mantentzen bada, <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, <a class="reference internal" href="#equation-epsilonnewdef">(67)</a> ekuazioaren eskuinaldetik,</p>
 <div class="math notranslate nohighlight" id="equation-dft">
-<span class="eqno">(51)<a class="headerlink" href="#equation-dft" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(68)<a class="headerlink" href="#equation-dft" title="Permalink to this equation">¶</a></span>\[
 \mathrm{d}F_{t}=\mathcal{E}\mathrm{d}\bar{\mathcal{N}}&lt;0\; .
 \]</div>
 <p>Adierazpen horrek honakoa iradokitzen du: banatze-potentziala positiboa denean, aldaki-kopuruak behera egingo du, eta, negatiboa denean, aldiz, multzoaren banatzea areagotuko da, aldaki txikiagoak sorraraziz (oroitu gaitezen <a class="reference internal" href="#gisub"><span class="std std-ref">13</span></a>. irudiaz). Era berean, orekara heldutakoan, energia minimoan egongo denez,</p>
 <div class="math notranslate nohighlight" id="equation-d2f">
-<span class="eqno">(52)<a class="headerlink" href="#equation-d2f" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(69)<a class="headerlink" href="#equation-d2f" title="Permalink to this equation">¶</a></span>\[
 \left(\frac{\partial^2 F_{t}}{\partial \bar{\mathcal{N}}^2}\right)_{T,p, N_{t}} = \left(\frac{\partial \mathcal{E}}{\partial \bar{\mathcal{N}}}\right)_{T,p, N_{t}} &gt; 0 \; .
 \]</div>
-<p>Bertatik agerikoa da <span class="math notranslate nohighlight">\(\mathrm{d}\mathcal{E}\)</span> eta <span class="math notranslate nohighlight">\(\mathrm{d}\bar{\mathcal{N}}\)</span> zeinu berekoak direla. Horrez gain, <a class="reference internal" href="#equation-dft">(51)</a>  ekuazioa aintzat hartuz, <span class="math notranslate nohighlight">\(\mathcal{E}\cdot\mathrm{d}\mathcal{E}&lt;0\)</span> beteko da. Ondorio esanahitsu hori <a class="reference internal" href="#mupt-gi"><span class="std std-ref">6.3</span></a> adibideko azalpena osatzeko lagungarria izango zaigu: <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> eta <span class="math notranslate nohighlight">\(\mathrm{d}\mathcal{E}\)</span> aurkako zeinudunak direnez, <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> aldatuz doan neurrian, <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> potentzialak zerorantz joko du, harik eta orekara heldu arte. <strong>Banatzeari dagokion oreka-egoera</strong> batek <span class="math notranslate nohighlight">\(\mathcal{E} = 0\)</span> baldintza bete beharko du.</p>
-<p>Esaldi hori dela eta, azken kontu bat argitu beharrean gaude. Berorri heltzeko, gas idealaren adibidea berreskuratuko dugu. Ezer baino lehen, kontuan izan dezagun multzoko sistema txikiei <span class="math notranslate nohighlight">\(N\geq1\)</span> baldintza ezarri diegula. Hortaz, <a class="reference internal" href="#equation-upsilongi">(46)</a>  ekuaziotik <span class="math notranslate nohighlight">\(N=0\)</span> gaia erauzi beharko dugu. Bada, <span class="math notranslate nohighlight">\(x=k_{\mathrm{B}}T\lambda/(p\Lambda^3)\)</span> ordezkatuz,</p>
+<p>Bertatik agerikoa da <span class="math notranslate nohighlight">\(\mathrm{d}\mathcal{E}\)</span> eta <span class="math notranslate nohighlight">\(\mathrm{d}\bar{\mathcal{N}}\)</span> zeinu berekoak direla. Horrez gain, <a class="reference internal" href="#equation-dft">(68)</a>  ekuazioa aintzat hartuz, <span class="math notranslate nohighlight">\(\mathcal{E}\cdot\mathrm{d}\mathcal{E}&lt;0\)</span> beteko da. Ondorio esanahitsu hori <a class="reference internal" href="#mupt-gi"><span class="std std-ref">6.3</span></a> adibideko azalpena osatzeko lagungarria izango zaigu: <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> eta <span class="math notranslate nohighlight">\(\mathrm{d}\mathcal{E}\)</span> aurkako zeinudunak direnez, <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> aldatuz doan neurrian, <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> potentzialak zerorantz joko du, harik eta orekara heldu arte. <strong>Banatzeari dagokion oreka-egoera</strong> batek <span class="math notranslate nohighlight">\(\mathcal{E} = 0\)</span> baldintza bete beharko du.</p>
+<p>Esaldi hori dela eta, azken kontu bat argitu beharrean gaude. Berorri heltzeko, gas idealaren adibidea berreskuratuko dugu. Ezer baino lehen, kontuan izan dezagun multzoko sistema txikiei <span class="math notranslate nohighlight">\(N\geq1\)</span> baldintza ezarri diegula. Hortaz, <a class="reference internal" href="#equation-upsilongi">(62)</a>  ekuaziotik <span class="math notranslate nohighlight">\(N=0\)</span> gaia erauzi beharko dugu. Bada, <span class="math notranslate nohighlight">\(x=k_{\mathrm{B}}T\lambda/(p\Lambda^3)\)</span> ordezkatuz,</p>
 <div class="math notranslate nohighlight" id="equation-upsilonginew">
-<span class="eqno">(53)<a class="headerlink" href="#equation-upsilonginew" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(70)<a class="headerlink" href="#equation-upsilonginew" title="Permalink to this equation">¶</a></span>\[
  \Upsilon = \frac{x}{1-x}
 \]</div>
 <p>izango da partizio-funtzio eraldatua. Bertatik <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> eta <span class="math notranslate nohighlight">\(\bar{N}\)</span> magnitudeak birkalkulatuko ditugu:</p>
 <div class="math notranslate nohighlight" id="equation-epsginew">
-<span class="eqno">(54)<a class="headerlink" href="#equation-epsginew" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(71)<a class="headerlink" href="#equation-epsginew" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} = -k_{\mathrm{B}}T\ln\left(\frac{x}{1-x}\right) = -k_{\mathrm{B}}T\ln\left(\bar{N}-1\right) \; ,
 \]</div>
 <div class="math notranslate nohighlight" id="equation-barnginew">
-<span class="eqno">(55)<a class="headerlink" href="#equation-barnginew" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(72)<a class="headerlink" href="#equation-barnginew" title="Permalink to this equation">¶</a></span>\[
  \bar{N} = \frac{1}{1-x} = 1 + e^{-\mathcal{E}/k_{\mathrm{B}}T} \; .
 \]</div>
 <p>Demagun orain <span class="math notranslate nohighlight">\(\bar{\mathcal{N}}\)</span> azpisistema-kopuruari eragingo dion prozesu espontaneoa abian jartzen dugula, <span class="math notranslate nohighlight">\(T\)</span> eta <span class="math notranslate nohighlight">\(p\)</span> konstante mantenduz. Banatzeak dirauela (<span class="math notranslate nohighlight">\(\mathrm{d}\bar{\mathcal{N}}&lt;0\)</span> edo <span class="math notranslate nohighlight">\(\mathrm{d}\bar{\mathcal{N}}&gt;0\)</span>), entropiak <span class="math notranslate nohighlight">\(\Delta S=\pm k_{\mathrm{B}}\ln(\bar{N}/2)\)</span> aldakuntza jasango duela frogatu daiteke.  Orekara ailegatutakoan,</p>
@@ -666,12 +668,12 @@ S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
 \]</div>
 <p>Gogora dezagun lehen, partizio-funtzioan <span class="math notranslate nohighlight">\(N=0\)</span> gaia sartzeagatik, <span class="math notranslate nohighlight">\(\bar{N}\rightarrow 0\)</span> baldintzak ginderamatzala orekara, zeinak banatzea etengabekoa dela iradoki bailezake. Horren aldean, orain lorturiko emaitzek esangura eta zentzu fisiko handiagoa dute.</p>
 <p>Amaitzeko, argitzeko geratu den alderdiari helduko diogu. Aurreko zenbait ataletan esan bezala, limite makroskopikoan <span class="math notranslate nohighlight">\(\bar{N}\)</span> aldagaiarekin erlazio lineala betetzen duten ekarpenak biziki gailenduko dira banatze-potentzialarekiko, eta, beraz, <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> baztergarri bilakatuko da. Bada, azken esaldi hori iruzurtia gerta lekiguke, arrazoibide okerretik eraman gintzake eta, honakoa pentsaraziz: sistema makroskopikoak <span class="math notranslate nohighlight">\(\mathcal{E}\approx 0\)</span> hautemango duenez, <em>limite makroskopikoa bera oreka-egoeratzat hartzea daukagu</em>.</p>
-<p>Izan ere, horren aurrean erne ibili behar dugu! Esate baterako, gas idealaren kasuan, <a class="reference internal" href="#equation-epsginew">(54)</a> ekuazioak <span class="math notranslate nohighlight">\(\bar{N}\rightarrow \infty\)</span> limitean</p>
+<p>Izan ere, horren aurrean erne ibili behar dugu! Esate baterako, gas idealaren kasuan, <a class="reference internal" href="#equation-epsginew">(71)</a> ekuazioak <span class="math notranslate nohighlight">\(\bar{N}\rightarrow \infty\)</span> limitean</p>
 <div class="math notranslate nohighlight" id="equation-epslimgi">
-<span class="eqno">(56)<a class="headerlink" href="#equation-epslimgi" title="Permalink to this equation">¶</a></span>\[
+<span class="eqno">(73)<a class="headerlink" href="#equation-epslimgi" title="Permalink to this equation">¶</a></span>\[
 \mathcal{E} = -k_{\mathrm{B}}T\ln \bar{N}
 \]</div>
-<p>adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan (<a class="reference internal" href="tpn.html#helix-coil"><span class="std std-ref">4.2</span></a> zein <a class="reference internal" href="adsorbent.html#app"><span class="std std-ref">7</span></a>. ataletako sistemetan, adibidez) eskuratzen diren adierazpenek <span class="math notranslate nohighlight">\(\mathcal{E}\rightarrow 0\)</span> betetzen dutela limite makroskopikoan, baina <a class="reference internal" href="#equation-epslimgi">(56)</a> ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span> baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.</p>
+<p>adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan (<a class="reference internal" href="tpn.html#helix-coil"><span class="std std-ref">4.2</span></a> zein <a class="reference internal" href="adsorbent.html#app"><span class="std std-ref">7</span></a>. ataletako sistemetan, adibidez) eskuratzen diren adierazpenek <span class="math notranslate nohighlight">\(\mathcal{E}\rightarrow 0\)</span> betetzen dutela limite makroskopikoan, baina <a class="reference internal" href="#equation-epslimgi">(73)</a> ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen <span class="math notranslate nohighlight">\(\mathcal{E}=0\)</span> baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.</p>
 <p>Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo atalean 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara.</p>
 </div>
 </div>

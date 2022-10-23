@@ -2,7 +2,7 @@
 ## **4**. Multzo isotermo-isobaroa: $(T,p,N)$ ingurune-aldagaiak
 
 Kapitulu honen fisikari heldu baino lehen, honako honi erreparatu behar diogu: [6](tpmu). atalean ikusiko dugunez, multzo nanokanonikorako $(T,p,\mu)$ trantsizioa $Q(T,V,N)$ partizio-funtzio kanonikotik abiatzen dugu normalean, Legendreren transformazioen laguntzaz. Kontua da tarteko multzotzat makrokanonikoa $(T,V,\mu)$ hautatuz gero, zenbaitetan bidea malkartsua gertatuko zaigula. Bada, bolumenean barreneko integrala barik $N$ partikula-kopuruan zeharreko batukaria kalkulatzeak lana arinduko digu.
-Hala, ibilbide hori multzo isotermo-isobaroan $(T,p,N)$ barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez $T$ eta $p$ finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, [4.2](helix_coil) azpiatalean lan honetako lehenbiziko adibideari helduko diogu, hurbilketa bereziekin bada ere.
+Hala, ibilbide hori multzo isotermo-isobaroan $(T,p,N)$ barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez $T$ eta $p$ finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, [4.2](helix_coil) azpiatalean lan honetako lehenbiziko adibide garrantzitsuari helduko diogu, hurbilketa bereziekin bada ere.
 
 Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du.
 
@@ -27,7 +27,7 @@ $$ (xtpn)
 ```
 
 ```{dropdown} __Azalpenak__
-Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}N_{t} = \mathcal{N}\mathrm{d}N + N\mathrm{d}\mathcal{N}$ erabiliz. Berorrek $N_{t}$ magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, $N$ partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik $N$ partikuladun sorta berri bat gehitzen genbilzkioke eta. Aipaturiko ekarpen kimikoa $\widehat{\mu}$ potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako $\mu$ potentzialaren esanahi bera.
+Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}N_{t} = \mathcal{N}\mathrm{d}N + N\mathrm{d}\mathcal{N}$ erabiliz. Berorrek $N_{t}$ magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, $N$ partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik $N$ partikuladun sorta berri bat gehitzen arituko gintzaizkioke eta. Aipaturiko ekarpen kimikoa $\widehat{\mu}$ potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako $\mu$ potentzialaren esanahi bera.
 ```
 
 $(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
@@ -89,10 +89,10 @@ Esku artean dugun sistema [3](heco). irudiko dimentsio bakarreko soka da. Berori
 height: 200px
 name: helix-coil
 ---
-  “Helize-haril” kateak helize-unitateak ($H$) eta haril-unitateak ($C$) dauzka. Mutur banatan $f$  indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, $N\rightarrow \infty$ hurbilketa asintotikoa ez badarabilgu, katean sistema txikien berezitasunak azaleratuko dira. Oroz gain, beroriek makroskopikoki intentsiboak diren aldagaiei nabarmenki erasango diete.
+  “Helize-haril” kateak helize-unitateak ($H$) eta haril-unitateak ($C$) dauzka. Mutur banatan $f$  indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, $N\rightarrow \infty$ hurbilketa asintotikora jotzen ez badugu, katean sistema txikien berezitasunak azaleratuko dira. Oroz gain, beroriek makroskopikoki intentsiboak diren aldagaiei nabarmenki erasango diete.
 ```
 
-Demagun orain haril-unitateak ($C$) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: $C\;H\;H\;H\;C$ ; $C\;C\;H\;H\;H$ ; $H\;H\;H\;C\;C$. Orokortuz, baldintza horrek sistemari $g(n_{H}) = N-n_{H}+1$ endekapena lekarkioke. Jakina, $H$-unitaterik ez balego, $g=1$ izango genuke, sistemak bakarrik $C$-unitateak baileuzkake. $C$- eta $H$-unitateen partizio-funtzio kanonikoak $q_{H}(T)$ eta $q_{C}(T)$ izendatuko ditugu. Beraz, kate osora zabalduz, $Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}$ genuke. Horiek horrela, $\Delta(T,f,N)$ partizio-funtzioa eraikiko dugu:
+Demagun orain haril-unitateak ($C$) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: $C\;H\;H\;H\;C$ ; $C\;C\;H\;H\;H$ ; $H\;H\;H\;C\;C$. Orokortuz, baldintza horrek sistemari $g(n_{H}) = N-n_{H}+1$ endekapena sorraraziko lioke. Jakina, $H$-unitaterik ez balego, $g=1$ izango genuke, sistemak bakarrik $C$-unitateak edukiko lituzke eta. $C$- eta $H$-unitateen partizio-funtzio kanonikoak $q_{H}(T)$ eta $q_{C}(T)$ izendatuko ditugu. Beraz, kate osora zabalduz, $Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}$ genuke. Horiek horrela, $\Delta(T,f,N)$ partizio-funtzioa eraikiko dugu:
 
 $$
 \Delta := \sum_{l} Q(T,l,N)e^{fl/k_{\mathrm{B}}T}
@@ -158,7 +158,7 @@ $$
 \bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
 $$ (nhdef)
 
-Gauzak horrela, hasteko {eq}`d` ekuazioko batukaritik $n_{H}=0$ gaia atera eta $\Delta$ honela berridatziko dugu:
+Gauzak horrela, hasteko {eq}`d` ekuazioko batukaritik $n_{H}=0$ gaia atera, eta $\Delta$ honela berridatziko dugu:
 
 $$
     \Delta = r_{C}^N\left[1+\sum_{n_{H}=1}^{N}\left(N-n_{H}+1\right)r^{n_{H}}\right]\; .
@@ -170,9 +170,9 @@ $$
 \bar{n}_{H} := \frac{r_{C}^N\left[0+\sum_{n_{H}=1}^{N}n_{H}\left(N-n_{H}+1\right)r^{n_{H}}\right]}{\Delta} = r\frac{\partial}{\partial r}\ln \Delta \; .
 $$ (nbar)
 
-`````{admonition} Iradokizuna
+`````{dropdown} Iradokizuna
 :class: tip
-Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela.
+Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela. 🙃
 `````
 
 Bada, {eq}`nbar` ekuazioan {eq}`d_short` adierazpena ordezkatuz gero, azkenean ere! iritsiko gara helmugara:
@@ -193,9 +193,9 @@ name: hc_phase
   Helize-unitateen batez besteko frakzioaren kurbek eite bitxia eta susmagarria dute. Izan ere, badirudi intentsibotasuna ez dela dirudien bezain kontzeptu tinkoa.
 ```
 
-Lortutako emaitzak direla eta, ezinbestean berehalako geldialdia egin beharrean gaude.
+Lortutako emaitzak direla eta, berehalako geldialdia egin beharrean gaude, ezinbestean.
 
-Hurrera gakizkion, **arreta handiz**, [5](nhplot). irudiko kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean ($N=2$), tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horien atzean [4](eps_graph). irudiak islatzen duen banatze-potentzialaren bilakaera dago.
+Hurrera gakizkion, **arreta handiz**, [5](nhplot). irudiko kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean ($N=2$), tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek  [4](eps_graph). irudiak islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
 
 Ondorioz, $N=200$ inguruan $\bar{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
@@ -204,7 +204,7 @@ Fase-trantsizioen gaian murgildutakoan ([5.](fase) atalean) izango dugu [5](nhpl
 (gitpn)=
 ###  **4.3** Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
 
-Bigarren sistemaren azterketa [___C___](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara, partizio-funtzio berria eraikitzerakoan {eq}`qtvngi` zaharrari Legendreren transformazioa aplikatuz.
+Bigarren sistemaren azterketa [___C___](gitvn) eranskineko emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara. Partizio-funtzio berria eraikitzerakoan {eq}`qtvngi` zaharrari Legendreren transformazioa aplikatuko diogu.
 
 $$
 \Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .
@@ -230,6 +230,6 @@ $$
 \boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 $$ (stpngi)
 
-Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \bar{V}=V$ onartuz), azken gai negatiboak ez dagertzala ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
+Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \bar{V}=V$ onartuz), azken gai negatiboak ageri ez direla ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
 
 Aurrerago, [6](tpmu). atalean, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.

@@ -4,11 +4,11 @@
 (hillteo)=
 ###  **3.1** Hill-en teoria
 
-Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua, sistema horren $\mathcal{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero $\left(\mathcal{N}\rightarrow \infty\right)$, sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
+Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua sistema horren $\mathcal{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero $\left(\mathcal{N}\rightarrow \infty\right)$, sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
 Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, Termodinamika Klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.
 
 ```{admonition} Oharra
- Hill-en teoriak ere __hipotesi ergodikoari__ deutso: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, multzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
+ Hill-en teoriak ere __hipotesi ergodikoari__ eusten dio: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, multzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
 
 ```
 
@@ -30,7 +30,7 @@ $$
 \boxed{\mathcal{E} = \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t}, N_{t}}} \; .
 $$
 
-Berebat, lehengo ataleko multzo nanokanonikoaren inguruko azalpen lausoak argitzeko lagungarriak gerta daitezke. Ikusten denez, $\mathcal{E}$ potentzialak $\mu$ aldagaiaren eitea aurkezten du, eta, nolabait, azpisistemekin lotutako potentzial kimikotzat har liteke {cite}`hill_diff_app`. Aldaki bat gehitutakoan, $S_{t}, V_{t}$ eta $N_{t}$ aldagaiek konstante jarraituko dute, baina  birbanatu egingo dira. Hori dela eta, multzoaren azpisistemen banatzea aldatzeak sorrarazten duen ekarpen energetikoa adierazten du banatze-potentzialak.
+Berebat, lehengo ataleko multzo nanokanonikoaren inguruko azalpen lausoak argitzeko lagungarriak gerta daitezke. Ikusten denez, $\mathcal{E}$ potentzialak $\mu$ aldagaiaren eitea aurkezten du, eta, nolabait, azpisistemekin lotutako potentzial kimikotzat har liteke {cite}`hill_diff_app`. Aldaki bat gehitzean, $S_{t}, V_{t}$ eta $N_{t}$ aldagaiek konstante jarraituko dute, baina  birbanatu egingo dira. Hori dela eta, multzoaren azpisistemen banatzea aldatzeak sorrarazten duen ekarpen energetikoa adierazten du banatze-potentzialak.
 Hurrengo urratsa, {eq}`hill-gibbs` ekuaziotik barne-energiaren adierazpena erdiestea litzateke. Integratuz,
 
 $$
@@ -64,7 +64,7 @@ $$
 $$ (h_g_d)
 
 Erlazio horrek matematikoki erakustera ematen du [2](nanointro). zatian esaten aritu garena, agerikoa baita banatze-potentzialak askatasun-gradu bat abiaraziko duela. Hartara, zilegi izango zaigu, $(T, p, \mu)$ aldagai-sorta finkatzeaz bat, multzo nanokanonikoa eraikitzea. Berorren bidez sistema txikiaren propietateei xehetasun handiagoz hurreratuko gatzaizkie.
-Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathcal{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \bar{V}$ eta $\bar{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora baileramazke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
+Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathcal{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \bar{V}$ eta $\bar{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
 
 
 Ikusten dugunez, Termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kualitatiboki aipatutako kontzeptuei azalpen mardulagoak eta landuagoak eman dizkiegu. Horrek sailkapen-irizpide zorrotza eraikitzea ahalbidetzen du: _Sistema bat txikia da, baldin eta bere banatze-potentziala finitua eta bazterrezina bada_.
@@ -77,7 +77,7 @@ Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-
 
 ### **3.2** Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
 
-Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartutakoan multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.
+Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartzean multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.
 Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, _eta ez beste ezerk_, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  $E, V$ eta $N$ finko mantentzea galarazten baitu. Ondorioz, sistema txikiei $(T, p, \mu)$ aldagaiak esleitu behar izan dizkiegu nahitaez.
 
 Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, $(A, B, C,...)$ ingurune-aldagaien aurrean $\mathcal{E}(T, p, \mu)$ banatze-potentzialaren orokorpena definitu beharrean gaude. Berori $X(A, B, C...)$ hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion __aldaki-energia__ da. Noski, multzo nanokanonikoaren kasuan $X(T,p,\mu) = \mathcal{E}(T, p, \mu)$ genuke, baina, oro har, ez da hori beteko.
@@ -95,7 +95,7 @@ $$
 X(T,V,\mu) = \mathcal{E}-pV := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V,N_{t}} := -\widehat{p}\;V\;.
 $$ (xgc)
 
-Esanak esan, {eq}`xgc` ekuazioari so eginez gero, $X(T,V,\mu)$ ingurune honetan $\mathcal{E}$ baino aldagai are aproposagoa dela ikusiko dugu, berorrek baitarama multzo makrokanonikoaren berezko izaera. Hain zuzen, aldaki bat sartzean, multzo osoaren $V_{t}$ bolumena aldatu egingo da, horrek bermatuko baitu sistema txiki bakoitzaren $V$ bolumenak aldaezin iraungo duela. Beraz, multzo zehatz honetako aldaki-energia, multzoak hautemango duen eta $\widehat{p}$ presioak ereduztatuko duen lan mekanikotzat har daiteke: $-\widehat{p}\;V$. Jakina, $p\neq \widehat{p}$, presio bien energiarako ekarpenek ez baitute esangura bera: lehenengoarena sistema txikiei dagokie, eta bigarrenarena multzo osora hedatzen da. Ondorioz, efektu finituak direla eta, sistema txikien kasuan adierazpen desberdinak izango dituzte, eta eskualde termodinamikoan bat etorriko dira.
+Esanak esan, {eq}`xgc` ekuazioari so eginez gero, $X(T,V,\mu)$ ingurune honetan $\mathcal{E}$ baino aldagai are aproposagoa dela ikusiko dugu, berorrek baitauka multzo makrokanonikoaren berezko izaera. Hain zuzen, aldaki bat sartzean, multzo osoaren $V_{t}$ bolumena aldatu egingo da, horrek bermatuko baitu sistema txiki bakoitzaren $V$ bolumenak aldaezin irautea. Beraz, multzo zehatz horretako aldaki-energia multzoak hautemango duen, eta $\widehat{p}$ presioak ereduztatuko duen lan mekanikotzat har daiteke: $-\widehat{p}\;V$. Jakina, $p\neq \widehat{p}$, presio bien energiarako ekarpenek ez dutelako esangura bera: lehenengoarena sistema txikiei dagokie, eta bigarrenarena multzo osora hedatzen da. Ondorioz, efektu finituak direla eta, sistema txikien kasuan adierazpen desberdinak izango dituzte, eta bakarrik eskualde termodinamikoan etorriko dira bat.
 
 Segidan, {eq}`xgc` ekuazioa erabiliz, eta lehengo ataleko prozedura jarraituz, espresio hauetara iritsiko gara:
 

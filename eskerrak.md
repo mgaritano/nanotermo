@@ -5,7 +5,7 @@ harira, Termodinamika eta Fisika Estatistikoa irakasgaira bideratutako materiala
 
 Horiek horrela, eskertzekoak dira Josuren ekarpen emankor eta suspertzaileak.
 
-Bigarrenik, _Small Systems Thermodynamics_ proiektuko kide diren Jean-Marc Simon eta Signe Kjelstrup16 ikerlariei {cite}`noruegos`, posta elektronikoz helarazitako galderei ihardetsi dietelako (ikus atxikitako dokumentua). Euren hitzetan, duela urte gutxi, dentsitate-fluktuazioak ikertzen zihardutela, teoria klasikoak azaltzen ez dituen desbideraketak behatu zituzten emaitzetan. Bada, 1960. hamarkadan lanean aritu ziren lankide batzuek Hill-en lana gogora ekarri, eta, bere ideiei jarraikiz, arrakasta handiz burutu zuten datu-analisia! Hori, jakina, abiapuntua besterik ez zen izan. Simonek dioenez, molekulen inguruko hainbat efektu ulertze aldera lagungarria gertatu zaie. Hori dela eta, 2022. urte amaieran, teoria eta aplikazioak uztartzen dituen liburua argitaratzekoak dira, Hill-en teoria ezagutzera emate aldera.
+Bigarrenik, _Small Systems Thermodynamics_ proiektuko kide diren Jean-Marc Simon eta Signe Kjelstrup ikerlariei {cite}`noruegos`, posta elektronikoz helarazitako galderei ihardetsi dietelako (ikus atxikitako dokumentua). Euren hitzetan, duela urte gutxi, dentsitate-fluktuazioak ikertzen zihardutela, teoria klasikoak azaltzen ez dituen desbideraketak behatu zituzten emaitzetan. Bada, 1960. hamarkadan lanean aritu ziren lankide batzuek Hill-en lana gogora ekarri, eta, bere ideiei jarraikiz, arrakasta handiz burutu zuten datu-analisia! Hori, jakina, abiapuntua besterik ez zen izan. Simonek dioenez, molekulen inguruko hainbat efektu ulertze aldera lagungarria gertatu zaie. Hori dela eta, 2022. urte amaieran, teoria eta aplikazioak uztartzen dituen liburua argitaratzekoak dira, Hill-en teoria ezagutzera emate aldera.
 
 
 
@@ -15,8 +15,9 @@ zitzaiokeen ikustea ikerlari-talde umil batek buru-belarri, su eta gar diharduel
 Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin gelditu..._
 
 
-```{epigraph}
-.
 
-Mikel Garitano
+```{epigraph}
+
+
+-- Mikel Garitano
 ```

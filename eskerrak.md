@@ -5,7 +5,7 @@ harira, Termodinamika eta Fisika Estatistikoa irakasgaira bideratutako materiala
 
 Horiek horrela, eskertzekoak dira Josuren ekarpen emankor eta suspertzaileak.
 
-Bigarrenik, Small Systems Thermodynamics proiektuko kide diren Jean-Marc Simon eta Signe Kjelstrup16 ikerlariei, posta elektronikoz helarazitako galderei ihardetsi dietelako (ikus atxikitako dokumentua). Euren hitzetan, duela urte gutxi, dentsitate-fluktuazioak ikertzen zihardutela, teoria klasikoak azaltzen ez dituen desbideraketak behatu zituzten emaitzetan. Bada, 1960. hamarkadan lanean aritu ziren lankide batzuek Hill-en lana gogora ekarri, eta, bere ideiei jarraikiz, arrakasta handiz burutu zuten datu-analisia! Hori, jakina, abiapuntua besterik ez zen izan. Simonek dioenez, molekulen inguruko hainbat efektu ulertze aldera lagungarria gertatu zaie. Hori dela eta, 2022. urte amaieran, teoria eta aplikazioak uztartzen dituen liburua argitaratzekoak dira, Hill-en teoria ezagutzera emate aldera.
+Bigarrenik, _Small Systems Thermodynamics_ proiektuko kide diren Jean-Marc Simon eta Signe Kjelstrup16 ikerlariei, posta elektronikoz helarazitako galderei ihardetsi dietelako (ikus atxikitako dokumentua). Euren hitzetan, duela urte gutxi, dentsitate-fluktuazioak ikertzen zihardutela, teoria klasikoak azaltzen ez dituen desbideraketak behatu zituzten emaitzetan. Bada, 1960. hamarkadan lanean aritu ziren lankide batzuek Hill-en lana gogora ekarri, eta, bere ideiei jarraikiz, arrakasta handiz burutu zuten datu-analisia! Hori, jakina, abiapuntua besterik ez zen izan. Simonek dioenez, molekulen inguruko hainbat efektu ulertze aldera lagungarria gertatu zaie. Hori dela eta, 2022. urte amaieran, teoria eta aplikazioak uztartzen dituen liburua argitaratzekoak dira, Hill-en teoria ezagutzera emate aldera.
 
 
 
@@ -13,3 +13,10 @@ Bigarrenik, Small Systems Thermodynamics proiektuko kide diren Jean-Marc Simon e
 Terrell Hill 2014an zendu zen, 96 urte zuela. Antza, bere heriotza ez zen Ludwig Boltzmannena bezain zorigaiztokoa izan. Nolanahi dela ere, ez du begiesterik izan urte luzez baztertuta egon den bere lanaren sustapenik. Ziurrenik, pozgarri eta atsegingarri gertatuko
 zitzaiokeen ikustea ikerlari-talde umil batek buru-belarri, su eta gar diharduela ekinean;
 Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin gelditu..._
+
+
+```{epigraph}
+
+
+-- Mikel Garitano
+```

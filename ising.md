@@ -1,5 +1,5 @@
 (ising)=
-## **8**. Ising-en eredua
+## **9**. Ising-en eredua
 
 Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuak aztertzeko. Hain zuzen, Nanotermodinamikaren tresneriaren bitartez,  [17](ising_arrows). irudiko ereduaren benetako oreka termikoa bilatzea dugu erronka.
 

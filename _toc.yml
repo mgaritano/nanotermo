@@ -10,10 +10,10 @@ chapters:
 - file: fase
 - file: tpmu
 - file: adsorbent
+- file: ising
 - file: ondorioak
 - file: euler
 - file: entropy
 - file: gas ideala
-- file: ising
 - file: erreferentziak
 - file: eskerrak

@@ -19,5 +19,5 @@ Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin geld
 ```{epigraph}
 
 
- $\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad $ -- Mikel Garitano
+ $\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad $ Mikel Garitano
 ```

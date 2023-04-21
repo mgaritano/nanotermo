@@ -15,7 +15,7 @@ zitzaiokeen ikustea ikerlari-talde umil batek buru-belarri, su eta gar diharduel
 Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin gelditu..._
 
 ```{epigraph}
-.
+
 
 -- Leioa, 2022ko ekainaren 15a
 ```

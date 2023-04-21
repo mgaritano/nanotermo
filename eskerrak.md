@@ -14,7 +14,11 @@ Terrell Hill 2014an zendu zen, 96 urte zuela. Antza, bere heriotza ez zen Ludwig
 zitzaiokeen ikustea ikerlari-talde umil batek buru-belarri, su eta gar diharduela ekinean;
 Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin gelditu..._
 
+```{epigraph}
+$\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad$ 2022ko ekainaren 15a
 
+-- Mikel Garitano
+```
 
 ```{epigraph}
 

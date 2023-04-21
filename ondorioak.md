@@ -1,5 +1,5 @@
 (ondorio)=
-## __8__. Ondorioak
+## __9__. Ondorioak
 
 Banatze-potentziala Nanotermodinamikara sarbidea eman digun zubiak zutik irauteko baitezpadakoa duen euskarri sendoa da. Izan ere, berorrek ahalbidetu du multzo estatistiko nanokanonikoaren eraikuntza, baita multzo horren banatzearekin lotutako askatasun-gradu berezia finkatzea ere. Ildo horretatik, [3](hillsec). atalean Hill-en formalismoan murgildu, eta Termodinamikaren ekuazioak itxuraldatu behar izan ditugu. Horrekin batera, gure pentsamoldea sistema txikietara egokitzeaz bat, adibideen bidez tamaina finituko efektu arrotz eta bitxiei gerturatu gatzaizkie.
 

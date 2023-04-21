@@ -8,7 +8,7 @@ Mekanika Estatistikoak esku artean dugun sistemaren fisika bere osagai mikroskop
 height: 500px
 name: multzo
 ---
-  Multzo mikrokanonikoa, kanonikoa eta makrokanonikoa hagitz ezagunak dira, eta Termodinamikan zabalki erabiliak. Multzo nanonakonikoa, ordea, lehen begiratuan arrotza gerta lekiguke.
+  Multzo mikrokanonikoa, kanonikoa eta makrokanonikoa hagitz ezagunak dira, eta Termodinamikan zabalki erabiliak. Multzo nanokanonikoa, ordea, lehen begiratuan arrotza gerta lekiguke.
 ```
 
 Lehenbizi, azpisistema erabat isolatuz osaturiko multzo __mikrokanonikoa__ dugu. Bertan, sistemaren aldakiek ez dute elkar ikusten, hots, horietako bakoitzean aldagai estentsibo guztiek ($E$ barne-energiak, $V$ bolumenak eta $N$ partikula-kopuruak) finko diraute. Gauzak horrela, sistema aztertzeko abiapuntua makroskopikoki behatuko den _makroegoeraren_ baliokideak diren _mikroegoeren_ kopurua, $\Omega(E,V,N)$, _zenbatzea_ da. Jarraian, Boltzmann-en ekuazioak, $k_{\mathrm{B}}$ Boltzmann-en konstantearen bidez, entropia itzuliko digu: $S(E,V,N) := k_{\mathrm{B}} \ln \Omega$.

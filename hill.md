@@ -34,7 +34,7 @@ Berebat, lehengo ataleko multzo nanokanonikoaren inguruko azalpen lausoak argitz
 Hurrengo urratsa, {eq}`hill-gibbs` ekuaziotik barne-energiaren adierazpena erdiestea litzateke. Integratuz,
 
 $$
-\small E_{t} \left(=\int \mathrm{d}E_{t} = T \int \mathrm{d}S_{t} - p \int \mathrm{d}V_{t} + \mu \int \mathrm{d}N_{t} + \mathcal{E} \int \mathrm{d}\mathcal{N}\right) = TS_{t} - pV_{t} + \mu N_{t} + \mathcal{E}\mathcal{N} \; .
+E_{t} \left(=\int \mathrm{d}E_{t} = T \int \mathrm{d}S_{t} - p \int \mathrm{d}V_{t} + \mu \int \mathrm{d}N_{t} + \mathcal{E} \int \mathrm{d}\mathcal{N}\right) = TS_{t} - pV_{t} + \mu N_{t} + \mathcal{E}\mathcal{N} \; .
 $$ (pausoa)
 
 Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: _Euler-homogeneotasuna_ (ikus [___A___](euler) eranskina). Hain zuzen, $E_{t}, S_{t}, V_{t}, N_{t}$ eta $\mathcal{N}$ lehen ordenako funtzio Euler-homogeneoak dira $V$ zein $N$ aldagaiekiko. Are gehiago, tenperatura, presioa eta potentzial kimikoa aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik $(T, p, \mu,\mathcal{E})$ sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.

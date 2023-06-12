@@ -34,25 +34,25 @@ name: ising_j
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
 ```
 
-Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_J$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_J$ noranzko beredun spinen artekoak $(-J)$. Esaterako, [18](ising_1). irudiaren kasuan, $N=10$ eta $n_J = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_J$ aldagaiak finko dituen sistemaren energia honela idaztea daukagu:
+Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, [18](ising_1). irudiaren kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
 
 $$
-  E_J = n_J J - (N-n_J)J = -(N-2n_J)J \; .
+  E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
 $$ (e_j)
 
-Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_J$ energia altuko eta $N-n_J$ energia baxuko loturetan. Horretarako, oharteman dezagun [18](ising_1). irudiko gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_J$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
+Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko loturetan. Horretarako, oharteman dezagun [18](ising_1). irudiko gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
 
 $$
-\Omega(n_J,N) = 2\cdot \frac{N!}{n_J!\;(N-n_J)!} \;\;\;\; .
+\Omega(n_+,N) = 2\cdot \frac{N!}{n_+!\;(N-n_+)!} \;\;\;\; .
 $$ (omega_nj)
 
 Segidan, entropiaren ekuazioa idatziko dugu, Stirlingen $\ln(n!)$ serieko aurreneko hiru gaiak ez beste guztiak baztertuz:
 
 $$
-\boxed{\frac{S(n_J,N)}{k_\mathrm{B}} = N\ln N - n_J\ln n_J - (N-n_J)\ln(N-n_J) - \frac{1}{2}\ln\left[\frac{\pi}{2}n_J\left(1-\frac{n_J}{N}\right)\right]} \; .
-$$
+\boxed{\frac{S(n_+,N)}{k_\mathrm{B}} = N\ln N - n_+\ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[\frac{\pi}{2}n_+\left(1-\frac{n_+}{N}\right)\right]} \; .
+$$ (s_ising_micro)
 
-
+Gaineko {eq}`s_ising_micro` ekuazioak dioskunaren arabera, entro
 
 
 (j0bnot0)=

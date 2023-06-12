@@ -43,8 +43,17 @@ $$ (e_j)
 Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_J$ energia altuko eta $N-n_J$ energia baxuko loturetan. Horretarako, oharteman dezagun [18](ising_1). irudiko gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_J$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
 
 $$
-\Omega(n_J,N) = 2\cdot \frac{N!}{n_J!\;(N-n_J)!} \; .
+\Omega(n_J,N) = 2\cdot \frac{N!}{n_J!\;(N-n_J)!} \;\;\;\; .
 $$ (omega_nj)
+
+Segidan, entropiaren ekuazioa idatziko dugu, Stirlingen $\ln(n!)$ serieko aurreneko hiru gaiak ez beste guztiak baztertuz:
+
+$$
+\boxed{\frac{S(n_J,N)}{k_\mathrm{B}} = N\ln N - n_J\ln n_J - (N-n_J)\ln(N-n_J) - \frac{1}{2}\ln\left[\frac{\pi}{2}n_J\left(1-\frac{n_J}{N}\right)\right]} \; .
+$$
+
+
+
 
 (j0bnot0)=
 ### **8.2** Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)

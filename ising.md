@@ -34,12 +34,17 @@ name: ising_j
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
 ```
 
-Arestian azaldutako hurbilketari jarraikiz, demagun sistemak $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_J$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_J$ noranzko beredun spinen artekoak $(-J)$. Esaterako, [18](ising_1). irudiaren kasuan, $N=10$ eta $n_J = 7$. Hori dela eta, multzo mikrokanonikoan $N$ eta $n_J$ aldagaiak finko dituen sistemaren energia honela idaztea daukagu:
+Arestian azaldutako hurbilketari jarraikiz, demagun sistemak $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_J$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_J$ noranzko beredun spinen artekoak $(-J)$. Esaterako, [18](ising_1). irudiaren kasuan, $N=10$ eta $n_J = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_J$ aldagaiak finko dituen sistemaren energia honela idaztea daukagu:
 
 $$
   E_J = n_J J - (N-n_J)J = -(N-2n_J)J \; .
 $$ (e_j)
 
+Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_J$ energia altuko eta $N-n_J$ energia baxuko loturetan. Horretarako, oharteman dezagun [18](ising_1). irudiko gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_J$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
+
+$$
+\Omega(n_J,N) = 2\cdot \frac{N!}{n_J!\;(N-n_J)!} \; .
+$$ (omega_nj)
 
 (j0bnot0)=
 ### **8.2** Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)

@@ -83,14 +83,40 @@ $$
 Bertatik, hasteko, sistemaren barne energiaren batez bestekoa kalkulatuko dugu, honako berdintza honi jarraituz:
 
 $$
-\bar{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
+\bar{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
 $$ (bar_E_def)
 
-Horrela,
+Hartara, kalkuluak eginez gero,
 
 $$
  \bar{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
 $$
+
+Jarraian, Helmholtz-en energia askea behar dugu:
+
+$$
+A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] \; .
+$$ (hehlmholtz_ising)
+
+Aurreko bi ekuazioez baliatuz, eta $S(T, N) =\left(\bar{E} - A\right)/T $ betetzen dela gogora ekarriz, hona ailegatuko gara:
+
+$$
+\boxed{S(T,N)
+ = Nk_{\mathrm{B}}\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 (j0bnot0)=

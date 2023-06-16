@@ -28,7 +28,7 @@ Errepara diezaiogun [18](ising_1). irudiari.
 (ising_1)=
 ```{figure} ising_j.png
 ---
-height: 200px
+width: 200px
 name: ising_j
 ---
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.

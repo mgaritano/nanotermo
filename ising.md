@@ -86,24 +86,44 @@ $$
 \bar{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
 $$ (bar_E_def)
 
-Hartara, kalkuluak eginez gero,
+####  Ariketa
+
+$(a)$ Kalkulatu $\bar{E}$ adierazpena.
+
+```{dropdown} __Erantzuna__
 
 $$
  \bar{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
-$$
+$$ (bar_E)
 
-Jarraian, Helmholtz-en energia askea behar dugu:
+```
+
+$(b)$ Jarraian, kalkulatu Helmholtz-en energia askea.
+
+```{dropdown} __Erantzuna__
 
 $$
 A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] \; .
 $$ (hehlmholtz_ising)
 
-Aurreko bi ekuazioez baliatuz, eta $S(T, N) =\left(\bar{E} - A\right)/T $ betetzen dela gogora ekarriz, hona ailegatuko gara:
+```
+
+$(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena.
+
+```{dropdown} __Erantzuna__
+
+Multzo kanonikoan entropiak $S(T, N) =\left(\bar{E} - A\right)/T $ betetzen duela gogora ekarriz, hona ailegatuko gara:
 
 $$
 \boxed{S(T,N)
  = Nk_{\mathrm{B}}\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
 $$
+
+```
+
+
+
+
 
 
 

@@ -18,8 +18,8 @@ Lehenbizi, azpisistema erabat isolatuz osaturiko multzo __mikrokanonikoa__ dugu.
 ```
 Azpisistemen arteko energia-trukaketa baimenduz gero, multzo __kanonikora__ egingo dugu jauzi. Tenperatura kontrolpean izango dugu, eta baimendutako $E_{i}$ energia bakoitzarekin bateragarriak diren mikroegoeren sorta dagokion pisuarekin batukarian txertatuz, partizio-funtzio kanonikoa kalkulatzera helduko gara: $Q(T,V,N) := \sum_{E_{i}} \Omega(E_{i},V,N) e^{-E_{i}/k_{\mathrm{B}}T}\;$. Aipatutako pisua Boltzmann-en faktoreak finkatuko du, hain zuzen, sistema $E_{i}$ energiadun egoeran egoteko probabilitatea adieraziz. Horrek Helmholtz-en energia askea (bero-iturri batekin ukipen termikoan dagoen sistema isotermoaren lan erabilgarria) kalkulatzera garamatza: $A(T,V,N) := -k_{\mathrm{B}}T\ln Q\;$.
 
-```{admonition} Oharra
-__Argibide garrantzitsua__: Lan guztian zehar Hill-ek bere liburuan erabiltzen duen antzinako edo ezohiko notazioari eutsiko diogu. Hala, potentzial termodinamikoak hizki hauen bidez izendatuko ditugu: Barne-energia $\rightarrow E$ ; Helmholtz-en energia askea $\rightarrow A$ ; Entalpia $\rightarrow H$ ; Gibbs-en energia askea $\rightarrow F$. Eraldaketa horiek ez biezaiote nahasmena sorraraz irakurleari.
+```{admonition} __Argibide garrantzitsua__
+Lan guztian zehar Hill-ek bere liburuan erabiltzen duen antzinako edo ezohiko notazioari eutsiko diogu. Hala, potentzial termodinamikoak hizki hauen bidez izendatuko ditugu: Barne-energia $\rightarrow E$ ; Helmholtz-en energia askea $\rightarrow A$ ; Entalpia $\rightarrow H$ ; Gibbs-en energia askea $\rightarrow F$. Eraldaketa horiek ez biezaiote nahasmena sorraraz irakurleari.
 ```
 
 Azkenik, aldakiei elkarren artean energia ez ezik, materia ere trukatzea onartuko balitzaie, multzo are askeagoa erdietsiko genuke, __makrokanonikoa__, alegia. Askatasun-gradu kimikoari dagokion Legendreren transformazioa aplikatuz, partizio-funtzio makrokanonikoa eraikiko dugu: $\Xi (T, V, \mu) := \sum_{N_{i}} Q(T,V,N_{i})e^{\mu N_{i}/k_{\mathrm{B}}T}$, eta, hortik, multzo horren egoera-funtzioa den gran-potentziala:  $\Psi (T,V,\mu) = -k_{\mathrm{B}}T\ln \Xi$.

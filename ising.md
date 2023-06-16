@@ -8,7 +8,7 @@ Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere aba
 (ising_arrows)=
 ```{figure} ising_geziak.png
 ---
-height: 200px
+width: 600px
 name: ising_geziak
 ---
   Ising-en dimentsio bakarreko katea $N$ spinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ([18](ising_1). irudia).
@@ -28,7 +28,7 @@ Errepara diezaiogun [18](ising_1). irudiari.
 (ising_1)=
 ```{figure} ising_j.png
 ---
-width: 500px
+width: 600px
 name: ising_j
 ---
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.

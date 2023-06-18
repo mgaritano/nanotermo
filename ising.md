@@ -8,7 +8,7 @@ Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere aba
 (ising_arrows)=
 ```{figure} ising_geziak.png
 ---
-width: 600px
+width: 650px
 name: ising_geziak
 ---
   Ising-en dimentsio bakarreko katea $N$ spinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ([18](ising_1). irudia).
@@ -28,7 +28,7 @@ Errepara diezaiogun [18](ising_1). irudiari.
 (ising_1)=
 ```{figure} ising_j.png
 ---
-width: 600px
+width: 650px
 name: ising_j
 ---
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
@@ -108,7 +108,7 @@ $$ (hehlmholtz_ising)
 
 ```
 
-$(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena.
+$(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena. Jarraian, kalkulatu maximoa, eta alderatu emaitza {eq}`s_max_micro` ekuazioarekin.
 
 ```{dropdown} __Erantzuna__
 
@@ -117,9 +117,18 @@ Multzo kanonikoan entropiak $S(T, N) =\left(\bar{E} - A\right)/T $ betetzen duel
 $$
 \boxed{S(T,N)
  = Nk_{\mathrm{B}}\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
+$$ (s_ising_kan)
+
+Entropiak maximoa du $frac{J}{k_{\mathrm{B}}T = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
+
 $$
+S(T, N)_{\text{max}} = (N+1)k_{\mathrm{B}}\ln 2
+$$ (s_max_kano)
+
+genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen horrek zein {eq}`s_max_micro` ekuazioak $Nk_{\mathrm{B}}\ln 2$ baliora joko luketela. Alabaina, eskualde nanotermodinamikoan tamaina finituko efektuak baztertuko ez bagenitu, bigarren adierazpen hori gailenduko litzateke bestearen aurrean.
 
 ```
+
 
 
 

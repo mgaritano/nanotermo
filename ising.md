@@ -119,7 +119,7 @@ $$
  = Nk_{\mathrm{B}}\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
 $$ (s_ising_kan)
 
-Entropiak maximoa du $frac{J}{k_{\mathrm{B}}T = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
+Entropiak maximoa du $\frac{J}{k_{\mathrm{B}}T = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
 
 $$
 S(T, N)_{\text{max}} = (N+1)k_{\mathrm{B}}\ln 2

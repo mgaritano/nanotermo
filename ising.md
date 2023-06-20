@@ -156,14 +156,14 @@ $(b)$ Ondoren, kalkulatu $\Upsilon(T,\mu)$ partizio-funtzio nanokanonikoa eta ba
 Aurreko $(a)$ ataleko espresioa garatuz eta moldatuz,
 
 $$
-\Upsilon (T,\mu)= 2\lambda \sum_{N=0}^{\infty}\left[\left(e^{J/k_\mathrm{B}T} + e^{- J/k_\mathrm{B}T}\right)\lambda\right]^N = \left[\frac{1}{2}\lambda -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right]^{-1} \; ,
-$$ (upsilon_ising)
+\Upsilon (T,\mu)= 2\lambda \sum_{N=0}^{\infty}\left[\left(e^{J/k_\mathrm{B}T} + e^{- J/k_\mathrm{B}T}\right)\lambda\right]^N = \left[\frac{1}{2\lambda} -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right]^{-1} \; ,
+$$ (upsilon_ising_1)
 
 non $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Bertatik, banatze-potentzialaren adierazpena berehalakoa da:
 
 $$
-\mathcal{E}(T,\mu) = k_\mathrm{B}T\ln\left[\frac{1}{2}\lambda -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right] \; .
-$$
+\mathcal{E}(T,\mu) = k_\mathrm{B}T\ln\left[\frac{1}{2\lambda} -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right] \; .
+$$(epsilon_ising)
 
 
 

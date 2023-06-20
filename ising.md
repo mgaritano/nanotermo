@@ -125,7 +125,47 @@ $$
 S(T, N)_{\text{max}} = (N+1)k_{\mathrm{B}}\ln 2
 $$ (s_max_kano)
 
-genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen horrek zein {eq}`s_max_micro` ekuazioak $Nk_{\mathrm{B}}\ln 2$ baliora joko luketela. Alabaina, eskualde nanotermodinamikoan tamaina finituko efektuak baztertuko ez bagenitu, bigarren adierazpen hori gailenduko litzateke bestearen aurrean.
+genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen horrek zein {eq}`s_max_micro` ekuazioak $Nk_{\mathrm{B}}\ln 2$ baliora joko luketela. Alabaina, eskualde nanotermodinamikoan tamaina finituko efektuak baztertuko ez bagenitu, $S(T, N)_{\text{max}}$ gailenduko litzateke $S(n_+, N)_ {\text{max}}$ adierazpenarekiko.
+
+```
+
+Bukatzeko, azterketa __multzo nanokanonikora__ eramango dugu.
+
+####  Ariketa
+
+$(a)$ Idatzi $\Upsilon(T,\mu)$ partizio-funtzioaren adierazpena, {eq}`q_ising` ekuaziotik abiatuz. Ez egin kalkulurik.
+
+```{dropdown} __Erantzuna__
+
+Partizio-funtzio orokortua eraikitzerakoan, dakargun gogora sistemak lehen auzoko spinen arteko $N$ lotura dituela esan dugula arestian; hartara, sistemaren spinen kopurua $N+1$ da. Hori dela eta, batukariko Boltzmannen faktorean $N+1$ sartu beharko dugu, eta, beraz,
+
+$$
+\Upsilon (T,\mu)= \sum_{N=0}^{\infty} Q(T,N)\; e^{\mu(N+1)/k_\mathrm{B}T}
+$$ (upsilon_ising)
+
+ekuaziora helduko gara.
+
+```
+
+$(b)$ Ondoren, kalkulatu $\Upsilon(T,\mu)$ partizio-funtzio nanokanonikoa eta banatze-potentziala.
+
+
+
+```{dropdown} __Erantzuna__
+
+Aurreko $(a)$ ataleko espresioa garatuz eta moldatuz,
+
+$$
+\Upsilon (T,\mu)= 2\lambda \sum_{N=0}^{\infty}\left[\left(e^{J/k_\mathrm{B}T} + e^{- J/k_\mathrm{B}T}\right)\lambda\right]^N = \left[\frac{1}{2}\lambda -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right]^{-1} \; ,
+$$ (upsilon_ising)
+
+non $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Bertatik, banatze-potentzialaren adierazpena berehalakoa da:
+
+$$
+\mathcal{E}(T,\mu) = k_\mathrm{B}T\ln\left[\frac{1}{2}\lambda -\cosh\left(\frac{J}{k_\mathrm{B}T}\right)\right] \; .
+$$
+
+
 
 ```
 

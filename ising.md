@@ -177,9 +177,20 @@ adierazpenera heltzeko.
 Hasteko,
 
 $$
-S(T,\mu) = -k_\mathrm{B}\ln\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right) - \left(\frac{1}{2}\;\frac{\mu}{T}\;e^{-\mu/k_{\mathrm{B}}T} - \frac{J}{T}\;\sinh\frac{J}{k_\mathrm{B}T}\right)\cdot\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1}
+S(T,\mu) = -k_\mathrm{B}\ln\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right) - \left(\frac{1}{2}\;\frac{\mu}{T}\;e^{-\mu/k_{\mathrm{B}}T} - \frac{J}{T}\;\sinh\frac{J}{k_\mathrm{B}T}\right)\cdot\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; .
 $$(s_tmu_ising)
 
+Spinen kopuruaren batez bestekoa kalkulatzerakoan, adi ibili behar dugu, adierazpenean $\bar{N} + 1$ idatzi behar dugulako, alegia:
+
+$$
+\bar{N} + 1 = -\left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_T =\frac{\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T}}{ \frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}} \; .
+$$(bar_n_ising)
+
+Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
+
+$$
+S(T,\bar{N}) = \bar{N}k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \bar{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right] \; .
+$$ (s_tbarn_ising)
 
 ```
 

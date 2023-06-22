@@ -189,7 +189,7 @@ $$(bar_n_ising)
 Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
 
 $$
-S(T,\bar{N}) = \bar{N}k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \bar{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right] \; .
+\boxed{S(T,\bar{N}) = \bar{N}k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \bar{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
 $$ (s_tbarn_ising)
 
 ```

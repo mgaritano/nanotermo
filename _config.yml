@@ -39,6 +39,10 @@ html:
   use_repository_button: true
 
 sphinx:
-  latex_preamble: |
-    \usepackage{amsmath}
-    \numberwithin{equation}{section}
+    config:
+      html_theme_options:
+        use_download_button: false
+        repository_url: https://github.com/mgaritano/nanotermo
+        use_issues_button: true
+        use_repository_button: true
+        use_edit_page_button: true

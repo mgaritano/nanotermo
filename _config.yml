@@ -39,4 +39,6 @@ html:
   use_repository_button: true
 
 sphinx:
-  math_number_all: true
+  latex_preamble: |
+    \usepackage{amsmath}
+    \numberwithin{equation}{section}

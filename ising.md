@@ -116,7 +116,7 @@ Multzo kanonikoan entropiak $S(T, N) =\left(\bar{E} - A\right)/T $ betetzen duel
 
 $$
 \boxed{S(T,N)
- = Nk_{\mathrm{B}}\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
 $$ (s_ising_kan)
 
 Entropiak maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
@@ -169,7 +169,7 @@ $$(epsilon_ising)
 
 ```
 
-$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\bar{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\bar{N})$
+$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\bar{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\bar{N}(\mu))$
 adierazpenera heltzeko.
 
 ```{dropdown} __Erantzuna__
@@ -189,7 +189,7 @@ $$(bar_n_ising)
 Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
 
 $$
-\boxed{S(T,\bar{N}) = \bar{N}k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \bar{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
+\boxed{S(T,\bar{N}) = \bar{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
 $$ (s_tbarn_ising)
 
 ```

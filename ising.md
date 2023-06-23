@@ -189,8 +189,19 @@ $$(bar_n_ising)
 Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
 
 $$
-\boxed{S(T,\bar{N}) = \bar{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
+\boxed{S(T,\bar{N}(\mu)) = \bar{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
 $$ (s_tbarn_ising)
+
+```
+
+Behin $S(T, N)$ eta $S(T,\bar{N}(\mu))$ adierazpenak kalkulatuz gero, adierazgarria litzateke bien arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
+
+```{figure} ising_1_s.png
+---
+height: 350px
+name: sn100
+---
+Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, bi kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, bi adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan ageri den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
 
 ```
 

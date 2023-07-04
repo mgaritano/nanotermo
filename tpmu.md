@@ -188,7 +188,7 @@ $$
 Sistema honen bigarren berrazterketaren abiapuntua [4.3](gitpn) ataleko {eq}`dtpn_gi` ekuazioa da.
 
 #### Ariketa
-Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa aurreko bien baitan, hau da, $S(T,\bar{V},\bar{N})$.
+Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\bar{V},\bar{N})$.
 ```{dropdown} __Erantzuna__
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
@@ -250,8 +250,21 @@ Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarrit
 Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.
 
 
+(mupt_sphagg)=
+### **6.4** Adibidea: Agregatu esferikoa
+
+_*Adibidea osatzen ari naiz..._
+
+Jarraian aurkeztuko dugun analisiak [6.3](mupt_linagg) ataleko adibidearen tankera du. Oraingoan, aitzitik, unitate osatzaileen biraketa barik, gainazal- eta kurbatura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu. Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaturaren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du. Hala, $Q(T,N)$ partizio funtzio kanonikoa
+
+$$
+Q(T,N) = j(T)^N\;\exp\left[{\frac{-a(T)N^{2/3}}{k_{\mathrm{B}}T}}\right]\exp\left[{\frac{-b(T)N^{1/3}}{k_{\mathrm{B}}T}}\right] = e^{-\widehat{\mu}N/k_{\mathrm{B}}T}
+$$ (qagg_sph)
+
+izango dugu.
+
 (stabeps)=
-### **6.4** Banatze-potentziala eta egonkortasuna
+### **6.5** Banatze-potentziala eta egonkortasuna
 
 Hasteko, dakargun gogora $\mathcal{E}$ potentzialaren definizioa: multzoaren aldaki-kopuruan eragiteak berorren guztizko energiari dakarkion ekarpena, gainontzeko kasuan kasuko ingurune-aldagaiak konstante mantenduz, hau da,
 

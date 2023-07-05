@@ -255,13 +255,15 @@ Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ p
 
 _*Adibidea osatzen ari naiz..._
 
-Jarraian aurkeztuko dugun analisiak [6.3](mupt_linagg) ataleko adibidearen tankera du. Oraingoan, aitzitik, unitate osatzaileen biraketa barik, gainazal- eta kurbatura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu. Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaturaren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du. Hala, $Q(T,N)$ partizio funtzio kanonikoa
+Jarraian aurkeztuko dugun analisiak [6.3](mupt_linagg) ataleko adibidearen tankera du. Oraingoan, aitzitik, unitate osatzaileen biraketa barik, gainazal- eta kurbatura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu ($a>0$). Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaturaren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du ($b>0$). Hill-en liburuan ({cite}`hill`) zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaturaren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $a\gg b$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
+
+Lehenbizi, $Q(T,N)$ partizio-funtzio kanonikoa eraikiko dugu, hurbilketarik gabe.
 
 $$
 Q(T,N) = j(T)^N\;\exp\left[{\frac{-a(T)N^{2/3}}{k_{\mathrm{B}}T}}\right]\exp\left[{\frac{-b(T)N^{1/3}}{k_{\mathrm{B}}T}}\right]
 $$ (qagg_sph)
 
-izango dugu. Bertatik, $Q=e^{-\widehat{\mu}N/k_{\mathrm{B}}T}$ erlazioa gogora ekarriz, poentzial kimiko diferentziala eta integrala zein banatze-potentziala eskuratuko ditugu:
+Bertatik, $Q=e^{-\widehat{\mu}N/k_{\mathrm{B}}T}$ erlazioa gogora ekarriz, poentzial kimiko diferentziala eta integrala eskuratuko ditugu:
 
 $$
 \left.\begin{array}{l}
@@ -269,6 +271,13 @@ $$
 \mu=-k_{\mathrm{B}}T\ln j +\frac{2}{3} N^{-1/3}\;a(T) + \frac{1}{3} N^{-2/3}\;b(T)
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j
 $$ (sph_agg_mu)
+
+Horiekin batera, honako bi magnitudeak idatziko ditugu:
+
+$$
+\widehat{\mu}^{(x)} = \widehat{\mu} - \mu^{(0)} = N^{-1/3}a(T) + N^{-2/3}b(T) \\
+\mu^{(x)} = \mu - \mu^{(0)} = \frac{2}{3}N^{-1/3}a(T) + \frac{1}{3}N^{-2/3}b(T) 
+$$
 
 $$
 \mathcal{E} = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T)

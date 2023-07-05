@@ -326,14 +326,14 @@ $$
 $$
 
 
-Gu, jakina, sistemaren azterketa nanotermodinamikoa burutzea dugunez xedea, ez gara inola ere horrelako sasiarteetan sartuko.
+Guk, jakina, sistemaren azterketa nanotermodinamikoa burutzea dugunez xedea, ez gara inondik inora horrelako sasiarteetan sartuko.
 
 ```
 
 Integral mugatuaren emaitza honako hau dugu:
 
 $$
-\Upsilon (T,\mu) = \frac{\pi^{1/2}\left(45\xi\beta+12\alpha^2\right)}{16\alpha^{7/2}} - \frac{3\beta}{2\alpha^2} - \frac{3\xi}{\alpha^3}
+\Upsilon (T,\mu) = \frac{\pi^{1/2}\left(45\delta\beta+12\alpha^2\right)}{16\alpha^{7/2}} - \frac{3\beta}{2\alpha^2} - \frac{3\delta}{\alpha^3}
 $$
 
 

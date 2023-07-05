@@ -309,7 +309,7 @@ $$ (upsilon_sph)
 Kontuan izan dezagun {eq}`upsilon_sph` ekuazioan $\mu^{(x)}$ positiboa izateak seriearen dibergentzia lekarkeela, $N$ handietarako $e^{{\mu^{(x)}}N/k_{\mathrm{B}}T}$ esponentziala gailenduko bailitzateke. Beraz, $\mu^{(x)} \leq 0$ inposatu beharko dugu konbergentzia bermatzeko (ekar dezagun gogora $a$ eta $b$ positiboak direla, eta, ondorioz, $\widehat{\mu}^{(x)}$ ere bai). Aurrera egin baino lehen, komenigarria da honako notazio hau sartzea:
 
 $$
-\delta(T,\mu) = \frac{-\mu^{(x)}}{k_{\mathrm{B}}T}} = \frac{\mu^{(0)}-\mu}{k_{\mathrm{B}}T}} \quad , \quad \alpha(T) = \frac{a(T)}{k_{\mathrm{B}}T}} \quad , \quad \beta(T) = \frac{b(T)}{k_{\mathrm{B}}T}} \; .
+\delta(T,\mu) = \frac{-\mu^{(x)}}{k_{\mathrm{B}}T}} = \frac{\mu^{(0)}-\mu}{k_{\mathrm{B}}T}} \quad , \quad \alpha(T) = \frac{a(T)}{k_{\mathrm{B}}T}} \quad , \quad \beta(T) = \frac{b(T)}{k_{\mathrm{B}}T} \; .
 $$
 
 

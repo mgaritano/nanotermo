@@ -237,13 +237,13 @@ Jarraian datorren [6.4](stabeps) atalean $\mathcal{E}<0$ izateak multzoaren barr
 height: 300px
 name: gisub
 ---
-Multzo nanokanonikoan __banatzearen areagotzeak bereizgarritasuna indartuko du__. Izan ere, hasiera batean bi aldakietako bakoitzean egon diren partikulak bereiztezinak izan dira, hain zuzen, aldakikide izateagatik. Aitzitik, bukaeran, azpisistemen arteko bereizte-hormek bereizgarri bihurrarazi dituzte. Horren ondorioz, entropiak gora egingo du.
+Multzo nanokanonikoan __banatzearen areagotzeak bereizgarritasuna indartuko du__. Izan ere, hasiera batean bi aldakietako bakoitzean egon diren partikulak bereizezinak izan dira, hain zuzen, aldakikide izateagatik. Aitzitik, bukaeran, azpisistemen arteko bereizte-hormek bereizgarri bihurrarazi dituzte. Horren ondorioz, entropiak gora egingo du.
 
 ```
 
 Irudia eta {eq}`stpmugi` ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: $\Delta S = k_{\mathrm{B}}\ln(\bar{N}+1)$. Banatzeari dagokion orekan, $\bar{N} \rightarrow 0$ eta, hortik, $\Delta S_{\text{oreka}}=0$. Baina, partikulako entropia hazi egingo da: $\lim_{\bar{N} \rightarrow 0}\Delta S/\bar{N} = 1$.
 
-Aipatu beharrekoa da gaineko [13](gisub). irudiari lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereiztezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
+Aipatu beharrekoa da gaineko [13](gisub). irudiari lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
 
 Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era __itzulezinean__ _nahasiko_ dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbs-en paradoxa saihestuko dugu bidenabar {cite}`nanointro, multiscale`.
 
@@ -337,13 +337,13 @@ $$
 \Upsilon (T,\mu) = \frac{\pi^{1/2}\left(45\delta\beta+12\alpha^2\right)}{16\alpha^{7/2}} - \frac{3\beta}{2\alpha^2} - \frac{3\delta}{\alpha^3} \; \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\longrightarrow}} \; \frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}
 $$ (upsilon_sph_good)
 
-Hortik, hasteko, batez besteko $\bar{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta{T,\mu}$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
+Hortik, hasteko, batez besteko $\bar{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta(T,\mu)$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
 
 $$
- \bar{N} = -\left(\frac{\partial \mathcal{E}}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{1}{\Upsilon}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\; .
+ \bar{N} := -\left(\frac{\partial \mathcal{E}}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{1}{\Upsilon}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\; .
 $$ (bar_n_sph)
 
-Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
+Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\bar{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
 
 $$
 P(N) = \frac{e^{-\alpha N^{2/3}}e^{-\beta N^{1/3}}}{\Upsilon}\approx \frac{e^{-\alpha N^{2/3}}\left(1-\beta N^{1/3}\right)}{\Upsilon} \; .

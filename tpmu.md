@@ -272,16 +272,22 @@ $$
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j
 $$ (sph_agg_mu)
 
-Horiekin batera, honako bi magnitudeak idatziko ditugu:
+Horiekin batera, honako bi magnitudeak idatziko ditugu, gerora erabilgarriak gertatuko zaizkigu eta.
 
 $$
-\widehat{\mu}^{(x)} = \widehat{\mu} - \mu^{(0)} = N^{-1/3}a(T) + N^{-2/3}b(T) \\
-\mu^{(x)} = \mu - \mu^{(0)} = \frac{2}{3}N^{-1/3}a(T) + \frac{1}{3}N^{-2/3}b(T) 
-$$
+\left.\begin{array}{l}
+\widehat{\mu}^{(x)} = \widehat{\mu} - \mu^{(0)} = N^{-1/3}\;a(T) + N^{-2/3}\;b(T)\\\\
+\mu^{(x)} = \mu - \mu^{(0)} = \frac{2}{3}N^{-1/3}\;a(T) + \frac{1}{3}N^{-2/3}\;b(T)
+\end{array}\right\}
+$$ (excess_mu)
+
+```{admonition} Oharra
+Hill-ek $\widehat{\mu}^{(x)}$ eta $\mu^{(x)}$ magnitudeei gehiegizko termino deritze (_excess terms_). Hurrenez hurren, $\widehat{\mu}$ eta $\mu$ potentzial kimikoen tamaina finituko efektuen adierazle dira. 
+```
 
 $$
 \mathcal{E} = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T)
-$$
+$$ (sph_epsilon)
 
 
 Horiekin batera, entropia eta barne-energiaren batez bestekoa kalkulatuko ditugu:

@@ -360,6 +360,11 @@ $$
 $$ (bar_n13_sph)
 
 
+
+$$
+\bar{E}(T,\mu) =\frac{\sum_E\sum_N\Omega(E,N)\;e^{-E/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T}}{\Upsilon(T,\mu)} = \frac{\sum_N \bar{E}(T,N)\;Q(T,N)\;e^{\mu N/k_{\mathrm{B}}T}}{\Upsilon(T,\mu)}
+$$
+
 (stabeps)=
 ### **6.5** Banatze-potentziala eta egonkortasuna
 

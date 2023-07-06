@@ -376,10 +376,20 @@ izango da.
 Horixe da $S(T,\mu)$ entropia eraikitzeko behar dugun azkenengo osagaia. Izan ere, sistema txikiari dagokion {eq}`e_small` ekuazioa adibide jakin honetan honela berridatziko dugu: $\bar{E} = TS + \mu^{(0)}N + \mathcal{E}$. Bada, oroitu gaitezen, alde batetik, askatasun-gradu mekanikoaren ekarpena baztertu dugula hasieratik; bestetik, potentzial kimikoaren balioa $\mu^{(0)}$ limitea da. Horrenbestez, ekuaziotik $S$ askatuz,
 
 $$
-S(T, \mu) =  \bar{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) - \overline{N^{2/3}}\frac{\mathrm{d}a}{\mathrm{d}T} - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] + \overline{N^{2/3}}\frac{a}{T} + \overline{N^{1/3}}\frac{b}{T}
+\boxed{S(T, \mu) =  \bar{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) - \overline{N^{2/3}}\frac{\mathrm{d}a}{\mathrm{d}T} - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] + \overline{N^{2/3}}\frac{a}{T} + \overline{N^{1/3}}\frac{b}{T}}
 $$ (s_sph_agg_tmu)
 
-da multzo nanokanonikoak itzuliko digun entropia. So egin diezaiogun hari.
+da multzo nanokanonikoak itzuliko digun entropia. So egin diezaiogun hari; eta, aurrez hainbatetan egindakoaren harira, ipin dezagun parez pare {eq}`s_sph_agg_tn` adierazpenarekin.
+
+Bada, $S(T,\mu)$ ekuazioan hiru gai gehigarri azaltzen dira. Agerikoa da azkenengo biek (positiboak) $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioen ondoriozko entropiaren gorakadaren erantzuleak direla. Edonola ere, azken-hirugarren gaiak azterketa sakonagoa eskatzen du. Izan ere, logaritmoaren barnean $\bar{N}$ mangitudearekiko alderantzizko funtzioa agertzen da; are gehiago, parentesi artean dagoena positiboa da. Hori dela eta, $\bar{N}$ handitu ahala, ekarpen hori are negatiboagoa bilakatuko da, guztizko entropia jaitsiz. Badirudi efektu hori kurbaturaren ekarpenak aintzat hartzearen ondorio zuzena dela. Edonola ere, gogora dezagun $\alpha \gg \beta$ onartu dugula hasieratik; hortaz, $\beta/\alpha^{7/2} \approx 0$ beteko da. Gauzak horrela, zilegi zaigu, gai horretan, behintzat, kurbatura-efektuak baztertzea. Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa zein aztegai dugun entropiaren gaia berridatziko ditugu:
+
+$$
+\bar{N} \approx \frac{4}{\pi^{1/2}\alpha^{3/2}} \; ,
+$$
+
+$$
+k_{\mathrm{B}}\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \approx k_{\mathrm{B}}\ln\left(\frac{3\pi\bar{N}}{16}\right) \; .
+$$
 
 (stabeps)=
 ### **6.5** Banatze-potentziala eta egonkortasuna

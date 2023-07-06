@@ -401,7 +401,7 @@ $$
 
 Erabilitako limiteak gai arazotsu horren benetako izaera azaleratu du; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
-Aipagarria da ezen $N \gg N^{2/3}, N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \overline{N^{1/3}}, \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela [6.2](mupt_linagg) ataleko agregatu linealaren kasuari dagozkion emaitzekin, alegia:
+Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela [6.2](mupt_linagg) ataleko agregatu linealaren kasuari dagozkion emaitzekin, alegia:
 
 $$
 \boxed{\begin{gathered}
@@ -409,9 +409,13 @@ $$
     \\
    (b) \quad  \frac{S(T,\mu)}{\bar{N}k_{\mathrm{B}}}\equiv \frac{S(T,N)}{Nk_{\mathrm{B}}} = \frac{\mathrm{s}^{(0)}}{k_{\mathrm{B}}} = \ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\bar{N},N\rightarrow\infty)\\
    \\
-   (c)\frac{\bar{E}(T,N)}{N} \equiv \frac{\bar{E}(T,\mu)}{\bar{N}} = \mathrm{e}^{(0)} = k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\bar{N},N\rightarrow\infty)
+   (c) \quad \frac{\bar{E}(T,N)}{N} \equiv \frac{\bar{E}(T,\mu)}{\bar{N}} = \mathrm{e}^{(0)} = k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\bar{N},N\rightarrow\infty)
 \end{gathered}}
 $$
+
+```{admonition} Oharra
+Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\epsilon$ elkarrekintza-energia kontuan izan genuen. Hori dela eta,  barne-energia $N\left(k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \epsilon\right)$ da egiatan.
+```
 
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 

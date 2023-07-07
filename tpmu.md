@@ -420,6 +420,10 @@ Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 
 #### Ariketa
+Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbatura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
+
+$(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $widehat{\mu},\;\mu,\; S(T,N),\;\bar{E}(T,N),\;\Upsilon(T,\mu),\;\bar{N},\;\bar{E}(T,\mu)$ eta $S(T,\mu)$.
+
 
 (stabeps)=
 ### **6.5** Banatze-potentziala eta egonkortasuna

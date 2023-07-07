@@ -1,5 +1,7 @@
 (ising)=
-## **8**. Ising-en eredua
+## **8**. Sistema elektrikoak eta magnetikoak
+
+### **8.1** Ising-en eredua
 
 _*Adibidea osatzen ari naiz..._
 
@@ -16,12 +18,12 @@ name: ising_geziak
 
 Ising-en sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
 
-Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, [8.1](b0jnot0) atalean, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza emango dugu soilik aintzakotzat. Ondoren, [8.2](j0bnot0) atalean, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu ($J=0$).
+Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, [8.1.1](b0jnot0) atalean, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza emango dugu soilik aintzakotzat. Ondoren, [8.1.2](j0bnot0) atalean, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu ($J=0$).
 
 
 
 (b0jnot0)=
-### **8.1** Ising-en kate finitua ($J\neq 0$, $\mathbf{B}=\mathbf{0}$)
+#### **8.1.1** Ising-en kate finitua ($J\neq 0$, $\mathbf{B}=\mathbf{0}$)
 
 Errepara diezaiogun [18](ising_1). irudiari.
 
@@ -223,4 +225,4 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 
 
 (j0bnot0)=
-### **8.2** Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)
+#### **8.1.2** Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)

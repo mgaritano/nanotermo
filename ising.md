@@ -88,7 +88,7 @@ $$
 \bar{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
 $$ (bar_E_def)
 
-####  Ariketa
+#####  Ariketa
 
 $(a)$ Kalkulatu $\bar{E}$ adierazpena.
 
@@ -133,7 +133,7 @@ genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen hor
 
 Bukatzeko, azterketa __multzo nanokanonikora__ eramango dugu.
 
-####  Ariketa
+#####  Ariketa
 
 $(a)$ Idatzi $\Upsilon(T,\mu)$ partizio-funtzioaren adierazpena, {eq}`q_ising` ekuaziotik abiatuz. Ez egin kalkulurik.
 

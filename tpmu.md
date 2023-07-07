@@ -399,7 +399,7 @@ $$
 k_{\mathrm{B}}\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \approx k_{\mathrm{B}}\ln\left(\frac{3\pi\bar{N}}{16}\right) > 0 \; .
 $$ (approx)
 
-Erabilitako limiteak gai arazotsu horren benetako izaera azaleratu du; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz. 
+Erabilitako limiteak gai arazotsu horren benetako izaera jarri du agerian; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
 Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela [6.2](mupt_linagg) ataleko agregatu linealaren kasuari dagozkion emaitzekin, alegia:
 
@@ -419,6 +419,7 @@ Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\
 
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 
+#### Ariketa
 
 (stabeps)=
 ### **6.5** Banatze-potentziala eta egonkortasuna

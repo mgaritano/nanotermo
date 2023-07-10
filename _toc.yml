@@ -11,6 +11,7 @@ chapters:
 - file: tpmu
 - file: adsorbent
 - file: ising
+- file: osagarri
 - file: ondorioak
 - file: euler
 - file: entropy

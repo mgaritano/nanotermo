@@ -1,6 +1,7 @@
-(ising)=
+(elek_mag)=
 ## **8**. Sistema elektrikoak eta magnetikoak
 
+(ising)=
 ### **8.1** Ising-en eredua
 
 _*Adibidea osatzen ari naiz..._

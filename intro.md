@@ -43,7 +43,4 @@ Ildo horretatik, Gradu Amaierako Lan honen bertsio digitalaren lehenengo zatia (
 
 Hasteko, [2.](nanointro) zatian zubi-lanetan jardungo dugu, dagoeneko ikasia dugun Mekanika Estatistikoaren oinarriak gogora ekarri {cite}`callen, hebreos, pathria`, eta berorrek Nanotermodinamikarekin duen lotura ezartzeko. Behin ideia nagusiak finkatuz gero, [3.](hillsec) atalburuan Hill-en  formalismoan sartuko gara {cite}`hill, nano`. Hortik abiatuz, [4.](tpn) kapituluan garrantzi handia duen multzo isotermo-isobaroan lehenbiziko adibideak landuko ditugu, eta tamaina finituko ekarpenen ondorio bitxiei hurbiletik erreparatuko diegu. Jarraian, [5.](fase) gaian etenaldi berezia egingo dugu, sistema txikietako fase-trantsizioak aztertzeko. Teoriarekin amaitzeko, [6.](tpmu) atalean ildo nagusira bihurtuko gara. Termodinamikaz haratago doan multzo estatistiko _berria_ aurkezteaz bat, bertan adibide bereziak berraztertuko ditugu, esangura handiko emaitzak erdietsiz. Ondoren, [7.](app) atalean adibide mardulagoa aztertuko dugu, {cite}`ads` artikuluari jarraikiz. Hura Hill-en teoriaren egungo erabilgarritasunaren adierazle garbia da, eta, zalantza izpirik gabe, 1960ko hamarkadaz haratago heltzen ari denaren seinale. Amaitzeko, [8.](ising) atal gehigarrian Ising-en ereduaren berrazterketarekin arituko gara.
 
-Bada, luzamendutan ibili barik, _ohiko_ Termodinamikatik Nanotermodinamikara eramango gaituen zubia gurutzatzeari ekingo diogu. Honako hauek dira jorratuko ditugun gaiak:
-
-```{tableofcontents}
-```
+Bada, luzamendutan ibili barik, _ohiko_ Termodinamikatik Nanotermodinamikara eramango gaituen zubia gurutzatzeari ekingo diogu. Hurrengo ataleko [2](multzo). irudia da horretarako abiapuntu aproposa.

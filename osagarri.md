@@ -175,6 +175,15 @@ Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitea
 
 $(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\bar{E}(T,N),\;\Upsilon(T,\mu),\;\bar{N},\;\bar{E}(T,\mu)$ eta $S(T,\mu)$.
 
+$(b)$ Egiaztatu $(a)$ ataleko entropiaren $S(T,\mu)$ adierazpena haren definiziora joz ere lor daitekeela, alegia:
+
+$$
+S(T,\mu) := \frac{\partial}{\partial T}\left(k_{\mathrm{B}}T\ln\Upsilon\right)_\mu \; .
+$$ (sph_agg_s_def)
+
+Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ aldagaiarekiko menpekotasuna, hots, $\Upsilon(T,\mu) = \Upsilon(\alpha(T),\delta(T,\mu))$.
+
+
 
 (mupt_id_lattice)=
 ### **9.2** Kristal-sare idealeko gasa

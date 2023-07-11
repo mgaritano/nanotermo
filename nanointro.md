@@ -49,7 +49,7 @@ $$
 \boxed{N\mathrm{d}\mu = -S\mathrm{d}T + V\mathrm{d}p} \; .
 $$ (gibbs-duhem)
 
-Gaineko {eq}`gibbs-duhem` ekuazioak aurrez esandakoa berresten du, muga garrantzitsua ezarriz: $\mu$ potentzial kimikoak, $T$ tenperaturak eta $p$ presioak ez dute, hirurek batera, aske izaterik. Horietatik bi aukeratuz gero, hirugarrena berorien funtziopean zehaztuta geratuko da. Bada, orain arte azaldutako ideiak sendotasun handikoak eta urraezinak dela pentsa genezake. Aztergai dugun irudi-sortan badago, alabaina, __aurreko hori inola ere iradokitzen ez duen__, eta oraindik aurkeztu ez dugun multzo estatistikoa.
+Gaineko {eq}`gibbs-duhem` ekuazioak aurrez esandakoa berresten du, muga garrantzitsua ezarriz: $\mu$ potentzial kimikoak, $T$ tenperaturak eta $p$ presioak ez dute, hirurek batera, aske izaterik. Horietatik bi aukeratuz gero, hirugarrena berorien funtziopean zehaztuta geratuko da. Bada, orain arte azaldutako ideiak sendotasun handikoak eta urraezinak dela pentsa genezake. Aztergai dugun irudi-sortan badago, alabaina, ___aurreko hori inola ere iradokitzen ez duen___, eta oraindik aurkeztu ez dugun multzo estatistikoa.
 
 Arretaz errepara bekio [**2d**](multzo) irudiari. Osagai bakarreko azpisistemei askatasun-gradu guztiak abiarazi zaizkie, inguruneko aldagai-sortatzat $(T,p,\mu)$ dute eta. Hori dela eta, elkarren artean energia, partikulak eta bolumena truka ditzakete ezein kanpo-galarazpenik gabe!
 

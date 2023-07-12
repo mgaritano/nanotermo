@@ -201,7 +201,11 @@ $$
 \Omega(B,N) = \frac{B!}{N!\;(B-N)!}
 $$ (lattice_omega)
 
-da. 
+da. Entropia kalkulatzeko, Stirlingen {eq}`stirling` serieko lehenengo lau gaiak mantenduko ditugu. Hortaz,
+
+$$
+\frac{S(B,N)}{k_\mathrm{B}} = \ln\Omega = B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] - \frac{1}{12}\left[\frac{1}{N}+\frac{1}{B-N}-\frac{1}{B}\right]
+$$ (lattice_s_mc)
 
 
 

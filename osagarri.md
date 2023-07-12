@@ -55,7 +55,7 @@ $$
 $$ (upsilon_sph)
 
 
-Kontuan izan dezagun {eq}`upsilon_sph` ekuazioan $\mu^{(x)}$ positiboa izateak seriearen dibergentzia lekarkeela, $N$ handietarako $e^{{\mu^{(x)}}N/k_{\mathrm{B}}T}$ esponentziala gailenduko bailitzateke. Beraz, $\mu^{(x)} \leq 0$ inposatu beharko dugu konbergentzia bermatzeko (ekar dezagun gogora $a$ eta $b$ positiboak direla, eta, ondorioz, $\widehat{\mu}^{(x)}$ ere bai). Izan ere, ondoren ikusiko dugunez, $\mu^{(x)} > 0$ edo $\mu > \mu^{(0)}(T)$ izatearen ondoriozko dibergentziak $\bar{N} = \infty$ ekarriko du. Nabarmentzekoa da ezen kasu honetan $\mu$ aldagaia ez dela arestian kalkualtutako {eq}`sph_agg_mu` ekuazioan ageri dena, sistemari egokitutako konstantea baizik. Bada, segidan azalduko dugunez, konbergentzia bermatze aldera $\mu \rightarrow \mu^{(0)}$ baldintza inposatu beharko dugu. Aurrera egin baino lehen, komenigarria da honako notazio hau sartzea:
+Kontuan izan dezagun {eq}`upsilon_sph` ekuazioan $\mu^{(x)}$ positiboa izateak seriearen dibergentzia lekarkeela, $N$ handietarako $e^{{\mu^{(x)}}N/k_{\mathrm{B}}T}$ esponentziala gailenduko bailitzateke. Beraz, $\mu^{(x)} \leq 0$ inposatu beharko dugu konbergentzia bermatzeko (ekar dezagun gogora $a$ eta $b$ positiboak direla, eta, ondorioz, $\widehat{\mu}^{(x)}$ ere bai). Izan ere, ondoren ikusiko dugunez, $\mu^{(x)} > 0$ edo $\mu > \mu^{(0)}(T)$ izatearen ondoriozko dibergentziak $\bar{N} = \infty$ ekarriko du. Nabarmentzekoa da ezen kasu honetan $\mu$ aldagaia ez dela arestian kalkulatutako {eq}`sph_agg_mu` ekuazioan ageri dena, sistemari egokitutako konstantea baizik. Bada, segidan azalduko dugunez, konbergentzia bermatze aldera $\mu \rightarrow \mu^{(0)}$ baldintza inposatu beharko dugu. Aurrera egin baino lehen, komenigarria da honako notazio hau sartzea:
 
 $$
 \delta(T,\mu) = \frac{-\mu^{(x)}}{k_{\mathrm{B}}T} = \frac{\mu^{(0)}-\mu}{k_{\mathrm{B}}T} \quad , \quad \alpha(T) = \frac{a(T)}{k_{\mathrm{B}}T} \quad , \quad \beta(T) = \frac{b(T)}{k_{\mathrm{B}}T} \; .
@@ -120,7 +120,7 @@ $$
 \bar{E}(T,\mu) = \bar{N}k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \overline{N^{2/3}}\left(a -T\frac{\mathrm{d}a}{\mathrm{d}T}\right) + \overline{N^{1/3}}\left(b -T\frac{\mathrm{d}b}{\mathrm{d}T}\right)
 $$ (bar_e_tmu_sph)
 
-izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak kasuan kasuko ingurune-aldagaiek sistema txikien propietateei erasaten diela ematen du aditzera; izan ere, $N=\bar{N}$ aukeratzen badugu ere, barne-energiaren bi adierazpenak ez dira bat etorriko, $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioak tarteko. Hain zuzen, $\bar{N}^{2/3}\neq \overline{N^{2/3}}$ eta $\bar{N}^{1/3}\neq \overline{N^{1/3}}$ betetzen da.
+izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak aditzera ematen duenez, kasuan kasuko ingurune-aldagaiek sistema txikien propietateei erasaten diete; izan ere, $N=\bar{N}$ aukeratzen badugu ere, barne-energiaren bi adierazpenak ez dira bat etorriko, $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioak tarteko. Hain zuzen, $\bar{N}^{2/3}\neq \overline{N^{2/3}}$ eta $\bar{N}^{1/3}\neq \overline{N^{1/3}}$ betetzen da.
 
 Banatze-potentziala {eq}`bar_n_sph` ekuazioaren laguntzaz trinkotuko dugu:
 

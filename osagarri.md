@@ -189,3 +189,21 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 ### **9.2** Kristal-sare idealeko gasa
 
 _*Adibidea osatzen ari naiz..._
+
+
+Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isotermo-isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu; bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
+
+Bada, esku artean dugun sistema $B$ gelaxkaz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia oro baztertuko dugu; hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, askatasun-gradu mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
+
+Horrenbestez, azterketa $(B,N)$ ingurune-aldagaiek finkatuko duten **multzo mikrokanonikoan** abiatuko dugu. Molekulak bereizezinak direnez, mikroegoera-kopurua
+
+$$
+\Omega(B,N) = \frac{B!}{N!\;(B-N)!}
+$$ (lattice_omega)
+
+da. 
+
+
+
+
+#### Ariketa

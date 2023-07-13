@@ -204,8 +204,61 @@ $$ (lattice_omega)
 da. Entropia kalkulatzeko, Stirlingen {eq}`stirling` serieko lehenengo lau gaiak mantenduko ditugu. Hortaz,
 
 $$
-\frac{S(B,N)}{k_\mathrm{B}} = \ln\Omega = B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] - \frac{1}{12}\left[\frac{1}{N}+\frac{1}{B-N}-\frac{1}{B}\right]
+\boxed{\frac{S(B,N)}{k_\mathrm{B}} = \ln\Omega = B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] - \frac{1}{12}\left[\frac{1}{N}+\frac{1}{B-N}-\frac{1}{B}\right]}
 $$ (lattice_s_mc)
+
+
+Banatze-potentziala kalkulatzeko, [3.1](hillteo) ataleko garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbs-en ekuazioa idatziko ditugu:
+
+$$
+E = TS-pB+\mu N + \mathcal{E} \; ,
+$$ (lattice_E)
+
+$$
+\mathrm{d}E = T\mathrm{d}S-p\mathrm{d}B+\mu \mathrm{d}N \; .
+$$ (lattice_dE)
+
+
+Hortaz, aurkeztutako baldintzetan $E=0$ dela gogora ekarriz, {eq}`lattice_E` eta {eq}`lattice_dE` ekuazioak berridatziko ditugu:
+
+$$
+S = \frac{p}{T}B - \frac{\mu}{T}N - \frac{\mathcal{E}}{T} \; ,
+$$ (lattice_S)
+
+$$
+\mathrm{d}S = \frac{p}{T}\mathrm{d}B - \frac{\mu}{T}\mathrm{d}N \; .
+$$ (lattice_dS)
+
+Azkenengo adierazpenari jarraikiz eskuratuko ditugu $p$ eta $\mu$ aldagaiak:
+
+$$
+p = T\left(\frac{\partial S}{\partial B}\right)_{N} = k_{\mathrm{B}}T\left\{\ln\left(\frac{B}{B-N}\right) - \frac{N}{2B(B-N)} + \frac{1}{12}\left[\frac{1}{(B-N)^2}-\frac{1}{B^2}\right]\right\} \; ,
+$$
+
+$$
+\mu = -T\left(\frac{\partial S}{\partial N}\right)_{B} = k_{\mathrm{B}}T\left\{\ln\left(\frac{N}{B-N}\right) + \frac{B-2N}{2N(B-N)} + \frac{1}{12}\left[\frac{1}{(B-N)^2}+\frac{1}{N^2}\right]\right\} \; .
+$$
+
+Horiek horrela, $\mathcal{E} = -TS + pB -\mu N$ adierazpena erabiliz,
+
+$$
+\mathcal{E} = -k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

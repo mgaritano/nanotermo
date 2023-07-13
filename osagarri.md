@@ -233,17 +233,17 @@ Azkenengo adierazpenari jarraikiz eskuratuko ditugu $p$ eta $\mu$ aldagaiak:
 
 $$
 p = T\left(\frac{\partial S}{\partial B}\right)_{N} = k_{\mathrm{B}}T\left\{\ln\left(\frac{B}{B-N}\right) - \frac{N}{2B(B-N)} + \frac{1}{12}\left[\frac{1}{(B-N)^2}-\frac{1}{B^2}\right]\right\} \; ,
-$$
+$$ (lattice_p_mc)
 
 $$
 \mu = -T\left(\frac{\partial S}{\partial N}\right)_{B} = k_{\mathrm{B}}T\left\{\ln\left(\frac{N}{B-N}\right) + \frac{B-2N}{2N(B-N)} + \frac{1}{12}\left[\frac{1}{(B-N)^2}+\frac{1}{N^2}\right]\right\} \; .
-$$
+$$ (lattice_mu_mc)
 
 Horiek horrela, $\mathcal{E} = -TS + pB -\mu N$ adierazpena erabiliz,
 
 $$
 \mathcal{E} = -k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
-$$
+$$ (lattice_epsilon_mc)
 
 
 Abiaraz dezagun orain askatasun-gradu mekanikoa. Horrela, sistemaren azterketa $\left(\frac{p}{T},N\right)$ aldagaien bidez burutuko dugu **multzo isotermo-isobaroan**. Hasteko, partizio-funtzioa hauxe dugu:
@@ -252,7 +252,7 @@ $$
 \Delta \left(\frac{p}{T},N\right) = \sum_{\color{red}{B=N}}^{\color{red}{\infty}}\Omega(B,N)e^{-pB/k_{\mathrm{B}}T} = \frac{e^{-pN/k_{\mathrm{B}}T}}{\left(1-e^{-p/k_{\mathrm{B}}T}\right)^{N+1}} = \frac{x^N}{\left(1-x\right)^{N+1}} \; .
 $$ (lattice_Delta)
 
-Azkenengo pausoan $x = e^{-p/k_{\mathrm{B}}T}$ aldagaia txertatu dugu.
+Azkenengo pausoan $x = e^{-p/k_{\mathrm{B}}T}$ aldagaia txertatu dugu. Horrez gain, ohartu gaitezen batukariari ezarritako limiteetan. Hain zuzen askatasun-gradu mekanikoa abian jartzerakoan, $N$ aldagaiak finkatuko du behe-limitea ($B=N$); izan ere, kristal-sareak, gutxienez, gasaren $N$ molekula-osatzaileak barne hartzeko bezainbeste gelaxka izan beharko du.
 
 ```{dropdown} __Seriearen garapena__
 
@@ -285,10 +285,34 @@ $$
 
 ```
 
+Jarraian, $\Delta = e^{-F/k_{\mathrm{B}}T}$ erlaziotik, Gibbs-en energia askea
+
+$$
+F\left(\frac{p}{T}, N\right) = N\widehat{\mu} = k_{\mathrm{B}}T\left[-N\ln x + (N+1)\ln(1-x)\right]
+$$ (lattice_F)
+
+da. Hari jarraituz, potentzial kimiko integrala eta diferentziala zein banatze-potentziala eskuratuko ditugu:
+
+$$
+\widehat{\mu} = k_{\mathrm{B}}T\left[-\ln x + \frac{N+1}{N}\ln(1-x)\right] \; ,
+$$ (lattice_muhat_iso)
+
+$$
+\mu = k_{\mathrm{B}}T\ln\left(\frac{1-x}{x}\right) \; ,
+$$ (lattice_mu_iso)
+
+$$
+\mathcal{E} = k_{\mathrm{B}}T\ln\left(1-x\right) \; .
+$$ (lattice_epsilon_iso)
+
+Ohartu gaitezen $\mu^{(x)} = 0$ dela; ondorioz, limite makroskopikoan $\widehat{\mu} = \mu^{(0)} \equiv \mu$ izango dugu.
 
 
+Halaber, gelaxka-kopuruaren batez bestekoa kalkulatuko dugu:
 
-
+$$
+\bar{B} = \frac{\sum_B B \;\Omega(B,N)e^{-pB/k_{\mathrm{B}}T}}{\sum_B \Omega(B,N)e^{-pB/k_{\mathrm{B}}T}} = -k_{\mathrm{B}}T\;\frac{\partial }{\partial p}\ln \Delta = k_{\mathrm{B}}T\frac{\partial(F/ k_{\mathrm{B}}T)}{\partial p} = \frac{N+x}{1-x}
+$$ (lattice_bbar)
 
 
 

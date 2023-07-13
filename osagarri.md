@@ -204,7 +204,7 @@ $$ (lattice_omega)
 da. Entropia kalkulatzeko, Stirlingen {eq}`stirling` serieko lehenengo lau gaiak mantenduko ditugu. Hortaz,
 
 $$
-\boxed{\frac{S(B,N)}{k_\mathrm{B}} = \ln\Omega = B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] - \frac{1}{12}\left[\frac{1}{N}+\frac{1}{B-N}-\frac{1}{B}\right]}
+\boxed{\frac{S(B,N)}{k_\mathrm{B}} = \ln\Omega = B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] - \frac{1}{12}\left[\frac{1}{N}+\frac{1}{B-N}-\frac{1}{B}\right]} \; .
 $$ (lattice_s_mc)
 
 
@@ -246,8 +246,44 @@ $$
 $$
 
 
+Abiaraz dezagun orain askatasun-gradu mekanikoa. Horrela, sistemaren azterketa $\left(\frac{p}{T},N\right)$ aldagaien bidez burutuko dugu **multzo isotermo-isobaroan**. Hasteko, partizio-funtzioa hauxe dugu:
+
+$$
+\Delta \left(\frac{p}{T},N\right) = \sum_{\color{red}{B=N}}^{\color{red}{\infty}}\Omega(B,N)e^{-pB/k_{\mathrm{B}}T} = \frac{e^{-pN/k_{\mathrm{B}}T}}{\left(1-e^{-p/k_{\mathrm{B}}T}\right)^{N+1}} = \frac{x^N}{\left(1-x\right)^{N+1}} \; .
+$$ (lattice_Delta)
+
+Azkenengo pausoan $x = e^{-p/k_{\mathrm{B}}T}$ aldagaia txertatu dugu.
+
+```{dropdown} __Seriearen garapena__
+
+Gaineko {eq}`lattice_Delta` ekuazioan ageri den seriea ebazteko prozedura honako hau da:
+
+Lehenengo, batukariaren barneko adierazpena moldatuko dugu dugu, aldagai-aldaketa baten medioz:
+
+$$
+ \Delta = \frac{1}{N!}\sum_{{B=N}}^{{\infty}}\frac{B!}{(B-N)!}x^{B} \underset{(M=B-N)}{=} \frac{1}{N!}\sum_{{M=0}}^{{\infty}}\frac{(M+N)!}{N!}x^{M+N}
+$$
+
+Jarraian, errepara diezaiogun berdintza honi:
+
+$$
+\frac{\mathrm{d}^{N}}{\mathrm{d}x^{N}}\;x^{N+M} = \frac{(M+N)!}{N!}x^{M} \; .
+$$
+
+Horren laguntzaz, batukarian ageri dena honela berridatziko dugu:
+
+$$
+\frac{1}{N!}\sum_{{M=0}}^{{\infty}}\frac{(M+N)!}{N!}x^{M+N} =   \frac{1}{N!}\;\frac{\mathrm{d}^{N}}{\mathrm{d}x^{N}}\left[x^{N}\sum_{{M=0}}^{{\infty}}x^{M}\right]\underset{\vert x\vert < 1}{=} \frac{1}{N!}\frac{\mathrm{d}^{N}}{\mathrm{d}x^{N}} \left[\frac{x^N}{1-x}\right] = \frac{1}{N!}\left[\frac{N!\; x^N}{(1-x)^{N+1}}\right]
+$$
+
+Heldu gara, beraz, helmugara:
+
+$$
+\boxed{\Delta = \frac{x^N}{\left(1-x\right)^{N+1}}} \; .
+$$
 
 
+```
 
 
 

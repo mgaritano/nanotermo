@@ -191,9 +191,11 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 _*Adibidea osatzen ari naiz..._
 
 
-Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isotermo-isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu; bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
+Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu; bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
 
 Bada, esku artean dugun sistema $B$ gelaxkaz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia oro baztertuko dugu; hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, askatasun-gradu mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
+
+#### **9.2.1** Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak
 
 Horrenbestez, azterketa $(B,N)$ ingurune-aldagaiek finkatuko duten **multzo mikrokanonikoan** abiatuko dugu. Molekulak bereizezinak direnez, mikroegoera-kopurua
 
@@ -246,7 +248,9 @@ $$
 $$ (lattice_epsilon_mc)
 
 
-Abiaraz dezagun orain askatasun-gradu mekanikoa. Horrela, sistemaren azterketa $\left(\frac{p}{T},N\right)$ aldagaien bidez burutuko dugu **multzo isotermo-isobaroan**. Hasteko, partizio-funtzioa hauxe dugu:
+#### **9.2.2** Multzo isobaroa: $(\frac{p}{T}, N)$ ingurune-aldagaiak
+
+Abiaraz dezagun orain askatasun-gradu mekanikoa. Horrela, sistemaren azterketa $\left(\frac{p}{T},N\right)$ aldagaien bidez burutuko dugu **multzo isobaroan**. Hasteko, partizio-funtzioa hauxe dugu:
 
 $$
 \Delta \left(\frac{p}{T},N\right) = \sum_{\color{red}{B=N}}^{\color{red}{\infty}}\Omega(B,N)e^{-pB/k_{\mathrm{B}}T} = \frac{e^{-pN/k_{\mathrm{B}}T}}{\left(1-e^{-p/k_{\mathrm{B}}T}\right)^{N+1}} = \frac{x^N}{\left(1-x\right)^{N+1}} \; .
@@ -314,13 +318,16 @@ $$
 \bar{B} = \frac{\sum_B B \;\Omega(B,N)e^{-pB/k_{\mathrm{B}}T}}{\sum_B \Omega(B,N)e^{-pB/k_{\mathrm{B}}T}} = -k_{\mathrm{B}}T\;\frac{\partial }{\partial p}\ln \Delta = k_{\mathrm{B}}T\frac{\partial(F/ k_{\mathrm{B}}T)}{\partial p} = \frac{N+x}{1-x}
 $$ (lattice_bbar)
 
+Adierazpena berrantolatuz, sistemaren egoera-ekuazioa ere idaztea daukagu:
+
+$$
+\frac{p}{k_{\mathrm{B}}T} = \ln\left(\frac{1+\bar{B}}{\bar{B}-N}\right)
+$$
 
 
+#### **9.2.3** Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak
+
+##### Ariketa
 
 
-
-
-
-
-
-#### Ariketa
+#### **9.2.4** Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak

@@ -321,8 +321,27 @@ $$ (lattice_bbar)
 Adierazpena berrantolatuz, sistemaren egoera-ekuazioa ere idaztea daukagu:
 
 $$
-\frac{p}{k_{\mathrm{B}}T} = \ln\left(\frac{1+\bar{B}}{\bar{B}-N}\right)
+\frac{p}{k_{\mathrm{B}}T} = \ln\left(\frac{1+\bar{B}}{\bar{B}-N}\right) \underset{(\bar{B},\; N \; \rightarrow\; \infty)}{=} -\ln\left(1-\frac{N}{\bar{B}}\right) \; .
+$$ (lattice_eq_state)
+
+Bukatzeko, $S\left(\frac{p}{T}, N\right)$ adierazpena eraikiko dugu. Horretarako, idatz dezagun lehenik multzo estatistiko honi dagokion probabilitate-funtzioa:
+
 $$
+P(B) = \frac{e^{-pB/ k_{\mathrm{B}}T}}{\Delta}
+$$ (lattice_pb)
+
+Horren bitartez, entropiaren definizioari so eginez ({eq}`entropy_def` ekuazioa), eta {eq}`lattice_bbar` ekuazioaren laguntzaz, hona iritsiko gara:
+
+$$
+S\left(\frac{p}{T}, N\right) = -k_{\mathrm{B}}\sum_BP(B)\;\ln P(B) = \frac{p\bar{B}}{T} + k_{\mathrm{B}}\ln\Delta = \frac{p\bar{B}}{T} - \frac{\widehat{\mu}N}{T} \; .
+$$ (lattice_s_iso_def)
+
+Aurrez lortutako $\bar{B}$ eta $\widehat{\mu}$ magnitudeak ordezkatuz,
+
+$$
+\boxed{\frac{S\left(\frac{p}{T}, N\right) }{k_\mathrm{B}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)} \; .
+$$ (lattice_s_iso)
+
 
 
 #### **9.2.3** Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak

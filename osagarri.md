@@ -195,6 +195,14 @@ Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema
 
 Bada, esku artean dugun sistema $B$ gelaxkaz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia oro baztertuko dugu; hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, askatasun-gradu mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
+```{figure} lattice.png
+---
+height: 500px
+name: lattice
+---
+
+```
+
 #### **9.2.1** Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak
 
 Horrenbestez, azterketa $(B,N)$ ingurune-aldagaiek finkatuko duten **multzo mikrokanonikoan** abiatuko dugu. Molekulak bereizezinak direnez, mikroegoera-kopurua

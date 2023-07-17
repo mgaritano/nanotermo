@@ -197,7 +197,7 @@ Bada, esku artean dugun sistema $B$ gelaxkaz osatutako sarea da. Horietatik $N$ 
 
 ```{figure} lattice.png
 ---
-height: 500px
+height: 600x
 name: lattice
 ---
 

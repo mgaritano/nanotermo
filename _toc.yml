@@ -3,20 +3,23 @@
 
 format: jb-book
 root: intro
-options:
-  numbered: true
-chapters:
-- file: nanointro
-- file: hill
-- file: tpn
-- file: fase
-- file: tpmu
-- file: adsorbent
-- file: ising
-- file: osagarri
-- file: ondorioak
-- file: euler
-- file: entropy
-- file: gas ideala
-- file: erreferentziak
-- file: eskerrak
+parts:
+  - caption: Edukiak
+    numbered: true
+    chapters:
+    - file: nanointro
+    - file: hill
+    - file: tpn
+    - file: fase
+    - file: tpmu
+    - file: adsorbent
+    - file: ising
+    - file: osagarri
+    - file: ondorioak
+  - caption: Bestelakoak
+    chapters:
+    - file: euler
+    - file: entropy
+    - file: gas ideala
+    - file: erreferentziak
+    - file: eskerrak

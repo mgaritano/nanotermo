@@ -1,21 +1,21 @@
 (tpmu)=
-## **6**. Multzo nanokanonikoa: $(T,p,\mu)$ ingurune-aldagaiak
+## Multzo nanokanonikoa: $(T,p,\mu)$ ingurune-aldagaiak
 
 Azken-aurreko kapitulu honetan teoriaren alor esanguratsuenari ekingo diogu. Demagun esku artean dugun sistema $N$ monomeroz osaturiko polimero agregatua dela, eta berori $T$ tenperaturan eta $p$ presiopean dagoela. Bada, molekulen arteko lotze-indarrak aski sendoak ez balira, luzaroan $N$ molekulen kopuruak ez luke finko iraungo, fluktuazioak jasango bailituzke. Hori dela eta, sistemari $\mu$ potentzial-kimikoa esleitu beharko genioke hirugarren ingurune-aldagaitzat; alegia, azterketa $(T,p,\mu)$ aldagaidun azpisistemak biltzen dituen multzo  nanokanonikoaren bitartez burutu beharko genuke baitezpada.
 
-Alabaina, har dezagun gogoan [1](sarrera). atalean aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathcal{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
+Alabaina, har dezagun gogoan {numref}`{number} atalburuan <nanointro>` aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathcal{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
 
 ```{admonition} Oharra
 Hill-ek bere liburuan _multzo orokortu_ izena erabiltzen du ("_generalized ensemble_"), _multzo nanokanoniko_ beharrean.
 
 ```
 
-Ildo horretatik, [6.2](mupt_linagg) eta [6.3](mupt_gi) adibideetako sistemei askatasun-gradu guztiak abiarazteak sorrarazten dituen ekarpen finituak kalkulatu, eta beroriek __entropian__ duten eraginari erreparatuko diogu, ondorio esanahitsuak erdietsiz. Berebat, limite makroskopikoan lortzen diren emaitzak gainontzeko multzo estatistikoenekin bateragarriak direnentz egiaztatuko dugu. Baina, lehenik, azterketarako beharrezkoa izango zaigun tresneria aurkeztuko dugu laburki.
+Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi>` adibideetako sistemei askatasun-gradu guztiak abiarazteak sorrarazten dituen ekarpen finituak kalkulatu, eta beroriek __entropian__ duten eraginari erreparatuko diogu, ondorio esanahitsuak erdietsiz. Berebat, limite makroskopikoan lortzen diren emaitzak gainontzeko multzo estatistikoenekin bateragarriak direnentz egiaztatuko dugu. Baina, lehenik, azterketarako beharrezkoa izango zaigun tresneria aurkeztuko dugu laburki.
 
 (mupt_azter)=
-### **6.1** Multzoaren azterketa
+### Multzoaren azterketa
 
-Aipatzekoa da multzo honi dagozkion adierazpen gehienak [3.1](hillteo) atalean eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\bar{V}$ bolumena eta $\bar{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
+Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\bar{V}$ bolumena eta $\bar{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
 
 $$
  \mathrm{d}\mathcal{E}(T,p,\mu) = \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathcal{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
@@ -34,9 +34,9 @@ $$
 $$ (upsilon_def)
 
 (mupt_linagg)=
-### **6.2** Adibidea: Agregatu lineala
+### Adibidea: Agregatu lineala
 
-Adibide honetako sistema txikia [10](agg). irudian azaltzen da. Multzo makroskopikoa sistema bereizgarriz osaturiko gas diluitua dela onartuko dugu. Horrela, aldakien arteko elkarrekintzak baztergarritzat joko dira, eta askatasun-gradu mekanikoa ez da aintzat hartuko.
+Adibide honetako sistema txikia {numref}`{number} irudian <agg>` azaltzen da. Multzo makroskopikoa sistema bereizgarriz osaturiko gas diluitua dela onartuko dugu. Horrela, aldakien arteko elkarrekintzak baztergarritzat joko dira, eta askatasun-gradu mekanikoa ez da aintzat hartuko.
 
 ```{figure} aggregate.PNG
 ---
@@ -93,7 +93,7 @@ $$ (stnagg)
 Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak dira, limite termodinamikoan aurreko bi gai linealek baitaukate gailentasuna. Badirudi, hortaz, sistema makroskopikoak ez duela biraketaren eragina hautemango, ez eta unitateen arteko $\epsilon$ elkarrekintza ere.
 ```
 
-
+**----------------------------------------------------**
 
 Horiek horrela, askatasun-gradu kimikoa abiarazi, eta __multzo nanokanonikora__ igaroko gara. Hala, adierazpenetan $ x  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ erlazioa sartuz, eta {eq}`upsilon_def` definizioan {eq}`qagg` ekuazioa txertatuz,
 
@@ -162,13 +162,13 @@ name: pn_plot
 Sistema txikien eskualdean ($x \ll 1$), maximo zolia du $N=\bar{N}$ puntuan probabilitate-banaketak, {eq}`barnagg` ekuazioaren bidez egiazta daitekeenez. Aitzitik, sistema handitu ahala, maximoaren kokapena lausotu egingo da, eta ez da $\mathrm{max}[P(N)] = P(\bar{N})$ beteko.
 ```
 
-Orain bai, [11](pn_plot). irudiko oharrei atxikiz, zilegi zaigu {eq}`stnagg` eta {eq}`stmuagg` ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko {eq}`stnagg` ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko {eq}`stmuagg` adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, errotazioaz bestalde, $N$ partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!
+Orain bai, {numref}`{number} irudiko <pn_plot>` oharrei atxikiz, zilegi zaigu {eq}`stnagg` eta {eq}`stmuagg` ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko {eq}`stnagg` ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko {eq}`stmuagg` adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, errotazioaz bestalde, $N$ partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!
 
 ```{admonition} Oharrak
 Oharteman bedi {eq}`stmuagg` ekuazioan $\epsilon < 0$ eta $x,P(0)<1$ betetzen dela. Bestalde, Hill-ek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: $S-S^{(0)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;$.
 ```
 
-Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: (a) sistema erabat askean gertatzen den entropiaren handiagotzea, eta, (b) Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.
+Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: $(a)$ sistema erabat askean gertatzen den entropiaren handiagotzea, eta, $(b)$ Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.
 
 $$
 \boxed{\begin{gathered}
@@ -183,9 +183,9 @@ $$
 
 
 (mupt_gi)=
-### **6.3** Adibidea: Gas ideal klasikoa, multzo nanokanonikoan
+### Adibidea: Gas ideal klasikoa, multzo nanokanonikoan
 
-Sistema honen bigarren berrazterketaren abiapuntua [4.3](gitpn) ataleko {eq}`dtpn_gi` ekuazioa da.
+Sistema honen bigarren berrazterketaren abiapuntua {numref}`{number} adibideko <gitpn>` {eq}`dtpn_gi` ekuazioa da.
 
 #### Ariketa
 Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\bar{V},\bar{N})$.
@@ -213,7 +213,9 @@ $$
 \boxed{S(T,p,\mu) =  \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + k_{\mathrm{B}}\ln(\bar{N} + 1)}
 $$ (stpmugi)
 ```
-Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi ([12](sn100). irudia).
+**----------------------------------------------------**
+
+Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi ({numref}`{number}. irudia <sn100>`).
 
 ```{figure} sn100.PNG
 ---
@@ -230,7 +232,7 @@ $$
 S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
 $$ (stpmuginew)
 
-Jarraian datorren [6.4](stabeps) atalean $\mathcal{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ([13](gisub). irudia).
+Jarraian datorren {numref}`{number} atalean <stabeps>` $\mathcal{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ({numref}`{number}. irudia <gisub>`).
 
 ```{figure} gibbsparadox.PNG
 ---
@@ -243,7 +245,7 @@ Multzo nanokanonikoan __banatzearen areagotzeak bereizgarritasuna indartuko du__
 
 Irudia eta {eq}`stpmugi` ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: $\Delta S = k_{\mathrm{B}}\ln(\bar{N}+1)$. Banatzeari dagokion orekan, $\bar{N} \rightarrow 0$ eta, hortik, $\Delta S_{\text{oreka}}=0$. Baina, partikulako entropia hazi egingo da: $\lim_{\bar{N} \rightarrow 0}\Delta S/\bar{N} = 1$.
 
-Aipatu beharrekoa da gaineko [13](gisub). irudiari lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
+Aipatu beharrekoa da gaineko {numref}`{number}. irudiari <gisub>` lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
 
 Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era __itzulezinean__ _nahasiko_ dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbs-en paradoxa saihestuko dugu bidenabar {cite}`nanointro, multiscale`.
 
@@ -251,7 +253,7 @@ Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ p
 
 
 (stabeps)=
-### **6.4** Banatze-potentziala eta egonkortasuna
+### Banatze-potentziala eta egonkortasuna
 
 Hasteko, dakargun gogora $\mathcal{E}$ potentzialaren definizioa: multzoaren aldaki-kopuruan eragiteak berorren guztizko energiari dakarkion ekarpena, gainontzeko kasuan kasuko ingurune-aldagaiak konstante mantenduz, hau da,
 
@@ -269,13 +271,13 @@ $$
 \mathrm{d}F_{t}=\mathcal{E}\mathrm{d}\bar{\mathcal{N}}<0\; .
 $$ (dft)
 
-Adierazpen horrek honakoa iradokitzen du: banatze-potentziala positiboa denean, aldaki-kopuruak behera egingo du, eta, negatiboa denean, aldiz, multzoaren banatzea areagotuko da, aldaki txikiagoak sorraraziz (oroitu gaitezen [13](gisub). irudiaz). Era berean, orekara heldutakoan, energia minimoan egongo denez,
+Adierazpen horrek honakoa iradokitzen du: banatze-potentziala positiboa denean, aldaki-kopuruak behera egingo du, eta, negatiboa denean, aldiz, multzoaren banatzea areagotuko da, aldaki txikiagoak sorraraziz (oroitu gaitezen {numref}`{number}. irudiaz <gisub>`). Era berean, orekara heldutakoan, energia minimoan egongo denez,
 
 $$
 \left(\frac{\partial^2 F_{t}}{\partial \bar{\mathcal{N}}^2}\right)_{T,p, N_{t}} = \left(\frac{\partial \mathcal{E}}{\partial \bar{\mathcal{N}}}\right)_{T,p, N_{t}} > 0 \; .
 $$ (d2f)
 
-Bertatik agerikoa da $\mathrm{d}\mathcal{E}$ eta $\mathrm{d}\bar{\mathcal{N}}$ zeinu berekoak direla. Horrez gain, {eq}`dft`  ekuazioa aintzat hartuz, $\mathcal{E}\cdot\mathrm{d}\mathcal{E}<0$ beteko da. Ondorio esanahitsu hori [6.3](mupt_gi) adibideko azalpena osatzeko lagungarria izango zaigu: $\mathcal{E}$ eta $\mathrm{d}\mathcal{E}$ aurkako zeinudunak direnez, $\bar{\mathcal{N}}$ aldatuz doan neurrian, $\mathcal{E}$ potentzialak zerorantz joko du, harik eta orekara heldu arte. __Banatzeari dagokion oreka-egoera__ batek $\mathcal{E} = 0$ baldintza bete beharko du.
+Bertatik agerikoa da $\mathrm{d}\mathcal{E}$ eta $\mathrm{d}\bar{\mathcal{N}}$ zeinu berekoak direla. Horrez gain, {eq}`dft`  ekuazioa aintzat hartuz, $\mathcal{E}\cdot\mathrm{d}\mathcal{E}<0$ beteko da. Ondorio esanahitsu hori {numref}`{number} adibidean <mupt_gi>` jorratutako azalpenak osatzeko lagungarria izango zaigu: $\mathcal{E}$ eta $\mathrm{d}\mathcal{E}$ aurkako zeinudunak direnez, $\bar{\mathcal{N}}$ aldatuz doan neurrian, $\mathcal{E}$ potentzialak zerorantz joko du, harik eta orekara heldu arte. __Banatzeari dagokion oreka-egoera__ batek $\mathcal{E} = 0$ baldintza bete beharko du.
 
 Esaldi hori dela eta, azken kontu bat argitu beharrean gaude. Berorri heltzeko, gas idealaren adibidea berreskuratuko dugu. Ezer baino lehen, kontuan izan dezagun multzoko sistema txikiei $N\geq1$ baldintza ezarri diegula. Hortaz, {eq}`upsilongi`  ekuaziotik $N=0$ gaia erauzi beharko dugu. Bada, $x=k_{\mathrm{B}}T\lambda/(p\Lambda^3)$ ordezkatuz,
 
@@ -309,7 +311,7 @@ Izan ere, horren aurrean erne ibili behar dugu! Esate baterako, gas idealaren ka
 $$
 \mathcal{E} = -k_{\mathrm{B}}T\ln \bar{N}
 $$ (epslimgi)
-adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ([4.2](helix_coil) zein [7](app). ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathcal{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathcal{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
+adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ({numref}`{number} <helix_coil>` zein {numref}`{number}. <app>` ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathcal{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathcal{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
 
 
 Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo atalean 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara.

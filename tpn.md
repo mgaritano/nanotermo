@@ -196,7 +196,7 @@ Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kur
 
 Ondorioz, $N=200$ inguruan $\bar{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
-Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>` atalean) izango dugu {numref}`{number}. irudira <hc_phase>` irudira bihurtzeko beta egokia.
+Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>`) izango dugu {numref}`{number}. irudira <hc_phase>` bihurtzeko beta egokia.
 
 (gitpn)=
 ### Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan

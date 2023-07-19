@@ -1,10 +1,10 @@
 (osagarri)=
-## **9**. Adibide osagarriak
+## Adibide osagarriak
 
 (mupt_sphagg)=
-### **9.1** Agregatu esferikoa
+### Agregatu esferikoa
 
-Jarraian aurkeztuko dugun analisiak [6.2](mupt_linagg) ataleko adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu ($a>0$). Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du ($b>0$). Hill-en liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
+Jarraian aurkeztuko dugun analisiak {numref}`{number} azpiataleko <mupt_linagg>` adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu ($a>0$). Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du ($b>0$). Hill-en liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
 
 Lehenbizi, $Q(T,N)$ partizio-funtzio kanonikoa eraikiko dugu, hurbilketarik gabe.
 
@@ -152,7 +152,7 @@ $$ (approx)
 
 Erabilitako limiteak gai arazotsu horren benetako izaera jarri du agerian; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
-Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela [6.2](mupt_linagg) ataleko agregatu linealaren kasuari dagozkion emaitzekin, alegia:
+Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin, alegia:
 
 $$
 \boxed{\begin{gathered}
@@ -186,12 +186,12 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 
 
 (mupt_id_lattice)=
-### **9.2** Kristal-sare idealeko gasa
+### Kristal-sare idealeko gasa
 
 _*Adibidea osatzen ari naiz..._
 
 
-Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`{number}. irudia <lattice_multzo>`); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
+Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`{number}. irudia <lattice_multzo>`); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, {numref}`{number} adibidean <mupt_gi>` egin genuen antzera.
 
 Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
@@ -218,7 +218,7 @@ $$
 $$ (lattice_s_mc)
 
 
-Banatze-potentziala kalkulatzeko, [3.1](hillteo) ataleko garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbs-en ekuazioa idatziko ditugu:
+Banatze-potentziala kalkulatzeko, {numref}`{number} ataleko <hillteo>` garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbs-en ekuazioa idatziko ditugu:
 
 $$
 E = TS-pB+\mu N + \mathcal{E} \; ,
@@ -256,7 +256,7 @@ $$
 $$ (lattice_epsilon_mc)
 
 
-#### **9.2.2** Multzo isobaroa: $(\frac{p}{T}, N)$ ingurune-aldagaiak
+#### Multzo isobaroa: $(\frac{p}{T}, N)$ ingurune-aldagaiak
 
 Abiaraz dezagun orain askatasun-gradu mekanikoa. Horrela, sistemaren azterketa $\left(\frac{p}{T},N\right)$ aldagaien bidez burutuko dugu **multzo isobaroan**. Hasteko, partizio-funtzioa hauxe dugu:
 
@@ -352,9 +352,9 @@ $$ (lattice_s_iso)
 
 
 
-#### **9.2.3** Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak
+#### Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak
 
 ##### Ariketa
 
 
-#### **9.2.4** Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak
+#### Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak

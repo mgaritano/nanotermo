@@ -1,9 +1,9 @@
 (app)=
-## **7**. Gas ideala eta adsorbatzaile esferiko txikia
+## Gas ideala eta adsorbatzaile esferiko txikia
 
 Amaierako atal honetan, Python programazio-lengoaia erabiliz, {cite}`ads` artikuluko emaitzak errepikatu eta aztertuko ditugu.
 
-### **7.1** Sistemaren azterketa
+### Sistemaren azterketa
 
 ```{figure} adsorbent.png
 ---
@@ -14,7 +14,7 @@ Zentrutik $r$ distantziara dagoen gas-partikula askeak $a$ erradioko adsorbatzai
 
 ```
 
-Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, [14](adsorbent). irudiko azalpenei segituz eta Hill-en teorian oinarrituz ([3.1](hillteo) atala), $\mathcal{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathcal{N}S$, $\Omega_{t}=\mathcal{N}\Omega$ eta $N_{t}=\mathcal{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
+Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hill-en teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathcal{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathcal{N}S$, $\Omega_{t}=\mathcal{N}\Omega$ eta $N_{t}=\mathcal{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
 
 $$
 \mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} + \gamma\mathcal{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathcal{E}+ \gamma\Omega\right)\mathrm{d}\mathcal{N} ,
@@ -76,7 +76,7 @@ Gainazal-tentsio diferentziala {eq}`adsgandghat` ekuazioaren laguntzaz lortu dug
 
 Baina,  lehenbizi adsorbatzailearen eta gas-partikulen arteko elkarrekintza ereduztatu beharrean gaude, hartara $U(a,r)$ eraiki, eta, hortik $U_{S}$ potentzialera iristeko.
 
-### **7.2** Elkarrekintza-potentziala eta Emaitzak
+### Elkarrekintza-potentziala eta Emaitzak
 
 Adsorbatzailea $\rho$ dentsitateko esfera trinkoa da. Bolumen-elementuak gas-partikula batekin duen elkarrekintza Lennard-Jones-en 12-6 potentzial-ereduarekin ereduztatuko dugu:
 
@@ -95,7 +95,7 @@ $$
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 $$
 
-Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, [15](plot1). irudiko grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;$.
+Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, {numref}`{number} irudiko <plot1>` grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;$.
 
 ```{figure} plot1.PNG
 ---
@@ -117,7 +117,7 @@ Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trant
 
 Kurbei egokitutako parametroak argon gasari dagozkio: $\Lambda_{\text{Ar}} = 16,7 \cdot 10^{-12} \; \mathrm{m}$ ; $\sigma_{\text{Ar}} = 3.4 \cdot 10^{-10} \; \mathrm{m}$ ; $\epsilon_{\text{Ar}} = 0,0104 \; \mathrm{eV}$.
 
-Era berean, [16](plot2). irudiko kurbak eraikitzerakoan, {eq}`adshgd` ekuazioa aintzat hartuz, honako erlazioa erabili dugu.
+Era berean, {numref}`{number} irudiko <plot2>` kurbak eraikitzerakoan, {eq}`adshgd` ekuazioa aintzat hartuz, honako erlazioa erabili dugu.
 
 $$
 \bar{n} \equiv \frac{\bar{N}}{\Omega} = - \left(\frac{\partial \widehat{\gamma}}{\partial \mu}\right)_ {T,\Omega} = \frac{1}{\Lambda^2}e^{(\mu -U_{S})/k_{\mathrm{B}}T} \; .

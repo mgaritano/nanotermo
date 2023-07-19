@@ -191,16 +191,16 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 _*Adibidea osatzen ari naiz..._
 
 
-Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu; bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
+Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({ref}`lattice_multzo`. irudia); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
 
-Bada, esku artean dugun sistema $B$ gelaxkaz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia oro baztertuko dugu; hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, askatasun-gradu mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
+Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
 ```{figure} lattice.png
 ---
-height: 550px
-name: lattice
+height: 600px
+name: lattice_multzo
 ---
-
+Aztergai izango ditugun multzoe estatistikoen adierazpen grafikoa.
 ```
 
 #### **9.2.1** Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak

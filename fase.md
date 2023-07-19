@@ -158,7 +158,7 @@ Eraiki dezagun {eq}`fasesimplegraph` ekuazioaren grafikoa:
 height: 300px
 name: faseplot
 ---
-Sistema txikietako fase-trantsizioen ereduztapen sinple honek agerian uzten du $N<40$ kasuetako bi kurbetan $A$ eta $B$ egoeren baterako existentziak presio-tarte handia hartzen duela. Era berean, $N=200$ kurbak jada [7a](faseirudi) irudiaren tankera aurkezten du.
+Sistema txikietako fase-trantsizioen ereduztapen sinple honek agerian uzten du $N<40$ kasuetako bi kurbetan $A$ eta $B$ egoeren baterako existentziak presio-tarte handia hartzen duela. Era berean, $N=200$ kurbak jada {numref}`{number}a irudiaren <faseirudi>` tankera aurkezten du.
 ```
 Errepara bekio {numref}`{number} irudiari <faseplot>`. Ohartu gaitezen grafikoa ezkerrerantz 90$^\circ$ biratuz gero, helize-haril adibideko {numref}`{number} irudiko <hc_phase>` kurba-sortarekin bat etorriko dela. Hori dela eta, bi adibide horiek bateragarriak dira. Bestela esanda, sendotasun handiagoz baiezta dezakegu helize-haril katean ere bi egoeren arteko fase-trantsizioa gauzatzen dela limite makroskopikoan.
 

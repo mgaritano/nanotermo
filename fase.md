@@ -15,7 +15,7 @@ Hala ere, komenigarria da garapen batzuk norberak egitea... 🙃
 
 Hill-en teoriari segituz, $\mathcal{N}(\rightarrow \infty)$ aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta ($E,V,N$) sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  {cite}`st`, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote ($\mathrm{d}S_{t}>0$), harik eta oreka berrezartzen den arte ($\mathrm{d}S_{t}=0$). Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.
 
-Oro har, prozesu espontaneo bat {numref}`{number}. irudiaren <esp>` irudiaren bidez ereduzta daiteke. Hasiera batean, kanpo-oztopo baten eraginpean dago sistema. Ondorioz, egoera kuantiko posible guztietatik soilik batzuk edukiko du eskuragai: $\Omega_{i}(E,V,N)$.
+Oro har, prozesu espontaneo bat {numref}`{number}. irudiaren <esp>` bidez ereduzta daiteke. Hasiera batean, kanpo-oztopo baten eraginpean dago sistema. Ondorioz, egoera kuantiko posible guztietatik soilik batzuk edukiko du eskuragai: $\Omega_{i}(E,V,N)$.
 Kanpo-galarazpen hori kenduz gero, sistemaren egoera aldatu egingo da. Hain zuzen, aldakiek aurrez debekatuta egon diren egoeretara ere sarbidea izango dute; hortaz, bukaeran, $\Omega_{f}(E,V,N) > \Omega_{i}(E,V,N)$ izango dugu. Aktibazio-energiaren gutxitzearen edo potentzial baten minimizazioaren bidez gauzatu daiteke prozesu hori.
 Hasierako eztabaidaren harira, entropia maximizatzeak energia askea minimizatzea dakar.
 
@@ -45,7 +45,7 @@ $$
 
 
  (fase1order)=
- ###  **5.2** Lehen ordenako fase-trantsizioak, $(T,p,N)$ sistema txikietan
+ ### Lehen ordenako fase-trantsizioak, $(T,p,N)$ sistema txikietan
 
 Demagun sistema makroskopiko bat hasierako faseko egoeratik  bukaerako beste batera eraman nahi dugula. Lehenbiziko  egoeran, bere egoera-ekuazioa funtzio jarraitua eta deribagarria da, hots, zuzen definituta dago. Alabaina, aldiuneren batean bigarren faserako bat-bateko aldakuntza jasango du, ez-jarraitutasun bortitzak pairatuz; alegia, sisteman lehen ordenako fase-trantsizioa gertatuko da ({numref}`{number}a irudia <faseirudi>`).
 
@@ -123,7 +123,7 @@ Jakina, aztergai dugun puntuan $\Delta \widehat{\mu} = \widehat{\mu} _ {B}-\wide
 $$
 \boxed{\left(\frac{\partial p}{\partial T}\right)_ {N} = \frac{\Delta S}{\Delta V}\quad ; \quad \left(\frac{\partial T}{\partial N}\right)_ {p} = \frac{\Delta \mu}{N\Delta \mathrm{s}}\quad ; \quad \left(\frac{\partial p}{\partial N}\right)_{T} = -\frac{\Delta \mu}{N\Delta \mathrm{v}}} \quad ,
 $$ (neweq)
-non $\mathrm{v} = V/N$ eta $\mathrm{s} = S/N$ diren. Ekuazio-sortako bigarren eta hirugarren erlazioak ez dira Termodinamikan ageri. Beroriek argiro iradokitzen dute tenperatura eta presioa ez direla, oro har, magnitude intentsiboak. Bada, ildo beretik, eta, aurrerapen gisara, [5.2.2](cryst_melt) adibidean, tamainarekiko menpekoa den $T$ tenperatura lortuko dugu.
+non $\mathrm{v} = V/N$ eta $\mathrm{s} = S/N$ diren. Ekuazio-sortako bigarren eta hirugarren erlazioak ez dira Termodinamikan ageri. Beroriek argiro iradokitzen dute tenperatura eta presioa ez direla, oro har, magnitude intentsiboak. Bada, ildo beretik, eta, aurrerapen gisara, {numref}`{number} adibidean <cryst_melt>` tamainarekiko menpekoa den $T$ tenperatura lortuko dugu.
 
 
 (fase_simple)=
@@ -168,7 +168,7 @@ Errepara bekio {numref}`{number} irudiari <faseplot>`. Ohartu gaitezen grafikoa 
 
 
 (cryst_melt)=
-####  **5.2.2** Klastoaren fusioa
+#### Klastoaren fusioa
 
 Bigarren adibide honetan, klasto esferiko baten fusio-tenperaturan sistemaren beraren tamainak duen eragina aztertuko dugu. Beraz, _bi egoeren hurbilketari_ segituz, $A$ egoera solidoa ($S$) eta $B$ egoera likidoa ($L$) ditugu. Sistema txikien Gibbs-en energia askeak gai __lineal__ makroskopikoa ($\propto N$) ez ezik, __gainazal-efektuei__ ($\propto N^{2/3}$) zein __errotazioari__ ($\propto \ln N$) dagozkion ekarpen txikiak ere biltzen ditu, hau da,
 
@@ -177,7 +177,7 @@ F(T,p,N) := N\widehat{\mu} = Nf(T,p) + N^{2/3}a(T,p) + \ln N \; b(T) \; .
 $$ (fklasto)
 
 
-Gauzak horrela, multzoan makroskopikoki behatuko diren bi egoeren _baterako existentziaren gunean_ ardaztuko dugu azterketa. Bertako tenperatura eta presioa $T_{\infty}$ eta $p_{\infty}$ izendatuko ditugu. Zehazki, oreka-egoera horretan, sistemaren tamainak tenperaturari sorrarazten dizkion desbideraketak kalkulatuko ditugu, presioa konstante mantenduz. Bada, {numref}`{number} ataleko <fase1order>` ataleko azalpenei jarraikiz, gune horretan $\Delta \widehat{\mu} = \widehat{\mu}_ {L} - \widehat{\mu}_{S} = 0$ beteko da. Baldintza hori eta {eq}`fklasto` ekuazioa erabiliz, honako hauxe izango dugu:
+Gauzak horrela, multzoan makroskopikoki behatuko diren bi egoeren _baterako existentziaren gunean_ ardaztuko dugu azterketa. Bertako tenperatura eta presioa $T_{\infty}$ eta $p_{\infty}$ izendatuko ditugu. Zehazki, oreka-egoera horretan, sistemaren tamainak tenperaturari sorrarazten dizkion desbideraketak kalkulatuko ditugu, presioa konstante mantenduz. Bada, {numref}`{number} ataleko <fase1order>` azalpenei jarraikiz, gune horretan $\Delta \widehat{\mu} = \widehat{\mu}_ {L} - \widehat{\mu}_{S} = 0$ beteko da. Baldintza hori eta {eq}`fklasto` ekuazioa erabiliz, honako hauxe izango dugu:
 
 $$
 \Delta \widehat{\mu}(T,p_{\infty},N) = \Delta f(T,p_{\infty}) + N^{-1/3}\Delta a(T,p_{\infty}) + \frac{\ln N}{N}\Delta b(T) = 0 \; .

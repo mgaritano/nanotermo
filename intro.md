@@ -10,7 +10,7 @@ _Classical thermodynamics... is the only physical theory of universal content wh
 ```
 
 (sarrera)=
-# **1**. Sarrera
+# Sarrera eta helburuak
 
 Termodinamika, ezbairik gabe, zientzian hedadura handieneko teoria da gaur-gaurkoz, bere postulatuak alor orotara barreiatzen baitira, atomoen barnetik hasiz eta unibertsora zabalduz. Izan ere, Fisika Estatistikoa bidelagun duela, zientzialariak naturaren izaera termikoa ulertzeko nahitaezkoak diren hurbilketez eta lanabesez zuzkitzen ditu. Hain zuzen, jakina denez, edozein sistemak erakusten duen portaerak Termodinamikaren oinarrizko bi legeri segitzen die; energiaren kontserbazioari, alde batetik, eta entropiaren etengabeko igoerari, bestetik. Azken puntu horren ondorio da, hein handi batean, Einsteinek bere baieztapenean azaltzen duen irmotasuna.
 

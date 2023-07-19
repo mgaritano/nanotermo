@@ -191,7 +191,7 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 _*Adibidea osatzen ari naiz..._
 
 
-Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`lattice_multzo`. irudia); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
+Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`{number}. irudia <lattice_multzo>`); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, [6.3](mupt_gi) atalean egin genuen antzera.
 
 Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
@@ -200,7 +200,7 @@ Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea 
 height: 600px
 name: lattice_multzo
 ---
-Aztergai izango ditugun multzoe estatistikoen adierazpen grafikoa.
+Aztergai izango ditugun multzo estatistikoen adierazpen grafikoa. Multzo mikrokanonikoan lau azpisistemek ez dute elkar ikusten, eta, horietako bakoitza $B=25$ eta $N=9$ baldintzekin bateragarria den mikroegoera baten adierazle da. Kontrolpean izango ditugun ingurune-aldagaiak aldatu ahala, azpisistemek gelaxkak edota partikulak elkartrukatzeko askatasuna izango dute. Multzo nanokanonikoan bi askatasun-graduak daude abiarazita.
 ```
 
 #### **9.2.1** Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak

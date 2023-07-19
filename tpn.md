@@ -79,7 +79,7 @@ Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoe
 Jarraian datorkigun adibidean $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen itxura behatuko dugu.
 
 (helix_coil)=
-###  **4.2** Adibidea: helize-haril trantsizioa
+### Adibidea: helize-haril trantsizioa
 
 Esku artean dugun sistema {numref}`{number}. irudiko <heco>` irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjokatu estentsiboa $\bar{l}$, katearen batez besteko luzera, hartuta.
 
@@ -192,14 +192,14 @@ name: hc_phase
 
 Lortutako emaitzak direla eta, berehalako geldialdia egin beharrean gaude, ezinbestean.
 
-Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <nhplot>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean ($N=2$), tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
+Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean ($N=2$), tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
 
 Ondorioz, $N=200$ inguruan $\bar{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
-Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>` atalean) izango dugu {numref}`{number}. irudira <nhplot>` irudira bihurtzeko beta egokia.
+Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>` atalean) izango dugu {numref}`{number}. irudira <hc_phase>` irudira bihurtzeko beta egokia.
 
 (gitpn)=
-###  **4.3** Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
+### Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
 
 Bigarren sistemaren azterketa [___C___](gitvn) ___eranskineko___ emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara. Partizio-funtzio berria eraikitzerakoan, {eq}`qtvngi` ekuazioko zaharrari dagokion Legendreren transformazioa aplikatuko diogu.
 

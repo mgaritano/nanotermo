@@ -362,7 +362,38 @@ $$ (lattice_xi)
 
 non, aurreko batean bezala, $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Batukariaren kalkuluari dagokionez, irakurleari lagungarria gerta dakioke {eq}`q_ising` ekuazioari darraion oharra.
 
-##### Ariketa {-}
+Orain, {numref}`{number} ataleko <replica_e>` argibideak aintzat hartuz, $\widehat{p}$ magnitude integralak $\Xi = e^{\widehat{p}B/k_{\mathrm{B}}T}$ berdintza beteko duela onartuko dugu, hark finkatuko baitu multzo estatistikoaren mailako ekarpen mekanikoa. Horiek horrela, {eq}`lattice_xi` ekuazioa behatuz, $p$ aldagai diferentziala eta integrala bat datozela ohartuko gara, alegia:
+
+$$
+p =\left[\frac{\partial (\widehat{p}B)}{\partial B}\right]_{\frac{\mu}{T}} = k_{\mathrm{B}}T\ln \left(1+\lambda\right) = \widehat{p}
+$$ (lattice_p_phat)
+
+
+Hortaz, banatze-potentzialak bi aldagaiak bereizten dituzten ekarpenak biltzen dituenez,
+
+$$
+\mathcal{E} = -(\widehat{p}-p)B = 0
+$$ (lattice_epsilon_gc)
+
+daukagu. Batez besteko partikula-kopuruari dagokionez,
+
+$$
+\bar{N} = \left[\frac{\partial (\widehat{p}B)}{\partial \mu}\right]_{T,B} = \frac{B\lambda}{1+\lambda} \; .
+$$ (lattice_nbar)
+
+Ondorioz,
+
+$$
+\widehat{p} = p = -k_{\mathrm{B}}T\ln\left(1-\frac{\bar{N}}{B}\right) \; .
+$$ (lattice_p_phat_new)
+
+
+
+
+
+
+
+##### Ariketa {.unnumbered}
 
 
 #### Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak

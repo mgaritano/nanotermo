@@ -350,11 +350,19 @@ $$
 \boxed{\frac{S\left(\frac{p}{T}, N\right) }{k_\mathrm{B}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)} \; .
 $$ (lattice_s_iso)
 
-
+Lortutako adierazpena erabat zehatza da, alegia, ez dugu Stirling-en hurbilketa erabili. Hori dela eta, sistema nahi bezain txikietarako ere baliozkoa da (baita $N=1$ kasurako ere). Ildo horretatik, interesgarria izan daiteke sistema bera multzo makrokanonikoan aztertzeaz bat, bertan entropiaren $S\left(B, \frac{\mu}{T}\right)$ ekuazioa lortu berri dugun adierazpenarekin erkatzea, batik bat, kasuan kasuko tamaina finituko zuzenketei erreparatuz; izan ere, multzo makrokanonikoa eta isobaroa parekoak dira (_erdiirekiak_), bietan baitago askatasun-gradu bakarra abian.
 
 #### Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak
 
-##### Ariketa
+Abiaraz dezagun soilk askatasun-gradu kimikoa, partizio-funtzio makrokanonikoa eraikitzeko:
+
+$$
+\Xi\left(B,\frac{\mu}{T}\right) = \sum_{\color{red}{N=0}}^{\color{red}{B}}\;\Omega(B,N)\;e^{\mu N/k_{\mathrm{B}}T} = \sum_{N=0}^B \frac{B!}{N!(B-N)!}\;\lambda^N = (1+\lambda)^B \; ,
+$$ (lattice_xi)
+
+non, aurreko batean bezala, $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Batukariaren kalkuluari dagokionez, irakurleari lagungarria gerta dakioke {eq}`q_ising` ekuazioari darraion oharra.
+
+##### Ariketa {-}
 
 
 #### Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak

@@ -387,13 +387,42 @@ $$
 \widehat{p} = p = -k_{\mathrm{B}}T\ln\left(1-\frac{\bar{N}}{B}\right) \; .
 $$ (lattice_p_phat_new)
 
+Lor dezagun orain entropiaren adierazpena.
 
 
+##### Ariketa
+
+Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketaren adierazpena. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\bar{N}$ aldagaien baitan ager dadin.
+
+```{dropdown} __Erantzuna__
+
+$$
+P(N) = \frac{e^{\mu N/k_{\mathrm{B}}T}}{\Xi}
+$$ (lattice_pn)
+
+Gauzak horrela, entropiak $N$ magnitudearen inguruko fluktuazioak hartuko ditu aintzakotzat, hau da,
+
+$$
+S = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\bar{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\bar{N}} {T}
+$$ (lattice_s_gc_def)
+
+Adierazpena {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu behar dugu.
+
+```
+
+Ariketan erdietsitako berdintza garatuz,
+
+$$
+\boxed{\frac{S\left(B,\frac{\mu}{T}\right) }{k_\mathrm{B}} =  B\ln B -(B-\bar{N})\ln (B-\bar{N})-\bar{N}\ln\bar{N}} \; .
+$$ (lattice_s_gc)
+
+Entropiaren {eq}`lattice_s_gc` ekuazioa ere erabat zehatza da. Berebat, nabarmentzekoa da limite makroskopikora joz gero, adierazpen horrek bere horretan jarraituko duela, alegia, kasu honetan multzo makrokanonikoak ez dio inolako tamaina finituko zuzenketarik erantsi. Horren adierazle garbia da aurrez lortutako banatze-potentzial hertsiki nulua ({eq}`lattice_epsilon_gc` ekuazioa).
+
+Halaber, {eq}`lattice_s_iso` ekuazioaren alderatuz, eta $\bar{B}=B$ zein $\bar{N}=N$ onartuz, entropiak behera egin duela hauteman daiteke. Zuzenketak, hala ere, oso txikiak dira, alegia, $N$ eta $B$ aldagaiekiko $\mathcal{O}(1)$ ordenakoak.
 
 
+Azken txanpa multzo erabat askean sistemaren berrazterketari ekitean datza.
 
-
-##### Ariketa {.unnumbered}
 
 
 #### Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak

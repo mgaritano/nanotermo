@@ -74,7 +74,7 @@ Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena e
 
 Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
 
-
+(replica_e)=
 ### Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
 
 Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartzean multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.

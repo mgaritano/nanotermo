@@ -4,7 +4,7 @@
 (mupt_sphagg)=
 ### Agregatu esferikoa
 
-Jarraian aurkeztuko dugun analisiak {numref}`{number} azpiataleko <mupt_linagg>` adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Agregatu linealaren kasuan bezalaxe, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu ($a>0$). Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du ($b>0$). Hill-en liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
+Jarraian aurkeztuko dugun analisiak {numref}`{number} azpiataleko <mupt_linagg>` adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Orobat, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu ($a>0$). Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du ($b>0$). Hill-en liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
 
 Lehenbizi, $Q(T,N)$ partizio-funtzio kanonikoa eraikiko dugu, hurbilketarik gabe.
 
@@ -264,7 +264,7 @@ $$
 \Delta \left(\frac{p}{T},N\right) = \sum_{\color{red}{B=N}}^{\color{red}{\infty}}\Omega(B,N)e^{-pB/k_{\mathrm{B}}T} = \frac{e^{-pN/k_{\mathrm{B}}T}}{\left(1-e^{-p/k_{\mathrm{B}}T}\right)^{N+1}} = \frac{x^N}{\left(1-x\right)^{N+1}} \; .
 $$ (lattice_Delta)
 
-Azkenengo pausoan $x = e^{-p/k_{\mathrm{B}}T}$ aldagaia txertatu dugu. Horrez gain, ohartu gaitezen batukariari ezarritako limiteetan. Hain zuzen askatasun-gradu mekanikoa abian jartzerakoan, $N$ aldagaiak finkatuko du behe-limitea ($B=N$); izan ere, kristal-sareak, gutxienez, gasaren $N$ molekula-osatzaileak barne hartzeko bezainbeste gelaxka izan beharko du.
+Azkenengo pausoan $x = e^{-p/k_{\mathrm{B}}T}$ aldagaia txertatu dugu. Horrez gain, ohartu gaitezen batukariari ezarritako limiteetan. Hain zuzen, askatasun-gradu mekanikoa abian jartzerakoan, $N$ aldagaiak finkatuko du behe-limitea ($B=N$); izan ere, kristal-sareak, gutxienez, gasaren $N$ molekula-osatzaileak barne hartzeko bezainbeste gelaxka izan beharko du.
 
 ```{dropdown} __Seriearen garapena__
 
@@ -375,7 +375,15 @@ $$
 \mathcal{E} = -(\widehat{p}-p)B = 0
 $$ (lattice_epsilon_gc)
 
-daukagu. Batez besteko partikula-kopuruari dagokionez,
+daukagu.
+
+```{admonition} Oharra
+
+Aurreko emaitzak direla bide, gehiegizko terminoak nuluak dira, hots, $\widehat{p}^{(x)} = p^{(x)} = 0$. Bestela esanda, bi presioek $\widehat{p} = p = p^{(0)}$ beteko dute limite makroskopikoan.
+
+```
+
+Batez besteko partikula-kopuruari dagokionez,
 
 $$
 \bar{N} = \left[\frac{\partial (\widehat{p}B)}{\partial \mu}\right]_{T,B} = \frac{B\lambda}{1+\lambda} \; .
@@ -426,3 +434,36 @@ Azken txanpa multzo erabat askean sistemaren berrazterketari ekitean datza.
 
 
 #### Multzo nanokanonikoa: $(\frac{p}{T}, \frac{\mu}{T})$ ingurune-aldagaiak
+
+Partizio-funtzio orokortuaren definizioa honako hau da:
+
+$$
+\Upsilon\left(\frac{p}{T},\frac{\mu}{T}\right) = \sum_{B=0}^\infty\;\sum_{N=0}^B \; \Omega(B,N)\;e^{-pB/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T} \; .
+$$ (lattice_upsilon)
+
+Ekuazioak trinkotzeko, aurrerantzean $\varphi = p/k_{\mathrm{B}}T$ eta $m = \mu/k_{\mathrm{B}}T$ ordezkatuko ditugu. Horrez gain, komenigarria da lehenbizi $N$ aldagaian zeharreko batukaria kalkulatzea. Horiek horrela,
+
+$$
+\Upsilon = \sum_{B=0}^\infty\left[\sum_{N=0}^B \; \frac{B!}{N!(B-N)!}e^{mN}\right]e^{-\varphi B} = \sum_{B=0}^\infty\; (1+e^m)^B\; e^{-\varphi B} = \sum_{B=0}^\infty\; \Xi\left(B,\frac{\mu}{T}\right)\; e^{-\varphi B}\; .
+$$ (lattice_upsilon_1)
+
+Gaineko ekuazioaren eskuinaldeko berdintza kontuan izanik, batukariaren barneko adierazpena honela moldatzea daukagu:
+
+$$
+(1+e^m)^B = \Xi = e^{\widehat{p}/k_{\mathrm{B}}T} = e^{p^{(0)}/k_{\mathrm{B}}T} = e^{\varphi^{(0)}}
+$$ (lattice_moldatu)
+
+Beraz, partizio-funtzio nanokanonikoa honela idatziko dugu:
+
+$$
+\Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)} \; .
+$$ (lattice_upsilon_2)
+
+
+
+
+
+
+
+
+##### Ariketa

@@ -183,7 +183,7 @@ $$ (sph_agg_s_def)
 
 Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ aldagaiarekiko menpekotasuna, hots, $\Upsilon(T,\mu) = \Upsilon(\alpha(T),\delta(T,\mu))$.
 
-
+**----------------------------------------------------**
 
 (mupt_id_lattice)=
 ### Kristal-sare idealeko gasa
@@ -418,6 +418,8 @@ Adierazpena {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez mol
 
 ```
 
+**----------------------------------------------------**
+
 Ariketan erdietsitako berdintza garatuz,
 
 $$
@@ -493,7 +495,9 @@ $$ (lattice_nbar_nc)
 
 ```
 
-Azpimarratu beharrekoa da $\bar{N}/\bar{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen duenez, azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
+**----------------------------------------------------**
+
+Azpimarratu beharrekoa da $\bar{N}/\bar{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen du, azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
 
 `````{admonition} Iradokizuna
 :class: tip
@@ -522,7 +526,7 @@ $$ (lattice_s_nc)
 non, bide batez, banatze-potentziala
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln\left(1+\bar{B}\right)
+\mathcal{E} = -k_{\mathrm{B}}T\ln\left(\bar{B} + 1 \right)
 $$ (lattice_epsilon_nc_def)
 
 den. Gauzak horrela,

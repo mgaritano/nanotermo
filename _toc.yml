@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 parts:
   - caption: Edukiak
-    numbered: true
+    numbered: 3
     chapters:
     - file: nanointro
     - file: hill

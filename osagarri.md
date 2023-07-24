@@ -398,7 +398,7 @@ $$ (lattice_p_phat_new)
 Lor dezagun orain entropiaren adierazpena.
 
 
-$\huge\text{Ariketa}$
+##### Ariketa
 
 Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketaren adierazpena. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\bar{N}$ aldagaien baitan ager dadin.
 
@@ -466,4 +466,4 @@ non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$
 
 
 
-$\huge\text{Ariketa}$
+##### Ariketa

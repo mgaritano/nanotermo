@@ -170,7 +170,7 @@ Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\
 
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 
-#### Ariketa
+##### Ariketa
 Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbatura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
 
 $(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\bar{E}(T,N),\;\Upsilon(T,\mu),\;\bar{N},\;\bar{E}(T,\mu)$ eta $S(T,\mu)$.
@@ -411,7 +411,7 @@ $$ (lattice_pn)
 Gauzak horrela, entropiak $N$ magnitudearen inguruko fluktuazioak hartuko ditu aintzakotzat, hau da,
 
 $$
-S = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\bar{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\bar{N}} {T}
+S\left(B,\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\bar{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\bar{N}} {T}
 $$ (lattice_s_gc_def)
 
 Adierazpena {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu behar dugu.
@@ -459,11 +459,88 @@ $$
 \Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)}(m)\; ,
 $$ (lattice_upsilon_2)
 
-non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$
-
-
-
-
+non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$ den. Berridazketa hori baliagarria izango zaigu, esaterako, $\bar{N}(\varphi, m)$ batez bestekoa kalkulatzerakoan.
 
 
 ##### Ariketa
+$(a)$ Kalkulatu $\bar{B}(\varphi, m)$. Hori egiteaz bat, moldatu $\Upsilon$ partizio-funtzioa, $\bar{B}$ aldagaiaren menpe ager dadin. Horrez gain, berridatzi $\bar{B}$ adierazpena $\varphi - \varphi^{(0)} \ll 1$ limitean.
+
+
+```{dropdown} __Erantzuna__
+
+$$
+\bar{B}(\varphi, m) = -k_{\mathrm{B}}T\left(\frac{\partial \ln \Upsilon}{\partial p}\right)_{\mu} \equiv -\left(\frac{\partial \ln \Upsilon}{\partial \varphi}\right)_{m} = \frac{e^{\varphi^{(0)}-\varphi}}{1-e^{\varphi^{(0)}-\varphi}}
+$$ (lattice_bbar_nc)
+
+Beraz, $\Upsilon = 1 + \bar{B}$. Bestetik, {eq}`lattice_bbar_nc` ekuazioak dioskunez, enuntziatuan aipatutako limiteak bermatuko du $\bar{B}$ magnitudea aski handia izatea. Bada, hori aintzakotzat hartuz,
+
+$$
+\bar{B} \approx \frac{1}{e^{\varphi - \varphi^{(0)}}}
+$$ (lattice_bbar_approx)
+
+erabiliko dugu aurrerantzean.
+
+```
+
+$(b)$ Eraiki orain $\bar{N} (\varphi, m)$ magnitudea, eta, aurretik lorturiko emaitzen bidez, berridatzi adierazpena, soilik $\bar{B}$-ren eta $\varphi^{(0)}$-ren menpe ager dadin.
+
+
+```{dropdown} __Erantzuna__
+
+$$
+\bar{N}(\varphi, m) = k_{\mathrm{B}}T\left(\frac{\partial \ln \Upsilon}{\partial \mu}\right)_{p} \equiv \left(\frac{\partial \ln \Upsilon}{\partial m}\right)_{\varphi} = \left(\frac{\partial \ln \Upsilon}{\partial \varphi^{(0)}}\right)_{\varphi} \frac{\mathrm{d}\varphi^{(0)}}{\mathrm{d}m} = \bar{B}\frac{e^m}{1+e^m} = \bar{B}\left(1-e^{-\varphi^{(0)}}\right)
+$$ (lattice_nbar_nc)
+
+```
+
+Azpimarratu beharrekoa da $\bar{N}/\bar{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen duenez, azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
+
+`````{admonition} Iradokizuna
+:class: tip
+Azken esaldian esandakoa egiaztatzeko, frogatu multzo isobaroko $N/\bar{B}$, multzo makrokanonikoko $\bar{N}/B$ eta multzo nanokanonikoko $\bar{N}/\bar{B}$ adierazpen hau betetzen dutela limite termodinamikoan:
+
+$$
+\frac{N}{\bar{B}} = \frac{\bar{N}}{B} =\frac{\bar{N}}{\bar{B}} = \frac{e^{\mu/k_{\mathrm{B}}T}}{1+e^{\mu/k_{\mathrm{B}}T}}
+$$
+
+Horretarako, erabili honako ekuazio hauek: {eq}`lattice_mu_iso` eta {eq}`lattice_eq_state` ; {eq}`lattice_nbar` ;  {eq}`lattice_nbar_nc` .
+`````
+
+
+Lehengo bi azpiataleatan egindakoari jarraikiz, probabilitate-banaketa
+
+$$
+P(B,N) = \frac{e^{-pB/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T}}{\Upsilon}
+$$ (lattice_p_nc)
+
+dugu. Entropiak, beraz, adierazpen hau beteko du:
+
+$$
+S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\bar{B}}{T} - \frac{\mu\bar{N}}{T} - \frac{\mathcal{E}}{T} \; ,
+$$ (lattice_s_nc)
+
+non, bide batez, banatze-potentzialak
+
+$$
+\mathcal{E} = -k_{\mathrm{B}}T\ln\left(1+\bar{B}\right)
+$$ (lattice_epsilon_nc_def)
+
+den. Gauzak horrela,
+
+$$
+\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  \left(\bar{B}+1\right)\ln \left(\bar{B}+1\right) -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})-\bar{N}\ln\bar{N}} \; .
+$$ (lattice_s_gc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

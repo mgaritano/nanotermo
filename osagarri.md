@@ -474,7 +474,7 @@ $$
 \bar{B}(\varphi, m) = -k_{\mathrm{B}}T\left(\frac{\partial \ln \Upsilon}{\partial p}\right)_{\mu} \equiv -\left(\frac{\partial \ln \Upsilon}{\partial \varphi}\right)_{m} = \frac{e^{\varphi^{(0)}-\varphi}}{1-e^{\varphi^{(0)}-\varphi}}
 $$ (lattice_bbar_nc)
 
-Beraz, $\Upsilon = 1 + \bar{B}$. Bestetik, {eq}`lattice_bbar_nc` ekuazioak dioskunez, enuntziatuan aipatutako limiteak bermatuko du $\bar{B}$ magnitudea aski handia izatea. Bada, hori aintzakotzat hartuz,
+Beraz, $\Upsilon = \bar{B} + 1$. Bestetik, {eq}`lattice_bbar_nc` ekuazioak dioskunez, enuntziatuan aipatutako limiteak bermatuko du $\bar{B}$ magnitudea aski handia izatea. Bada, hori aintzakotzat hartuz,
 
 $$
 \bar{B} \approx \frac{1}{\varphi - \varphi^{(0)}}
@@ -497,7 +497,7 @@ $$ (lattice_nbar_nc)
 
 **----------------------------------------------------**
 
-Azpimarratu beharrekoa da $\bar{N}/\bar{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen du, azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
+Azpimarratu beharrekoa da $\bar{N}/\bar{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen du ezen azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
 
 `````{admonition} Iradokizuna
 :class: tip
@@ -526,7 +526,7 @@ $$ (lattice_s_nc)
 non, bide batez, banatze-potentziala
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln\left(\bar{B} + 1 \right)
+\mathcal{E} = -k_{\mathrm{B}}T\ln \Upsilon = -k_{\mathrm{B}}T\ln\left(\bar{B} + 1 \right)
 $$ (lattice_epsilon_nc_def)
 
 den. Gauzak horrela,

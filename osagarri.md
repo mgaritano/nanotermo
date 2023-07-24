@@ -398,7 +398,7 @@ $$ (lattice_p_phat_new)
 Lor dezagun orain entropiaren adierazpena.
 
 
-##### Ariketa
+$\text{Ariketa}$
 
 Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketaren adierazpena. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\bar{N}$ aldagaien baitan ager dadin.
 
@@ -450,20 +450,20 @@ $$ (lattice_upsilon_1)
 Gaineko ekuazioaren eskuinaldeko berdintza kontuan izanik, batukariaren barneko adierazpena honela moldatzea daukagu:
 
 $$
-(1+e^m)^B = \Xi = e^{\widehat{p}/k_{\mathrm{B}}T} = e^{p^{(0)}/k_{\mathrm{B}}T} = e^{\varphi^{(0)}}
+(1+e^m)^B = \Xi = e^{\widehat{p}B/k_{\mathrm{B}}T} = e^{p^{(0)}B/k_{\mathrm{B}}T} = e^{\varphi^{(0)}B}
 $$ (lattice_moldatu)
 
 Beraz, partizio-funtzio nanokanonikoa honela idatziko dugu:
 
 $$
-\Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)} \; .
+\Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)}(m)\; ,
 $$ (lattice_upsilon_2)
 
+non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$
 
 
 
 
 
 
-
-##### Ariketa
+$\text{Ariketa}$

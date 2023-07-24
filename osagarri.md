@@ -519,7 +519,7 @@ $$
 S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\bar{B}}{T} - \frac{\mu\bar{N}}{T} - \frac{\mathcal{E}}{T} \; ,
 $$ (lattice_s_nc)
 
-non, bide batez, banatze-potentzialak
+non, bide batez, banatze-potentziala
 
 $$
 \mathcal{E} = -k_{\mathrm{B}}T\ln\left(1+\bar{B}\right)

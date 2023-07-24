@@ -477,7 +477,7 @@ $$ (lattice_bbar_nc)
 Beraz, $\Upsilon = 1 + \bar{B}$. Bestetik, {eq}`lattice_bbar_nc` ekuazioak dioskunez, enuntziatuan aipatutako limiteak bermatuko du $\bar{B}$ magnitudea aski handia izatea. Bada, hori aintzakotzat hartuz,
 
 $$
-\bar{B} \approx \frac{1}{e^{\varphi - \varphi^{(0)}}}
+\bar{B} \approx \frac{1}{\varphi - \varphi^{(0)}}
 $$ (lattice_bbar_approx)
 
 erabiliko dugu aurrerantzean.

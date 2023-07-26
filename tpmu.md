@@ -65,7 +65,7 @@ $$ (qagg)
 
 Ohartu gaitezen $N=0$ denean ez dela ez biraketarik ez, are gutxiago, elkarrekintza-energiarik egongo. Hori dela eta, partizio-funtzio intrintsekotik $Q(T,0)=j(T)^0=1$ izango dugu.
 
-####  Ariketa
+#####  Ariketa
 
 $(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, baita berorien $N\rightarrow \infty$ limitea ere.
 
@@ -187,7 +187,7 @@ $$
 
 Sistema honen bigarren berrazterketaren abiapuntua {numref}`{number} adibideko <gitpn>` {eq}`dtpn_gi` ekuazioa da.
 
-#### Ariketa
+##### Ariketa
 Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\bar{V},\bar{N})$.
 ```{dropdown} __Erantzuna__
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,

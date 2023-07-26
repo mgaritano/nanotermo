@@ -536,7 +536,7 @@ $$
 $$ (lattice_s_gc)
 
 
-```{list-table}
+```{list-table} Banatze potentzialaren eta entropiaren bilakaera multzoz multzo.
 :header-rows: 1
 :name: taula_s
 
@@ -555,8 +555,7 @@ $$ (lattice_s_gc)
 * - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
   - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln\left(\bar{B} + 1 \right) < 0$
   - $\frac{S}{k_{\mathrm{B}}} = \left(\bar{B}+1\right)\ln \left(\bar{B}+1\right) -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})-\bar{N}\ln\bar{N}$
----
-Banatze potentzialaren eta entropiaren bilakaera multzoz multzo.
+
 ```
 
 

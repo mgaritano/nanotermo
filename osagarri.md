@@ -252,7 +252,7 @@ $$ (lattice_mu_mc)
 Horiek horrela, $\mathcal{E} = -TS + pB -\mu N$ adierazpena erabiliz,
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
+\mathcal{E} = k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
 $$ (lattice_epsilon_mc)
 
 
@@ -536,6 +536,28 @@ $$
 $$ (lattice_s_gc)
 
 
+```{list-table}
+:header-rows: 1
+:name: taula_s
+
+* - Ingurune-aldagaiak
+  - Banatze-potentziala
+  - Entropia
+* - $\left(B,N\right)$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} \approx \frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] > 0$
+  - $\frac{S}{k_\mathrm{B}} \approx B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]$
+* - $\left(B,\frac{\mu}{T}\right)$
+  - $\mathcal{E} = 0$
+  - $\frac{S}{k_{\mathrm{B}}} =  B\ln B -(B-\bar{N})\ln (B-\bar{N})-\bar{N}\ln\bar{N}$
+* - $\left(\frac{p}{T},N\right)$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = \ln\left(1-e^{-p/k_{\mathrm{B}}T}\right) < 0$
+  - $\frac{S}{k_{\mathrm{B}}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)$
+* - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln\left(\bar{B} + 1 \right) < 0$
+  - $\frac{S}{k_{\mathrm{B}}} = \left(\bar{B}+1\right)\ln \left(\bar{B}+1\right) -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})-\bar{N}\ln\bar{N}$
+---
+Banatze potentzialaren eta entropiaren bilakaera multzoz multzo.
+```
 
 
 

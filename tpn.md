@@ -11,7 +11,7 @@ Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du
 
 Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathcal{N}$, $\bar{V}=V_{t}/\mathcal{N}$ eta $N=N_{t}/\mathcal{N}$ aldagai estentsiboak izango dituzte.
 
-####  Ariketa
+#####  Ariketa
 
 Aurreko esaldian aipatutakoa aintzat hartuz, eta {numref}`{number}. ataleko <hillsec>` azalpenei segituz, eraiki honako adierazpenak:
 
@@ -120,7 +120,7 @@ Hortik agerikoa da $r=1$ denean, katean bat-bateko helize-haril **fase-trantsizi
 
 Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbs-en energia askea $F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta$ dugu.
 
-####  Ariketa
+#####  Ariketa
 
 $(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, $F(T,f,N)$ adierazpenaren laguntzaz.
 
@@ -170,7 +170,7 @@ $$ (nbar)
 
 `````{admonition} Iradokizuna
 :class: tip
-Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela. 🙃
+Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela.
 `````
 
 Bada, {eq}`nbar` ekuazioan {eq}`d_short` adierazpena ordezkatuz gero, azkenean ere! iritsiko gara helmugara:

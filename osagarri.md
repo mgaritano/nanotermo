@@ -564,12 +564,3 @@ Errepara diezaiegun {numref}`{number} taulako <taula_s>` adierazpenei, banan-ban
 <!-- Hori gutxi balitz, {numref}`{number} ataleko <stabeps>` azalpenei jarraikiz, multzo nanokanonikoaren bidez lortuko dugu  -->
 
 Azpimarragarria da ezen banatze potentzialaren bilakaeraren araberako entropiaren areagotzeari dagokionez, adibide honetan lortutako emaitzak bat datozela {numref}`{number} atalean <mupt_gi>` gas idealaren kasuan erdietsitako ondorioekin.
-
-
-
-
-
-
-
-
-.

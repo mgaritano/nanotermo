@@ -215,7 +215,29 @@ $$ (stpmugi)
 ```
 **----------------------------------------------------**
 
-Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare. Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi ({numref}`{number}. irudia <sn100>`).
+Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare ({numref}`{number} taula <taula_s_gi>` eta {numref}`{number} irudia <sn100>`). Guztietan Sackur-Tetrode adierazpen _estentsiboa_ ($S_{0}$) da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi.
+
+```{list-table} Gas idealaren banatze-potentziala eta entropia, multzoz multzo.
+:header-rows: 1
+:name: taula_s_gi
+
+* - Aldagaiak
+  - Banatze-potentziala
+  - Entropia
+* - $\left(T, V,N\right)$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} \approx \ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N} > 0$
+  - $\frac{S}{k_\mathrm{B}} \approx N \left[\ln \left(\frac{V}{\Lambda^{3} N}\right)+\frac{5}{2}\right]-  \ln \sqrt{2 \pi N} - \frac{1}{12N}$
+* - $\left(T,p,N\right)$
+  - $\mathcal{E} = 0$
+  - $\frac{S}{k_{\mathrm{B}}} =  N\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]$
+* - $\left(T,V,\mu\right)$
+  - $\mathcal{E} = 0$
+  - $\frac{S}{k_{\mathrm{B}}} =  \bar{N}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right]$
+* - $\left(T,p,\mu\right)$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln\left(\bar{N} + 1 \right) < 0$
+  - $\frac{S}{k_{\mathrm{B}}} = \bar{N}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + \ln(\bar{N} + 1)$
+
+```
 
 ```{figure} sn100.PNG
 ---

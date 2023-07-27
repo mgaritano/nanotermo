@@ -526,20 +526,20 @@ $$ (lattice_s_nc)
 non, bide batez, banatze-potentziala
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln \Upsilon = -k_{\mathrm{B}}T\ln\left(\bar{B} + 1 \right)
+\mathcal{E} = -k_{\mathrm{B}}T\ln \Upsilon = -k_{\mathrm{B}}T\ln(\bar{B} + 1)
 $$ (lattice_epsilon_nc_def)
 
 den. Gauzak horrela,
 
 $$
-\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  \left(\bar{B}+1\right)\ln \left(\bar{B}+1\right) - \bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})} \; .
+\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  (\bar{B}+1\right)\ln \left(\bar{B}+1) - \bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})} \; .
 $$ (lattice_s_gc)
 
 Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emate aldera, argigarria da oraindainoko emaitza guztiak taula batean biltzea.
 
 ```{list-table} Banatze potentzialaren bilakaera eta horren ondoriozko entropiaren igoera, multzoz multzo.
 :header-rows: 1
-:name: taula_s
+:name: taula_s_lattice
 
 * - Aldagaiak
   - Banatze-potentziala
@@ -554,12 +554,12 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
   - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = \ln\left(1-e^{-p/k_{\mathrm{B}}T}\right) < 0$
   - $\frac{S}{k_{\mathrm{B}}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)$
 * - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln\left(\bar{B} + 1 \right) < 0$
-  - $\frac{S}{k_{\mathrm{B}}} = \left(\bar{B}+1\right)\ln \left(\bar{B}+1\right) -\bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln(\bar{B} + 1) < 0$
+  - $\frac{S}{k_{\mathrm{B}}} = (\bar{B}+1\right)\ln \left(\bar{B}+1) -\bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})$
 
 ```
 
-Errepara diezaiegun {numref}`{number} taulako <taula_s>` adierazpenei, banan-banan. Multzo mikrokanonikoan (guztiz itxia), Stirling-en serieko gaiak gehitu ahala, tamaina finituko efektuek banatze-potentziala indartu, eta, horrekin batera, entropiari ekarpen negatiboak erantsi dizkiote, hura txikiagotuz. Horren aldean, multzo makrokanonikoan (erdiirekia) ez dugu jada Stirling-en hurbilketara jo behar izan. Azken horrek, alde batetik, ekarpen negatiboak desagerrarazi ditu, eta, bestetik, entropiaren adierazpen erabat zehatza itzuli digu, zeina, limite makroskopikorantz jo ahala, bere horretan mantenduko den. Multzo isobarora (erdiirekia) jauzi egitean, banatze-potentziala negatibo bihurtu da, eta, horren eraginez, entropia zertxobait handitu da, zuzenketak $\mathcal{O}(1)$ ordenakoak dira eta. Azkenik, itxaro izan bezala, multzo nanokanonikoan (guztiz irekia) lortu dugu entropia maximizatzea. Oraingoan ere, aurreko adierazpenekiko zuzenketa berriak $\mathcal{O}(1)$ ordenakoak dira.
+Errepara diezaiegun {numref}`{number} taulako <taula_s_lattice>` adierazpenei, banan-banan. Multzo mikrokanonikoan (guztiz itxia), Stirling-en serieko gaiak gehitu ahala, tamaina finituko efektuek banatze-potentziala indartu, eta, horrekin batera, entropiari ekarpen negatiboak erantsi dizkiote, hura txikiagotuz. Horren aldean, multzo makrokanonikoan (erdiirekia) ez dugu jada Stirling-en hurbilketara jo behar izan. Azken horrek, alde batetik, ekarpen negatiboak desagerrarazi ditu, eta, bestetik, entropiaren adierazpen erabat zehatza itzuli digu, zeina, limite makroskopikorantz jo ahala, bere horretan mantenduko den. Multzo isobarora (erdiirekia) jauzi egitean, banatze-potentziala negatibo bihurtu da, eta, horren eraginez, entropia zertxobait handitu da, zuzenketak $\mathcal{O}(1)$ ordenakoak dira eta. Azkenik, itxaro izan bezala, multzo nanokanonikoan (guztiz irekia) lortu dugu entropia maximizatzea. Oraingoan ere, aurreko adierazpenekiko zuzenketa berriak $\mathcal{O}(1)$ ordenakoak dira.
 
 <!-- Hori gutxi balitz, {numref}`{number} ataleko <stabeps>` azalpenei jarraikiz, multzo nanokanonikoaren bidez lortuko dugu  -->
 

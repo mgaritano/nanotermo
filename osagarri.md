@@ -532,7 +532,7 @@ $$ (lattice_epsilon_nc_def)
 den. Gauzak horrela,
 
 $$
-\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  (\bar{B}+1\right)\ln \left(\bar{B}+1) - \bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})} \; .
+\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  (\bar{B}+1)\ln (\bar{B}+1) - \bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})} \; .
 $$ (lattice_s_gc)
 
 Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emate aldera, argigarria da oraindainoko emaitza guztiak taula batean biltzea.
@@ -555,7 +555,7 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
   - $\frac{S}{k_{\mathrm{B}}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)$
 * - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
   - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln(\bar{B} + 1) < 0$
-  - $\frac{S}{k_{\mathrm{B}}} = (\bar{B}+1\right)\ln \left(\bar{B}+1) -\bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})$
+  - $\frac{S}{k_{\mathrm{B}}} = (\bar{B}+1)\ln (\bar{B}+1) -\bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})$
 
 ```
 

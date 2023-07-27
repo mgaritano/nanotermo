@@ -234,7 +234,7 @@ Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` e
   - $\mathcal{E} = 0$
   - $\frac{S}{k_{\mathrm{B}}} =  \bar{N}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right]$
 * - $\left(T,p,\mu\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln\left(\bar{N} + 1 \right) < 0$
+  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln(\bar{N} + 1) < 0$
   - $\frac{S}{k_{\mathrm{B}}} = \bar{N}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + \ln(\bar{N} + 1)$
 
 ```

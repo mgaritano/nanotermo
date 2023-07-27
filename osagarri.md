@@ -561,6 +561,16 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
 
 Errepara diezaiegun {numref}`{number} taulako <taula_s_lattice>` adierazpenei, banan-banan. Multzo mikrokanonikoan (guztiz itxia), Stirling-en serieko gaiak gehitu ahala, tamaina finituko efektuek banatze-potentziala indartu, eta, horrekin batera, entropiari ekarpen negatiboak erantsi dizkiote, hura txikiagotuz. Horren aldean, multzo makrokanonikoan (erdiirekia) ez dugu jada Stirling-en hurbilketara jo behar izan. Azken horrek, alde batetik, ekarpen negatiboak desagerrarazi ditu, eta, bestetik, entropiaren adierazpen erabat zehatza itzuli digu, zeina, limite makroskopikorantz jo ahala, bere horretan mantenduko den. Multzo isobarora (erdiirekia) jauzi egitean, banatze-potentziala negatibo bihurtu da, eta, horren eraginez, entropia zertxobait handitu da, zuzenketak $\mathcal{O}(1)$ ordenakoak dira eta. Azkenik, itxaro izan bezala, multzo nanokanonikoan (guztiz irekia) lortu dugu entropia maximizatzea. Oraingoan ere, aurreko adierazpenekiko zuzenketa berriak $\mathcal{O}(1)$ ordenakoak dira.
 
-<!-- Hori gutxi balitz, {numref}`{number} ataleko <stabeps>` azalpenei jarraikiz, multzo nanokanonikoaren bidez lortuko dugu  -->
+Esanak esan, entropiaren bilakaera {numref}`{number} grafikoan <lattice_s_graph>` irudikatuko dugu.
+
+```{figure} lattice_s_comp.png
+---
+height: 350px
+name: lattice_s_graph
+---
+Kurbak eraikitzean, gelaxka-kopurua konstante mantendu da, hain zuzen, $B = 40$ balioan. Hala, sistemaren tamaina partikula osatzaileen kopurua $N= 1$-etik $N = B$ goi-limitera igoz aldatu dugu. Grafikoak erakusten duena bat dator aurreko paragrafoan emandako azalpenekin.
+
+```
+
 
 Azpimarragarria da ezen banatze potentzialaren bilakaeraren araberako entropiaren areagotzeari dagokionez, adibide honetan lortutako emaitzak bat datozela {numref}`{number} atalean <mupt_gi>` gas idealaren kasuan erdietsitako ondorioekin.

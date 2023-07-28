@@ -583,18 +583,20 @@ Amaitzeko, analisia borobiltzeko, $\bar{B}$ eta $\bar{N}$ magnitudeen inguruko f
 Multzo nanokanonikoan $X$ aldagaiaren batez bestekoak definizio honi jarraitzen diola aintzat hartuz,
 
 $$
-\bar{X} = \frac{\sum_{B, N}\; X \; \Omega(B,N)\;e^{-\varphi B}e^{-mN}}{\sum_{B, N}\; \Omega(B,N)\;e^{-\varphi B}e^{-mN}} \; ,
+\bar{X} = \frac{\sum_{B, N}\; X \; \Omega(B,N)\;e^{-\varphi B}e^{mN}}{\sum_{B, N}\; \Omega(B,N)\;e^{-\varphi B}e^{mN}} \; ,
 $$ (bar_x)
 
 egiaztatu honako berdintza hauek betetzen direla:
 
 $$
-\overline{B^2} - \bar{B}^2 = -\left(\frac{\partial \bar{B}}{\partial \varphi}\right)_m = \left(\frac{\partial \bar{B}}{\partial \varphi^{(0)}}\right)_{\varphi}\frac{\mathrm{d}\varphi^{(0)}}{\mathrm{d}m} \; ,
+\overline{B^2} - \bar{B}^2 = -\left(\frac{\partial \bar{B}}{\partial \varphi}\right)_m  \; ,
 $$ (lattice_b_fluc)
 
 $$
 \overline{N^2} - \bar{N}^2 = \left(\frac{\partial \bar{N}}{\partial m}\right)_{\varphi} \; .
 $$ (lattice_n_fluc)
+
+Erabili {eq}`lattice_bbar_nc` eta {eq}`lattice_nbar_nc` ekuazioak.
 
 **----------------------------------------------------**
 

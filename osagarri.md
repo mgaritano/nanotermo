@@ -568,9 +568,47 @@ Esanak esan, entropiaren bilakaera {numref}`{number} grafikoan <lattice_s_graph>
 height: 350px
 name: lattice_s_graph
 ---
-Kurbak eraikitzean, gelaxka-kopurua konstante mantendu da, hain zuzen, $B = 40$ balioan. Hala, sistemaren tamaina partikula osatzaileen kopurua $N= 1$-etik $N = B$ goi-limitera igoz aldatu dugu. Grafikoak erakusten duena bat dator aurreko paragrafoan emandako azalpenekin.
+Kurbak eraikitzean, gelaxka-kopurua konstante mantendu da, hain zuzen, $B = 40$ balioan. Hala, sistemaren tamaina partikula osatzaileen kopurua $N= 1$-etik $N = B$ goi-limitera igoz aldatu dugu. Grafikoak erakusten duena bateragarria da aurreko paragrafoan emandako azalpenekin.
 
 ```
 
 
 Azpimarragarria da ezen banatze potentzialaren bilakaeraren araberako entropiaren areagotzeari dagokionez, adibide honetan lortutako emaitzak bat datozela {numref}`{number} atalean <mupt_gi>` gas idealaren kasuan erdietsitako ondorioekin.
+
+
+Amaitzeko, analisia borobiltzeko, $\bar{B}$ eta $\bar{N}$ magnitudeen inguruko fluktuazioak aztertuko ditugu, multzo nanokanonikoan.
+
+##### Ariketa
+
+Multzo nanokanonikoan $X$ aldagaiaren batez bestekoak definizio honi jarraitzen diola aintzat hartuz,
+
+$$
+\bar{X} = \frac{\sum_{B, N}\; X \; \Omega(B,N)\;e^{-\varphi B}e^{-mN}}{\sum_{B, N}\; \Omega(B,N)\;e^{-\varphi B}e^{-mN}} \; ,
+$$ (bar_x)
+
+egiaztatu honako berdintza hauek betetzen direla:
+
+$$
+\overline{B^2} - \bar{B}^2 = -\left(\frac{\partial \bar{B}}{\partial \varphi}\right)_m = \left(\frac{\partial \bar{B}}{\partial \varphi^{(0)}}\right)_{\varphi}\frac{\mathrm{d}\varphi^{(0)}}{\mathrm{d}m} \; ,
+$$ (lattice_b_fluc)
+
+$$
+\overline{N^2} - \bar{N}^2 = \left(\frac{\partial \bar{N}}{\partial m}\right)_{\varphi} \; .
+$$ (lattice_n_fluc)
+
+**----------------------------------------------------**
+
+Bada, {eq}`lattice_b_fluc` ekuazioari segituz,
+
+$$
+\overline{B^2} - \bar{B}^2 = \frac{e^{\varphi^{(0)}-\varphi}(1-e^{\varphi^{(0)}-\varphi}) + e^{2(\varphi^{(0)}-\varphi)}}{(1-e^{\varphi^{(0)}-\varphi})^2} \underset{(\varphi-\varphi^{(0)}\ll 1)}{\approx} \frac{1}{\left(\varphi-\varphi^{(0)}\right)^2} + \frac{1}{\varphi-\varphi^{(0)}} \; ,
+$$ (lattice_b_fluc_1)
+
+eta,
+
+$$
+\overline{N^2} - \bar{N}^2 \underset{(\varphi-\varphi^{(0)}\ll 1)}{\approx}\frac{e^{\varphi^{(0)}}-1}{e^{\varphi^{(0)}}}\left[\frac{1}{\left(\varphi-\varphi^{(0)}\right)^2} +\frac{e^{\varphi^{(0)}}}{\varphi-\varphi^{(0)}}\right] \; .
+$$ (lattice_n_fluc_1)
+
+
+Ikusten denez, bi magnitudeek fluktuazio esanguratsuak dituzte; izan ere, lehen hurbilketan behintzat, beroriek $\bar{B}^2 + \bar{B}$ ordenakoak dira.

@@ -47,6 +47,6 @@ sphinx:
         use_download_button: false
         repository_url: https://github.com/mgaritano/nanotermo
         use_issues_button: true
-        use_repository_button: true
-        use_edit_page_button: true
+        use_repository_button: false
+        use_edit_page_button: false
       language: basque

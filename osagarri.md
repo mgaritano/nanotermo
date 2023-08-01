@@ -188,9 +188,6 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 (mupt_id_lattice)=
 ### Kristal-sare idealeko gasa
 
-_*Adibidea osatzen ari naiz..._
-
-
 Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`{number}. irudia <lattice_multzo>`); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, {numref}`{number} adibidean <mupt_gi>` egin genuen antzera.
 
 Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekula bereizezin daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
@@ -288,7 +285,7 @@ $$
 \frac{1}{N!}\sum_{{M=0}}^{{\infty}}\frac{(M+N)!}{N!}x^{M+N} =   \frac{1}{N!}\;\frac{\mathrm{d}^{N}}{\mathrm{d}x^{N}}\left[x^{N}\sum_{{M=0}}^{{\infty}}x^{M}\right]\underset{\vert x\vert < 1}{=} \frac{1}{N!}\frac{\mathrm{d}^{N}}{\mathrm{d}x^{N}} \left[\frac{x^N}{1-x}\right] = \frac{1}{N!}\left[\frac{N!\; x^N}{(1-x)^{N+1}}\right]
 $$
 
-Heldu gara, beraz, helmugara:
+Heldu gara helmugara:
 
 $$
 \boxed{\Delta = \frac{x^N}{\left(1-x\right)^{N+1}}} \; .

@@ -193,7 +193,7 @@ _*Adibidea osatzen ari naiz..._
 
 Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema berarekin multzo estatistiko mikrokanonikoan, isobaroan, makrokanonikoan eta nanokanonikoan jardungo dugu ({numref}`{number}. irudia <lattice_multzo>`); bereziki, banatze-potentzialaren araberako entropiaren bilakaerari erreparatuko diogu, {numref}`{number} adibidean <mupt_gi>` egin genuen antzera.
 
-Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekulak daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Molekulak identikoak eta bereizezinak direla onartuko dugu. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
+Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekula bereizezin daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
 ```{figure} lattice.png
 ---
@@ -350,7 +350,7 @@ $$
 \boxed{\frac{S\left(\frac{p}{T}, N\right) }{k_\mathrm{B}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)} \; .
 $$ (lattice_s_iso)
 
-Lortutako adierazpena erabat zehatza da, alegia, ez dugu Stirling-en hurbilketa erabili. Hori dela eta, sistema nahi bezain txikietarako ere baliozkoa da (baita $N=1$ kasurako ere). Ildo horretatik, interesgarria izan daiteke sistema bera multzo makrokanonikoan aztertzeaz bat, bertan entropiaren $S\left(B, \frac{\mu}{T}\right)$ ekuazioa lortu berri dugun adierazpenarekin erkatzea, batik bat, kasuan kasuko tamaina finituko zuzenketei erreparatuz; izan ere, multzo makrokanonikoa eta isobaroa parekoak dira (_erdiirekiak_), bietan baitago askatasun-gradu bakarra abian.
+Lortutako adierazpena erabat zehatza da, alegia, ez dugu Stirlingen hurbilketa erabili. Hori dela eta, sistema nahi bezain txikietarako ere baliozkoa da (baita $N=1$ kasurako ere). Ildo horretatik, interesgarria izan daiteke sistema bera multzo makrokanonikoan aztertzeaz bat, bertan entropiaren $S\left(B, \frac{\mu}{T}\right)$ ekuazioa lortu berri dugun adierazpenarekin erkatzea, batik bat, kasuan kasuko tamaina finituko zuzenketei erreparatuz; izan ere, multzo makrokanonikoa eta isobaroa parekoak dira (_erdiirekiak_), bietan baitago askatasun-gradu bakarra abian.
 
 #### Multzo makrokanonikoa: $(B, \frac{\mu}{T})$ ingurune-aldagaiak
 
@@ -365,7 +365,7 @@ non, aurreko batean bezala, $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun.
 Orain, {numref}`{number} ataleko <replica_e>` argibideak aintzat hartuz, $\widehat{p}$ magnitude integralak $\Xi = e^{\widehat{p}B/k_{\mathrm{B}}T}$ berdintza beteko duela onartuko dugu, hark finkatuko baitu multzo estatistikoaren mailako ekarpen mekanikoa. Horiek horrela, {eq}`lattice_xi` ekuazioa behatuz, $p$ aldagai diferentziala eta integrala bat datozela ohartuko gara, alegia:
 
 $$
-p =\left[\frac{\partial (\widehat{p}B)}{\partial B}\right]_{\frac{\mu}{T}} = k_{\mathrm{B}}T\ln \left(1+\lambda\right) = \widehat{p}
+p =\left[\frac{\partial (\widehat{p}B)}{\partial B}\right]_{T,\mu} = k_{\mathrm{B}}T\ln \left(1+\lambda\right) = \widehat{p}
 $$ (lattice_p_phat)
 
 
@@ -400,7 +400,7 @@ Lor dezagun orain entropiaren adierazpena.
 
 ##### Ariketa
 
-Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketaren adierazpena. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\bar{N}$ aldagaien baitan ager dadin.
+Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketa. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\bar{N}$ aldagaien baitan ager dadin.
 
 ```{dropdown} __Erantzuna__
 
@@ -414,7 +414,7 @@ $$
 S\left(B,\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\bar{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\bar{N}} {T}
 $$ (lattice_s_gc_def)
 
-Adierazpena {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu behar dugu.
+Berori {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu behar dugu.
 
 ```
 
@@ -426,7 +426,7 @@ $$
 \boxed{\frac{S\left(B,\frac{\mu}{T}\right) }{k_\mathrm{B}} =  B\ln B -\bar{N}\ln\bar{N} -(B-\bar{N})\ln (B-\bar{N})} \; .
 $$ (lattice_s_gc)
 
-Entropiaren {eq}`lattice_s_gc` ekuazioa ere erabat zehatza da. Berebat, nabarmentzekoa da limite makroskopikora joz gero, adierazpen horrek bere horretan jarraituko duela, alegia, kasu honetan multzo makrokanonikoak ez dio inolako tamaina finituko zuzenketarik erantsi. Horren adierazle garbia da aurrez lortutako banatze-potentzial hertsiki nulua ({eq}`lattice_epsilon_gc` ekuazioa).
+Entropiaren {eq}`lattice_s_gc` ekuazioa ere erabat zehatza da. Orobat, nabarmentzekoa da limite makroskopikora joz gero, adierazpen horrek bere horretan jarraituko duela, alegia, kasu honetan multzo makrokanonikoak ez dio inolako tamaina finituko zuzenketarik erantsi. Horren adierazle garbia da aurrez lortutako banatze-potentzial hertsiki nulua ({eq}`lattice_epsilon_gc` ekuazioa).
 
 Halaber, {eq}`lattice_s_iso` ekuazioaren alderatuz, eta $\bar{B}=B$ zein $\bar{N}=N$ onartuz, entropiak behera egin duela hauteman daiteke. Zuzenketak, hala ere, oso txikiak dira, alegia, $N$ eta $B$ aldagaiekiko $\mathcal{O}(1)$ ordenakoak.
 
@@ -461,7 +461,7 @@ $$
 \Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)}(m)\; ,
 $$ (lattice_upsilon_2)
 
-non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$ den. Berridazketa hori baliagarria izango zaigu, esaterako, $\bar{N}(\varphi, m)$ batez bestekoa kalkulatzerakoan.
+non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$ den. Berridazketa hori baliagarria izango zaigu, esaterako, $\bar{N}(\varphi, m)$ batez bestekoa kalkulatzean.
 
 
 ##### Ariketa

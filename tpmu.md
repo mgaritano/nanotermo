@@ -273,6 +273,37 @@ Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarrit
 
 Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.
 
+##### Ariketa : Gas ideala, multzo makrokanonikoan $\left(T,V,\mu\right)$
+
+Kalkulatu {numref}`{number} taulako <taula_s_gi>` hirugarren zutabeko emaitzak.
+
+```{dropdown} __Erantzuna__
+
+Hasteko, partizio-funtzio makrokanonikoa
+
+$$
+\Xi (T,V,\mu) = \sum_{N=0}^{\infty}\; Q(T,V,N)\;e^{\mu N/k_{\mathrm{B}}T} = \sum_{N=0}^{\infty}\;\frac{1}{N!}\left(\frac{V\lambda}{\Lambda^3}\right)^N = e^{V\lambda/\Lambda^3} := e^{\widehat{p}V/k_{\mathrm{B}}T}
+$$ (gi_xi)
+
+da. Hortik, $\widehat{p}$ presio integrala eta $p$ presio diferentziala bat datozela ohartuko gara; izan ere,
+
+$$
+\widehat{p}V = -\frac{k_{\mathrm{B}}T V \lambda}{\Lambda^3}
+$$ (gi_widehatp_v)
+
+adierazpena lehen ordenako funtzio Euler homogeneoa da. Horren ondorioz, $\mathcal{E} = 0$ dugu. Bestalde,
+
+$$
+\bar{N} = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial \mu}\right]_{T,V} = \frac{\lambda V}{\Lambda^3} \; ,
+$$ (gi_barn_makro)
+
+eta, horren laguntzaz, entropia lortuko dugu:
+
+$$
+S(T,V,\mu) = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial T}\right]_{V,\mu} = \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right] \; .
+$$ (gi_s_makro)
+
+```
 
 (stabeps)=
 ### Banatze-potentziala eta egonkortasuna

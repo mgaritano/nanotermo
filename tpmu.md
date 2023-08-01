@@ -275,7 +275,7 @@ Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ p
 
 ##### Ariketa : Gas ideala, multzo makrokanonikoan $\left(T,V,\mu\right)$
 
-Kalkulatu {numref}`{number} taulako <taula_s_gi>` hirugarren zutabeko emaitzak.
+Kalkulatu {numref}`{number} taulako <taula_s_gi>` hirugarren lerroko emaitzak.
 
 ```{dropdown} __Erantzuna__
 
@@ -288,7 +288,7 @@ $$ (gi_xi)
 da. Hortik, $\widehat{p}$ presio integrala eta $p$ presio diferentziala bat datozela ohartuko gara; izan ere,
 
 $$
-\widehat{p}V = -\frac{k_{\mathrm{B}}T V \lambda}{\Lambda^3}
+\widehat{p}V = -\frac{k_{\mathrm{B}}T  \lambda}{\Lambda^3}V
 $$ (gi_widehatp_v)
 
 adierazpena lehen ordenako funtzio Euler homogeneoa da. Horren ondorioz, $\mathcal{E} = 0$ dugu. Bestalde,
@@ -297,7 +297,7 @@ $$
 \bar{N} = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial \mu}\right]_{T,V} = \frac{\lambda V}{\Lambda^3} \; ,
 $$ (gi_barn_makro)
 
-eta, horren laguntzaz, entropia lortuko dugu:
+eta, berori {eq}`gi_widehatp_v` ekuazioan ordezkatuz, entropia lortuko dugu:
 
 $$
 S(T,V,\mu) = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial T}\right]_{V,\mu} = \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right] \; .

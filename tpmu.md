@@ -300,7 +300,7 @@ $$ (gi_barn_makro)
 eta, berori {eq}`gi_widehatp_v` ekuazioan ordezkatuz, entropia lortuko dugu:
 
 $$
-S(T,V,\mu) = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial T}\right]_{V,\mu} = \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right] \; .
+\boxed{S(T,V,\mu) = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial T}\right]_{V,\mu} = \bar{N}k_{\mathrm{B}}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right]} \; .
 $$ (gi_s_makro)
 
 ```

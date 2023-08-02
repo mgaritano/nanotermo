@@ -230,4 +230,4 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 
 
 (j0bnot0)=
-#### **8.1.2** Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)
+#### Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)

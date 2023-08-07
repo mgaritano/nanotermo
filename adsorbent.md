@@ -14,15 +14,15 @@ Zentrutik $r$ distantziara dagoen gas-partikula askeak $a$ erradioko adsorbatzai
 
 ```
 
-Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hill-en teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathcal{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathcal{N}S$, $\Omega_{t}=\mathcal{N}\Omega$ eta $N_{t}=\mathcal{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
+Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hill-en teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathscr{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathscr{N}S$, $\Omega_{t}=\mathscr{N}\Omega$ eta $N_{t}=\mathscr{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
 
 $$
-\mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} + \gamma\mathcal{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathscr{E}+ \gamma\Omega\right)\mathrm{d}\mathcal{N} ,
+\mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathscr{N}) = T\mathrm{d}S_{t} + \gamma\mathscr{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathscr{E}+ \gamma\Omega\right)\mathrm{d}\mathscr{N} ,
 $$ (adseq)
 non $\gamma$ __gainazal-tentsio diferentziala__ den, hau da, $\Omega$ aldagaiaren konjokatua, limite makroskopikoan intentsiboa. Berebat, $\widehat{\gamma}$ __gainazal-tentsio integralaren__ bitartez aldaki-energia eta banatze-potentziala definituko ditugu:
 
 $$
-X(T,\Omega,\mu) = \mathcal{E} + \gamma\Omega  := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},\Omega,N_{t}} := \widehat{\gamma}\Omega \; .
+X(T,\Omega,\mu) = \mathscr{E} + \gamma\Omega  := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_{S_{t},\Omega,N_{t}} := \widehat{\gamma}\Omega \; .
 $$(adsx)
 
 Sistema txikietara igaroz, barne-energiak honakoa beteko du, aldagaien ez-homogeneotasuna agerian utziz.
@@ -95,7 +95,7 @@ $$
 U_{S} = U(a,r=R) = \mathrm{min}\left[U(a,r)\right]
 $$
 
-Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, {numref}`{number} irudiko <plot1>` grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathcal{E}/\Omega = \widehat{\gamma} - \gamma \;$.
+Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigma/2)^3\right]$ hartzen da. Gauzak horrela, {numref}`{number} irudiko <plot1>` grafiko-sortan adsorbatzailearen handi-txikiaren araberako {eq}`ghat` eta {eq}`g` ekuazio-parea irudikatuko dugu, baita azalera-unitateko banatze-potentziala ere: $\mathscr{E}/\Omega = \widehat{\gamma} - \gamma \;$.
 
 ```{figure} plot1.PNG
 ---
@@ -128,14 +128,14 @@ Hasteko, aipatu beharrekoa da adsorbatzailearen erradioaren zeroranzko limitean 
 Bestalde, grafikoetako iruzkinei jarraituz, eta {eq}`adsgandghat` zein {eq}`g` ekuazioei erreparatuz gero, argi dago sistema txikien eskalan $\widehat{\gamma}\Omega$ bezalako funtzio termodinamikoek esferaren $\Omega$ azalerarekiko menpekotasun ez-lineala aurkezten dutela. Horren eraginez, gainazal-tentsioek jokaera ez-intentsiboa daukate, eta, halaber, berorien arteko aldentzea nabarmena da. Edonola ere, limite makroskopikoak linealtasuna berrezarriko du, eta, hartara, $\partial\left(\widehat{\gamma}\Omega\right)/\partial \Omega  = (\widehat{\gamma}\Omega)/\Omega$ berdintza berreskuratuko dugu. Banatze-potentzialak, hain zuzen ere,
 
 $$
-\mathcal{E} = \widehat{\gamma}\Omega - \Omega \left[\frac{\partial (\widehat{\gamma}\Omega)}{\partial \Omega}\right]_{T,\mu}
+\mathscr{E} = \widehat{\gamma}\Omega - \Omega \left[\frac{\partial (\widehat{\gamma}\Omega)}{\partial \Omega}\right]_{T,\mu}
 $$ (epsilonads)
 adierazpena betetzen duen horretan, izaera linealarekiko desbideraketen gidaritzan dago.
 
-Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak ($\mathcal{E}<0$) multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
+Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak ($\mathscr{E}<0$) multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
 
 $$
-\mathcal{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .
+\mathscr{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .
 $$ (epsilonadsfree)
 
 Azterketari amaiera emateko, aipatu beharrekoa da aplikazio honetan zenbait hurbilketatan oinarritutako adsortzioaren eredu bakuna erabili dugula: alde batetik, gasa idealtzat hartu dugu, eta, bestetik, orekako $U_{S}$ potentziala soilik gainazalarekiko menpekoa dela onartu dugu. Dena dela ere, Sistema Txikien Termodinamikaren kontzeptuak adsortziora era ulergarri eta didaktikoan moldatzeko adibide arras egokia da.

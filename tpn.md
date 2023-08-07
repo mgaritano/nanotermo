@@ -9,7 +9,7 @@ Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du
 (tpn_azter)=
 ### Multzoaren azterketa
 
-Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathcal{N}$, $\bar{V}=V_{t}/\mathcal{N}$ eta $N=N_{t}/\mathcal{N}$ aldagai estentsiboak izango dituzte.
+Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathscr{N}$, $\bar{V}=V_{t}/\mathscr{N}$ eta $N=N_{t}/\mathscr{N}$ aldagai estentsiboak izango dituzte.
 
 ##### Ariketa
 
@@ -19,15 +19,15 @@ $(a)$ Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta $X(T,p,N)$ aldaki-energi
 
 ```{dropdown} __Erantzuna__
 $$
-\mathrm{d}E_{t}(S_{t},V_{t},N,\mathcal{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathcal{N}\mathrm{d}N + (\mathcal{E}+\mu N)\mathrm{d}\mathcal{N}
+\mathrm{d}E_{t}(S_{t},V_{t},N,\mathscr{N}) = T\mathrm{d}S_{t} - p\mathrm{d}V_{t} + \mu \mathscr{N}\mathrm{d}N + (\mathscr{E}+\mu N)\mathrm{d}\mathscr{N}
 $$ (dEttpn)
 $$
-X(T,p,N) = \mathcal{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
+X(T,p,N) = \mathscr{E} + \mu N := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_{S_{t},V_{t},N} := \widehat{\mu}N \; .
 $$ (xtpn)
 ```
 
 ```{dropdown} __Azalpenak__
-Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}N_{t} = \mathcal{N}\mathrm{d}N + N\mathrm{d}\mathcal{N}$ erabiliz. Berorrek $N_{t}$ magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, $N$ partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik $N$ partikuladun sorta berri bat gehitzen arituko gintzaizkioke eta. Aipaturiko ekarpen kimikoa $\widehat{\mu}$ potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako $\mu$ potentzialaren esanahi bera.
+Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}N_{t} = \mathscr{N}\mathrm{d}N + N\mathrm{d}\mathscr{N}$ erabiliz. Berorrek $N_{t}$ magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, $N$ partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik $N$ partikuladun sorta berri bat gehitzen arituko gintzaizkioke eta. Aipaturiko ekarpen kimikoa $\widehat{\mu}$ potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako $\mu$ potentzialaren esanahi bera.
 ```
 
 $(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
@@ -49,7 +49,7 @@ $$
 \mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
 $$ (dftpn)
 $$
-\boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathcal{E} =  (\widehat{\mu} - \mu)N}
+\boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathscr{E} =  (\widehat{\mu} - \mu)N}
 $$ (mumuhat)
 ```
 
@@ -59,7 +59,7 @@ $$ (mumuhat)
 Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
 
 $$
-\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathcal{E}}{N^2}\mathrm{d}N}
+\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
 $$ (dmuhat)
 
 Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,
@@ -71,7 +71,7 @@ $$
 Horrenbestez,
 
 $$
-\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathcal{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
+\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
 $$ (dmu)
 
 Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek $N$ aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, {eq}`dmu` ekuazioko azkenengo gaia $\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N$ dugu, zeina ez baita nulua. Horrek $\mu$ potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, $\mu = \mu(T,p,N)$ erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, {eq}`gibbs-duhem` erlazioarekin (Gibbs-Duhem).
@@ -137,7 +137,7 @@ $(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azal
 
 ```{dropdown} __Erantzuna__
 $$
-\mathcal{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
+\mathscr{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
 $$ (epsilonhelix)
 
 ```{figure} epsilon_tfn.PNG
@@ -145,7 +145,7 @@ $$ (epsilonhelix)
 height: 300px
 name: epsilon_tfn
 ---
-  Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala ($r\rightarrow1$) geroz eta tarte zabalagoa hartuko du, eta $\mathcal{E}\rightarrow\mathcal{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
+  Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala ($r\rightarrow1$) geroz eta tarte zabalagoa hartuko du, eta $\mathscr{E}\rightarrow\mathscr{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
 ```
 
 **----------------------------------------------------**
@@ -219,7 +219,7 @@ $$
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 $$ (ftpngi)
 
-berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, $\mathcal{E}=0$. Aipatzekoa da multzo kanonikoan $\mathcal{E}>0$ lortu dugula (ikus {eq}`epsilon_tvn` ekuazioa).
+berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, $\mathscr{E}=0$. Aipatzekoa da multzo kanonikoan $\mathscr{E}>0$ lortu dugula (ikus {eq}`epsilon_tvn` ekuazioa).
 
 Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:
 

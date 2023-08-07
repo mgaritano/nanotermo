@@ -13,4 +13,4 @@ Bukatzeko, nahiz eta [7](app). ataleko adsortzioaren eredua aski xumea den, bert
 
 
 
-Laburbilduz, lan honetan barrena egindako ibilaldia aberasgarria gertatu zaigu oso. Izan ere, atalez atal uztartutako kontzeptuek eta arrazoibideek, Termodinamikaren irizpideak kolokan jartzeaz bat, gure aurretiko ikuspegia zabaltzeko tresneriaz hornitu gaituzte. Gainera, aurreko paragrafoetan bildutako eragile oro $\mathcal{E}$ potentzialaren agindupean egon da. Hori horrela izanik, hauxe da abian dugun eztabaidari itxiera aproposa emango dion ondorio irmoa: banatze-potentziala Nanotermodinamikaren bizkarrezurra da.
+Laburbilduz, lan honetan barrena egindako ibilaldia aberasgarria gertatu zaigu oso. Izan ere, atalez atal uztartutako kontzeptuek eta arrazoibideek, Termodinamikaren irizpideak kolokan jartzeaz bat, gure aurretiko ikuspegia zabaltzeko tresneriaz hornitu gaituzte. Gainera, aurreko paragrafoetan bildutako eragile oro $\mathscr{E}$ potentzialaren agindupean egon da. Hori horrela izanik, hauxe da abian dugun eztabaidari itxiera aproposa emango dion ondorio irmoa: banatze-potentziala Nanotermodinamikaren bizkarrezurra da.

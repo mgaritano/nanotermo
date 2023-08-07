@@ -3,7 +3,7 @@
 
 Azken-aurreko kapitulu honetan teoriaren alor esanguratsuenari ekingo diogu. Demagun esku artean dugun sistema $N$ monomeroz osaturiko polimero agregatua dela, eta berori $T$ tenperaturan eta $p$ presiopean dagoela. Bada, molekulen arteko lotze-indarrak aski sendoak ez balira, luzaroan $N$ molekulen kopuruak ez luke finko iraungo, fluktuazioak jasango bailituzke. Hori dela eta, sistemari $\mu$ potentzial-kimikoa esleitu beharko genioke hirugarren ingurune-aldagaitzat; alegia, azterketa $(T,p,\mu)$ aldagaidun azpisistemak biltzen dituen multzo  nanokanonikoaren bitartez burutu beharko genuke baitezpada.
 
-Alabaina, har dezagun gogoan {numref}`{number}. atalburuan <nanointro>` aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathcal{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
+Alabaina, har dezagun gogoan {numref}`{number}. atalburuan <nanointro>` aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathscr{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
 
 ```{admonition} Oharra
 Hill-ek bere liburuan _multzo orokortu_ izena erabiltzen du ("_generalized ensemble_"), _multzo nanokanoniko_ beharrean.
@@ -18,13 +18,13 @@ Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi
 Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\bar{V}$ bolumena eta $\bar{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
 
 $$
- \mathrm{d}\mathcal{E}(T,p,\mu) = \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathcal{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
+ \mathrm{d}\mathscr{E}(T,p,\mu) = \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
  $$ (depsilonnew)
 
  Jarraian, Fisika Estatistikoarekin lotura ezartze aldera, $\Upsilon(T,p,\mu)$ hizkiaren bidez adieraziko dugun __partizio-funtzio nanokanonikoaren__ eta multzoaren izaeraren isla den banatze-potentzialaren arteko erlazioa idatziko dugu:
 
 $$
-  \mathcal{E}(T,p,\mu) := -k_{\mathrm{B}}T\ln \Upsilon \; .
+  \mathscr{E}(T,p,\mu) := -k_{\mathrm{B}}T\ln \Upsilon \; .
 $$ (epspf)
 
 Partizio-funtzio orokortua gainontzekoei kasuan kasuko Legendreren transformazioak aplikatuz kalkulatuko dugu. Esate baterako, multzo isotermo-isobarotik abiatuz,
@@ -127,20 +127,20 @@ $$
 Bertatik, eta {eq}`epspf` berdintza erabiliz,
 
 $$
-\mathcal{E}(T,\mu) = -k_{\mathrm{B}}T\ln \left\{1 + c\left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]\right\} \;
+\mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln \left\{1 + c\left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]\right\} \;
 $$ (epsagg)
 da banatze-potentziala.
 
 Kontuan izan beharrekoa da, {eq}`muagg` ekuazioko $\mu^{(0)}$ potentzialari erreparatuz, $x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}$ berridaztea daukagula. Hortaz, limite makroskopikoan $x\rightarrow 1$ beteko da. Azter dezagun, bada, batez besteko partikula-kopuruan $x$ magnitudeak duen eragina.
 
 $$
-\bar{N} := -\left(\frac{\partial \mathcal{E}}{\partial \mu}\right)_{T} = c \; x \; P(0)\left[\frac{12 x(x-1)-24 x^{2}}{(x-1)^{5}}-\frac{x+1}{(x-1)^{3}}\right]
+\bar{N} := -\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T} = c \; x \; P(0)\left[\frac{12 x(x-1)-24 x^{2}}{(x-1)^{5}}-\frac{x+1}{(x-1)^{3}}\right]
 $$ (barnagg)
 
 Espero bezala, $\bar{N}(x\rightarrow 1) \rightarrow \infty$ betetzen da. Entropiaren adierazpen berria eraiki, eta {eq}`barnagg` ekuazioaren laguntzaz trinkotuko dugu:
 
 $$
-\frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathcal{E}}{\partial T}\right)_ {\mu}  = \bar{N}\ln j + \bar{N}T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}
+\frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {\mu}  = \bar{N}\ln j + \bar{N}T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}
 $$
 $$ + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left[1-\frac{\epsilon}{k_{\mathrm{B}} T}\right]\left[\frac{6 x^{2}}{(x-1)^{4}}+\frac{x}{(x-1)^{2}}\right] \right\}
 $$(stmuagg)
@@ -188,7 +188,7 @@ $$
 Sistema honen bigarren berrazterketaren abiapuntua {numref}`{number} adibideko <gitpn>` {eq}`dtpn_gi` ekuazioa da.
 
 ##### Ariketa
-Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathcal{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\bar{V},\bar{N})$.
+Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathscr{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\bar{N}$ eta $\bar{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\bar{V},\bar{N})$.
 ```{dropdown} __Erantzuna__
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
@@ -198,7 +198,7 @@ $$ (upsilongi)
 izango dugu partizio-funtzio orokortua. Bertan $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugu. Hortaz,
 
 $$
-\mathcal{E}(T,p,\mu) = k_{\mathrm{B}}T \ln\left(1- \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right) = -k_{\mathrm{B}}T \ln(\bar{N} + 1) < 0 \; .
+\mathscr{E}(T,p,\mu) = k_{\mathrm{B}}T \ln\left(1- \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right) = -k_{\mathrm{B}}T \ln(\bar{N} + 1) < 0 \; .
 $$ (epsilontpmugi)
 
 Eskuinaldea {eq}`barnbarvtpmugi` bikotearen laguntzaz berridatzi dugu:
@@ -225,16 +225,16 @@ Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` e
   - Banatze-potentziala
   - Entropia
 * - $\left(T, V,N\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} \approx \ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N} > 0$
+  - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} \approx \ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N} > 0$
   - $\frac{S}{k_\mathrm{B}} \approx N \left[\ln \left(\frac{V}{\Lambda^{3} N}\right)+\frac{5}{2}\right]-  \ln \sqrt{2 \pi N} - \frac{1}{12N}$
 * - $\left(T,p,N\right)$
-  - $\mathcal{E} = 0$
+  - $\mathscr{E} = 0$
   - $\frac{S}{k_{\mathrm{B}}} =  N\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]$
 * - $\left(T,V,\mu\right)$
-  - $\mathcal{E} = 0$
+  - $\mathscr{E} = 0$
   - $\frac{S}{k_{\mathrm{B}}} =  \bar{N}\left[\ln\left(\frac{V}{\Lambda^3 \bar{N}}\right) + \frac{5}{2}\right]$
 * - $\left(T,p,\mu\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln(\bar{N} + 1) < 0$
+  - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} = - \ln(\bar{N} + 1) < 0$
   - $\frac{S}{k_{\mathrm{B}}} = \bar{N}\left[\ln\left(\frac{\bar{V}}{\Lambda^3}\frac{\bar{N}+1}{\bar{N}^2}\right) + \frac{5}{2}\right] + \ln(\bar{N} + 1)$
 
 ```
@@ -251,10 +251,10 @@ Kurbak Ar gasari dagozkio (1 mol). Datuak honakoak dira: $\Lambda = 16,7 \; \mat
 Gainera, {eq}`epsilontpmugi` ekuazioaren eskuinaldeak entropiarako gehikuntza hori banatze-potentzialerako ekarpen _negatibo_ eta _ez-estentsiboaren_ ondoriozkoa dela diosku, alegia,
 
 $$
-S(T,p,\mu) = S_{0}(T,p,\mu) - \mathcal{E}(T,p,\mu)/T\;.
+S(T,p,\mu) = S_{0}(T,p,\mu) - \mathscr{E}(T,p,\mu)/T\;.
 $$ (stpmuginew)
 
-Jarraian datorren {numref}`{number} atalean <stabeps>` $\mathcal{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ({numref}`{number}. irudia <gisub>`).
+Jarraian datorren {numref}`{number} atalean <stabeps>` $\mathscr{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ({numref}`{number}. irudia <gisub>`).
 
 ```{figure} gibbsparadox.PNG
 ---
@@ -271,7 +271,7 @@ Aipatu beharrekoa da gaineko {numref}`{number} irudiari <gisub>` lotutako azalpe
 
 Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era __itzulezinean__ _nahasiko_ dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbs-en paradoxa saihestuko dugu bidenabar {cite}`nanointro, multiscale`.
 
-Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathcal{E}$ potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.
+Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathscr{E}$ potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.
 
 ##### Ariketa : Gas ideala, multzo makrokanonikoan $\left(T,V,\mu\right)$
 
@@ -291,7 +291,7 @@ $$
 \widehat{p}V = -\frac{k_{\mathrm{B}}T  \lambda}{\Lambda^3}V
 $$ (gi_widehatp_v)
 
-adierazpena lehen ordenako funtzio Euler homogeneoa da. Horren ondorioz, $\mathcal{E} = 0$ dugu. Bestalde,
+adierazpena lehen ordenako funtzio Euler homogeneoa da. Horren ondorioz, $\mathscr{E} = 0$ dugu. Bestalde,
 
 $$
 \bar{N} = \left[\frac{\partial \left(\widehat{p}V\right)}{\partial \mu}\right]_{T,V} = \frac{\lambda V}{\Lambda^3} \; ,
@@ -308,63 +308,63 @@ $$ (gi_s_makro)
 (stabeps)=
 ### Banatze-potentziala eta egonkortasuna
 
-Hasteko, dakargun gogora $\mathcal{E}$ potentzialaren definizioa: multzoaren aldaki-kopuruan eragiteak berorren guztizko energiari dakarkion ekarpena, gainontzeko kasuan kasuko ingurune-aldagaiak konstante mantenduz, hau da, 
+Hasteko, dakargun gogora $\mathscr{E}$ potentzialaren definizioa: multzoaren aldaki-kopuruan eragiteak berorren guztizko energiari dakarkion ekarpena, gainontzeko kasuan kasuko ingurune-aldagaiak konstante mantenduz, hau da, 
 
 $$
-\mathcal{E} := \left(\frac{\partial E_{t}}{\partial \mathcal{N}}\right)_ {S_{t},V_{t}, N_{t}} \equiv \left(\frac{\partial A_{t}}{\partial \mathcal{N}}\right)_ {T,V_{t}, N_{t}} \equiv \left(\frac{\partial F_{t}}{\partial \mathcal{N}}\right)_ {T,p, N_ {t}} \; .
+\mathscr{E} := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_ {S_{t},V_{t}, N_{t}} \equiv \left(\frac{\partial A_{t}}{\partial \mathscr{N}}\right)_ {T,V_{t}, N_{t}} \equiv \left(\frac{\partial F_{t}}{\partial \mathscr{N}}\right)_ {T,p, N_ {t}} \; .
 $$ (epsilonnewdef)
 
 Bestela esanda, multzo nanokanonikoaren kasuan, aldaki berri bat sorrarazteko multzoari berari egin beharreko lana da.
 
-Horren harira, atal honetan denboran batez besteko $\bar{\mathcal{N}}$ aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute ($N \geq 1$). Era berean, multzoko inguruneko aldagai-sorta $(T,p,N_{t})$ izango dugu, non $N_{t}=\bar{\mathcal{N}}\bar{N}$ den.
+Horren harira, atal honetan denboran batez besteko $\bar{\mathscr{N}}$ aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute ($N \geq 1$). Era berean, multzoko inguruneko aldagai-sorta $(T,p,N_{t})$ izango dugu, non $N_{t}=\bar{\mathscr{N}}\bar{N}$ den.
 
-Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du $F_{t}(T,p,N_{t})$ energia askeak, eta, beraz, $\mathrm{d}F_{t}<0$. Prozesuak dirauela multzoa isolatuta mantentzen bada, $\bar{\mathcal{N}}$ ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, {eq}`epsilonnewdef` ekuazioaren eskuinaldetik,
+Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du $F_{t}(T,p,N_{t})$ energia askeak, eta, beraz, $\mathrm{d}F_{t}<0$. Prozesuak dirauela multzoa isolatuta mantentzen bada, $\bar{\mathscr{N}}$ ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, {eq}`epsilonnewdef` ekuazioaren eskuinaldetik,
 
 $$
-\mathrm{d}F_{t}=\mathcal{E}\mathrm{d}\bar{\mathcal{N}}<0\; .
+\mathrm{d}F_{t}=\mathscr{E}\mathrm{d}\bar{\mathscr{N}}<0\; .
 $$ (dft)
 
 Adierazpen horrek honakoa iradokitzen du: banatze-potentziala positiboa denean, aldaki-kopuruak behera egingo du, eta, negatiboa denean, aldiz, multzoaren banatzea areagotuko da, aldaki txikiagoak sorraraziz (oroitu gaitezen {numref}`{number} irudiaz <gisub>`). Era berean, orekara heldutakoan, energia minimoan egongo denez,
 
 $$
-\left(\frac{\partial^2 F_{t}}{\partial \bar{\mathcal{N}}^2}\right)_{T,p, N_{t}} = \left(\frac{\partial \mathcal{E}}{\partial \bar{\mathcal{N}}}\right)_{T,p, N_{t}} > 0 \; .
+\left(\frac{\partial^2 F_{t}}{\partial \bar{\mathscr{N}}^2}\right)_{T,p, N_{t}} = \left(\frac{\partial \mathscr{E}}{\partial \bar{\mathscr{N}}}\right)_{T,p, N_{t}} > 0 \; .
 $$ (d2f)
 
-Bertatik agerikoa da $\mathrm{d}\mathcal{E}$ eta $\mathrm{d}\bar{\mathcal{N}}$ zeinu berekoak direla. Horrez gain, {eq}`dft`  ekuazioa aintzat hartuz, $\mathcal{E}\cdot\mathrm{d}\mathcal{E}<0$ beteko da. Ondorio esanahitsu hori {numref}`{number} adibidean <mupt_gi>` jorratutako azalpenak osatzeko lagungarria izango zaigu: $\mathcal{E}$ eta $\mathrm{d}\mathcal{E}$ aurkako zeinudunak direnez, $\bar{\mathcal{N}}$ aldatuz doan neurrian, $\mathcal{E}$ potentzialak zerorantz joko du, harik eta orekara heldu arte. __Banatzeari dagokion oreka-egoera__ batek $\mathcal{E} = 0$ baldintza bete beharko du.
+Bertatik agerikoa da $\mathrm{d}\mathscr{E}$ eta $\mathrm{d}\bar{\mathscr{N}}$ zeinu berekoak direla. Horrez gain, {eq}`dft`  ekuazioa aintzat hartuz, $\mathscr{E}\cdot\mathrm{d}\mathscr{E}<0$ beteko da. Ondorio esanahitsu hori {numref}`{number} adibidean <mupt_gi>` jorratutako azalpenak osatzeko lagungarria izango zaigu: $\mathscr{E}$ eta $\mathrm{d}\mathscr{E}$ aurkako zeinudunak direnez, $\bar{\mathscr{N}}$ aldatuz doan neurrian, $\mathscr{E}$ potentzialak zerorantz joko du, harik eta orekara heldu arte. __Banatzeari dagokion oreka-egoera__ batek $\mathscr{E} = 0$ baldintza bete beharko du.
 
 Esaldi hori dela eta, azken kontu bat argitu beharrean gaude. Berorri heltzeko, gas idealaren adibidea berreskuratuko dugu. Ezer baino lehen, kontuan izan dezagun multzoko sistema txikiei $N\geq1$ baldintza ezarri diegula. Hortaz, {eq}`upsilongi`  ekuaziotik $N=0$ gaia erauzi beharko dugu. Bada, $x=k_{\mathrm{B}}T\lambda/(p\Lambda^3)$ ordezkatuz,
 
 $$
  \Upsilon = \frac{x}{1-x}
 $$ (upsilonginew)
-izango da partizio-funtzio eraldatua. Bertatik $\mathcal{E}$ eta $\bar{N}$ magnitudeak birkalkulatuko ditugu:
+izango da partizio-funtzio eraldatua. Bertatik $\mathscr{E}$ eta $\bar{N}$ magnitudeak birkalkulatuko ditugu:
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln\left(\frac{x}{1-x}\right) = -k_{\mathrm{B}}T\ln\left(\bar{N}-1\right) \; ,
+\mathscr{E} = -k_{\mathrm{B}}T\ln\left(\frac{x}{1-x}\right) = -k_{\mathrm{B}}T\ln\left(\bar{N}-1\right) \; ,
 $$ (epsginew)
 
 $$
- \bar{N} = \frac{1}{1-x} = 1 + e^{-\mathcal{E}/k_{\mathrm{B}}T} \; .
+ \bar{N} = \frac{1}{1-x} = 1 + e^{-\mathscr{E}/k_{\mathrm{B}}T} \; .
 $$ (barnginew)
 
 
-Demagun orain $\bar{\mathcal{N}}$ azpisistema-kopuruari eragingo dion prozesu espontaneoa abian jartzen dugula, $T$ eta $p$ konstante mantenduz. Banatzeak dirauela ($\mathrm{d}\bar{\mathcal{N}}<0$ edo $\mathrm{d}\bar{\mathcal{N}}>0$), entropiak $\Delta S=\pm k_{\mathrm{B}}\ln(\bar{N}/2)$ aldakuntza jasango duela frogatu daiteke.  Orekara ailegatutakoan,
+Demagun orain $\bar{\mathscr{N}}$ azpisistema-kopuruari eragingo dion prozesu espontaneoa abian jartzen dugula, $T$ eta $p$ konstante mantenduz. Banatzeak dirauela ($\mathrm{d}\bar{\mathscr{N}}<0$ edo $\mathrm{d}\bar{\mathscr{N}}>0$), entropiak $\Delta S=\pm k_{\mathrm{B}}\ln(\bar{N}/2)$ aldakuntza jasango duela frogatu daiteke.  Orekara ailegatutakoan,
 
 $$
-\mathcal{E}_ {\text{oreka}} = 0 \quad \Rightarrow \quad \bar{N}_ {\text{oreka}}=2 \quad \text{eta} \quad \Delta S_{\text{oreka}}=0 \; .
+\mathscr{E}_ {\text{oreka}} = 0 \quad \Rightarrow \quad \bar{N}_ {\text{oreka}}=2 \quad \text{eta} \quad \Delta S_{\text{oreka}}=0 \; .
 $$
 
 Gogora dezagun lehen, partizio-funtzioan $N=0$ gaia sartzeagatik, $\bar{N}\rightarrow 0$ baldintzak ginderamatzala orekara, zeinak banatzea etengabekoa dela iradoki bailezake. Horren aldean, orain lorturiko emaitzek esangura eta zentzu fisiko handiagoa dute.
 
 
-Amaitzeko, argitzeko geratu den alderdiari helduko diogu. Aurreko zenbait ataletan esan bezala, limite makroskopikoan $\bar{N}$ aldagaiarekin erlazio lineala betetzen duten ekarpenak biziki gailenduko dira banatze-potentzialarekiko, eta, beraz, $\mathcal{E}$ baztergarri bilakatuko da. Bada, azken esaldi hori iruzurtia gerta lekiguke, arrazoibide okerretik eraman gintzake eta, honakoa pentsaraziz: sistema makroskopikoak $\mathcal{E}\approx 0$ hautemango duenez, _limite makroskopikoa bera oreka-egoeratzat hartzea daukagu_.
+Amaitzeko, argitzeko geratu den alderdiari helduko diogu. Aurreko zenbait ataletan esan bezala, limite makroskopikoan $\bar{N}$ aldagaiarekin erlazio lineala betetzen duten ekarpenak biziki gailenduko dira banatze-potentzialarekiko, eta, beraz, $\mathscr{E}$ baztergarri bilakatuko da. Bada, azken esaldi hori iruzurtia gerta lekiguke, arrazoibide okerretik eraman gintzake eta, honakoa pentsaraziz: sistema makroskopikoak $\mathscr{E}\approx 0$ hautemango duenez, _limite makroskopikoa bera oreka-egoeratzat hartzea daukagu_.
 
 Izan ere, horren aurrean erne ibili behar dugu! Esate baterako, gas idealaren kasuan, {eq}`epsginew` ekuazioak $\bar{N}\rightarrow \infty$ limitean
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln \bar{N}
+\mathscr{E} = -k_{\mathrm{B}}T\ln \bar{N}
 $$ (epslimgi)
-adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ({numref}`{number} <helix_coil>` zein {numref}`{number}. <app>` ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathcal{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathcal{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
+adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ({numref}`{number} <helix_coil>` zein {numref}`{number}. <app>` ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathscr{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathscr{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
 
 
 Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo atalean 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara.

@@ -27,7 +27,7 @@ $$
 \boxed{ S(T,V,N) = N k_{\mathrm{B}} \left[\ln \left(\frac{V}{\Lambda^{3} N}\right)+\frac{5}{2}\right]- k_{\mathrm{B}}\left[ \ln \sqrt{2 \pi N} + \frac{1}{12N}\right]} \; .
 $$ (stvngi)
 
-Horrela, azken bi ekarpen _txikiek_ entropia txikituko dutela ohartuko gara, eta batik bat eskualde nanotermodinamikoan izango dute eragina. Bide batez, banatze-potentzialari ere erreparatuko diogu. $A(T,V,N)$ energiari Legendreren bi transformazio aplikatuz, $\mathcal{E}(T,p,\mu) = A +pV - \mu_{N} N$ dugu. Alde batetik, gas idealak $pV=Nk_{\mathrm{B}}T$ betetzen du. Bestetik, $\mu_{N}$ delakoa diferentzia-ekuazio baten bidez definituko dugu: $ \mu_{N} = A_{N+1}-A_{N}$. Sistema oso txikien kasuan berori ekuazio diferentziala baino aproposagoa da.
+Horrela, azken bi ekarpen _txikiek_ entropia txikituko dutela ohartuko gara, eta batik bat eskualde nanotermodinamikoan izango dute eragina. Bide batez, banatze-potentzialari ere erreparatuko diogu. $A(T,V,N)$ energiari Legendreren bi transformazio aplikatuz, $\mathscr{E}(T,p,\mu) = A +pV - \mu_{N} N$ dugu. Alde batetik, gas idealak $pV=Nk_{\mathrm{B}}T$ betetzen du. Bestetik, $\mu_{N}$ delakoa diferentzia-ekuazio baten bidez definituko dugu: $ \mu_{N} = A_{N+1}-A_{N}$. Sistema oso txikien kasuan berori ekuazio diferentziala baino aproposagoa da.
 
 ```{admonition} Oharra
 Hill-en liburuan azaltzen denez {cite}`hill`, $N$ aldagai diskretutzat hartu behar da $N< \mathcal{O}(50)$ denean.
@@ -42,7 +42,7 @@ $$
 Behin potentzial kimikoa finkatuz gero, banatze-potentziala eraikitzeko gai izango gara:
 
 $$
-\mathcal{E} \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] > 0 \; .
+\mathscr{E} \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] > 0 \; .
 $$ (epsilon_tvn)
 
 Askatasun-graduak abiarazi ahala, tamaina finituko ekarpen horiek ez dira bere horretan mantenduko. Azken esaldi hori Nanotermodinamikaren funtsezko ondorio bati darraio: ekuazio termodinamikoak azterketan erabiliko diren multzo estatistikoekin batera aldatu egingo dira.

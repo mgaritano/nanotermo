@@ -22,7 +22,7 @@ $$
 $$ (sph_agg_mu)
 
 $$
-\mathcal{E} = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T) \; .
+\mathscr{E} = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T) \; .
 $$ (sph_epsilon_c)
 
 Horiekin batera, honako bi magnitudeak idatziko ditugu, gerora erabilgarriak gertatuko zaizkigu eta:
@@ -89,7 +89,7 @@ $$ (upsilon_sph_good)
 Hortik, hasteko, batez besteko $\bar{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta(T,\mu)$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
 
 $$
- \bar{N} := -\left(\frac{\partial \mathcal{E}}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{1}{\Upsilon}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\; .
+ \bar{N} := -\left(\frac{\partial \mathscr{E}}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{1}{\Upsilon}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\; .
 $$ (bar_n_sph)
 
 Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\bar{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
@@ -125,10 +125,10 @@ izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak adit
 Banatze-potentziala {eq}`bar_n_sph` ekuazioaren laguntzaz trinkotuko dugu:
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \; .
+\mathscr{E} = -k_{\mathrm{B}}T\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \; .
 $$ (sph_epsilon_nc)
 
-Horixe da $S(T,\mu)$ entropia eraikitzeko behar dugun azkenengo osagaia. Izan ere, sistema txikiari dagokion {eq}`e_small` ekuazioa adibide jakin honetan honela berridatziko dugu: $\bar{E} = TS + \mu^{(0)}N + \mathcal{E}$. Bada, oroitu gaitezen, alde batetik, askatasun-gradu mekanikoaren ekarpena baztertu dugula hasieratik; bestetik, potentzial kimikoaren balioa $\mu^{(0)}$ limitea da. Horrenbestez, ekuaziotik $S$ askatuz,
+Horixe da $S(T,\mu)$ entropia eraikitzeko behar dugun azkenengo osagaia. Izan ere, sistema txikiari dagokion {eq}`e_small` ekuazioa adibide jakin honetan honela berridatziko dugu: $\bar{E} = TS + \mu^{(0)}N + \mathscr{E}$. Bada, oroitu gaitezen, alde batetik, askatasun-gradu mekanikoaren ekarpena baztertu dugula hasieratik; bestetik, potentzial kimikoaren balioa $\mu^{(0)}$ limitea da. Horrenbestez, ekuaziotik $S$ askatuz,
 
 $$
 \boxed{S(T, \mu) =  \bar{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) - \overline{N^{2/3}}\frac{\mathrm{d}a}{\mathrm{d}T} - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left[\frac{1}{\bar{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] + \overline{N^{2/3}}\frac{a}{T} + \overline{N^{1/3}}\frac{b}{T}}
@@ -143,7 +143,7 @@ $$
 $$ (bar_n_sph_approx)
 
 $$
-\mathcal{E} \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi\bar{N}}{16}\right) \; ,
+\mathscr{E} \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi\bar{N}}{16}\right) \; ,
 $$ (sph_epsilon_nc_approx)
 
 $$
@@ -218,7 +218,7 @@ $$ (lattice_s_mc)
 Banatze-potentziala kalkulatzeko, {numref}`{number} ataleko <hillteo>` garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbs-en ekuazioa idatziko ditugu:
 
 $$
-E = TS-pB+\mu N + \mathcal{E} \; ,
+E = TS-pB+\mu N + \mathscr{E} \; ,
 $$ (lattice_E)
 
 $$
@@ -229,7 +229,7 @@ $$ (lattice_dE)
 Hortaz, aurkeztutako baldintzetan $E=0$ dela gogora ekarriz, {eq}`lattice_E` eta {eq}`lattice_dE` ekuazioak berridatziko ditugu:
 
 $$
-S = \frac{p}{T}B - \frac{\mu}{T}N - \frac{\mathcal{E}}{T} \; ,
+S = \frac{p}{T}B - \frac{\mu}{T}N - \frac{\mathscr{E}}{T} \; ,
 $$ (lattice_S)
 
 $$
@@ -246,10 +246,10 @@ $$
 \mu = -T\left(\frac{\partial S}{\partial N}\right)_{B} = k_{\mathrm{B}}T\left\{\ln\left(\frac{N}{B-N}\right) + \frac{B-2N}{2N(B-N)} + \frac{1}{12}\left[\frac{1}{(B-N)^2}+\frac{1}{N^2}\right]\right\} \; .
 $$ (lattice_mu_mc)
 
-Horiek horrela, $\mathcal{E} = -TS + pB -\mu N$ adierazpena erabiliz,
+Horiek horrela, $\mathscr{E} = -TS + pB -\mu N$ adierazpena erabiliz,
 
 $$
-\mathcal{E} = k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
+\mathscr{E} = k_{\mathrm{B}}T\left\{\frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]+\frac{1}{6}\left(\frac{1}{N}-\frac{1}{B}+\frac{1}{B-N}\right)\right\} \; .
 $$ (lattice_epsilon_mc)
 
 
@@ -311,7 +311,7 @@ $$
 $$ (lattice_mu_iso)
 
 $$
-\mathcal{E} = k_{\mathrm{B}}T\ln\left(1-x\right) \; .
+\mathscr{E} = k_{\mathrm{B}}T\ln\left(1-x\right) \; .
 $$ (lattice_epsilon_iso)
 
 Ohartu gaitezen $\mu^{(x)} = 0$ dela; ondorioz, limite makroskopikoan $\widehat{\mu} = \mu^{(0)} \equiv \mu$ izango dugu.
@@ -369,7 +369,7 @@ $$ (lattice_p_phat)
 Hortaz, banatze-potentzialak bi aldagaiak bereizten dituzten ekarpenak biltzen dituenez,
 
 $$
-\mathcal{E} = -(\widehat{p}-p)B = 0
+\mathscr{E} = -(\widehat{p}-p)B = 0
 $$ (lattice_epsilon_gc)
 
 daukagu.
@@ -517,13 +517,13 @@ $$ (lattice_p_nc)
 dugu. Entropiak, beraz, adierazpen hau beteko du:
 
 $$
-S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\bar{B}}{T} - \frac{\mu\bar{N}}{T} - \frac{\mathcal{E}}{T} \; ,
+S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\bar{B}}{T} - \frac{\mu\bar{N}}{T} - \frac{\mathscr{E}}{T} \; ,
 $$ (lattice_s_nc)
 
 non, bide batez, banatze-potentziala
 
 $$
-\mathcal{E} = -k_{\mathrm{B}}T\ln \Upsilon = -k_{\mathrm{B}}T\ln(\bar{B} + 1)
+\mathscr{E} = -k_{\mathrm{B}}T\ln \Upsilon = -k_{\mathrm{B}}T\ln(\bar{B} + 1)
 $$ (lattice_epsilon_nc_def)
 
 den. Gauzak horrela,
@@ -542,16 +542,16 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
   - Banatze-potentziala
   - Entropia
 * - $\left(B,N\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} \approx \frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] > 0$
+  - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} \approx \frac{1}{2} + \frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right] > 0$
   - $\frac{S}{k_\mathrm{B}} \approx B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]$
 * - $\left(B,\frac{\mu}{T}\right)$
-  - $\mathcal{E} = 0$
+  - $\mathscr{E} = 0$
   - $\frac{S}{k_{\mathrm{B}}} =  B\ln B -\bar{N}\ln\bar{N} -(B-\bar{N})\ln (B-\bar{N})$
 * - $\left(\frac{p}{T},N\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = \ln\left(1-e^{-p/k_{\mathrm{B}}T}\right) < 0$
+  - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} = \ln\left(1-e^{-p/k_{\mathrm{B}}T}\right) < 0$
   - $\frac{S}{k_{\mathrm{B}}} =  (\bar{B}+1)\ln (\bar{B}+1) -(N+1)\ln (N+1)-(\bar{B}-N)\ln(\bar{B}-N)$
 * - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
-  - $\frac{\mathcal{E}}{k_{\mathrm{B}}T} = - \ln(\bar{B} + 1) < 0$
+  - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} = - \ln(\bar{B} + 1) < 0$
   - $\frac{S}{k_{\mathrm{B}}} = (\bar{B}+1)\ln (\bar{B}+1) -\bar{N}\ln\bar{N} -(\bar{B}-\bar{N})\ln (\bar{B}-\bar{N})$
 
 ```

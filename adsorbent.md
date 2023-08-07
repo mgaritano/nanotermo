@@ -99,7 +99,7 @@ Amaitzeko, dentsitatea finkatu behar dugu. Artikuluan $\rho = 3/\left[4\pi(\sigm
 
 ```{figure} plot1.PNG
 ---
-height: 300px
+height: 350px
 name: plot1
 ---
 Sistema txikia denean (esaterako, $a/\sigma<40$ eremuan), gainazal-tentsioak nabarmenki estentsiboak dira, eta, horrez gain, bi kurbak argi bereiz daitezke. Dena den, adsorbatzailearen tamainak gora egin ahala, banatze-potentziala indargabetuz doa. Hori dela eta, $\widehat{\gamma}$ eta $\gamma$ kurbek gutxinaka izaera intentsiboa berreskuratu, eta, era berean, bat egitera joko dute. Hala, $a/\sigma = 100$ puntuan sistema jada eskualde makroskopikorako trantsiziora gerturatzen dabil.
@@ -108,7 +108,7 @@ Sistema txikia denean (esaterako, $a/\sigma<40$ eremuan), gainazal-tentsioak nab
 
 ```{figure} plot2.PNG
 ---
-height: 300px
+height: 350px
 name: plot2
 ---
 Adsorbaturiko fasearen molekula-unitateko magnitudeek maila makroskopikora trantsizio are bortitzagoa pairatzen dute ($a/\sigma \approx 50$). Halaber, gainazal-tentsio integralak bi dimentsioko gas idealaren legeari segitzen diola ikus daiteke, hots, $-\widehat{\gamma}\Omega = \bar{N}k_{\mathrm{B}}T$.

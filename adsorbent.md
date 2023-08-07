@@ -17,7 +17,7 @@ Zentrutik $r$ distantziara dagoen gas-partikula askeak $a$ erradioko adsorbatzai
 Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hill-en teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathcal{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathcal{N}S$, $\Omega_{t}=\mathcal{N}\Omega$ eta $N_{t}=\mathcal{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
 
 $$
-\mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} + \gamma\mathcal{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathcal{E}+ \gamma\Omega\right)\mathrm{d}\mathcal{N} ,
+\mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathcal{N}) = T\mathrm{d}S_{t} + \gamma\mathcal{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathscr{E}+ \gamma\Omega\right)\mathrm{d}\mathcal{N} ,
 $$ (adseq)
 non $\gamma$ __gainazal-tentsio diferentziala__ den, hau da, $\Omega$ aldagaiaren konjokatua, limite makroskopikoan intentsiboa. Berebat, $\widehat{\gamma}$ __gainazal-tentsio integralaren__ bitartez aldaki-energia eta banatze-potentziala definituko ditugu:
 

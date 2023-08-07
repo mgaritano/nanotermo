@@ -13,7 +13,7 @@ Hala ere, komenigarria da garapen batzuk norberak egitea... 🙃
 (itzul)=
 ### Itzulgarritasuna eta oreka-baldintzak
 
-Hill-en teoriari segituz, $\mathcal{N}(\rightarrow \infty)$ aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta ($E,V,N$) sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  {cite}`st`, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote ($\mathrm{d}S_{t}>0$), harik eta oreka berrezartzen den arte ($\mathrm{d}S_{t}=0$). Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.
+Hill-en teoriari segituz, $\mathscr{N}(\rightarrow \infty)$ aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta ($E,V,N$) sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  {cite}`st`, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote ($\mathrm{d}S_{t}>0$), harik eta oreka berrezartzen den arte ($\mathrm{d}S_{t}=0$). Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.
 
 Oro har, prozesu espontaneo bat {numref}`{number}. irudiaren <esp>` bidez ereduzta daiteke. Hasiera batean, kanpo-oztopo baten eraginpean dago sistema. Ondorioz, egoera kuantiko posible guztietatik soilik batzuk edukiko du eskuragai: $\Omega_{i}(E,V,N)$.
 Kanpo-galarazpen hori kenduz gero, sistemaren egoera aldatu egingo da. Hain zuzen, aldakiek aurrez debekatuta egon diren egoeretara ere sarbidea izango dute; hortaz, bukaeran, $\Omega_{f}(E,V,N) > \Omega_{i}(E,V,N)$ izango dugu. Aktibazio-energiaren gutxitzearen edo potentzial baten minimizazioaren bidez gauzatu daiteke prozesu hori.
@@ -27,21 +27,21 @@ name: esp
   Prozesu espontaneoaren ereduztapena.  Gasak kutxaren ezkerraldetik alde egitea ekiditen du bereizte-hormak. Amaieran ez dago hormarik, eta, horren eraginez, bolumenaren osotasunera hedatu da gasa, era espontaneoan. Hasieratik bukaerara, entropia igo egin da.
 ```
 
-Entropiak $S_{t} = \mathcal{N}k_{\mathrm{B}}\ln \Omega$ betetzen duenez, prozesu finitu eta espontaneoa amaitutakoan,
+Entropiak $S_{t} = \mathscr{N}k_{\mathrm{B}}\ln \Omega$ betetzen duenez, prozesu finitu eta espontaneoa amaitutakoan,
 
 $$
-\Delta S_{t} = S_{f}^{t} - S_{i}^{t} = \mathcal{N}k_{\mathrm{B}}\ln\left(\frac{\Omega_f}{\Omega_i}\right) > 0 \; .
+\Delta S_{t} = S_{f}^{t} - S_{i}^{t} = \mathscr{N}k_{\mathrm{B}}\ln\left(\frac{\Omega_f}{\Omega_i}\right) > 0 \; .
 $$ (sesp)
 
-Termodinamikaren lege garrantzitsuenetariko baten esangura biltzen du ekuazio horrek. Hain zuzen, aurkako prozesua era espontaneoan jazoko balitz, $\Delta S_{t} < 0$ izango genuke, eta bigarren printzipioa hautsiko litzateke. Hala eta guztiz ere, $\mathcal{N} \rightarrow \infty$ onartu dugunez, **multzoan**, alegia, sistema guzti-guztietan,  horrelakorik gertatzeko probabilitatea kasik nulua da, hau da,
+Termodinamikaren lege garrantzitsuenetariko baten esangura biltzen du ekuazio horrek. Hain zuzen, aurkako prozesua era espontaneoan jazoko balitz, $\Delta S_{t} < 0$ izango genuke, eta bigarren printzipioa hautsiko litzateke. Hala eta guztiz ere, $\mathscr{N} \rightarrow \infty$ onartu dugunez, **multzoan**, alegia, sistema guzti-guztietan,  horrelakorik gertatzeko probabilitatea kasik nulua da, hau da,
 
 $$
- P_{f \rightarrow i}^{t} := \frac{\Omega_{i}}{\Omega_{f}} = \exp\left(-\frac{\Delta S_{t}}{\mathcal{N}k_{\mathrm{B}}}\right) \rightarrow 0 \; .
+ P_{f \rightarrow i}^{t} := \frac{\Omega_{i}}{\Omega_{f}} = \exp\left(-\frac{\Delta S_{t}}{\mathscr{N}k_{\mathrm{B}}}\right) \rightarrow 0 \; .
  $$ (probcont)
 
- Alabaina, **azpisistemetan**, $\mathcal{N}$ barik $N$ izango genuke, eta, beraz, $ P_{f\rightarrow i}\propto e^{-N}$. Bada, $N$ magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, $N$ oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen ($\Delta S < 0$) aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hill-en teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, $\Delta S = \Delta S_{t}/\mathcal{N}$  betetzen dela aintzat hartuz.
+ Alabaina, **azpisistemetan**, $\mathscr{N}$ barik $N$ izango genuke, eta, beraz, $ P_{f\rightarrow i}\propto e^{-N}$. Bada, $N$ magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, $N$ oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen ($\Delta S < 0$) aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hill-en teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, $\Delta S = \Delta S_{t}/\mathscr{N}$  betetzen dela aintzat hartuz.
 
- Eztabaida honen harira, {numref}`{number}. atalean <stabeps>` sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, $\mathcal{E}$ banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.
+ Eztabaida honen harira, {numref}`{number}. atalean <stabeps>` sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, $\mathscr{E}$ banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.
 
 
  (fase1order)=
@@ -89,26 +89,26 @@ $$
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
 
 
-Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathcal{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathcal{N}_ {A}$ eta $\mathcal{N}_ {B}$ azpisistema dago. Bada, aurreko {numref}`{number} ataletik <tpn_azter>`, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
+Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathscr{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathscr{N}_ {A}$ eta $\mathscr{N}_ {B}$ azpisistema dago. Bada, aurreko {numref}`{number} ataletik <tpn_azter>`, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
 eta banaketa posible guztien ekarpena kontuan hartuz (konfigurazio-mailako entropia), energia totala hauxe dugu:
 
 $$
-F_{t} = \mathcal{N}_ {A}\left(N\;\widehat{\mu}_ {A}\right) +  \mathcal{N}_ {B}\left(N\;\widehat{\mu}_ {B}\right) - k_{\mathrm{B}}T\ln\left(\frac{\mathcal{N}!}{\mathcal{N}_ {A}!\;\mathcal{N}_{B}!}\right) \; .
+F_{t} = \mathscr{N}_ {A}\left(N\;\widehat{\mu}_ {A}\right) +  \mathscr{N}_ {B}\left(N\;\widehat{\mu}_ {B}\right) - k_{\mathrm{B}}T\ln\left(\frac{\mathscr{N}!}{\mathscr{N}_ {A}!\;\mathscr{N}_{B}!}\right) \; .
 $$ (gibbstot)
 
-Multzoak orekan izango duen $\mathcal{N}_ {A}/\mathcal{N}_ {B}$ frakzioari erreparatzea da gure jomuga, bertatik eskuratuko baitugu bigarren analisi honetarako beharrezkoa izango dugun informazioa. Multzoa bera makroskopikoa denez, zilegi izango zaigu Stirling-en hurbilketaz baliatzea, hau da, $\ln \mathcal{N}! \approx \mathcal{N}\ln \mathcal{N} - \mathcal{N}$ idatziko dugu. Hala, oreka-egoeran izango dugu $\mathcal{N}_ {A}$ kopurua finkatuz, eta $\mathcal{N}_ {B} = \mathcal{N}- \mathcal{N}_{A}$ idatziz,
+Multzoak orekan izango duen $\mathscr{N}_ {A}/\mathscr{N}_ {B}$ frakzioari erreparatzea da gure jomuga, bertatik eskuratuko baitugu bigarren analisi honetarako beharrezkoa izango dugun informazioa. Multzoa bera makroskopikoa denez, zilegi izango zaigu Stirling-en hurbilketaz baliatzea, hau da, $\ln \mathscr{N}! \approx \mathscr{N}\ln \mathscr{N} - \mathscr{N}$ idatziko dugu. Hala, oreka-egoeran izango dugu $\mathscr{N}_ {A}$ kopurua finkatuz, eta $\mathscr{N}_ {B} = \mathscr{N}- \mathscr{N}_{A}$ idatziz,
 
 $$
-\left(\frac{\partial F_{t}}{\partial \mathcal{N}_ {A}}\right)_{T,p,N,\mathcal{N}} = 0
+\left(\frac{\partial F_{t}}{\partial \mathscr{N}_ {A}}\right)_{T,p,N,\mathscr{N}} = 0
 $$
 betearazi, eta, horrela,
 
 $$
-\frac{\mathcal{N}_ {A}}{\mathcal{N}_ {B}} = \left(\exp\frac{\widehat{\mu}_ {B} - \widehat{\mu}_ {A}}{k_{\mathrm{B}}T}\right)^N
+\frac{\mathscr{N}_ {A}}{\mathscr{N}_ {B}} = \left(\exp\frac{\widehat{\mu}_ {B} - \widehat{\mu}_ {A}}{k_{\mathrm{B}}T}\right)^N
 $$ (fracnanb)
 berdintzara iritsiko gara. So egin diezaiogun berorri.
 
-Oro har, {numref}`{number} ataleko <tpn_azter>` azalpenei jarraituz, potentzial kimiko integrala ingurune-aldagaien funtzioa da, hau da, $\widehat{\mu}_ {A,B} = \widehat{\mu}_ {A,B}(T,p,N)$. Hortaz, $p$ presioa finka dezakegu, halako moldez non bi potentzialak bat etorriko diren ($\widehat{\mu}_ {A} = \widehat{\mu}_ {B}$). Presioaren balio hori {numref}`{number}a irudiko <faseirudi>` $p_{0}$ delakoa da. Era berean, {eq}`fracnanb` ekuazioaren arabera, $\mathcal{N}_ {A} = \mathcal{N}_ {B}$  beteko da. Baina, $p_{0}$ baliotik zertxobait aldenduko balitz presioa, halako moduan non $\widehat{\mu}_ {A} \gtrsim \widehat{\mu}_ {B}$ edo $\widehat{\mu}_ {B} \gtrsim \widehat{\mu}_ {A}$, $N\rightarrow\infty$ limitean sistema ia guztiek $B$ eta $A$ egoeretara egingo lukete jauzi, hurrenez hurren, eta $\mathcal{N}_ {B} \gg \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gg \mathcal{N}_ {B}$ beteko litzateke. Bestela esanda, {eq}`fracnanb` ekuazioaren limite makroskopikoa bateragarria da _bi egoeren hurbilketarekin_. Edonola ere, $N$ behar bezain handia ez balitz, aurrekoa behatzeko presioa nabarmen aldendu beharko litzateke $p_{0}$ puntutik. Hori dela eta, $\Delta p$ presio-tarte aski zabal batean $\mathcal{N} _ {B} \gtrsim \mathcal{N}_ {A}$ edo $\mathcal{N}_ {A} \gtrsim \mathcal{N}_{B}$ behatuko genuke, eta egoera batetik besterako jauzia leunagoa litzateke.
+Oro har, {numref}`{number} ataleko <tpn_azter>` azalpenei jarraituz, potentzial kimiko integrala ingurune-aldagaien funtzioa da, hau da, $\widehat{\mu}_ {A,B} = \widehat{\mu}_ {A,B}(T,p,N)$. Hortaz, $p$ presioa finka dezakegu, halako moldez non bi potentzialak bat etorriko diren ($\widehat{\mu}_ {A} = \widehat{\mu}_ {B}$). Presioaren balio hori {numref}`{number}a irudiko <faseirudi>` $p_{0}$ delakoa da. Era berean, {eq}`fracnanb` ekuazioaren arabera, $\mathscr{N}_ {A} = \mathscr{N}_ {B}$  beteko da. Baina, $p_{0}$ baliotik zertxobait aldenduko balitz presioa, halako moduan non $\widehat{\mu}_ {A} \gtrsim \widehat{\mu}_ {B}$ edo $\widehat{\mu}_ {B} \gtrsim \widehat{\mu}_ {A}$, $N\rightarrow\infty$ limitean sistema ia guztiek $B$ eta $A$ egoeretara egingo lukete jauzi, hurrenez hurren, eta $\mathscr{N}_ {B} \gg \mathscr{N}_ {A}$ edo $\mathscr{N}_ {A} \gg \mathscr{N}_ {B}$ beteko litzateke. Bestela esanda, {eq}`fracnanb` ekuazioaren limite makroskopikoa bateragarria da _bi egoeren hurbilketarekin_. Edonola ere, $N$ behar bezain handia ez balitz, aurrekoa behatzeko presioa nabarmen aldendu beharko litzateke $p_{0}$ puntutik. Hori dela eta, $\Delta p$ presio-tarte aski zabal batean $\mathscr{N} _ {B} \gtrsim \mathscr{N}_ {A}$ edo $\mathscr{N}_ {A} \gtrsim \mathscr{N}_{B}$ behatuko genuke, eta egoera batetik besterako jauzia leunagoa litzateke.
 
 
 Fase-trantsizioen azterketari buru emateko, aipatu beharrekoa da $p=p_{0}$ puntuan ($T,p,N$) ingurune-aldagaiek konstante iraun behar dutela. Orduan, berdintza manten dadin, balio horien inguruko aldakuntzek $\mathrm{d}\widehat{\mu} _ {A}=\mathrm{d}\widehat{\mu}_{B}$ bete behar dute nahitaez. Baldintza hori eta {eq}`dmuhat` ekuazioa erabiliz, hona helduko gara:
@@ -137,13 +137,13 @@ $$ (muhatab)
 berdintzetara iritsiko gara. Ekuazio horren bidez {eq}`fracnanb` erlazioa berridatziko dugu:
 
 $$
-\frac{\mathcal{N}_ {A}}{\mathcal{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
+\frac{\mathscr{N}_ {A}}{\mathscr{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
 $$ (nanbex)
 Era berean, ekuazio beretik guztizko bolumena idatziz,
 
 $$
 \left(\frac{\partial F}{\partial p}\right)_{T,N
-} := \bar{V} = \frac{\mathcal{N}_ {A}}{\mathcal{N}}\bar{V}_ {A} + \frac{\mathcal{N}_ {B}}{\mathcal{N}}\bar{V}_ {B}\equiv P_{A}\bar{V}_ {A} +  P_{B}\bar{V}_{B} \; ,
+} := \bar{V} = \frac{\mathscr{N}_ {A}}{\mathscr{N}}\bar{V}_ {A} + \frac{\mathscr{N}_ {B}}{\mathscr{N}}\bar{V}_ {B}\equiv P_{A}\bar{V}_ {A} +  P_{B}\bar{V}_{B} \; ,
 $$ (vtotex)
 eta, $P_{A} = (\bar{\mathrm{v}} - \bar{\mathrm{v}}_ {B}) / (\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B})$ eta $P_{B}=1-P_{A}$ direla ohartuz, hona iritsiko gara:
 

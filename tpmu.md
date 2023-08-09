@@ -49,15 +49,15 @@ Agregatu lineala $N$ monomeroz osaturiko $Nm$ masadun eta $Na$ luzeradun hagaxka
 Lehenbizi, sistema __multzo kanonikoan__ aztertuko dugu. Biraketari dagokion partizio-funtzioa
 
 $$
-Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \alpha(T)N^3
+Q_{\mathrm{rot}}(T,N) := \frac{4\pi^2}{h^2}I(N)k_{\mathrm{B}}T = \xi(T)N^3
 $$ (qrot)
 daukagu.
 
 ```{admonition} Oharra
-Ikus {cite}`pathria` liburuko 6. kapituluko 11. oin-oharra. Aurrerantzean, $\alpha(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T$ erabiliko dugu.
+Ikus {cite}`pathria` liburuko 6. kapituluko 11. oin-oharra. Aurrerantzean, $\xi(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T$ erabiliko dugu.
 ```
 
-Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera $c = \alpha e^{\epsilon/k_{\mathrm{B}}T}$ definituz,
+Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera $c = \xi e^{\epsilon/k_{\mathrm{B}}T}$ definituz,
 
 $$
 \boxed{Q(T,N) := j(T)^{N} \cdot Q_{\mathrm{rot}}(T,N) \cdot e^{-(N-1)\epsilon/k_{\mathrm{B}}T} = c\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T}} \quad (N\geq1)\; .
@@ -75,7 +75,7 @@ Partizio-funtzio kanonikoa erabiliz ({eq}`qagg` ekuazioa), eta $N\widehat{\mu} =
 
 $$
 \left.\begin{array}{l}
-\widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon - \frac{\ln(\alpha N^3)}{N}k_{\mathrm{B}}T \\\\
+\widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon - \frac{\ln(\xi N^3)}{N}k_{\mathrm{B}}T \\\\
 \mu=-k_{\mathrm{B}}T\ln j + \epsilon -\frac{3}{N}k_{\mathrm{B}} T
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j + \epsilon
 $$ (muagg)
@@ -87,7 +87,7 @@ $(b)$ Eraiki $S(T,N)/k_{\mathrm{B}}$ adierazpena. Aztertu limite makroskopikoan 
 ```{dropdown} __Erantzuna__
 
 $$
-\frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\ln j + NT\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \{1 + \ln\left(\alpha N^3\right) \}
+\frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\ln j + NT\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \{1 + \ln\left(\xi N^3\right) \}
 $$ (stnagg)
 
 Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak dira, limite termodinamikoan aurreko bi gai linealek baitaukate gailentasuna. Badirudi, hortaz, sistema makroskopikoak ez duela biraketaren eragina hautemango, ez eta unitateen arteko $\epsilon$ elkarrekintza ere.

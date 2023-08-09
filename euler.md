@@ -1,7 +1,7 @@
 (euler)=
 ## **_A_** _Eulerren ekuazioa_
 
-Matematikan, $k$ ordenako funtzio homogeneo batek honako adierazpena betetzen du:
+Matematikan, $k$ ordenako funtzio homogeneo batek honako adierazpen hau betetzen du:
 
 $$
 f(\lambda x_{1},...,\lambda x_{n}) = \lambda^{k}f(x_{1},...,x_{n}), \; \; \forall x_{1},...,x_{n} \; \textrm{eta} \; \lambda \neq 0 \; .

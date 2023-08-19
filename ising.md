@@ -1,7 +1,7 @@
 (elek_mag)=
 ## Sistema elektrikoak eta magnetikoak
 
-_*Atala osatzen ari naiz..._
+___*Atala osatzen ari naiz...___
 
 (ising)=
 ### Ising-en eredua

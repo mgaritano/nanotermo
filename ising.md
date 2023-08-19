@@ -1,10 +1,11 @@
 (elek_mag)=
 ## Sistema elektrikoak eta magnetikoak
 
+_*Atala osatzen ari naiz..._
+
 (ising)=
 ### Ising-en eredua
 
-_*Adibidea osatzen ari naiz..._
 
 Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_arrows>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
 
@@ -24,7 +25,7 @@ Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere
 
 
 (b0jnot0)=
-#### Ising-en kate finitua ($J\neq 0$, $\mathbf{B}=\mathbf{0}$)
+#### Ising-en katea, $J$ elkarrekintza-energiaren eraginpean
 
 Errepara diezaiogun {numref}`{number} irudiari <ising_1>`.
 
@@ -230,4 +231,37 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 
 
 (j0bnot0)=
-#### Spin askeak kanpo-eremuaren eraginpean ($J= 0$, $\mathbf{B}\neq\mathbf{0}$)
+#### Spin askeak, $\mathbf{B}$ kanpo-eremuaren eraginpean
+
+
+
+
+
+
+
+
+(heco_elek)=
+### Helize-haril katea, $\mathbf{E}$ kanpo-eremuaren eraginpean
+
+
+```{figure} heco_efield.jpg
+---
+height: 200px
+name: heco_e
+---
+  “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, kateak $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa izango du, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
+```
+
+
+
+
+(agg_elek)
+### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean
+
+```{figure} aggregate_efield.jpg
+---
+height: 225px
+name: agg_e
+---
+Agregatu lineala ere zertxobait moldatuko dugu. Alde batetik, {numref}`{number} irudian <heco_e>` bezala, unitateek $\alpha$ polarizabilitatea dute. Alabaina, oraingoan berorietako bakoitza dipolo elektrikotzat hartuko dugu, $\mathbf{p_0}$ momentua duelarik; orobat, $\mathbf{p_0}$ bektoreak eta katea zeharkatzen duen ardatzak $\theta$ angelua osatuko dute. Horiek horrela, kanpotik $\mathbf{E}$ eremua jartzeak sorrarazten dituen ekarpenak aztertuko ditugu jarraian.
+```

@@ -1,5 +1,5 @@
 ```{epigraph}
-**NANOTERMODINAMIKA: Sistema Txikien Termodinamika**
+$\huge \quad \quad \mathbf{\text{NANOTERMODINAMIKA}}$
 ```
 
 ```{epigraph}

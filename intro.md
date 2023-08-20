@@ -1,6 +1,5 @@
 ```{epigraph}
-$\Large \quad \quad \mathbf{\text{NANOTERMODINAMIKA}}$
-$\quad \quad \quad \quad \quad \quad \quad \quad \quad \large Sistema \; \; Txikien \; \; Termodinamika$
+$\large \quad \quad \mathbf{\text{NANOTERMODINAMIKA: Sistema Txikien TermodinamikaS}}$
 ```
 
 ```{epigraph}

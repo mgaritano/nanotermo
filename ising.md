@@ -318,13 +318,29 @@ $$
 \overline{\vert\mathbf{p}\vert} := k_{\mathrm{B}}T\left(\frac{\ln\Delta}{\partial \vert\mathbf{E}\vert}\right)_{T,f,N} = N\alpha\vert\mathbf{E}\vert + q\left[Nl_C+\frac{r^{N+1}\ln r}{1+r^N}\left(l_H-l_C\right)\right] = N\alpha\vert\mathbf{E}\vert + q\bar{l} \, .
 $$ (heco_e_pbar)
 
-Gaineko ekuazioaren ezkerraldea trinkotzea daukagu, hain zuzen, $\bar{l}$ katearen batez besteko luzeraren adierazpena eraikitzen badugu, haren definizioari jarraituz:
+##### Ariketa
+Egiaztatu {eq}`heco_e_pbar` ekuazioaren bi aldeak bat datozela,  $\bar{l}$ katearen batez besteko luzeraren adierazpena eraikiz.
+
+```{dropdown} __Erantzuna__
+
+Definizioaren arabera,
 
 $$
 \bar{l} := k_{\mathrm{B}}T\left(\frac{\ln\Delta}{\partial f}\right)_{T,N, \vert\mathbf{E}\vert} \; .
 $$ (heco_e_lbar)
 
+Goiko {eq}`heco_e_delta_3` partizio-funtzioaren bidez kalkuluak egindakoan, {eq}`heco_e_pbar` ekuazioko kortxeteen arteko adierazpena lortuko dugu.
 
+```
+**----------------------------------------------------**
+
+Berrazterketa labur honi buru emateko, arestian aipatutako kontuari helduko diogu. Helize-unitateen batez besteko frakzioak {eq}`fraction_N` ekuazioari segitzen diola aintzakotzat hartuz, eta $r$ magnitudearen definizio berria ordezkatuz,
+
+$$
+\frac{\bar{n}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
+$$ (heco_e_nbar)
+
+izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, haril-uniatateen frakzioak modu esponentzialean joko duela zerorantz, $\mathbf{E}$ eremu elektrikoaren modulua handiagotzen dugun neurrian.
 
 (agg_elek)=
 ### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean

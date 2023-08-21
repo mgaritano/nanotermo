@@ -241,8 +241,9 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 
 
 (heco_elek)=
-### Helize-haril katea, $\mathbf{E}$ kanpo-eremuaren eraginpean
+### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean
 
+Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathbf{E}$ kanpo-eremu elektrikoa, eta haren konjokatu estentsiboa den sistemaren momentu dipolar elektrikoa, $\mathbf{p}$. Gauzak horrela, adibide honetan, {numref}`{number} irudiko <heco>` "helize-haril" kate eraldatua izango dugu aztergaitzat ({numref}`{number} irudia <heco_e>`).
 
 ```{figure} heco_efield.jpg
 ---
@@ -252,11 +253,23 @@ name: heco_e
   “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, kateak $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa izango du, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
 ```
 
+Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela ($l_C>l_H$). Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\bar{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
 
+Sistemaren azterketa termodinamikoari ekinez, multzo kanonikoan eskuragai dugun ingurune-aldagai sorta $(T,l,N,\vert\mathbf{E}\vert)$ da. Beraz, $Q(T,l,N,\vert\mathbf{E}\vert)$ partizio-futnzioa eraikitzeko, {numref}`{number} irudian <heco_e>` azaltzen diren faktore gehigarriek barne-energiarako izango duten ekarpena idatzi behar dugu, alegia,
 
+$$
+U_{p} = - \mathbf{p}\cdot \mathbf{E} = -lq\vert\mathbf{E}\vert 
+$$ (u_p_heco)
 
-(agg_elek)
+eta
+
+$$
+U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \alpha \; \mathbf{E}\cdot\mathrm{d}\mathbf{E} \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
+$$ (u_alpha_heco)
+
+(agg_elek)=
 ### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean
+
 
 ```{figure} aggregate_efield.jpg
 ---

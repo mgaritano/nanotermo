@@ -296,7 +296,7 @@ $$ (heco_e_delta_3)
 Alabaina, $r_C$, $r_H$ eta $r$ magnitudeak moldatu beharko ditugu:
 
 $$
-r_{C,H} = q_{C,H}e^{(f+q\vert\mathbf{E}\vert)l_{C,H}/k_{\mathrm{B}}T} \; , \quad , \; r = \frac{r_H}{r_C}
+r_{C,H} = q_{C,H}\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)  \quad , \quad r = \frac{r_H}{r_C} \; .
 $$
 
 

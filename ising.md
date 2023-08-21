@@ -264,11 +264,11 @@ $$ (u_p_heco)
 eta
 
 $$
-U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \mathrm{d}\vert\mathbf{E}\vert \; \alpha\vert\mathbf{E}\vert \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
+U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \mathrm{d}\vert\mathbf{E}^{\prime}\vert \; \alpha\vert\mathbf{E}\vert^{\prime} \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
 $$ (u_alpha_heco)
 
 
-Beraz, jatorrizko adibidean erabilitako $Q(T,l,N)$ adierazpenetik abiatuz, partizio-funtzio berria honako hau izango da:
+Beraz, jatorrizko adibideko $Q(T,l,N)$ adierazpenetik abiatuz, partizio-funtzio berria honako hau izango da:
 
 $$
 Q(T,l,N,\vert\mathbf{E}\vert) = Q(T,l,N)\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)\exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; .
@@ -278,8 +278,28 @@ $$ (heco_e_q)
 Hori aintzat hartuz, multzo isotermo-isobarora igaroko gara:
 
 $$
-\Delta(T,f,N,\vert\mathbf{E}\vert) = \sum_{l}Q(T,l,N,\vert\mathbf{E}\vert)e^{fl/k_{\mathrm{B}}T} = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)\sum_{l}Q(T,l,N)e^{(q\vert\mathbf{E}\vert+f)l/k_{\mathrm{B}}T}
+\Delta(T,f,N,\vert\mathbf{E}\vert) = \sum_{l}Q(T,l,N,\vert\mathbf{E}\vert)\;e^{fl/k_{\mathrm{B}}T} = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)\sum_{l}Q(T,l,N)\;e^{(q\vert\mathbf{E}\vert+f)l/k_{\mathrm{B}}T} \; ,
+$$ (heco_e_delta)
+
+edo,
+
 $$
+\Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \Delta(T,f + q\vert\mathbf{E}\vert,N) \; .
+$$ (heco_e_delta_2)
+
+Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), bertan eraikitako $\Delta$ partizio-funtzioaren adierazpena bere horretan jarraituko du, hots,
+
+$$
+\Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; r_C^N\left(1+r^N\right) \; .
+$$ (heco_e_delta_3)
+
+Alabaina, $r_C$, $r_H$ eta $r$ magnitudeak moldatu beharko ditugu:
+
+$$
+r_{C,H} = q_{C,H}e^{(f+q\vert\mathbf{E}\vert)l_{C,H}/k_{\mathrm{B}}T} \; , \quad , \; r = \frac{r_H}{r_C}
+$$
+
+
 
 
 

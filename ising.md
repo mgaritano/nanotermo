@@ -264,7 +264,7 @@ $$ (u_p_heco)
 eta
 
 $$
-U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \alpha \; \vert\mathbf{E}\vert\cdot\mathrm{d}\vert\mathbf{E}\vert \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
+U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \alpha \; \vert\mathbf{E}\vert\mathrm{d}\vert\mathbf{E}\vert \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
 $$ (u_alpha_heco)
 
 (agg_elek)=

@@ -303,7 +303,7 @@ $$
 Gaineko {eq}`heco_e_delta_3` ekuaziotik eskuratuko ditugu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak:
 
 $$
-\widehat{\mu} = -\frac{1}{2}\alpha \vert\mathbf{E}\vert^2 - k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right] \; ,
+\widehat{\mu} = -\frac{1}{2}\alpha \vert\mathbf{E}\vert^2 - k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln\left(1+r^N\right)\right] \; ,
 $$ (heco_e_muhat)
 
 $$

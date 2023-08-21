@@ -300,7 +300,29 @@ r_{C,H} = q_{C,H}\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)
 $$
 
 
+Gaineko {eq}`heco_e_delta_3` ekuaziotik eskuratuko ditugu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak:
 
+$$
+\widehat{\mu} = -\frac{1}{2}\alpha \vert\mathbf{E}\vert^2 - k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right] \; ,
+$$ (heco_e_muhat)
+
+$$
+\mu = - \frac{1}{2}\alpha \vert\mathbf{E}\vert^2 - k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right] \; .
+$$ (heco_e_mu)
+
+Ohartu gaitezen, $\alpha$ polarizabilitatearen energiarako ekarpena $N$-rekiko lineala denez, banatze-potentzialaren adierazpena ez dela aldatu ({eq}`epsilonhelix` ekuazioa).
+
+Berebat, interesgarria da sistemaren batez besteko momentu dipolarra ere kalkulatzea:
+
+$$
+\overline{\vert\mathbf{p}\vert} := k_{\mathrm{B}}T\left(\frac{\ln\Delta}{\partial \vert\mathbf{E}\vert}\right)_{T,f,N} = N\alpha\vert\mathbf{E}\vert + q\left[Nl_C+\frac{r^{N+1}\ln r}{1+r^N}\left(l_H-l_C\right)\right] = N\alpha\vert\mathbf{E}\vert + q\bar{l} \, .
+$$ (heco_e_pbar)
+
+Gaineko ekuazioaren ezkerraldea trinkotzea daukagu, hain zuzen, $\bar{l}$ katearen batez besteko luzeraren adierazpena eraikitzen badugu, haren definizioari jarraituz:
+
+$$
+\bar{l} := k_{\mathrm{B}}T\left(\frac{\ln\Delta}{\partial f}\right)_{T,N, \vert\mathbf{E}\vert} \; .
+$$ (heco_e_lbar)
 
 
 

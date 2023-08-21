@@ -264,8 +264,25 @@ $$ (u_p_heco)
 eta
 
 $$
-U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \alpha \; \vert\mathbf{E}\vert\mathrm{d}\vert\mathbf{E}\vert \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
+U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \mathrm{d}\vert\mathbf{E}\vert \; \alpha\vert\mathbf{E}\vert \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
 $$ (u_alpha_heco)
+
+
+Beraz, jatorrizko adibidean erabilitako $Q(T,l,N)$ adierazpenetik abiatuz, partizio-funtzio berria honako hau izango da:
+
+$$
+Q(T,l,N,\vert\mathbf{E}\vert) = Q(T,l,N)\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)\exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; .
+$$ (heco_e_q)
+
+
+Hori aintzat hartuz, multzo isotermo-isobarora igaroko gara:
+
+$$
+\Delta(T,f,N,\vert\mathbf{E}\vert) = \sum_{l}Q(T,l,N,\vert\mathbf{E}\vert)e^{fl/k_{\mathrm{B}}T} = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)\sum_{l}Q(T,l,N)e^{(q\vert\mathbf{E}\vert+f)l/k_{\mathrm{B}}T}
+$$
+
+
+
 
 (agg_elek)=
 ### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean

@@ -243,14 +243,14 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 (heco_elek)=
 ### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean
 
-Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathbf{E}$ kanpo-eremu elektrikoa, eta haren konjokatu estentsiboa den sistemaren momentu dipolar elektrikoa, $\mathbf{p}$. Gauzak horrela, adibide honetan, {numref}`{number} irudiko <heco>` "helize-haril" kate eraldatua izango dugu aztergaitzat ({numref}`{number} irudia <heco_e>`).
+Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathbf{E}$ eremu elektrikoa, eta haren konjokatu estentsiboa den sistemaren momentu dipolar elektrikoa, $\mathbf{p}$. Gauzak horrela, adibide honetan, {numref}`{number} irudiko <heco>` "helize-haril" kate eraldatua izango dugu aztergaitzat ({numref}`{number} irudia <heco_e>`).
 
 ```{figure} heco_efield.jpg
 ---
 height: 200px
 name: heco_e
 ---
-  “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, kateak $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa izango du, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
+  “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, katean barrena $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa azaleratuko da, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
 ```
 
 Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela ($l_C>l_H$). Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\bar{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
@@ -264,7 +264,7 @@ $$ (u_p_heco)
 eta
 
 $$
-U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \mathrm{d}\vert\mathbf{E}^{\prime}\vert \; \alpha\vert\mathbf{E}\vert^{\prime} \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
+U_{\alpha} = N\left(-\int_0^{\vert\mathbf{E}\vert} \mathrm{d}\vert\mathbf{E}\vert^{\prime} \; \alpha\vert\mathbf{E}\vert^{\prime} \right) = -\frac{1}{2}N\alpha \vert\mathbf{E}\vert^2 \; .
 $$ (u_alpha_heco)
 
 
@@ -287,7 +287,7 @@ $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \Delta(T,f + q\vert\mathbf{E}\vert,N) \; .
 $$ (heco_e_delta_2)
 
-Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), bertan eraikitako $\Delta$ partizio-funtzioaren adierazpena bere horretan jarraituko du, hots,
+Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), bertan eraikitako $\Delta$ partizio-funtzioaren adierazpenak bere horretan jarraituko du, hots,
 
 $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; r_C^N\left(1+r^N\right) \; .
@@ -340,7 +340,7 @@ $$
 \frac{\bar{n}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
 $$ (heco_e_nbar)
 
-izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, helize-uniatateen frakzioak modu esponentzialean joko duela zerorantz, $\mathbf{E}$ eremu elektrikoaren modulua handiagotzen dugun neurrian. Ondorioz, haril-unitateen frakzioak gora egingo du, eta, aurreko arrazoinamendua dela bide, katearen batez besteko luzera handitu egingo da.
+izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, helize-unitateen frakzioak modu esponentzialean joko duela zerorantz, $\mathbf{E}$ eremu elektrikoaren modulua handiagotzen dugun neurrian. Ondorioz, haril-unitateen frakzioak gora egingo du, eta, aurreko arrazoinamendua dela bide, katearen batez besteko luzerak ere bai.
 
 (agg_elek)=
 ### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean

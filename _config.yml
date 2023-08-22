@@ -5,6 +5,11 @@ title: NANOTERMODINAMIKA
 author: Mikel Garitano Telleria
 logo: logo.png
 
+jupyter_book:
+  template:
+    path: myfile.tex
+
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:

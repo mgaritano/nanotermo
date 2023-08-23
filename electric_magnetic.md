@@ -393,5 +393,5 @@ $$ (agg_e_approx)
 hurbilketaz baliatuko gara aurrerantzean. Hori dela eta, partizio-funtzio _elektrikoa_ $Q_1 = Q_{\alpha} \cdot Q_{p_0}$ eran idatziz, eta, sistemaren partizio-funtzioa $Q(T,N,\mathbf{E}) = Q_0(T,N)\cdot Q_1(T,N,\mathbf{E})$ dela aintzat hartuz,
 
 $$
-\boxed{Q(T,N,\mathbf{E}) \approx c\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left(1 + \frac{N^2y^2}{6} \right)} \quad (N\geq 1) \; .
+\boxed{Q(T,N,\mathbf{E}) \approx c\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left(1 + \frac{N^2p_0^2\vert\mathbf{E}\vert^2}{6\left(k_\mathrm{B}T\right)^2} \right)} \quad (N\geq 1) \; .
 $$ (agg_q_tot)

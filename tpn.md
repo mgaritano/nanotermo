@@ -39,7 +39,7 @@ $$
 \bar{E} = TS - p\bar{V} + \widehat{\mu}N
 $$ (etpn)
 ```
-$(c)$ Gibbs-en energia askea ($F(T,p,N)$). Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
+$(c)$ Gibbs-en energia askea, $F(T,p,N)$. Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
 
 ```{dropdown} __Erantzuna__
 $$
@@ -145,12 +145,12 @@ $$ (epsilonhelix)
 height: 300px
 name: epsilon_tfn
 ---
-  Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala ($r\rightarrow1$) geroz eta tarte zabalagoa hartuko du, eta $\mathscr{E}\rightarrow\mathscr{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
+  Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala $(r \rightarrow 1)$ geroz eta tarte zabalagoa hartuko du, eta $\mathscr{E}\rightarrow\mathscr{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
 ```
 
 **----------------------------------------------------**
 
-Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz ($\bar{n} _ {H}/N $). Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}$. Bada, horretarako, $\bar{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
+Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\bar{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}$. Bada, horretarako, $\bar{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
 
 $$
 \bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
@@ -192,7 +192,7 @@ name: hc_phase
 
 Lortutako emaitzak direla eta, berehalako geldialdia egin beharrean gaude, ezinbestean.
 
-Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean ($N=2$), tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
+Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean $(N=2)$, tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
 
 Ondorioz, $N=200$ inguruan $\bar{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 

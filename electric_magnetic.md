@@ -376,3 +376,22 @@ $$
 $$ (agg_e_q_p0)
 
 non $y = p_0\vert\mathbf{E}\vert/(k_\mathrm{B}T)$ den.
+
+Jarraian datozen kalkuluak arintze aldera, _eremu txikiko limitean_ jardungo dugu hemendik aurrera $(\vert\mathbf{E}\vert \ll 1)$. Berebat, kontuan izan dezagun esku artean dugun agregatu lineala sistema _txikia_ dela, alegia, ez dihardugu $N\rightarrow \infty$ limitean; hartara, zilegi zaigu $Ny \ll 1$ hartzea. Beraz, $\sinh (Ny)$ funtzioaren seriea idatziz,
+
+
+$$
+\sinh(Ny) = \sum_{n=0}^{\infty}\frac{(Ny)^{2n+1}}{(2n+1)!} \; ,
+$$ (agg_e_sinh)
+
+eta, aurreko arrazoinamenduari atxikiz,
+
+$$
+\frac{\sinh(Ny)}{Ny} = 1 + \frac{N^2y^2}{6} + \mathcal{O}\left[(Ny)^5\right]
+$$ (agg_e_approx)
+
+hurbilketaz baliatuko gara aurrerantzean. Hori dela eta, partizio-funtzio _elektrikoa_ $Q_1 = Q_{\alpha} \cdot Q_{p_0}$ eran idatziz, eta, sistemaren partizio-funtzioa $Q(T,N,\mathbf{E}) = Q_0(T,N)\cdot Q_1(T,N,\mathbf{E})$ dela aintzat hartuz,
+
+$$
+\boxed{Q(T,N,\mathbf{E}) \approx c\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left(1 + \frac{N^2y^2}{6} \right)} \quad (N\geq 1) \; .
+$$ (agg_q_tot)

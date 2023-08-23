@@ -57,10 +57,10 @@ daukagu.
 Ikus {cite}`pathria` liburuko 6. kapituluko 11. oin-oharra. Aurrerantzean, $\xi(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T$ erabiliko dugu.
 ```
 
-Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera $c = \xi e^{\epsilon/k_{\mathrm{B}}T}$ definituz,
+Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera $c(T) = \xi(T) e^{\epsilon/k_{\mathrm{B}}T}$ definituz,
 
 $$
-\boxed{Q(T,N) := j(T)^{N} \cdot Q_{\mathrm{bir}}(T,N) \cdot e^{-(N-1)\epsilon/k_{\mathrm{B}}T} = c\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T}} \quad (N\geq1)\; .
+\boxed{Q(T,N) := j(T)^{N} \cdot Q_{\mathrm{bir}}(T,N) \cdot e^{-(N-1)\epsilon/k_{\mathrm{B}}T} = c(T)\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T}} \quad (N\geq1)\; .
 $$ (qagg)
 
 Ohartu gaitezen $N=0$ denean ez dela ez biraketarik ez, are gutxiago, elkarrekintza-energiarik egongo. Hori dela eta, partizio-funtzio intrintsekotik $Q(T,0)=j(T)^0=1$ izango dugu.

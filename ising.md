@@ -20,7 +20,7 @@ name: ising_geziak
 
 Ising-en sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
 
-Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, {numref}`{number} atalean <b0jnot0>`, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza emango dugu soilik aintzakotzat. Ondoren, {numref}`{number} atalean <j0bnot0>` zatian, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu ($J=0$).
+Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, {numref}`{number} atalean <b0jnot0>`, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza emango dugu soilik aintzakotzat. Ondoren, {numref}`{number} atalean <j0bnot0>` zatian, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu $(J=0)$.
 
 
 
@@ -253,7 +253,7 @@ name: heco_e
   “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, katean barrena $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa azaleratuko da, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero $(\mathbf{E} \parallel \mathbf{p})$, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
 ```
 
-Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela ($l_C>l_H$). Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\bar{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
+Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela $(l_C>l_H)$. Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\bar{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
 
 Sistemaren azterketa termodinamikoari ekinez, multzo kanonikoan eskuragai dugun ingurune-aldagai sorta $(T,l,N,\vert\mathbf{E}\vert)$ da. Beraz, $Q(T,l,N,\vert\mathbf{E}\vert)$ partizio-funtzioa eraikitzeko, {numref}`{number} irudian <heco_e>` azaltzen diren faktore gehigarriek barne-energiarako izango duten ekarpena idatzi behar dugu, alegia,
 
@@ -334,7 +334,7 @@ Goiko {eq}`heco_e_delta_3` partizio-funtzioaren bidez kalkuluak egindakoan, {eq}
 ```
 **----------------------------------------------------**
 
-Berrazterketa labur honi buru emateko, arestian aipatutako kontuari helduko diogu. Helize-unitateen batez besteko frakzioak {eq}`fraction_N` ekuazioari segitzen diola aintzakotzat hartuz, eta $r$ magnitudearen definizio berria ordezkatuz,
+Berrazterketa labur honi buru emateko, arestian aipatutako kontuari helduko diogu. Helize-unitateen batez besteko frakzioaren {eq}`fraction_N` ekuazioan $r$ magnitudearen definizio berria ordezkatuz,
 
 $$
 \frac{\bar{n}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
@@ -345,6 +345,7 @@ izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, helize-unitateen frakzioak
 (agg_elek)=
 ### Agregatu lineala, $\mathbf{E}$ kanpo-eremuaren eraginpean
 
+Azter dezagun azpian dugun {numref}`{number} irudia <agg_e>`.
 
 ```{figure} aggregate_efield.jpg
 ---
@@ -353,3 +354,23 @@ name: agg_e
 ---
 Agregatu lineala ere zertxobait moldatuko dugu. Alde batetik, {numref}`{number} irudian <heco_e>` bezala, unitateek $\alpha$ polarizabilitatea dute. Alabaina, oraingoan berorietako bakoitza dipolo elektrikotzat hartuko dugu, $\mathbf{p_0}$ momentua duelarik; orobat, $\mathbf{p_0}$ bektoreak eta katea zeharkatzen duen ardatzak $\theta$ angelua osatuko dute. Horiek horrela, kanpotik $\mathbf{E}$ eremua jartzeak sorrarazten dituen ekarpenak aztertuko ditugu jarraian.
 ```
+
+Esanak esan, orain ere $Q(T,N,\vert\mathbf{E}\vert)$ partizio-funtzio kanonikoa eraikitzeari ekin behar diogu. Horretarako, alde batetik, {numref}`{number} irudia <agg_e>` atalean aurkeztutako ekarpenak hartuko ditugu gogoan: monomeroen $j(T)$ partizio-funtzio intrintsekoa, agregatuaren biraketa eta lehen auzokoen arteko elkarrekintza biltzen dituen {eq}`qagg` ekuazioa:
+
+$$
+Q_0(T,N) = c\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T} \quad (N\geq 1) \; .
+$$ (agg_e_q0)
+
+Bestetik, ekarpen elektrikoa kalkulatu behar dugu. Agregatuak orotara $N$ unitate dituela aintzat hartuz, $\alpha$ polarizabilitatearen ondoriozko partizio-funtziorako ekarpena aurreko ataleko berbera da, alegia, {eq}`u_alpha_heco` ekuaziotik eskuratu duguna. Aitzitik, unitateko $\mathbf{p_0}$ momentu intrintsekoa eta $\mathbf{E}$ kanpo-eremua ez direnez paraleloak, hari datxekion gaiaren kalkulua ez da jada tribiala. Izan ere, orain 
+
+$$
+ U_{p_0}(\theta) = -Np_0\vert\mathbf{E}\vert \cos \theta
+$$ (agg_e_u_p0)
+
+dugu. 
+
+Kontua da $\mathbf{p_0}$ bektorearen orientazioa hartu behar dugula aintzakotzat. Kanpo-eremurik jarri ezean, bektore horren edozein orientaziok probabilitate bera du $(\theta,\varphi)$ koordenatuen espazioan. Hori dela eta, momentuaren orientazioa $\mathrm{d}\theta\mathrm{d}\varphi$ tartean aurkitzeko probabilitatea $\sin\theta\mathrm{d}\theta\mathrm{d}\varphi$ angelu solido diferentzialarekiko proportzionala da. Alabaina, kanpo-eremua ezarriz gero, $U_{p_0}$ elkarrekintza-energia tarteko, orientazio jakin batzuk hobetsiko dira beste batzuen aldean. Hitzez esandakoa jarraian datorren partizio-funtzio normalizatuan islatuko dugu, hain zuzen, angelu solido diferentzialean zehar integratuz:
+
+$$
+ Q_{p_0} = \frac{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \; e^{-U_{p_0}(\theta)/k_\mathrm{B}T}}{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta} = \frac{1}{2}\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \exp\left(\frac{Np_0\vert\mathbf{E}\vert \cos \theta}{k_\mathrm{B}T}\right) = \frac{\sinh (Ny)}{Ny} \; .
+$$

@@ -132,7 +132,7 @@ $$
 $$ (epsilonads)
 adierazpena betetzen duen horretan, izaera linealarekiko desbideraketen gidaritzan dago.
 
-Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak ($\mathscr{E}<0$) multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
+Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak $(\mathscr{E}<0)$ multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
 
 $$
 \mathscr{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .

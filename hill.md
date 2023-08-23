@@ -63,7 +63,7 @@ $$
 \boxed{\mathrm{d}\mathscr{E}(T,p,\mu) = -S\mathrm{d}T + \bar{V}\mathrm{d}p - \bar{N}\mathrm{d}\mu}\; .
 $$ (h_g_d)
 
-Erlazio horrek matematikoki erakustera ematen du {numref}`{number}. zatian <nanointro>` esaten aritu garena, agerikoa baita banatze-potentzialak askatasun-gradu bat abiaraziko duela. Hartara, zilegi izango zaigu, $(T, p, \mu)$ aldagai-sorta $\mathscr{E}(T,p,\mu)$-en baitan finkatzeaz bat, multzo nanokanonikoa eraikitzea. Berorren bidez sistema txikiaren propietateei xehetasun handiagoz hurreratuko gatzaizkie.
+Erlazio horrek matematikoki erakustera ematen du {numref}`{number}. zatian <nanointro>` esaten aritu garena, agerikoa baita banatze-potentzialak askatasun-gradu bat abiaraziko duela. Hartara, zilegi izango zaigu, $(T, p, \mu)$ aldagai-sorta $\mathscr{E}(T,p,\mu)$ potentzialaren baitan finkatzeaz bat, multzo nanokanonikoa eraikitzea. Berorren bidez sistema txikiaren propietateei xehetasun handiagoz hurreratuko gatzaizkie.
 Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathscr{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \bar{V}$ eta $\bar{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
 
 
@@ -77,12 +77,12 @@ Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-
 (replica_e)=
 ### Hill-Gibbs ekuazioaren orokorpena eta aldaki-energia
 
-Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartzean multzoaren propietate estentsibo guztiak ($S_{t}, V_{t}, N_{t}$) aldaezin mantendu ditugu.
+Orain arte, sistema txiki baten banatzeari dagokion askatasun-graduaren eragina aztertzerakoan, aldaki bat sartzean multzoaren propietate estentsibo guztiak $(S_{t}, V_{t}, N_{t})$ aldaezin mantendu ditugu.
 Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, _eta ez beste ezerk_, multzo osoaren energiari dakarkion aldakuntza. Hala ere, kontura gaitezen ezen multzoaren aldagaien birbanatzeak sistema txiki soilaren propietateei zuzenean erasaten diela,  $E, V$ eta $N$ finko mantentzea galarazten baitu. Ondorioz, sistema txikiei $(T, p, \mu)$ aldagaiak esleitu behar izan dizkiegu nahitaez.
 
 Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, $(A, B, C,...)$ ingurune-aldagaien aurrean $\mathscr{E}(T, p, \mu)$ banatze-potentzialaren orokorpena definitu beharrean gaude. Hura $X(A, B, C...)$ hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion __aldaki-energia__ da. Noski, multzo nanokanonikoaren kasuan $X(T,p,\mu) = \mathscr{E}(T, p, \mu)$ genuke, baina, oro har, ez da hori beteko.
 
-Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak $(T,V,\mu)$ izango dira. Gauzak horrela, $E_{t} = \mathscr{N}\bar{E}$, $S_{t} = \mathscr{N}S$, $V_{t} = \mathscr{N}V$ eta $N_{t} = \mathscr{N}\bar{N}$ izango ditugu. Aipatzekoa da $V$ bolumenak ez daramala marratxoa, kasu honetan ez baita batez besteko magnitudea. Jarraian, {eq}`hill-gibbs` berridatziko dugu, oraingoan, ordea, $V$ agerraraziz ($\mathrm{d}V_{t} = \mathscr{N}\mathrm{d}V + V\mathrm{d}\mathscr{N}$):
+Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak $(T,V,\mu)$ izango dira. Gauzak horrela, $E_{t} = \mathscr{N}\bar{E}$, $S_{t} = \mathscr{N}S$, $V_{t} = \mathscr{N}V$ eta $N_{t} = \mathscr{N}\bar{N}$ izango ditugu. Aipatzekoa da $V$ bolumenak ez daramala marratxoa, kasu honetan ez baita batez besteko magnitudea. Jarraian, {eq}`hill-gibbs` berridatziko dugu, oraingoan, ordea, $V$ agerraraziz $(\mathrm{d}V_{t} = \mathscr{N}\mathrm{d}V + V\mathrm{d}\mathscr{N})$:
 
 
 $$

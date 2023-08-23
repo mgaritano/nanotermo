@@ -91,7 +91,7 @@ name: heco
   “Helize-haril” kateak $l_H$ luzeradun $n_{H}$ helize-unitate eta $l_C$ luzeradun $n_{C} = N - n_{H}$ haril-unitate dauka ($l_C > l_H$). Mutur banatan $f$ indarra eragingo diogu. Guztizko unitate-kopuruari dagokionez, $N\rightarrow \infty$ hurbilketa asintotikora jotzen ez badugu, katean sistema txikien berezitasunak azaleratuko dira.
 ```
 
-Demagun orain haril-unitateak ($C$) soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: $C\;H\;H\;H\;C$ ; $C\;C\;H\;H\;H$ ; $H\;H\;H\;C\;C$. Orokortuz, baldintza horrek sistemari $g(n_{H}) = N-n_{H}+1$ endekapena sorraraziko lioke. Jakina, $H$-unitaterik ez balego, $g=1$ izango genuke, sistemak bakarrik $C$-unitateak edukiko lituzke eta. $C$- eta $H$-unitateen partizio-funtzio kanonikoak $q_{H}(T)$ eta $q_{C}(T)$ izendatuko ditugu. Beraz, kate osora zabalduz, $Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}$ genuke. Horiek horrela, $\Delta(T,f,N)$ partizio-funtzioa eraikiko dugu:
+Demagun orain haril-unitateak $(C)$ soilik muturretan koka daitezkeela. Irudiko kasuan, hortaz, aukera hauek genituzke eskura: $C\;H\;H\;H\;C$ ; $C\;C\;H\;H\;H$ ; $H\;H\;H\;C\;C$. Orokortuz, baldintza horrek sistemari $g(n_{H}) = N-n_{H}+1$ endekapena sorraraziko lioke. Jakina, $H$-unitaterik ez balego, $g=1$ izango genuke, sistemak bakarrik $C$-unitateak edukiko lituzke eta. $C$- eta $H$-unitateen partizio-funtzio kanonikoak $q_{H}(T)$ eta $q_{C}(T)$ izendatuko ditugu. Beraz, kate osora zabalduz, $Q(T,l,N)=q_{C}^{n_{C}}q_{H}^{n_{H}}$ genuke. Horiek horrela, $\Delta(T,f,N)$ partizio-funtzioa eraikiko dugu:
 
 $$
 \Delta := \sum_{l} Q(T,l,N)e^{fl/k_{\mathrm{B}}T}

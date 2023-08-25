@@ -390,8 +390,31 @@ $$
 \frac{\sinh(Ny)}{Ny} = 1 + \frac{N^2y^2}{6} + \mathcal{O}\left[(Ny)^4\right]
 $$ (agg_e_approx)
 
-hurbilketaz baliatuko gara aurrerantzean. Hori dela eta, partizio-funtzio _elektrikoa_ $Q_1 = Q_{\alpha} \cdot Q_{p_0}$ eran idatziz, eta, sistemaren partizio-funtzioa $Q(T,N,\mathbf{E}) = Q_0(T,N)\cdot Q_1(T,N,\mathbf{E})$ dela aintzat hartuz,
+hurbilketaz baliatuko gara aurrerantzean. Hori dela eta, partizio-funtzio _elektrikoa_ $Q_1 = Q_{\alpha} \cdot Q_{p_0}$ eran idatziz, eta, sistemaren partizio-funtzioa $Q(T,N,\vert\mathbf{E}\vert) = Q_0(T,N)\cdot Q_1(T,N,\vert\mathbf{E}\vert)$ dela aintzat hartuz,
 
 $$
-\boxed{Q(T,N,\mathbf{E}) \approx c(T)\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left[1 + \frac{1}{6}\left(\frac{Np_0\vert\mathbf{E}\vert}{k_\mathrm{B}T}\right)^2 \right]} \quad (N\geq 1) \; .
+\boxed{Q(T,N,\vert\mathbf{E}\vert) \approx c(T)\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left[1 + \frac{1}{6}\left(\frac{Np_0\vert\mathbf{E}\vert}{k_\mathrm{B}T}\right)^2 \right]} \quad (N\geq 1) \; .
 $$ (agg_q_tot)
+
+Bada, {eq}`agg_q_tot` ekuaziotik abiatuz, **multzo kanonikoan** aldagai termondinamikoak lortzeari ekingo diogu.
+
+##### Ariketa
+
+$(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial-kimikoak, baita $\mu^{(0)}$ limitea ere. Horiekin batera, idatzi banatze-potentzialak beteko duen ekuazioa.
+
+```{dropdown} __Erantzuna__
+
+$$
+\left.\begin{array}{l}
+\frac{\widehat{\mu}}{k_{\mathrm{B}}T} = -\frac{\ln Q}{N} = -\ln j + \frac{N-1}{N} \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{\ln(\xi N^3)}{N} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \frac{1}{N}\ln\left(1 + \frac{N^2y^2}{6}\right) \\\\
+\frac{\mu}{k_{\mathrm{B}}T} = -\ln j + \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{3}{N} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \frac{2Ny^2}{6+N^2y^2}{\boldsymbol{\longrightarrow}} \; \frac{\mu^{(0)}}{k_{\mathrm{B}}T} = -\ln j + \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} 
+$$ (muagg)
+
+
+
+```
+
+
+$(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena.
+
+$(c)$ Kalkulatu $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketa **erabili barik**.

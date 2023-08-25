@@ -524,3 +524,20 @@ $$ (maxwell_2)
 
 
 ```
+
+
+**----------------------------------------------------**
+
+Ariketa honetan ere, aurreko beste zenbaitetan bezalaxe, azterketa pauso bat haratago eramango dugu, **multzo nanokanonikoan** murgilduz. Partizio-funtzio orokortua {eq}`agg_q_tot` partizio-funtziotik abiatuz eraikiko dugu:
+
+$$
+\boxed{\Upsilon(T,p,\mu) := 1+ \sum_{N=1}^{\infty}Q(T,N,\vert\mathbf{E}\vert)\;e^{\mu N/k_{\mathrm{B}}T} = 1 +c(T)\left[\sum_{N=1}^{\infty}N^3x^N +\frac{y^2}{6}\sum_{N=1}^{\infty}N^5 x^N\right]} \; ,
+$$ (agg_e_upsilon)
+
+non, oraingoan, $x(T) = j(T)\exp\left(\frac{-\epsilon + \mu }{k_{\mathrm{B}}T}\right)\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ordezkatu dugun
+
+Azpimarratu beharrekoa da ezen $\sinh(Ny)$ funtzioaren hurbilketara jotzeak biziki erraztuko duela $N$ magnitudean zeharreko batukariaren kalkulua. Izan ere, ohartu gaitezen batukari bietan $N$-ren berreturak agertzen direla. Horrek seriearen garapena {eq}`upsilontn` ekuazioaren osteko argibideei jarraituz burutzea ahalbidetuko du. Gauzak horrela, 
+
+$$
+\Upsilon(T,p,\mu) = 1 + c(T)\left[\frac{x(x^2+4x+1)}{(x-1)^4} + \frac{y^2}{6}\frac{x^4+26x^3 + 66x^2+26x+1}{(x-1)^6}\right] \quad, \quad \vert x\vert < 1 \; .
+$$ (agg_e_upsilon_1)

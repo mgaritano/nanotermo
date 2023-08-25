@@ -451,8 +451,10 @@ $$ (agg_elek_p0)
 Bada, $\coth{Ny}$ funtzioaren Taylorren seriea honako hau da:
 
 $$
-\coth(Ny) = \sum_{n=0}^{\infty} \frac{2^{2n}B_{2n}(Ny)^{2n-1}}{(2n)!} = \frac{1}{Ny} + \frac{Ny}{3} - \frac{(Ny)^3}{45} + \mathcal{O}[(Ny)^5] \quad,\quad 0 <\vert Ny\vert < \pi \; .
+\coth(Ny) = \sum_{n=0}^{\infty} \frac{2^{2n}B_{2n}(Ny)^{2n-1}}{(2n)!} = \frac{1}{Ny} + \frac{Ny}{3} - \frac{(Ny)^3}{45} + \mathcal{O}[(Ny)^5] \quad,\quad 0 <\vert Ny\vert < \pi \; ,
 $$
+
+non $B_{2n}$ direlakoei Bernoulliren zenbakiak deritzen.
 
 Hortaz, {eq}`agg_elek_p0` ekuazioarekin eragiketak eginez gero,
 
@@ -466,7 +468,7 @@ $$ (agg_e_p_0_1)
 
 ##### Ariketa gehigarria: Maxwellen erlazioak
 
-Idatzi, lehenik, sistema txikiaren Gibbs-en ekuazioa, eta, Legendreren transformazioen bitartez, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
+$(a)$ Idatzi, lehenik, sistema txikiaren Gibbs-en ekuazioa, eta, Legendreren transformazioen bitartez, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
 
 ```{dropdown} __Erantzuna__
 
@@ -477,10 +479,10 @@ $$
 $$ (agg_e_gibbs)
 
 
-Jarraian, $\widehat{\mu}N(T,N,\vert\mathbf{p}\vert) = \var{E}-TS-\mathbf{p}\cdot\mathbf{E}$ dela aintzat hartuz,
+Jarraian, $\widehat{\mu}N(T,N,\vert\mathbf{p}\vert) = \bar{E}-TS-\mathbf{p}\cdot\mathbf{E}$ dela aintzat hartuz,
 
 $$
-\mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \mathbf{p}\cdot\mathrm{d}\mathbf{E} \; .
+\mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \cdot\mathrm{d}\vert\mathbf{E}\vert\; .
 $$ (agg_e_dmuhat)
 
 Bertatik eraikiko dugu eskatzen zaigun Maxwellen erlazioa:
@@ -499,7 +501,17 @@ lortuko dugu. Hala, {eq}`agg_elek_p0` eta {eq}`agg_elek_mu_zehatz` ekuazio-bikot
 
 $$
 \left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N} = -\left(\frac{\partial \vert\mathbf{p}\vert}{\partial N}\right)_{T,\vert\mathbf{E}\vert} = -\alpha \vert\mathbf{E}\vert - p_0\coth(Ny) + Np_0\frac{y}{\sinh^2(Ny)} \; .
+$$ (maxwell_1)
+
+
+```
+
+$(b)$ Egin $(a)$ ataleko gauza berbera $\left(\frac{\partial \overline{\vert\mathbf{p}\vert} }{\partial T}\right)_{\vert\mathbf{E}\vert, N}$ adierazpenarekin.
+
+```{dropdown} __Erantzuna__
 $$
+\left(\frac{\partial \overline{\vert\mathbf{p}\vert} }{\partial T}\right)_{\vert\mathbf{E}\vert, N} = \left(\frac{\partial S}{\partial \vert\mathbf{E}\vert}\right)_{T,N} = -\frac{k_{\mathrm{B}}}{\vert\mathbf{E}\vert} + N^2\frac{p_0}{T}\frac{y}{\sinh^2(Ny)} \; .
+$$ (maxwell_2)
 
 
 ```

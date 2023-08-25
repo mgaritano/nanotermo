@@ -509,6 +509,15 @@ $$ (maxwell_1)
 $(b)$ Egin $(a)$ ataleko gauza berbera $\left(\frac{\partial \overline{\vert\mathbf{p}\vert} }{\partial T}\right)_{\vert\mathbf{E}\vert, N}$ adierazpenarekin.
 
 ```{dropdown} __Erantzuna__
+
+Hasteko, $S(T, N, \vert\mathbf{E}\vert)$ entropiaren ekuazio zehatza lortu behar dugu, {eq}`agg_e_dmuhat` espresioari segituz:
+
+$$
+\frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \ln(\xi N^3)+ 2 + \ln\left(\frac{\sinh(Ny)}{Ny}\right) -Ny\coth(Ny) \; .
+$$ (agg_elek_S_zehatz)
+
+Hala, {eq}`agg_elek_p0` eta {eq}`agg_elek_S_zehatz` ekuazio-bikotearekin jardunez gero,
+
 $$
 \left(\frac{\partial \overline{\vert\mathbf{p}\vert} }{\partial T}\right)_{\vert\mathbf{E}\vert, N} = \left(\frac{\partial S}{\partial \vert\mathbf{E}\vert}\right)_{T,N} = -\frac{k_{\mathrm{B}}}{\vert\mathbf{E}\vert} + N^2\frac{p_0}{T}\frac{y}{\sinh^2(Ny)} \; .
 $$ (maxwell_2)

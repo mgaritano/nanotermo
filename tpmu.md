@@ -95,7 +95,7 @@ Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak
 
 **----------------------------------------------------**
 
-Horiek horrela, askatasun-gradu kimikoa abiarazi, eta __multzo nanokanonikora__ igaroko gara. Hala, adierazpenetan $ x  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ erlazioa sartuz, eta {eq}`upsilon_def` definizioan {eq}`qagg` ekuazioa txertatuz,
+Horiek horrela, askatasun-gradu kimikoa abiarazi, eta __multzo nanokanonikora__ igaroko gara. Hala, adierazpenetan $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ erlazioa sartuz, eta {eq}`upsilon_def` definizioan {eq}`qagg` ekuazioa txertatuz,
 
 $$
 \boxed{\Upsilon(T,\mu) = 1 + c\sum_{N=1}^{\infty}  N^{3}\;x^N = 1 +  c \left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]}\; , \; \vert x \vert < 1 \; ,

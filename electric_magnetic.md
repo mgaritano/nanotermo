@@ -432,20 +432,32 @@ Bada, {eq}`agg_e_stn` eta {eq}`agg_elek_epsilon_k` ekuazioak parez pare jarriz g
 
 ```
 
-$(c)$ Kalkulatu $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketara **jo barik**. 
+$(c)$ Eraiki $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketara **jo barik**. Ondoren, kalkulatu lortutako adierazpenaren hurbilketa, \mathcal{O}(\vert\mathbf{E}\vert^5) magnitude-ordenatik aurreragoko gaiak mespretxatuz.
 
 ```{dropdown} __Erantzuna__
 
 Hasteko, $N\widehat{\mu}$ birkalkulatu behar dugu. Hala, baldin eta $\sinh(Ny)$ funtzioa bere horretan bagenerabil,
 
 $$
-\frac{N\widehat{\mu}}{k_{\mathrm{B}}T} = -\ln Q = -N\ln j + (N-1) \frac{\epsilon}{k_{\mathrm{B}}T} - \ln(\xi N^3) - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \ln\left[\frac{\sinh (Ny)}{Ny}\right]
+\frac{N\widehat{\mu}}{k_{\mathrm{B}}T} = -\ln Q = -N\ln j + (N-1) \frac{\epsilon}{k_{\mathrm{B}}T} - \ln(\xi N^3) - \frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \ln\left[\frac{\sinh (Ny)}{Ny}\right]
 $$ (agg_elek_muhatN)
 
 genuke. Bertatik, 
 
 $$
-\overline{\vert\mathbf{p}\vert} := -\left[\frac{\partial (\widehat{\mu}N)}{\partial\vert\mathbf{E}\vert}\right]_{T,N} = N\left[\alpha\vert\mathbf{E}\vert + p_0 \coth(Ny) \right] - \frac{k_{\mathrm{B}}T}{\vert\mathbf{E}\vert}
+\overline{\vert\mathbf{p}\vert} := -\left[\frac{\partial (\widehat{\mu}N)}{\partial\vert\mathbf{E}\vert}\right]_{T,N} = N\left[\alpha\vert\mathbf{E}\vert + p_0 \coth(Ny) \right] - \frac{k_{\mathrm{B}}T}{\vert\mathbf{E}\vert} \; .
 $$ (agg_elek_p0)
+
+Bada, $\coth{Ny}$ funtzioaren Taylorren seriea honako hau da:
+
+$$
+\coth(Ny) = \sum_{n=0}^{\infty} \frac{2^{2n}B_{2n}(Ny)^{2n-1}}{(2n)!} = \frac{1}{Ny} + \frac{Ny}{3} - \frac{(Ny)^3}{45} + \mathcal{O}[(Ny)^5] \quad,\quad 0 <\vert Ny\vert < \pi \; .
+$$
+
+Hortaz, {eq}`agg_elek_p0` ekuazioarekin eragiketak eginez gero,
+
+$$
+\overline{\vert\mathbf{p}\vert} = N\alpha\vert\mathbf{E}\vert + \frac{1}{3}\frac{N^2p_0^2}{k_{\mathrm{B}}T} - \frac{1}{45}\frac{N^4p_0^4\vert\mathbf{E}\vert^3}{(k_{\mathrm{B}}T)^3} + \mathcal{O}[(Ny)^5] \; .
+$$
 
 ```

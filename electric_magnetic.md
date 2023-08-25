@@ -409,13 +409,43 @@ $$
 \frac{\widehat{\mu}}{k_{\mathrm{B}}T} = -\frac{\ln Q}{N} = -\ln j + \frac{N-1}{N} \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{\ln(\xi N^3)}{N} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \frac{1}{N}\ln\left(1 + \frac{N^2y^2}{6}\right) \\\\
 \frac{\mu}{k_{\mathrm{B}}T} = -\ln j + \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{3}{N} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \frac{2Ny^2}{6+N^2y^2}
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \frac{\mu^{(0)}}{k_{\mathrm{B}}T} = -\ln j + \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} 
-$$ (muagg)
+$$ (agg_elek_mu)
 
-
+$$
+\frac{\mathscr{E}}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\ln(\xi N^3)-\frac{\epsilon}{k_\mathrm{B}T} - \ln\left(1+\frac{N^2y^2}{6}\right) + 3 + \frac{2N^2y^2}{6+N^2y^2}
+$$ (agg_elek_epsilon_k)
 
 ```
 
 
 $(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena.
 
-$(c)$ Kalkulatu $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketa **erabili barik**.
+```{dropdown} __Erantzuna__
+
+Aurreko $(a)$ atalean erdietsitako $\widehat{\mu}$-ren ekuazioaren laguntzaz,
+
+$$
+ \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2}
+$$ (agg_e_stn)
+
+Bada, {eq}`agg_e_stn` eta {eq}`agg_elek_epsilon_k` ekuazioak parez pare jarriz gero, argiro hauteman daiteke ezen entropiarako ekarpen ez-lineal positibo gehienak banatze-potentzialaren gai positiboekin lotuta daudela, zeina berearekin.
+
+```
+
+$(c)$ Kalkulatu $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketara **jo barik**. 
+
+```{dropdown} __Erantzuna__
+
+Hasteko, $N\widehat{\mu}$ birkalkulatu behar dugu. Hala, baldin eta $\sinh(Ny)$ funtzioa bere horretan bagenerabil,
+
+$$
+\frac{N\widehat{\mu}}{k_{\mathrm{B}}T} = -\ln Q = -N\ln j + (N-1) \frac{\epsilon}{k_{\mathrm{B}}T} - \ln(\xi N^3) - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \ln\left[\frac{\sinh (Ny)}{Ny}\right]
+$$ (agg_elek_muhatN)
+
+genuke. Bertatik, 
+
+$$
+\overline{\vert\mathbf{p}\vert} := -\left[\frac{\partial (\widehat{\mu}N)}{\partial\vert\mathbf{E}\vert}\right]_{T,N} = N\left[\alpha\vert\mathbf{E}\vert + p_0 \coth(Ny) \right] - \frac{k_{\mathrm{B}}T}{\vert\mathbf{E}\vert}
+$$ (agg_elek_p0)
+
+```

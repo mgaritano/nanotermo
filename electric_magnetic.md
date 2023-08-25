@@ -387,7 +387,7 @@ $$ (agg_e_sinh)
 eta, aurreko arrazoinamenduari atxikiz,
 
 $$
-\frac{\sinh(Ny)}{Ny} = 1 + \frac{N^2y^2}{6} + \mathcal{O}\left[(Ny)^5\right]
+\frac{\sinh(Ny)}{Ny} = 1 + \frac{N^2y^2}{6} + \mathcal{O}\left[(Ny)^4\right]
 $$ (agg_e_approx)
 
 hurbilketaz baliatuko gara aurrerantzean. Hori dela eta, partizio-funtzio _elektrikoa_ $Q_1 = Q_{\alpha} \cdot Q_{p_0}$ eran idatziz, eta, sistemaren partizio-funtzioa $Q(T,N,\mathbf{E}) = Q_0(T,N)\cdot Q_1(T,N,\mathbf{E})$ dela aintzat hartuz,

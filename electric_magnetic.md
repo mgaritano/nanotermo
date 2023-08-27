@@ -459,7 +459,7 @@ non $B_{2n}$ direlakoei Bernoulliren zenbakiak deritzen.
 Hortaz, {eq}`agg_elek_p0` ekuazioarekin eragiketak eginez gero,
 
 $$
-\overline{\vert\mathbf{p}\vert} = N\alpha\vert\mathbf{E}\vert + \frac{1}{3}\frac{N^2p_0^2}{k_{\mathrm{B}}T} - \frac{1}{45}\frac{N^4p_0^4\vert\mathbf{E}\vert^3}{(k_{\mathrm{B}}T)^3} + \mathcal{O}(\vert\mathbf{E}\vert^5) \; .
+\overline{\vert\mathbf{p}\vert} = N\alpha\vert\mathbf{E}\vert + \frac{1}{3}\frac{N^2p_0^2\vert\mathbf{E}\vert}{k_{\mathrm{B}}T} - \frac{1}{45}\frac{N^4p_0^4\vert\mathbf{E}\vert^3}{(k_{\mathrm{B}}T)^3} + \mathcal{O}(\vert\mathbf{E}\vert^5) \; .
 $$ (agg_e_p_0_1)
 
 ```
@@ -491,7 +491,7 @@ $$
 \mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \mathrm{d}\vert\mathbf{E}\vert\; .
 $$ (agg_e_dmuhat)
 
-Nabarmendu beharrekoa da, partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugu. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
+Nabarmendu beharrekoa da, partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugula. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
 
 
 Bertatik eraikiko dugu eskatzen zaigun Maxwellen erlazioa:
@@ -550,3 +550,5 @@ Azpimarratu beharrekoa da ezen $\sinh(Ny)$ funtzioaren hurbilketara jotzeak bizi
 $$
 \boxed{\Upsilon = 1 + c(T)\left[\frac{x(x^2+4x+1)}{(x-1)^4} + \frac{y^2}{6}\frac{x^4+26x^3 + 66x^2+26x+1}{(x-1)^6}\right]}\quad, \quad \vert x\vert < 1 \; .
 $$ (agg_e_upsilon_1)
+
+

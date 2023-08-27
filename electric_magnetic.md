@@ -491,9 +491,8 @@ $$
 \mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \mathrm{d}\vert\mathbf{E}\vert\; .
 $$ (agg_e_dmuhat)
 
-:::{admonition} Oharra
-Partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugu. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
-:::
+Nabarmendu beharrekoa da, partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugu. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
+
 
 Bertatik eraikiko dugu eskatzen zaigun Maxwellen erlazioa:
 

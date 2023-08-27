@@ -468,7 +468,7 @@ $$ (agg_e_p_0_1)
 
 ##### Ariketa gehigarria: Maxwellen erlazioak
 
-$(a)$ Idatzi, lehenik, sistema txikiaren ekuazioak, eta, hortika abiatuz, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
+$(a)$ Idatzi, lehenik, sistema txikiaren ekuazioak, eta, hortik abiatuz, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
 
 ```{dropdown} __Erantzuna__
 
@@ -488,8 +488,13 @@ $$ (agg_e_gibbs)
 Aurreko bi ekuazioen bitartez, 
 
 $$
-\mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \cdot\mathrm{d}\vert\mathbf{E}\vert\; .
+\mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \mathrm{d}\vert\mathbf{E}\vert\; .
 $$ (agg_e_dmuhat)
+
+```{admonition} Oharra
+Partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugu. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
+
+```
 
 Bertatik eraikiko dugu eskatzen zaigun Maxwellen erlazioa:
 

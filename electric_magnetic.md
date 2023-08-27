@@ -432,7 +432,7 @@ Bada, {eq}`agg_e_stn` eta {eq}`agg_elek_epsilon_k` ekuazioak parez pare jarriz g
 
 ```
 
-$(c)$ Eraiki $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketara **jo barik**. Ondoren, kalkulatu lortutako adierazpenaren hurbilketa, \mathcal{O}(\vert\mathbf{E}\vert^5) magnitude-ordenatik aurreragoko gaiak mespretxatuz.
+$(c)$ Eraiki $\overline{\vert\mathbf{p}\vert}$ magnitudea, {eq}`agg_e_approx` ekuazioko hurbilketara **jo barik**. Ondoren, kalkulatu lortutako adierazpenaren hurbilketa, $\mathcal{O}(\vert\mathbf{E}\vert^5)$ magnitude-ordenatik aurreragoko gaiak mespretxatuz.
 
 ```{dropdown} __Erantzuna__
 
@@ -459,7 +459,7 @@ non $B_{2n}$ direlakoei Bernoulliren zenbakiak deritzen.
 Hortaz, {eq}`agg_elek_p0` ekuazioarekin eragiketak eginez gero,
 
 $$
-\overline{\vert\mathbf{p}\vert} = N\alpha\vert\mathbf{E}\vert + \frac{1}{3}\frac{N^2p_0^2}{k_{\mathrm{B}}T} - \frac{1}{45}\frac{N^4p_0^4\vert\mathbf{E}\vert^3}{(k_{\mathrm{B}}T)^3} + \mathcal{O}[(Ny)^5] \; .
+\overline{\vert\mathbf{p}\vert} = N\alpha\vert\mathbf{E}\vert + \frac{1}{3}\frac{N^2p_0^2}{k_{\mathrm{B}}T} - \frac{1}{45}\frac{N^4p_0^4\vert\mathbf{E}\vert^3}{(k_{\mathrm{B}}T)^3} + \mathcal{O}(\vert\mathbf{E}\vert^5) \; .
 $$ (agg_e_p_0_1)
 
 ```
@@ -468,18 +468,24 @@ $$ (agg_e_p_0_1)
 
 ##### Ariketa gehigarria: Maxwellen erlazioak
 
-$(a)$ Idatzi, lehenik, sistema txikiaren Gibbs-en ekuazioa, eta, Legendreren transformazioen bitartez, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
+$(a)$ Idatzi, lehenik, sistema txikiaren ekuazioak, eta, hortika abiatuz, lortu $\mathrm{d}(\widehat{\mu}N)$ ekuazio diferentziala. Bertatik, eraiki $\left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N}$ adierazpenari dagokion Maxwellen erlazioa, eta egiaztatu bi adierazpenak bat datozela.
 
 ```{dropdown} __Erantzuna__
 
 Sistemaren barne-energiaren jatorrizko aldagaiak estentsiboak dira: entropia, partikula-kopurua eta momentu dipolar elektrikoa. Hori dela eta,
 
 $$
-\mathrm{d}E(S,N,\mathbf{p}) = T\mathrm{d}S+\mu\mathrm{d}N + \mathbf{E}\cdot\mathrm{d}\mathbf{p} \; .
+\bar{E}(S,N,\mathbf{p}) = TS+\widehat{\mu}N + \mathbf{E}\cdot\mathbf{p} \; ,
+$$ (agg_e_E)
+
+eta,
+
+$$
+\mathrm{d}\bar{E}(S,N,\mathbf{p}) = T\mathrm{d}S+\mu\mathrm{d}N + \mathbf{E}\cdot\mathrm{d}\mathbf{p} \; .
 $$ (agg_e_gibbs)
 
 
-Jarraian, $\widehat{\mu}N(T,N,\vert\mathbf{p}\vert) = \bar{E}-TS-\mathbf{p}\cdot\mathbf{E}$ dela aintzat hartuz,
+Aurreko bi ekuazioen bitartez, 
 
 $$
 \mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \cdot\mathrm{d}\vert\mathbf{E}\vert\; .

@@ -197,7 +197,13 @@ non $c(T) = e^{\epsilon/k_{\mathrm{B}}T}$, eta, noski, $Q(T,0) = 1$ diren.
 
 Horiek horrela, ariketa honetan dugun eginbeharra honako hau da: 
 
-$(a)$ Birkalkulatu {eq}`muagg` eta {eq}`probagg` ekuazioen arteko magnitudeak, alegia, $\widehat{\mu}$, $\mu$, $\mu^{(0)}$, $S(T,N)$, $\Upsilon(T,\mu)$, $\mathscr{E}(T,\mu)$, $\bar{N}$, $P(N)$, $S(T,\mu)$, eta, bukatzeko, $S^{(0)}$ limite makroskopikoa. Hartu abiapuntutzat {eq}`agg_q_summ` partizio-funtzioa.
+$(a)$ Abiapuntutzat {eq}`agg_q_summ` partizio-funtzioa erabiliz, birkalkulatu {eq}`muagg` ekuaziotik {eq}`probagg` ekuaziora bitarteko magnitudeak, alegia:
+
+$$
+\widehat{\mu}, \; \mu, \; \mu^{(0)}, \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu)
+$$
+
+Bukatzeko, lortu $S^{(0)}$ limite makroskopikoa. 
 
 $(b)$ Egiaztatu {eq}`agg_sx` berdintza betetzen dela.
 

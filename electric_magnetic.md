@@ -552,3 +552,10 @@ $$
 $$ (agg_e_upsilon_1)
 
 
+Halaber, azpimarratzekoa da ezen, {numref}`{number} adibidean <mupt_linagg>` bezala, $x$ magnitudeak $x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}$ erlazioari eusten diola.
+
+
+`````{admonition} Iradokizuna
+:class: tip
+Egiaztatu azkenengo esaldian aipatutakoa, {eq}`agg_elek_mu` ekuazio-sortako $\mu$ eta $\mu^{(0)}$ potentzialen adierazpenak eta aurrez definitutako $x(T,\mu,\vert\mathbf{E}\vert) = j(T)\exp\left(\frac{-\epsilon + \mu }{k_{\mathrm{B}}T}\right)\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ erabiliz.
+`````

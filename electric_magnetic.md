@@ -559,3 +559,31 @@ Halaber, azpimarratzekoa da ezen, {numref}`{number} adibidean <mupt_linagg>` bez
 :class: tip
 Egiaztatu azkenengo esaldian aipatutakoa, {eq}`agg_elek_mu` ekuazio-sortako $\mu$ eta $\mu^{(0)}$ potentzialen adierazpenak eta aurrez definitutako $x(T,\mu,\vert\mathbf{E}\vert) = j(T)\exp\left(\frac{-\epsilon + \mu }{k_{\mathrm{B}}T}\right)\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ erabiliz.
 `````
+
+
+Esanak esan, betiko lez, {eq}`agg_e_upsilon_1` partizio-funtzioaren bitartez multzo nanokanonikoan magnitude termodinamikoak eraikiko ditugu. Hasteko, ekuazioak laburtzeko, $P(N)$ probabilitate-funtzioa definituko dugu:
+
+$$
+P(N) = \frac{Q(T,N,\vert\mathbf{E}\vert)e^{\mu N/k_{\mathrm{B}}T}}{\Upsilon(T,\mu,\vert\mathbf{E}\vert)} \quad \Rightarrow \quad P(0) = \frac{1}{\Upsilon}
+$$ (agg_e_pn)
+
+Batez besteko momentu dipolarraren eta entropiaren adierazpenak areago trinkotzeko, arras mesedegarria izango zaigu lehenik $\bar{N}$ unitateen batez bestekoa kalkulatzea:
+
+$$
+\bar{N} := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \mu}\right)_{T,\vert\mathbf{E}\vert} = -cxP(0)\left[\frac{x^3+11x^2+11x+1}{(x-1)^5}+\frac{y^2}{6}\frac{x^5+57x^4+302(x^3+x^2)+57x+1}{(x-1)^7}\right]
+$$ (agg_elek_nbar)
+
+Bada, ekuazio horri atxikiz, eta eragiketak (kontu handiz) burutuz gero, adierazpen hauetara heldu beharko genuke:
+
+$$
+\overline{\vert\mathbf{p}\vert}(T,\mu,\vert\mathbf{E}\vert) := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \vert\mathbf{E}\vert}\right)_{T,\mu} = \bar{N}\alpha\vert\mathbf{E}\vert + c(T)P(0)\frac{p_0^2\vert\mathbf{E}\vert}{3k_{\mathrm{B}}T}\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \; ,
+$$ (agg_elek_p_bar)
+
+alde batetik, eta, honako adierazpen adierazgarri honetara, bestetik:
+
+$$
+\frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
+$$
+$$
++ \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} + cP(0)\frac{p_0^2\vert\mathbf{E}\vert^2}{\left(k_{\mathrm{B}} T\right)^2} \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
+$$ (agg_elek_s_nc)

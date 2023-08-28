@@ -200,7 +200,7 @@ Horiek horrela, ariketa honetan dugun eginbeharra honako hau da:
 $(a)$ Abiapuntutzat {eq}`agg_q_summ` partizio-funtzioa erabiliz, birkalkulatu {eq}`muagg` ekuaziotik {eq}`probagg` ekuaziora bitarteko magnitudeak, alegia:
 
 $$
-\widehat{\mu}, \; \mu, \; \mu^{(0)}, \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu)
+\widehat{\mu}, \; \mu, \; \mu^{(0)}, \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu) \; .
 $$
 
 Bukatzeko, lortu $S^{(0)}$ limite makroskopikoa. 

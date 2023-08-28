@@ -585,5 +585,5 @@ $$
 \frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
 $$
 $$
-+ \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} + cP(0)\frac{p_0^2\vert\mathbf{E}\vert^2}{\left(k_{\mathrm{B}} T\right)^2} \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
++ \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} + cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
 $$ (agg_elek_s_nc)

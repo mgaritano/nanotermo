@@ -573,13 +573,13 @@ $$
 \bar{N} := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \mu}\right)_{T,\vert\mathbf{E}\vert} = -cxP(0)\left[\frac{x^3+11x^2+11x+1}{(x-1)^5}+\frac{y^2}{6}\frac{x^5+57x^4+302(x^3+x^2)+57x+1}{(x-1)^7}\right]
 $$ (agg_elek_nbar)
 
-Bada, ekuazio horri atxikiz, eta eragiketak (kontu handiz) burutuz gero, adierazpen hauetara heldu beharko genuke:
+Bada, ekuazio horri atxikiz, eta eragiketak (kontu handiz) burutuz gero, hona heldu beharko genuke:
 
 $$
 \overline{\vert\mathbf{p}\vert}(T,\mu,\vert\mathbf{E}\vert) := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \vert\mathbf{E}\vert}\right)_{T,\mu} = \bar{N}\alpha\vert\mathbf{E}\vert + c(T)P(0)\frac{p_0^2\vert\mathbf{E}\vert}{3k_{\mathrm{B}}T}\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \; ,
 $$ (agg_elek_p_bar)
 
-alde batetik, eta, honako adierazpen adierazgarri honetara, bestetik:
+ekuazora, alde batetik, eta, honako adierazpen adierazgarri honetara, bestetik:
 
 $$
 \frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
@@ -590,3 +590,4 @@ $$
 $$
 + \left\{cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
 $$ (agg_elek_s_nc)
+

@@ -162,10 +162,10 @@ name: pn_plot
 Sistema txikien eskualdean $(x \ll 1)$, maximo zolia du $N=\bar{N}$ puntuan probabilitate-banaketak, {eq}`barnagg` ekuazioaren bidez egiazta daitekeenez. Aitzitik, sistema handitu ahala, maximoaren kokapena lausotu egingo da, eta ez da $\mathrm{max}[P(N)] = P(\bar{N})$ beteko.
 ```
 
-Orain bai, {numref}`{number} irudiko <pn_plot>` oharrei atxikiz, zilegi zaigu {eq}`stnagg` eta {eq}`stmuagg` ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko {eq}`stnagg` ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko {eq}`stmuagg` adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, errotazioaz bestalde, $N$ partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!
+Orain bai, {numref}`{number} irudiko <pn_plot>` oharrei atxikiz, zilegi zaigu {eq}`stnagg` eta {eq}`stmuagg` ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko {eq}`stnagg` ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko {eq}`stmuagg` adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, biraketaz bestalde, $N$ partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!
 
 ```{admonition} Oharrak
-Oharteman bedi {eq}`stmuagg` ekuazioan $\epsilon < 0$ eta $x,P(0)<1$ betetzen dela. Bestalde, Hill-ek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: $S-S^{(0)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;$.
+Oharteman bedi {eq}`stmuagg` ekuazioan $\epsilon < 0$ eta $x,P(0)<1$ betetzen dela. 
 ```
 
 Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: $(a)$ sistema erabat askean gertatzen den entropiaren handiagotzea, eta, $(b)$ Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.
@@ -179,7 +179,27 @@ $$
 $$
 
 
+##### Ariketa
 
+Hill-ek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: 
+
+$$
+S-S^{(0)} \equiv S^{(x)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;
+$$ (agg_sx)
+
+Ariketa honen helburua, egiazki, {eq}`agg_sx` ekuaziora iristea da. Biraketaren eragina baztertu egingo dugunez, {eq}`qagg` partizio-funtzio kanonikoa honela laburtuko dugu:
+
+$$
+Q(T,N) = c(T)j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T} \quad (N\geq1)\; ,
+$$ (agg_q_summ)
+
+non $c(T) = e^{\epsilon/k_{\mathrm{B}}T}$, eta, noski, $Q(T,0) = 1$ diren. 
+
+Horiek horrela, ariketa honetan dugun eginbeharra honako hau da: 
+
+$(a)$ Birkalkulatu {eq}`muagg` eta {eq}`probagg` ekuazioen arteko magnitudeak, alegia, $\widehat{\mu}$, $\mu$, $\mu^{(0)}$, $S(T,N)$, $\Upsilon(T,\mu)$, $\mathscr{E}(T,\mu)$, $\bar{N}$, $P(N)$, $S(T,\mu)$, eta, bukatzeko, $S^{(0)}$ limite makroskopikoa. Hartu abiapuntutzat {eq}`agg_q_summ` partizio-funtzioa.
+
+$(b)$ Egiaztatu {eq}`agg_sx` berdintza betetzen dela.
 
 
 (mupt_gi)=

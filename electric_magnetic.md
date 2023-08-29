@@ -425,7 +425,7 @@ $(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena. Bertatik,
 Aurreko $(a)$ atalean erdietsitako $\widehat{\mu}$-ren ekuazioaren laguntzaz,
 
 $$
- \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \color{red}\left\{ \color{black} \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2} \color{red} \right\}\; ,
+ \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \color{red}\left\{ \color{black} \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2} \color{red} \right\}\; \color{black} ,
 $$ (agg_e_stn)
 
 zeinean,
@@ -599,11 +599,15 @@ $$
 \frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
 $$
 $$
-+ \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}}\right\} 
++ \color{red}\left\{ \color{black} - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} \color{red} \right\} 
 $$ 
 $$
-+ \left\{cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
++ \color{red} \left\{ \color{black} cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \color{red} \right\} \color{black} \; .
 $$ (agg_elek_s_nc)
 
 
-Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Lehenengo 
+Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala, $\bar{N}=N$ onartuz gero, aurreneko lerroan $S^{(0)}/k_{\mathrm{B}}$ gaia dugu. Hortik aurrera dagertzan gai guztiak tamaina finitukoak dira. Hala, bigarren lerroan, {eq}`stmuagg` ekuazioan eskuratutako gai gehigarria hauteman dezakegu. Alabaina, ohartu gaitezen adibide honetan definitu dugun $x$ aldagaiak, {numref}`{number} ataleko <mupt_linagg>` $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ delakoaren aldean, $\alpha$ polaziazioaren ondoriozko $\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ekarpena daramala.
+
+Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agetzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` aipatutako $\epsilon \approx -2,3*k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
+
+Jakina, kanpo-eremua kenduko bagenu, {eq}`stmuagg` ekuazioa berreskuratuko genuke.

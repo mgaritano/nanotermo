@@ -610,4 +610,4 @@ Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala,
 
 Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agetzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` aipatutako $\epsilon \approx -2,3*k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
 
-Jakina, kanpo-eremua kenduko bagenu, {eq}`stmuagg` ekuazioa berreskuratuko genuke.
+Jakina, kanpo-eremua kenduko bagenu, aurreko {eq}`stmuagg` ekuazioa berreskuratuko genuke.

@@ -87,7 +87,7 @@ $(b)$ Eraiki $S(T,N)/k_{\mathrm{B}}$ adierazpena. Aztertu limite makroskopikoan 
 ```{dropdown} __Erantzuna__
 
 $$
-\frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\ln j + NT\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \{1 + \ln\left(\xi N^3\right) \}
+\frac{S(T,N)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}}\left(\frac{\partial N\widehat{\mu}}{\partial T}\right)_{N} = N\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) +\color{red} \{1 + \ln\left(\xi N^3\right)\color{red} \}
 $$ (stnagg)
 
 Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak dira, limite termodinamikoan aurreko bi gai linealek baitaukate gailentasuna. Badirudi, hortaz, sistema makroskopikoak ez duela biraketaren eragina hautemango, ez eta unitateen arteko $\epsilon$ elkarrekintza ere.
@@ -140,7 +140,7 @@ $$ (barnagg)
 Espero bezala, $\bar{N}(x\rightarrow 1) \rightarrow \infty$ betetzen da. Entropiaren adierazpen berria eraiki, eta {eq}`barnagg` ekuazioaren laguntzaz trinkotuko dugu:
 
 $$
-\frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {\mu}  = \bar{N}\ln j + \bar{N}T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}
+\frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {\mu}  = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
 $$
 $$ + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}}\right\}
 $$(stmuagg)

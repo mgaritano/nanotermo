@@ -418,17 +418,31 @@ $$ (agg_elek_epsilon_k)
 ```
 
 
-$(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena.
+$(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena. Bertatik, eskuratu $S^{(0)}$ ekuazio makroskopikoa zein $S^{(x)}(T,N,\vert\mathbf{E}\vert) = S(T,N,\vert\mathbf{E}\vert) - S^{(0)}$ gai gehigarria.
 
 ```{dropdown} __Erantzuna__
 
 Aurreko $(a)$ atalean erdietsitako $\widehat{\mu}$-ren ekuazioaren laguntzaz,
 
 $$
- \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2}
+ \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \color{red}\left\{ \color{black} \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2} \color{red} \right\}\; ,
 $$ (agg_e_stn)
 
-Bada, {eq}`agg_e_stn` eta {eq}`agg_elek_epsilon_k` ekuazioak parez pare jarriz gero, argiro hauteman daiteke ezen entropiarako ekarpen ez-lineal positibo gehienak banatze-potentzialaren gai positiboekin lotuta daudela, zeina berearekin.
+zeinean,
+
+$$
+\frac{S^{(0)}}{k_\mathrm{B}} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right)
+$$ (agg_e_s0)
+
+eta
+
+$$
+\frac{S^{(x)}(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} = \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2}
+$$ (agg_e_sx_tn)
+
+ekarpenak bereiz baititzakegu.
+
+Bada, {eq}`agg_e_stn` eta {eq}`agg_elek_epsilon_k` ekuazioak parez pare jarriz gero, argiro hauteman daiteke ezen entropiarako ekarpen ez-lineal positibo gehienak banatze-potentzialaren gai positiboekin lotuta daudela, zeina berearekin. 
 
 ```
 
@@ -591,3 +605,5 @@ $$
 + \left\{cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6}\right\}
 $$ (agg_elek_s_nc)
 
+
+Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Lehenengo 

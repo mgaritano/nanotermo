@@ -225,13 +225,13 @@ S(T, N) = N k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}
 $$ (stn_agg_short)
 
 $$
-\Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \; ,
+\Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \; (x < 1) \; ,
 $$ (upsilon_agg_short)
 
 non $x(T,\mu)  =  j(T)e^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ gaiak bere horretan dirauen, eta, $c = e^{\epsilon/k_{\mathrm{B}}T}$ dugun.
 
 $$
-\mathscr{E}(T,\mu) = - k_{\mathrm{B}}T\ln\left(\frac{1-x+cx}{1-x}\right)
+\mathscr{E}(T,\mu) = - k_{\mathrm{B}}T\ln\left(\frac{1-x+cx}{1-x}\right) < 0
 $$ (epstmu_agg_short)
 
 $$

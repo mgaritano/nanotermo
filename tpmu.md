@@ -184,7 +184,7 @@ $$
 Hill-ek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: 
 
 $$
-S-S^{(0)} \equiv S^{(x)} = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;
+S(T,\mu)-S^{(0)} \equiv S^{(x)}(T,\mu) = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;
 $$ (agg_sx)
 
 Ariketa honen helburua, egiazki, {eq}`agg_sx` ekuaziora iristea da. Biraketaren eragina baztertu egingo dugunez, {eq}`qagg` partizio-funtzio kanonikoa honela laburtuko dugu:
@@ -223,6 +223,8 @@ $$
 S(T, N) = N k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) \equiv S^{(0)}
 $$ (stn_agg_short)
 
+Beraz, $S^{(x)}(T,N) = 0$ da.
+
 $$
 \Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \; (x < 1) \; ,
 $$ (upsilon_agg_short)
@@ -248,6 +250,25 @@ $$ (stmu_agg_short)
 ```
 
 $(b)$ Egiaztatu {eq}`agg_sx` berdintza betetzen dela.
+
+```{dropdown} __Erantzuna__
+
+Aurrez erdietsitako {eq}`pn_agg_short` ekuazioko $P(N)$ funtzioa erabiliz,
+
+$$
+-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = k_\mathrm{B}\ln\Upsilon - k_\mathrm{B}\frac{c(1-x)}{1-x+cx} \left\{\ln x\sum_{N=1}^{\infty}N x^N +\ln\left[\frac{c(1-x)}{1-x+cx}\right]\sum_{N=1}^{\infty} x^N\right\} \; .
+$$
+
+Serieak garatuz gero, 
+
+$$
+\sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \; (x < 1) \; .
+$$
+
+
+
+
+```
 
 
 (mupt_gi)=

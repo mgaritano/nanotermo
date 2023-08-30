@@ -243,7 +243,7 @@ P(N) = \begin{cases}\frac{1}{\Upsilon} & N = 0\\\frac{x^Nc(1-x)}{1-x+cx} & N  \g
 $$ (pn_agg_short)
 
 $$
-S(T,\mu) = \bar{N} k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  \color{red} + \left\{ \color{black} - \bar{N}k_\mathrm{B}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T} \right\}
+S(T,\mu) = \bar{N} k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  \color{red} + \left\{ \color{black} - \bar{N}k_\mathrm{B}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T} \color{red} \right\}
 $$ (stmu_agg_short)
 
 ```

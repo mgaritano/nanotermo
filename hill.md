@@ -30,7 +30,7 @@ $$
 \boxed{\mathscr{E} = \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_{S_{t},V_{t}, N_{t}}} \; .
 $$
 
-Berebat, lehengo ataleko multzo nanokanonikoaren inguruko azalpen lausoak argitzeko lagungarriak gerta daitezke. Ikusten denez, $\mathscr{E}$ potentzialak $\mu$ aldagaiaren eitea aurkezten du, eta, nolabait, azpisistemekin lotutako potentzial kimikotzat har liteke {cite}`hill_diff_app`. Aldaki bat gehitzean, $S_{t}, V_{t}$ eta $N_{t}$ aldagaiek konstante jarraituko dute, baina  birbanatu egingo dira. Hori dela eta, multzoaren azpisistemen banatzea aldatzeak sorrarazten duen ekarpen energetikoa adierazten du banatze-potentzialak.
+Berebat, lehengo ataleko multzo nanokanonikoaren gaineko azalpen lausoak argitzeko lagungarriak gerta daitezke. Ikusten denez, $\mathscr{E}$ potentzialak $\mu$ aldagaiaren eitea aurkezten du, eta, nolabait, azpisistemekin lotutako potentzial kimikotzat har liteke {cite}`hill_diff_app`. Aldaki bat gehitzean, $S_{t}, V_{t}$ eta $N_{t}$ aldagaiek konstante jarraituko dute, baina  birbanatu egingo dira. Hori dela eta, multzoaren azpisistemen banatzea aldatzeak sorrarazten duen ekarpen energetikoa adierazten du banatze-potentzialak.
 Hurrengo urratsa, {eq}`hill-gibbs` ekuaziotik barne-energiaren adierazpena erdiestea litzateke. Integratuz,
 
 $$

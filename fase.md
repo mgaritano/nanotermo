@@ -1,7 +1,7 @@
 (fase)=
 ## Sistema txikietako fase-trantsizioak
 
-Aparteko zati honetan, tamaina finituko efektuek bi oreka-egoeren arteko fase-trantsizioaren jokamoldeari dakarzkioten berezitasunen inguruan jardungo dugu.
+Aparteko zati honetan, tamaina finituko efektuek bi oreka-egoeren arteko fase-trantsizioaren jokamoldeari dakarzkioten berezitasunen gainean jardungo dugu.
 
 ```{dropdown} __Oharra__
 

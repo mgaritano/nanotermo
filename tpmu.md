@@ -244,26 +244,44 @@ P(N) = \begin{cases}\frac{1}{\Upsilon} & N = 0\\\frac{x^Nc(1-x)}{1-x+cx} & N  \g
 $$ (pn_agg_short)
 
 $$
-S(T,\mu) = \bar{N} k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  \color{red} + \left\{ \color{black} - \bar{N}k_\mathrm{B}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T} \color{red} \right\}
+S(T,\mu) = \bar{N} k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  \color{red} + \left\{ \color{black} - \bar{N}k_\mathrm{B}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T} \color{red} \right\} \color{black} = S^{(0)} + \color{red}S^{(x)} 
 $$ (stmu_agg_short)
 
 ```
 
-$(b)$ Egiaztatu {eq}`agg_sx` berdintza betetzen dela.
+$(b)$ Egiaztatu {eq}`agg_sx` berdintza.
 
 ```{dropdown} __Erantzuna__
 
 Aurrez erdietsitako {eq}`pn_agg_short` ekuazioko $P(N)$ funtzioa erabiliz,
 
 $$
--k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = k_\mathrm{B}\ln\Upsilon - k_\mathrm{B}\frac{c(1-x)}{1-x+cx} \left\{\ln x\sum_{N=1}^{\infty}N x^N +\ln\left[\frac{c(1-x)}{1-x+cx}\right]\sum_{N=1}^{\infty} x^N\right\} \; .
-$$
+-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\frac{c(1-x)}{1-x+cx} \left\{\ln x\sum_{N=1}^{\infty}N x^N +\ln\left[\frac{c(1-x)}{1-x+cx}\right]\sum_{N=1}^{\infty} x^N\right\} \; .
+$$ (pn_aux)
 
 Serieak garatuz gero, 
 
 $$
 \sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \; (x < 1) \; .
 $$
+
+Hortaz, {eq}`ekuazioa` honela berridatziko dugu:
+
+$$
+-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\left\{\frac{cx\ln x}{(1-x)(1-x+cx)}  + \frac{cx}{1-x+cx}\left( \ln c + \ln\left(\frac{1-x}{1-x+cx}\right)\right)\right\}
+$$
+
+Aurreko ataleko {eq}`nbar_agg_short`,  $P(0)$ eta $c$ magnitudeen adierazpenak aintzat hartuz gero,
+
+$$
+-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\left\{\bar{N}\ln x  + \left[1-P(0)\right]\left[ \frac{\epsilon}{k_\mathrm{B}T} + \ln P(0)\right]\right\} \; ,
+$$
+
+eta, ekuazioa txukunduz gero, helmugara iritsiko gara:
+
+$$
+\boxed{-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -\bar{N}\ln x + k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T}}
+$$ (pnlnpn_def)
 
 
 

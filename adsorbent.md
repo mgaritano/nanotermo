@@ -1,7 +1,7 @@
 (app)=
 ## Gas ideala eta adsorbatzaile esferiko txikia
 
-Amaierako atal honetan, Python programazio-lengoaia erabiliz, {cite}`ads` artikuluko emaitzak errepikatu eta aztertuko ditugu.
+Atal berezi honetan, Python programazio-lengoaia erabiliz, {cite}`ads` artikuluko emaitzak errepikatu eta aztertuko ditugu.
 
 ### Sistemaren azterketa
 

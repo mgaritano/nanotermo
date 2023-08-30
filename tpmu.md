@@ -200,10 +200,53 @@ Horiek horrela, ariketa honetan dugun eginbeharra honako hau da:
 $(a)$ Abiapuntutzat {eq}`agg_q_summ` partizio-funtzioa erabiliz, birkalkulatu {eq}`muagg` ekuaziotik {eq}`probagg` ekuaziora bitarteko magnitudeak, alegia:
 
 $$
-\widehat{\mu}, \; \mu, \; \mu^{(0)}, \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu) \; .
+\widehat{\mu}, \; \mu, \; \mu^{(0)}, \mathscr{E}(T,N), \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu) \; .
 $$
 
 Bukatzeko, lortu $S^{(0)}$ limite makroskopikoa. 
+
+```{dropdown} __Erantzuna__
+
+Lortu beharreko emaitzak ondorengo hauek dira:
+
+$$
+\left.\begin{array}{l}
+\widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon \\\\
+\mu=-k_{\mathrm{B}}T\ln j + \epsilon 
+\end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j + \epsilon
+$$ (muagg_short)
+
+$$
+\mathscr{E}(T,N) = -\epsilon > 0
+$$ (epstn_agg_short)
+
+$$
+S(T, N) = N k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
+$$ (stn_agg_short)
+
+$$
+\Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \; ,
+$$ (upsilon_agg_short)
+
+non $x(T,\mu)  =  j(T)e^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ gaiak bere horretan dirauen, eta, $c = e^{\epsilon/k_{\mathrm{B}}T}$ dugun.
+
+$$
+\mathscr{E}(T,\mu) = - k_{\mathrm{B}}T\ln\left(\frac{1-x+cx}{1-x}\right)
+$$ (epstmu_agg_short)
+
+$$
+\bar{N} = \frac{cx}{(1-x)(1-x+cx)}
+$$ (nbar_agg_short)
+
+$$
+P(N) = \begin{cases}\frac{1}{\Upsilon} & N = 0\\\frac{x^Nc(1-x)}{1-x+cx} & N  \geq 1\end{cases}
+$$ (pn_agg_short)
+
+$$
+S(T,\mu) = \bar{N} k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  \color{red} + \left\{ \color{black} - \bar{N}k_\mathrm{B}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T} \right\}
+$$ (stmu_agg_short)
+
+```
 
 $(b)$ Egiaztatu {eq}`agg_sx` berdintza betetzen dela.
 

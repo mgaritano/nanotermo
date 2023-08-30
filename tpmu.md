@@ -203,7 +203,6 @@ $$
 \widehat{\mu}, \; \mu, \; \mu^{(0)}, \mathscr{E}(T,N), \; S(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T,\mu), \; \bar{N}, \; P(N) \; \text{eta} \; S(T,\mu) \; .
 $$
 
-Bukatzeko, lortu $S^{(0)}$ limite makroskopikoa. 
 
 ```{dropdown} __Erantzuna__
 
@@ -221,7 +220,7 @@ $$
 $$ (epstn_agg_short)
 
 $$
-S(T, N) = N k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
+S(T, N) = N k_\mathrm{B} \left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) \equiv S^{(0)}
 $$ (stn_agg_short)
 
 $$

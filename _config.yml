@@ -56,4 +56,4 @@ sphinx:
         use_issues_button: true
         use_repository_button: false
         use_edit_page_button: false
-      language: basque
+      language: eu

@@ -68,14 +68,7 @@ $$
 $$ (upsilon_sph_int)
 
 ```{dropdown} __Oharra__
-Atal honetan zehar azalduko diren integralen kalkuluak arras luzeak eta konplexuak dira. Esaterako, {eq}`upsilon_sph_int` ekuazioan ageri denak hiru aldagai-aldaketa egitea eskatzen du. Inork kalkuluei ekiteko ausardia balu, jakin beza integral ez-mugatu horren soluzioa honako hau dela:
-
-$$
- \dfrac{\mathrm{e}^{-{\alpha}N^\frac{2}{3}}\cdot\left(\left(45\sqrt{{\pi}}\,{\alpha}^3{\beta}{\delta}+12\sqrt{{\pi}}\,{\alpha}^5\right)\operatorname{erf}\left(\sqrt{{\alpha}}\sqrt[3]{N}\right)\,\mathrm{e}^{{\alpha}N^\frac{2}{3}}-24{\alpha}^\frac{11}{2}{\beta}{\delta}N^\frac{5}{3}+24{\alpha}^\frac{11}{2}{\delta}N^\frac{4}{3}-60{\alpha}^\frac{9}{2}{\beta}{\delta}N+\left(48{\alpha}^\frac{9}{2}{\delta}+24{\alpha}^\frac{11}{2}{\beta}\right)N^\frac{2}{3}+\left(-90{\alpha}^\frac{7}{2}{\beta}{\delta}-24{\alpha}^\frac{11}{2}\right)\sqrt[3]{N}+48{\alpha}^\frac{7}{2}{\delta}+24{\alpha}^\frac{9}{2}{\beta}\right)}{16{\alpha}^\frac{13}{2}}
-$$
-
-
-Guk, jakina, sistemaren azterketa nanotermodinamikoa burutzea dugunez xedea, ez gara inondik inora horrelako sasiarteetan sartuko.
+Atal honetan zehar azalduko diren integralen kalkuluak arras luzeak eta konplexuak dira. Esaterako, {eq}`upsilon_sph_int` ekuazioan ageri denak hiru aldagai-aldaketa egitea eskatzen du. Guk, jakina, sistemaren azterketa nanotermodinamikoa burutzea dugunez xedea, ez gara inondik inora horrelako sasiarteetan sartuko.
 
 ```
 

@@ -262,10 +262,10 @@ $$ (pn_aux)
 Serieak garatuz gero, 
 
 $$
-\sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \; (x < 1) \; .
+\sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \;\; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \;\; (x < 1) \; .
 $$
 
-Hortaz, {eq}`ekuazioa` honela berridatziko dugu:
+Hortaz, {eq}`pn_aux` ekuazioa honela berridatziko dugu:
 
 $$
 -k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\left\{\frac{cx\ln x}{(1-x)(1-x+cx)}  + \frac{cx}{1-x+cx}\left( \ln c + \ln\left(\frac{1-x}{1-x+cx}\right)\right)\right\}

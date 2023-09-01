@@ -67,7 +67,7 @@ Ohartu gaitezen $N=0$ denean ez dela ez biraketarik ez, are gutxiago, elkarrekin
 
 #####  Ariketa
 
-$(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, baita berorien $N\rightarrow \infty$ limitea ere.
+$(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, baita berorien $N\rightarrow \infty$ limitea zein $\mathscr{E}(T,N)$ ere.
 
 ```{dropdown} __Erantzuna__
 
@@ -78,6 +78,8 @@ $$
 \widehat{\mu}=-k_{\mathrm{B}}T\ln j + \frac{N-1}{N} \epsilon - \frac{\ln(\xi N^3)}{N}k_{\mathrm{B}}T \\\\
 \mu=-k_{\mathrm{B}}T\ln j + \epsilon -\frac{3}{N}k_{\mathrm{B}} T
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j + \epsilon
+\\
+\frac{\mathscr{E}(T,N)}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\frac{\epsilon}{k_\mathrm{B}T} + 3  -\ln(\xi N^3)
 $$ (muagg)
 
 ```

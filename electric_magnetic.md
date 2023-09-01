@@ -412,7 +412,7 @@ $$
 $$ (agg_elek_mu)
 
 $$
-\frac{\mathscr{E}}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\ln(\xi N^3)-\frac{\epsilon}{k_\mathrm{B}T} - \ln\left(1+\frac{N^2y^2}{6}\right) + 3 + \frac{2N^2y^2}{6+N^2y^2}
+\frac{\mathscr{E}(T,N)}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\frac{\epsilon}{k_\mathrm{B}T} + 3  -\ln(\xi N^3) - \ln\left(1+\frac{N^2y^2}{6}\right)  + \frac{2N^2y^2}{6+N^2y^2}
 $$ (agg_elek_epsilon_k)
 
 ```

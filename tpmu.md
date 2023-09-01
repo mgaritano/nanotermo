@@ -147,8 +147,8 @@ Espero bezala, $\bar{N}(x\rightarrow 1) \rightarrow \infty$ betetzen da. Entropi
 $$
 \frac{S(T,\mu)}{k_{\mathrm{B}}} := -\frac{1}{k_{\mathrm{B}}} \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {\mu}  = \bar{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
 $$
-$$ + \left\{ - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}}\right\}
-$$(stmuagg)
+$$ + \color{red} \left\{ \color{black} - \bar{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} \color{red} \right\}
+$$(stmuagg) 
 
 Ohartu gaitezen aurreko bi ekuazioetan azaltzen den $P(0)$ funtzioa sistemak $N$ unitate izateko probabilitateak betetzen duen adierazpenetik erauzi dugula, alegia,
 

@@ -79,8 +79,11 @@ $$
 \mu=-k_{\mathrm{B}}T\ln j + \epsilon -\frac{3}{N}k_{\mathrm{B}} T
 \end{array}\right\}\underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; \mu^{(0)} = -k_{\mathrm{B}}T\ln j + \epsilon
 \\
-\frac{\mathscr{E}(T,N)}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\frac{\epsilon}{k_\mathrm{B}T} + 3  -\ln(\xi N^3)
 $$ (muagg)
+
+$$
+\frac{\mathscr{E}(T,N)}{k_\mathrm{B}T} = \frac{N(\widehat{\mu}-\mu)}{k_\mathrm{B}T} = -\frac{\epsilon}{k_\mathrm{B}T} + 3  -\ln(\xi N^3)
+$$ (eps_agg_tn)
 
 ```
 
@@ -130,7 +133,7 @@ Bertatik, eta {eq}`epspf` berdintza erabiliz,
 
 $$
 \mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln \left\{1 + c\left[\frac{6x^2}{(x-1)^4} + \frac{x}{(x-1)^2}\right]\right\} \;
-$$ (epsagg)
+$$ (epsagg_tmu)
 da banatze-potentziala.
 
 Kontuan izan beharrekoa da, {eq}`muagg` ekuazioko $\mu^{(0)}$ potentzialari erreparatuz, $x = e^{({\mu} - \mu^{(0)})/k_{\mathrm{B}}T}$ berridaztea daukagula. Hortaz, limite makroskopikoan $x\rightarrow 1$ beteko da. Azter dezagun, bada, batez besteko partikula-kopuruan $x$ magnitudeak duen eragina.

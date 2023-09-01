@@ -3,7 +3,9 @@
 
 title: NANOTERMODINAMIKA
 author: Mikel Garitano Telleria
+copyright                   : "2023"  # Copyright year to be placed in the footer
 logo: logo.png
+only_build_toc_files        : false
 
 jupyter_book:
   template:

@@ -170,7 +170,7 @@ Sistema txikien eskualdean $(x \ll 1)$, maximo zolia du $N=\bar{N}$ puntuan prob
 Orain bai, {numref}`{number} irudiko <pn_plot>` oharrei atxikiz, zilegi zaigu {eq}`stnagg` eta {eq}`stmuagg` ekuazioetako lehen bi gaiak bat datozela baieztatzea. Hori argituta, berrar dezagun lehengo haria. So egin diezaiegun giltzen artean dagertzan tamaina finituko ekarpenei. Bada, multzo kanonikoko {eq}`stnagg` ekuazioaren kasuan, soilik biraketari dagokion askatasun-graduaren ondoriozkoak dira ekarpenok. Aitzitik, multzo nanokanonikoko {eq}`stmuagg` adierazpenean gai gehiago agertzen dira, guztiak positiboak. Izan ere, biraketaz bestalde, $N$ partikula-kopuruaren inguruko fluktuazioek entropia areago handituko dute!
 
 ```{admonition} Oharra
-Oharteman bedi {eq}`stmuagg` ekuazioan $x < 1$ eta $P(0) \leq 1$ betetzen dela. Berebat, ohiko agregatu lineal batean, $e^{-\epsilon/k_{\mathrm{B}}T} = 0.1$ izan ohi da {cite}`hill`. Hortaz, $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T < 0$ dugu. 
+Oharteman bedi {eq}`stmuagg` ekuazioan $x < 1$ eta $P(0) \leq 1$ betetzen dela. Berebat, ohiko agregatu lineal batean, $e^{\epsilon/k_{\mathrm{B}}T} = 0.1$ izan ohi da {cite}`hill`. Hortaz, $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T < 0$ dugu. 
 ```
 
 Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: $(a)$ sistema erabat askean gertatzen den entropiaren handiagotzea, eta, $(b)$ Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.

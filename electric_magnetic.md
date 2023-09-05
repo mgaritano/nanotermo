@@ -216,7 +216,7 @@ Behin $S(T, n_J)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\bar{N}(\mu)
 height: 350px
 name: sn100
 ---
-Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, bi kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, bi adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan ageri den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
+Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, hiru kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan aipatzen den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
 
 ```
 

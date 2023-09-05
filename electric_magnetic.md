@@ -209,7 +209,7 @@ zeinaren limite makroskopikoa, berriz ere, $\bar{N}k_{\mathrm{B}}\ln 2$ den.
 
 **----------------------------------------------------**
 
-Behin $S(T, n_J)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\bar{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
+Behin $S(T, n_+)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\bar{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
 
 ```{figure} ising_1_s.png
 ---

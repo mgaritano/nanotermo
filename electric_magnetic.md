@@ -175,8 +175,7 @@ $$(epsilon_ising)
 
 ```
 
-$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\bar{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\bar{N}(\mu))$
-adierazpenera heltzeko.
+$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\bar{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\bar{N}(\mu))$ adierazpenera heltzeko, eta maximizatu berori.
 
 ```{dropdown} __Erantzuna__
 
@@ -198,11 +197,19 @@ $$
 \boxed{S(T,\bar{N}(\mu)) = \bar{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\bar{N}+1}{\bar{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right]} \; .
 $$ (s_tbarn_ising)
 
+Funtzio horrek ere maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ puntuan:
+
+$$
+S(T, \bar{N}(\mu))_{\text{max}} = \bar{N}k_{\mathrm{B}}\ln \left(2\frac{\bar{N}+1}{\bar{N}}\right) + k_{\mathrm{B}}\ln\left[2(\bar{N}+1)\right] \; ,
+$$ (s_max_nanokano)
+
+zeinaren limite makroskopikoa, berriz ere, $\bar{N}k_{\mathrm{B}}\ln 2$ den.
+
 ```
 
 **----------------------------------------------------**
 
-Behin $S(T, N)$ eta $S(T,\bar{N}(\mu))$ adierazpenak kalkulatuz gero, adierazgarria litzateke bien arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
+Behin $S(T, n_J)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\bar{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
 
 ```{figure} ising_1_s.png
 ---

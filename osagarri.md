@@ -64,7 +64,7 @@ $$
 Gauzak horrela, kalkuluei ekin aurretik, bada argitu beharreko beste hainbat kontu. Izan ere, aurreko paragrafoko azalpenei jarraituz, aztergai dugun agregatuaren tamaina zentzuzkoa izan dadin, $\delta \rightarrow 0^{+}$ limitera jo beharko dugu, hark mantenduko baikaitu dibergentziatik urrun. Bestalde, $aN^{2/3}$ gainazal energia askea errealista izango da soilik $N$ aski handietarako (adibidez, $N>20$). Hori dela eta, {eq}`upsilon_sph` ekuazioan, $N$ aldagaiarekiko batukariaren ordez, integrala kalkulatuko dugu. Aipatzekoa da eredu hau $N$ txikietarako desegokia izanagatik, $\bar{N}$ handi samarra denean errorea ez dela hain esanahitsua izango. Bukatzeko, arestian kurbadura-efektuen inguruan esandakoaren harira, $\beta \rightarrow 0^{+}$ limitea erabiltzea ere zilegi zaigu. Azaldutako hori guztia jarraian datorren partizio-funtzioaren adierazpen moldatuan islatuko dugu:
 
 $$
-\Upsilon (T,\mu) \approx \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}\left[1-\beta(T) N^{1/3}\right] \; .
+\Upsilon (T,\mu) = \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}e^{-\beta(T) N^{1/3}} \approx \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}\left[1-\beta(T) N^{1/3}\right] \; .
 $$ (upsilon_sph_int)
 
 ```{dropdown} __Integralaren kalkulurako argibideak__
@@ -147,7 +147,7 @@ da multzo nanokanonikoak itzuliko digun entropia. So egin diezaiogun hari; eta, 
 
 Bada, $S(T,\mu)$ ekuazioan hiru gai gehigarri azaltzen dira. Agerikoa da azkenengo biek (positiboak) $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioen ondoriozko entropiaren gorakadaren erantzuleak direla. Edonola ere, banatze-potentzialarekin lotutako azken-hirugarren gaiak azterketa sakonagoa eskatzen du. Izan ere, logaritmoak balio positiboa itzul dezan, honako eskakizun hauek betearazi behar ditugu: $\alpha < 1$ eta $\alpha \gg \beta$ izatea. Bigarren eskakizuna bada bateragarria arestian aurkeztutako baldintzekin. Beinke, horrela parentesi barneko lehenengo gaia soilik mantendu ahal izango dugu. Beraz, zilegi zaigu, gai horretan, behintzat, kurbadura-efektuak baztertzea. 
 
-Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu. Lehendabizi, alabaina, $\bar{N}$ magnitudea moldatzea komeni da, horrek gainerako adierazpenak adierazgarriago bihurraraziko dituelakoan. Bada, {eq}`bar_n_sph` ekuaziotik,
+Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu. Lehendabizi, alabaina, $\bar{N}$ magnitudea moldatuko dugu, horrek gainerako adierazpenak adierazgarriago bihurraraziko dituelakoan. Bada, {eq}`bar_n_sph` ekuaziotik,
 
 $$
 \bar{N} \approx \frac{4}{\pi^{1/2}\alpha^{3/2}} \; ,
@@ -195,6 +195,13 @@ $$ (sph_agg_s_def)
 Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ aldagaiarekiko menpekotasuna, hots, $\Upsilon(T,\mu) = \Upsilon(\alpha(T),\delta(T,\mu))$.
 
 **----------------------------------------------------**
+
+##### Ariketa
+Oraingoan, aurreko ariketa aurkako limitera eramango dugu. Hain zuzen, bakarrik kurbadurari dagokion gaiarekin jardungo dugu lanean. Horrela, bide batez, kurbadurak berak sistemaren funtzio termodinamikoetan duen benetako eragina azaleratzea lortuko dugu, orain arte ez bezala. Izan ere, dakargun gogora {eq}`` ekuazioko logaritmoaren barneko gaiaren harira, $\beta = 0$ baldintza inposatu behar izan dugula, preseski, gai horrek entropiareko ekarpen positiboa izan dezan. Izan ere, oharteman dezagun kurbadurarekin lotutako $\beta$ magnitudea handitzeak aurrekoa eragotziko lukeela. Horrek sistemari kurbadura-efektuak gaineratzeak orotariko entropia jaitsiko lukeela pentsaraz liezaguke. 
+
+Alabaina, ernai ibili behar dugu! Orain arte erabilitako adierazpen guztiak soilik $\beta \rightarrow 0^+$ limitean dira baliagarriak, limite horrek ahalbidetu baitu, oroz gain, $e^{-\beta N^{1/3}}$ funtzioaren Taylorren seriearen lehenengo bi gaiak erabiliz, {eq}`upsilon_sph_int` ekuazioko ezkerraldeko integral malkartsua saihestea, eta, haren hurbilketara joz, aurrera egitea. Horrenbestez, 
+
+
 
 (mupt_id_lattice)=
 ### Kristal-sare idealeko gasa

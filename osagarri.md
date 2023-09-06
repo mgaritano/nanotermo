@@ -22,7 +22,7 @@ $$
 $$ (sph_agg_mu)
 
 $$
-\mathscr{E} = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T) \; .
+\mathscr{E} (T,N) = N\left(\widehat{\mu}-\mu\right) = \frac{1}{3}N^{2/3}a(T) + \frac{2}{3}N^{1/3}b(T) > 0 \; .
 $$ (sph_epsilon_c)
 
 Horiekin batera, honako bi magnitudeak idatziko ditugu, gerora erabilgarriak gertatuko zaizkigu eta:
@@ -98,7 +98,7 @@ $$ (upsilon_sph_good)
 Hortik, hasteko, batez besteko $\bar{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta(T,\mu)$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
 
 $$
- \bar{N} := -\left(\frac{\partial \mathscr{E}}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{48\alpha^{1/2}-45\pi^{1/2}\beta}{4\alpha^{3/2}(3\pi^{1/2}\alpha^{1/2}-6\beta)}\; .
+ \bar{N} := -\left(\frac{\partial \mathscr{E}(T,\mu)}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{48\alpha^{1/2}-45\pi^{1/2}\beta}{4\alpha^{3/2}(3\pi^{1/2}\alpha^{1/2}-6\beta)}\; .
 $$ (bar_n_sph)
 
 Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\bar{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
@@ -134,7 +134,7 @@ izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak adit
 Banatze-potentzialaren ekuazioa ere idatziko dugu:
 
 $$
-\mathscr{E} = -k_{\mathrm{B}}T\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}\right)\; .
+\mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}\right)\; .
 $$ (sph_epsilon_nc)
 
 Horixe da $S(T,\mu)$ entropia eraikitzeko behar dugun azkenengo osagaia. Izan ere, sistema txikiari dagokion {eq}`e_small` ekuazioa adibide jakin honetan honela berridatziko dugu: $\bar{E} = TS + \mu^{(0)}N + \mathscr{E}$. Bada, oroitu gaitezen, alde batetik, askatasun-gradu mekanikoaren ekarpena baztertu dugula hasieratik; bestetik, potentzial kimikoaren balioa $\mu^{(0)}$ limitea da. Horrenbestez, ekuaziotik $S$ askatuz,
@@ -145,14 +145,16 @@ $$ (s_sph_agg_tmu)
 
 da multzo nanokanonikoak itzuliko digun entropia. So egin diezaiogun hari; eta, aurrez hainbatetan egindakoaren harira, ipin dezagun parez pare {eq}`s_sph_agg_tn` adierazpenarekin.
 
-Bada, $S(T,\mu)$ ekuazioan hiru gai gehigarri azaltzen dira. Agerikoa da azkenengo biek (positiboak) $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioen ondoriozko entropiaren gorakadaren erantzuleak direla. Edonola ere, banatze-potentzialarekin lotutako azken-hirugarren gaiak azterketa sakonagoa eskatzen du. Izan ere, logaritmoak balio positiboa itzul dezan, honako eskakizun hauek betearazi behar ditugu: $\alpha < 1$ eta $\alpha \gg \beta$ izatea. Bigarren eskakizuna bada bateragarria arestian aurkeztutako baldintzekin. Beinke, horrela parentesi barneko lehenengo gaia soilik mantendu ahal izango dugu. Beraz, zilegi zaigu, gai horretan, behintzat, kurbadura-efektuak baztertzea. Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu:
+Bada, $S(T,\mu)$ ekuazioan hiru gai gehigarri azaltzen dira. Agerikoa da azkenengo biek (positiboak) $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioen ondoriozko entropiaren gorakadaren erantzuleak direla. Edonola ere, banatze-potentzialarekin lotutako azken-hirugarren gaiak azterketa sakonagoa eskatzen du. Izan ere, logaritmoak balio positiboa itzul dezan, honako eskakizun hauek betearazi behar ditugu: $\alpha < 1$ eta $\alpha \gg \beta$ izatea. Bigarren eskakizuna bada bateragarria arestian aurkeztutako baldintzekin. Beinke, horrela parentesi barneko lehenengo gaia soilik mantendu ahal izango dugu. Beraz, zilegi zaigu, gai horretan, behintzat, kurbadura-efektuak baztertzea. 
+
+Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu. Lehendabizi, alabaina, $\bar{N}$ magnitudea moldatzea komeni da, horrek gainerako adierazpenak adierazgarriago bihurraraziko dituelakoan. Bada, {eq}`bar_n_sph` ekuaziotik,
 
 $$
 \bar{N} \approx \frac{4}{\pi^{1/2}\alpha^{3/2}} \; ,
 $$ (bar_n_sph_approx)
 
 $$
-\mathscr{E} \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi\bar{N}}{16}\right) \; ,
+\mathscr{E}(T,\mu) \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}}\right) = -k_{\mathrm{B}}T\ln\left(\frac{3\pi\bar{N}}{16}\right) \; ,
 $$ (sph_epsilon_nc_approx)
 
 $$

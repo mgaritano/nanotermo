@@ -61,7 +61,7 @@ $$
 \delta(T,\mu) = \frac{-\mu^{(x)}}{k_{\mathrm{B}}T} = \frac{\mu^{(0)}-\mu}{k_{\mathrm{B}}T} \quad , \quad \alpha(T) = \frac{a(T)}{k_{\mathrm{B}}T} \quad , \quad \beta(T) = \frac{b(T)}{k_{\mathrm{B}}T} \; .
 $$
 
-Gauzak horrela, kalkuluei ekin aurretik, bada argitu beharreko beste hainbat kontu. Izan ere, aurreko paragrafoko azalpenei jarraituz, aztergai dugun agregatuaren tamaina zentzuzkoa izan dadin, $\delta \rightarrow 0^{+}$ limitera jo beharko dugu, hark mantenduko baikaitu dibergentziatik urrun. Bestalde, $aN^{2/3}$ gainazal energia askea errealista izango da soilik $N$ aski handietarako (adibidez, $N>20$). Hori dela eta, {eq}`upsilon_sph` ekuazioan, $N$ aldagaiarekiko batukariaren ordez, integrala kalkulatuko dugu. Aipatzekoa da eredu hau $N$ txikietarako desegokia izanagatik, $\bar{N}$ handi samarra denean errorea ez dela hain esanahitsua izango. Bukatzeko, arestian kurbadura-efektuen inguruan esandakoaren harira, $\beta \rightarrow 0^{+}$ limitea erabiltzea ere zilegi zaigu. Azaldutako hori guztia jarraian datorren partizio-funtzioaren adierazpen moldatuan islatuko dugu:
+Gauzak horrela, kalkuluei ekin aurretik, bada argitu beharreko beste hainbat kontu. Izan ere, aurreko paragrafoko azalpenei jarraituz, aztergai dugun agregatuaren tamaina zentzuzkoa izan dadin, $\delta \rightarrow 0^{+}$ limitera jo beharko dugu, hark mantenduko baikaitu dibergentziatik urrun. Bestalde, $aN^{2/3}$ gainazal energia askea errealista izango da soilik $N$ aski handietarako (adibidez, $N>20$). Hori dela eta, {eq}`upsilon_sph` ekuazioan, $N$ aldagaiarekiko batukariaren ordez, integrala kalkulatuko dugu. Aipatzekoa da eredu hau $N$ txikietarako desegokia den arren, $\bar{N}$ handi samarra denean errorea ez dela hain esanahitsua izango. Bukatzeko, arestian kurbadura-efektuen inguruan esandakoaren harira, $\beta \rightarrow 0^{+}$ limitea erabiltzea ere zilegi zaigu. Azaldutako hori guztia jarraian datorren partizio-funtzioaren adierazpen moldatuan islatuko dugu:
 
 $$
 \Upsilon (T,\mu) = \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}e^{-\beta(T) N^{1/3}} \approx \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}\left[1-\beta(T) N^{1/3}\right] \; .
@@ -163,7 +163,7 @@ $$ (approx)
 
 Erabilitako limiteak gai arazotsu horren benetako izaera jarri du agerian; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
-Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin, alegia:
+Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\bar{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \bar{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin limite makroskopikoan, alegia:
 
 $$
 \boxed{\begin{gathered}
@@ -197,9 +197,24 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 **----------------------------------------------------**
 
 ##### Ariketa
-Oraingoan, aurreko ariketa aurkako limitera eramango dugu. Hain zuzen, bakarrik kurbadurari dagokion gaiarekin jardungo dugu lanean. Horrela, bide batez, kurbadurak berak sistemaren funtzio termodinamikoetan duen benetako eragina azaleratzea lortuko dugu, orain arte ez bezala. Izan ere, dakargun gogora {eq}`` ekuazioko logaritmoaren barneko gaiaren harira, $\beta = 0$ baldintza inposatu behar izan dugula, preseski, gai horrek entropiareko ekarpen positiboa izan dezan. Izan ere, oharteman dezagun kurbadurarekin lotutako $\beta$ magnitudea handitzeak aurrekoa eragotziko lukeela. Horrek sistemari kurbadura-efektuak gaineratzeak orotariko entropia jaitsiko lukeela pentsaraz liezaguke. 
+Oraingoan, aurreko ariketa aurkako limitera eramango dugu. Hain zuzen, bakarrik kurbadurari dagokion gaiarekin jardungo dugu lanean. Horrela, bide batez, kurbadurak berak sistemaren funtzio termodinamikoetan duen benetako eragina azaleratzea lortuko dugu, orain arte ez bezala. Izan ere, dakargun gogora {eq}`s_sph_agg_tmu` ekuazioko logaritmoaren barneko gaiaren harira, $\beta = 0$ baldintza inposatu behar izan dugula, preseski, gai horrek entropiareko ekarpen positiboa izan dezan. Izan ere, oharteman dezagun kurbadurarekin lotutako $\beta$ magnitudea handitzeak aurrekoa eragotziko lukeela. Horren kariaz, kurbadura-efektuak gaineratzeak sistemaren entropia jaitsiko lukeela pentsaraz liezaguke. 
 
-Alabaina, ernai ibili behar dugu! Orain arte erabilitako adierazpen guztiak soilik $\beta \rightarrow 0^+$ limitean dira baliagarriak, limite horrek ahalbidetu baitu, oroz gain, $e^{-\beta N^{1/3}}$ funtzioaren Taylorren seriearen lehenengo bi gaiak erabiliz, {eq}`upsilon_sph_int` ekuazioko ezkerraldeko integral malkartsua saihestea, eta, haren hurbilketara joz, aurrera egitea. Horrenbestez, 
+Alabaina, ernai ibili behar dugu! Orain arte erabilitako adierazpen guztiak soilik $\beta \rightarrow 0^+$ limitean dira baliagarriak, limite horrek ahalbidetu baitu, oroz gain, $e^{-\beta N^{1/3}}$ funtzioaren Taylorren seriearen lehenengo bi gaiak erabiliz, {eq}`upsilon_sph_int` ekuazioko ezkerraldeko integral malkartsua saihestea, eta, haren hurbilketara joz, aurrera egitea. Horrenbestez, ez zaigu zilegi izango, lortutako emaitzen bitartez, aurreko paragrafoan aurkeztutako hausnarketa bideratzea, horrek okerreko bidetik eramango gaitu eta.
+
+Egoera korapilotsu eta lauso hori argitzeko, ariketa honetan atal guztian barrena burututako azterketa berrabiaraziko dugu, gainazal-efektuak erabat baztertuz, eta, arreta guztia kurbaturaren ondoriozko ekarpenetara bideratuz. Horiek horrela, abiapuntua
+
+$$
+Q(T,N) = j(T)^N\;e^{-\beta(T)N^{1/3}}
+$$ (sph_agg_q_b)
+
+partizio-funtzio kanonikoa da. 
+
+$(a)$ Birkalkulatu magnitude hauek, {eq}`sph_agg_q_b` ekuazioaren bitartez:
+
+$$ 
+\mu^{(x)}(T,N), \; S(T,N), \; \bar{E}(T,N), \; \Upsilon(T,\mu), \; \mathscr{E}(T, \mu),\; \bar{N},\; \overline{N^{1/3}},\; \bar{E}(T,\mu), \; S(T,\mu) \; .
+$$
+
 
 
 

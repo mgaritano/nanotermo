@@ -67,8 +67,24 @@ $$
 \Upsilon (T,\mu) \approx \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}\left[1-\beta(T) N^{1/3}\right] \; .
 $$ (upsilon_sph_int)
 
-```{dropdown} __Oharra__
-Atal honetan zehar azalduko diren integralen kalkuluak arras luzeak eta konplexuak dira. Esaterako, {eq}`upsilon_sph_int` ekuazioan ageri denak hiru aldagai-aldaketa egitea eskatzen du. Guk, jakina, sistemaren azterketa nanotermodinamikoa burutzea dugunez xedea, ez gara inondik inora horrelako sasiarteetan sartuko.
+```{dropdown} __Integralaren kalkulurako argibideak__
+
+Erlazio hauek erabilgarriak izango zaizkigu {eq}`upsilon_sph_good` adierazpenera iristeko:
+
+$$
+\int_{0}^{\infty} \mathrm{d}x\; e^{-ax^b} = \frac{1}{b}a^{-1/b}\;\Gamma\left(\frac{1}{b}\right) \; ,
+$$
+
+$$
+\int_{0}^{\infty} \mathrm{d}x\; x^ne^{-ax^b} = \frac{1}{b}a^{-(n+1)/b}\;\Gamma\left(\frac{n+1}{b}\right) 
+$$
+
+eta
+
+$$
+\Gamma\left(\frac{1}{2} + n \right) = \frac{(2n)!}{4^n n!}\pi^{1/2} \; .
+$$
+
 
 ```
 

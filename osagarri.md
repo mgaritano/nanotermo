@@ -182,7 +182,7 @@ Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 
 ##### Ariketa
-Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbatura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
+Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbadura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
 
 $(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\bar{E}(T,N),\;\Upsilon(T,\mu),\;\bar{N},\;\bar{E}(T,\mu)$ eta $S(T,\mu)$.
 
@@ -197,11 +197,11 @@ Horretarako, kontuan izan zer-nolakoa den partizio-funtzio orokortuaren $T$ alda
 **----------------------------------------------------**
 
 ##### Ariketa
-Oraingoan, aurreko ariketa aurkako limitera eramango dugu. Hain zuzen, bakarrik kurbadurari dagokion gaiarekin jardungo dugu lanean. Horrela, bide batez, kurbadurak berak sistemaren funtzio termodinamikoetan duen benetako eragina azaleratzea lortuko dugu, orain arte ez bezala. Izan ere, dakargun gogora {eq}`s_sph_agg_tmu` ekuazioko logaritmoaren barneko gaiaren harira, $\beta = 0$ baldintza inposatu behar izan dugula, preseski, gai horrek entropiareko ekarpen positiboa izan dezan. Izan ere, oharteman dezagun kurbadurarekin lotutako $\beta$ magnitudea handitzeak aurrekoa eragotziko lukeela. Horren kariaz, kurbadura-efektuak gaineratzeak sistemaren entropia jaitsiko lukeela pentsaraz liezaguke. 
+Oraingoan, aurreko ariketa aurkako limitera eramango dugu. Hain zuzen, bakarrik kurbadurari dagokion gaiarekin jardungo dugu lanean. Horrela, bide batez, kurbadurak berak sistemaren funtzio termodinamikoetan duen benetako eragina azaleratzea lortuko dugu, orain arte ez bezala. Izan ere, dakargun gogora {eq}`s_sph_agg_tmu` ekuazioko logaritmoaren barneko gaiaren harira, $\beta = 0$ baldintza inposatu behar izan dugula, preseski, gai horrek entropiarako ekarpen positiboa izan dezan. Izan ere, oharteman dezagun kurbadurarekin lotutako $\beta$ magnitudea handitzeak aurrekoa eragotziko lukeela. Horren kariaz, kurbadura-efektuak gaineratzeak sistemaren entropia jaitsiko lukeela pentsaraz liezaguke. 
 
 Alabaina, ernai ibili behar dugu! Orain arte erabilitako adierazpen guztiak soilik $\beta \rightarrow 0^+$ limitean dira baliagarriak, limite horrek ahalbidetu baitu, oroz gain, $e^{-\beta N^{1/3}}$ funtzioaren Taylorren seriearen lehenengo bi gaiak erabiliz, {eq}`upsilon_sph_int` ekuazioko ezkerraldeko integral malkartsua saihestea, eta, haren hurbilketara joz, aurrera egitea. Horrenbestez, ez zaigu zilegi izango, lortutako emaitzen bitartez, aurreko paragrafoan aurkeztutako hausnarketa bideratzea, horrek okerreko bidetik eramango gaitu eta.
 
-Egoera korapilotsu eta lauso hori argitzeko, ariketa honetan atal guztian barrena burututako azterketa berrabiaraziko dugu, gainazal-efektuak erabat baztertuz, eta, arreta guztia kurbaturaren ondoriozko ekarpenetara bideratuz. Horiek horrela, abiapuntua
+Egoera korapilatsu eta lauso hori argitzeko, ariketa honetan atal guztian barrena burututako azterketa berrabiaraziko dugu, gainazal-efektuak erabat baztertuz, eta, arreta guztia kurbaduraren ondoriozko ekarpenetara bideratuz. Horiek horrela, abiapuntua
 
 $$
 Q(T,N) = j(T)^N\;e^{-\beta(T)N^{1/3}}

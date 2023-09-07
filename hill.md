@@ -39,38 +39,38 @@ $$ (pausoa)
 
 Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: _Euler-homogeneotasuna_ (ikus [___A___](euler) ___eranskina___). Hain zuzen, $E_{t}, S_{t}, V_{t}, N_{t}$ eta $\mathscr{N}$ lehen ordenako funtzio Euler-homogeneoak dira $V$ zein $N$ aldagaiekiko. Are gehiago, tenperatura, presioa eta potentzial kimikoa aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik $(T, p, \mu,\mathscr{E})$ sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.
 
-Lehengo hariari ekinez, sistema txiki baten ezaugarriak ondorioztatzea da helburua, beroriek multzo osoaren funtzioen aldaki-kopuruarekiko batez bestekoak bailiran adieraziz. Beraz, $\bar{E} \equiv E_{t}/\mathscr{N}$; $S \equiv S_{t}/\mathscr{N}$; $\bar{V} \equiv V_{t}/\mathscr{N}$; $\bar{N} \equiv N_{t}/\mathscr{N}$ definituz, multzoaren azpisistema bakarrak ekuazio honi segituko lioke:
+Lehengo hariari ekinez, sistema txiki baten ezaugarriak ondorioztatzea da helburua, beroriek multzo osoaren funtzioen aldaki-kopuruarekiko batez bestekoak bailiran adieraziz. Beraz, $\overline{E} \equiv E_{t}/\mathscr{N}$; $S \equiv S_{t}/\mathscr{N}$; $\overline{V} \equiv V_{t}/\mathscr{N}$; $\overline{N} \equiv N_{t}/\mathscr{N}$ definituz, multzoaren azpisistema bakarrak ekuazio honi segituko lioke:
 
 $$
-\boxed{\bar{E} = TS - p\bar{V} + \mu \bar{N} + \mathscr{E}} \; .
+\boxed{\overline{E} = TS - p\overline{V} + \mu \overline{N} + \mathscr{E}} \; .
 $$ (e_small)
 
 Jarraian, {eq}`e_small` ekuazioa zein aurkeztu berri ditugun propietateak {eq}`hill-gibbs` adierazpenean ordezkatuz,
 
 $$
-\mathscr{N}\mathrm{d}\bar{E} + (TS-p\bar{V}+\mu \bar{N} + \mathscr{E})\mathrm{d}\mathscr{N} = T \mathrm{d}(\mathscr{N}S) - p \mathrm{d}(\mathscr{N}\bar{V}) + \mu \mathrm{d}(\mathscr{N}\bar{N}) + \mathscr{E}\mathrm{d}\mathscr{N} \; .
+\mathscr{N}\mathrm{d}\overline{E} + (TS-p\overline{V}+\mu \overline{N} + \mathscr{E})\mathrm{d}\mathscr{N} = T \mathrm{d}(\mathscr{N}S) - p \mathrm{d}(\mathscr{N}\overline{V}) + \mu \mathrm{d}(\mathscr{N}\overline{N}) + \mathscr{E}\mathrm{d}\mathscr{N} \; .
 $$
 
 Eragiketak eginez gero, sistema txikiaren Gibbs-en ekuaziora helduko gara:
 
 $$
-\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}\bar{N} \; .
+\mathrm{d}\overline{E} = T\mathrm{d}S - p\mathrm{d}\overline{V} + \mu \mathrm{d}\overline{N} \; .
 $$ (gibbs_small)
 
 Orain, {eq}`e_small` ekuazioaren diferentzial osoa hartu eta {eq}`gibbs_small` adierazpenarekin berdinduko dugu, horrela __Hill-Gibbs-Duhem__ ekuazioa lortzeko:
 
 $$
-\boxed{\mathrm{d}\mathscr{E}(T,p,\mu) = -S\mathrm{d}T + \bar{V}\mathrm{d}p - \bar{N}\mathrm{d}\mu}\; .
+\boxed{\mathrm{d}\mathscr{E}(T,p,\mu) = -S\mathrm{d}T + \overline{V}\mathrm{d}p - \overline{N}\mathrm{d}\mu}\; .
 $$ (h_g_d)
 
 Erlazio horrek matematikoki erakustera ematen du {numref}`{number}. zatian <nanointro>` esaten aritu garena, agerikoa baita banatze-potentzialak askatasun-gradu bat abiaraziko duela. Hartara, zilegi izango zaigu, $(T, p, \mu)$ aldagai-sorta $\mathscr{E}(T,p,\mu)$ potentzialaren baitan finkatzeaz bat, multzo nanokanonikoa eraikitzea. Berorren bidez sistema txikiaren propietateei xehetasun handiagoz hurreratuko gatzaizkie.
-Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathscr{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \bar{V}$ eta $\bar{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
+Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathscr{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \overline{V}$ eta $\overline{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
 
 
 Ikusten dugunez, Termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kualitatiboki aipatutako kontzeptuei azalpen mardulagoak eta landuagoak eman dizkiegu. Horrek sailkapen-irizpide zorrotza eraikitzea ahalbidetzen du: _Sistema bat txikia da, baldin eta bere banatze-potentziala finitua eta bazterrezina bada_.
 
 
-Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\bar{E}, S, \bar{V}$ eta $\bar{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathscr{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitago (ikus [**_B_**](entropy) ___eranskina___).
+Aurrera egin baino lehen, sistema txikiaren entropiaren inguruko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\overline{E}, S, \overline{V}$ eta $\overline{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathscr{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitago (ikus [**_B_**](entropy) ___eranskina___).
 
 Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
 
@@ -82,7 +82,7 @@ Horrela, banatze-potentziala definitu dugu: aldaki-kopuruan eragiteak soilik, _e
 
 Jakina, beti ez dugu aldagai horietara sarbidea izango. Horrek arestiko eztabaida orokortzera gakartza ezinbestean. Preseski, $(A, B, C,...)$ ingurune-aldagaien aurrean $\mathscr{E}(T, p, \mu)$ banatze-potentzialaren orokorpena definitu beharrean gaude. Hura $X(A, B, C...)$ hizkiaren bidez izendatuko dugun, eta kasuan kasuko inguruneari egokituko zaion __aldaki-energia__ da. Noski, multzo nanokanonikoaren kasuan $X(T,p,\mu) = \mathscr{E}(T, p, \mu)$ genuke, baina, oro har, ez da hori beteko.
 
-Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak $(T,V,\mu)$ izango dira. Gauzak horrela, $E_{t} = \mathscr{N}\bar{E}$, $S_{t} = \mathscr{N}S$, $V_{t} = \mathscr{N}V$ eta $N_{t} = \mathscr{N}\bar{N}$ izango ditugu. Aipatzekoa da $V$ bolumenak ez daramala marratxoa, kasu honetan ez baita batez besteko magnitudea. Jarraian, {eq}`hill-gibbs` berridatziko dugu, oraingoan, ordea, $V$ agerraraziz $(\mathrm{d}V_{t} = \mathscr{N}\mathrm{d}V + V\mathrm{d}\mathscr{N})$:
+Esandakoa argitze aldera, lehenik, lehengo azterketa multzo makrokanonikora eramango dugu, hau da, sistema txikien aldagaiak $(T,V,\mu)$ izango dira. Gauzak horrela, $E_{t} = \mathscr{N}\overline{E}$, $S_{t} = \mathscr{N}S$, $V_{t} = \mathscr{N}V$ eta $N_{t} = \mathscr{N}\overline{N}$ izango ditugu. Aipatzekoa da $V$ bolumenak ez daramala marratxoa, kasu honetan ez baita batez besteko magnitudea. Jarraian, {eq}`hill-gibbs` berridatziko dugu, oraingoan, ordea, $V$ agerraraziz $(\mathrm{d}V_{t} = \mathscr{N}\mathrm{d}V + V\mathrm{d}\mathscr{N})$:
 
 
 $$
@@ -100,17 +100,17 @@ Esanak esan, {eq}`xgc` ekuazioari so eginez gero, $X(T,V,\mu)$ ingurune honetan 
 Segidan, {eq}`xgc` ekuazioa erabiliz, eta lehengo ataleko prozedura jarraituz, espresio hauetara iritsiko gara:
 
 $$
-\bar{E} = TS - \widehat{p}\;V + \mu \bar{N} \; ,
+\overline{E} = TS - \widehat{p}\;V + \mu \overline{N} \; ,
 $$ (e_small_gc)
 
 $$
-\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}V + \mu \mathrm{d}\bar{N} \; .
+\mathrm{d}\overline{E} = T\mathrm{d}S - p\mathrm{d}V + \mu \mathrm{d}\overline{N} \; .
 $$ (dE_small_gc)
 
-Horiek agerian uzten dute, $p$ eta $\widehat{p}$ presioen arteko desberdintza dela eta, $\bar{E}$ ez dela funtzio Euler-homogeneoa. Jarraian, Legendreren bi transformazio aplikatuz,
+Horiek agerian uzten dute, $p$ eta $\widehat{p}$ presioen arteko desberdintza dela eta, $\overline{E}$ ez dela funtzio Euler-homogeneoa. Jarraian, Legendreren bi transformazio aplikatuz,
 
 $$
-\mathrm{d}(-\widehat{p}\;V) := \mathrm{d}\Psi(T,V,\mu) = -S\mathrm{d}T - p\mathrm{d}V - \bar{N}\mathrm{d}\mu \; .
+\mathrm{d}(-\widehat{p}\;V) := \mathrm{d}\Psi(T,V,\mu) = -S\mathrm{d}T - p\mathrm{d}V - \overline{N}\mathrm{d}\mu \; .
 $$ (pot_gc)
 
 Bertatik, hitzez azaldutakoa laburbildu ez ezik, beharrezkoa duen adierazgarritasuna emango dioten adierazpenak erdietsiko ditugu:

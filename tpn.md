@@ -9,7 +9,7 @@ Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du
 (tpn_azter)=
 ### Multzoaren azterketa
 
-Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\bar{E}=E_{t}/\mathscr{N}$, $\bar{V}=V_{t}/\mathscr{N}$ eta $N=N_{t}/\mathscr{N}$ aldagai estentsiboak izango dituzte.
+Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\overline{E}=E_{t}/\mathscr{N}$, $\overline{V}=V_{t}/\mathscr{N}$ eta $N=N_{t}/\mathscr{N}$ aldagai estentsiboak izango dituzte.
 
 ##### Ariketa
 
@@ -33,20 +33,20 @@ Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}
 $(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
 ```{dropdown} __Erantzuna__
 $$
-\mathrm{d}\bar{E} = T\mathrm{d}S - p\mathrm{d}\bar{V} + \mu \mathrm{d}N
+\mathrm{d}\overline{E} = T\mathrm{d}S - p\mathrm{d}\overline{V} + \mu \mathrm{d}N
 $$ (detpn)
 $$
-\bar{E} = TS - p\bar{V} + \widehat{\mu}N
+\overline{E} = TS - p\overline{V} + \widehat{\mu}N
 $$ (etpn)
 ```
 $(c)$ Gibbs-en energia askea, $F(T,p,N)$. Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
 
 ```{dropdown} __Erantzuna__
 $$
-F(T,p,N) := \bar{E} - TS + p\bar{V} = \widehat{\mu}N
+F(T,p,N) := \overline{E} - TS + p\overline{V} = \widehat{\mu}N
 $$ (ftpn)
 $$
-\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \bar{V}\mathrm{d}p + \mu\mathrm{d}N \;
+\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \overline{V}\mathrm{d}p + \mu\mathrm{d}N \;
 $$ (dftpn)
 $$
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathscr{E} =  (\widehat{\mu} - \mu)N}
@@ -59,7 +59,7 @@ $$ (mumuhat)
 Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
 
 $$
-\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\bar{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
+\boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\overline{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
 $$ (dmuhat)
 
 Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,
@@ -71,7 +71,7 @@ $$
 Horrenbestez,
 
 $$
-\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \bar{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
+\boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
 $$ (dmu)
 
 Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek $N$ aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, {eq}`dmu` ekuazioko azkenengo gaia $\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N$ dugu, zeina ez baita nulua. Horrek $\mu$ potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, $\mu = \mu(T,p,N)$ erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, {eq}`gibbs-duhem` erlazioarekin (Gibbs-Duhem).
@@ -81,7 +81,7 @@ Jarraian datorkigun adibidean $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalku
 (helix_coil)=
 ### Adibidea: helize-haril trantsizioa
 
-Esku artean dugun sistema {numref}`{number}. irudiko <heco>` irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjokatu estentsiboa $\bar{l}$, katearen batez besteko luzera, hartuta.
+Esku artean dugun sistema {numref}`{number}. irudiko <heco>` irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjokatu estentsiboa $\overline{l}$, katearen batez besteko luzera, hartuta.
 
 ```{figure} helix-coil.PNG
 ---
@@ -150,10 +150,10 @@ name: epsilon_tfn
 
 **----------------------------------------------------**
 
-Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\bar{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\bar{l}(\bar{n} _ {H}) = (N-\bar{n} _ {H})l_{C} + \bar{n} _ {H}l_{H}$. Bada, horretarako, $\bar{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
+Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\overline{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\overline{l}(\overline{n} _ {H}) = (N-\overline{n} _ {H})l_{C} + \overline{n} _ {H}l_{H}$. Bada, horretarako, $\overline{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
 
 $$
-\bar{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
+\overline{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
 $$ (nhdef)
 
 Gauzak horrela, hasteko {eq}`d` ekuazioko batukaritik $n_{H}=0$ gaia atera, eta $\Delta$ honela berridatziko dugu:
@@ -165,7 +165,7 @@ $$ (dnew)
 Hala, {eq}`nhdef` definizioari jarraituz,
 
 $$
-\bar{n}_{H} := \frac{r_{C}^N\left[0+\sum_{n_{H}=1}^{N}n_{H}\left(N-n_{H}+1\right)r^{n_{H}}\right]}{\Delta} = r\frac{\partial}{\partial r}\ln \Delta \; .
+\overline{n}_{H} := \frac{r_{C}^N\left[0+\sum_{n_{H}=1}^{N}n_{H}\left(N-n_{H}+1\right)r^{n_{H}}\right]}{\Delta} = r\frac{\partial}{\partial r}\ln \Delta \; .
 $$ (nbar)
 
 `````{admonition} Iradokizuna
@@ -176,7 +176,7 @@ Nahi izanez gero, egiaztatu aurreko ekuazioaren bi aldeak bat datozela.
 Bada, {eq}`nbar` ekuazioan {eq}`d_short` adierazpena ordezkatuz gero, azkenean ere! iritsiko gara helmugara:
 
 $$
-\boxed{\frac{\bar{n} _ {H}}{N} = \frac{r}{N}\frac{\partial}{\partial r}\ln\left[r_{C}^N(1 + r^N)\right] = \frac{r^N}{1+r^N}}\; .
+\boxed{\frac{\overline{n} _ {H}}{N} = \frac{r}{N}\frac{\partial}{\partial r}\ln\left[r_{C}^N(1 + r^N)\right] = \frac{r^N}{1+r^N}}\; .
 $$(fraction_N)
 
 
@@ -192,9 +192,9 @@ name: hc_phase
 
 Lortutako emaitzak direla eta, berehalako geldialdia egin beharrean gaude, ezinbestean.
 
-Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\bar{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean $(N=2)$, tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
+Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kurba-sortari. Izatez, Termodinamikaren ikuspuntutik, batez besteko frakzioak izaera INTENTSIBOA beharko luke izan, zero ordenako funtzio Euler-homogeneo orok bezalaxe. Baina $N$ aldatu ahala, $\overline{n}_{H}/N$ kurbaren formak ez dirau bere horretan!! Horrek, argi eta garbi, aztergai dugun magnitudeak tamainarekiko menpekotasuna duela iradokitzen du, hots, ESTENTSIBOA dela. Preseski, sistema txikia denean $(N=2)$, tamaina laukoiztean, helize-unitateen frakzioak aldaketa bortitza pairatu du, ez ordea $N=40$tik $N=200$erakoa bezain gogorra. Berezitasun horiek {numref}`{number}. irudiak <epsilon_tfn>` islatzen duen banatze-potentzialaren bilakaeraren ondorio dira.
 
-Ondorioz, $N=200$ inguruan $\bar{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
+Ondorioz, $N=200$ inguruan $\overline{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
 Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>`) izango dugu {numref}`{number}. irudira <hc_phase>` bihurtzeko beta egokia.
 
@@ -224,9 +224,9 @@ berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen maila
 Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:
 
 $$
-\boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\bar{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
+\boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\overline{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 $$ (stpngi)
 
-Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \bar{V}=V$ onartuz), azken gai negatiboak ageri ez direla ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
+Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \overline{V}=V$ onartuz), azken gai negatiboak ageri ez direla ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
 
 Aurrerago, {numref}`{number}. atalean <tpmu>`, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.

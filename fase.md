@@ -55,17 +55,17 @@ Demagun sistema makroskopiko bat hasierako faseko egoeratik  bukaerako beste bat
 height: 250px
 name: faseirudi
 ---
-  $(a)$ Limite termodinamikoan, lehen ordenako fase-trantsizioan sistemak $p-\bar{V}$ __lerro isotermoari__ jarraitzen dio, $A$ egoeratik $B$-ra zuzenean igaroz. Hain zuzen, __kurba etena__ egonkortasunaren aurka doa, bertan komprimagarritasuna negatiboa baita, hots, $\kappa_{T} = -\left(\partial p/\partial V\right)_{T} < 0$. $(b)$ __Sistema txikien kasuan__,  $A$ eta $B$ egoerak aldi berean egongo dira $\Delta p$ gunean. Limite makroskopikoan, argi eta garbi, $\Delta p \rightarrow p_{0}$ beteko da.
+  $(a)$ Limite termodinamikoan, lehen ordenako fase-trantsizioan sistemak $p-\overline{V}$ __lerro isotermoari__ jarraitzen dio, $A$ egoeratik $B$-ra zuzenean igaroz. Hain zuzen, __kurba etena__ egonkortasunaren aurka doa, bertan komprimagarritasuna negatiboa baita, hots, $\kappa_{T} = -\left(\partial p/\partial V\right)_{T} < 0$. $(b)$ __Sistema txikien kasuan__,  $A$ eta $B$ egoerak aldi berean egongo dira $\Delta p$ gunean. Limite makroskopikoan, argi eta garbi, $\Delta p \rightarrow p_{0}$ beteko da.
 ```
 
-Sistema txikia baldin balitz, aldiz, trantsizioa ez litzateke hain zorrotza izango. Aurki ikusiko dugunez, $\Delta p$ presio-tartearen hedadurak lotura zuzena du sistemaren tamainarekin $(N)$. Baina horri ekin aurretik, bada ildo beretik doan argitu beharreko beste kontu bat. Izan ere, {numref}`{number}b irudiak <faseirudi>` aditzera ematen duenez, hasierako $\bar{V} _ {A}$ eta bukaerako $\bar{V}_ {B}$ bolumenen inguruan agertzen diren fluktuazioak hautemangarriak dira. Beste hitzez esateko, $\bar{V}_ {A}$ eta $\bar{V}_{B}$ bolumenen inguruetara ere zertxobait aldenduko da $P(V)$ probabilitatea. Bada, azaldutako eboluzioaren isla {numref}`{number} irudia <prob>` da.
+Sistema txikia baldin balitz, aldiz, trantsizioa ez litzateke hain zorrotza izango. Aurki ikusiko dugunez, $\Delta p$ presio-tartearen hedadurak lotura zuzena du sistemaren tamainarekin $(N)$. Baina horri ekin aurretik, bada ildo beretik doan argitu beharreko beste kontu bat. Izan ere, {numref}`{number}b irudiak <faseirudi>` aditzera ematen duenez, hasierako $\overline{V} _ {A}$ eta bukaerako $\overline{V}_ {B}$ bolumenen inguruan agertzen diren fluktuazioak hautemangarriak dira. Beste hitzez esateko, $\overline{V}_ {A}$ eta $\overline{V}_{B}$ bolumenen inguruetara ere zertxobait aldenduko da $P(V)$ probabilitatea. Bada, azaldutako eboluzioaren isla {numref}`{number} irudia <prob>` da.
 
 ```{figure} prob.PNG
 ---
 height: 250px
 name: prob
 ---
-Limite termodinamikoan probabilitateak $P(V)=\delta(V-\bar{V}_{A}) + \delta(V-\bar{V}_{B})$ betetzen du. Sistema txiki batean, aldiz, kurba zabalagoak lortzen dira. Hortaz, _bi egoeren hurbilketa_ deritzonari ez dio hertsiki segituko. Edonola ere, tarteko edozein $\bar{V}_{0}$ bolumenean $P(\bar{V}_{0})$ baztergarria da. Hori guztia dela eta, fase-trantsizioaren eremua $A$ eta $B$ egoeren arteko konbinazioa dela esan daiteke.
+Limite termodinamikoan probabilitateak $P(V)=\delta(V-\overline{V}_{A}) + \delta(V-\overline{V}_{B})$ betetzen du. Sistema txiki batean, aldiz, kurba zabalagoak lortzen dira. Hortaz, _bi egoeren hurbilketa_ deritzonari ez dio hertsiki segituko. Edonola ere, tarteko edozein $\overline{V}_{0}$ bolumenean $P(\overline{V}_{0})$ baztergarria da. Hori guztia dela eta, fase-trantsizioaren eremua $A$ eta $B$ egoeren arteko konbinazioa dela esan daiteke.
 ```
 
 Aurrekoaren harira, $Q(T,V,N)$ partizio-funtzio kanonikotik abiatuz, sistemak $V_{i}$ bolumena izateko probabilitatea definituko dugu:
@@ -74,16 +74,16 @@ $$
 P(V_{i}) := \frac{Q(T,V_{i},N)e^{- pV_{i}/k_{\mathrm{B}}T}}{\sum_{V_{i}}Q(T,V_{i},N)e^{-pV_{i}/k_{\mathrm{B}}T}} = \frac{Q(T,V_{i},N)e^{-pV_{i}/k_{\mathrm{B}}T}}{\Delta(T,p,N)}\;.
 $$ (pvi)
 
-Orain, {numref}`{number} irudiaren <prob>` inguruko iruzkinei jarraikiz,  $P(\bar{V} _ {A,B})/P(\bar{V} _ {0})$ erlazioa kalkulatuko dugu, zeina _bi egoeren hurbilketaren_ erabileraren zilegitasunaren adierazlea izango den. Azterketa Fisika Estatistikotik bideratuko dugu, {cite}`sm` liburuaren laguntzaz. Kontua da $A$ eta $B$ egoeren erdian dagoen egoera batean jatorrizko biak ere azalduko direla, bereizte-geruza baten bidez bananduta. Bertako molekula-kopuruaren magnitude-ordena $N^{2/3}$ izango da, eta, hortaz, molekula horien arteko elkarrekintzek $A(T,V,N)$ energiarako ekarpena izango dute, zeina, hain zuzen, $N^{2/3}k_{\mathrm{B}}T$ ordenakoa izango den. Puntu horren inguruko partizio-funtzioak, hartara, itxura hau izango du:
+Orain, {numref}`{number} irudiaren <prob>` inguruko iruzkinei jarraikiz,  $P(\overline{V} _ {A,B})/P(\overline{V} _ {0})$ erlazioa kalkulatuko dugu, zeina _bi egoeren hurbilketaren_ erabileraren zilegitasunaren adierazlea izango den. Azterketa Fisika Estatistikotik bideratuko dugu, {cite}`sm` liburuaren laguntzaz. Kontua da $A$ eta $B$ egoeren erdian dagoen egoera batean jatorrizko biak ere azalduko direla, bereizte-geruza baten bidez bananduta. Bertako molekula-kopuruaren magnitude-ordena $N^{2/3}$ izango da, eta, hortaz, molekula horien arteko elkarrekintzek $A(T,V,N)$ energiarako ekarpena izango dute, zeina, hain zuzen, $N^{2/3}k_{\mathrm{B}}T$ ordenakoa izango den. Puntu horren inguruko partizio-funtzioak, hartara, itxura hau izango du:
 
 $$
-Q(T,\bar{V} _ {0},N) = e^{-A(T,V,N)/k_{\mathrm{B}}T-N^{2/3}} = Q(T,V,N)e^{-N^{2/3}} \; .
+Q(T,\overline{V} _ {0},N) = e^{-A(T,V,N)/k_{\mathrm{B}}T-N^{2/3}} = Q(T,V,N)e^{-N^{2/3}} \; .
 $$
 
 Berori, {eq}`pvi` adierazpenari jarraituz, probabilitatearekiko proportzionala denez, honakoa beteko da, puntu kritiko baten inguruan izan ezik:
 
 $$
-\frac{P(\bar{V}_{A,B})}{P(\bar{V}_{0})} \propto e^{N^{2/3}}  \; .
+\frac{P(\overline{V}_{A,B})}{P(\overline{V}_{0})} \propto e^{N^{2/3}}  \; .
 $$
 
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
@@ -129,26 +129,26 @@ non $\mathrm{v} = V/N$ eta $\mathrm{s} = S/N$ diren. Ekuazio-sortako bigarren et
 (fase_simple)=
 #### Adibide erraza
 
-_Bi egoeren hurbilketaren_ zuzentasuna era kuantitatiboan adieraztea da adibide honen xedea. Demagun $A$ eta $B$ egoeretako $\bar{\mathrm{v}}_ {A}$ eta $\bar{\mathrm{v}}_ {B}$ bolumenak $p$ eta $N$ aldagaiekiko askeak direla. Berebat, $\widehat{\mu} = \widehat{\mu}_ {A,B}(p=p_{0})$ idatziko dugu. Bada, {eq}`dmuhat` ekuaziotik $\partial \widehat{\mu}_ {A,B}/\partial p = \bar{V}_ {A,B}/N = \bar{\mathrm{v}}_{A,B}$ erlazioa erauziz eta berori integratuz,
+_Bi egoeren hurbilketaren_ zuzentasuna era kuantitatiboan adieraztea da adibide honen xedea. Demagun $A$ eta $B$ egoeretako $\overline{\mathrm{v}}_ {A}$ eta $\overline{\mathrm{v}}_ {B}$ bolumenak $p$ eta $N$ aldagaiekiko askeak direla. Berebat, $\widehat{\mu} = \widehat{\mu}_ {A,B}(p=p_{0})$ idatziko dugu. Bada, {eq}`dmuhat` ekuaziotik $\partial \widehat{\mu}_ {A,B}/\partial p = \overline{V}_ {A,B}/N = \overline{\mathrm{v}}_{A,B}$ erlazioa erauziz eta berori integratuz,
 
 $$
-\widehat{\mu}_ {A,B} = \widehat{\mu} + \bar{\mathrm{v}}_ {A,B}\left(p-p_{0}\right)
+\widehat{\mu}_ {A,B} = \widehat{\mu} + \overline{\mathrm{v}}_ {A,B}\left(p-p_{0}\right)
 $$ (muhatab)
 berdintzetara iritsiko gara. Ekuazio horren bidez {eq}`fracnanb` erlazioa berridatziko dugu:
 
 $$
-\frac{\mathscr{N}_ {A}}{\mathscr{N}_ {B}} = \exp\left[-N\frac{\left(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
+\frac{\mathscr{N}_ {A}}{\mathscr{N}_ {B}} = \exp\left[-N\frac{\left(\overline{\mathrm{v}}_ {A} - \overline{\mathrm{v}}_ {B}\right)\left(p-p_{0}\right)}{k_{\mathrm{B}}T}\right]\; .
 $$ (nanbex)
 Era berean, ekuazio beretik guztizko bolumena idatziz,
 
 $$
 \left(\frac{\partial F}{\partial p}\right)_{T,N
-} := \bar{V} = \frac{\mathscr{N}_ {A}}{\mathscr{N}}\bar{V}_ {A} + \frac{\mathscr{N}_ {B}}{\mathscr{N}}\bar{V}_ {B}\equiv P_{A}\bar{V}_ {A} +  P_{B}\bar{V}_{B} \; ,
+} := \overline{V} = \frac{\mathscr{N}_ {A}}{\mathscr{N}}\overline{V}_ {A} + \frac{\mathscr{N}_ {B}}{\mathscr{N}}\overline{V}_ {B}\equiv P_{A}\overline{V}_ {A} +  P_{B}\overline{V}_{B} \; ,
 $$ (vtotex)
-eta, $P_{A} = (\bar{\mathrm{v}} - \bar{\mathrm{v}}_ {B}) / (\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B})$ eta $P_{B}=1-P_{A}$ direla ohartuz, hona iritsiko gara:
+eta, $P_{A} = (\overline{\mathrm{v}} - \overline{\mathrm{v}}_ {B}) / (\overline{\mathrm{v}}_ {A} - \overline{\mathrm{v}}_ {B})$ eta $P_{B}=1-P_{A}$ direla ohartuz, hona iritsiko gara:
 
 $$
-\frac{(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B})(p-p_{0})}{k_{\mathrm{B}}T} = -\frac{1}{N}\ln\left[\frac{(\bar{\mathrm{v}} - \bar{\mathrm{v}}_ {B})/(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_ {B})}{1-(\bar{\mathrm{v}} - \bar{\mathrm{v}}_ {B})/(\bar{\mathrm{v}}_ {A} - \bar{\mathrm{v}}_{B})}\right] \; .
+\frac{(\overline{\mathrm{v}}_ {A} - \overline{\mathrm{v}}_ {B})(p-p_{0})}{k_{\mathrm{B}}T} = -\frac{1}{N}\ln\left[\frac{(\overline{\mathrm{v}} - \overline{\mathrm{v}}_ {B})/(\overline{\mathrm{v}}_ {A} - \overline{\mathrm{v}}_ {B})}{1-(\overline{\mathrm{v}} - \overline{\mathrm{v}}_ {B})/(\overline{\mathrm{v}}_ {A} - \overline{\mathrm{v}}_{B})}\right] \; .
 $$ (fasesimplegraph)
 
 Eraiki dezagun {eq}`fasesimplegraph` ekuazioaren grafikoa:

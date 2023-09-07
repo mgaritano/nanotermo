@@ -55,13 +55,13 @@ $$
 $$ (upsilon_sph)
 
 
-Kontuan izan dezagun {eq}`upsilon_sph` ekuazioan $\mu^{(x)}$ positiboa izateak seriearen dibergentzia lekarkeela, $N$ handietarako $e^{{\mu^{(x)}}N/k_{\mathrm{B}}T}$ esponentziala gailenduko bailitzateke. Beraz, $\mu^{(x)} \leq 0$ inposatu beharko dugu konbergentzia bermatzeko (ekar dezagun gogora $a$ eta $b$ positiboak direla, eta, ondorioz, $\widehat{\mu}^{(x)}$ ere bai). Izan ere, ondoren ikusiko dugunez, $\mu^{(x)} > 0$ edo $\mu > \mu^{(0)}(T)$ izatearen ondoriozko dibergentziak $\\overline{N} = \infty$ ekarriko du. Nabarmentzekoa da ezen kasu honetan $\mu$ aldagaia ez dela arestian kalkulatutako {eq}`sph_agg_mu` ekuazioan ageri dena, sistemari egokitutako konstantea baizik. Bada, segidan azalduko dugunez, konbergentzia bermatze aldera $\mu \rightarrow \mu^{(0)}$ baldintza inposatu beharko dugu. Aurrera egin baino lehen, komenigarria da honako notazio hau sartzea:
+Kontuan izan dezagun {eq}`upsilon_sph` ekuazioan $\mu^{(x)}$ positiboa izateak seriearen dibergentzia lekarkeela, $N$ handietarako $e^{{\mu^{(x)}}N/k_{\mathrm{B}}T}$ esponentziala gailenduko bailitzateke. Beraz, $\mu^{(x)} \leq 0$ inposatu beharko dugu konbergentzia bermatzeko (ekar dezagun gogora $a$ eta $b$ positiboak direla, eta, ondorioz, $\widehat{\mu}^{(x)}$ ere bai). Izan ere, ondoren ikusiko dugunez, $\mu^{(x)} > 0$ edo $\mu > \mu^{(0)}(T)$ izatearen ondoriozko dibergentziak $\overline{N} = \infty$ ekarriko du. Nabarmentzekoa da ezen kasu honetan $\mu$ aldagaia ez dela arestian kalkulatutako {eq}`sph_agg_mu` ekuazioan ageri dena, sistemari egokitutako konstantea baizik. Bada, segidan azalduko dugunez, konbergentzia bermatze aldera $\mu \rightarrow \mu^{(0)}$ baldintza inposatu beharko dugu. Aurrera egin baino lehen, komenigarria da honako notazio hau sartzea:
 
 $$
 \delta(T,\mu) = \frac{-\mu^{(x)}}{k_{\mathrm{B}}T} = \frac{\mu^{(0)}-\mu}{k_{\mathrm{B}}T} \quad , \quad \alpha(T) = \frac{a(T)}{k_{\mathrm{B}}T} \quad , \quad \beta(T) = \frac{b(T)}{k_{\mathrm{B}}T} \; .
 $$
 
-Gauzak horrela, kalkuluei ekin aurretik, bada argitu beharreko beste hainbat kontu. Izan ere, aurreko paragrafoko azalpenei jarraituz, aztergai dugun agregatuaren tamaina zentzuzkoa izan dadin, $\delta \rightarrow 0^{+}$ limitera jo beharko dugu, hark mantenduko baikaitu dibergentziatik urrun. Bestalde, $aN^{2/3}$ gainazal energia askea errealista izango da soilik $N$ aski handietarako (adibidez, $N>20$). Hori dela eta, {eq}`upsilon_sph` ekuazioan, $N$ aldagaiarekiko batukariaren ordez, integrala kalkulatuko dugu. Aipatzekoa da eredu hau $N$ txikietarako desegokia den arren, $\\overline{N}$ handi samarra denean errorea ez dela hain esanahitsua izango. Bukatzeko, arestian kurbadura-efektuen inguruan esandakoaren harira, $\beta \rightarrow 0^{+}$ limitea erabiltzea ere zilegi zaigu. Azaldutako hori guztia jarraian datorren partizio-funtzioaren adierazpen moldatuan islatuko dugu:
+Gauzak horrela, kalkuluei ekin aurretik, bada argitu beharreko beste hainbat kontu. Izan ere, aurreko paragrafoko azalpenei jarraituz, aztergai dugun agregatuaren tamaina zentzuzkoa izan dadin, $\delta \rightarrow 0^{+}$ limitera jo beharko dugu, hark mantenduko baikaitu dibergentziatik urrun. Bestalde, $aN^{2/3}$ gainazal energia askea errealista izango da soilik $N$ aski handietarako (adibidez, $N>20$). Hori dela eta, {eq}`upsilon_sph` ekuazioan, $N$ aldagaiarekiko batukariaren ordez, integrala kalkulatuko dugu. Aipatzekoa da eredu hau $N$ txikietarako desegokia den arren, $\overline{N}$ handi samarra denean errorea ez dela hain esanahitsua izango. Bukatzeko, arestian kurbadura-efektuen inguruan esandakoaren harira, $\beta \rightarrow 0^{+}$ limitea erabiltzea ere zilegi zaigu. Azaldutako hori guztia jarraian datorren partizio-funtzioaren adierazpen moldatuan islatuko dugu:
 
 $$
 \Upsilon (T,\mu) = \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}e^{-\beta(T) N^{1/3}} \approx \int_0^\infty \mathrm{d}N\;\left[1-\delta(T,\mu) N\right] \; e^{-\alpha(T) N^{2/3}}\left[1-\beta(T) N^{1/3}\right] \; .
@@ -95,13 +95,13 @@ $$
 \Upsilon (T,\mu) = \frac{\pi^{1/2}\left(45\delta\beta+12\alpha^2\right)}{16\alpha^{7/2}} - \frac{3\beta}{2\alpha^2} - \frac{3\delta}{\alpha^3} \; \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\longrightarrow}} \; \frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}
 $$ (upsilon_sph_good)
 
-Hortik, hasteko, batez besteko $\\overline{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta(T,\mu)$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
+Hortik, hasteko, batez besteko $\overline{N}$ magnitudea eskuratuko dugu. Horretarako, oharteman dezagun $\delta(T,\mu)$ magnitudearekiko deribatu beharra daukagula. Beraz, {eq}`upsilon_sph_good` ekuazioko ezkerraldeari erreparatu beharko diogu; alegia
 
 $$
- \\overline{N} := -\left(\frac{\partial \mathscr{E}(T,\mu)}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{48\alpha^{1/2}-45\pi^{1/2}\beta}{4\alpha^{3/2}(3\pi^{1/2}\alpha^{1/2}-6\beta)}\; .
+ \overline{N} := -\left(\frac{\partial \mathscr{E}(T,\mu)}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{48\alpha^{1/2}-45\pi^{1/2}\beta}{4\alpha^{3/2}(3\pi^{1/2}\alpha^{1/2}-6\beta)}\; .
 $$ (bar_n_sph)
 
-Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\\overline{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
+Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\overline{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
 
 $$
 P(N) = \frac{e^{-\alpha N^{2/3}}e^{-\beta N^{1/3}}}{\Upsilon}\approx \frac{e^{-\alpha N^{2/3}}\left(1-\beta N^{1/3}\right)}{\Upsilon} \; .
@@ -126,10 +126,10 @@ $$ (bar_e_tmu_sph_def)
 Lehenik, $E(S,N)$ energian barreneko batez bestekoa kalkulatu behar dugu, multzo mikrokanonikoko azterketari dagokion $\Omega(E,N)$ funtzioa erabiliz. Bertatik eskuratuko dugu $\overline{E}(T,N)$ adierazpena. Bada, haren $N$ magnitudean zeharreko batez bestekoak itzuliko digu $\overline{E}(T,\mu)$ delakoa. Hala, {eq}`bar_e_tn_sph` ekuazioko $N$, $N^{2/3}$ eta $N^{1/3}$ funtzioak  {eq}`bar_e_tmu_sph_def` ekuazioaren eskuinaldeko seriean ordezkatuz, haien batez bestekoak lortuko ditugu; hartara, barne-energiaren batez bestekoaren adierazpen eraldatua
 
 $$
-\overline{E}(T,\mu) = \\overline{N}k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \overline{N^{2/3}}\left(a -T\frac{\mathrm{d}a}{\mathrm{d}T}\right) + \overline{N^{1/3}}\left(b -T\frac{\mathrm{d}b}{\mathrm{d}T}\right)
+\overline{E}(T,\mu) = \overline{N}k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + \overline{N^{2/3}}\left(a -T\frac{\mathrm{d}a}{\mathrm{d}T}\right) + \overline{N^{1/3}}\left(b -T\frac{\mathrm{d}b}{\mathrm{d}T}\right)
 $$ (bar_e_tmu_sph)
 
-izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak aditzera ematen duenez, kasuan kasuko ingurune-aldagaiek sistema txikien propietateei erasaten diete; izan ere, $N=\\overline{N}$ aukeratzen badugu ere, barne-energiaren bi adierazpenak ez dira bat etorriko, $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioak tarteko. Hain zuzen, $\\overline{N}^{2/3}\neq \overline{N^{2/3}}$ eta $\\overline{N}^{1/3}\neq \overline{N^{1/3}}$ betetzen da.
+izango da. Beste behin, {eq}`bar_e_tn_sph` eta {eq}`bar_e_tmu_sph` bikoteak aditzera ematen duenez, kasuan kasuko ingurune-aldagaiek sistema txikien propietateei erasaten diete; izan ere, $N=\overline{N}$ aukeratzen badugu ere, barne-energiaren bi adierazpenak ez dira bat etorriko, $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioak tarteko. Hain zuzen, $\overline{N}^{2/3}\neq \overline{N^{2/3}}$ eta $\overline{N}^{1/3}\neq \overline{N^{1/3}}$ betetzen da.
 
 Banatze-potentzialaren ekuazioa ere idatziko dugu:
 
@@ -140,38 +140,38 @@ $$ (sph_epsilon_nc)
 Horixe da $S(T,\mu)$ entropia eraikitzeko behar dugun azkenengo osagaia. Izan ere, sistema txikiari dagokion {eq}`e_small` ekuazioa adibide jakin honetan honela berridatziko dugu: $\overline{E} = TS + \mu^{(0)}N + \mathscr{E}$. Bada, oroitu gaitezen, alde batetik, askatasun-gradu mekanikoaren ekarpena baztertu dugula hasieratik; bestetik, potentzial kimikoaren balioa $\mu^{(0)}$ limitea da. Horrenbestez, ekuaziotik $S$ askatuz,
 
 $$
-\boxed{S(T, \mu) =  \\overline{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) - \overline{N^{2/3}}\frac{\mathrm{d}a}{\mathrm{d}T} - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}\right) + \overline{N^{2/3}}\frac{a}{T} + \overline{N^{1/3}}\frac{b}{T}}
+\boxed{S(T, \mu) =  \overline{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right) - \overline{N^{2/3}}\frac{\mathrm{d}a}{\mathrm{d}T} - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}} - \frac{3\beta}{2\alpha^2}\right) + \overline{N^{2/3}}\frac{a}{T} + \overline{N^{1/3}}\frac{b}{T}}
 $$ (s_sph_agg_tmu)
 
 da multzo nanokanonikoak itzuliko digun entropia. So egin diezaiogun hari; eta, aurrez hainbatetan egindakoaren harira, ipin dezagun parez pare {eq}`s_sph_agg_tn` adierazpenarekin.
 
 Bada, $S(T,\mu)$ ekuazioan hiru gai gehigarri azaltzen dira. Agerikoa da azkenengo biak (positiboak) $N^{2/3}$ eta $N^{1/3}$ magnitudeen inguruko fluktuazioen ondoriozko entropiaren gorakadaren erantzuleak direla. Edonola ere, banatze-potentzialarekin lotutako azken-hirugarren gaiak azterketa sakonagoa eskatzen du. Izan ere, logaritmoak balio positiboa itzul dezan, honako eskakizun hauek betearazi behar ditugu: $\alpha < 1$ eta $\alpha \gg \beta$ izatea. Bigarren eskakizuna bada bateragarria arestian aurkeztutako baldintzekin. Beinke, horrela parentesi barneko lehenengo gaia soilik mantendu ahal izango dugu. Beraz, zilegi zaigu, gai horretan, behintzat, kurbadura-efektuak baztertzea. 
 
-Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu. Lehendabizi, alabaina, $\\overline{N}$ magnitudea moldatuko dugu, horrek gainerako adierazpenak adierazgarriago bihurraraziko dituelakoan. Bada, {eq}`bar_n_sph` ekuaziotik,
+Hala, $\beta \rightarrow 0$ limitea hartuz, {eq}`bar_n_sph` ekuazioa, banatze-potentziala zein harekin lotutako entropiaren gaia berridatziko ditugu. Lehendabizi, alabaina, $\overline{N}$ magnitudea moldatuko dugu, horrek gainerako adierazpenak adierazgarriago bihurraraziko dituelakoan. Bada, {eq}`bar_n_sph` ekuaziotik,
 
 $$
-\\overline{N} \approx \frac{4}{\pi^{1/2}\alpha^{3/2}} \; ,
+\overline{N} \approx \frac{4}{\pi^{1/2}\alpha^{3/2}} \; ,
 $$ (bar_n_sph_approx)
 
 $$
-\mathscr{E}(T,\mu) \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}}\right) = -k_{\mathrm{B}}T\ln\left(\frac{3\pi\\overline{N}}{16}\right) \; ,
+\mathscr{E}(T,\mu) \approx -k_{\mathrm{B}}T\ln\left(\frac{3\pi^{1/2}}{4\alpha^{3/2}}\right) = -k_{\mathrm{B}}T\ln\left(\frac{3\pi\overline{N}}{16}\right) \; ,
 $$ (sph_epsilon_nc_approx)
 
 $$
-k_{\mathrm{B}}\ln\left[\frac{1}{\\overline{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \approx k_{\mathrm{B}}\ln\left(\frac{3\pi\\overline{N}}{16}\right) > 0 \; .
+k_{\mathrm{B}}\ln\left[\frac{1}{\overline{N}}\left(\frac{3}{\alpha^3}-\frac{45\pi^{1/2}\beta}{16\alpha^{7/2}}\right)\right] \approx k_{\mathrm{B}}\ln\left(\frac{3\pi\overline{N}}{16}\right) > 0 \; .
 $$ (approx)
 
 Erabilitako limiteak gai arazotsu horren benetako izaera jarri du agerian; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
-Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\\overline{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \\overline{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin limite makroskopikoan, alegia:
+Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\overline{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \overline{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin limite makroskopikoan, alegia:
 
 $$
 \boxed{\begin{gathered}
     (a) \quad S(T,\mu) > S(T,N) \\
     \\
-   (b) \quad  \frac{S(T,\mu)}{\\overline{N}k_{\mathrm{B}}}\equiv \frac{S(T,N)}{Nk_{\mathrm{B}}} = \frac{\mathrm{s}^{(0)}}{k_{\mathrm{B}}} = \ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\\overline{N},N\rightarrow\infty)\\
+   (b) \quad  \frac{S(T,\mu)}{\overline{N}k_{\mathrm{B}}}\equiv \frac{S(T,N)}{Nk_{\mathrm{B}}} = \frac{\mathrm{s}^{(0)}}{k_{\mathrm{B}}} = \ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\overline{N},N\rightarrow\infty)\\
    \\
-   (c) \quad \frac{\overline{E}(T,N)}{N} \equiv \frac{\overline{E}(T,\mu)}{\\overline{N}} = \mathrm{e}^{(0)} = k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\\overline{N},N\rightarrow\infty)
+   (c) \quad \frac{\overline{E}(T,N)}{N} \equiv \frac{\overline{E}(T,\mu)}{\overline{N}} = \mathrm{e}^{(0)} = k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} \quad (\overline{N},N\rightarrow\infty)
 \end{gathered}}
 $$
 
@@ -184,7 +184,7 @@ Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak 
 ##### Ariketa
 Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbadura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
 
-$(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\overline{E}(T,N),\;\Upsilon(T,\mu),\;\\overline{N},\;\overline{E}(T,\mu)$ eta $S(T,\mu)$.
+$(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\overline{E}(T,N),\;\Upsilon(T,\mu),\;\overline{N},\;\overline{E}(T,\mu)$ eta $S(T,\mu)$.
 
 $(b)$ Egiaztatu $(a)$ ataleko entropiaren $S(T,\mu)$ adierazpena haren definiziora joz ere lor daitekeela, alegia:
 
@@ -212,7 +212,7 @@ partizio-funtzio kanonikoa da.
 $(a)$ Birkalkulatu magnitude hauek, {eq}`sph_agg_q_b` ekuazioaren bitartez:
 
 $$ 
-\mu^{(x)}(T,N), \; S(T,N), \; \overline{E}(T,N), \; \Upsilon(T,\mu), \; P(N), \; \\overline{N}, \; \mathscr{E}(T, \mu), \; \overline{N^{1/3}},\; \overline{E}(T,\mu), \; S(T,\mu) \; .
+\mu^{(x)}(T,N), \; S(T,N), \; \overline{E}(T,N), \; \Upsilon(T,\mu), \; P(N), \; \overline{N}, \; \mathscr{E}(T, \mu), \; \overline{N^{1/3}},\; \overline{E}(T,\mu), \; S(T,\mu) \; .
 $$
 
 ```{dropdown} __Erantzuna__
@@ -250,10 +250,11 @@ $$ (agg_sph_pn_b)
 da. Bada, {eq}`agg_sph_pn_b` ekuazioari segituz, 
 
 $$
-\overline{N} = \int_0^{\infty}\mathrm{d}NP(N)\;N = \frac{60}{\beta^3}
+\overline{N} = \int_0^{\infty}\mathrm{d}NP(N)\;N = \frac{60}{\beta^3} \; .
 $$ (agg_sph_barn_b)
 
-eta
+Komenigarria da  kalkulatu berri dugun $\overline{N}$ magnitudea lehen erabilitako 
+
 
 $$
 \overline{N^{1/3}} = \int_0^{\infty}\mathrm{d}NP(N)\;N^{1/3} = \frac{3}{\beta} \; .
@@ -461,13 +462,13 @@ Aurreko emaitzak direla bide, gehiegizko terminoak nuluak dira, hots, $\widehat{
 Batez besteko partikula-kopuruari dagokionez,
 
 $$
-\\overline{N} = \left[\frac{\partial (\widehat{p}B)}{\partial \mu}\right]_{T,B} = \frac{B\lambda}{1+\lambda} \; .
+\overline{N} = \left[\frac{\partial (\widehat{p}B)}{\partial \mu}\right]_{T,B} = \frac{B\lambda}{1+\lambda} \; .
 $$ (lattice_nbar)
 
 Ondorioz,
 
 $$
-\widehat{p} = p = -k_{\mathrm{B}}T\ln\left(1-\frac{\\overline{N}}{B}\right) \; .
+\widehat{p} = p = -k_{\mathrm{B}}T\ln\left(1-\frac{\overline{N}}{B}\right) \; .
 $$ (lattice_p_phat_new)
 
 Lor dezagun orain entropiaren adierazpena.
@@ -475,7 +476,7 @@ Lor dezagun orain entropiaren adierazpena.
 
 ##### Ariketa
 
-Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketa. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\\overline{N}$ aldagaien baitan ager dadin.
+Idatzi multzo estatistiko jakin honi dagokion probabilitate-banaketa. Horren bitartez, idatzi entropiak bete beharko duen ekuazioa. Azkenik moldatu adierazpena, $B$ eta $\overline{N}$ aldagaien baitan ager dadin.
 
 ```{dropdown} __Erantzuna__
 
@@ -486,7 +487,7 @@ $$ (lattice_pn)
 Gauzak horrela, entropiak $N$ magnitudearen inguruko fluktuazioak hartuko ditu aintzakotzat, hau da,
 
 $$
-S\left(B,\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\\overline{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\\overline{N}} {T}
+S\left(B,\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_N P(N)\ln P(N) = k_{\mathrm{B}}\ln\Xi -\frac{\mu\overline{N}} {T}  = \frac{\widehat{p}B} {T} - \frac{\mu\overline{N}} {T}
 $$ (lattice_s_gc_def)
 
 Berori {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu behar dugu.
@@ -498,12 +499,12 @@ Berori {eq}`lattice_nbar` zein {eq}`lattice_p_phat_new` ekuazioen bidez moldatu 
 Ariketan erdietsitako berdintza garatuz,
 
 $$
-\boxed{\frac{S\left(B,\frac{\mu}{T}\right) }{k_\mathrm{B}} =  B\ln B -\\overline{N}\ln\\overline{N} -(B-\\overline{N})\ln (B-\\overline{N})} \; .
+\boxed{\frac{S\left(B,\frac{\mu}{T}\right) }{k_\mathrm{B}} =  B\ln B -\overline{N}\ln\overline{N} -(B-\overline{N})\ln (B-\overline{N})} \; .
 $$ (lattice_s_gc)
 
 Entropiaren {eq}`lattice_s_gc` ekuazioa ere erabat zehatza da. Orobat, nabarmentzekoa da limite makroskopikora joz gero, adierazpen horrek bere horretan jarraituko duela, alegia, kasu honetan multzo makrokanonikoak ez dio inolako tamaina finituko zuzenketarik erantsi. Horren adierazle garbia da aurrez lortutako banatze-potentzial hertsiki nulua ({eq}`lattice_epsilon_gc` ekuazioa).
 
-Halaber, {eq}`lattice_s_iso` ekuazioaren alderatuz, eta $\overline{B}=B$ zein $\\overline{N}=N$ onartuz, entropiak behera egin duela hauteman daiteke. Zuzenketak, hala ere, oso txikiak dira, alegia, $N$ eta $B$ aldagaiekiko $\mathcal{O}(1)$ ordenakoak.
+Halaber, {eq}`lattice_s_iso` ekuazioaren alderatuz, eta $\overline{B}=B$ zein $\overline{N}=N$ onartuz, entropiak behera egin duela hauteman daiteke. Zuzenketak, hala ere, oso txikiak dira, alegia, $N$ eta $B$ aldagaiekiko $\mathcal{O}(1)$ ordenakoak.
 
 
 Azken txanpa multzo erabat askean sistemaren berrazterketari ekitean datza.
@@ -536,7 +537,7 @@ $$
 \Upsilon = \sum_{B=0}^\infty e^{(\varphi^{(0)}-\varphi) B} = \frac{1}{1-e^{\varphi^{(0)}-\varphi}} \; , \quad \varphi > \varphi^{(0)}(m)\; ,
 $$ (lattice_upsilon_2)
 
-non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$ den. Berridazketa hori baliagarria izango zaigu, esaterako, $\\overline{N}(\varphi, m)$ batez bestekoa kalkulatzean.
+non, {eq}`lattice_moldatu` ekuazioari so eginez, $\varphi^{(0)}(m) = \ln(1+e^m)$ den. Berridazketa hori baliagarria izango zaigu, esaterako, $\overline{N}(\varphi, m)$ batez bestekoa kalkulatzean.
 
 
 ##### Ariketa
@@ -559,27 +560,27 @@ erabiliko dugu aurrerantzean.
 
 ```
 
-$(b)$ Eraiki orain $\\overline{N} (\varphi, m)$ magnitudea, eta, aurretik lorturiko emaitzen bidez, berridatzi adierazpena, soilik $\overline{B}$-ren eta $\varphi^{(0)}$-ren menpe ager dadin.
+$(b)$ Eraiki orain $\overline{N} (\varphi, m)$ magnitudea, eta, aurretik lorturiko emaitzen bidez, berridatzi adierazpena, soilik $\overline{B}$-ren eta $\varphi^{(0)}$-ren menpe ager dadin.
 
 
 ```{dropdown} __Erantzuna__
 
 $$
-\\overline{N}(\varphi, m) = k_{\mathrm{B}}T\left(\frac{\partial \ln \Upsilon}{\partial \mu}\right)_{p} \equiv \left(\frac{\partial \ln \Upsilon}{\partial m}\right)_{\varphi} = \left(\frac{\partial \ln \Upsilon}{\partial \varphi^{(0)}}\right)_{\varphi} \frac{\mathrm{d}\varphi^{(0)}}{\mathrm{d}m} = \overline{B}\frac{e^m}{1+e^m} = \overline{B}\left(1-e^{-\varphi^{(0)}}\right)
+\overline{N}(\varphi, m) = k_{\mathrm{B}}T\left(\frac{\partial \ln \Upsilon}{\partial \mu}\right)_{p} \equiv \left(\frac{\partial \ln \Upsilon}{\partial m}\right)_{\varphi} = \left(\frac{\partial \ln \Upsilon}{\partial \varphi^{(0)}}\right)_{\varphi} \frac{\mathrm{d}\varphi^{(0)}}{\mathrm{d}m} = \overline{B}\frac{e^m}{1+e^m} = \overline{B}\left(1-e^{-\varphi^{(0)}}\right)
 $$ (lattice_nbar_nc)
 
 ```
 
 **----------------------------------------------------**
 
-Azpimarratu beharrekoa da $\\overline{N}/\overline{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen du ezen azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
+Azpimarratu beharrekoa da $\overline{N}/\overline{B}$ erlazioa bere horretan mantentzen dela limite makroskopikoan ere. Azken ideia horrek inplizituki iradokitzen du ezen azterketan erabiltzen dugun multzo estatistikoa zeinahi ere den, limite termodinamikoan emaitza berbera berreskuratuko dugula.
 
 `````{admonition} Iradokizuna
 :class: tip
-Azken esaldian esandakoa egiaztatzeko, frogatu multzo isobaroko $N/\overline{B}$, multzo makrokanonikoko $\\overline{N}/B$ eta multzo nanokanonikoko $\\overline{N}/\overline{B}$ adierazpen hau betetzen dutela limite termodinamikoan:
+Azken esaldian esandakoa egiaztatzeko, frogatu multzo isobaroko $N/\overline{B}$, multzo makrokanonikoko $\overline{N}/B$ eta multzo nanokanonikoko $\overline{N}/\overline{B}$ adierazpen hau betetzen dutela limite termodinamikoan:
 
 $$
-\frac{N}{\overline{B}} = \frac{\\overline{N}}{B} =\frac{\\overline{N}}{\overline{B}} = \frac{e^{\mu/k_{\mathrm{B}}T}}{1+e^{\mu/k_{\mathrm{B}}T}}
+\frac{N}{\overline{B}} = \frac{\overline{N}}{B} =\frac{\overline{N}}{\overline{B}} = \frac{e^{\mu/k_{\mathrm{B}}T}}{1+e^{\mu/k_{\mathrm{B}}T}}
 $$
 
 Horretarako, erabili honako ekuazio hauek: {eq}`lattice_mu_iso` eta {eq}`lattice_eq_state` ; {eq}`lattice_nbar` ;  {eq}`lattice_nbar_nc` .
@@ -595,7 +596,7 @@ $$ (lattice_p_nc)
 dugu. Entropiak, beraz, adierazpen hau beteko du:
 
 $$
-S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\overline{B}}{T} - \frac{\mu\\overline{N}}{T} - \frac{\mathscr{E}}{T} \; ,
+S\left(\frac{p}{T},\frac{\mu}{T}\right) = -k_{\mathrm{B}}\sum_{B,\;N} P(B,N) \; \ln P(B,N) = \frac{p\overline{B}}{T} - \frac{\mu\overline{N}}{T} - \frac{\mathscr{E}}{T} \; ,
 $$ (lattice_s_nc)
 
 non, bide batez, banatze-potentziala
@@ -607,7 +608,7 @@ $$ (lattice_epsilon_nc_def)
 den. Gauzak horrela,
 
 $$
-\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  (\overline{B}+1)\ln (\overline{B}+1) - \\overline{N}\ln\\overline{N} -(\overline{B}-\\overline{N})\ln (\overline{B}-\\overline{N})} \; .
+\boxed{\frac{S\left(\frac{p}{T},\frac{\mu}{T}\right) }{k_\mathrm{B}} =  (\overline{B}+1)\ln (\overline{B}+1) - \overline{N}\ln\overline{N} -(\overline{B}-\overline{N})\ln (\overline{B}-\overline{N})} \; .
 $$ (lattice_s_gc)
 
 Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emate aldera, argigarria da oraindainoko emaitza guztiak taula batean biltzea.
@@ -624,13 +625,13 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
   - $\frac{S}{k_\mathrm{B}} \approx B\ln B-N\ln N-(B-N)\ln(B-N)-\frac{1}{2}\ln\left[2\pi\frac{(B-N)N}{B}\right]$
 * - $\left(B,\frac{\mu}{T}\right)$
   - $\mathscr{E} = 0$
-  - $\frac{S}{k_{\mathrm{B}}} =  B\ln B -\\overline{N}\ln\\overline{N} -(B-\\overline{N})\ln (B-\\overline{N})$
+  - $\frac{S}{k_{\mathrm{B}}} =  B\ln B -\overline{N}\ln\overline{N} -(B-\overline{N})\ln (B-\overline{N})$
 * - $\left(\frac{p}{T},N\right)$
   - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} = \ln\left(1-e^{-p/k_{\mathrm{B}}T}\right) < 0$
   - $\frac{S}{k_{\mathrm{B}}} =  (\overline{B}+1)\ln (\overline{B}+1) -(N+1)\ln (N+1)-(\overline{B}-N)\ln(\overline{B}-N)$
 * - $\left(\frac{p}{T},\frac{\mu}{T}\right)$
   - $\frac{\mathscr{E}}{k_{\mathrm{B}}T} = - \ln(\overline{B} + 1) < 0$
-  - $\frac{S}{k_{\mathrm{B}}} = (\overline{B}+1)\ln (\overline{B}+1) -\\overline{N}\ln\\overline{N} -(\overline{B}-\\overline{N})\ln (\overline{B}-\\overline{N})$
+  - $\frac{S}{k_{\mathrm{B}}} = (\overline{B}+1)\ln (\overline{B}+1) -\overline{N}\ln\overline{N} -(\overline{B}-\overline{N})\ln (\overline{B}-\overline{N})$
 
 ```
 
@@ -651,7 +652,7 @@ Kurbak eraikitzean, gelaxka-kopurua konstante mantendu da, hain zuzen, $B = 40$ 
 Azpimarragarria da ezen banatze potentzialaren bilakaeraren araberako entropiaren areagotzeari dagokionez, adibide honetan lortutako emaitzak bat datozela {numref}`{number} atalean <mupt_gi>` gas idealaren kasuan erdietsitako ondorioekin.
 
 
-Amaitzeko, analisia borobiltzeko, $\overline{B}$ eta $\\overline{N}$ magnitudeen inguruko fluktuazioak aztertuko ditugu, multzo nanokanonikoan.
+Amaitzeko, analisia borobiltzeko, $\overline{B}$ eta $\overline{N}$ magnitudeen inguruko fluktuazioak aztertuko ditugu, multzo nanokanonikoan.
 
 ##### Ariketa
 
@@ -668,7 +669,7 @@ $$
 $$ (lattice_b_fluc)
 
 $$
-\overline{N^2} - \\overline{N}^2 = \left(\frac{\partial \\overline{N}}{\partial m}\right)_{\varphi} \; .
+\overline{N^2} - \overline{N}^2 = \left(\frac{\partial \overline{N}}{\partial m}\right)_{\varphi} \; .
 $$ (lattice_n_fluc)
 
 Erabili {eq}`lattice_bbar_nc` eta {eq}`lattice_nbar_nc` ekuazioak.
@@ -684,7 +685,7 @@ $$ (lattice_b_fluc_1)
 eta,
 
 $$
-\overline{N^2} - \\overline{N}^2 \underset{(\varphi-\varphi^{(0)}\ll 1)}{\approx}\frac{e^{\varphi^{(0)}}-1}{e^{\varphi^{(0)}}}\left[\frac{1}{\left(\varphi-\varphi^{(0)}\right)^2} +\frac{e^{\varphi^{(0)}}}{\varphi-\varphi^{(0)}}\right] \; .
+\overline{N^2} - \overline{N}^2 \underset{(\varphi-\varphi^{(0)}\ll 1)}{\approx}\frac{e^{\varphi^{(0)}}-1}{e^{\varphi^{(0)}}}\left[\frac{1}{\left(\varphi-\varphi^{(0)}\right)^2} +\frac{e^{\varphi^{(0)}}}{\varphi-\varphi^{(0)}}\right] \; .
 $$ (lattice_n_fluc_1)
 
 

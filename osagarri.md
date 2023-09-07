@@ -241,7 +241,7 @@ $$
 \Upsilon (T,\mu) \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\approx}} \int_0^\infty \mathrm{d}N\;\left(1-\delta N\right) \; e^{-\widehat{\mu}N/k_{\mathrm{B}}T} =\int_0^\infty \mathrm{d}N\;\left(1-\delta N\right) \; e^{-\beta N^{1/3}} = \frac{6}{\beta^3}-\frac{360\delta}{\beta^6}
 $$ (upsilon_sph_agg_b)
 
-Probabilitate funtzio eraldatua
+Probabilitate-funtzio eraldatua
 
 $$
 P(N) \;\mathrm{d}N = \frac{e^{-\beta N^{1/3}}}{\Upsilon} \;\mathrm{d}N \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\approx}} \frac{6}{\beta^3} e^{-\beta N^{1/3}}\;\mathrm{d}N 
@@ -253,13 +253,32 @@ $$
 \overline{N} = \int_0^{\infty}\mathrm{d}NP(N)\;N = \frac{60}{\beta^3} \; .
 $$ (agg_sph_barn_b)
 
-Komenigarria da  kalkulatu berri dugun $\overline{N}$ magnitudea lehen erabilitako 
+Komenigarria da kalkulatu berri dugun $\overline{N}$ magnitudea lehen {eq}`bar_n_sph` ekuazioan bezala, haren definiziora joz berreraikitzea, eta bi emaitzak bat datozela ziurtatzea. Bestalde, {eq}`upsilon_sph_agg_b` eta {eq}`agg_sph_barn_b` ekuazioak parez pare ipiniz gero, agerikoa da $\Upsilon = \overline{N}/10$ betetzen dela. Ondorioz, banatze-potentziala
+
+$$
+\mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln\left(\frac{\overline{N}}{10}\right)
+$$ (agg_sph_epsilon_tmu_b)
+
+daukagu. Horrez gain,
 
 
 $$
-\overline{N^{1/3}} = \int_0^{\infty}\mathrm{d}NP(N)\;N^{1/3} = \frac{3}{\beta} \; .
+\overline{N^{1/3}} = \int_0^{\infty}\mathrm{d}NP(N)\;N^{1/3} = \frac{3}{\beta} \; ,
 $$ (agg_sph_barn13_b)
 
+eta, beste behin {eq}`bar_e_tmu_sph_def` definiziora joz, barne-energiaren batez bestekoa
+
+$$
+\overline{E}(T,\mu) = \overline{N}k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + + \overline{N^{1/3}}\left(b -T\frac{\mathrm{d}b}{\mathrm{d}T}\right)
+$$ (bar_e_tmu_sph_b)
+
+da, eta, $S(T,\mu) = \left[\overline{E}(T,\mu) - \mu^{(0)}N - \mathscr{E}(T,\mu)\right]/T$ erabiliz,
+
+$$
+\boxed{S(T, \mu) =  \overline{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left(\frac{\overline{N}}{10}\right)  + \overline{N^{1/3}}\frac{b}{T}} 
+$$ (s_sph_agg_tmu_b)
+
+izango da entropia.
 
 ```
 

@@ -101,10 +101,10 @@ $$
  \overline{N} := -\left(\frac{\partial \mathscr{E}(T,\mu)}{\partial\mu}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \left(\frac{\partial\ln\Upsilon}{\partial\delta}\right)_{\alpha,\beta}\left(\frac{\partial\delta}{\partial\frac{\mu}{k_{\mathrm{B}}T}}\right)_T = \frac{48\alpha^{1/2}-45\pi^{1/2}\beta}{4\alpha^{3/2}(3\pi^{1/2}\alpha^{1/2}-6\beta)}\; .
 $$ (bar_n_sph)
 
-Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\overline{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere idaztea. Hortaz, $P(N)$ probabilitate-funtzioa erabili beharko dugu, hain zuzen:
+Aipagarria da ezen $\mu \rightarrow \mu^{(0)}(T)$ limitean dihardugunez, $\overline{N}$ tenperaturaren menpeko funtzioa dela bakarrik. Era berean, entropiaren eta barne-energiaren adierazpenak idazte aldera baliagarriak izango zaizkigu $\overline{N^{2/3}}$ eta $\overline{N^{1/3}}$ batez bestekoak ere eskuratzea. Hortaz, probabilitate-funtzioa eraiki beharko dugu aurrez, hain zuzen:
 
 $$
-P(N) = \frac{e^{-\alpha N^{2/3}}e^{-\beta N^{1/3}}}{\Upsilon}\approx \frac{e^{-\alpha N^{2/3}}\left(1-\beta N^{1/3}\right)}{\Upsilon} \; .
+P(N)\;\mathrm{d}N = \frac{e^{-\alpha N^{2/3}}e^{-\beta N^{1/3}}}{\Upsilon} \mathrm{d}N \approx \frac{e^{-\alpha N^{2/3}}\left(1-\beta N^{1/3}\right)}{\Upsilon} \mathrm{d}N\; .
 $$ (p_n_sph)
 
 Horiek horrela, emaitza hauetara ailegatuko gara:
@@ -163,7 +163,7 @@ $$ (approx)
 
 Erabilitako limiteak gai arazotsu horren benetako izaera jarri du agerian; izatez, $N$ partikula-kopuruaren inguruko fluktuazioak hartzen ditu aintzakotzat, entropia handituz.
 
-Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\overline{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \overline{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin limite makroskopikoan, alegia:
+Aipagarria da ezen $N \gg N^{2/3}, \; N^{1/3}$ eta $\overline{N} \gg \overline{N^{2/3}}, \; \overline{N^{1/3}}, \; \ln \overline{N}$ betetzen den horretan, {eq}`s_sph_agg_tn` zein {eq}`s_sph_agg_tmu` adierazpenak bat datozela {numref}`{number} ataleko <mupt_linagg>` agregatu linealaren kasuari dagozkion emaitzekin limite makroskopikoan, hau da:
 
 $$
 \boxed{\begin{gathered}

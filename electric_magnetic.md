@@ -344,7 +344,7 @@ Goiko {eq}`heco_e_delta_3` partizio-funtzioaren bidez kalkuluak egindakoan, {eq}
 Berrazterketa labur honi buru emateko, arestian aipatutako kontuari helduko diogu. Helize-unitateen batez besteko frakzioaren {eq}`fraction_N` ekuazioan $r$ magnitudearen definizio berria ordezkatuz,
 
 $$
-\frac{\overline{N}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
+\frac{\overline{n}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
 $$ (heco_e_nbar)
 
 izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, helize-unitateen frakzioak modu esponentzialean joko duela zerorantz, $\mathbf{E}$ eremu elektrikoaren modulua handiagotzen dugun neurrian. Ondorioz, haril-unitateen frakzioak gora egingo du, eta, aurreko arrazoinamendua dela bide, katearen batez besteko luzerak ere bai.

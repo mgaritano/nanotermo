@@ -87,17 +87,17 @@ $$
 Bertatik, hasteko, sistemaren barne energiaren batez bestekoa kalkulatuko dugu, honako berdintza honi jarraituz:
 
 $$
-\\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
+\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
 $$ (bar_E_def)
 
 #####  Ariketa
 
-$(a)$ Kalkulatu $\\overline{E}$ adierazpena.
+$(a)$ Kalkulatu $\overline{E}$ adierazpena.
 
 ```{dropdown} __Erantzuna__
 
 $$
- \\overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
+ \overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
 $$ (bar_E)
 
 ```
@@ -116,7 +116,7 @@ $(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena. Ja
 
 ```{dropdown} __Erantzuna__
 
-Multzo kanonikoan entropiak $S(T, N) =\left(\\overline{E} - A\right)/T $ betetzen duela gogora ekarriz, hona ailegatuko gara:
+Multzo kanonikoan entropiak $S(T, N) =\left(\overline{E} - A\right)/T $ betetzen duela gogora ekarriz, hona ailegatuko gara:
 
 $$
 \boxed{S(T,N)
@@ -175,7 +175,7 @@ $$(epsilon_ising)
 
 ```
 
-$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\\overline{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\\overline{N}(\mu))$ adierazpenera heltzeko, eta maximizatu berori.
+$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\overline{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\overline{N}(\mu))$ adierazpenera heltzeko, eta maximizatu berori.
 
 ```{dropdown} __Erantzuna__
 
@@ -185,31 +185,31 @@ $$
 S(T,\mu) = -k_\mathrm{B}\ln\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right) - \left(\frac{1}{2}\;\frac{\mu}{T}\;e^{-\mu/k_{\mathrm{B}}T} - \frac{J}{T}\;\sinh\frac{J}{k_\mathrm{B}T}\right)\cdot\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; .
 $$(s_tmu_ising)
 
-Spinen kopuruaren batez bestekoa kalkulatzerakoan, adi ibili behar dugu, adierazpenean $\\overline{N} + 1$ idatzi behar dugulako, alegia:
+Spinen kopuruaren batez bestekoa kalkulatzerakoan, adi ibili behar dugu, adierazpenean $\overline{N} + 1$ idatzi behar dugulako, alegia:
 
 $$
-\\overline{N} + 1 = -\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_T =\frac{\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T}}{ \frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}} \; .
+\overline{N} + 1 = -\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_T =\frac{\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T}}{ \frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}} \; .
 $$(bar_n_ising)
 
 Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
 
 $$
-\boxed{S(T,\\overline{N}(\mu)) = \\overline{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\\overline{N}+1}{\\overline{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\\overline{N}+1)\right]} \; .
+\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\overline{N}+1}{\overline{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right]} \; .
 $$ (s_tbarn_ising)
 
 Funtzio horrek ere maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ puntuan:
 
 $$
-S(T, \\overline{N}(\mu))_{\text{max}} = \\overline{N}k_{\mathrm{B}}\ln \left(2\frac{\\overline{N}+1}{\\overline{N}}\right) + k_{\mathrm{B}}\ln\left[2(\\overline{N}+1)\right] \; ,
+S(T, \overline{N}(\mu))_{\text{max}} = \overline{N}k_{\mathrm{B}}\ln \left(2\frac{\overline{N}+1}{\overline{N}}\right) + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right] \; ,
 $$ (s_max_nanokano)
 
-zeinaren limite makroskopikoa, berriz ere, $\\overline{N}k_{\mathrm{B}}\ln 2$ den.
+zeinaren limite makroskopikoa, berriz ere, $\overline{N}k_{\mathrm{B}}\ln 2$ den.
 
 ```
 
 **----------------------------------------------------**
 
-Behin $S(T, n_+)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\\overline{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
+Behin $S(T, n_+)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\overline{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
 
 ```{figure} ising_1_s.png
 ---
@@ -260,7 +260,7 @@ name: heco_e
   “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, katean barrena $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa azaleratuko da, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero $(\mathbf{E} \parallel \mathbf{p})$, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
 ```
 
-Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela $(l_C>l_H)$. Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\\overline{N}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
+Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela $(l_C>l_H)$. Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\overline{N}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
 
 Sistemaren azterketa termodinamikoari ekinez, multzo kanonikoan eskuragai dugun ingurune-aldagai sorta $(T,l,N,\vert\mathbf{E}\vert)$ da. Beraz, $Q(T,l,N,\vert\mathbf{E}\vert)$ partizio-funtzioa eraikitzeko, {numref}`{number} irudian <heco_e>` azaltzen diren faktore gehigarriek barne-energiarako izango duten ekarpena idatzi behar dugu, alegia,
 
@@ -344,7 +344,7 @@ Goiko {eq}`heco_e_delta_3` partizio-funtzioaren bidez kalkuluak egindakoan, {eq}
 Berrazterketa labur honi buru emateko, arestian aipatutako kontuari helduko diogu. Helize-unitateen batez besteko frakzioaren {eq}`fraction_N` ekuazioan $r$ magnitudearen definizio berria ordezkatuz,
 
 $$
-\frac{\\overline{N}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
+\frac{\overline{N}_H}{N} = \left(\frac{q_H}{q_C}\right)^N\frac{\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}}{1 + \left[\frac{q_H}{q_C}\exp\frac{N\left(l_H-l_C\right)\left(f+q\vert\mathbf{E}\vert\right)}{k_{\mathrm{B}}T}\right]^N}
 $$ (heco_e_nbar)
 
 izango dugu. Agerikoa da, $l_H-l_C<0$ betetzen denez, helize-unitateen frakzioak modu esponentzialean joko duela zerorantz, $\mathbf{E}$ eremu elektrikoaren modulua handiagotzen dugun neurrian. Ondorioz, haril-unitateen frakzioak gora egingo du, eta, aurreko arrazoinamendua dela bide, katearen batez besteko luzerak ere bai.
@@ -496,13 +496,13 @@ $(a)$ Idatzi, lehenik, sistema txikiaren ekuazioak, eta, hortik abiatuz, lortu $
 Sistemaren barne-energiaren jatorrizko aldagaiak estentsiboak dira: entropia, partikula-kopurua eta momentu dipolar elektrikoa. Hori dela eta,
 
 $$
-\\overline{E}(S,N,\mathbf{p}) = TS+\widehat{\mu}N + \mathbf{E}\cdot\mathbf{p} \; ,
+\overline{E}(S,N,\mathbf{p}) = TS+\widehat{\mu}N + \mathbf{E}\cdot\mathbf{p} \; ,
 $$ (agg_e_E)
 
 eta,
 
 $$
-\mathrm{d}\\overline{E}(S,N,\mathbf{p}) = T\mathrm{d}S+\mu\mathrm{d}N + \mathbf{E}\cdot\mathrm{d}\mathbf{p} \; .
+\mathrm{d}\overline{E}(S,N,\mathbf{p}) = T\mathrm{d}S+\mu\mathrm{d}N + \mathbf{E}\cdot\mathrm{d}\mathbf{p} \; .
 $$ (agg_e_gibbs)
 
 
@@ -588,32 +588,32 @@ $$
 P(N) = \frac{Q(T,N,\vert\mathbf{E}\vert)e^{\mu N/k_{\mathrm{B}}T}}{\Upsilon(T,\mu,\vert\mathbf{E}\vert)} \quad \Rightarrow \quad P(0) = \frac{1}{\Upsilon}
 $$ (agg_e_pn)
 
-Batez besteko momentu dipolarraren eta entropiaren adierazpenak areago trinkotzeko, arras mesedegarria izango zaigu lehenik $\\overline{N}$ unitateen batez bestekoa kalkulatzea:
+Batez besteko momentu dipolarraren eta entropiaren adierazpenak areago trinkotzeko, arras mesedegarria izango zaigu lehenik $\overline{N}$ unitateen batez bestekoa kalkulatzea:
 
 $$
-\\overline{N} := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \mu}\right)_{T,\vert\mathbf{E}\vert} = -cxP(0)\left[\frac{x^3+11x^2+11x+1}{(x-1)^5}+\frac{y^2}{6}\frac{x^5+57x^4+302(x^3+x^2)+57x+1}{(x-1)^7}\right]
+\overline{N} := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \mu}\right)_{T,\vert\mathbf{E}\vert} = -cxP(0)\left[\frac{x^3+11x^2+11x+1}{(x-1)^5}+\frac{y^2}{6}\frac{x^5+57x^4+302(x^3+x^2)+57x+1}{(x-1)^7}\right]
 $$ (agg_elek_nbar)
 
 Bada, ekuazio horri atxikiz, eta eragiketak (kontu handiz) burutuz gero, hona heldu beharko genuke:
 
 $$
-\overline{\vert\mathbf{p}\vert}(T,\mu,\vert\mathbf{E}\vert) := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \vert\mathbf{E}\vert}\right)_{T,\mu} = \\overline{N}\alpha\vert\mathbf{E}\vert + c(T)P(0)\frac{p_0^2\vert\mathbf{E}\vert}{3k_{\mathrm{B}}T}\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \; ,
+\overline{\vert\mathbf{p}\vert}(T,\mu,\vert\mathbf{E}\vert) := k_{\mathrm{B}}T\left(\frac{\partial\ln\Upsilon}{\partial \vert\mathbf{E}\vert}\right)_{T,\mu} = \overline{N}\alpha\vert\mathbf{E}\vert + c(T)P(0)\frac{p_0^2\vert\mathbf{E}\vert}{3k_{\mathrm{B}}T}\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \; ,
 $$ (agg_elek_p_bar)
 
 ekuaziora, alde batetik, eta, honako adierazpen adierazgarri honetara, bestetik:
 
 $$
-\frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \\overline{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
+\frac{S(T,\mu,\vert\mathbf{E}\vert)}{k_{\mathrm{B}}} := T\left(\frac{\partial\ln\Upsilon}{\partial T}\right)_{\mu,\vert\mathbf{E}\vert} = \overline{N}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)
 $$
 $$
-+ \color{red}\left\{ \color{black} - \\overline{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} \color{red} \right\} 
++ \color{red}\left\{ \color{black} - \overline{N}\ln x - \ln P(0) + cP(0)\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{x(x^{2}+4x+1)}{(x-1)^{4}} \color{red} \right\} 
 $$ 
 $$
 + \color{red} \left\{ \color{black} cP(0)\left(\frac{p_0\vert\mathbf{E}\vert}{k_{\mathrm{B}} T}\right)^2 \left[\left(1-\frac{\epsilon}{k_{\mathrm{B}} T}\right)\frac{1}{6}-\frac{1}{3}\right]\frac{x(x^4+26x^3+66x^2+26x+1)}{(x-1)^6} \color{red} \right\} \color{black} \; .
 $$ (agg_elek_s_nc)
 
 
-Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala, $\\overline{N}=N$ onartuz gero, aurreneko lerroan $S^{(0)}/k_{\mathrm{B}}$ gaia dugu. Hortik aurrera dagertzan gai guztiak tamaina finitukoak dira. Hala, bigarren lerroan, {eq}`stmuagg` ekuazioan eskuratutako gai gehigarria hauteman dezakegu. Alabaina, ohartu gaitezen adibide honetan definitu dugun $x$ aldagaiak, {numref}`{number} ataleko <mupt_linagg>` $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ delakoaren aldean, $\alpha$ polarizabilitatearen ondoriozko $\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ekarpena daramala.
+Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala, $\overline{N}=N$ onartuz gero, aurreneko lerroan $S^{(0)}/k_{\mathrm{B}}$ gaia dugu. Hortik aurrera dagertzan gai guztiak tamaina finitukoak dira. Hala, bigarren lerroan, {eq}`stmuagg` ekuazioan eskuratutako gai gehigarria hauteman dezakegu. Alabaina, ohartu gaitezen adibide honetan definitu dugun $x$ aldagaiak, {numref}`{number} ataleko <mupt_linagg>` $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ delakoaren aldean, $\alpha$ polarizabilitatearen ondoriozko $\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ekarpena daramala.
 
 Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agertzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` aipatutako $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
 

@@ -366,7 +366,7 @@ Kurbak Ar gasari dagozkio (1 mol). Datuak honakoak dira: $\Lambda = 16,7 \; \mat
 Gainera, {eq}`epsilontpmugi` ekuazioaren eskuinaldeak entropiarako gehikuntza hori banatze-potentzialerako ekarpen _negatibo_ eta _ez-estentsiboaren_ ondoriozkoa dela diosku, alegia,
 
 $$
-S(T,p,\mu) = S_{0}(T,p,\mu) - \mathscr{E}(T,p,\mu)/T\;.
+S(T,p,\mu) = S_{0}(T,p,\mu) - \frac{\mathscr{E}(T,p,\mu)}{T} \;.
 $$ (stpmuginew)
 
 Jarraian datorren {numref}`{number} atalean <stabeps>` $\mathscr{E}<0$ izateak multzoaren barruan aldaki-kopurua handitzea dakarrela ikusiko dugu ({numref}`{number}. irudia <gisub>`).

@@ -244,7 +244,7 @@ $$ (upsilon_sph_agg_b)
 Probabilitate-funtzio eraldatua
 
 $$
-P(N) \;\mathrm{d}N = \frac{e^{-\beta N^{1/3}}}{\Upsilon} \;\mathrm{d}N \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\approx}} \frac{6}{\beta^3} e^{-\beta N^{1/3}}\;\mathrm{d}N 
+P(N) \;\mathrm{d}N = \frac{e^{-\beta N^{1/3}}}{\Upsilon} \;\mathrm{d}N \underset{(\delta \rightarrow 0^{+})}{\boldsymbol{\approx}} \frac{6 e^{-\beta N^{1/3}}}{\beta^3} \;\mathrm{d}N 
 $$ (agg_sph_pn_b)
 
 da. Bada, {eq}`agg_sph_pn_b` ekuazioari segituz, 
@@ -256,7 +256,7 @@ $$ (agg_sph_barn_b)
 Komenigarria da kalkulatu berri dugun $\overline{N}$ magnitudea lehen {eq}`bar_n_sph` ekuazioan bezala, haren definiziora joz berreraikitzea, eta bi emaitzak bat datozela ziurtatzea. Bestalde, {eq}`upsilon_sph_agg_b` eta {eq}`agg_sph_barn_b` ekuazioak parez pare ipiniz gero, agerikoa da $\Upsilon = \overline{N}/10$ betetzen dela. Ondorioz, banatze-potentziala
 
 $$
-\mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln\left(\frac{\overline{N}}{10}\right)
+\mathscr{E}(T,\mu) = -k_{\mathrm{B}}T\ln\left(\frac{\overline{N}}{10}\right) < 0
 $$ (agg_sph_epsilon_tmu_b)
 
 daukagu. Horrez gain,
@@ -272,13 +272,47 @@ $$
 \overline{E}(T,\mu) = \overline{N}k_{\mathrm{B}}T^2\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T} + + \overline{N^{1/3}}\left(b -T\frac{\mathrm{d}b}{\mathrm{d}T}\right)
 $$ (bar_e_tmu_sph_b)
 
-da, eta, $S(T,\mu) = \left[\overline{E}(T,\mu) - \mu^{(0)}N - \mathscr{E}(T,\mu)\right]/T$ erabiliz,
+da, eta, $S(T,\mu) = \frac{1}{T}\left[\overline{E}(T,\mu) - \mu^{(0)}N - \mathscr{E}(T,\mu)\right]$ erabiliz,
 
 $$
 \boxed{S(T, \mu) =  \overline{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left(\frac{\overline{N}}{10}\right)  + \overline{N^{1/3}}\frac{b}{T}} 
 $$ (s_sph_agg_tmu_b)
 
-izango da entropia.
+izango da entropia. Bada, {eq}`sph_agg_stn_b` ekuazioarekin alderatuz gero, argiro ikus daiteke adierazpen berriak bi ekarpen positibo dituela; bata banatze-potentzial negatiboarekin dago lotuta, eta, bestea, $N^{1/3}$-ren inguruko aldakuntzekin. Biek ala biek, funtsean, eskualde nanotermodinamikoan $N$ partikula-kopuru finkoak pairatzen dituen fluktuazioekin lotura estua dute. Kontzeptu horretan ariketaren hurrengo atalean sakonduko dugu.
+
+```
+
+$(b)$ Egiaztatu, {eq}`agg_sph_pn_b` ekuazioko $P(N)\;\mathrm{d}N$ adierazpenera joz, multzo nanokanonikoak itzuli dizkigun entropiarako gai gehigarriak ($S^{(x)}(T,\mu)$) $N$ magnitudearen inguruko fluktuazioen ondoriozkoak direla.
+
+
+```{dropdown} __Erantzuna__
+
+Atal guztian zehar $N$ aldagai jarraitutzat hartu dugunez, haren inguruko fluktuazioen entropiarako ekarpenak adierazpen honi segitu beharko dio:
+
+$$
+S^{(x)}(T,\mu) := -k_{\mathrm{B}}\int_0^\infty \mathrm{d}N\; P(N) \;\ln P(N)  \; .
+$$ (s_x_sph_agg_b)
+
+Bada, garatu dezagun integrala.
+
+$$
+\int_0^\infty \mathrm{d}N\; P(N) \;\ln P(N) = \frac{1}{\Upsilon}\left[-\ln\Upsilon\int_0^\infty \mathrm{d}N\;e^{-\beta N^{1/3}} -\int _0^\infty \mathrm{d}N\; N^{1/3}e^{-\beta N^{1/3}} \right] = \frac{10}{\overline{N}}\left[\ln\left(\frac{10}{\overline{N}}\right)\frac{6}{\beta^3}-\frac{18}{\beta^3}\right]
+$$
+
+Lortutako emaitza {eq}`agg_sph_barn_b` eta {eq}`agg_sph_barn13_b` adierazpenen bitartez moldatuko dugu; hartara, eragiketak eginez gero,
+
+$$
+\int_0^\infty \mathrm{d}N\; P(N) \;\ln P(N) = \ln\left(\frac{10}{\overline{N}}\right) - \overline{N^{1/3}}\frac{b}{k_{\mathrm{B}}T} \; .
+$$
+
+Goiko {eq}`s_x_sph_agg_b` ekuazioa kontuan hartuta, erraz igarri daiteke
+
+$$
+S^{(x)}(T,\mu) = k_{\mathrm{B}}\ln\left(\frac{\overline{N}}{10}\right) + \overline{N^{1/3}}\frac{b}{T}
+$$ (s_x_sph_agg_b_1)
+
+beteko dela. Frogatu dugu, hortaz, $\overline{N}$-ren balio handietarako, sistemaren entropiarako igoerak $N$-ren fluktuazioekin lotura zuzena duela (ohartu gaitezen $b$ magnitudeari dagokion gaia $3k_{\mathrm{B}}$ konstantea dela, eta, beraz, $\overline{N}$ handitu ahala, baztergarri bihurtuko dela $\ln \overline{N}$ terminoarekiko).
+
 
 ```
 

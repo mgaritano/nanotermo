@@ -240,7 +240,17 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 (j0bnot0)=
 #### Spin askeak, $\mathbf{B}$ kanpo-eremuaren eraginpean
 
+Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarraituko dugu. Dena dela ere, eskuratuko ditugun emaitzek berebiziko adierazgarritasuna dutela ohartuko gara; ororen gainetik, {numref}`{number} adibideko <mupt_gi>` gas idealaren analisian eraikitako adierazpenekiko parekotasun nabaria antzemango diegu. Egin diezaiogun so {numref}`{number} irudiari <ising_b>`.
 
+(ising_1)=
+```{figure} ising_b.png
+---
+width: 650px
+name: ising_b
+---
+Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magnetikoarekin daudela elkarrekintzan. Hortaz, spinei $\mathbf{m} = \pm m \mathbf{u_z}$ momentu magnetikoa esleituz gero, sistemaren barne-energia $E = (N-2n_+)mB$ izango dugu, non $n_+$ eremuaren noranzko berean $(+z)$ lerrokatuta dauden spinen kopurua den.
+
+```
 
 
 

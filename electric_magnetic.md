@@ -7,7 +7,7 @@ ___*Atala osatzen ari naiz...___
 ### Ising-en eredua
 
 
-Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_arrows>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
+Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_geziak>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
 
 (ising_arrows)=
 ```{figure} ising_geziak.png
@@ -27,7 +27,7 @@ Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere
 (b0jnot0)=
 #### Ising-en katea, $J$ elkarrekintza-energiaren eraginpean
 
-Errepara diezaiogun {numref}`{number} irudiari <ising_1>`.
+Errepara diezaiogun {numref}`{number} irudiari <ising_j>`.
 
 (ising_1)=
 ```{figure} ising_j.png
@@ -38,7 +38,7 @@ name: ising_j
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
 ```
 
-Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_1>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
+Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
 
 $$
   E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
@@ -252,6 +252,11 @@ Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magne
 
 ```
 
+Irudiko azalpenak aintzakotzat hartuz, __multzo mikrokanonikoan__ $E(n_+,N)$ barne-energia finkatuta duen makroegoerarekin bateragarriak diren mikroegoeren kopurua koefiziente binomialak emango digu:
+
+$$
+\Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!}
+$$
 
 
 

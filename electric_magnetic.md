@@ -244,7 +244,7 @@ Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarrait
 (ising_1)=
 ```{figure} ising_b.png
 ---
-width: 650px
+width: 700px
 name: ising_b
 ---
 Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magnetikoarekin daudela elkarrekintzan. Hortaz, spinei $\mathbf{m} = \pm m \mathbf{u_z}$ momentu magnetikoa esleituz gero, sistemaren barne-energia $E = (N-2n_+)mB$ izango dugu, non $n_+$ eremuaren noranzko berean $(+z)$ lerrokatuta dauden spinen kopurua den.
@@ -254,8 +254,9 @@ Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magne
 Irudiko azalpenak aintzakotzat hartuz, __multzo mikrokanonikoan__ $E(n_+,N)$ barne-energia finkatuta duen makroegoerarekin bateragarriak diren mikroegoeren kopurua koefiziente binomialak emango digu, beste behin:
 
 $$
-\Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!}
-$$
+\Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!} \; .
+$$ (ising_b_omega)
+
 
 
 

@@ -12,9 +12,9 @@ parts:
     - file: tpn
     - file: fase
     - file: tpmu
-    - file: adsorbent
     - file: electric_magnetic
     - file: osagarri
+    - file: adsorbent
     - file: ondorioak
   - caption: Bestelakoak
     chapters:

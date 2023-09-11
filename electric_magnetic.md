@@ -285,7 +285,7 @@ $$
  = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right]} \; .
 $$ (ising_b_s_c)
 
-Oraingoan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
+Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
 
 Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
 
@@ -306,6 +306,9 @@ $$ (ising_b_epsilon_tmu)
 
 eta,
 
+$$
+\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
+$$ (ising_b_s_tmu)
 
 (heco_elek)=
 ### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean

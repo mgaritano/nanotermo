@@ -380,7 +380,11 @@ Multzo nanokanonikoan __banatzearen areagotzeak bereizgarritasuna indartuko du__
 
 ```
 
-Irudia eta {eq}`stpmugi` ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: $\Delta S = k_{\mathrm{B}}\ln(\overline{N}+1)$. Banatzeari dagokion orekan, $\overline{N} \rightarrow 0$ eta, hortik, $\Delta S_{\text{oreka}}=0$. Baina, partikulako entropia hazi egingo da: $\lim_{\overline{N} \rightarrow 0}\Delta S/\overline{N} = 1$.
+Irudia eta {eq}`stpmugi` ekuazioa kontuan hartuz, multzoaren banatzearen ondoriozko ekarpenek entropiaren aldakuntza handituko dute, honako hau beteko baita: $\Delta S = k_{\mathrm{B}}\ln(\overline{N}+1)$. Banatzeari dagokion orekan, $\overline{N} \rightarrow 0$ eta, hortik, $\Delta S_{\text{oreka}}=0$. Alabaina, partikulako entropia maximizatu egingo dugu: 
+
+$$
+\lim_{\overline{N} \rightarrow 0}\frac{\Delta S/k_{\mathrm{B}}}{\overline{N}} = 1 \; .
+$$ (gi_tpmu_s_n)
 
 Aipatu beharrekoa da gaineko {numref}`{number} irudiari <gisub>` lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
 

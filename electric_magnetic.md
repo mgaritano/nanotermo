@@ -257,9 +257,54 @@ $$
 \Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!} \; .
 $$ (ising_b_omega)
 
+Stirling-en $\ln N! \approx N\ln N - N + \frac{1}{2}\ln (2\pi N)$ hurbilketara joz gero, entropian soilik gai ez-lineal bakarra mantenduko dugu, zeina $\mathscr{E(n_+, N)}$ banatze-potentzialak zehaztuko duen. Hortaz,
+
+$$
+\boxed{S(n_+, N) \approx \frac{S(n_+,N)}{k_{\mathrm{B}}} = N\ln N - n_+ \ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right]} \; ,
+$$ (ising_b_s_mc)
+
+eta,
+
+$$
+\mathscr{E}(n_+, N) \approx \frac{1}{2} k_{\mathrm{B}}T \ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right] > 0 \; , \quad n_+ <N \; .
+$$ (ising_b_epsilon_mc)
+
+Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. <stabeps>` ataleko azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
 
 
+Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
 
+$$
+Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right]^N \; .
+$$ (ising_b_q)
+
+Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,
+
+$$
+\boxed{S(T,N)
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
+$$ (ising_b_s_c)
+
+Oraingoan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
+
+Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x = 2 \cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
+
+$$
+\Upsilon (T,\mu) = \sum_{N=0}^\infty x^N = \frac{1}{1-x} \;, \quad \vert x \vert < 1 
+$$ (ising_b_upsilon)
+
+izango dugu partizio funtzio orokortua. Bertatik,
+
+$$
+\overline{N} = \frac{x}{1-x} \; ,
+$$ (ising_b_nbar)
+
+
+$$
+\mathscr{E}(T,\mu) = k_{\mathrm{B}}T\ln(1-x) = -k_{\mathrm{B}}T\ln(\overline{N} + 1) \; ,
+$$ (ising_b_epsilon_tmu)
+
+eta,
 
 
 (heco_elek)=

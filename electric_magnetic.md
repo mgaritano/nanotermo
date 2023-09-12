@@ -275,19 +275,19 @@ Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial posit
 Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
 
 $$
-Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right]^N \; .
+Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N \; .
 $$ (ising_b_q)
 
-Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right]$ eta $\overline{E} = -NmB\tanh\left(\frac{mB}{k_{\mathrm{B}}T}\right) $, eta, horien bidez,
+Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,
 
 $$
 \boxed{S(T,N)
- = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\right]} \; .
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
 $$ (ising_b_s_c)
 
 Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
 
-Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\left(\frac{mB}{k_{\mathrm{B}}T}\right)\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
+Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\frac{mB}{k_{\mathrm{B}}T}\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
 
 $$
 \Upsilon (T,\mu) = \sum_{N=0}^\infty x^N = \frac{1}{1-x} \;, \quad \vert x \vert < 1 
@@ -307,7 +307,7 @@ $$ (ising_b_epsilon_tmu)
 eta,
 
 $$
-\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
+\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{mB}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
 $$ (ising_b_s_tmu)
 
 

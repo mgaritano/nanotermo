@@ -215,7 +215,7 @@ Behin $S(n_+, N)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\overline{N}
 height: 350px
 name: sn100
 ---
-Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, hiru kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan aipatzen den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
+Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, hiru kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan adierazten den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
 
 ```
 
@@ -310,6 +310,8 @@ $$
 \boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{mB}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
 $$ (ising_b_s_tmu)
 
+
+Bada, {eq}`ising_b_s_c` ekuazioko $S(T,N)$ adierazpenaren aldean, $\mathscr{E}(T,\mu)$ banatze-potentzial negatiboak entropiari ekarpen positiboa gaineratu dio (jakina, $\overline{N}>0$ da eta). Emaitzak ikusita, nabarmena da aztergaitzat dugun elkarrekintzan ez dauden spinek osaturiko sistema honen eta {numref}`{number} atalean <mupt_gi>` aurkeztutako gas idealaren jokamoldeen arteko parekotasuna. Kasu horretan bezalaxe, banatze-potentzial negatibo eta ez-estentsiboaren ekarpenak partikulako entropiaren maximizazioa ahalbidetuko du $\overline{N} \rightarrow 0$ limitean, alegia, multzoaren banatzea areagotuz doan heinean (dakargun gogora {eq}`gi_tpmu_s_n` ekuazioa). Horretarako, jakina, azpisistemek euren tamaina inolako kanpo-galarazpenik gabe aldatzeko gai izan beharko dute. Azken eskakizun hori soilik multzo estatistiko nanokanonikoak bermatuko du.
 
 
 
@@ -681,6 +683,6 @@ $$ (agg_elek_s_nc)
 
 Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala, $\overline{N}=N$ onartuz gero, aurreneko lerroan $S^{(0)}/k_{\mathrm{B}}$ gaia dugu. Hortik aurrera dagertzan gai guztiak tamaina finitukoak dira. Hala, bigarren lerroan, {eq}`stmuagg` ekuazioan eskuratutako gai gehigarria hauteman dezakegu. Alabaina, ohartu gaitezen adibide honetan definitu dugun $x$ aldagaiak, {numref}`{number} ataleko <mupt_linagg>` $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ delakoaren aldean, $\alpha$ polarizabilitatearen ondoriozko $\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ekarpena daramala.
 
-Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agertzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` aipatutako $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
+Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agertzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` adierazi dugun $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
 
 Jakina, kanpo-eremua kenduko bagenu, aurreko {eq}`stmuagg` ekuazioa berreskuratuko genuke.

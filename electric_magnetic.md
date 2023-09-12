@@ -301,7 +301,7 @@ $$ (ising_b_nbar)
 
 
 $$
-\mathscr{E}(T,\mu) = k_{\mathrm{B}}T\ln(1-x) = -k_{\mathrm{B}}T\ln(\overline{N} + 1) \; ,
+\mathscr{E}(T,\mu) = k_{\mathrm{B}}T\ln(1-x) = -k_{\mathrm{B}}T\ln\left(\overline{N}+1\right) \; ,
 $$ (ising_b_epsilon_tmu)
 
 eta,

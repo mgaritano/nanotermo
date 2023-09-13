@@ -608,7 +608,7 @@ $$
 S(T,\overline{N}(\mu))_{\mathrm{oreka}} = \overline{N} k_{\mathrm{B}}\ln\left(2 + 2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \overline{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} \; .
 $$ (ising_s_oreka)
 
-Horiek horrela, oroitu gaitezen {numref}`{number} atalaren <stabeps>` amaieran egindako ohartarazpenaz. Hain zuzen, nabarmendu beharrekoa da {eq}`s_ising_kan` eta {eq}`s_tbarn_ising` adierazpenen limite makroskopikoa ez datorrela bat {eq}`ising_s_oreka` ekuazioan ageri denarekin. Beste hitzez esateko, ezberdintza hori dela bide, agerikoa da multzo nanokanonikoan erdietsitako oreka-egoera, zeinean banatze-potentziala hertsiki nulua den, ez dela inondik inora sistemaren egoera makroskopikoa. Egiazki, {eq}`epsilon_ising` ekuazioa {eq}`bar_n_ising` adierazpenaren laguntzaz berridatziz gero,
+Horiek horrela, oroitu gaitezen {numref}`{number} atalaren <stabeps>` amaieran egindako ohartarazpenaz. Hain zuzen, nabarmendu beharrekoa da {eq}`s_ising_kan` eta {eq}`s_tbarn_ising` ekuazioetako entropien limite makroskopikoa ez datorrela bat {eq}`ising_s_oreka` ekuazioan ageri den adierazpenarekin. Beste hitzez esateko, ezberdintza hori dela bide, agerikoa da multzo nanokanonikoan erdietsitako oreka-egoera, zeinean banatze-potentziala hertsiki nulua den, ez dela inondik inora sistemaren egoera makroskopikoa. Egiazki, {eq}`epsilon_ising` ekuazioa {eq}`bar_n_ising` adierazpenaren laguntzaz berridatziz gero,
 
 $$
 \mathscr{E}(T,\mu) = -k_{\mathrm{B}}T \ln\left(\frac{\overline{N}}{\cosh\frac{J}{k_{\mathrm{B}}T}}\right)

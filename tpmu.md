@@ -435,7 +435,7 @@ $$ (epsilonnewdef)
 
 Bestela esanda, multzo nanokanonikoaren kasuan, aldaki berri bat sorrarazteko multzoari berari egin beharreko lana da.
 
-Horren harira, atal honetan denboran batez besteko $\overline{\mathscr{N}}$ aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute $(N \geq 1)$. Era berean, multzoko inguruneko aldagai-sorta $(T,p,N_{t})$ izango dugu, non $N_{t}=\overline{\mathscr{N}}\overline{N}$ den.
+Horren harira, atal honetan denboran batez besteko $\overline{\mathscr{N}}$ aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute $(N \geq 1)$. Era berean, multzoko inguruneko aldagai-sorta $(T,p,N_{t})$ izango dugu, non $N_{t}=\overline{\mathscr{N}}\;\overline{N}$ den.
 
 Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du $F_{t}(T,p,N_{t})$ energia askeak, eta, beraz, $\mathrm{d}F_{t}<0$. Prozesuak dirauela multzoa isolatuta mantentzen bada, $\overline{\mathscr{N}}$ ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, {eq}`epsilonnewdef` ekuazioaren eskuinaldetik,
 

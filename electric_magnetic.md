@@ -411,13 +411,13 @@ width: 650px
   Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
 ```
 
-Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
+Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idatz dezakegu:
 
 $$
   E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
 $$ (e_j)
 
-Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko loturetan. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
+Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko sorten artean. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
 
 $$
 \Omega(n_+,N) = 2\cdot \frac{N!}{n_+!\;(N-n_+)!} \;\;\;\; .
@@ -508,7 +508,7 @@ genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen hor
 
 **----------------------------------------------------**
 
-Bukatzeko, azterketa __multzo nanokanonikora__ eramango dugu.
+Segidan, azterketa __multzo nanokanonikora__ eramango dugu.
 
 #####  Ariketa
 
@@ -594,6 +594,19 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 ```
 
 
+Horrez gain, multzo nanokanonikoaren giltzarri da multzoak berak azpisistemetan banatzeko duen gaitasuna. Ildo horretatik, esku artean dugun sistemaren nanoeskalako oreka termikoa bilatu ahal izango dugu. Hain zuzen ere, banatze-potentzialari erreparatuz, $\mathscr{E}(T,\mu)=0$ ezartzeak azpisistema txikiz osaturiko multzo guztiz irekia banatzeari dagokion oreka-egoerara helduko dela bermatuko du, eragozpenik gabe. Izan ere, ataleko adierazpenak gogora ekarriz, orekaranzko bidean $\overline{\mathscr{N}}$ aldaki-kopuruan aldakuntza espontaneoak gauzatuko dira.
+
+Esanak esan, oreka egoeran aldakiko batez besteko partikula-kopurua eta entropia honako hauek ditugu:
+
+$$
+\overline{N} = \cosh \frac{J}{k_{\mathrm{B}}T} \; ,
+$$ (ising_s_nbar)
+
+eta,
+
+$$
+S(T,\overline{N}(\mu)) = \overline{N} k_{\mathrm{B}}\ln\left(2 + 2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \overline{N}\frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T} \; .
+$$ (ising_s_oreka)
 
 
 

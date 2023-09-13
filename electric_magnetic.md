@@ -1,7 +1,6 @@
 (elek_mag)=
 ## Sistema elektrikoak eta magnetikoak
 
-___*Atala osatzen ari naiz...___
 
 (heco_elek)=
 ### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean
@@ -686,4 +685,4 @@ $$
 $$ (ising_b_s_tmu)
 
 
-Bada, {eq}`ising_b_s_c` ekuazioko $S(T,N)$ adierazpenaren aldean, $\mathscr{E}(T,\mu)$ banatze-potentzial negatiboak entropiari ekarpen positiboa gaineratu dio ($\overline{N}>0$ da eta). Emaitzak ikusita, nabarmena da aztergaitzat dugun elkarrekintzan ez dauden spinek osaturiko sistemaren eta {numref}`{number} atalean <mupt_gi>` aurkeztutako gas idealaren jokamoldeen arteko parekotasuna. Kasu horretan bezalaxe, banatze-potentzial negatibo eta ez-estentsiboaren ekarpenak partikulako entropiaren maximizazioa ahalbidetuko du $\overline{N} \rightarrow 0$ limitean, alegia, multzoaren banatzea areagotuz doan heinean (dakargun gogora {eq}`gi_tpmu_s_n` ekuazioa). Horretarako, jakina, azpisistemek euren tamaina inolako kanpo-galarazpenik gabe aldatzeko gai izan beharko dute. Azken eskakizun hori soilik multzo estatistiko nanokanonikoak bermatuko du.
+Bada, {eq}`ising_b_s_c` ekuazioko $S(T,N)$ adierazpenaren aldean, $\mathscr{E}(T,\mu)$ banatze-potentzial negatiboak entropiari ekarpen positiboa gaineratu dio ($\overline{N}>0$ da eta). Emaitzak ikusita, nabarmena da aztergaitzat dugun elkarrekintzan ez dauden spinek osaturiko sistemaren eta {numref}`{number} atalean <mupt_gi>` aurkeztutako gas idealaren jokamoldeen arteko parekotasuna. Kasu horretan bezalaxe, banatze-potentzial negatibo eta ez-estentsiboaren ekarpenak partikulako entropiaren maximizazioa ahalbidetuko du $\overline{N} \rightarrow 0$ limitean, alegia, multzoaren banatzea areagotuz doan heinean (dakargun gogora {eq}`gi_tpmu_s_n` ekuazioa). Horretarako, jakina, azpisistemek euren tamaina inolako kanpo-galarazpenik gabe aldatzeko gai izan beharko dute. Azken eskakizun hori soilik multzo estatistiko nanokanonikoak beteko du.

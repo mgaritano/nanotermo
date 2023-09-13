@@ -614,7 +614,7 @@ $$
 \mathscr{E}(T,\mu) = -k_{\mathrm{B}}T \ln\left(\frac{\overline{N}}{\cosh\frac{J}{k_{\mathrm{B}}T}}\right)
 $$ (ising_epsilon_1)
 
-berdintzara helduko gara, zeinak argi adierazten baitu ezen, $\overline{N} \rightarrow \infty$ limitean banatze-potentziala ez dela zerorantz gerturatuko, ekarpen lineal makroskopikoak gailenduko diren arren.
+berdintzara helduko gara, zeinak argi adierazten baitu ezen, $\overline{N} \rightarrow \infty$ limitean, banatze-potentziala ez dela zerorantz gerturatuko, haren aurrean ekarpen lineal makroskopikoak gailenduko diren arren.
 
 
 

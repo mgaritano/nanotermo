@@ -3,318 +3,6 @@
 
 ___*Atala osatzen ari naiz...___
 
-(ising)=
-### Ising-en eredua
-
-
-Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_geziak>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
-
-(ising_arrows)=
-```{figure} ising_geziak.png
----
-width: 650px
-name: ising_geziak
----
-  Ising-en dimentsio bakarreko katea $N$ spinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ({numref}`{number} irudia <ising_j>`).
-```
-
-Ising-en sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
-
-Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, {numref}`{number} atalean <b0jnot0>`, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza izango dugu soilik aintzakotzat. Ondoren, {numref}`{number} atalean <j0bnot0>` zatian, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu $(J=0)$.
-
-
-
-(b0jnot0)=
-#### Ising-en katea, $J$ elkarrekintza-energiaren eraginpean
-
-Errepara diezaiogun {numref}`{number} irudiari <ising_j>`.
-
-(ising_j)=
-```{figure} ising_j.png
----
-width: 650px
----
-  Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
-```
-
-Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
-
-$$
-  E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
-$$ (e_j)
-
-Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko loturetan. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
-
-$$
-\Omega(n_+,N) = 2\cdot \frac{N!}{n_+!\;(N-n_+)!} \;\;\;\; .
-$$ (omega_nj)
-
-Segidan, entropiaren ekuazioa idatziko dugu, Stirlingen $\ln(n!)$ serieko aurreneko hiru gaiak ez beste guztiak baztertuz:
-
-$$
-\boxed{\frac{S(n_+,N)}{k_\mathrm{B}} = N\ln N - n_+\ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[\frac{\pi}{2}n_+\left(1-\frac{n_+}{N}\right)\right]} \; .
-$$ (s_ising_micro)
-
-Gaineko {eq}`s_ising_micro` ekuazioak dioskunaren arabera, entropiak maximora joko du $n_+$ loturen kopuruaren erdia den kasuan, eta, hartara, sistemak magnetizazioa galtzean $(E = 0)$, hau da:
-
-$$
-S(n_+, N)_ {\text{max}} = S(N/2, N) = Nk_\mathrm{B}\ln 2 - \frac{1}{2}k_\mathrm{B}\ln\left(\frac{\pi}{8}N\right) \; .
-$$ (s_max_micro)
-
-
-Aurrerago, askatasun-graduak abiaraziz goazen heinean, azkenengo bi adierazpen horiek birkalkulatuko ditugu, emaitzen arteko erkaketak egite aldera.
-
-__Multzo kanonikora__ igaroko gara orain. Horretarako, $E(n_+)$ energia batukarian dagokion mikroegoeren sortarekin sartuz, eta Boltzmannen faktorea aintzat hartuz, partizio funtzioa eraikiko dugu:
-
-$$
-Q(T, N) = \sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}
-$$
-
-Goiko {eq}`e_j` eta {eq}`omega_nj` adierazpenak ordezkatuz, eta ekuazioak moldatuz, hona iritsiko gara:
-
-$$
-Q(T, N) = 2 \sum_{n_+ = 0}^{N} \frac{N!}{n_+!\;(N-n_+)!}\left(e^{- J/k_\mathrm{B}T}\right)^{n_+}\left(e^{ J/k_\mathrm{B}T}\right)^{N-n_+} = 2\left(e^{- J/k_\mathrm{B}T} + e^{ J/k_\mathrm{B}T}\right)^N \; .
-$$ (q_ising)
-
-```{admonition} Oharra
-Azkenengo ekuazioa eraikitzeko, binomioaren identitatea erabili dugu:
-
-$$
-(x+y)^N = \sum_{k=0}^{N} \frac{N!}{k!\;(N-k)!}\; x^k\; y^{N-k}
-$$
-```
-Bertatik, hasteko, sistemaren barne energiaren batez bestekoa kalkulatuko dugu, honako berdintza honi jarraituz:
-
-$$
-\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
-$$ (bar_E_def)
-
-#####  Ariketa
-
-$(a)$ Kalkulatu $\overline{E}$ adierazpena.
-
-```{dropdown} __Erantzuna__
-
-$$
- \overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
-$$ (bar_E)
-
-```
-
-$(b)$ Jarraian, kalkulatu Helmholtz-en energia askea.
-
-```{dropdown} __Erantzuna__
-
-$$
-A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] \; .
-$$ (hehlmholtz_ising)
-
-```
-
-$(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena. Jarraian, kalkulatu maximoa, eta alderatu emaitza {eq}`s_max_micro` ekuazioarekin.
-
-```{dropdown} __Erantzuna__
-
-Multzo kanonikoan entropiak $S(T, N) =\left(\overline{E} - A\right)/T $ betetzen duela gogora ekarriz, hona ailegatuko gara:
-
-$$
-\boxed{S(T,N)
- = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
-$$ (s_ising_kan)
-
-Entropiak maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
-
-$$
-S(T, N)_{\text{max}} = (N+1)k_{\mathrm{B}}\ln 2
-$$ (s_max_kano)
-
-genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen horrek zein {eq}`s_max_micro` ekuazioak $Nk_{\mathrm{B}}\ln 2$ baliora joko luketela. Alabaina, eskualde nanotermodinamikoan tamaina finituko efektuak baztertuko ez bagenitu, $S(T, N)_{\text{max}}$ gailenduko litzateke $S(n_+, N)_ {\text{max}}$ adierazpenarekiko.
-
-```
-
-**----------------------------------------------------**
-
-Bukatzeko, azterketa __multzo nanokanonikora__ eramango dugu.
-
-#####  Ariketa
-
-$(a)$ Idatzi $\Upsilon(T,\mu)$ partizio-funtzioaren adierazpena, {eq}`q_ising` ekuaziotik abiatuz. Ez egin kalkulurik.
-
-```{dropdown} __Erantzuna__
-
-Partizio-funtzio orokortua eraikitzerakoan, dakargun gogora sistemak lehen auzoko spinen arteko $N$ lotura dituela esan dugula arestian; hartara, sistemaren spinen kopurua $N+1$ da. Hori dela eta, batukariko Boltzmannen faktorean $N+1$ sartu beharko dugu, eta, beraz,
-
-$$
-\Upsilon (T,\mu)= \sum_{N=0}^{\infty} Q(T,N)\; e^{\mu(N+1)/k_\mathrm{B}T}
-$$ (upsilon_ising)
-
-ekuaziora helduko gara.
-
-```
-
-$(b)$ Ondoren, kalkulatu $\Upsilon(T,\mu)$ partizio-funtzio nanokanonikoa eta banatze-potentziala.
-
-
-
-```{dropdown} __Erantzuna__
-
-Aurreko $(a)$ ataleko espresioa garatuz eta moldatuz,
-
-$$
-\Upsilon (T,\mu)= 2\lambda \sum_{N=0}^{\infty}\left[\left(e^{J/k_\mathrm{B}T} + e^{- J/k_\mathrm{B}T}\right)\lambda\right]^N = \left(\frac{1}{2\lambda} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; ,
-$$ (upsilon_ising_1)
-
-non $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Bertatik, banatze-potentzialaren adierazpena berehalakoa da:
-
-$$
-\mathscr{E}(T,\mu) = k_\mathrm{B}T\ln\left(\frac{1}{2\lambda} -\cosh\frac{J}{k_\mathrm{B}T}\right) \; .
-$$(epsilon_ising)
-
-
-
-```
-
-$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\overline{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\overline{N}(\mu))$ adierazpenera heltzeko, eta maximizatu berori.
-
-```{dropdown} __Erantzuna__
-
-Hasteko,
-
-$$
-S(T,\mu) = -k_\mathrm{B}\ln\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right) - \left(\frac{1}{2}\;\frac{\mu}{T}\;e^{-\mu/k_{\mathrm{B}}T} - \frac{J}{T}\;\sinh\frac{J}{k_\mathrm{B}T}\right)\cdot\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; .
-$$(s_tmu_ising)
-
-Spinen kopuruaren batez bestekoa kalkulatzerakoan, adi ibili behar dugu, adierazpenean $\overline{N} + 1$ idatzi behar dugulako, alegia:
-
-$$
-\overline{N} + 1 = -\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_T =\frac{\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T}}{ \frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}} \; .
-$$(bar_n_ising)
-
-Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
-
-$$
-\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\overline{N}+1}{\overline{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right]} \; .
-$$ (s_tbarn_ising)
-
-Funtzio horrek ere maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ puntuan:
-
-$$
-S(T, \overline{N}(\mu))_{\text{max}} = \overline{N}k_{\mathrm{B}}\ln \left(2\frac{\overline{N}+1}{\overline{N}}\right) + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right] \; ,
-$$ (s_max_nanokano)
-
-zeinaren limite makroskopikoa, berriz ere, $\overline{N}k_{\mathrm{B}}\ln 2$ den.
-
-```
-
-**----------------------------------------------------**
-
-Behin $S(n_+, N)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\overline{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
-
-```{figure} ising_1_s.png
----
-height: 350px
-name: sn100
----
-Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, hiru kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan adierazten den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(j0bnot0)=
-#### Spin askeak, $\mathbf{B}$ kanpo-eremuaren eraginpean
-
-Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarraituko dugu. Dena dela ere, eskuratuko ditugun emaitzek berebiziko adierazgarritasuna dutela ohartuko gara; ororen gainetik, {numref}`{number} adibideko <mupt_gi>` gas idealaren analisian eraikitako adierazpenekiko parekotasun nabaria antzemango diegu. Egin diezaiogun so {numref}`{number} irudiari <ising_b>`.
-
-(ising_1)=
-```{figure} ising_b.png
----
-width: 700px
-name: ising_b
----
-Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magnetikoarekin daudela elkarrekintzan. Hortaz, spinei $\mathbf{m} = \pm m \mathbf{u_z}$ momentu magnetikoa esleituz gero, sistemaren barne-energia $E = (N-2n_+)mB$ izango dugu, non $n_+$ eremuaren noranzko berean $(+z)$ lerrokatuta dauden spinen kopurua den.
-
-```
-
-Irudiko azalpenak aintzakotzat hartuz, __multzo mikrokanonikoan__ $E(n_+,N)$ barne-energia finkatuta duen makroegoerarekin bateragarriak diren mikroegoeren kopurua koefiziente binomialak emango digu, beste behin:
-
-$$
-\Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!} \; .
-$$ (ising_b_omega)
-
-Stirling-en $\ln N! \approx N\ln N - N + \frac{1}{2}\ln (2\pi N)$ hurbilketara joz gero, entropian soilik gai ez-lineal bakarra mantenduko dugu, zeina $\mathscr{E}(n_+, N)$ banatze-potentzialak zehaztuko duen. Hortaz,
-
-$$
-\boxed{\frac{S(n_+,N)}{k_{\mathrm{B}}} \approx N\ln N - n_+ \ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right]} \; ,
-$$ (ising_b_s_mc)
-
-eta,
-
-$$
-\mathscr{E}(n_+, N) \approx \frac{1}{2} k_{\mathrm{B}}T \ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right] > 0 \; , \quad n_+ <N \; .
-$$ (ising_b_epsilon_mc)
-
-Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. <stabeps>` ataleko azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
-
-
-Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
-
-$$
-Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N \; .
-$$ (ising_b_q)
-
-Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,
-
-$$
-\boxed{S(T,N)
- = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
-$$ (ising_b_s_c)
-
-Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
-
-Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\frac{mB}{k_{\mathrm{B}}T}\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
-
-$$
-\Upsilon (T,\mu) = \sum_{N=0}^\infty x^N = \frac{1}{1-x} \;, \quad \vert x \vert < 1 
-$$ (ising_b_upsilon)
-
-izango dugu partizio funtzio orokortua. Bertatik,
-
-$$
-\overline{N} = \frac{x}{1-x} \; ,
-$$ (ising_b_nbar)
-
-
-$$
-\mathscr{E}(T,\mu) = k_{\mathrm{B}}T\ln(1-x) = -k_{\mathrm{B}}T\ln\left(\overline{N}+1\right) \; ,
-$$ (ising_b_epsilon_tmu)
-
-eta,
-
-$$
-\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{mB}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
-$$ (ising_b_s_tmu)
-
-
-Bada, {eq}`ising_b_s_c` ekuazioko $S(T,N)$ adierazpenaren aldean, $\mathscr{E}(T,\mu)$ banatze-potentzial negatiboak entropiari ekarpen positiboa gaineratu dio ($\overline{N}>0$ da eta). Emaitzak ikusita, nabarmena da aztergaitzat dugun elkarrekintzan ez dauden spinek osaturiko sistemaren eta {numref}`{number} atalean <mupt_gi>` aurkeztutako gas idealaren jokamoldeen arteko parekotasuna. Kasu horretan bezalaxe, banatze-potentzial negatibo eta ez-estentsiboaren ekarpenak partikulako entropiaren maximizazioa ahalbidetuko du $\overline{N} \rightarrow 0$ limitean, alegia, multzoaren banatzea areagotuz doan heinean (dakargun gogora {eq}`gi_tpmu_s_n` ekuazioa). Horretarako, jakina, azpisistemek euren tamaina inolako kanpo-galarazpenik gabe aldatzeko gai izan beharko dute. Azken eskakizun hori soilik multzo estatistiko nanokanonikoak bermatuko du.
-
-
-
 (heco_elek)=
 ### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean
 
@@ -685,4 +373,317 @@ Errepara bekio {eq}`agg_elek_s_nc` ekuazioari, gaiz gai. Bada, lehengoan bezala,
 
 Amaitzeko, begien bistakoa da hirugarren lerroa ekarpen elektrikoari dagokiola bere osotasunean. Nabarmentzekoa da, halaber, $\vert\mathbf{E}\vert^2$ osagaia agertzen dela; hortaz, eremu txikiko limitean ekarpen hori baztergarria da funtsean, aurreko bi lerroetako gaiekiko. Nolanahi dela ere, oharteman dezagun ezen, {numref}`{number} atalean <mupt_linagg>` adierazi dugun $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T$ hartuko bagenu, ekarpena zeinuz positiboa litzatekeela; alegia, eskualde nanotermodinamikoan askatasun-gradu elektrikoa abian jartzeak entropia igo egingo du.
 
-Jakina, kanpo-eremua kenduko bagenu, aurreko {eq}`stmuagg` ekuazioa berreskuratuko genuke.
+Jakina, kanpo-eremua kenduko bagenu, jatorrizko {eq}`stmuagg` ekuazioa berreskuratuko genuke.
+
+
+
+
+(ising)=
+### Ising-en eredua
+
+
+Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_geziak>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
+
+(ising_arrows)=
+```{figure} ising_geziak.png
+---
+width: 650px
+name: ising_geziak
+---
+  Ising-en dimentsio bakarreko katea $N$ spinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ({numref}`{number} irudia <ising_j>`).
+```
+
+Ising-en sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
+
+Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, {numref}`{number} atalean <b0jnot0>`, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza izango dugu soilik aintzakotzat. Ondoren, {numref}`{number} atalean <j0bnot0>` zatian, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu $(J=0)$.
+
+
+
+(b0jnot0)=
+#### Ising-en katea, $J$ elkarrekintza-energiaren eraginpean
+
+Errepara diezaiogun {numref}`{number} irudiari <ising_j>`.
+
+(ising_j)=
+```{figure} ising_j.png
+---
+width: 650px
+---
+  Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
+```
+
+Arestian azaldutako hurbilketari jarraikiz, demagun sistema $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idaztea daukagu:
+
+$$
+  E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
+$$ (e_j)
+
+Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko loturetan. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
+
+$$
+\Omega(n_+,N) = 2\cdot \frac{N!}{n_+!\;(N-n_+)!} \;\;\;\; .
+$$ (omega_nj)
+
+Segidan, entropiaren ekuazioa idatziko dugu, Stirlingen $\ln(n!)$ serieko aurreneko hiru gaiak ez beste guztiak baztertuz:
+
+$$
+\boxed{\frac{S(n_+,N)}{k_\mathrm{B}} = N\ln N - n_+\ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[\frac{\pi}{2}n_+\left(1-\frac{n_+}{N}\right)\right]} \; .
+$$ (s_ising_micro)
+
+Gaineko {eq}`s_ising_micro` ekuazioak dioskunaren arabera, entropiak maximora joko du $n_+$ loturen kopuruaren erdia den kasuan, eta, hartara, sistemak magnetizazioa galtzean $(E = 0)$, hau da:
+
+$$
+S(n_+, N)_ {\text{max}} = S(N/2, N) = Nk_\mathrm{B}\ln 2 - \frac{1}{2}k_\mathrm{B}\ln\left(\frac{\pi}{8}N\right) \; .
+$$ (s_max_micro)
+
+
+Aurrerago, askatasun-graduak abiaraziz goazen heinean, azkenengo bi adierazpen horiek birkalkulatuko ditugu, emaitzen arteko erkaketak egite aldera.
+
+__Multzo kanonikora__ igaroko gara orain. Horretarako, $E(n_+)$ energia batukarian dagokion mikroegoeren sortarekin sartuz, eta Boltzmannen faktorea aintzat hartuz, partizio funtzioa eraikiko dugu:
+
+$$
+Q(T, N) = \sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}
+$$
+
+Goiko {eq}`e_j` eta {eq}`omega_nj` adierazpenak ordezkatuz, eta ekuazioak moldatuz, hona iritsiko gara:
+
+$$
+Q(T, N) = 2 \sum_{n_+ = 0}^{N} \frac{N!}{n_+!\;(N-n_+)!}\left(e^{- J/k_\mathrm{B}T}\right)^{n_+}\left(e^{ J/k_\mathrm{B}T}\right)^{N-n_+} = 2\left(e^{- J/k_\mathrm{B}T} + e^{ J/k_\mathrm{B}T}\right)^N \; .
+$$ (q_ising)
+
+```{admonition} Oharra
+Azkenengo ekuazioa eraikitzeko, binomioaren identitatea erabili dugu:
+
+$$
+(x+y)^N = \sum_{k=0}^{N} \frac{N!}{k!\;(N-k)!}\; x^k\; y^{N-k}
+$$
+```
+Bertatik, hasteko, sistemaren barne energiaren batez bestekoa kalkulatuko dugu, honako berdintza honi jarraituz:
+
+$$
+\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
+$$ (bar_E_def)
+
+#####  Ariketa
+
+$(a)$ Kalkulatu $\overline{E}$ adierazpena.
+
+```{dropdown} __Erantzuna__
+
+$$
+ \overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
+$$ (bar_E)
+
+```
+
+$(b)$ Jarraian, kalkulatu Helmholtz-en energia askea.
+
+```{dropdown} __Erantzuna__
+
+$$
+A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] \; .
+$$ (hehlmholtz_ising)
+
+```
+
+$(c)$ Aurreko bi ekuazioez baliatuz, eraiki entropiaren $S(T,N)$ adierazpena. Jarraian, kalkulatu maximoa, eta alderatu emaitza {eq}`s_max_micro` ekuazioarekin.
+
+```{dropdown} __Erantzuna__
+
+Multzo kanonikoan entropiak $S(T, N) =\left(\overline{E} - A\right)/T $ betetzen duela gogora ekarriz, hona ailegatuko gara:
+
+$$
+\boxed{S(T,N)
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
+$$ (s_ising_kan)
+
+Entropiak maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia
+
+$$
+S(T, N)_{\text{max}} = (N+1)k_{\mathrm{B}}\ln 2
+$$ (s_max_kano)
+
+genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen horrek zein {eq}`s_max_micro` ekuazioak $Nk_{\mathrm{B}}\ln 2$ baliora joko luketela. Alabaina, eskualde nanotermodinamikoan tamaina finituko efektuak baztertuko ez bagenitu, $S(T, N)_{\text{max}}$ gailenduko litzateke $S(n_+, N)_ {\text{max}}$ adierazpenarekiko.
+
+```
+
+**----------------------------------------------------**
+
+Bukatzeko, azterketa __multzo nanokanonikora__ eramango dugu.
+
+#####  Ariketa
+
+$(a)$ Idatzi $\Upsilon(T,\mu)$ partizio-funtzioaren adierazpena, {eq}`q_ising` ekuaziotik abiatuz. Ez egin kalkulurik.
+
+```{dropdown} __Erantzuna__
+
+Partizio-funtzio orokortua eraikitzerakoan, dakargun gogora sistemak lehen auzoko spinen arteko $N$ lotura dituela esan dugula arestian; hartara, sistemaren spinen kopurua $N+1$ da. Hori dela eta, batukariko Boltzmannen faktorean $N+1$ sartu beharko dugu, eta, beraz,
+
+$$
+\Upsilon (T,\mu)= \sum_{N=0}^{\infty} Q(T,N)\; e^{\mu(N+1)/k_\mathrm{B}T}
+$$ (upsilon_ising)
+
+ekuaziora helduko gara.
+
+```
+
+$(b)$ Ondoren, kalkulatu $\Upsilon(T,\mu)$ partizio-funtzio nanokanonikoa eta banatze-potentziala.
+
+
+
+```{dropdown} __Erantzuna__
+
+Aurreko $(a)$ ataleko espresioa garatuz eta moldatuz,
+
+$$
+\Upsilon (T,\mu)= 2\lambda \sum_{N=0}^{\infty}\left[\left(e^{J/k_\mathrm{B}T} + e^{- J/k_\mathrm{B}T}\right)\lambda\right]^N = \left(\frac{1}{2\lambda} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; ,
+$$ (upsilon_ising_1)
+
+non $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugun. Bertatik, banatze-potentzialaren adierazpena berehalakoa da:
+
+$$
+\mathscr{E}(T,\mu) = k_\mathrm{B}T\ln\left(\frac{1}{2\lambda} -\cosh\frac{J}{k_\mathrm{B}T}\right) \; .
+$$(epsilon_ising)
+
+
+
+```
+
+$(c)$ Banatze-potentzialaren adierazpen horretatik, kalkulatu $S(T,\mu)$ eta $\overline{N}$. Ondoren, birmoldatu entropiaren ekuazioa $S(T,\overline{N}(\mu))$ adierazpenera heltzeko, eta maximizatu berori.
+
+```{dropdown} __Erantzuna__
+
+Hasteko,
+
+$$
+S(T,\mu) = -k_\mathrm{B}\ln\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right) - \left(\frac{1}{2}\;\frac{\mu}{T}\;e^{-\mu/k_{\mathrm{B}}T} - \frac{J}{T}\;\sinh\frac{J}{k_\mathrm{B}T}\right)\cdot\left(\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}\right)^{-1} \; .
+$$(s_tmu_ising)
+
+Spinen kopuruaren batez bestekoa kalkulatzerakoan, adi ibili behar dugu, adierazpenean $\overline{N} + 1$ idatzi behar dugulako, alegia:
+
+$$
+\overline{N} + 1 = -\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_T =\frac{\frac{1}{2} e^{-\mu/k_{\mathrm{B}}T}}{ \frac{1}{2} e^{-\mu/k_{\mathrm{B}}T} -\cosh\frac{J}{k_\mathrm{B}T}} \; .
+$$(bar_n_ising)
+
+Horrenbestez, entropiaren adierazpena era honetan berridaztea daukagu:
+
+$$
+\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\;\frac{\overline{N}+1}{\overline{N}}\;\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\;\tanh\frac{J}{k_{\mathrm{B}}T}\right] + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right]} \; .
+$$ (s_tbarn_ising)
+
+Funtzio horrek ere maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ puntuan:
+
+$$
+S(T, \overline{N}(\mu))_{\text{max}} = \overline{N}k_{\mathrm{B}}\ln \left(2\frac{\overline{N}+1}{\overline{N}}\right) + k_{\mathrm{B}}\ln\left[2(\overline{N}+1)\right] \; ,
+$$ (s_max_nanokano)
+
+zeinaren limite makroskopikoa, berriz ere, $\overline{N}k_{\mathrm{B}}\ln 2$ den.
+
+```
+
+**----------------------------------------------------**
+
+Behin $S(n_+, N)_{\mathrm{max}}$, $S(T, N)_{\mathrm{max}}$ eta $S(T,\overline{N}(\mu))_{\mathrm{max}}$ adierazpenak kalkulatuz gero, adierazgarria litzateke hiruren arteko alderaketa egitea, sistemaren tamainaren araberako bilakaerari erreparatuz:
+
+```{figure} ising_1_s.png
+---
+height: 350px
+name: sn100
+---
+Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean multzo nanokanonikoak entropia handiagoa itzultzen duela. Bestetik, hiru kasuetan $S/N$ magnitudeak ez du izaera intentsiboa eskualde nanotermodinamikoan. Alabaina, limite makroskopikoan, adierazpenek bat egitera joko dute; halaber, intentsibotasuna berreskuratuko da. Kurbak eraikitzeko, {cite}`multiscale` artikuluan adierazten den $J/k_{\mathrm{B}}T = 1,45$ zenbakia erabili dugu.
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(j0bnot0)=
+#### Spin askeak, $\mathbf{B}$ kanpo-eremuaren eraginpean
+
+Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarraituko dugu. Dena dela ere, eskuratuko ditugun emaitzek berebiziko adierazgarritasuna dutela ohartuko gara; ororen gainetik, {numref}`{number} adibideko <mupt_gi>` gas idealaren analisian eraikitako adierazpenekiko parekotasun nabaria antzemango diegu. Egin diezaiogun so {numref}`{number} irudiari <ising_b>`.
+
+(ising_1)=
+```{figure} ising_b.png
+---
+width: 700px
+name: ising_b
+---
+Eman dezagun $N$ spinak soilik $\mathbf{B} = B \mathbf{u_z}$ kanpoko eremu magnetikoarekin daudela elkarrekintzan. Hortaz, spinei $\mathbf{m} = \pm m \mathbf{u_z}$ momentu magnetikoa esleituz gero, sistemaren barne-energia $E = (N-2n_+)mB$ izango dugu, non $n_+$ eremuaren noranzko berean $(+z)$ lerrokatuta dauden spinen kopurua den.
+
+```
+
+Irudiko azalpenak aintzakotzat hartuz, __multzo mikrokanonikoan__ $E(n_+,N)$ barne-energia finkatuta duen makroegoerarekin bateragarriak diren mikroegoeren kopurua koefiziente binomialak emango digu, beste behin:
+
+$$
+\Omega(n_+,N) = \frac{N!}{n_+! (N-n_+)!} \; .
+$$ (ising_b_omega)
+
+Stirling-en $\ln N! \approx N\ln N - N + \frac{1}{2}\ln (2\pi N)$ hurbilketara joz gero, entropian soilik gai ez-lineal bakarra mantenduko dugu, zeina $\mathscr{E}(n_+, N)$ banatze-potentzialak zehaztuko duen. Hortaz,
+
+$$
+\boxed{\frac{S(n_+,N)}{k_{\mathrm{B}}} \approx N\ln N - n_+ \ln n_+ - (N-n_+)\ln(N-n_+) - \frac{1}{2}\ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right]} \; ,
+$$ (ising_b_s_mc)
+
+eta,
+
+$$
+\mathscr{E}(n_+, N) \approx \frac{1}{2} k_{\mathrm{B}}T \ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right] > 0 \; , \quad n_+ <N \; .
+$$ (ising_b_epsilon_mc)
+
+Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. <stabeps>` ataleko azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
+
+
+Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
+
+$$
+Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N \; .
+$$ (ising_b_q)
+
+Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,
+
+$$
+\boxed{S(T,N)
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
+$$ (ising_b_s_c)
+
+Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
+
+Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\frac{mB}{k_{\mathrm{B}}T}\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
+
+$$
+\Upsilon (T,\mu) = \sum_{N=0}^\infty x^N = \frac{1}{1-x} \;, \quad \vert x \vert < 1 
+$$ (ising_b_upsilon)
+
+izango dugu partizio funtzio orokortua. Bertatik,
+
+$$
+\overline{N} = \frac{x}{1-x} \; ,
+$$ (ising_b_nbar)
+
+
+$$
+\mathscr{E}(T,\mu) = k_{\mathrm{B}}T\ln(1-x) = -k_{\mathrm{B}}T\ln\left(\overline{N}+1\right) \; ,
+$$ (ising_b_epsilon_tmu)
+
+eta,
+
+$$
+\boxed{S(T,\overline{N}(\mu)) = \overline{N}\left[ k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\;\tanh\frac{mB}{k_{\mathrm{B}}T} + \ln\left(\frac{\overline{N}+1}{\overline{N}}\right)\right] + k_{\mathrm{B}}\ln\left(\overline{N}+1\right)} \; .
+$$ (ising_b_s_tmu)
+
+
+Bada, {eq}`ising_b_s_c` ekuazioko $S(T,N)$ adierazpenaren aldean, $\mathscr{E}(T,\mu)$ banatze-potentzial negatiboak entropiari ekarpen positiboa gaineratu dio ($\overline{N}>0$ da eta). Emaitzak ikusita, nabarmena da aztergaitzat dugun elkarrekintzan ez dauden spinek osaturiko sistemaren eta {numref}`{number} atalean <mupt_gi>` aurkeztutako gas idealaren jokamoldeen arteko parekotasuna. Kasu horretan bezalaxe, banatze-potentzial negatibo eta ez-estentsiboaren ekarpenak partikulako entropiaren maximizazioa ahalbidetuko du $\overline{N} \rightarrow 0$ limitean, alegia, multzoaren banatzea areagotuz doan heinean (dakargun gogora {eq}`gi_tpmu_s_n` ekuazioa). Horretarako, jakina, azpisistemek euren tamaina inolako kanpo-galarazpenik gabe aldatzeko gai izan beharko dute. Azken eskakizun hori soilik multzo estatistiko nanokanonikoak bermatuko du.

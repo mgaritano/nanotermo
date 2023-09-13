@@ -594,7 +594,7 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 ```
 
 
-Horrez gain, hainbatetan azpimarratu dugun legez, multzo nanokanonikoaren giltzarri da multzoak berak azpisistemetan banatzeko duen gaitasuna. Ildo horretatik, esku artean dugun sistemaren nanoeskalako oreka termikoa bilatu ahal izango dugu. Hain zuzen ere, banatze-potentzialari erreparatuz, $\mathscr{E}(T,\mu)=0$ ezartzeak azpisistema txikiz osaturiko multzo guztiz irekia banatzeari dagokion oreka-egoerara helduko dela bermatuko du, eragozpenik gabe. Izan ere, adierazpenak gogora ekarriz, orekaranzko bidean $\overline{\mathscr{N}}$ aldaki-kopuruan aldakuntza espontaneoak gauzatuko dira.
+Horrez gain, hainbatetan azpimarratu dugun legez, multzo nanokanonikoaren giltzarri da multzoak berak azpisistemetan banatzeko duen gaitasuna. Ildo horretatik, esku artean dugun sistemaren nanoeskalako oreka termikoa bilatu ahal izango dugu. Hain zuzen ere, banatze-potentzialari erreparatuz, $\mathscr{E}(T,\mu)=0$ ezartzeak azpisistema txikiz osaturiko multzo guztiz irekia banatzeari dagokion oreka-egoerara helduko dela bermatuko du, eragozpenik gabe. Izan ere, orekaranzko bidean $\overline{\mathscr{N}}$ aldaki-kopuruan aldakuntza espontaneoak gauzatuko dira.
 
 Esanak esan, oreka egoeran aldakiko batez besteko partikula-kopurua eta entropia honako hauek ditugu:
 

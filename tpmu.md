@@ -273,7 +273,7 @@ $$
 Hortaz, {eq}`pn_aux` ekuazioa honela berridatziko dugu:
 
 $$
--k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\left\{\frac{cx\ln x}{(1-x)(1-x+cx)}  + \frac{cx}{1-x+cx}\left( \ln c + \ln\left(\frac{1-x}{1-x+cx}\right)\right)\right\}
+-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -k_\mathrm{B}\ln P(0) - k_\mathrm{B}\left\{\frac{cx\ln x}{(1-x)(1-x+cx)}  + \frac{cx}{1-x+cx}\left[ \ln c + \ln\left(\frac{1-x}{1-x+cx}\right)\right]\right\}
 $$
 
 Aurreko ataleko {eq}`nbar_agg_short`,  $P(0)$ eta $c$ magnitudeen adierazpenak aintzat hartuz gero,

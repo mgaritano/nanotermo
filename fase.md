@@ -3,12 +3,12 @@
 
 Aparteko zati honetan, tamaina finituko efektuek bi oreka-egoeren arteko fase-trantsizioaren jokamoldeari dakarzkioten berezitasunen gainean jardungo dugu.
 
-```{dropdown} __Oharra__
+<!-- ```{dropdown} __Oharra__
 
 Atal honetan ez da ariketarik egongo. 😎
 
-Hala ere, komenigarria da garapen batzuk norberak egitea... 🙃
-```
+Hala ere, komenigarria da garapen batzuk norberak egitea... 🙃 -->
+<!-- ``` -->
 
 (itzul)=
 ### Itzulgarritasuna eta oreka-baldintzak

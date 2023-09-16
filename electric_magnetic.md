@@ -10,7 +10,7 @@ horri esker lortu ahalko baitugu multzoaren banatzeari dagokion oreka termikoa e
 (heco_elek)=
 ### Helize-haril trantsizioa, $\mathbf{E}$ kanpo-eremuaren eraginpean
 
-Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathbf{E}$ eremu elektrikoa, eta haren konjokatu estentsiboa den sistemaren momentu dipolar elektrikoa, $\mathbf{p}$. Gauzak horrela, adibide honetan, {numref}`{number} irudiko <heco>` "helize-haril" kate eraldatua izango dugu aztergaitzat ({numref}`{number} irudia <heco_e>`).
+Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathbf{E}$ eremu elektrikoa, eta haren konjugatu estentsiboa den sistemaren momentu dipolar elektrikoa, $\mathbf{p}$. Gauzak horrela, adibide honetan, {numref}`{number} irudiko <heco>` "helize-haril" kate eraldatua izango dugu aztergaitzat ({numref}`{number} irudia <heco_e>`).
 
 ```{figure} heco_efield.jpg
 ---
@@ -272,7 +272,7 @@ $$
 \mathrm{d}(\widehat{\mu}N)(T,N,\vert\mathbf{E}\vert) = -S\mathrm{d}T+\mu\mathrm{d}N - \vert\mathbf{p}\vert \mathrm{d}\vert\mathbf{E}\vert\; .
 $$ (agg_e_dmuhat)
 
-Nabarmendu beharrekoa da, partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugula. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjokatua $\mathbf{p}$ momentuaren modulua izango da.
+Nabarmendu beharrekoa da, partizio-funtzio kanonikoa eraikitzen aritu garenean, {eq}`agg_e_q_p0` ekuazioaren bidez askatasun-gradu elektrikoa abiatu dugula. Bada, lorturiko emaitza $\mathbf{E}$ eremuaren moduluaren menpekoa da. Hori dela eta, ingurune-aldagaitzat modulua hartzea daukagu, bektorearen beraren ordez; hartara, haren konjugatua $\mathbf{p}$ momentuaren modulua izango da.
 
 
 Bertatik eraikiko dugu eskatzen zaigun Maxwellen erlazioa:

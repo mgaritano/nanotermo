@@ -12,7 +12,7 @@ Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, Termodinamik
 
 ```
 
-Multzoaren azterketari ekin aurretik, kontuan izan dezagun laugarren askatasun-gradu bat duela abian eta, beraz, bere barne-energiak $E_{t} = E_{t}(S_{t}, V_{t}, N_{t}, \mathscr{N})$ erlazioa betetzen duela. Gauzak horrela, {eq}`gibbs` ekuazioari beste aldagai konjokatu-pare bat erantsi beharko diogu, __Hill-Gibbs ekuazioa__ eraikitzeko:
+Multzoaren azterketari ekin aurretik, kontuan izan dezagun laugarren askatasun-gradu bat duela abian eta, beraz, bere barne-energiak $E_{t} = E_{t}(S_{t}, V_{t}, N_{t}, \mathscr{N})$ erlazioa betetzen duela. Gauzak horrela, {eq}`gibbs` ekuazioari beste aldagai konjugatu-pare bat erantsi beharko diogu, __Hill-Gibbs ekuazioa__ eraikitzeko:
 
 $$
  \mathrm{d}E_{t} = \left(\frac{\partial E_{t}}{\partial S_{t}}\right)_{V_{t}, N_{t}, \mathscr{N}}\mathrm{d}S_{t} + \left(\frac{\partial E_{t}}{\partial V_{t}}\right)_{S_{t}, N_{t}, \mathscr{N}}\mathrm{d}V_{t} + \left(\frac{\partial E_{t}}{\partial N_{t}}\right)_{S_{t},V_{t}, \mathscr{N}}\mathrm{d}N_{t} + \color{blue}{\left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_{S_{t},V_{t}, N_{t}}}\color{red}{\mathrm{d}\mathscr{N}} \; .
@@ -64,7 +64,7 @@ $$
 $$ (h_g_d)
 
 Erlazio horrek matematikoki erakustera ematen du {numref}`{number}. zatian <nanointro>` esaten aritu garena, agerikoa baita banatze-potentzialak askatasun-gradu bat abiaraziko duela. Hartara, zilegi izango zaigu, $(T, p, \mu)$ aldagai-sorta $\mathscr{E}(T,p,\mu)$ potentzialaren baitan finkatzeaz bat, multzo nanokanonikoa eraikitzea. Berorren bidez sistema txikiaren propietateei xehetasun handiagoz hurreratuko gatzaizkie.
-Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathscr{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \overline{V}$ eta $\overline{N}$ aldagaiek zein berorien konjokatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
+Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`gibbs` ekuazio berera heldu garela pentsaraz liezaguke. Baina adi egon behar dugu, bertako aldagaien ez-homogeneotasunak ez baitu baimentzen {eq}`pausoa` espresioan parentesi artean agertzen dena burutzea; horren adierazle da {eq}`e_small` ekuazioan azaltzen den $\mathscr{E}$ gaia. Jakina, banatze-potentziala baztergarria balitz, $S, \overline{V}$ eta $\overline{N}$ aldagaiek zein berorien konjugatuek izaera homogeneoa berreskuratuko lukete. Horrek multzo nanokanonikoa suntsituko luke, ekuazioak maila makroskopikora eramango bailituzke: {eq}`e_small` $\rightarrow$ {eq}`E`, {eq}`gibbs_small` $\rightarrow$ {eq}`gibbs` eta {eq}`h_g_d` $\rightarrow$ {eq}`gibbs-duhem`.
 
 
 Ikusten dugunez, Termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kualitatiboki aipatutako kontzeptuei azalpen mardulagoak eta landuagoak eman dizkiegu. Horrek sailkapen-irizpide zorrotza eraikitzea ahalbidetzen du: _Sistema bat txikia da, baldin eta bere banatze-potentziala finitua eta bazterrezina bada_.

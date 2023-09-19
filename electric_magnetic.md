@@ -1,9 +1,9 @@
 (elek_mag)=
 ## Sistema elektrikoak eta magnetikoak
 
-Atal honen lehenengo zatia bi sistemaren berrazterketara dago bideratuta, efektu elektrikoak gaineratuko ditugularik. Egiazki, lehendabizi {numref}`{number} adibideko <helix_coil>` “helize-haril” sistema itxuraldatuko dugu, alde banatan aurkako zeinudun bi karga erantsiz. Ondoren, {numref}`{number} adibidean <mupt_linagg>` ageri den agregatu linealari helduko diogu, eta unitate-osatzaileetako bakoitza $z$ norabidean ausazko noranzkodun dipolo elektrikotzat hartuko dugu. Kasu bietan kanpoko eremu elektrikoaren eraginpean ezarriko ditugu sistemak, berorien azterketa termodinamikoa berrabiarazteko.
+Aurreneko bi atalak aurrez landutako bi sistemaren berrazterketara dago bideratuta, efektu elektrikoak gaineratuko dizkiegularik. Egiazki, lehendabizi {numref}`{number} adibideko <helix_coil>` “helize-haril” sistema itxuraldatuko dugu, alde banatan aurkako zeinudun bi karga erantsiz. Ondoren, {numref}`{number} adibidean <mupt_linagg>` ageri den agregatu linealari helduko diogu, eta unitate-osatzaileetako bakoitza $z$ norabidearekiko ausazko orientaziodun dipolo elektrikotzat hartuko dugu. Kasu bietan kanpoko eremu elektrikoaren eraginpean ezarriko ditugu sistemak, berorien azterketa termodinamikoa berrabiarazteko.
 
-Bigarren zatian, Ising-en dimentsio bakarreko katea izango dugu hizpide, eta, batik bat, harekin multzo nanokanonikoan arituko gara, 
+Hirugarren zatian, Ising-en dimentsio bakarreko katea izango dugu hizpide, eta, batik bat, harekin multzo nanokanonikoan arituko gara, 
 horri esker lortu ahalko baitugu multzoaren banatzeari dagokion oreka termikoa erdiestea.
 
 

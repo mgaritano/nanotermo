@@ -6,7 +6,7 @@ Kapitulu honetan teoriaren alor esanguratsuenari ekingo diogu. Demagun esku arte
 Alabaina, har dezagun gogoan {numref}`{number}. atalburuan <nanointro>` aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathscr{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
 
 ```{admonition} Oharra
-Hill-ek bere liburuan _multzo orokortu_ izena erabiltzen du ("_generalized ensemble_"), _multzo nanokanoniko_ beharrean.
+Hill-ek bere liburuan multzo _orokortu_ izena erabiltzen du ("generalized ensemble"), multzo _nanokanoniko_ beharrean. 
 
 ```
 

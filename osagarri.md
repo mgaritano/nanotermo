@@ -31,7 +31,7 @@ $$
 \left.\begin{array}{l}
 \widehat{\mu}^{(x)} = \widehat{\mu} - \mu^{(0)} = N^{-1/3}\;a(T) + N^{-2/3}\;b(T)\\\\
 \mu^{(x)} = \mu - \mu^{(0)} = \frac{2}{3}N^{-1/3}\;a(T) + \frac{1}{3}N^{-2/3}\;b(T)
-\end{array}\right\}
+\end{array}\right\} \underset{(N \rightarrow \infty)}{\boldsymbol{\longrightarrow}} \; 0 \; .
 $$ (excess_mu)
 
 ```{admonition} Oharra

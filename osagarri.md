@@ -284,7 +284,7 @@ izango da entropia. Bada, {eq}`sph_agg_stn_b` ekuazioarekin alderatuz gero, argi
 
 
 
-$(b)$ Egiaztatu, {eq}`agg_sph_pn_b` ekuazioko $P(N)\;\mathrm{d}N$ adierazpenera joz, multzo nanokanonikoak itzuli dizkigun eta S^{(x)}(T,\mu) delakoak biltzen dituen entropiarako gai gehigarriak $N$ magnitudearen inguruko fluktuazioen ondoriozkoak direla.
+$(b)$ Egiaztatu, {eq}`agg_sph_pn_b` ekuazioko $P(N)\;\mathrm{d}N$ adierazpenera joz, multzo nanokanonikoak itzuli dizkigun eta $S^{(x)}(T,\mu)$ delakoak biltzen dituen entropiarako gai gehigarriak $N$ magnitudearen inguruko fluktuazioen ondoriozkoak direla.
 
 
 ```{dropdown} __Erantzuna__

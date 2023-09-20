@@ -245,7 +245,7 @@ $$
 $$ (nbar_agg_short)
 
 $$
-P(N) = \begin{cases}\frac{1}{\Upsilon} & N = 0\\\frac{x^Nc(1-x)}{1-x+cx} & N  \geq 1\end{cases}
+P(N) = \begin{cases}\frac{1-x}{1-x+cx} & , \quad N = 0\\\frac{x^Nc(1-x)}{1-x+cx} & , \quad N  \geq 1\end{cases}
 $$ (pn_agg_short)
 
 $$

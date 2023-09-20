@@ -485,6 +485,10 @@ $$
 $$ (epslimgi)
 adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ({numref}`{number} <helix_coil>` zein {numref}`{number}. <app>` ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathscr{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathscr{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
 
+$$
+\\
+\\
+$$
 
 Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo gaian ({numref}`{number} <app>`) 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara. 
 

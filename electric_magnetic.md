@@ -122,13 +122,13 @@ name: agg_e
 Agregatu lineala ere zertxobait moldatuko dugu. Alde batetik, {numref}`{number} irudian <heco_e>` bezala, unitateek $\alpha$ polarizabilitatea dute. Alabaina, oraingoan berorietako bakoitza dipolo elektrikotzat hartuko dugu, $\mathbf{p_0}$ momentua duelarik; orobat, $\mathbf{p_0}$ bektoreak eta katea zeharkatzen duen ardatzak $\theta$ angelua osatuko dute. Horiek horrela, kanpotik $\mathbf{E}$ eremua jartzeak sorrarazten dituen ekarpenak aztertuko ditugu jarraian.
 ```
 
-Esanak esan, orain ere $Q(T,N,\vert\mathbf{E}\vert)$ partizio-funtzio kanonikoa eraikitzeari ekin behar diogu. Horretarako, alde batetik, {numref}`{number} irudia <agg_e>` atalean aurkeztutako ekarpenak hartuko ditugu gogoan: monomeroen $j(T)$ partizio-funtzio intrintsekoa, agregatuaren biraketa eta lehen auzokoen arteko elkarrekintza biltzen dituen {eq}`qagg` ekuazioa:
+Esanak esan, orain ere $Q(T,N,\vert\mathbf{E}\vert)$ partizio-funtzio kanonikoa eraikitzeari ekin behar diogu. Horretarako, alde batetik, {numref}`{number} adibidean <mupt_linagg>` aurkeztutako ekarpenak hartuko ditugu gogoan: monomeroen $j(T)$ partizio-funtzio intrintsekoa, agregatuaren biraketa eta lehen auzokoen arteko elkarrekintza biltzen dituen {eq}`qagg` ekuazioa:
 
 $$
 Q_0(T,N) = c(T)\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T} \quad (N\geq 1) \; .
 $$ (agg_e_q0)
 
-Bestetik, ekarpen elektrikoa kalkulatu behar dugu. Agregatuak orotara $N$ unitate dituela aintzat hartuz, $\alpha$ polarizabilitatearen ondoriozko partizio-funtziorako ekarpena aurreko ataleko berbera da, alegia, {eq}`u_alpha_heco` ekuaziotik eskuratu duguna. Aitzitik, unitateko $\mathbf{p_0}$ momentu intrintsekoa eta $\mathbf{E}$ kanpo-eremua ez direnez paraleloak, hari datxekion gaiaren kalkulua ez da jada tribiala. Izan ere, orain 
+Bestetik, ekarpen elektrikoa kalkulatu behar dugu, {numref}`{number} irudiari <agg_e>` so eginez. Agregatuak orotara $N$ unitate dituela aintzat hartuz, $\alpha$ polarizabilitatearen ondoriozko partizio-funtziorako ekarpena aurreko ataleko berbera da, alegia, {eq}`u_alpha_heco` ekuaziotik eskuratu duguna. Aitzitik, unitateko $\mathbf{p_0}$ momentu intrintsekoa eta $\mathbf{E}$ kanpo-eremua ez direnez paraleloak, hari datxekion gaiaren kalkulua ez da jada tribiala. Izan ere, orain 
 
 $$
  U_{p_0}(\theta) = -Np_0\vert\mathbf{E}\vert \cos \theta

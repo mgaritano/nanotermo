@@ -575,7 +575,7 @@ $$
 \Upsilon\left(\frac{p}{T},\frac{\mu}{T}\right) = \sum_{B=0}^\infty\;\sum_{N=0}^B \; \Omega(B,N)\;e^{-pB/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T} \; .
 $$ (lattice_upsilon)
 
-Ekuazioak trinkotzeko, aurrerantzean $\varphi = p/k_{\mathrm{B}}T$ eta $m = \mu/k_{\mathrm{B}}T$ ordezkatuko ditugu. Horrez gain, komenigarria da lehenbizi $N$ aldagaian zeharreko batukaria kalkulatzea. Horiek horrela,
+Ekuazioak trinkotzeko, oraindanik $\varphi = p/k_{\mathrm{B}}T$ eta $m = \mu/k_{\mathrm{B}}T$ ordezkatuko ditugu. Horrez gain, komenigarria da lehenbizi $N$ aldagaian zeharreko batukaria kalkulatzea. Horiek horrela,
 
 $$
 \Upsilon = \sum_{B=0}^\infty\left[\sum_{N=0}^B \; \frac{B!}{N!(B-N)!}e^{mN}\right]e^{-\varphi B} = \sum_{B=0}^\infty\; (1+e^m)^B\; e^{-\varphi B} = \sum_{B=0}^\infty\; \Xi\left(B,\frac{\mu}{T}\right)\; e^{-\varphi B}\; .

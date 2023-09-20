@@ -54,7 +54,7 @@ $$ (qrot)
 daukagu.
 
 ```{admonition} Oharra
-Ikus {cite}`pathria` liburuko 6. kapituluko 11. oin-oharra. Aurrerantzean, $\xi(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T$ erabiliko dugu.
+Ikus {cite}`pathria` liburuko 6. kapituluko 11. oin-oharra. Oraindanik, $\xi(T) = \frac{\pi^2ma^2}{3h^2}k_{\mathrm{B}}T$ erabiliko dugu.
 ```
 
 Unitateen ekarpen intrintsekoarekin zein berorien arteko elkarrekintzekin batera bilduz biraketaren eragina, partizio-funtzio kanonikoa eraikiko dugu. Hala, adierazpenak laburtze aldera $c(T) = \xi(T) e^{\epsilon/k_{\mathrm{B}}T}$ definituz,

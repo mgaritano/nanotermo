@@ -17,7 +17,7 @@ Sistema elektrikoak aztertzean, aldagai-pare berri batekin arituko gara: $\mathb
 height: 200px
 name: heco_e
 ---
-  “Helize-haril” kateari $\pm q$ kargak erantsi dizkiogu mutur banatan. Hori dela eta, katean barrena $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa azaleratuko da, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero $(\mathbf{E} \parallel \mathbf{p})$, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
+  “Helize-haril” kateari $\pm q$ kargak gehitu dizkiogu mutur banatan. Hori dela eta, katean barrena $\vert\mathbf{p}\vert = ql$ momentu dipolar elektrikoa azaleratuko da, non $l$ katearen luzera den. Halaber, helize eta haril unitate bakoitzari $\alpha$ polarizabilitatea esleituko diogu. Bada, $\mathbf{E}$ eremu elektrikoa ezarriz gero $(\mathbf{E} \parallel \mathbf{p})$, bi faktore horiek ekarpen energetikoa izango dute, segidan zehaztuko dugun legez.
 ```
 
 Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela $(l_C>l_H)$. Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\overline{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.

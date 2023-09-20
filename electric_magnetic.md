@@ -128,7 +128,7 @@ $$
 Q_0(T,N) = c(T)\;N^3j(T)^N\;e^{-N\epsilon/k_{\mathrm{B}}T} \quad (N\geq 1) \; .
 $$ (agg_e_q0)
 
-Bestetik, ekarpen elektrikoa kalkulatu behar dugu, {numref}`{number} irudiari <agg_e>` so eginez. Agregatuak orotara $N$ unitate dituela aintzat hartuz, $\alpha$ polarizabilitatearen ondoriozko partizio-funtziorako ekarpena aurreko ataleko berbera da, alegia, {eq}`u_alpha_heco` ekuaziotik eskuratu duguna. Aitzitik, unitateko $\mathbf{p_0}$ momentu intrintsekoa eta $\mathbf{E}$ kanpo-eremua ez direnez paraleloak, hari datxekion gaiaren kalkulua ez da jada tribiala. Izan ere, orain 
+Bestetik, ekarpen elektrikoa kalkulatu behar dugu, {numref}`{number} irudiari <agg_e>` so eginez. Agregatuak orotara $N$ unitate dituela aintzat hartuz, $\alpha$ polarizabilitatearen ondoriozko partizio-funtziorako ekarpena aurreko ataleko {eq}`u_alpha_heco` ekuazioan adierazi dugun bera da. Aitzitik, unitateko $\mathbf{p_0}$ momentu intrintsekoa eta $\mathbf{E}$ kanpo-eremua ez direnez paraleloak, harekin lotutako gaiaren kalkulua ez da jada berehalakoa. Izan ere, orain 
 
 $$
  U_{p_0}(\theta) = -Np_0\vert\mathbf{E}\vert \cos \theta

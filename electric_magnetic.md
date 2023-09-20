@@ -54,7 +54,7 @@ $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \Delta(T,f + q\vert\mathbf{E}\vert,N) \; .
 $$ (heco_e_delta_2)
 
-Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), gaineko adierazpeneko $\Delta(T,f + q\vert\mathbf{E}\vert,N)$ gaia bat etorriko da {eq}`d_short` ekuazioko partizio-funtzioarekin, alegia,
+Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), {eq}`heco_e_delta_2` adierazpeneko $\Delta(T,f + q\vert\mathbf{E}\vert,N)$ gaia bat etorriko da {eq}`d_short` ekuazioko partizio-funtzioarekin, alegia,
 
 $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; r_C^N\left(1+r^N\right) \; .

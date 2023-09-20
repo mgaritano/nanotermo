@@ -322,6 +322,10 @@ $$ (maxwell_2)
 
 **----------------------------------------------------**
 
+$$
+\\
+$$
+
 Ariketa honetan ere, aurreko beste zenbaitetan bezalaxe, azterketa pauso bat haratago eramango dugu, **multzo nanokanonikoan** murgilduz. Partizio-funtzio orokortua {eq}`agg_q_tot` partizio-funtziotik abiatuz eraikiko dugu:
 
 $$

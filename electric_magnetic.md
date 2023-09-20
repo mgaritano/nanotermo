@@ -54,13 +54,13 @@ $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \Delta(T,f + q\vert\mathbf{E}\vert,N) \; .
 $$ (heco_e_delta_2)
 
-Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), bertan eraikitako $\Delta$ partizio-funtzioaren adierazpenak bere horretan jarraituko du, hots,
+Bada, {numref}`{number} adibidean <helix_coil>` erabilitako hurbilketari eutsiz gero (unitate guztiak $H$ egoeran edo unitate guztiak $C$ egoeran), gaineko adierazpeneko $\Delta(T,f + q\vert\mathbf{E}\vert,N)$ gaia bat etorriko da {eq}`d_short` ekuazioko partizio-funtzioarekin, alegia,
 
 $$
 \Delta(T,f,N,\vert\mathbf{E}\vert) = \exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; r_C^N\left(1+r^N\right) \; .
 $$ (heco_e_delta_3)
 
-Alabaina, $r_C$, $r_H$ eta $r$ magnitudeak moldatu beharko ditugu:
+Hori bai, $r_C$, $r_H$ eta $r$ magnitudeak moldatu beharko ditugu:
 
 $$
 r_{C,H} = q_{C,H}\exp\left(l_{C,H}\frac{f+q\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right) \quad , \quad r = \frac{r_H}{r_C} \; .

@@ -38,7 +38,7 @@ $$ (u_alpha_heco)
 Beraz, jatorrizko adibideko $Q(T,l,N)$ adierazpenetik abiatuz, partizio-funtzio berria honako hau izango da:
 
 $$
-Q(T,l,N,\vert\mathbf{E}\vert) = Q(T,l,N)\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)\exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; .
+Q(T,l,N,\vert\mathbf{E}\vert) = Q(T,l,N)\cdot Q_p\cdot Q_{\alpha} = Q(T,l,N)\exp\left(\frac{lq\vert\mathbf{E}\vert}{k_{\mathrm{B}}T}\right)\exp\left(\frac{N\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right) \; .
 $$ (heco_e_q)
 
 

@@ -163,6 +163,10 @@ $$
 \boxed{Q(T,N,\vert\mathbf{E}\vert) \approx c(T)\;N^3j(T)^N\exp\left(-\frac{N\epsilon}{k_{\mathrm{B}}T}\right) \exp\left(\frac{N\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T}\right)\left[1 + \frac{1}{6}\left(\frac{Np_0\vert\mathbf{E}\vert}{k_\mathrm{B}T}\right)^2 \right]} \quad (N\geq 1) \; .
 $$ (agg_q_tot)
 
+$$
+\\
+$$
+
 Bada, {eq}`agg_q_tot` ekuaziotik abiatuz, **multzo kanonikoan** aldagai termodinamikoak lortzeari ekingo diogu.
 
 ##### Ariketa

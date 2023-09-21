@@ -451,6 +451,10 @@ $$ (s_max_micro)
 
 Aurrerago, askatasun-graduak abiaraziz goazen heinean, azkenengo bi adierazpen horiek birkalkulatuko ditugu, emaitzen arteko erkaketak egite aldera.
 
+$$
+\\
+$$
+
 __Multzo kanonikora__ igaroko gara orain. Horretarako, $E(n_+)$ energia batukarian dagokion mikroegoeren sortarekin sartuz, eta Boltzmannen faktorea aintzat hartuz, partizio funtzioa eraikiko dugu:
 
 $$
@@ -520,6 +524,10 @@ genuke. Agerikoa da limite makroskopikoan $(N\rightarrow \infty)$ adierazpen hor
 ```
 
 **----------------------------------------------------**
+
+$$
+\\
+$$
 
 Segidan, azterketa __multzo nanokanonikora__ eramango dugu.
 

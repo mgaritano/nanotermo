@@ -427,7 +427,7 @@ width: 650px
 Arestian azaldutako hurbilketari jarraikiz, demagun sistema, egiatan, $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idatz dezakegu:
 
 $$
-  E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
+  E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J 
 $$ (e_j)
 
 Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun sistemaren spin osatzaile bereizezinen arteko $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko sorten artean. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderantzikatzeak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudeak bere horretan bailirauke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
@@ -445,7 +445,7 @@ $$ (s_ising_micro)
 Gaineko {eq}`s_ising_micro` ekuazioak dioskunaren arabera, entropiak maximora joko du $n_+$ loturen kopuruaren erdia den kasuan, eta, hartara, sistemak magnetizazioa galtzean $(E = 0)$, hau da:
 
 $$
-S(n_+, N)_ {\text{max}} = S(N/2, N) = Nk_\mathrm{B}\ln 2 - \frac{1}{2}k_\mathrm{B}\ln\left(\frac{\pi}{8}N\right) \; .
+S(n_+, N)_ {\text{max}} = S(N/2, N) = Nk_\mathrm{B}\ln 2 - \frac{1}{2}k_\mathrm{B}\ln\left(\frac{\pi}{8}N\right) 
 $$ (s_max_micro)
 
 
@@ -464,7 +464,7 @@ $$
 Goiko {eq}`e_j` eta {eq}`omega_nj` adierazpenak ordezkatuz, eta ekuazioak moldatuz, hona iritsiko gara:
 
 $$
-Q(T, N) = 2 \sum_{n_+ = 0}^{N} \frac{N!}{n_+!\;(N-n_+)!}\left(e^{- J/k_\mathrm{B}T}\right)^{n_+}\left(e^{ J/k_\mathrm{B}T}\right)^{N-n_+} = 2\left(e^{- J/k_\mathrm{B}T} + e^{ J/k_\mathrm{B}T}\right)^N \; .
+Q(T, N) = 2 \sum_{n_+ = 0}^{N} \frac{N!}{n_+!\;(N-n_+)!}\left(e^{- J/k_\mathrm{B}T}\right)^{n_+}\left(e^{ J/k_\mathrm{B}T}\right)^{N-n_+} = 2\left(e^{- J/k_\mathrm{B}T} + e^{ J/k_\mathrm{B}T}\right)^N 
 $$ (q_ising)
 
 ```{admonition} Oharra
@@ -477,7 +477,7 @@ $$
 Bertatik, hasteko, sistemaren barne energiaren batez bestekoa kalkulatuko dugu, honako berdintza honi jarraituz:
 
 $$
-\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q \; .
+\overline{E} = \frac{\sum_{n_+ = 0}^{N}E(n_+,N) \; \Omega(n_+,N) \;e^{-E(n_+,N)/k_\mathrm{B}T}}{\sum_{n_+ = 0}^{N}\Omega(n_+,N)\;e^{-E(n_+, N)/k_\mathrm{B}T}} = k_{\mathrm{B}}T^2\frac{\partial}{\partial T}\ln Q 
 $$ (bar_E_def)
 
 #####  Ariketa
@@ -487,7 +487,7 @@ $(a)$ Kalkulatu $\overline{E}$ adierazpena.
 ```{dropdown} __Erantzuna__
 
 $$
- \overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} \; .
+ \overline{E} = -NJ\tanh\frac{J}{k_{\mathrm{B}}T} 
 $$ (bar_E)
 
 ```
@@ -497,7 +497,7 @@ $(b)$ Jarraian, kalkulatu Helmholtz-en energia askea.
 ```{dropdown} __Erantzuna__
 
 $$
-A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] \; .
+A(T, N) = -Nk_{\mathrm{B}}T\left[\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) + \frac{1}{N}\ln 2\right] 
 $$ (hehlmholtz_ising)
 
 ```
@@ -510,7 +510,7 @@ Multzo kanonikoan entropiak $S(T, N) =\left(\overline{E} - A\right)/T $ betetzen
 
 $$
 \boxed{S(T,N)
- = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} \; .
+ = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{J}{k_{\mathrm{B}}T}\right) - \frac{J}{T}\tanh\frac{J}{k_{\mathrm{B}}T}\right]  + k_{\mathrm{B}}\ln 2} 
 $$ (s_ising_kan)
 
 Entropiak maximoa du $\frac{J}{k_{\mathrm{B}}T} = 0$ denean. Egoera horretara bi bi kasuk eraman gaitzakete; alde batetik, $J=0$ izateak, hau da, spinek elkar ez ikusteak (elkarrekintzarik ez), eta, bestetik, $T\rightarrow \infty$ limiteak. Horiek horrela, entropia

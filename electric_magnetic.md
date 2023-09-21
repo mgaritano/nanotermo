@@ -615,7 +615,7 @@ Lotura-unitateko entropia. Agerikoa da, alde batetik, sistema txikia denean mult
 ```
 
 
-Horrez gain, hainbatetan azpimarratu dugun legez, multzo nanokanonikoaren giltzarri da multzoak berak azpisistemetan banatzeko duen gaitasuna. Ildo horretatik, esku artean dugun sistemaren nanoeskalako oreka termikoa bilatu ahal izango dugu. Hain zuzen ere, banatze-potentzialari erreparatuz, $\mathscr{E}(T,\mu)=0$ ezartzeak azpisistema txikiz osaturiko multzo guztiz irekia banatzeari dagokion oreka-egoerara helduko dela bermatuko du, eragozpenik gabe. Izan ere, orekaranzko bidean $\overline{\mathscr{N}}$ aldaki-kopuruan aldakuntza espontaneoak gauzatuko dira.
+Horrez gain, hainbatetan azpimarratu dugun legez, multzo nanokanonikoaren giltzarri da multzoak berak azpisistemetan banatzeko duen gaitasuna. Ildo horretatik, esku artean dugun sistemaren nanoeskalako oreka termikoa bilatu ahal izango dugu. Hain zuzen ere, banatze-potentzialari erreparatuz, $\mathscr{E}(T,\mu)=0$ ezartzeak bermatuko du azpisistema txikiz osaturiko multzo guztiz irekia banatzeari dagokion oreka-egoerara helduko dela, eragozpenik gabe. Izan ere, orekaranzko bidean $\overline{\mathscr{N}}$ aldaki-kopuruan aldakuntza espontaneoak gauzatuko dira.
 
 Esanak esan, oreka egoeran aldakiko batez besteko partikula-kopurua eta entropia honako hauek ditugu:
 
@@ -635,7 +635,7 @@ $$
 \mathscr{E}(T,\mu) = -k_{\mathrm{B}}T \ln\left(\frac{\overline{N}}{\cosh\frac{J}{k_{\mathrm{B}}T}}\right)
 $$ (ising_epsilon_1)
 
-berdintzara helduko gara, zeinak argi adierazten baitu ezen, $\overline{N} \rightarrow \infty$ limitean, banatze-potentziala ez dela zerorantz gerturatuko, haren aurrean ekarpen lineal makroskopikoak gailenduko diren arren.
+berdintzara helduko gara, zeinak argi adierazten baitu ezen, $\overline{N} \rightarrow \infty$ limitean, banatze-potentziala ez dela zerorantz gerturatuko, haren aurrean ekarpen lineal makroskopikoek nagusitasuna berreskuratuko duten arren.
 
 
 

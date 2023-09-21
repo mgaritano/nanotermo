@@ -684,7 +684,7 @@ $$
 Aurrera eginez, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ egingo dugu jauzi. Horretarako, beste behin onartu behar dugu $n_+$ magnitudea jada ez dela konstante mantenduko. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
 
 $$
-Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N \; .
+Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N 
 $$ (ising_b_q)
 
 Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,

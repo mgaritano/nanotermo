@@ -327,7 +327,7 @@ Adibide hau {cite}`hill` liburuko atal zenbaitetan lantzen da. Izan ere, sistema
 
 Esanak esan, esku artean dugun sistema $B$ gelaxka bereizgarriz osatutako sarea da. Horietatik $N$ gelaxkatan molekula bereizezin daude, bakoitzean bat, kristal-sareko gasaren osatzaileak direlarik. Berebat, elkarrekintza-energia eta barne askatasun-gradu oro baztertuko dugu (biraketa, bibrazioa...); hartara, sistemaren energia posible bakarra $E=0$ da. Gauzak horrela, sistemaren energiarako ekarpen mekanikoa eta kimikoa hartuko ditugu soilik aintzakotzat. Lehenengoari esleituko diogun aldagai estentsiboa $B$ magnitudea da; hortaz, energiarako ekarpen mekanikoa $-pB$ izango dugu. Kontuan izan dezagun ezen $B$ adimentsionala denez, haren $p$ aldagai konjokatuaren dimentsioak energiarenak direla. Ekarpen kimikoa, jakina, potentzial kimikoak finkatuko du: $\mu N$.
 
-```{figure} lattice.png
+```{figure} lattice_1.png
 ---
 height: 600px
 name: lattice_multzo

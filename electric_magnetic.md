@@ -696,6 +696,10 @@ $$ (ising_b_s_c)
 
 Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
 
+$$
+\\
+$$
+
 Azterketari buru emateko, abiarazteko dagoen askatasun-gradu kimikoa martxan ipini, eta, __multzo nanokanonikoan__ entropia berreraikiko dugu. Hala, $x(T,\mu) = 2 \cosh\frac{mB}{k_{\mathrm{B}}T}\;e^{\mu /k_{\mathrm{B}}T}$ ordezkatuz, 
 
 $$

@@ -677,8 +677,11 @@ $$ (ising_b_epsilon_mc)
 
 Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. ataleko <stabeps>` azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
 
+$$
+\\
+$$
 
-Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
+Aurrera eginez, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ egingo dugu jauzi. Horretarako, beste behin onartu behar dugu $n_+$ magnitudea jada ez dela konstante mantenduko. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
 
 $$
 Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N \; .

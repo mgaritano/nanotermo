@@ -675,7 +675,7 @@ $$
 \mathscr{E}(n_+, N) \approx \frac{1}{2} k_{\mathrm{B}}T \ln\left[2\pi n_+\left(1-\frac{n_+}{N}\right)\right] > 0 \; , \quad n_+ <N \; .
 $$ (ising_b_epsilon_mc)
 
-Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. <stabeps>` ataleko azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
+Aurreko bi ekuazioen bitartez hauteman daitekeen legez, banatze-potentzial positiboak entropiaren beherakada dakar. Hain zuzen, {numref}`{number}. ataleko <stabeps>` azalpenak gogora ekarriz, berorrek multzo mikrokanonikoa azpisistema txikiagoetan banatzea eragozten du, aldaki-kopurua txikituz, eta, horrekin batera, spin osatzaileen bereizezintasuna areagotuz.
 
 
 Bada, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ eramango dugu. Horretarako, $n_+$ magnitudea jada ez dela konstante mantenduko onartu behar dugu. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:

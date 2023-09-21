@@ -96,7 +96,7 @@ $$
 \bar{l} := k_{\mathrm{B}}T\left(\frac{\ln\Delta}{\partial f}\right)_{T,N, \vert\mathbf{E}\vert} \; .
 $$ (heco_e_lbar)
 
-Goiko {eq}`heco_e_delta_3` partizio-funtzioaren bidez kalkuluak egindakoan, {eq}`heco_e_pbar` ekuazioko kortxeteen arteko adierazpena lortuko dugu.
+Goiko {eq}`heco_e_delta_3` partizio-funtzioaren medioz kalkuluak egindakoan, {eq}`heco_e_pbar` ekuazioko kortxeteen arteko adierazpena lortuko dugu.
 
 ```
 **----------------------------------------------------**
@@ -285,7 +285,7 @@ $$
 \left(\frac{\partial \mu}{\partial \vert\mathbf{E}\vert}\right)_{T,N} = \frac{\partial}{\partial \vert\mathbf{E}\vert} \left(\frac{\partial (\widehat{\mu}N)}{\partial N}\right)_{T,\vert\mathbf{E}\vert} \equiv \frac{\partial}{\partial N} \left(\frac{\partial (\widehat{\mu}N)}{\partial \vert\mathbf{E}\vert}\right)_{T,N} = -\left(\frac{\partial \vert\mathbf{p}\vert}{\partial N}\right)_{T,\vert\mathbf{E}\vert} \; .
 $$ (agg_elek_maxwell_1)
 
-Orain, $\mu$ potentzial kimikoaren adierazpen zehatzaren beharrean gaude. Hala, {eq}`agg_e_dmuhat` ekuazioaren bitartez,
+Orain, $\mu$ potentzial kimikoaren adierazpen zehatzaren beharrean gaude. Hala, {eq}`agg_e_dmuhat` ekuazioaren medioz,
 
 $$
 \frac{\mu}{k_{\mathrm{B}}T} = -\ln j + \frac{\epsilon}{k_{\mathrm{B}}T} - \frac{2}{N} - \frac{\alpha \vert\mathbf{E}\vert^2}{2k_\mathrm{B}T} - \frac{2Ny^2}{6+N^2y^2} - y\coth(Ny)
@@ -681,7 +681,7 @@ $$
 \\
 $$
 
-Aurrera eginez, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ egingo dugu jauzi. Horretarako, beste behin onartu behar dugu $n_+$ magnitudea jada ez dela konstante mantenduko. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearen medioz haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
+Aurrera eginez, azpisistemak ukipen termikoan jarri eta __multzo kanonikora__ egingo dugu jauzi. Horretarako, beste behin onartu behar dugu $n_+$ magnitudea jada ez dela konstante mantenduko. Hala, mikroegoeren sorta bakoitza $E(n_+, N)$ barne-energiaren baitan dagoen $e^{-E(n_+, N)/k_{\mathrm{B}}T}$ Boltzmannen faktorearekin haztatuz, $Q(T, N)$ partizio-funtzioa eraikiko dugu:
 
 $$
 Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N 

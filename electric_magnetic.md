@@ -430,7 +430,7 @@ $$
   E(n_+, N) = n_+ J - (N-n_+)J = -(N-2n_+)J \; .
 $$ (e_j)
 
-Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun sistemaren spin osatzaile bereizezinen arteko $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko sorten artean. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudea aldaezin mantenduko bailitzateke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
+Hurrengo pausoa, guztizko energiaren adierazpen horrekin bateragarriak diren mikroegoeren kopurua kalkulatzea da; hots, zenbat eratan sailka ditzakegun sistemaren spin osatzaile bereizezinen arteko $N$ loturak $n_+$ energia altuko eta $N-n_+$ energia baxuko sorten artean. Horretarako, oharteman dezagun {numref}`{number} irudiko <ising_j>` gezi guztiak alderanzteak ez liokeela {eq}`e_j` adierazpenari eragingo, $n_+$ magnitudeak bere horretan bailirauke; alegia, mikroegoera bakoitza bi aldiz zenbatu beharra daukagu. Gauzak horrela,
 
 $$
 \Omega(n_+,N) = 2\cdot \frac{N!}{n_+!\;(N-n_+)!} \;\;\;\; .

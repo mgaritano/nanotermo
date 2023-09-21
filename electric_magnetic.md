@@ -643,7 +643,9 @@ berdintzara helduko gara, zeinak argi adierazten baitu ezen, $\overline{N} \righ
 (j0bnot0)=
 #### Spin askeak, $\mathbf{B}$ kanpo-eremuaren eraginpean
 
-Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarraituko dugu. Dena dela ere, eskuratuko ditugun emaitzek berebiziko adierazgarritasuna dutela ohartuko gara; ororen gainetik, {numref}`{number} adibideko <mupt_gi>` gas idealaren analisian eraikitako adierazpenekiko parekotasun nabaria antzemango diegu. Egin diezaiogun so {numref}`{number} irudiari <ising_b>`.
+Sistema beraren berrazterketa honetan, aurreko ataleko prozedura bertsua jarraituko dugu. Dena dela ere, eskuratuko ditugun emaitzek berebiziko adierazgarritasuna dutela ohartuko gara; ororen gainetik, {numref}`{number} adibideko <mupt_gi>` gas idealaren analisian eraikitako adierazpenekiko parekotasun nabaria antzemango diegu. 
+
+Bada, egin diezaiogun so {numref}`{number} irudiari <ising_b>`.
 
 (ising_1)=
 ```{figure} ising_b.png

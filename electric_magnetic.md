@@ -77,7 +77,7 @@ $$
 \mu = - \frac{1}{2}\alpha \vert\mathbf{E}\vert^2 - k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right] \; .
 $$ (heco_e_mu)
 
-Ohartu gaitezen, $\alpha$ polarizabilitatearen energiarako ekarpena $N$-rekiko lineala denez, banatze-potentzialaren adierazpena ez dela aldatu ({eq}`epsilonhelix` ekuazioa).
+Ohartu gaitezen, $\alpha$ polarizabilitatearen energiarako ekarpena $N$rekiko lineala denez, banatze-potentzialaren adierazpena ez dela aldatu ({eq}`epsilonhelix` ekuazioa).
 
 Berebat, interesgarria da sistemaren batez besteko momentu dipolarra ere kalkulatzea:
 

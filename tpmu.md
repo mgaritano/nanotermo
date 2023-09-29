@@ -115,7 +115,7 @@ $$
 \sum_{N=1}^{\infty}x^N = \frac{1}{1-x} \; , \; \vert x \vert < 1 \; .
 $$
 
-Jarraian, bi aldeen $x$-rekiko deribatuak kalkulatzeaz bat, $x$-rekin biderkatuko ditugu.
+Jarraian, bi aldeen $x$rekiko deribatuak kalkulatzeaz bat, $x$rekin biderkatuko ditugu.
 
 $$
 \sum_{N=1}^{\infty}Nx^N = \frac{x}{(x-1)^2}

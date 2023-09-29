@@ -288,7 +288,7 @@ $$
 \boxed{-k_{\mathrm{B}}\sum_{N=0}^{\infty}P(N)\ln P(N) = -\overline{N}k_{\mathrm{B}}\ln x - k_\mathrm{B}\ln P(0) - \left[1-P(0)\right]\frac{\epsilon}{T}}
 $$ (pnlnpn_def)
 
-Jar bitez {eq}`stn_agg_short` , {eq}`stmu_agg_short` eta {eq}`pnlnpn_def` ekuazioak parez pare. Behin behaketa hori burutuz gero, agerikoa da ezen $N$ partikula-kopuruarekin lotutako fluktuazioen baitan dagoela multzo kanonikotik nanokanonikora igarotzeak entropiari sorrarazi dion gorakadaren ihardesle soila. Berebat, adierazpenei erreparatuz gero, limite makroskopikora jotzen ez badugu $(\overline{N} \not \to \infty)$, $N$-ren inguruko fluktuazioak esanguratsuak izango direla hauteman dezakegu. Azken ondorio horrek beste behin azaleratu du multzo nanokanonikoa baitezpadakoa dela sistema txikien entropiaren maximizazioa bermatzeko.
+Jar bitez {eq}`stn_agg_short` , {eq}`stmu_agg_short` eta {eq}`pnlnpn_def` ekuazioak parez pare. Behin behaketa hori burutuz gero, agerikoa da ezen $N$ partikula-kopuruarekin lotutako fluktuazioen baitan dagoela multzo kanonikotik nanokanonikora igarotzeak entropiari sorrarazi dion gorakadaren ihardesle soila. Berebat, adierazpenei erreparatuz gero, limite makroskopikora jotzen ez badugu $(\overline{N} \not \to \infty)$, $N$ren inguruko fluktuazioak esanguratsuak izango direla hauteman dezakegu. Azken ondorio horrek beste behin azaleratu du multzo nanokanonikoa baitezpadakoa dela sistema txikien entropiaren maximizazioa bermatzeko.
 
 ```
 

@@ -282,7 +282,7 @@ $$
 \boxed{S(T, \mu) =  \overline{N}k_{\mathrm{B}}\left(\ln j + T\frac{1}{j}\frac{\mathrm{d}j}{\mathrm{d}T}\right)  - \overline{N^{1/3}}\frac{\mathrm{d}b}{\mathrm{d}T} + k_{\mathrm{B}}\ln\left(\frac{\overline{N}}{10}\right)  + \overline{N^{1/3}}\frac{b}{T}} 
 $$ (s_sph_agg_tmu_b)
 
-izango da entropia. Bada, {eq}`sph_agg_stn_b` ekuazioarekin alderatuz gero, argiro ikus daiteke adierazpen berriak bi ekarpen positibo dituela; bata banatze-potentzial negatiboarekin dago lotuta, eta, bestea, $N^{1/3}$-ren inguruko aldakuntzekin. Biek ala biek, funtsean, eskualde nanotermodinamikoan $N$ partikula-kopuru finkoak pairatzen dituen fluktuazioekin lotura estua dute. Kontzeptu horretan ariketaren hurrengo atalean sakonduko dugu.
+izango da entropia. Bada, {eq}`sph_agg_stn_b` ekuazioarekin alderatuz gero, argiro ikus daiteke adierazpen berriak bi ekarpen positibo dituela; bata banatze-potentzial negatiboarekin dago lotuta, eta, bestea, $N^{1/3}$ren inguruko aldakuntzekin. Biek ala biek, funtsean, eskualde nanotermodinamikoan $N$ partikula-kopuru finkoak pairatzen dituen fluktuazioekin lotura estua dute. Kontzeptu horretan ariketaren hurrengo atalean sakonduko dugu.
 
 ```
 
@@ -317,7 +317,7 @@ $$
 S^{(x)}(T,\mu) = k_{\mathrm{B}}\ln\left(\frac{\overline{N}}{10}\right) + \overline{N^{1/3}}\frac{b}{T}
 $$ (s_x_sph_agg_b_1)
 
-beteko dela. Frogatu dugu, hortaz, $\overline{N}$-ren balio handietarako, sistemaren entropiarako igoerak $N$-ren fluktuazioekin lotura zuzena duela (ohartu gaitezen $b$ magnitudeari dagokion gaia $3k_{\mathrm{B}}$ konstantea dela, eta, beraz, $\overline{N}$ handitu ahala, baztergarri bihurtuko dela $\ln \overline{N}$ terminoarekiko).
+beteko dela. Frogatu dugu, hortaz, $\overline{N}$ren balio handietarako, sistemaren entropiarako igoerak $N$ren fluktuazioekin lotura zuzena duela (ohartu gaitezen $b$ magnitudeari dagokion gaia $3k_{\mathrm{B}}$ konstantea dela, eta, beraz, $\overline{N}$ handitu ahala, baztergarri bihurtuko dela $\ln \overline{N}$ terminoarekiko).
 
 
 ```
@@ -620,7 +620,7 @@ erabiliko dugu aurrerantzean.
 
 ```
 
-$(b)$ Eraiki orain $\overline{N} (\varphi, m)$ magnitudea, eta, aurretik lorturiko emaitzen bidez, berridatzi adierazpena, soilik $\overline{B}$-ren eta $\varphi^{(0)}$-ren menpe ager dadin.
+$(b)$ Eraiki orain $\overline{N} (\varphi, m)$ magnitudea, eta, aurretik lorturiko emaitzen bidez, berridatzi adierazpena, soilik $\overline{B}$ren eta $\varphi^{(0)}$ren menpe ager dadin.
 
 
 ```{dropdown} __Erantzuna__

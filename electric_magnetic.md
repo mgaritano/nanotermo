@@ -193,7 +193,7 @@ $(b)$ Kalkulatu entropiaren $S(T,N,\vert\mathbf{E}\vert)$ adierazpena. Bertatik,
 
 ```{dropdown} __Erantzuna__
 
-Aurreko $(a)$ atalean erdietsitako $\widehat{\mu}$-ren ekuazioaren laguntzaz,
+Aurreko $(a)$ atalean erdietsitako $\widehat{\mu}$ren ekuazioaren laguntzaz,
 
 $$
  \frac{S(T,N,\vert\mathbf{E}\vert)}{k_\mathrm{B}} := -\frac{1}{k_\mathrm{B}}\left[\frac{\partial (\widehat{\mu}N)}{\partial T}\right]_{N,\vert\mathbf{E}\vert} = N\left(\ln j + T\frac{\mathrm{d}\ln j}{\mathrm{d}T}\right) + \color{red}\left\{ \color{black} \ln(\xi N^3)+1 + \ln\left(1+\frac{N^2y^2}{6}\right) + \frac{2N^2y^2}{6+N^2y^2} \color{red} \right\}\; \color{black} ,
@@ -334,7 +334,7 @@ $$ (agg_e_upsilon)
 
 non, oraingoan, $x(T,\mu,\vert\mathbf{E}\vert) = j(T)\exp\left(\frac{-\epsilon + \mu }{k_{\mathrm{B}}T}\right)\exp\left(\frac{\alpha\vert\mathbf{E}\vert^2}{2k_{\mathrm{B}}T}\right)$ ordezkatu dugun.
 
-Azpimarratu beharrekoa da ezen $\sinh(Ny)$ funtzioaren hurbilketara jotzeak biziki erraztuko duela $N$ magnitudean zeharreko batukariaren kalkulua. Izan ere, ohartu gaitezen batukari bietan $N$-ren berreturak agertzen direla. Horrek seriearen garapena {eq}`upsilontn` ekuazioaren osteko argibideei jarraituz burutzea ahalbidetuko du. Gauzak horrela, 
+Azpimarratu beharrekoa da ezen $\sinh(Ny)$ funtzioaren hurbilketara jotzeak biziki erraztuko duela $N$ magnitudean zeharreko batukariaren kalkulua. Izan ere, ohartu gaitezen batukari bietan $N$ren berreturak agertzen direla. Horrek seriearen garapena {eq}`upsilontn` ekuazioaren osteko argibideei jarraituz burutzea ahalbidetuko du. Gauzak horrela, 
 
 $$
 \boxed{\Upsilon = 1 + c(T)\left[\frac{x(x^2+4x+1)}{(x-1)^4} + \frac{y^2}{6}\frac{x^4+26x^3 + 66x^2+26x+1}{(x-1)^6}\right]}\quad, \quad \vert x\vert < 1 \; .

@@ -219,12 +219,16 @@ $$
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,
 $$ (ftpngi)
 
-berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, $\mathscr{E}=0$. Aipatzekoa da multzo kanonikoan $\mathscr{E}>0$ lortu dugula (ikus {eq}`epsilon_tvn` ekuazioa).
-
-Beha dezagun arestiko emaitzok entropian zer-nolako eragina duten:
+berorrek uneoro jokaera makroskopikoa erakusten duela ohartuko gara, lehen mailako funtzio Euler-homogeneoa da eta, hots, lineala. Ondorioz, $\widehat{\mu}=\mu$, eta, beraz, 
 
 $$
-\boxed{ S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\overline{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
+\mathscr{E}(T,p,N)=0 \; .
+$$ (gi_epsilon_tpn)
+
+Aipatzekoa da multzo kanonikoan $\mathscr{E}(T,V,N)>0$ lortu dugula (ikus {eq}`epsilon_tvn` ekuazioa). Beha dezagun emaitzok entropian zer-nolako eragina duten:
+
+$$
+\boxed{S(T,p,N) := -\left(\frac{\partial F}{\partial T}\right)_{p,N}=Nk_{\mathrm{B}}\left[\ln\left(\frac{\overline{V}}{\Lambda^3N}\right) + \frac{5}{2}\right]} \; .
 $$ (stpngi)
 
 Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \overline{V}=V$ onartuz), azken gai negatiboak ageri ez direla ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!

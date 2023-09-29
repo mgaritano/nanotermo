@@ -1,7 +1,7 @@
 (gitvn)=
 ## **_C_** _Gas ideal klasikoa, multzo kanonikoan_
 
-Aztergai dugun sistema $V$ bolumenean dagoen eta $N$ partikula monoatomiko aske eta bereiztezinek osatzen duten gasa da. Baldintza horiek nabarmen arinduko digute lana, aintzakotzat hartu beharreko energiarako ekarpena zinetikoa besterik ez baita izango: $H(q,p) = \sum_{i=1}^N \frac{p_{i}^2}{2m_{i}}$.
+Aztergai dugun sistema $V$ bolumenean dagoen eta $N$ partikula monoatomiko aske eta bereizezinek osatzen duten gasa da. Baldintza horiek nabarmen arinduko digute lana, aintzakotzat hartu beharreko energiarako ekarpena zinetikoa besterik ez baita izango: $H(q,p) = \sum_{i=1}^N \frac{p_{i}^2}{2m_{i}}$.
 
 Azterketa fase-espazioan abiatu dugu;  partikula bakarraren posizio- eta momentu-koordenatuak $(q_{i},p_{i})$ dira. Bada, egoera kuantiko baten eta fase-espazioko bolumen-elementu baten arteko erlazioa $\mathrm{d}^{3N}q\;\mathrm{d}^{3N}p/(N!h^{3N})$ denez, partizio-funtzioa eraikiko dugu, {cite}`pathria` liburuari jarraituz eta $\Lambda = h/\sqrt{2\pi mk_{\mathrm{B}}T}$ uhin-luzera termikoa dugula gogora ekarriz.
 
@@ -42,7 +42,7 @@ $$
 Behin potentzial kimikoa finkatuz gero, banatze-potentziala eraikitzeko gai izango gara:
 
 $$
-\mathscr{E} \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] > 0 \; .
+\mathscr{E} (T,V,N) \approx k_{\mathrm{B}}T\left[\ln\left(\frac{\sqrt{2\pi N}}{e}\right) + \frac{7}{12N}\right] > 0 \; .
 $$ (epsilon_tvn)
 
-Askatasun-graduak abiarazi ahala, tamaina finituko ekarpen horiek ez dira bere horretan mantenduko. Azken esaldi hori Nanotermodinamikaren funtsezko ondorio bati darraio: ekuazio termodinamikoak azterketan erabiliko diren multzo estatistikoekin batera aldatu egingo dira.
+Askatasun-graduak abiarazi ahala, banatze-potentzialak jasotzen dituen tamaina finituko ekarpenok ez dira bere horretan mantenduko (aldera bitez {eq}`epsilon_tvn` ekuazioa eta {numref}`{number}. <tpn>` eta {numref}`{number}. <tpmu>` ataletako {eq}`gi_epsilon_tpn` zein {eq}`epsilontpmugi` adierazpenak). Azken esaldi horrek Nanotermodinamikaren berariazko ondorio batera garamatza: ekuazio termodinamikoak azterketan erabiliko diren multzo estatistikoekin batera aldatu egingo dira.

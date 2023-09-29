@@ -6,7 +6,7 @@ Kapitulu honetan teoriaren alor esanguratsuenari ekingo diogu. Demagun esku arte
 Alabaina, har dezagun gogoan {numref}`{number}. atalburuan <nanointro>` aipaturikoa: maila makroskopikoan ez dugu horrelako multzoa definitzerik izango, sistemaren hiru aldagai intentsiboetatik soilik bi izan baitaitezke aske (Gibbs-Duhem erlazioa). Horren harira, sistema txikiek $\mathscr{E}$ banatze-potentzialak ezaugarritzen duen askatasun-gradu berezia dutela onartu dugu. Hala, orain sistemaren tamainak aldagai intentsiboei erasango die. Horrek ahalbidetzen du, hain zuzen, multzo nanokanonikoaren eraikuntza. Hala ere, askatasun-gradu hori ez da nolanahikoa. Izan ere, sistema handitu ahala, funtzio termodinamikoetako ekarpen makroskopikoen gailentasunak berori desagerrarazi egingo dute.
 
 ```{admonition} Oharra
-Hill-ek bere liburuan multzo _orokortu_ izena erabiltzen du ("generalized ensemble"), multzo _nanokanoniko_ beharrean. 
+Hillek bere liburuan multzo _orokortu_ izena erabiltzen du ("generalized ensemble"), multzo _nanokanoniko_ beharrean. 
 
 ```
 
@@ -15,7 +15,7 @@ Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi
 (mupt_azter)=
 ### Multzoaren azterketa
 
-Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hill-en teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\overline{V}$ bolumena eta $\overline{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
+Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hillen teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\overline{V}$ bolumena eta $\overline{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
 
 $$
  \mathrm{d}\mathscr{E}(T,p,\mu) = \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}\mathrm{d}T +\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}\mathrm{d}p + \left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}\mathrm{d}\mu \; .
@@ -186,7 +186,7 @@ $$
 
 ##### Ariketa
 
-Hill-ek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: 
+Hillek {cite}`hill` liburuko adibidean biraketa ez du aintzat hartzen. Hala, entropiarako gehikuntza fluktuazioekin lotzen du zuzenean, kasu horretan honakoa betetzen baita: 
 
 $$
 S(T,\mu)-S^{(0)} \equiv S^{(x)}(T,\mu) = -k_{\mathrm{B}}\sum_{N}P(N)\ln P(N)\;
@@ -386,9 +386,9 @@ $$
 \lim_{\overline{N} \rightarrow 0}\frac{\Delta S/k_{\mathrm{B}}}{\overline{N}} = 1 \; .
 $$ (gi_tpmu_s_n)
 
-Aipatu beharrekoa da gaineko {numref}`{number} irudiari <gisub>` lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbs-en paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbs-en $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
+Aipatu beharrekoa da gaineko {numref}`{number} irudiari <gisub>` lotutako azalpenak arras garrantzitsuak direla, multzo nanokanonikoari berebiziko esangura ematen baitiote. Esate baterako, demagun bi multzo makroskopikok gas berbera daukatela, eta tartean bereizte-horma bat ipini dugula. Horma  kenduz gero, bi multzoek bat egingo dute. Bada, Termodinamikatik abiatuz hau esango genuke: gasak bereizterik ez dagoenez, prozesuak itzulgarria beharko du izan, eta horrek $\Delta S = 0$ izatea dakar. Alabaina, izatez, bide horretatik jarraituz gero, __Gibbsen paradoxarekin__ egingo dugu topo, entropiak egiatan aldakuntza positiboa jasango du eta. Horri aurre egiteko, partikulen bereizezintasuna inposatuko dugu, eta, badirudi Gibbsen $1/N!$ _ad hoc_ faktoreak arazoa konpontzen duela...
 
-Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era __itzulezinean__ _nahasiko_ dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbs-en paradoxa saihestuko dugu bidenabar {cite}`nanointro, multiscale`.
+Aitzitik, Termodinamikak dioenaz haratago joan, eta, Nanotermodinamikan oinarritutako arrazoinamenduari jarraituko bagenio, honakoa ondorioztatuko genuke: bi sistemak elkartzeaz bat, multzoak banatzeari ekingo dio, partikulen bereizgarritasuna areagotuz. Hori dela eta, gasak berdinak diren arren, eskualde nanotermodinamikoan beroriek era __itzulezinean__ _nahasiko_ dira, eta multzoak nahasketa hori aldakien entropiaren gorakadan islatuko du, berori maximizatuz. Horrela, multzo nanokanonikoaren banatzea handituz, sistema txikietan Gibbsen paradoxa saihestuko dugu bidenabar {cite}`nanointro, multiscale`.
 
 Soluzio berritzailearen atzean dautzan tamaina finituko efektuak $\mathscr{E}$ potentzialaren gidaritzapean daude. Teoriari dagokion azkenengo atala berorri eskainiko diogu osorik, banatzeari dagokion orekan duen paperean sakonduz.
 
@@ -492,4 +492,4 @@ $$
 
 Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo gaian ({numref}`{number} <app>`) 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara. 
 
-Baina, aurretik, hurrengo {numref}`{number}. <elek_mag>` eta {numref}`{number}. <osagarri>` atalak adibide berriak aurkeztera daude bideratuta. Era berean, dagoeneko lehendik landuta dauden hainbat sistema (agregatu lineala, besteak beste) itxuraldatu egingo ditugu, ekarpen berriak gaineratuz. Esan beharrekoa da beroriek emankorrak eta adierazgarriak gertatuko zaizkigula Hill-en teoria osatzeko eta indartzeko.
+Baina, aurretik, hurrengo {numref}`{number}. <elek_mag>` eta {numref}`{number}. <osagarri>` atalak adibide berriak aurkeztera daude bideratuta. Era berean, dagoeneko lehendik landuta dauden hainbat sistema (agregatu lineala, besteak beste) itxuraldatu egingo ditugu, ekarpen berriak gaineratuz. Esan beharrekoa da beroriek emankorrak eta adierazgarriak gertatuko zaizkigula Hillen teoria osatzeko eta indartzeko.

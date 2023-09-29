@@ -15,7 +15,7 @@ Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\overline{E}=E_{t}/\math
 
 Aurreko esaldian aipatutakoa aintzat hartuz, eta {numref}`{number}. ataleko <hillsec>` azalpenei segituz, eraiki honako adierazpenak:
 
-$(a)$ Multzo isotermo-isobaroaren Gibbs-en ekuazioa eta $X(T,p,N)$ aldaki-energia. Emaitzak azaldu.
+$(a)$ Multzo isotermo-isobaroaren Gibbsen ekuazioa eta $X(T,p,N)$ aldaki-energia. Emaitzak azaldu.
 
 ```{dropdown} __Erantzuna__
 $$
@@ -30,7 +30,7 @@ $$ (xtpn)
 Kasu honetan, $N$ ingurune-aldagaia agerrarazi behar dugu ekuazioan, $\mathrm{d}N_{t} = \mathscr{N}\mathrm{d}N + N\mathrm{d}\mathscr{N}$ erabiliz. Berorrek $N_{t}$ magnitudeak aldaezin irautea galarazten du. Aldaki-energia multzo honen izaeraren isla da. Hala, aldaki bat txertatzean, guztizko bolumena zein energia birbanatu egingo dira, sistema txikiei aldagaiok askatasun osoz eraldatu baitiezazkiekegu. Aitzitik, $N$ partikula-kopuruak aldaezin iraun behar duenez sistema orotan, multzoaren barne-energiak ekarpen kimikoa ere jasango luke, bere ikuspuntutik kanpotik $N$ partikuladun sorta berri bat gehitzen arituko gintzaizkioke eta. Aipaturiko ekarpen kimikoa $\widehat{\mu}$ potentzialaren bidez ereduztatu behar dugu, ez baitauka azpisistemei esleitutako $\mu$ potentzialaren esanahi bera.
 ```
 
-$(b)$ Sistema txikien Gibbs-en ekuazioa eta barne-energiaren adierazpena.
+$(b)$ Sistema txikien Gibbsen ekuazioa eta barne-energiaren adierazpena.
 ```{dropdown} __Erantzuna__
 $$
 \mathrm{d}\overline{E} = T\mathrm{d}S - p\mathrm{d}\overline{V} + \mu \mathrm{d}N
@@ -39,7 +39,7 @@ $$
 \overline{E} = TS - p\overline{V} + \widehat{\mu}N
 $$ (etpn)
 ```
-$(c)$ Gibbs-en energia askea, $F(T,p,N)$. Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
+$(c)$ Gibbsen energia askea, $F(T,p,N)$. Hortik abiatuta, idatzi magnitude integrala eta diferentziala erlazionatzen dituen adierazpena.
 
 ```{dropdown} __Erantzuna__
 $$
@@ -56,13 +56,13 @@ $$ (mumuhat)
 **----------------------------------------------------**
 
 
-Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbs-en energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
+Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbsen energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
 
 $$
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\overline{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
 $$ (dmuhat)
 
-Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwell-en erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,
+Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwellen erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,
 
 $$
 \left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; .
@@ -118,7 +118,7 @@ $$
 
 Hortik agerikoa da $r=1$ denean, katean bat-bateko helize-haril **fase-trantsizioa** gertatuko dela (limite termodinamikoan).
 
-Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbs-en energia askea $F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta$ dugu.
+Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbsen energia askea $F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta$ dugu.
 
 ##### Ariketa
 
@@ -213,7 +213,7 @@ $$ (dtpn_gi)
  $$
 ```
 
-Aipatzekoa da jada ez dela $N!$ agertzen. Are gehiago, Gibbs-en energia askea idatziz gero,
+Aipatzekoa da jada ez dela $N!$ agertzen. Are gehiago, Gibbsen energia askea idatziz gero,
 
 $$
 F(T,p,N) = Nk_{\mathrm{B}}T\ln\left(\frac{p\Lambda^3}{k_{\mathrm{B}}T}\right) \; ,

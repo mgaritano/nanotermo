@@ -2,13 +2,13 @@
 ## Sistema Txikien Termodinamika
 
 (hillteo)=
-### Hill-en teoria
+### Hillen teoria
 
-Sistema txiki baten azterketa burutzeko Hill-ek darabilen abiapuntua sistema horren $\mathscr{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero $\left(\mathscr{N}\rightarrow \infty\right)$, sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
-Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, Termodinamika Klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hill-en metodoa.
+Sistema txiki baten azterketa burutzeko Hillek darabilen abiapuntua sistema horren $\mathscr{N}$ aldakiz osatutako multzoa eraikitzea da. Sistema guztiak baliokideak, bereizgarriak eta askeak dira, hots, ez dago elkarrekintzarik. Bada, aldaki-kopurua oso handia dela onartuz gero $\left(\mathscr{N}\rightarrow \infty\right)$, sistemak nahi bezain txikiak izanik ere,  multzoa bera sistema makroskopikotzat hartzea izango dugu.
+Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, Termodinamika Klasikoa erabiliz abiatu gaitezke makrosistema bere osotasunean aztertzeko. Ondoren, sistema txiki bakarraren propietateak multzo osoaren aldagaien aldakiko batez bestekoak kalkulatuz lortuko ditugu. Horretan datza, hain zuzen, Hillen metodoa.
 
 ```{admonition} Oharra
- Hill-en teoriak ere __hipotesi ergodikoari__ eusten dio: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, multzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
+ Hillen teoriak ere __hipotesi ergodikoari__ eusten dio: propietate baten ibilbide dinamikoan zeharreko denboran batez bestekoa bat dator multzo estatistikoan barrenekoarekin. Bestalde, multzoaren barne-energia, entropia, bolumena eta partikula-kopurua $t$ azpiindizeaz idatziko ditugu.
 
 ```
 
@@ -51,7 +51,7 @@ $$
 \mathscr{N}\mathrm{d}\overline{E} + (TS-p\overline{V}+\mu \overline{N} + \mathscr{E})\mathrm{d}\mathscr{N} = T \mathrm{d}(\mathscr{N}S) - p \mathrm{d}(\mathscr{N}\overline{V}) + \mu \mathrm{d}(\mathscr{N}\overline{N}) + \mathscr{E}\mathrm{d}\mathscr{N} \; .
 $$
 
-Eragiketak eginez gero, sistema txikiaren Gibbs-en ekuaziora helduko gara:
+Eragiketak eginez gero, sistema txikiaren Gibbsen ekuaziora helduko gara:
 
 $$
 \mathrm{d}\overline{E} = T\mathrm{d}S - p\mathrm{d}\overline{V} + \mu \mathrm{d}\overline{N} \; .

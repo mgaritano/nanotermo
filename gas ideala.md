@@ -9,13 +9,13 @@ $$
 Q(T, V, N)=\frac{1}{N ! h^{3 N}} \int \prod_{i=1}^{N} \mathrm{d}^{3} q_{i} \; \mathrm{d}^{3} p_{i} \; \exp\left({-\frac{1}{k_{\mathrm{B}}T} \frac{ p_{i}^2}{2 m}}\right)  = \frac{V^N}{N!\Lambda^{3N}}\; .
 $$ (qtvngi)
 
-Hala, Helmholtz-en energia askea idatziko dugu.
+Hala, Helmholtzen energia askea idatziko dugu.
 
 $$
 A(T,V,N) = k_{\mathrm{B}}T\left(N\ln\frac{\Lambda^3}{V} + \ln N!\right)
 $$ (atvngi)
 
-Aurrera egin aurretik, jabetu gaitezen adierazpenean $N!$ ageri zaigula. Limite termodinamikoan $\ln N! \sim N\ln N - N$ hurbilketa badarabilgu ere, Nanotermodinamikan haratago joan beharrean gaude. Horretarako, lehenbizi Stirling-en seriea idatziko dugu.
+Aurrera egin aurretik, jabetu gaitezen adierazpenean $N!$ ageri zaigula. Limite termodinamikoan $\ln N! \sim N\ln N - N$ hurbilketa badarabilgu ere, Nanotermodinamikan haratago joan beharrean gaude. Horretarako, lehenbizi Stirlingen seriea idatziko dugu.
 
 $$
 \small \ln N! = N \ln N-N+ \ln \sqrt{2 \pi N}+\frac{1}{12 N}-\frac{1}{360 N^{3}}+\frac{1}{1260 N^{5}}-\frac{1}{1680 N^{7}}+\cdots
@@ -30,7 +30,7 @@ $$ (stvngi)
 Horrela, azken bi ekarpen _txikiek_ entropia txikituko dutela ohartuko gara, eta batik bat eskualde nanotermodinamikoan izango dute eragina. Bide batez, banatze-potentzialari ere erreparatuko diogu. $A(T,V,N)$ energiari Legendreren bi transformazio aplikatuz, $\mathscr{E}(T,p,\mu) = A +pV - \mu_{N} N$ dugu. Alde batetik, gas idealak $pV=Nk_{\mathrm{B}}T$ betetzen du. Bestetik, $\mu_{N}$ delakoa diferentzia-ekuazio baten bidez definituko dugu: $ \mu_{N} = A_{N+1}-A_{N}$. Sistema oso txikien kasuan berori ekuazio diferentziala baino aproposagoa da.
 
 ```{admonition} Oharra
-Hill-en liburuan azaltzen denez {cite}`hill`, $N$ aldagai diskretutzat hartu behar da $N< \mathcal{O}(50)$ denean.
+Hillen liburuan azaltzen denez {cite}`hill`, $N$ aldagai diskretutzat hartu behar da $N< \mathcal{O}(50)$ denean.
 
 ```
 Era berean, Taylorren hurbilketa erabiliko dugu ($N+1 \rightarrow N$). Ondorioz,

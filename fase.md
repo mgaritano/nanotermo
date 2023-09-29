@@ -13,7 +13,7 @@ Hala ere, komenigarria da garapen batzuk norberak egitea... 🙃 -->
 (itzul)=
 ### Itzulgarritasuna eta oreka-baldintzak
 
-Hill-en teoriari segituz, $\mathscr{N}(\rightarrow \infty)$ aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta $(E,V,N)$ sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  {cite}`st`, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote $(\mathrm{d}S_{t}>0)$, harik eta oreka berrezartzen den arte $(\mathrm{d}S_{t}=0)$. Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.
+Hillen teoriari segituz, $\mathscr{N}(\rightarrow \infty)$ aldakiz osaturiko multzo makroskopikoa aztertuko dugu. Azpisistemei ez diegu askatasun-gradurik abiaraziko, hau da, erabat isolatuta daude, eta $(E,V,N)$ sorta esleituko diegu. Termodinamikaren bigarren legeak dioenez  {cite}`st`, sistemak, lehen oreka-egoeratik bigarreneranzkora bidean, prozesu infinitesimal itzulezinak pairatuko ditu. Beroriek entropiari ekarpen positiboak sorraraziko dizkiote $(\mathrm{d}S_{t}>0)$, harik eta oreka berrezartzen den arte $(\mathrm{d}S_{t}=0)$. Aurrerantzean jazoko den aldaketa oro itzulgarria izango da, sistemak oreka-egoera berriari eutsiko baitio.
 
 Oro har, prozesu espontaneo bat {numref}`{number}. irudiaren <esp>` bidez ereduzta daiteke. Hasiera batean, kanpo-oztopo baten eraginpean dago sistema. Ondorioz, egoera kuantiko posible guztietatik soilik batzuk edukiko du eskuragai: $\Omega_{i}(E,V,N)$.
 Kanpo-galarazpen hori kenduz gero, sistemaren egoera aldatu egingo da. Hain zuzen, aldakiek aurrez debekatuta egon diren egoeretara ere sarbidea izango dute; hortaz, bukaeran, $\Omega_{f}(E,V,N) > \Omega_{i}(E,V,N)$ izango dugu. Aktibazio-energiaren gutxitzearen edo potentzial baten minimizazioaren bidez gauzatu daiteke prozesu hori.
@@ -39,7 +39,7 @@ $$
  P_{f \rightarrow i}^{t} := \frac{\Omega_{i}}{\Omega_{f}} = \exp\left(-\frac{\Delta S_{t}}{\mathscr{N}k_{\mathrm{B}}}\right) \rightarrow 0 \; .
  $$ (probcont)
 
- Alabaina, **azpisistemetan**, $\mathscr{N}$ barik $N$ izango genuke, eta, beraz, $ P_{f\rightarrow i}\propto e^{-N}$. Bada, $N$ magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, $N$ oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen $(\Delta S < 0)$ aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hill-en teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, $\Delta S = \Delta S_{t}/\mathscr{N}$  betetzen dela aintzat hartuz.
+ Alabaina, **azpisistemetan**, $\mathscr{N}$ barik $N$ izango genuke, eta, beraz, $ P_{f\rightarrow i}\propto e^{-N}$. Bada, $N$ magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, $N$ oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen $(\Delta S < 0)$ aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hillen teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, $\Delta S = \Delta S_{t}/\mathscr{N}$  betetzen dela aintzat hartuz.
 
  Eztabaida honen harira, {numref}`{number}. atalean <stabeps>` sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, $\mathscr{E}$ banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.
 
@@ -89,14 +89,14 @@ $$
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
 
 
-Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathscr{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathscr{N}_ {A}$ eta $\mathscr{N}_ {B}$ azpisistema dago. Bada, aurreko {numref}`{number} ataletik <tpn_azter>`, aldakiko Gibbs-en energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
+Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathscr{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathscr{N}_ {A}$ eta $\mathscr{N}_ {B}$ azpisistema dago. Bada, aurreko {numref}`{number} ataletik <tpn_azter>`, aldakiko Gibbsen energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
 eta banaketa posible guztien ekarpena kontuan hartuz (konfigurazio-mailako entropia), energia totala hauxe dugu:
 
 $$
 F_{t} = \mathscr{N}_ {A}\left(N\;\widehat{\mu}_ {A}\right) +  \mathscr{N}_ {B}\left(N\;\widehat{\mu}_ {B}\right) - k_{\mathrm{B}}T\ln\left(\frac{\mathscr{N}!}{\mathscr{N}_ {A}!\;\mathscr{N}_{B}!}\right) \; .
 $$ (gibbstot)
 
-Multzoak orekan izango duen $\mathscr{N}_ {A}/\mathscr{N}_ {B}$ frakzioari erreparatzea da gure jomuga, bertatik eskuratuko baitugu bigarren analisi honetarako beharrezkoa izango dugun informazioa. Multzoa bera makroskopikoa denez, zilegi izango zaigu Stirling-en hurbilketaz baliatzea, hau da, $\ln \mathscr{N}! \approx \mathscr{N}\ln \mathscr{N} - \mathscr{N}$ idatziko dugu. Hala, oreka-egoeran izango dugu $\mathscr{N}_ {A}$ kopurua finkatuz, eta $\mathscr{N}_ {B} = \mathscr{N}- \mathscr{N}_{A}$ idatziz,
+Multzoak orekan izango duen $\mathscr{N}_ {A}/\mathscr{N}_ {B}$ frakzioari erreparatzea da gure jomuga, bertatik eskuratuko baitugu bigarren analisi honetarako beharrezkoa izango dugun informazioa. Multzoa bera makroskopikoa denez, zilegi izango zaigu Stirlingen hurbilketaz baliatzea, hau da, $\ln \mathscr{N}! \approx \mathscr{N}\ln \mathscr{N} - \mathscr{N}$ idatziko dugu. Hala, oreka-egoeran izango dugu $\mathscr{N}_ {A}$ kopurua finkatuz, eta $\mathscr{N}_ {B} = \mathscr{N}- \mathscr{N}_{A}$ idatziz,
 
 $$
 \left(\frac{\partial F_{t}}{\partial \mathscr{N}_ {A}}\right)_{T,p,N,\mathscr{N}} = 0
@@ -170,7 +170,7 @@ Errepara bekio {numref}`{number} irudiari <faseplot>`. Ohartu gaitezen grafikoa 
 (cryst_melt)=
 #### Klastoaren fusioa
 
-Bigarren adibide honetan, klasto esferiko baten fusio-tenperaturan sistemaren beraren tamainak duen eragina aztertuko dugu. Beraz, _bi egoeren hurbilketari_ segituz, $A$ egoera solidoa ($S$) eta $B$ egoera likidoa $(L)$ ditugu. Sistema txikien Gibbs-en energia askeak gai __lineal__ makroskopikoa $(\propto N)$ ez ezik, __gainazal-efektuei__ $(\propto N^{2/3})$ zein __errotazioari__ $(\propto \ln N)$ dagozkion ekarpen txikiak ere biltzen ditu, hau da,
+Bigarren adibide honetan, klasto esferiko baten fusio-tenperaturan sistemaren beraren tamainak duen eragina aztertuko dugu. Beraz, _bi egoeren hurbilketari_ segituz, $A$ egoera solidoa ($S$) eta $B$ egoera likidoa $(L)$ ditugu. Sistema txikien Gibbsen energia askeak gai __lineal__ makroskopikoa $(\propto N)$ ez ezik, __gainazal-efektuei__ $(\propto N^{2/3})$ zein __errotazioari__ $(\propto \ln N)$ dagozkion ekarpen txikiak ere biltzen ditu, hau da,
 
 $$
 F(T,p,N) := N\widehat{\mu} = Nf(T,p) + N^{2/3}a(T,p) + \ln N \; b(T) \; .

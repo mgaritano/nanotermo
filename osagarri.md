@@ -4,7 +4,7 @@
 (mupt_sphagg)=
 ### Agregatu esferikoa
 
-Jarraian aurkeztuko dugun analisiak {numref}`{number} azpiataleko <mupt_linagg>` adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Orobat, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu $(a>0)$. Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du $(b>0)$. Hill-en liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
+Jarraian aurkeztuko dugun analisiak {numref}`{number} azpiataleko <mupt_linagg>` adibidearen tankera du. Oraingoan, aitzitik, unitate-osatzaileen biraketa barik, gainazal- eta kurbadura-efektuen eraginari erreparatuko diogu. Horiek horrela, aztergai izango dugun sistema $N$ monomeroz osaturiko agregatu esferiko konprimaezina da; hartara, askatasun-gradu mekanikoa ez dugu aintzat hartuko; beraz, azterketa $(T,N)$ ingurune-aldagaien bidez jarriko dugu abian. Orobat, unitateei $j(T)$ partizio-funtzio intrintsekoa esleituko diegu. Horrez gain, $a(T)N^{2/3}$ gainazaleko energia askearen ekarpena kontuan izango dugu $(a>0)$. Aipatzekoa da $a(T)$ magnitudea $\gamma$ gainazal-tentsioarekiko proportzionala dela. Berebat, formulazioa osatze aldera, gainazal esferikoaren kurbaduraren ondoriozko gainazal-tentsioaren aldakuntza ere hartuko dugu aintzat. Hark $b(T)N^{1/3}$ ekarpena gaineratuko du $(b>0)$. Hillen liburuan {cite}`hill` zenbaitetan ageri da adibide hau. Bada, esan beharrekoa da horietan guztietan kurbaduraren eragina baztertu egiten dela. Guk, azterketa honetan, gainontzeko ekarpenekiko zuzenketa txikitzat joko dugu, $b \rightarrow 0^{+}$ hartuz. Hori onartzeak nabarmenki arinduko du $\Upsilon (T,\mu)$ partizio-funtzioa kalkulatzeko bidea.
 
 Lehenbizi, $Q(T,N)$ partizio-funtzio kanonikoa eraikiko dugu, hurbilketarik gabe.
 
@@ -35,7 +35,7 @@ $$
 $$ (excess_mu)
 
 ```{admonition} Oharra
-Hill-ek $\widehat{\mu}^{(x)}$ eta $\mu^{(x)}$ magnitudeei gehiegizko termino deritze (_excess terms_). Hurrenez hurren, $\widehat{\mu}$ eta $\mu$ potentzial kimikoen tamaina finituko efektuen adierazleak dira.
+Hillek $\widehat{\mu}^{(x)}$ eta $\mu^{(x)}$ magnitudeei gehiegizko termino deritze (_excess terms_). Hurrenez hurren, $\widehat{\mu}$ eta $\mu$ potentzial kimikoen tamaina finituko efektuen adierazleak dira.
 ```
 
 Aurreko ekuazioetatik entropia eta barne-energiaren batez bestekoa kalkulatuko ditugu, ondoren $S(T,\mu)$ eta $\overline{E}(T, \mu)$ adierazpenekin alderaketak egin ahal izateko:
@@ -186,7 +186,7 @@ Agregatu linealaren adibidean, orain ez bezala, lehen auzoko unitateen arteko $\
 Badirudi, hortaz, limite makroskopikoan agregatua lineala edo esferikoa izateak ez duela inolako eraginik barne-energia eta entropia bezalako funtzio termodinamikoetan. Hain zuzen, sistemaren __formari__ dagozkion ekarpenak azaleratzeko, nanotermodinamikara jo beharko dugu ezinbestean.
 
 ##### Ariketa
-Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbadura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hill-en liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
+Ariketa honen helburua orain arte burututako analisi orokorra $b(T) = 0$ limitean aztertzea da. Hala, kurbadura-efektuak erabat baztertuz eta, hartara, $a(T)N^{2/3}$ gainazalaren ekarpena soilik aintzat hartuz, Hillen liburuko emaitzak berreskuratuko ditugu bidenabar {cite}`hill`.
 
 $(a)$ Dagoeneko kalkulatu dugu banatze-potentzialak baldintza horietan betetzen duen adierazpena ({eq}`sph_epsilon_nc_approx` ekuazioa). Egin gauza bera honako magnitudeekin: $\widehat{\mu},\;\mu,\; S(T,N),\;\overline{E}(T,N),\;\Upsilon(T,\mu),\;\overline{N},\;\overline{E}(T,\mu)$ eta $S(T,\mu)$.
 
@@ -354,7 +354,7 @@ $$
 $$ (lattice_s_mc)
 
 
-Banatze-potentziala kalkulatzeko, {numref}`{number} ataleko <hillteo>` garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbs-en ekuazioa idatziko ditugu:
+Banatze-potentziala kalkulatzeko, {numref}`{number} ataleko <hillteo>` garapenak hartu behar ditugu aintzat. Hasteko, sistema txikiaren ekuazioa eta Gibbsen ekuazioa idatziko ditugu:
 
 $$
 E = TS-pB+\mu N + \mathscr{E} \; ,
@@ -433,7 +433,7 @@ $$
 
 ```
 
-Jarraian, $\Delta = e^{-F/k_{\mathrm{B}}T}$ erlaziotik, Gibbs-en energia askea
+Jarraian, $\Delta = e^{-F/k_{\mathrm{B}}T}$ erlaziotik, Gibbsen energia askea
 
 $$
 F\left(\frac{p}{T}, N\right) = N\widehat{\mu} = k_{\mathrm{B}}T\left[-N\ln x + (N+1)\ln(1-x)\right]
@@ -695,7 +695,7 @@ Entropiak berriro gora egin du. Kontuak kontu, abian dugun azterketari buru emat
 
 ```
 
-Errepara diezaiegun {numref}`{number} taulako <taula_s_lattice>` adierazpenei, banan-banan. Multzo mikrokanonikoan (guztiz itxia), Stirling-en serieko gaiak gehitu ahala, tamaina finituko efektuek banatze-potentziala indartu, eta, horrekin batera, entropiari ekarpen negatiboak erantsi dizkiote, hura txikiagotuz. Horren aldean, multzo makrokanonikoan (erdiirekia) ez dugu jada Stirling-en hurbilketara jo behar izan. Azken horrek, alde batetik, ekarpen negatiboak desagerrarazi ditu, eta, bestetik, entropiaren adierazpen erabat zehatza itzuli digu, zeina, limite makroskopikorantz jo ahala, bere horretan mantenduko den. Multzo isobarora (erdiirekia) jauzi egitean, banatze-potentziala negatibo bihurtu da, eta, horren eraginez, entropia zertxobait handitu da, zuzenketak $\mathcal{O}(1)$ ordenakoak dira eta. Azkenik, itxaro izan bezala, multzo nanokanonikoan (guztiz irekia) lortu dugu entropia maximizatzea. Oraingoan ere, aurreko adierazpenekiko zuzenketa berriak $\mathcal{O}(1)$ ordenakoak dira.
+Errepara diezaiegun {numref}`{number} taulako <taula_s_lattice>` adierazpenei, banan-banan. Multzo mikrokanonikoan (guztiz itxia), Stirlingen serieko gaiak gehitu ahala, tamaina finituko efektuek banatze-potentziala indartu, eta, horrekin batera, entropiari ekarpen negatiboak erantsi dizkiote, hura txikiagotuz. Horren aldean, multzo makrokanonikoan (erdiirekia) ez dugu jada Stirlingen hurbilketara jo behar izan. Azken horrek, alde batetik, ekarpen negatiboak desagerrarazi ditu, eta, bestetik, entropiaren adierazpen erabat zehatza itzuli digu, zeina, limite makroskopikorantz jo ahala, bere horretan mantenduko den. Multzo isobarora (erdiirekia) jauzi egitean, banatze-potentziala negatibo bihurtu da, eta, horren eraginez, entropia zertxobait handitu da, zuzenketak $\mathcal{O}(1)$ ordenakoak dira eta. Azkenik, itxaro izan bezala, multzo nanokanonikoan (guztiz irekia) lortu dugu entropia maximizatzea. Oraingoan ere, aurreko adierazpenekiko zuzenketa berriak $\mathcal{O}(1)$ ordenakoak dira.
 
 Esanak esan, entropiaren bilakaera {numref}`{number} grafikoan <lattice_s_graph>` irudikatuko dugu.
 

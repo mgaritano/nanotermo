@@ -14,7 +14,7 @@ Zentrutik $r$ distantziara dagoen gas-partikula askeak $a$ erradioko adsorbatzai
 
 ```
 
-Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hill-en teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathscr{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathscr{N}S$, $\Omega_{t}=\mathscr{N}\Omega$ eta $N_{t}=\mathscr{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
+Xurgatutako partikulen geruza izango da aurrerantzean aztergai izango dugun sistema termodinamikoa. Berorren azalera $\Omega$ da, eta $T$ tenperaturan dagoen bero-iturri batekin ukipenean dago. Era berean, xurgatutako partikulek iturri kimikoa osatzen dutela onartuko dugu. Beraz, sistemaren inguruneko aldagai-sorta $(T,\Omega,\mu)$ da. Adsorbatzailea bera  kanpo-eragiletzat hartuko dugu. Bada, {numref}`{number} irudiko <adsorbent>` azalpenei segituz eta Hillen teorian oinarrituz ({numref}`{number} azpiatala <hillteo>`), $\mathscr{N}$ aldakiz osatutako multzo makrokanonikoa eraikiko dugu. Bere aldagaiak, hortaz, $S_{t}=\mathscr{N}S$, $\Omega_{t}=\mathscr{N}\Omega$ eta $N_{t}=\mathscr{N}\bar{N}$ dira. Horien bidez, dagokion ekuazioa lortuko dugu:
 
 $$
 \mathrm{d}E_{t}(S_{t},\Omega,N_{t},\mathscr{N}) = T\mathrm{d}S_{t} + \gamma\mathscr{N}\mathrm{d}\Omega + \mu \mathrm{d}N_{t} + \left(\mathscr{E}+ \gamma\Omega\right)\mathrm{d}\mathscr{N} ,
@@ -78,7 +78,7 @@ Baina,  lehenbizi adsorbatzailearen eta gas-partikulen arteko elkarrekintza ered
 
 ### Elkarrekintza-potentziala eta Emaitzak
 
-Adsorbatzailea $\rho$ dentsitateko esfera trinkoa da. Bolumen-elementuak gas-partikula batekin duen elkarrekintza Lennard-Jones-en 12-6 potentzial-ereduarekin ereduztatuko dugu:
+Adsorbatzailea $\rho$ dentsitateko esfera trinkoa da. Bolumen-elementuak gas-partikula batekin duen elkarrekintza Lennard-Jonesen 12-6 potentzial-ereduarekin ereduztatuko dugu:
 
 $$
 u(r) = 4\epsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right] \; ,
@@ -132,7 +132,7 @@ $$
 $$ (epsilonads)
 adierazpena betetzen duen horretan, izaera linealarekiko desbideraketen gidaritzan dago.
 
-Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak $(\mathscr{E}<0)$ multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hill-en postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
+Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nanokanonikoari aldaki bat gaineratzeak $(\mathscr{E}<0)$ multzoaren $\Omega_{t}$ guztizko azalera birbanatzea lekarke. Hortaz, $(T,\gamma,\mu)$ ingurne-aldagaidun azpisistemetako $\Omega$ azalera txikiagotu, eta, berorien gainazalen kurbatura areagotu egingo litzateke. Hillen postulatuari segituz, banatze-potentziala litzateke multzoaren barne-energiak hautemango lukeen gainazal-efektuon erantzule eta adierazle soila; alegia,
 
 $$
 \mathscr{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .

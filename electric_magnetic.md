@@ -3,7 +3,7 @@
 
 Aurreneko bi atalak aurrez landutako bi sistemaren berrazterketara daude bideratuta, efektu elektrikoak gaineratuko dizkiegularik. Egiazki, lehendabizi {numref}`{number} adibideko <helix_coil>` “helize-haril” sistema itxuraldatuko dugu, alde banatan aurkako zeinudun bi karga erantsiz. Ondoren, {numref}`{number} adibidean <mupt_linagg>` ageri den agregatu linealari helduko diogu, eta unitate-osatzaileetako bakoitza $z$ norabidearekiko ausazko orientaziodun dipolo elektrikotzat hartuko dugu. Kasu bietan, kanpoko eremu elektrikoaren eraginpean ezarriko ditugu sistemak, berorien azterketa termodinamikoa berrabiarazteko.
 
-Hirugarren zatian, Ising-en dimentsio bakarreko katea izango dugu hizpide, eta, batik bat, harekin multzo nanokanonikoan arituko gara, 
+Hirugarren zatian, Isingen dimentsio bakarreko katea izango dugu hizpide, eta, batik bat, harekin multzo nanokanonikoan arituko gara, 
 horri esker lortu ahalko baitugu multzoaren banatzeari dagokion oreka termikoa erdiestea.
 
 
@@ -391,7 +391,7 @@ Jakina, kanpo-eremua kenduko bagenu, jatorrizko {eq}`stmuagg` ekuazioa berreskur
 
 
 (ising)=
-### Ising-en eredua
+### Isingen eredua
 
 
 Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere abagune egokia eskainiko digu tamaina finituko efektuekin aritzeko. Hain zuzen, Nanotermodinamikaren tresneria sistema magnetikoetara eramanez, {numref}`{number} irudiko <ising_geziak>` ereduaren benetako oreka termikoa bilatzea dugu erronka, hura multzo estatistiko mikrokanonikoan, kanonikoan eta, azkenik, nanokanonikoan aztertuz; batik bat, entropiak multzoz multzo duen bilakaerari erreparatuko diogu.
@@ -402,17 +402,17 @@ Adibide honetan aztergai izango dugun spin magnetikoz osaturiko sistemak ere aba
 width: 650px
 name: ising_geziak
 ---
-  Ising-en dimentsio bakarreko katea $N$ spin bereizezinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ({numref}`{number} irudia <ising_j>`).
+  Isingen dimentsio bakarreko katea $N$ spin bereizezinez osatuta dago. Beroriek $+\mathbf{u}_z$ eta $-\mathbf{u}_z$ noranzkoetan lerrokatu daitezke soilik. Garapenak errazteko, lehen auzokoen arteko $\pm J$ ez beste elkarrekintza-energiak baztertu egingo ditugu ({numref}`{number} irudia <ising_j>`).
 ```
 
-Ising-en sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
+Isingen sistemaren osagaietako bakoitzek barne-energiari bi ekarpen sorrarazten dizkiote: alde batetik, bi spinen arteko lerrokatze magnetikoaren araberako $\pm J$ delakoa; bestetik, berorietako bakoitzari $\mathbf{m}$ momentu magnetikoa esleituko bagenio, $\mathbf{B}$ kanpo-eremu magnetikoaren ondoriozko $-\mathbf{m}\cdot\mathbf{B}$ elkarrekintza ere izango genuke.
 
 Aipatu beharrekoa da efektu biak batera aztertzea ez dela kontu erraza. Izan ere, partizio-funtzio kanonikoa eraikitzerakoan, _transferentzia-matrizearen_ metodora jo beharko dugu. Gainera, bertatik eskuratutako adierazpen luzeak ez dira erabilerrazak. Bada, horren ordez, analisia bi zatitian burutuko dugu, bakoitza bere aldetik. Lehenik, {numref}`{number} atalean <b0jnot0>`, lehen auzokoen arteko $\pm J$ lerrokatze-elkarrekintza izango dugu soilik aintzakotzat. Ondoren, {numref}`{number} atalean <j0bnot0>`, aurkakoa egingo dugu: sistemari $\mathbf{B}$ kanpo-eremua ezarriko diogu, eta spinek elkar ikusten ez dutela onartuko dugu $(J=0)$.
 
 
 
 (b0jnot0)=
-#### Ising-en katea, $J$ elkarrekintza-energiaren eraginpean
+#### Isingen katea, $J$ elkarrekintza-energiaren eraginpean
 
 Errepara diezaiogun {numref}`{number} irudiari <ising_j>`.
 
@@ -421,7 +421,7 @@ Errepara diezaiogun {numref}`{number} irudiari <ising_j>`.
 ---
 width: 650px
 ---
-  Ising-en spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
+  Isingen spinek lerrokatze magnetikoa hobesten dutela onartuko dugu; alegia, konfigurazio horrek energia magnetikoa minimizatu egingo du. Hartara, noranzko bereko bi lehen auzokok $-J$ elkarrekintza-energia hautemango dute; aurkako noranzkoak erakutsiko balituzte, aldiz, lotze-energia $+J$ litzateke.
 ```
 
 Arestian azaldutako hurbilketari jarraikiz, demagun sistema, egiatan, $N+1$ spin magnetikoz osatuta dagoela; hartara, orotara $N$ lotura izango ditu (azken kontu hori argitzeko, behatu goiko irudia). Haietatik $n_+$ aurkako noranzkodun spinen arteko loturak dira $(+J)$, eta, beraz, $N-n_+$ noranzko beredun spinen artekoak $(-J)$. Esaterako, {numref}`{number} irudiaren <ising_j>` kasuan, $N=10$ eta $n_+ = 7$. Hori dela eta, __multzo mikrokanonikoan__ $N$ eta $n_+$ aldagaiak finko dituen sistemaren barne-energia honela idatz dezakegu:
@@ -492,7 +492,7 @@ $$ (bar_E)
 
 ```
 
-$(b)$ Jarraian, kalkulatu Helmholtz-en energia askea.
+$(b)$ Jarraian, kalkulatu Helmholtzen energia askea.
 
 ```{dropdown} __Erantzuna__
 
@@ -694,7 +694,7 @@ $$
  = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
 $$ (ising_b_s_c)
 
-Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtz-en energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
+Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtzen energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
 
 $$
 \\

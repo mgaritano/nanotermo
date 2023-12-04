@@ -10,8 +10,8 @@ Bigarrenik, _Small Systems Thermodynamics_ proiektuko kide diren Jean-Marc Simon
 
 
 
-Terrell Hill 2014an zendu zen, 96 urte zuela. Antza, bere heriotza ez zen Ludwig Boltzmannena bezain zorigaiztokoa izan. Nolanahi dela ere, ez du begiesterik izan urte luzez baztertuta egon den bere lanaren sustapenik. Ziurrenik, pozgarri eta atsegingarri gertatuko
-zitzaiokeen ikustea ikerlari-talde umil batek buru-belarri, su eta gar diharduela ekinean;
+Terrell Hill 2014an zendu zen, 96 urte zuela. Antza, bere heriotza ez zen Ludwig Boltzmannena bezain zorigaiztokoa izan. Nolanahi dela ere, ez du begiesterik izan urte luzez baztertuta egon den bere lanaren sustapenik. Ziurrenik, pozgarria eta atsegingarria gertatuko
+zitzaiokeen ikustea ikerlari-talde batek egun buru-belarri, su eta gar diharduela ekinean;
 Sistema Txikien Termodinamika eman eta zabaltzeko _saiatze horretan... ezin gelditu..._
 
 ```{epigraph}

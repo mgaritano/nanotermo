@@ -197,7 +197,7 @@ $$
     \end{cases} 
 $$ (dmuT_mak)
 
- Alabaina, maila mikroskopikotik alde egin gabe,
+ Aitzitik, maila mikroskopikotik alde egin gabe,
 
 $$
 \frac{1}{k_{\mathrm{B}}\; \partial r/\partial T}\left(\frac{\partial \mathscr{E}/NT}{\partial T}\right)_{f,N} = -N\frac{r^{N-1}}{1+r^N}\ln r \left[1-\frac{r^N}{1+r^N}\right] \; .
@@ -208,7 +208,7 @@ $$
 height: 300px
 name: epsilon_mumuhat
 ---
-  Unitate-kopuruko banatze-potentzialaren adierazpenari limite makroskopikorako trantsizio bortitzagoa hauteman dakioke. Hain zuzen ere, {numref}`{number}. irudiaren <epsilon_tfn>` aldean, zilegi zaigu $N=90-100$ zonaldean eremu termodinamikoan gaudela baieztatzea; ondorioz, inguru horretan tamaina finituko efektuek ez dute jada berebiziko eraginik izango $l/N$ bezalako magnitudeen izaera intentsiboan. Azpimarratu beharrekoa da, orobat, ekarpen txiki horien zeinua alderantzikatu egingo dela fase-trantsizioa gauzatutakoan: $r<1$ eskualdean $(N \rightarrow n_C)$ positiboa da; $r>1$ eremuan $(N \rightarrow n_H)$, aitzitik, negatiboa.
+  Unitate-kopuruko banatze-potentzialaren adierazpenari limite makroskopikorako trantsizio bortitzagoa hauteman dakioke. Hain zuzen ere, {numref}`{number}. irudiaren <epsilon_tfn>` aldean, zilegi zaigu $N=90-100$ zonaldean eremu termodinamikoan gaudela baieztatzea; ondorioz, inguru horretan tamaina finituko efektuek ez dute jada berebiziko eraginik izango $l/N$ bezalako magnitudeen izaera intentsiboan. Azpimarratu beharrekoa da, orobat, ekarpen txiki horien zeinua alderantzikatu egingo dela fase-trantsizioa gauzatutakoan: positiboa $r<1$ eskualdean $(N \rightarrow n_C)$; negatiboa, ordea, $r>1$ eremuan $(N \rightarrow n_H)$.
 ```
 
 

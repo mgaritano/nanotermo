@@ -174,7 +174,6 @@ name: epsilon_tfn
   Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala $(r \rightarrow 1)$ geroz eta tarte zabalagoa hartuko du, eta $\mathscr{E}\rightarrow\mathscr{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
 ```
 
-```
 
 $(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ekuazio-bikotea zein berorren limite makroskopikoa (aintzat eduki $r<1$ edo $r>1$ izatearen eragina). Aztertu, berebat, espresio biak desberdintzen dituzten ekarpenak, eta erlazionatu orobat banatze-potentzialarekin.
 

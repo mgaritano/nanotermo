@@ -98,13 +98,14 @@ $$
 \mu := \left(\frac{\partial F}{\partial N}\right)_{T,p} = \left(\frac{\partial H}{\partial N}\right)_{T,p} - T\left(\frac{\partial S}{\partial N}\right)_{T,p} \; .
 $$ (mu_H)
 
-Ondoren datorkigun {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`muhat_H` eta {eq}`mu_H` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
+Bertatik honakoa lor daiteke:
 
-<!-- $$
-\\
 $$
+ \left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .
+$$ (mu_muhat_h)
 
-Baina, aurretik,  -->
+Ondoren datorkigun {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`mu_muhat_h` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
+
 
 (helix_coil)=
 ### Adibidea: helize-haril trantsizioa

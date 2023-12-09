@@ -49,26 +49,38 @@ $$
 \mathrm{d}F(T,p,N) = -S\mathrm{d}T + \overline{V}\mathrm{d}p + \mu\mathrm{d}N \;
 $$ (dftpn)
 $$
-\boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p} \quad ; \quad \mathscr{E} =  (\widehat{\mu} - \mu)N}
+\boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p}}
 $$ (mumuhat)
 ```
 
 **----------------------------------------------------**
 
 
-Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbsen energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du. Ildo horri segituz, $\widehat{\mu}$ potentzialak ekuazio hau beteko du:
+Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbsen energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du: $\mathscr{E} =  (\widehat{\mu} - \mu)N$ ({eq}`xtpn` ekuazioa). Ildo horri segituz, $\widehat{\mu}$ potentzialak espresio hau beteko du:
 
 $$
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\overline{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
 $$ (dmuhat)
 
-Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwellen erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz, adibidez,
+Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwellen erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz:
 
 $$
-\left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; .
+\left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; ,
+$$ (dmuhatdT)
+
+eta
+
+$$
+\left(\frac{\partial \mu}{\partial p}\right)_{T, N} := \frac{\partial}{\partial p}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial p}\right)_{T, N} := \left(\frac{\partial \overline{V}}{\partial N}\right)_{T, p} \; .
+$$ (dmuhatdp)
+
+Horiekin batera, banatze-potentzialaren adierazpena eta {eq}`dmuhat` ekuazioko azkeneko gaia baliatuko ditugu
+
+$$
+\left(\frac{\partial \mu}{\partial N}\right)_{T, p} = \left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T, p} - \left[\frac{\partial (\mathscr{E}/N)}{\partial N}\right]_{T,p} = - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p} 
 $$
 
-Horrenbestez,
+berdintza erdiesteko. Horrenbestez,
 
 $$
 \boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .

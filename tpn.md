@@ -86,7 +86,25 @@ $$ (dmu)
 
 Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek $N$ aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, {eq}`dmu` ekuazioko azkenengo gaia $\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N$ dugu, zeina ez baita nulua. Horrek $\mu$ potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, $\mu = \mu(T,p,N)$ erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, {eq}`gibbs-duhem` erlazioarekin (Gibbs-Duhem).
 
-Jarraian datorkigun adibidean $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan beroriek bereizten dituzten ekarpen finituen itxura behatuko dugu.
+Horiez gain, entalpia $H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS$ dela aintzat hartuz,
+
+$$
+\widehat{\mu} =\frac{H}{N} - T\frac{S}{N} \; ,
+$$ (muhat_H)
+
+eta,
+
+$$
+\mu := \left(\frac{\partial F}{\partial N}\right)_{T,p} = \left(\frac{\partial H}{\partial N}\right)_{T,p} - T\left(\frac{\partial S}{\partial N}\right)_{T,p} \; .
+$$ (mu_H)
+
+Ondoren datorkigun {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`muhat_H` eta {eq}`mu_H` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
+
+<!-- $$
+\\
+$$
+
+Baina, aurretik,  -->
 
 (helix_coil)=
 ### Adibidea: helize-haril trantsizioa

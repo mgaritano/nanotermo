@@ -68,8 +68,6 @@ $$
 \left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; ,
 $$ (dmuhatdT)
 
-eta
-
 $$
 \left(\frac{\partial \mu}{\partial p}\right)_{T, N} := \frac{\partial}{\partial p}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial p}\right)_{T, N} := \left(\frac{\partial \overline{V}}{\partial N}\right)_{T, p} \; .
 $$ (dmuhatdp)

@@ -175,7 +175,7 @@ name: epsilon_tfn
 ```
 
 
-$(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ekuazio-bikotea zein berorren limite makroskopikoa (aintzat eduki $r<1$ edo $r>1$ izatearen eragina). Aztertu, berebat, espresio biak desberdintzen dituzten ekarpenak, eta erlazionatu orobat banatze-potentzialarekin.
+$(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ekuazio-bikotea zein berorren limite makroskopikoa (aintzat eduki $r<1$ edo $r>1$ izatearen eragina). Aztertu, berebat, espresio biak desberdintzen dituzten ekarpenak, eta erlazionatu banatze-potentzialarekin.
 
 
 ```{dropdown} __Erantzuna__
@@ -197,12 +197,18 @@ $$
     \end{cases} 
 $$ (dmuT_mak)
 
- Aitzitik, maila mikroskopikotik alde egin gabe,
+ Alabaina, maila mikroskopikotik alde egin gabe,
 
 $$
 \frac{1}{k_{\mathrm{B}}\; \partial r/\partial T}\left(\frac{\partial \mathscr{E}/NT}{\partial T}\right)_{f,N} = -N\frac{r^{N-1}}{1+r^N}\ln r \left[1-\frac{r^N}{1+r^N}\right] \; .
 $$ 
 
+```{figure} epsilon_mu_muhat.png
+---
+height: 300px
+name: epsilon_mumuhat
+---
+  Unitate-kopuruko banatze-potentzialaren adierazpenari limite makroskopikorako trantsizio bortitzagoa hauteman dakioke. Hain zuzen ere, {numref}`{number}. irudian <epsilon_tfn>` ez bezala, $N=90-100$ inguruan tamaina finituko efektuek ez dute jada eraginik izango $l/N$ bezalako magnitudeen izaera intentsiboan. Azpimarratu beharrekoa da, orobat, ekarpen txiki horien zeinua alderantzikatu egingo dela fase-trantsizioa gauzatutakoan, alegia, $r<1$ eskualdean $(N \rightarrow n_C)$ positiboa da; $r>1$ eremuan $(N \rightarrow n_H)$, aitzitik, negatiboa.
 ```
 
 

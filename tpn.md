@@ -151,20 +151,17 @@ Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz, sistemaren termodinamika ondo
 
 ##### Ariketa
 
-$(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, $F(T,f,N)$ adierazpenaren laguntzaz.
+$(a)$ Kalkulatu $\widehat{\mu}$ eta $\mu$ potentzial kimikoak, $F(T,f,N)$ adierazpenaren laguntzaz. Behin potentzialok erdietsiz gero, eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, $r = 0,5 \; ;  \; r = 0,98$ eta $r=1,05$ balioak erabiliz.
 
 ```{dropdown} __Erantzuna__
 $$
 \widehat{\mu} := \frac{F}{N} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{1}{N}\ln(1+r^N)\right]
 $$ (muhathelix)
+
 $$
 \mu := \left(\frac{\partial F}{\partial N}\right)_{T,f} = -k_{\mathrm{B}}T\left[\ln r_{C} + \frac{r^N\ln r}{1 + r^N}\right]
 $$ (muhelix)
-```
 
-$(b)$ Eraiki banatze-potentziala, eta aztertu sistemaren tamainaren arabera azaltzen duen portaera, $r = 0,5 \; ;  \; r = 0,98$ eta $r=1,05$ balioak erabiliz.
-
-```{dropdown} __Erantzuna__
 $$
 \mathscr{E} = (\widehat{\mu}-\mu)N = -k_{\mathrm{B}}T\left[\ln(1+r^N) - N\frac{r^N\ln r}{1 + r^N}\right]
 $$ (epsilonhelix)
@@ -175,6 +172,36 @@ height: 300px
 name: epsilon_tfn
 ---
   Ekarpen finituen bilakaera banatze-potentzialaren indarraren baitan dago. Tamaina handitu ahala, berori ahulduz doa, eta sistemak eremu makroskopikorantz jotzen du. Era berean, $r$ erlazioak eskualde nanotermodinamikoaren hedaduran eragin zuzena dauka. Fase-trantsizioaren puntura gerturatu ahala $(r \rightarrow 1)$ geroz eta tarte zabalagoa hartuko du, eta $\mathscr{E}\rightarrow\mathscr{E}_{0} = -k_{\mathrm{B}}T \ln 2$ konstanterantz gerturatuko da.
+```
+```
+
+$(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ekuazio-bikotea zein berorren limite makroskopikoa (aintzat eduki $r<1$ edo $r>1$ izatearen eragina). Aztertu, berebat, espresio biak desberdintzen dituzten ekarpenak, eta erlazionatu orobat banatze-potentzialarekin.
+
+```{dropdown} __Erantzuna__
+
+$$
+\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = -k_{B}\left(\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + \frac{r^{N-1}}{1 + r^{N}}\frac{\partial r}{\partial T}\right) \; ,
+$$ (dmuhatT)
+
+$$
+\left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = -k_{B}\left[\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + N\frac{r^{N-1}}{1 + r^{N}}\left(\frac{1}{N} + \ln r - \frac{r^{N}\ln r}{1 + r^N} \right)\frac{\partial r}{\partial T} \right] \; .
+$$ (dmuT)
+
+Limite makroskopikoan,
+
+$$
+\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = \left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = \begin{cases}
+      -k_{B}\left( \frac{1}{r_{C}} \frac{\partial r_{C}}{\partial T} + \frac{1}{r} \frac{\partial r}{\partial T} \right) & \text{$r>1$ bada.}\\
+      -k_{\mathrm{B}}\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial t}& \text{$r<1$ bada.}
+    \end{cases} 
+$$ (dmuT_mak)
+
+ Aitzitik, maila mikroskopikotik alde egin gabe,
+
+$$
+\frac{1}{k_{\mathrm{B}}\; \partial r/\partial T}\left(\frac{\partial \mathscr{E}/NT}{\partial T}\right)_{f,N} = -N\frac{r^{N-1}}{1+r^N}\ln r \left[1-\frac{r^N}{1+r^N}\right] \; .
+$$ (dmuT_epsilon)
+
 ```
 
 **----------------------------------------------------**

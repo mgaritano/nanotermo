@@ -208,7 +208,7 @@ $$
 height: 300px
 name: epsilon_mumuhat
 ---
-  Unitate-kopuruko banatze-potentzialaren adierazpenari limite makroskopikorako trantsizio bortitzagoa hauteman dakioke. Hain zuzen ere, {numref}`{number}. irudian <epsilon_tfn>` ez bezala, $N=90-100$ inguruan tamaina finituko efektuek ez dute jada eraginik izango $l/N$ bezalako magnitudeen izaera intentsiboan. Azpimarratu beharrekoa da, orobat, ekarpen txiki horien zeinua alderantzikatu egingo dela fase-trantsizioa gauzatutakoan, alegia, $r<1$ eskualdean $(N \rightarrow n_C)$ positiboa da; $r>1$ eremuan $(N \rightarrow n_H)$, aitzitik, negatiboa.
+  Unitate-kopuruko banatze-potentzialaren adierazpenari limite makroskopikorako trantsizio bortitzagoa hauteman dakioke. Hain zuzen ere, {numref}`{number}. irudian <epsilon_tfn>` ez bezala, $N=90-100$ inguruan tamaina finituko efektuek ez dute jada eraginik izango $l/N$ bezalako magnitudeen izaera intentsiboan. Azpimarratu beharrekoa da, orobat, ekarpen txiki horien zeinua alderantzikatu egingo dela fase-trantsizioa gauzatutakoan: $r<1$ eskualdean $(N \rightarrow n_C)$ positiboa da; $r>1$ eremuan $(N \rightarrow n_H)$, aitzitik, negatiboa.
 ```
 
 
@@ -248,7 +248,7 @@ Errepara diezaiogun orain ekuazio horren adierazpen grafikoari:
 
 ```{figure} hc_phase.PNG
 ---
-height: 300px
+height: 350px
 name: hc_phase
 ---
   Helize-unitateen batez besteko frakzioaren kurbek eite bitxia eta susmagarria dute. Izan ere, badirudi intentsibotasuna ez dela dirudien bezain kontzeptu tinkoa.

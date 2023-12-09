@@ -178,32 +178,6 @@ name: epsilon_tfn
 
 $(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ekuazio-bikotea zein berorren limite makroskopikoa (aintzat eduki $r<1$ edo $r>1$ izatearen eragina). Aztertu, berebat, espresio biak desberdintzen dituzten ekarpenak, eta erlazionatu orobat banatze-potentzialarekin.
 
-```{dropdown} __Erantzuna__
-
-$$
-\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = -k_{B}\left(\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + \frac{r^{N-1}}{1 + r^{N}}\frac{\partial r}{\partial T}\right) \; ,
-$$ (dmuhatT)
-
-$$
-\left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = -k_{B}\left[\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + N\frac{r^{N-1}}{1 + r^{N}}\left(\frac{1}{N} + \ln r - \frac{r^{N}\ln r}{1 + r^N} \right)\frac{\partial r}{\partial T} \right] \; .
-$$ (dmuT)
-
-Limite makroskopikoan,
-
-$$
-\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = \left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = \begin{cases}
-      -k_{B}\left( \frac{1}{r_{C}} \frac{\partial r_{C}}{\partial T} + \frac{1}{r} \frac{\partial r}{\partial T} \right) & \text{$r>1$ bada.}\\
-      -k_{\mathrm{B}}\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial t}& \text{$r<1$ bada.}
-    \end{cases} 
-$$ (dmuT_mak)
-
- Aitzitik, maila mikroskopikotik alde egin gabe,
-
-$$
-\frac{1}{k_{\mathrm{B}}\; \partial r/\partial T}\left(\frac{\partial \mathscr{E}/NT}{\partial T}\right)_{f,N} = -N\frac{r^{N-1}}{1+r^N}\ln r \left[1-\frac{r^N}{1+r^N}\right] \; .
-$$ 
-
-```
 
 **----------------------------------------------------**
 

@@ -128,7 +128,7 @@ $$
  \left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .
 $$ (mu_muhat_h)
 
-Ondoren datorkigun {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`mu_muhat_h` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
+Hurrengo ataleko {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`mu_muhat_h` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
 
 
 (helix_coil)=

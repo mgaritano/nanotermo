@@ -46,7 +46,7 @@ $$
 F(T,p,N) := \overline{E} - TS + p\overline{V} = \widehat{\mu}N
 $$ (ftpn)
 $$
-\mathrm{d}F(T,p,N) = -S\mathrm{d}T + \overline{V}\mathrm{d}p + \mu\mathrm{d}N \;
+\mathrm{d}F(T,p,N) = \mathrm{d}(\widehat{\mu}N) = -S\mathrm{d}T + \overline{V}\mathrm{d}p + \mu\mathrm{d}N \;
 $$ (dftpn)
 $$
 \boxed {\mu := \left[\frac{\partial(\widehat{\mu}N)}{\partial N}\right]_{T, p} = \widehat{\mu} + N\left(\frac{\partial \widehat{\mu}}{\partial N}\right)_{T,p}}
@@ -56,13 +56,13 @@ $$ (mumuhat)
 **----------------------------------------------------**
 
 
-Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbsen energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du: $\mathscr{E} =  (\widehat{\mu} - \mu)N$ ({eq}`xtpn` ekuazioa). Ildo horri segituz, $\widehat{\mu}$ potentzialak espresio hau beteko du:
+Gaineko {eq}`ftpn` ekuazioan sistema txikiaren Gibbsen energia askearen eta __potentzial kimiko integralaren__ arteko erlazioa agertzen da: $F := \widehat{\mu}N$. Azken horrek, $\mu$ __potentzial kimiko diferentzialarekin__ batera, banatze-potentziala finkatzen du: $\mathscr{E} =  (\widehat{\mu} - \mu)N$ ({eq}`xtpn` ekuazioa). Bada, horren bidez $\mathrm{d}\widehat{\mu}$ potentzialaren espresioa idatziko dugu:
 
 $$
 \boxed{\mathrm{d}\widehat{\mu} = -\frac{S}{N}\mathrm{d}T + \frac{\overline{V}}{N}\mathrm{d}p - \frac{\mathscr{E}}{N^2}\mathrm{d}N}
 $$ (dmuhat)
 
-Interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwellen erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz:
+Ildo horri segituz, interesgarria litzateke $\mathrm{d}\mu$ potentzialari ere tankerako adierazpen bat esleitzea. Horretarako, Maxwellen erlazioak lortu behar ditugu, deribatuen trukatze-propietateak erabiliz:
 
 $$
 \left(\frac{\partial \mu}{\partial T}\right)_{p, N} := \frac{\partial}{\partial T}\left(\frac{\partial F}{\partial N}\right)_{T, p} =  \frac{\partial}{\partial N}\left(\frac{\partial F}{\partial T}\right)_{p, N} := -\left(\frac{\partial S}{\partial N}\right)_{T, p}  \; ,
@@ -84,9 +84,33 @@ $$
 \boxed{\mathrm{d}\mu = -\left(\frac{\partial S}{\partial N}\right)_{T,p}\mathrm{d}T + \left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p}\mathrm{d}p - \frac{1}{N}\left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p}\mathrm{d}N} \; .
 $$ (dmu)
 
-Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek $N$ aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, {eq}`dmu` ekuazioko azkenengo gaia $\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N$ dugu, zeina ez baita nulua. Horrek $\mu$ potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, $\mu = \mu(T,p,N)$ erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, {eq}`gibbs-duhem` erlazioarekin (Gibbs-Duhem).
+Ikus daitekeen legez, {eq}`dmuhat` eta {eq}`dmu` ekuazioek bi potentzial kimikoen izaera integrala eta diferentziala azaleratu dituzte, hurrenez hurren. Berebat, aldagai estentsiboek $N$ aldagaiarekiko azaltzen duten ez-linealtasunaren erakusle dira. Halaber, {eq}`dmu` ekuazioko azkenengo gaia $\left(\partial \mu/\partial N\right)_{T,p}\mathrm{d}N$ dugu, zeina ez baita nulua. Horrek $\mu$ potentzial kimikoak orokorki jokaera ez-intentsiboa duela diosku, hau da, $\mu = \mu(T,p,N)$ erlazioari darraikiola. Eskualde makroskopikoan bi adierazpenok bat etorriko dira, hain zuzen, {eq}`gibbs-duhem` erlazioarekin (Gibbs-Duhem). Era berean, {eq}`dftpn` ekuazioaren laguntzaz, Hill-Gibbs-Duhem erlazioa lortzea daukagu:
 
-Horiez gain, entalpia $H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS$ dela aintzat hartuz,
+$$
+\mathrm{d}\left[\left(\widehat{\mu}-\mu\right)N\right] = \mathrm{d}\mathscr{E} = -S\mathrm{d}T+\overline{V}\mathrm{d}p-N\mathrm{d}\mu \; .
+$$ (depsilontpn)
+
+Hala eta guztiz ere, egokiagoa generitzoke kontrolpean ditugun $(T,p,N)$ ingurune-aldagaiek gaineko ekuazioan ageri den $(T,p,\mu)$ sorta ordezkatzeari. Horretarako, bertan {eq}`dmu` adierazpena ordezkatuko dugu:
+
+$$
+\boxed{\mathrm{d}\mathscr{E} = -\left[S-N\left(\frac{\partial S}{\partial N}\right)_{T,p}\right]\mathrm{d}T+\left[\overline{V}-N\left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p}\right]\mathrm{d}p + \left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p} \mathrm{d}N} \; .
+$$ (depsilontpn2)
+
+Aurrera egin aurretik, lagungarria gerta daiteke oraindaino lortutako adierazpenetan ekarpen _txikiak_ antzematea: esate baterako, $\widehat{\mu}$ eta $\mu$ bezalako gai intentsiboen tamainarekiko deribatuak (gainontzeko aldagai intentsiboak konstante mantenduta) limite termodinamikoan arbuiagarriak dira. Hari beretik, aldagai estentsiboek izaera homogeneoa berreskuratuko dute; alegia, tamainarekin lotutako ekarpen lineala gailenduko da. Adibidez, 
+
+$$
+\lim_{N\rightarrow \infty} \left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p} = \frac{\overline{V}}{N} \; ,
+$$ (barV_mak)
+
+$$
+\lim_{N\rightarrow \infty} \left[\frac{\partial (\widehat{\mu}N)}{\partial N}\right]_{T,p} = \frac{\widehat{\mu}N}{N} \quad \Rightarrow \quad \mu = \widehat{\mu} \; .
+$$ (mu_mak)
+
+Nabaria da, hortaz, {eq}`depsilontpn2` ekuazioko gai guztiak _txikiak_ direla, eta soilik eskualde nanotermodinamikoan esanguratsuak.
+
+
+
+Amaitzeko, beste ekuazio-bikote bat lortuko dugu, jarraian datorkigun adibideari begira. Bada, entalpia $H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS$ dela aintzat hartuz,
 
 $$
 \widehat{\mu} =\frac{H}{N} - T\frac{S}{N} \; ,

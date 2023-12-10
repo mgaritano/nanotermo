@@ -106,11 +106,27 @@ $$
 \lim_{N\rightarrow \infty} \left[\frac{\partial (\widehat{\mu}N)}{\partial N}\right]_{T,p} = \frac{\widehat{\mu}N}{N} \quad \Rightarrow \quad \mu = \widehat{\mu} \; .
 $$ (mu_mak)
 
-Nabaria da, hortaz, {eq}`depsilontpn2` ekuazioko gai guztiak _txikiak_ direla, eta soilik eskualde nanotermodinamikoan esanguratsuak.
+Nabaria da, hortaz, {eq}`depsilontpn2` ekuazioko gai guztiak _txikiak_ direla, eta soilik eskualde nanotermodinamikoan esanguratsuak. Esandakoan areago sakonduz, azter dezagun honako magnitude intentsibo hauetan tamainak ($N$ aldagaiak, egiazki) zer-nolako eragina duen: $S/N$, $\overline{V}/N$, $N/\overline{V}$. Gaineko ekuaziotik erraz asko lor daitezke ondorengo adierazpen hauek:
 
+$$
+\left[\frac{\partial \left(S/N\right)}{\partial N}\right]_{T,p} = \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial T}\right)_{p,N} \, ,
+$$ (dsdntp)
 
+$$
+\left[\frac{\partial (\overline{V}/N)}{\partial N}\right]_{T,p} = - \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial p}\right)_{T,N} \; ,
+$$ (dvdntp)
 
-Amaitzeko, beste ekuazio-bikote bat lortuko dugu, jarraian datorkigun adibideari begira. Bada, entalpia $H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS$ dela aintzat hartuz,
+$$
+\left[\frac{\partial (N/\overline{V})}{\partial N}\right]_{T,p} =  \frac {1}{\overline{V}^2}\left(\frac{\partial \mathscr{E}}{\partial p}\right)_{T,N} \; .
+$$ (dndvtp)
+
+Nabarmendu beharrekoa da ezen Termodinamika Klasikoaren bitartez ez dugula goiko berdintzetara iristerik izango. Bestela esanda, Nanotermodinamikak tamaina finituko efektuak azaleratzeaz batera, limite termodinamikotik haratago eramango gaituzten erlazioez hornituko gaitu. Bada, frogapen gisara, hurrengo {numref}`{number} adibidean <helix_coil>`, {eq}`dvdntp` ekuazioaren bi aldeak kalkulatu, eta bat datozela egiaztatuko dugu.
+
+$$
+\\
+$$
+
+Amaitzeko, beste ekuazio-bikote bat lortuko dugu, oraingoan ere jarraian datorkigun adibideari begira. Bada, entalpia $H(S,p,N) := F(T,p,N) + TS := \widehat{\mu}N + TS$ dela aintzat hartuz,
 
 $$
 \widehat{\mu} =\frac{H}{N} - T\frac{S}{N} \; ,
@@ -128,7 +144,7 @@ $$
  \left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\frac{H}{N} \quad \pmb{\neq} \quad \left(\frac{\partial \mu/T}{\partial T}\right)_{p,N} = -\frac{1}{T^2}\left(\frac{\partial H}{\partial N}\right)_{T,p} \; .
 $$ (mu_muhat_h)
 
-Hurrengo ataleko {numref}`{number} adibidean <helix_coil>` $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatu, eta kasu zehatz horretan {eq}`mu_muhat_h` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
+Hurrengo azpiataleko _helize-haril_ kateari dagozkion $\widehat{\mu}$ eta $\mu$ potentzial-bikotea kalkulatutakoan, kasu zehatz horretan {eq}`mu_muhat_h` erlazioak bereizten dituzten ekarpen finituen itxura behatuko dugu.
 
 
 (helix_coil)=

@@ -90,7 +90,7 @@ $$
 \mathrm{d}\left[\left(\widehat{\mu}-\mu\right)N\right] = \mathrm{d}\mathscr{E} = -S\mathrm{d}T+\overline{V}\mathrm{d}p-N\mathrm{d}\mu \; .
 $$ (depsilontpn)
 
-Hala eta guztiz ere, egokiagoa generitzoke kontrolpean ditugun $(T,p,N)$ ingurune-aldagaiek gaineko ekuazioan ageri den $(T,p,\mu)$ sorta ordezkatzeari. Horretarako, bertan {eq}`dmu` adierazpena sartuko dugu:
+Hala eta guztiz ere, egokiagoa generitzoke kontrolpean ditugun $(T,p,N)$ ingurune-aldagaiek gaineko ekuazioan ageri den $(T,p,\mu)$ sorta ordezkatzeari. Horretarako, bertan {eq}`dmu` adierazpena sartuko dugu, honako berridazketa adierazgarri hau burutu ahal izateko:
 
 $$
 \boxed{\mathrm{d}\mathscr{E} = -\left[S-N\left(\frac{\partial S}{\partial N}\right)_{T,p}\right]\mathrm{d}T+\left[\overline{V}-N\left(\frac{\partial \overline{V}}{\partial N}\right)_{T,p}\right]\mathrm{d}p + \left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,p} \mathrm{d}N} \; .

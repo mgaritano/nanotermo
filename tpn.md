@@ -4,10 +4,10 @@
 Kapitulu honen fisikari heldu baino lehen, honako honi erreparatu behar diogu: {numref}`{number}. atalean <tpmu>` ikusiko dugunez, multzo nanokanonikorako $(T,p,\mu)$ trantsizioa $Q(T,V,N)$ partizio-funtzio kanonikotik abiatzen dugu normalean, Legendreren transformazioen laguntzaz. Kontua da tarteko multzotzat makrokanonikoa $(T,V,\mu)$ hautatuz gero, zenbaitetan bidea malkartsua gertatuko zaigula. Bada, bolumenean barreneko integrala barik $N$ partikula-kopuruan zeharreko batukaria kalkulatzeak lana arinduko digu.
 Hala, ibilbide hori multzo isotermo-isobaroan $(T,p,N)$ barrena burutzea mesedegarria izango zaigu oso. Bestetik, ingurune-aldagai horien bidez $T$ eta $p$ finkatzen dituen ingurune batean makromolekula edo koloide konprimaezin eta hedagarria ezaugarritu daiteke. Ildo horretatik, {numref}`{number}. azpiatalean <helix_coil>` lan honetako lehenbiziko adibide garrantzitsuari helduko diogu, hurbilketa bereziekin bada ere.
 
-Horiek horrela, multzo estatistiko honi azterketa sakonagoa eskaintzea merezi du.
+Horiek horrela, multzo honetara arreta bideratzea merezi du.
 
 (tpn_azter)=
-### Multzoaren azterketa
+### Multzo estatistikoaren azterketa
 
 Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\overline{E}=E_{t}/\mathscr{N}$, $\overline{V}=V_{t}/\mathscr{N}$ eta $N=N_{t}/\mathscr{N}$ aldagai estentsiboak izango dituzte.
 
@@ -300,7 +300,56 @@ Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kur
 
 Ondorioz, $N=200$ inguruan $\overline{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
-Fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>`) izango dugu {numref}`{number}. irudira <hc_phase>` bihurtzeko beta egokia.
+
+Esanak esan, fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>`) izango dugu {numref}`{number}. irudira <hc_phase>` bihurtzeko beta egokia. Horrekin hasi aurretik, alabaina, {numref}`{number}. atalaren <tpn_azter>` amaiera aldeko haria berrartuko dugu une batez.
+
+(helix_ariketa_2)=
+#### Ariketa
+Ariketa osagarri honen xedea {eq}`dvdntp` berdintza egiaztatzean datza. Ezer baino lehen, ohartu gaitezen ezen dimentsio bakarreko katea dugula aztergaitzat; ondorioz, ekarpen mekanikoa $f$ indarraren eta berorren konjugatua den $\overline{l}$ luzeraren bitartez azaleratu dugu. Hori dela eta, lehendabizi, ekuazioa bera egokitu eta berridatzi beharra daukagu. Bada, pausoz pauso ekingo diogu eginbeharrari.
+
+$(a)$ Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq}`depsilontpn2` ekuazioa, $(T,f,N)$ ingurune-aldagaien baitan. Bertatik, erauzi {eq}`dvdntp` ekuazioaren adierazpen baliokidea. Hori guztia egin aurretik, hausnartu ekarpen mekanikoak eramango duen zeinuaren gainean; positiboa ala negatiboa beharko luke izan?
+
+```{dropdown} __Erantzuna__
+
+Adibidearen hasieran dugun {numref}`{number}. irudiaren <heco>` azpialdeko azalpenei atxikiz, kateari bi muturretan kanporanzko $f$ indarra eragingo bagenio $(f>0)$, haren luzerak $\Delta l$ ekarpen positiboa jasoko luke; alegia, sistemari $f \Delta l$ lana egiten arituko gintzaizkioke, zeinak barne-energia igoko lukeen. Nabarmendu beharrekoa da, ezen, ohiko sistema hidrostatikoari dagokionez, ekarpen mekanikoaren portaera oso bestelakoa dela. Har dezagun, esate baterako, tanga batean $p$ presiopean dagoen gasa $(p>0)$. Bada, gasa hedatzen hasiko balitz, sistemak berak lana egingo lioke inguruneari. Hortaz, $\Delta V$ bolumen-aldakuntza positiboak sistemaren barne-energiari $-p\Delta V$ galera lekarkioke egiatan. Aitzitik, $p$ presioak gasa konprimatzeko bezainbesteko ahalmena baleuka, $\Delta V < 0$ genuke; hartara, hitzarmen horri jarraikiz, konprimatze-prozesuak sistemari lana eragingo lioke, barne-energia handituz.
+
+Aurkeztutako arrazoinamendua dela bide, "helize-haril" sistema txikiaren Gibbsen ekuazioa hauxe izango dugu:
+
+$$
+\mathrm{d}\overline{E} = T\mathrm{d}S + f\mathrm{d}\overline{l} + \mu\mathrm{d}N \; .
+$$ (heco_gibbs)
+
+Legendreren bi transformazio aplikatuz, Gibssen energia askeak eta banatze-potentzialak, hurrenez hurren,
+
+$$
+\mathrm{d}F(T,f,N) = -S\mathrm{d}T - \overline{l}\mathrm{d}f +\mu\mathrm{d}N
+$$ (heco_gibss_aske)
+
+eta
+
+$$
+\mathrm{d}\mathscr{E} = -S\mathrm{d}T - \overline{l}\mathrm{d}f - N\mathrm{d}\mu
+$$ (heco_depsilon)
+
+adierazpenak beteko dituzte. Jarraian, atalean segitutako prozedura errepikatuz, {eq}`heco_depsilon` ekuazioa berridatziko dugu:
+
+$$
+\mathrm{d}\mathscr{E} = -\left[S-N\left(\frac{\partial S}{\partial N}\right)_{T,f}\right]\mathrm{d}T+\left[\overline{l}-N\left(\frac{\partial \overline{l}}{\partial N}\right)_{T,f}\right]\mathrm{d}f + \left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,f} \mathrm{d}N \; .
+$$ (heco_depsilon_1)
+
+Errepara diezaiogun orain {eq}`dvdntp` ekuazioari eta daramagun berori $(T,f,N)$ ingurune-aldagaietara. Aurreko {eq}`heco_depsilon_1` ekuazioaren laguntzaz, 
+
+$$
+\left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} = - \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 
+$$ (heco_equality)
+
+erlazioa beteko dela ohartuko gara. 
+
+```
+
+
+$(b)$ Egiaztatu $(a)$ atalean lortutako berdintza betetzen dela, adibidearen garapenean barrena eraikitako ekuazioak baliatuz.
+
 
 (gitpn)=
 ### Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan

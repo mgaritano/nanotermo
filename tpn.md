@@ -254,7 +254,13 @@ name: epsilon_mumuhat
 
 **----------------------------------------------------**
 
-Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\overline{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: $\overline{l}(\overline{n} _ {H}) = (N-\overline{n} _ {H})l_{C} + \overline{n} _ {H}l_{H}$. Bada, horretarako, $\overline{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
+Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\overline{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: 
+
+$$
+\overline{l}(\overline{n} _ {H}) = (N-\overline{n} _ {H})l_{C} + \overline{n} _ {H}l_{H} 
+$$ (lbar)
+
+Bada, horretarako, $\overline{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
 
 $$
 \overline{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
@@ -311,7 +317,7 @@ $(a)$ Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq
 
 ```{dropdown} __Erantzuna__
 
-Adibidearen hasieran dugun {numref}`{number}. irudiaren <heco>` azpialdeko azalpenei atxikiz, kateari bi muturretan kanporanzko $f$ indarra eragingo bagenio $(f>0)$, haren luzerak $\Delta l$ ekarpen positiboa jasoko luke; alegia, sistemari $f \Delta l$ lana egiten arituko gintzaizkioke, zeinak barne-energia igoko lukeen. Nabarmendu beharrekoa da, ezen, ohiko sistema hidrostatikoari dagokionez, ekarpen mekanikoaren portaera oso bestelakoa dela. Har dezagun, esate baterako, tanga batean $p$ presiopean dagoen gasa $(p>0)$. Bada, gasa hedatzen hasiko balitz, sistemak berak lana egingo lioke inguruneari. Hortaz, $\Delta V$ bolumen-aldakuntza positiboak sistemaren barne-energiari $-p\Delta V$ galera lekarkioke egiatan. Aitzitik, $p$ presioak gasa konprimatzeko bezainbesteko ahalmena baleuka, $\Delta V < 0$ genuke; hartara, hitzarmen horri jarraikiz, konprimatze-prozesuak sistemari lana eragingo lioke, barne-energia handituz.
+Adibidearen hasieran dugun {numref}`{number}. irudiarekin <heco>` lotutako azalpenei atxikiz, kateari bi muturretan kanporanzko $f$ indarra eragingo bagenio $(f>0)$, haren luzerak $\Delta l$ ekarpen positiboa jasoko luke; alegia, sistemari $f \Delta l$ lana egiten arituko gintzaizkioke, zeinak barne-energia igoko lukeen. Nabarmendu beharrekoa da, ezen, ohiko sistema hidrostatikoari dagokionez, ekarpen mekanikoaren portaera oso bestelakoa dela. Har dezagun, esate baterako, tanga batean $p$ presiopean dagoen gasa $(p>0)$. Bada, gasa hedatzen hasiko balitz, sistemak berak lana egingo lioke inguruneari. Hortaz, $\Delta V$ bolumen-aldakuntza positiboak sistemaren barne-energiari $-p\Delta V$ galera lekarkioke egiatan. Aitzitik, $p$ presioak gasa konprimatzeko bezainbesteko ahalmena baleuka, $\Delta V < 0$ genuke; hartara, hitzarmen horri jarraikiz, konprimatze-prozesuak sistemari lana eragingo lioke, barne-energia handituz.
 
 Aurkeztutako arrazoinamendua dela bide, "helize-haril" sistema txikiaren Gibbsen ekuazioa hauxe izango dugu:
 
@@ -340,7 +346,7 @@ $$ (heco_depsilon_1)
 Errepara diezaiogun orain {eq}`dvdntp` ekuazioari eta daramagun berori $(T,f,N)$ ingurune-aldagaietara. Aurreko {eq}`heco_depsilon_1` ekuazioaren laguntzaz, 
 
 $$
-\left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} = - \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 
+\left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} =  \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 
 $$ (heco_equality)
 
 erlazioa beteko dela ohartuko gara. 
@@ -348,7 +354,20 @@ erlazioa beteko dela ohartuko gara.
 ```
 
 
-$(b)$ Egiaztatu $(a)$ atalean lortutako berdintza betetzen dela, adibidearen garapenean barrena eraikitako ekuazioak baliatuz.
+$(b)$ Egiaztatu $(a)$ atalean lortutako {eq}`heco_equality` berdintza betetzen dela, adibidearen garapenean barrena eraikitako ekuazioak baliatuz.
+
+```{dropdown} __Erantzuna__
+
+Ezkerraldeko adierazpena {eq}`lbar` ekuazioaren bidez kalkulatuko dugu; eskumakoa, ordea, {eq}`epsilonhelix` ekuazioa erabiliz. Eragiketak egindakoan, bi aldeak bat datozela ikusiko dugu:
+
+$$
+\left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} = \frac{r^N \ln r}{\left(1+r^N \right)^2} \left(l_H - l_C\right) = \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 
+$$ (heco_equality_1)
+
+Agerikoa da ezen gaineko {eq}`heco_equality_1` adierazpenak zerorantz joko duela limite makroskopikoan, nola $r < 1$ kasuan hala $r>1$ denean; horrekin batera, $\overline{l}/N$ magnitudeak izaera intentsiboa berreskuratuko du.
+
+```
+
 
 
 (gitpn)=

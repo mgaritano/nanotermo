@@ -358,7 +358,7 @@ $(b)$ Egiaztatu $(a)$ atalean lortutako {eq}`heco_equality` berdintza betetzen d
 
 ```{dropdown} __Erantzuna__
 
-Ezkerraldeko adierazpena {eq}`lbar` ekuazioaren bidez kalkulatuko dugu; eskumakoa, ordea, {eq}`epsilonhelix` ekuazioa erabiliz. Eragiketak egindakoan, bi aldeak bat datozela ikusiko dugu:
+Ezkerraldeko adierazpena {eq}`lbar` ekuazioaren bidez kalkulatuko dugu; eskumakoa, ordea, {eq}`epsilonhelix` ekuazioa erabiliz, eta $r(T,f)= r_H(T,f)/r_C(T,f)$ erlazioari so eginez. Eragiketak egiteaz bat, bi aldeak bat datozela ikusiko dugu:
 
 $$
 \left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} = \frac{r^N \ln r}{\left(1+r^N \right)^2} \left(l_H - l_C\right) = \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 

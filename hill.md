@@ -12,6 +12,10 @@ Baieztapen horrek egundoko garrantzia du; izan ere,  hori dela eta, Termodinamik
 
 ```
 
+$$
+\\
+$$
+
 Multzoaren azterketari ekin aurretik, kontuan izan dezagun laugarren askatasun-gradu bat duela abian eta, beraz, bere barne-energiak $E_{t} = E_{t}(S_{t}, V_{t}, N_{t}, \mathscr{N})$ erlazioa betetzen duela. Gauzak horrela, {eq}`gibbs` ekuazioari beste aldagai konjugatu-pare bat erantsi beharko diogu, __Hill-Gibbs ekuazioa__ eraikitzeko:
 
 $$

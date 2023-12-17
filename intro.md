@@ -19,6 +19,10 @@ Dena dela ere, historikoki izan da hasiera batean tinkoak ziruditen irizpideok k
 
 Arazo horiei irtenbidea emateko, teoria klasikoari zuzenketak gehitu dizkioten tresnak sortu dira, hala nola fluktuazio-teoremak zein Termodinamika Estokastikoa, zeintzuek ekarpen eta ospe esanguratsua izan baitute. Baina teoria horiek sistema betiere bero-iturri homogeneo batekin ukipen termikoan egotea eskatzen dute, eta material gehienen kasuan (likidoak, kristalak, polimeroak...) ez da posible azken baldintza hori betearaztea {cite}`multiscale`.
 
+$$
+\\
+$$
+
 Dena den, badago efektu horiei beste ikuspuntu batetik heltzen dien teoria, zeina, tamalez, hain entzutetsua izan ez den. Lan honetan aztergai izango dugun teoria horrek **_Sistema Txikien Termodinamika_** du izena, eta __Terrell Leslie Hill__ fisikari eta biologoak (1917-2014) garatu zuen 1960ko hamarkadaren hasieran.
 
 ```{figure} hill.jpg
@@ -41,5 +45,9 @@ Funtsean, Hillen teoria Termodinamikak sistema aske, heterogeneo eta nahi bezain
 Ildo horretatik, unitate didaktiko hau bereziki Termodinamika eta Fisika Estatistikoa irakasgaira dago bideratuta, eta, hain zuzen, lehengo paragrafoan aipatutakoan sakontzea du helburutzat. Azalpen teorikoak aurkeztuz, eta tarteka adibide eta aplikazio adierazgarriak sartuz, ikasleak _ohiko_ Termodinamikatik haratago eramatea, eta Nanotermodinamikak sistema txikien azterketan duen eraginaz ohartaraztea da xedea, teoria horren nondik norakoez jabetu daitezen bidenabar. Horiek horrela, euren ikaskuntzan aurrerapauso nabaria egingo dute.
 
 Hasteko, {numref}`{number}. atalean <nanointro>` zubi-lanetan jardungo dugu, dagoeneko ikasia dugun Mekanika Estatistikoaren oinarriak gogora ekarri {cite}`callen, hebreos, pathria`, eta Nanotermodinamikarekin lotura ezartzeko. Behin ideia nagusiak finkatuz gero, {numref}`{number}. atalburuan <hillsec>` Hillen  formalismoan sartuko gara {cite}`hill, nano`. Hortik abiatuz, {numref}`{number}. kapituluan <tpn>` garrantzi handia duen multzo isotermo-isobaroan lehenbiziko adibideak landuko ditugu, eta tamaina finituko ekarpenen ondorio bitxiei hurbiletik erreparatuko diegu. Jarraian, {numref}`{number}. gaian <fase>` etenaldi berezia egingo dugu, sistema txikietako fase-trantsizioak aztertzeko. Teoriaren zatia ixteko, {numref}`{number}. atalean <tpmu>` ildo nagusira bihurtuko gara. Termodinamikaz haratago doan multzo estatistiko _berria_ aurkezteaz bat, bertan adibide bereziak berraztertuko ditugu, esangura handiko emaitzak erdietsiz. Ondoren, {numref}`{number}. kapituluan <elek_mag>` sistema elektrikoak eta magnetikoak izango ditugu hizpide; besteak beste, Isingen ereduaren berrazterketarekin arituko gara. Horrez gain, {numref}`{number}. atal <osagarri>` gehigarrian {numref}`{number}. gaiarekin <tpmu>` lotutako adibide osagarri esanguratsuak daude. Amaitzeko, {numref}`{number}. atalean <app>` adibide mardulagoa aztertuko dugu, {cite}`ads` artikuluari jarraikiz. Hura Hillen teoriaren egungo erabilgarritasunaren adierazle garbia da, eta, zalantza izpirik gabe, 1960ko hamarkadaz haratago heltzen ari denaren seinale. 
+
+$$
+\\
+$$
 
 Bada, luzamendutan ibili barik, _ohiko_ Termodinamikatik Nanotermodinamikara eramango gaituen zubia gurutzatzeari ekingo diogu. Hurrengo ataleko {numref}`{number}. irudia <multzo>` da horretarako abiapuntu aproposa.

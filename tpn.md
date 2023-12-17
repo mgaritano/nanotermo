@@ -257,13 +257,13 @@ name: epsilon_mumuhat
 Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\overline{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: 
 
 $$
-\overline{l}(\overline{n} _ {H}) = (N-\overline{n} _ {H})l_{C} + \overline{n} _ {H}l_{H} 
+\overline{l}(\overline{n} _ {H}) = (N-\overline{n} _ {H})l_{C} + \overline{n} _ {H}l_{H} \; .
 $$ (lbar)
 
 Bada, horretarako, $\overline{n} _ {H}$ itxarotako balioa eskuratu behar dugu, sistemaren partizio-funtziotik abiatuz:
 
 $$
-\overline{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)}
+\overline{n}_{H} := \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\sum _ {n _{H}} Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}} \equiv \frac{\sum _ {n _{H}} n _{H}Q(T,l(n _ {H}), N)e^{fl(n _{H})/k _{\mathrm{B}}T}}{\Delta(T,f,N)} \; .
 $$ (nhdef)
 
 Gauzak horrela, hasteko {eq}`d` ekuazioko batukaritik $n_{H}=0$ gaia atera, eta $\Delta$ honela berridatziko dugu:

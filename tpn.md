@@ -187,7 +187,7 @@ $$
 
 Hortik agerikoa da $r=1$ denean, katean bat-bateko helize-haril **fase-trantsizioa** gertatuko dela (limite termodinamikoan).
 
-Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz, sistemaren termodinamika ondorioztatzea da. Gibbsen energia askea $F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta$ dugu.
+Hurrengo pausoa, {eq}`d_short` ekuaziotik abiatuz sistemaren (Nano)Termodinamika ondorioztatzea da. Gibbsen energia askea $F(T,f,N) := -k_{\mathrm{B}}T\ln\Delta$ dugu.
 
 ##### Ariketa
 
@@ -254,6 +254,10 @@ name: epsilon_mumuhat
 
 **----------------------------------------------------**
 
+$$
+\\
+$$
+
 Hari bertsutik, adibide honen esangura handieneko alderdiari helduko diogu, kateak $r$ erlazioarekin duen bilakaera helize-unitateen batez besteko frakzioaren bidez ereduztatuz $(\overline{n} _ {H}/N)$. Orain arte ez bezala, aurrerantzean $n_{H}$ kopuruari marratxoa erantsiko diogu, berorrek zehaztuko baitu, hain zuzen, katearen batez besteko luzera: 
 
 $$
@@ -306,6 +310,9 @@ Hurrera gakizkion, **arreta handiz**, {numref}`{number}. irudiko <hc_phase>` kur
 
 Ondorioz, $N=200$ inguruan $\overline{n}_{H}/N$ren jokaera intentsiboa berrezarri dela esan liteke, arestian aipatutako bat-bateko helize-haril fase-trantsizioa igarri dakioke eta. Nolanahi ere, sailkapen zorrotzari atxikiz, soilik $N\rightarrow \infty$ limiteak deuseztatuko ditu erabat tamaina finituko efektuak, maila makroskopikora jauzi egitea ahalbidetuz. Osterantzean, helize-haril katea sistema txikia da.
 
+$$
+\\
+$$
 
 Esanak esan, fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean <fase>`) izango dugu {numref}`{number}. irudira <hc_phase>` bihurtzeko beta egokia. Horrekin hasi aurretik, alabaina, {numref}`{number}. atalaren <tpn_azter>` amaiera aldeko haria berrartuko dugu une batez.
 
@@ -368,6 +375,7 @@ Agerikoa da ezen gaineko {eq}`heco_equality_1` adierazpenak zerorantz joko duela
 
 ```
 
+**----------------------------------------------------**
 
 
 (gitpn)=

@@ -43,6 +43,10 @@ $$ (pausoa)
 
 Azken pausoak berehalakoa dirudien arren, ohartu gaitezen horren atzean funtsezko propietate matematikoa datzala: _Euler-homogeneotasuna_ (ikus [___A___](euler) ___eranskina___). Hain zuzen, $E_{t}, S_{t}, V_{t}, N_{t}$ eta $\mathscr{N}$ lehen ordenako funtzio Euler-homogeneoak dira $V$ zein $N$ aldagaiekiko. Are gehiago, tenperatura, presioa eta potentzial kimikoa aldagai horiekiko zero ordenako funtzioak dira, hots, intentsiboak. Azken bi ezaugarri horiek ahalbidetzen dute, integraletatik $(T, p, \mu,\mathscr{E})$ sorta ateratzeaz bat, lehenengo ekuaziotik bigarrenera igarotzea. Alabaina, sistema txikietan arestiko guztia ez da beteko, segituan ikusiko dugun legez.
 
+$$
+\\
+$$
+
 Lehengo hariari ekinez, sistema txiki baten ezaugarriak ondorioztatzea da helburua, beroriek multzo osoaren funtzioen aldaki-kopuruarekiko batez bestekoak bailiran adieraziz. Beraz, $\overline{E} \equiv E_{t}/\mathscr{N}$; $S \equiv S_{t}/\mathscr{N}$; $\overline{V} \equiv V_{t}/\mathscr{N}$; $\overline{N} \equiv N_{t}/\mathscr{N}$ definituz, multzoaren azpisistema bakarrak ekuazio honi segituko lioke:
 
 $$
@@ -73,8 +77,11 @@ Bestalde, {eq}`gibbs_small` adierazpenaren itxurak hasieran aurkeztu dugun {eq}`
 
 Ikusten dugunez, Termodinamikaren ohiko ekuazioen eraldaketen bidez, aurrez kualitatiboki aipatutako kontzeptuei azalpen mardulagoak eta landuagoak eman dizkiegu. Horrek sailkapen-irizpide zorrotza eraikitzea ahalbidetzen du: _Sistema bat txikia da, baldin eta bere banatze-potentziala finitua eta bazterrezina bada_.
 
+$$
+\\
+$$
 
-Aurrera egin baino lehen, sistema txikiaren entropiari buruzko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\overline{E}, S, \overline{V}$ eta $\overline{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathscr{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitago (ikus [**_B_**](entropy) ___eranskina___).
+Bada, hurrengo atalera jauzi egin baino lehen, sistema txikiaren entropiari buruzko ohartarazpena egin beharrean gaude. Izan ere, dagoeneko hainbatetan aipatu dugu sistema bakarraren propietateak multzoaren aldakiko batez besteko balioak direla. Hala, $\overline{E}, S, \overline{V}$ eta $\overline{N}$ aurkeztu ditugu. Lauretatik guztiek marratxoa daramate soinean, $S = S_{t}/\mathscr{N}$ aldagaiak izan ezik. Bada, argi gelditu bedi ezen aurrekoa ez dela oharkabeko akatsa izan, horren atzean entropiaren esangura baitago (ikus [**_B_**](entropy) ___eranskina___).
 
 Atal honi amaiera emateko, multzo estatistiko jakinek sistema txikiaren banatze-potentzialari nola eragiten dioten aztertzen hasiko gara. Horrek bide emango die jarraian datozen atalei, eta bertan agertzen diren adibide azpimarragarriei. Halaber, aurreko zatiko kontzeptu garrantzitsuenean murgiltzen hasiko gara: funtzio termodinamikoek ingurune-aldagaien araberako zuzenketak pairatzen dituzte.
 

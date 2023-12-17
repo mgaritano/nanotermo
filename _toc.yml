@@ -16,10 +16,12 @@ parts:
     - file: osagarri
     - file: adsorbent
     - file: ondorioak
-  - caption: Bestelakoak
+  - caption: _Eranskinak_
     chapters:
     - file: euler
     - file: entropy
     - file: gas ideala
+  - caption: Bestelakoak
+    chapters:
     - file: erreferentziak
     - file: eskerrak

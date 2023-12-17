@@ -16,7 +16,7 @@ parts:
     - file: osagarri
     - file: adsorbent
     - file: ondorioak
-  - caption: _Eranskinak_
+  - caption: Eranskinak
     chapters:
     - file: euler
     - file: entropy

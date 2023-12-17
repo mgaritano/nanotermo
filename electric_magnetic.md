@@ -22,6 +22,10 @@ name: heco_e
 
 Bada, $q,\vert\mathbf{E}\vert > 0$ hartuz gero, eremu elektrikoak katearen luzera handituko du; bestela esanda, helize-haril fase trantsizioa areagotu egingo da. Gogora dezagun {numref}`{number} adibidean <helix_coil>` haril-unitateak helize-unitateak baino luzeagoak direla onartu genuela $(l_C>l_H)$. Hori dela eta, $\vert\mathbf{E}\vert \rightarrow \infty$ limitean, $\overline{n}_H/N$ magnitudeak zerorantz joko duela aurresan dezakegu.
 
+$$
+\\
+$$
+
 Sistemaren azterketa termodinamikoari ekinez, multzo kanonikoan eskuragai dugun ingurune-aldagai sorta $(T,l,N,\vert\mathbf{E}\vert)$ da. Beraz, $Q(T,l,N,\vert\mathbf{E}\vert)$ partizio-funtzioa eraikitzeko, {numref}`{number} irudian <heco_e>` azaltzen diren faktore gehigarriek barne-energiarako izango duten ekarpena idatzi behar dugu, alegia,
 
 $$
@@ -143,6 +147,10 @@ $$
 $$ (agg_e_q_p0)
 
 non $y = p_0\vert\mathbf{E}\vert/(k_\mathrm{B}T)$ den.
+
+$$
+\\
+$$
 
 Jarraian datozen kalkuluak arintze aldera, _eremu txikiko limitean_ jardungo dugu hemendik aurrera $(\vert\mathbf{E}\vert \ll 1)$. Berebat, kontuan izan dezagun esku artean dugun agregatu lineala sistema _txikia_ dela, alegia, ez dihardugu $N\rightarrow \infty$ limitean; hartara, zilegi zaigu $Ny \ll 1$ hartzea. Beraz, $\sinh (Ny)$ funtzioaren seriea idatziz,
 

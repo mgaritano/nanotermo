@@ -41,7 +41,7 @@ $$
 
  Alabaina, **azpisistemetan**, $\mathscr{N}$ barik $N$ izango genuke, eta, beraz, $ P_{f\rightarrow i}\propto e^{-N}$. Bada, $N$ magnitudeak ez du zertan izan adierazpenaren balioa baztergarri bihurrarazteko bezain handia. Hori dela eta, $N$ oso txikia bada, baliteke sistema txiki jakin batzuetan bigarren printzipioa urratzen duen $(\Delta S < 0)$ aurkako prozesua era espontaneoan behatzea! Nolanahi ere, dakargun gogora aldakien propietateak multzotik ondorioztatzean datzala Hillen teoria. Beraz, hasteko, multzo osoaren entropiaren aldakuntzari erreparatu beharko diogu, eta bertatik sistema txikietara igaro, $\Delta S = \Delta S_{t}/\mathscr{N}$  betetzen dela aintzat hartuz.
 
- Eztabaida honen harira, {numref}`{number}. atalean <stabeps>` sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, $\mathscr{E}$ banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.
+ Eztabaida horren ildotik, {numref}`{number}. atalean <stabeps>` sistema txikiz osatutako multzoaren banatze-prozesua aztertuko dugu. Berebat, $\mathscr{E}$ banatze-potentzialak prozesu horren itzulgarritasunean duen eraginari erreparatuko diogu.
 
 
  (fase1order)=
@@ -88,6 +88,9 @@ $$
 
 Beraz, puntu kritikoak bazter utzita, sistema txikiegia ez bada, probabilitate-banaketarako ekarpen soilak $A$ eta $B$ egoerenak izango dira, eta onartutako hurbilketa zuzena izango da.
 
+$$
+\\
+$$
 
 Horiek horrela, darabilgun orain Sistema Txikien Termodinamikaren tresnerian oinarritutako arrazoibidea, lorturiko ondorioak berresteko. Eraiki dezagun $\mathscr{N}$ aldaki duen multzo isotermo-isobaroa. $A$ eta $B$ egoeretan, hurrenez hurren, $\mathscr{N}_ {A}$ eta $\mathscr{N}_ {B}$ azpisistema dago. Bada, aurreko {numref}`{number} ataletik <tpn_azter>`, aldakiko Gibbsen energia askea $F_{A,B} := N\; \widehat{\mu}_{A,B}$ dela gogora ekarriz,
 eta banaketa posible guztien ekarpena kontuan hartuz (konfigurazio-mailako entropia), energia totala hauxe dugu:
@@ -110,6 +113,9 @@ berdintzara iritsiko gara. So egin diezaiogun berorri.
 
 Oro har, {numref}`{number} ataleko <tpn_azter>` azalpenei jarraituz, potentzial kimiko integrala ingurune-aldagaien funtzioa da, hau da, $\widehat{\mu}_ {A,B} = \widehat{\mu}_ {A,B}(T,p,N)$. Hortaz, $p$ presioa finka dezakegu, halako moldez non bi potentzialak bat etorriko diren $(\widehat{\mu}_ {A} = \widehat{\mu}_ {B})$. Presioaren balio hori {numref}`{number}a irudiko <faseirudi>` $p_{0}$ delakoa da. Era berean, {eq}`fracnanb` ekuazioaren arabera, $\mathscr{N}_ {A} = \mathscr{N}_ {B}$  beteko da. Baina, $p_{0}$ baliotik zertxobait aldenduko balitz presioa, halako moduan non $\widehat{\mu}_ {A} \gtrsim \widehat{\mu}_ {B}$ edo $\widehat{\mu}_ {B} \gtrsim \widehat{\mu}_ {A}$, $N\rightarrow\infty$ limitean sistema ia guztiek $B$ eta $A$ egoeretara egingo lukete jauzi, hurrenez hurren, eta $\mathscr{N}_ {B} \gg \mathscr{N}_ {A}$ edo $\mathscr{N}_ {A} \gg \mathscr{N}_ {B}$ beteko litzateke. Bestela esanda, {eq}`fracnanb` ekuazioaren limite makroskopikoa bateragarria da _bi egoeren hurbilketarekin_. Edonola ere, $N$ behar bezain handia ez balitz, aurrekoa behatzeko presioa nabarmen aldendu beharko litzateke $p_{0}$ puntutik. Hori dela eta, $\Delta p$ presio-tarte aski zabal batean $\mathscr{N} _ {B} \gtrsim \mathscr{N}_ {A}$ edo $\mathscr{N}_ {A} \gtrsim \mathscr{N}_{B}$ behatuko genuke, eta egoera batetik besterako jauzia leunagoa litzateke.
 
+$$
+\\
+$$
 
 Fase-trantsizioen azterketari buru emateko, aipatu beharrekoa da $p=p_{0}$ puntuan $(T,p,N)$ ingurune-aldagaiek konstante iraun behar dutela. Orduan, berdintza manten dadin, balio horien inguruko aldakuntzek $\mathrm{d}\widehat{\mu} _ {A}=\mathrm{d}\widehat{\mu}_{B}$ bete behar dute nahitaez. Baldintza hori eta {eq}`dmuhat` ekuazioa erabiliz, hona helduko gara:
 
@@ -205,6 +211,8 @@ $$ (t_ez_int)
 
 Agerikoa da limite makroskopikoan behatuko den tenperaturari gehitu dizkiogun ekarpen txikiek izaera estentsiboa dutela.
 
-
+$$
+\\
+$$
 
 Kapitulu honetan zehar aztertu ditugun fase-trantsizioekin loturiko iruzkinek biziki indartu dute {numref}`{number} azpiatalean <tpn_azter>` aurresandakoa. Batik bat, __$\widehat{\mu}$ potentzial kimiko integralaren__ berezko izaera finkatzeko lagungarriak izan zaizkigu. Hain zuzen, ikusi dugu berori azpisistema osoek pairatzen dituzten aldaketen adierazlea dela ({eq}`fracnanb` ekuazioa); eta, hartara, sistema txiki horiez osatutako __multzoaren propietateei__ erasaten diela. Aitzitik, __$\mu$ potentzial kimiko diferentzialak sistema txiki soilei__ eragiten dieten banakako molekulen aldakuntzak hartzen ditu aintzakotzat. Nanotermodinamikak zorrozki bereizten ditu bi efektu horiek.

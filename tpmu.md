@@ -10,6 +10,10 @@ Hillek bere liburuan multzo _orokortu_ izena erabiltzen du ("generalized ensembl
 
 ```
 
+$$
+\\
+$$
+
 Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi>` adibideetako sistemei askatasun-gradu guztiak abiarazteak sorrarazten dituen ekarpen finituak kalkulatu, eta beroriek __entropian__ duten eraginari erreparatuko diogu, ondorio esanahitsuak erdietsiz. Berebat, limite makroskopikoan lortzen diren emaitzak gainontzeko multzo estatistikoenekin bateragarriak direnentz egiaztatuko dugu. Baina, lehenik, azterketarako beharrezkoa izango zaigun tresneria aurkeztuko dugu laburki.
 
 (mupt_azter)=
@@ -100,6 +104,10 @@ Giltzen artean ageri diren ekarpenak biraketari dagozkio, eta tamaina finitukoak
 
 **----------------------------------------------------**
 
+$$
+\\
+$$
+
 Horiek horrela, askatasun-gradu kimikoa abiarazi, eta __multzo nanokanonikora__ igaroko gara. Hala, adierazpenetan $ x(T,\mu)  =  je^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ erlazioa sartuz, eta {eq}`upsilon_def` definizioan {eq}`qagg` ekuazioa txertatuz,
 
 $$
@@ -157,6 +165,10 @@ P(N) := \frac{Q(T,N)e^{N\mu/k_{\mathrm{B}}T}}{\Upsilon}
 $$(probagg)
 ekuaziotik. Halaber, $Q(T,0) = 1$ denez, $P(0) = 1/\Upsilon$ beteko da.
 
+$$
+\\
+$$
+
 Adibidearen mamiari helduz, erka ditzagun {eq}`stnagg` eta {eq}`stmuagg` ekuazioak. Lehenengo bi gaiek tankera bera aurkezten dutela dirudi. Alabaina, ernai ibili behar dugu, adierazpen batean $N$ ageri baita; eta, bestean, ordea, batez besteko $\overline{N}$. Itsumustuan aritu barik, eraiki dezagun $P(N)$ magnitudearen adierazpen grafikoa:
 
 ```{figure} pn_plot.PNG
@@ -172,6 +184,11 @@ Orain bai, {numref}`{number} irudiko <pn_plot>` oharrei atxikiz, zilegi zaigu {e
 ```{admonition} Oharra
 Oharteman bedi {eq}`stmuagg` ekuazioan $x < 1$ eta $P(0) \leq 1$ betetzen dela. Berebat, ohiko agregatu lineal batean, $e^{\epsilon/k_{\mathrm{B}}T} = 0.1$ izan ohi da {cite}`hill`. Hortaz, $\epsilon \approx -2,3 \cdot k_{\mathrm{B}}T < 0$ dugu. 
 ```
+
+$$
+\\
+$$
+
 
 Azpiko kutxak adibide honetako ondorio nagusiak laburbiltzen ditu: $(a)$ sistema erabat askean gertatzen den entropiaren handiagotzea, eta, $(b)$ Nanotermodinamikaren eta Termodinamikaren arteko bateragarritasuna.
 
@@ -435,6 +452,10 @@ $$ (epsilonnewdef)
 
 Bestela esanda, multzo nanokanonikoaren kasuan, aldaki berri bat sorrarazteko multzoari berari egin beharreko lana da.
 
+$$
+\\
+$$
+
 Horren harira, atal honetan denboran batez besteko $\overline{\mathscr{N}}$ aldaki-kopuruak jasango dituen aldakuntzen izaera espontaneoa izango dugu hizpide. Multzoko azpisistemak erabat askeak direla onartuko dugu, baina, gutxienez partikula bat izan beharko dute $(N \geq 1)$. Era berean, multzoko inguruneko aldagai-sorta $(T,p,N_{t})$ izango dugu, non $N_{t}=\overline{\mathscr{N}}\;\overline{N}$ den.
 
 Bada, prozesu espontaneoan zehar orekaranzko bidean, minimorantz joko du $F_{t}(T,p,N_{t})$ energia askeak, eta, beraz, $\mathrm{d}F_{t}<0$. Prozesuak dirauela multzoa isolatuta mantentzen bada, $\overline{\mathscr{N}}$ ez beste aldagai guztiek bere horretan iraungo dute. Hori dela eta, {eq}`epsilonnewdef` ekuazioaren eskuinaldetik,
@@ -475,6 +496,9 @@ $$
 
 Gogora dezagun lehen, partizio-funtzioan $N=0$ gaia sartzeagatik, $\overline{N}\rightarrow 0$ baldintzak ginderamatzala orekara, zeinak banatzea etengabekoa dela iradoki bailezake. Horren aldean, orain lorturiko emaitzek esangura eta zentzu fisiko handiagoa dute.
 
+$$
+\\
+$$
 
 Amaitzeko, argitzeko geratu den alderdiari helduko diogu. Aurreko zenbait ataletan esan bezala, limite makroskopikoan $\overline{N}$ aldagaiarekin erlazio lineala betetzen duten ekarpenak biziki gailenduko dira banatze-potentzialarekiko, eta, beraz, $\mathscr{E}$ baztergarri bilakatuko da. Bada, azken esaldi hori iruzurtia gerta lekiguke, arrazoibide okerretik eraman gintzake eta, honakoa pentsaraziz: sistema makroskopikoak $\mathscr{E}\approx 0$ hautemango duenez, _limite makroskopikoa bera oreka-egoeratzat hartzea daukagu_.
 
@@ -486,10 +510,9 @@ $$ (epslimgi)
 adierazpenari segituko dio, eta, ondorioz, moduluz gora egingo du, astiro bada ere. Egia da, bai, beste zenbait kasutan ({numref}`{number} <helix_coil>` zein {numref}`{number}. <app>` ataletako sistemetan, adibidez) eskuratzen diren adierazpenek $\mathscr{E}\rightarrow 0$ betetzen dutela limite makroskopikoan, baina {eq}`epslimgi` ekuazioak argiro diosku oro har ez dela hala gertatuko! Gainera, nabarmendu beharrekoa da banatze-potentzialaren zeroranzko limite horren esanahia ez datorrela bat orekak zorrozki eskatzen duen $\mathscr{E}=0$ baldintzarekin. Hortaz, eskuarki, ez zaigu zilegi izango egoera makroskopikoa oreka-egoera baten baliokidea dela iradokitzea.
 
 $$
-\\
-\\
+**********
 $$
 
 Iruzkin argigarri horiekin itxiko dugu Sistema Txikien Termodinamikari dagokion teoriaren zatia. Lanaren azkenengo gaian ({numref}`{number} <app>`) 1960. hamarkadatik 2021era jauzi egin, eta dagoeneko luzaz jorratu dugun teoriaren aplikazio garrantzitsu batean murgilduko gara. 
 
-Baina, aurretik, hurrengo {numref}`{number}. <elek_mag>` eta {numref}`{number}. <osagarri>` atalak adibide berriak aurkeztera daude bideratuta. Era berean, dagoeneko lehendik landuta dauden hainbat sistema (agregatu lineala, besteak beste) itxuraldatu egingo ditugu, ekarpen berriak gaineratuz. Esan beharrekoa da beroriek emankorrak eta adierazgarriak gertatuko zaizkigula Hillen teoria osatzeko eta indartzeko.
+Baina, aurretik, hurrengo {numref}`{number}. <elek_mag>` eta {numref}`{number}. <osagarri>` atalak adibide berriak aurkeztera daude bideratuta. Era berean, dagoeneko lehendik landuta dauden hainbat sistema (agregatu lineala, besteak beste) itxuraldatu egingo ditugu, ekarpen berriak gaineratuz. Esan beharrekoa da beroriek emankorrak eta adierazgarriak gertatuko zaizkigula, Hillen teoria osatu eta aplikazio garrantzitsuetara zabaltzeko abiapuntua ezartze aldera.

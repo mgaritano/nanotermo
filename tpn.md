@@ -381,7 +381,7 @@ Agerikoa da ezen gaineko {eq}`heco_equality_1` adierazpenak zerorantz joko duela
 (gitpn)=
 ### Adibidea: Gas ideal klasikoa, multzo isotermo-isobaroan
 
-Bigarren sistemaren azterketa [___C___](gitvn) ___eranskineko___ emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara. Partizio-funtzio berria eraikitzerakoan, {eq}`qtvngi` ekuazioko zaharrari dagokion Legendreren transformazioa aplikatuko diogu.
+Bigarren sistemaren azterketa [_C eranskineko_](gitvn) emaitzetatik abiatuko dugu. Hasteko, askatasun-gradu mekanikoa abiarazi, eta multzo kanonikotik isotermo-isobarora igaroko gara. Partizio-funtzio berria eraikitzerakoan, {eq}`qtvngi` ekuazioko zaharrari dagokion Legendreren transformazioa aplikatuko diogu.
 
 $$
 \Delta(T,p,N) := \int_{0}^{\infty}\mathrm{d}\left(\frac{pV}{k_{\mathrm{B}}T}\right)\left[\frac{V^N}{N!\Lambda^{3N}}\right]\;e^{-pV/k_{\mathrm{B}}T} = \left(\frac{k_{\mathrm{B}}T}{p\Lambda^3}\right)^N \; .

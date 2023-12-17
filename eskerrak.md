@@ -1,4 +1,4 @@
-## **_Esker onak_**
+## _Esker onak_
 
 Lehenik eta behin, Josu Igartuari, 2021-2022 ikasturteko bigarren lauhilekoan zehar lantzen jardun nuen Fisikako Gradu Amaierako lanari (liburu honen jatorria, hain zuzen) jarraipen erregularra eta etengabea egin ziolako, astez aste; bai lanegunetan, bai jaiegunetan. Gainera, ikasturteko azken hilabeteetan hainbat egitasmoren abiarazlea izan zen. Beroriek, esku artean izan nuen proiektua aberasteaz gain, lanaren beraren gaineko ikuspegia nabarmen zabaldu zidaten; era berean, motibazio-iturri handiak izan ziren. Esate baterako, 2022ko maiatzean, 3. mailako ikasleei Nanotermodinamikaren nondik norakoak azaltzeko abagunea izan nuen. Hitz-jarioa luzea izan zen arren, zenbaitek jakin mina erakutsi zuen. Horren harira, Termodinamika eta Fisika Estatistikoa irakasgaira bideratutako materiala sorrarazteko asmotan azaldu zen Josu, datozen ikasturteei begira. Halaber, Ekaia aldizkarian artikulu bat argitaratzeko proposamena luzatu zidan.
 

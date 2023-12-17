@@ -46,8 +46,11 @@ $$
 \gamma := \left[\frac{\partial(\widehat{\gamma}\Omega)}{\partial \Omega}\right]_ {T, \mu} = \widehat{\gamma} + \Omega\left(\frac{\partial \widehat{\gamma}}{\partial \Omega}\right)_{T,\mu} \; .
 $$ (adsgandghat)
 
+$$
+\\
+$$
 
-Segidan, Fisika Estatistikora igaroko gara. Xurgatutako geruzaren partizio-funtzio kanonikoak bi ekarpen bilduko ditu: $\Omega$ gainazalera mugatutako gas idealari dagokiona, eta orekako $U_{S}$ elkarrekintza-energiaren eragina aintzat hartzen duena. Horiek horrela,
+Gauzak horrela, Fisika Estatistikora igaroko gara. Xurgatutako geruzaren partizio-funtzio kanonikoak bi ekarpen bilduko ditu: $\Omega$ gainazalera mugatutako gas idealari dagokiona, eta orekako $U_{S}$ elkarrekintza-energiaren eragina aintzat hartzen duena. Horiek horrela,
 
 $$
 Q(T,\Omega,N) = \frac{\Omega^N}{N!\Lambda^{2N}}\cdot e^{-NU_{S}/k_{\mathrm{B}}T} \; .
@@ -137,5 +140,9 @@ Ildo beretik, sistemari askatasun-gradu mekanikoa abian jartzeaz bat, multzo nan
 $$
 \mathscr{E}(T,\gamma,\mu) := \left(\frac{\partial E_{t}}{\partial \mathscr{N}}\right)_ {S_{t},\Omega_{t},N_{t}} \; .
 $$ (epsilonadsfree)
+
+$$
+\\
+$$
 
 Azterketari amaiera emateko, aipatu beharrekoa da aplikazio honetan zenbait hurbilketatan oinarritutako adsortzioaren eredu bakuna erabili dugula: alde batetik, gasa idealtzat hartu dugu, eta, bestetik, orekako $U_{S}$ potentziala soilik gainazalarekiko menpekoa dela onartu dugu. Dena dela ere, Sistema Txikien Termodinamikaren kontzeptuak adsortziora era ulergarri eta didaktikoan moldatzeko adibide arras egokia da.

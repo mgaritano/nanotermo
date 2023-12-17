@@ -344,7 +344,7 @@ $$
 \mathrm{d}\mathscr{E} = -S\mathrm{d}T - \overline{l}\mathrm{d}f - N\mathrm{d}\mu
 $$ (heco_depsilon)
 
-adierazpenak beteko dituzte. Jarraian, atalean segitutako prozedura errepikatuz, {eq}`heco_depsilon` ekuazioa berridatziko dugu:
+erlazioei eutsiko diete. Jarraian, atalean segitutako prozedura errepikatuz, {eq}`heco_depsilon` ekuazioa berridatziko dugu:
 
 $$
 \mathrm{d}\mathscr{E} = -\left[S-N\left(\frac{\partial S}{\partial N}\right)_{T,f}\right]\mathrm{d}T+\left[\overline{l}-N\left(\frac{\partial \overline{l}}{\partial N}\right)_{T,f}\right]\mathrm{d}f + \left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,f} \mathrm{d}N \; .
@@ -356,7 +356,7 @@ $$
 \left[\frac{\partial (\overline{l}/N)}{\partial N}\right]_{T,f} =  \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial f}\right)_{T,N} 
 $$ (heco_equality)
 
-erlazioa beteko dela ohartuko gara. 
+adierazpena beteko dela ohartuko gara. 
 
 ```
 
@@ -412,5 +412,9 @@ $$
 $$ (stpngi)
 
 Berori {eq}`stvngi` ekuazioarekin alderatuz (eta $Nk_{\mathrm{B}}T/p = \overline{V}=V$ onartuz), azken gai negatiboak ageri ez direla ohartuko gara, Sackur-Tetrode adierazpena berreskuratu baitugu; alegia, multzo kanonikoaren aldean, askatasun-gradu bat abiarazteak banatze-potentziala desagerrarazi, eta, horrekin batera, entropia handitu egin du!
+
+$$
+\\
+$$
 
 Aurrerago, {numref}`{number}. atalean <tpmu>`, gas ideala azpisistema erabat askez osaturiko multzo nanokanonikoan berraztertuko dugu. Bertan azalduko diren efektu berriek berebiziko adierazgarritasuna emango diote Nanotermodinamikari.

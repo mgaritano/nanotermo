@@ -1,5 +1,5 @@
 ```{epigraph}
-$\huge \quad \quad \mathbf{\text{NANOTERMODINAMIKA}}$
+$\huge \quad \quad \;\; \mathbf{\text{NANOTERMODINAMIKA}}$
 ```
 
 ```{epigraph}

@@ -233,7 +233,7 @@ Limite makroskopikoan,
 $$
 \left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = \left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = \begin{cases}
       -k_{B}\left( \frac{1}{r_{C}} \frac{\partial r_{C}}{\partial T} + \frac{1}{r} \frac{\partial r}{\partial T} \right) & \text{$r>1$ bada.}\\
-      -k_{\mathrm{B}}\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial t}& \text{$r<1$ bada.}
+      -k_{\mathrm{B}}\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T}& \text{$r<1$ bada.}
     \end{cases} 
 $$ (dmuT_mak)
 

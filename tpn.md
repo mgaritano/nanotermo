@@ -344,7 +344,7 @@ $$
 \mathrm{d}\mathscr{E} = -S\mathrm{d}T - \overline{l}\mathrm{d}f - N\mathrm{d}\mu
 $$ (heco_depsilon)
 
-erlazioei eutsiko diete. Jarraian, atalean segitutako prozedura errepikatuz, {eq}`heco_depsilon` ekuazioa berridatziko dugu:
+erlazioei eutsiko diete. Jarraian, {numref}`{number}. atalean <tpn_azter>` segitutako prozedura errepikatuz, {eq}`heco_depsilon` ekuazioa berridatziko dugu:
 
 $$
 \mathrm{d}\mathscr{E} = -\left[S-N\left(\frac{\partial S}{\partial N}\right)_{T,f}\right]\mathrm{d}T+\left[\overline{l}-N\left(\frac{\partial \overline{l}}{\partial N}\right)_{T,f}\right]\mathrm{d}f + \left(\frac{\partial \mathscr{E}}{\partial N}\right)_{T,f} \mathrm{d}N \; .

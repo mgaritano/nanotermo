@@ -1,5 +1,5 @@
 (euler)=
-## **_A_** _Eulerren ekuazioa_
+## _A Eulerren ekuazioa_
 
 Matematikan, $k$ ordenako funtzio homogeneo batek honako adierazpen hau betetzen du:
 

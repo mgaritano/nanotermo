@@ -1,5 +1,5 @@
 (gitvn)=
-## **_C_** _Gas ideal klasikoa, multzo kanonikoan_
+## _C Gas ideal klasikoa, multzo kanonikoan_
 
 Aztergai dugun sistema $V$ bolumenean dagoen eta $N$ partikula monoatomiko aske eta bereizezinek osatzen duten gasa da. Baldintza horiek nabarmen arinduko digute lana, aintzakotzat hartu beharreko energiarako ekarpena zinetikoa besterik ez baita izango: $H(q,p) = \sum_{i=1}^N \frac{p_{i}^2}{2m_{i}}$.
 

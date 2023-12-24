@@ -1,5 +1,5 @@
 (entropy)=
-## **_B_** _Entropiaren esangura_
+## _B Entropiaren esangura_
 
 Eranskin honen helburua entropiaren izaera gainerako aldagai estentsiboena ez bezalakoa dela ikusaraztea da
 {cite}`hill, entropy`. Horretarako, sarreran aurkeztutako Boltzmannen adierazpenetik abiatuko gara: $S = k_{\mathrm{B}}\ln\Omega$. Bada, demagun $\mathscr{N}$ sistemaz osaturiko multzoa dugula. Beroriek $n$ egoera kuantikotan banatuko ditugu. Horietako bakoitzean $\mathscr{N} _ {i}$ sistema egongo da, eta $\sum_{i=1}^{n} \mathscr{N}_ {i} = \mathscr{N}$. Era berean, $p_{i} = \mathscr{N}_{i}/\mathscr{N}$ definituko dugu, hots, partikula bat $i$ egoeran egoteko probabilitatea. Aldaki guztiak baliokideak, askeak eta bereizgarriak direnez,

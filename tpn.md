@@ -148,7 +148,7 @@ Hurrengo azpiataleko _helize-haril_ kateari dagozkion $\widehat{\mu}$ eta $\mu$ 
 
 
 (helix_coil)=
-### Adibidea: Helize-haril trantsizioa
+### Adibidea: Helize-Haril trantsizioa
 
 Esku artean dugun sistema {numref}`{number}. irudiko <heco>` irudiko dimentsio bakarreko soka da. Berori, hurrenez hurren, $l_{H}$ eta $l_{C}$ luzerako $n_{H}$ helize- eta $n_{C} = N - n_{H}$ haril-unitatez osatuta dago. Bestalde, bero-iturri batekin ukipen termikoan dagoela onartuko dugu, eta $N$ aldaezin mantenduko dela. Azterketa termodinamikoa $(T,f,N)$ aldagai-sortaren bitartez gauzatuko dugu, $f$ indarraren konjugatu estentsiboa $\overline{l}$, katearen batez besteko luzera, hartuta.
 

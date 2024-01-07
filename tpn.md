@@ -341,9 +341,9 @@ Gaineko adierazpenari behako bat emanez gero, gai guztiak tamaina finitukoak dir
 
 ```
 
-Bigarren ekuazioari helduko diogu orain. Ezer baino lehen, ohartu gaitezen ezen dimentsio bakarreko katea dugula aztergaitzat; ondorioz, ekarpen mekanikoa $f$ indarraren eta berorren konjugatua den $\overline{l}$ luzeraren bitartez azaleratu dugu. Hori dela eta, lehendabizi, ekuazioa bera egokitu eta berridatzi beharra daukagu. Bada, pausoz pauso ekingo diogu eginbeharrari.
+$(b)$ Bigarren ekuazioari helduko diogu orain. Ezer baino lehen, ohartu gaitezen ezen dimentsio bakarreko katea dugula aztergaitzat; ondorioz, ekarpen mekanikoa $f$ indarraren eta berorren konjugatua den $\overline{l}$ luzeraren bitartez azaleratu dugu. Hori dela eta, lehendabizi, ekuazioa bera egokitu eta berridatzi beharra daukagu. Bada, pausoz pauso ekingo diogu eginbeharrari.
 
-$(b)$ Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq}`depsilontpn2` ekuazioa, $(T,f,N)$ ingurune-aldagaien baitan. Bertatik, erauzi {eq}`dvdntp` ekuazioaren adierazpen baliokidea. Hori guztia egin aurretik, hausnartu ekarpen mekanikoak eramango duen zeinuaren gainean; positiboa ala negatiboa beharko luke izan?
+Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq}`depsilontpn2` ekuazioa, $(T,f,N)$ ingurune-aldagaien baitan. Bertatik, erauzi {eq}`dvdntp` ekuazioaren adierazpen baliokidea. Hori guztia egin aurretik, hausnartu ekarpen mekanikoak eramango duen zeinuaren gainean; positiboa ala negatiboa beharko luke izan?
 
 ```{dropdown} __Erantzuna__
 

@@ -318,9 +318,32 @@ Esanak esan, fase-trantsizioen gaian murgildutakoan ({numref}`{number}. atalean 
 
 (helix_ariketa_2)=
 #### Ariketa
-Ariketa osagarri honen xedea {eq}`dvdntp` berdintza egiaztatzean datza. Ezer baino lehen, ohartu gaitezen ezen dimentsio bakarreko katea dugula aztergaitzat; ondorioz, ekarpen mekanikoa $f$ indarraren eta berorren konjugatua den $\overline{l}$ luzeraren bitartez azaleratu dugu. Hori dela eta, lehendabizi, ekuazioa bera egokitu eta berridatzi beharra daukagu. Bada, pausoz pauso ekingo diogu eginbeharrari.
+Ariketa osagarri honen xedea, {eq}`dsdntp` eta {eq}`dvdntp` berdintzak "helize-haril" ereduan aztertzean datza. 
 
-$(a)$ Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq}`depsilontpn2` ekuazioa, $(T,f,N)$ ingurune-aldagaien baitan. Bertatik, erauzi {eq}`dvdntp` ekuazioaren adierazpen baliokidea. Hori guztia egin aurretik, hausnartu ekarpen mekanikoak eramango duen zeinuaren gainean; positiboa ala negatiboa beharko luke izan?
+$(a)$ Eraiki $S(T,f,N)$ entropiaren adierazpena, eta egiaztatu {eq}`dsdntp` erlazioa betetzen dela.
+
+```{dropdown} __Erantzuna__
+
+Bada, $S(T,f,N) := \frac{\partial}{\partial T}\left(k_{\mathrm{B}}T \ln \Delta\right)$ definiziora joz, eta arestiko {eq}`d_short` partizio-funtzioa bertan sartuz,
+
+$$
+S(T,f,N) = k_{\mathrm{B}}\left[N \ln r_C + \ln\left(1 + r^N\right)\right] + Nk_{\mathrm{B}}T\left\{\frac{\mathrm{d}\ln q_C}{\mathrm{d} T} - \frac{fl_C}{k_{\mathrm{B}}T^2} + \frac{r^N}{1 + r^N}\left[-\frac{\mathrm{d}\ln q_C}{\mathrm{d} T} + \frac{\mathrm{d}\ln q_H}{\mathrm{d} T} - \frac{f\left(l_H - l_C\right)}{k_{\mathrm{B}}T^2}\right]\right\} \; .
+$$ (stfn)
+
+Adierazpen horrekin zein aurrez kalkulatu dugun {eq}`epsilonhelix` banatze-potentzialarekin eragiketak burutuz gero, {eq}`dsdntp` ekuazoaren alde biak bat datozela ikusiko dugu:
+
+$$
+\left[\frac{\partial \left(S/N\right)}{\partial N}\right]_{T,p} = \frac{1}{N}k_{\mathrm{B}}\left[\frac{r^N\ln r}{1 + r^N} - \frac{1}{N}\ln\left(1 + r^N\right)\right] + k_{\mathrm{B}}T \frac{r^N \ln r}{\left(1 + r^N\right)^2}\left[-\frac{\mathrm{d}\ln q_C}{\mathrm{d} T} + \frac{\mathrm{d}\ln q_H}{\mathrm{d} T} - \frac{f\left(l_H - l_C\right)}{k_{\mathrm{B}}T^2}\right] = \frac {1}{N^2}\left(\frac{\partial \mathscr{E}}{\partial T}\right)_{p,N}
+$$ (heco_equality_0)
+
+Gaineko adierazpenari behako bat emanez gero, gai guztiak tamaina finitukoak direla ohartuko gara, eta, beraz, $N \rightarrow \infty$ limitean baztergarriak. Hartara, partikulako entropia $(S/N)$ intentsibo bilakatuko da. 
+
+
+```
+
+Bigarren ekuazioari helduko diogu orain. Ezer baino lehen, ohartu gaitezen ezen dimentsio bakarreko katea dugula aztergaitzat; ondorioz, ekarpen mekanikoa $f$ indarraren eta berorren konjugatua den $\overline{l}$ luzeraren bitartez azaleratu dugu. Hori dela eta, lehendabizi, ekuazioa bera egokitu eta berridatzi beharra daukagu. Bada, pausoz pauso ekingo diogu eginbeharrari.
+
+$(b)$ Idatzi sistema txikiaren Gibbs-en ekuazioa. Hortik abiatuz, berreraiki {eq}`depsilontpn2` ekuazioa, $(T,f,N)$ ingurune-aldagaien baitan. Bertatik, erauzi {eq}`dvdntp` ekuazioaren adierazpen baliokidea. Hori guztia egin aurretik, hausnartu ekarpen mekanikoak eramango duen zeinuaren gainean; positiboa ala negatiboa beharko luke izan?
 
 ```{dropdown} __Erantzuna__
 
@@ -361,7 +384,7 @@ adierazpena beteko dela ohartuko gara.
 ```
 
 
-$(b)$ Egiaztatu $(a)$ atalean lortutako {eq}`heco_equality` berdintza betetzen dela, adibidearen garapenean barrena eraikitako ekuazioak baliatuz.
+$(c)$ Egiaztatu $(a)$ atalean lortutako {eq}`heco_equality` berdintza betetzen dela, adibidearen garapenean barrena eraikitako ekuazioak baliatuz.
 
 ```{dropdown} __Erantzuna__
 

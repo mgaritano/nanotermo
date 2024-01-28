@@ -339,7 +339,7 @@ name: lattice_multzo
 Aztergai izango ditugun multzo estatistikoen adierazpen grafikoa. Multzo mikrokanonikoan lau azpisistemek ez dute elkar ikusten, eta, horietako bakoitza $B=25$ eta $N=9$ baldintzekin bateragarria den mikroegoera baten adierazle da. Kontrolpean izango ditugun ingurune-aldagaiak aldatu ahala, azpisistemek gelaxkak edota partikulak elkartrukatzeko askatasuna izango dute. Multzo nanokanonikoan bi askatasun-graduak daude abiarazita.
 ```
 
-#### **9.2.1** Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak
+#### Multzo mikrokanonikoa: $(B,N)$ ingurune-aldagaiak
 
 Horrenbestez, azterketa $(B,N)$ ingurune-aldagaiek finkatuko duten **multzo mikrokanonikoan** abiatuko dugu. Molekulak bereizezinak direnez, mikroegoera-kopurua
 

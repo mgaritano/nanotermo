@@ -15,7 +15,7 @@ Kontrol-aldagaitzat $(T,p,N)$ dituzten sistema txikiek $\overline{E}=E_{t}/\math
 
 Aurreko esaldian aipatutakoa aintzat hartuz, eta {numref}`{number}. ataleko <hillsec>` azalpenei segituz, eraiki honako adierazpenak:
 
-$(a)$ Multzo isotermo-isobaroaren Gibbsen ekuazioa eta $X(T,p,N)$ aldaki-energia. Emaitzak azaldu.
+$(a)$ Hill-Gibbsen ekuazioa multzo isotermo-isobaroan, eta $X(T,p,N)$ aldaki-energia. Emaitzak azaldu.
 
 ```{dropdown} __Erantzuna__
 $$

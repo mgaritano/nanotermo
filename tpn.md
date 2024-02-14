@@ -221,18 +221,18 @@ $(b)$ Lehengo ataleko potentzial kimikoetatik abiatuz, lortu {eq}`mu_muhat_h` ek
 ```{dropdown} __Erantzuna__
 
 $$
-\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = -k_{B}\left(\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + \frac{r^{N-1}}{1 + r^{N}}\frac{\partial r}{\partial T}\right) \; ,
+\left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = -k_{\mathrm{B}}\left(\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + \frac{r^{N-1}}{1 + r^{N}}\frac{\partial r}{\partial T}\right) \; ,
 $$ (dmuhatT)
 
 $$
-\left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = -k_{B}\left[\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + N\frac{r^{N-1}}{1 + r^{N}}\left(\frac{1}{N} + \ln r - \frac{r^{N}\ln r}{1 + r^N} \right)\frac{\partial r}{\partial T} \right] \; .
+\left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = -k_{\mathrm{B}}\left[\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T} + N\frac{r^{N-1}}{1 + r^{N}}\left(\frac{1}{N} + \ln r - \frac{r^{N}\ln r}{1 + r^N} \right)\frac{\partial r}{\partial T} \right] \; .
 $$ (dmuT)
 
 Limite makroskopikoan,
 
 $$
 \left(\frac{\partial \widehat{\mu}/T}{\partial T}\right)_{f, N} = \left(\frac{\partial \mu/T}{\partial T}\right)_{f, N} = \begin{cases}
-      -k_{B}\left( \frac{1}{r_{C}} \frac{\partial r_{C}}{\partial T} + \frac{1}{r} \frac{\partial r}{\partial T} \right) & \text{$r>1$ bada.}\\
+      -k_{\mathrm{B}}\left( \frac{1}{r_{C}} \frac{\partial r_{C}}{\partial T} + \frac{1}{r} \frac{\partial r}{\partial T} \right) & \text{$r>1$ bada.}\\
       -k_{\mathrm{B}}\frac{1}{r_{C}}\frac{\partial r_{C}}{\partial T}& \text{$r<1$ bada.}
     \end{cases} 
 $$ (dmuT_mak)

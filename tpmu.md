@@ -334,7 +334,7 @@ Geroago, {numref}`{number} adibidean <agg_elek>`, eremu elektrikoa ezartzeak kal
 Sistema honen bigarren berrazterketaren abiapuntua {numref}`{number} adibideko <gitpn>` {eq}`dtpn_gi` ekuazioa da.
 
 ##### Ariketa
-Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathscr{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\overline{N}$ eta $\overline{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\overline{V},\overline{N})$.
+$(a)$ Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathscr{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\overline{N}$ eta $\overline{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\overline{V},\overline{N})$.
 ```{dropdown} __Erantzuna__
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
@@ -359,6 +359,30 @@ $$
 \boxed{S(T,p,\mu) =  \overline{N}k_{\mathrm{B}}\left[\ln\left(\frac{\overline{V}}{\Lambda^3}\frac{\overline{N}+1}{\overline{N}^2}\right) + \frac{5}{2}\right] + k_{\mathrm{B}}\ln(\overline{N} + 1)}
 $$ (stpmugi)
 ```
+
+$(b)$ Egiaztatu $(a)$ atalean lortutako magnitudeek {eq}`maxwell_nc` ekuazioko Maxwellen erlazio-sortari eusten diotela.
+
+```{dropdown} __Erantzuna__
+
+Gaineko {eq}`barnbarvtpmugi` eta {eq}`stpmugi` ekuazioetako $\overline{N}(T,p,\Lambda(T),\lambda(T,\mu))$, $\overline{V}(T,p,\overline{N})$ eta S(T,\overline{V},\overline{N}) aldagaiekin eragiketak burutuz, honako berdintza hauek betetzen direla ikusiko dugu:
+
+$$
+\left(\frac{\partial S}{\partial p}\right)_{T,\mu} = \frac{\overline{N}k_{\mathrm{B}}}{p} + \frac{\overline{N}\left(\overline{N}+1\right)k_{\mathrm{B}}}{p}\left[\ln\left(\frac{\overline{V}}{\Lambda^3}\frac{\overline{N}+1}{\overline{N}^2}\right) + \frac{5}{2}\right] = - \left(\frac{\partial \overline{V}}{\partial T}\right)_{p,\mu} \; ,
+$$ (maxwell_nc1)
+
+$$
+\left(\frac{\partial S}{\partial \mu}\right)_{T,p} =  \frac{\overline{N}\left(\overline{N}+1\right)}{T}\left[\ln\left(\frac{\overline{V}}{\Lambda^3}\frac{\overline{N}+1}{\overline{N}^2}\right) + \frac{5}{2}\right] = \left(\frac{\partial \overline{N}}{\partial T}\right)_{p,\mu} \; ,
+$$ (maxwell_nc2)
+
+eta,
+
+$$
+\left(\frac{\partial \overline{V}}{\partial \mu}\right)_{T,p} = -\frac{\overline{N}^2 + \overline{N}}{p} = -\left(\frac{\partial \overline{N}}{\partial p}\right)_{T,\mu} \; .
+$$ (maxwell_nc3)
+
+
+```
+
 **----------------------------------------------------**
 
 Errepara diezaiogun multzo nanokanonikoak itzulitako entropiaren {eq}`stpmugi` ekuazioari. Halaber, etor bekizkigu gogora multzo kanonikotik eta isotermo-isobarotik eskuratutako {eq}`stvngi` eta {eq}`stpngi` adierazpenak, eta ipin ditzagun hirurak parez pare ({numref}`{number} taula <taula_s_gi>` eta {numref}`{number} irudia <sn100>`). Guztietan Sackur-Tetrode adierazpen _estentsiboa_ $(S_{0})$ da gai nagusia. Baina, aurreneko bien aldean, {eq}`stpmugi` ekuazioak bigarren gai _positibo_ bat duela hauteman daiteke, eta, hori dela eta, sistema txikietan berori izango da nagusi.

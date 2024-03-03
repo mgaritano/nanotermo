@@ -335,6 +335,7 @@ Sistema honen bigarren berrazterketaren abiapuntua {numref}`{number} adibideko <
 
 ##### Ariketa
 $(a)$ Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\mathscr{E}$ banatze-potentziala eta $S(T,p,\mu)$ entropia. Jarraian, lortu $\overline{N}$ eta $\overline{V}$ magnitudeak eta berridatzi entropiaren ekuazioa haien baitan, hau da, $S(T,\overline{V},\overline{N})$.
+
 ```{dropdown} __Erantzuna__
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
@@ -364,7 +365,7 @@ $(b)$ Egiaztatu $(a)$ atalean lortutako magnitudeek {eq}`maxwell_nc` ekuazioko M
 
 ```{dropdown} __Erantzuna__
 
-Gaineko {eq}`barnbarvtpmugi` eta {eq}`stpmugi` ekuazioetako $\overline{N}(T,p,\Lambda(T),\lambda(T,\mu))$, $\overline{V}(T,p,\overline{N})$ eta S(T,\overline{V},\overline{N}) aldagaiekin eragiketak burutuz, honako berdintza hauek betetzen direla ikusiko dugu:
+Gaineko {eq}`barnbarvtpmugi` eta {eq}`stpmugi` ekuazioetako $\overline{N}(T,p,\Lambda(T),\lambda(T,\mu))$, $\overline{V}(T,p,\overline{N})$ eta $S(T,\overline{V},\overline{N})$ aldagaiekin eragiketak burutuz, honako berdintza hauek betetzen direla ikusiko dugu:
 
 $$
 \left(\frac{\partial S}{\partial p}\right)_{T,\mu} = \frac{\overline{N}k_{\mathrm{B}}}{p} + \frac{\overline{N}\left(\overline{N}+1\right)k_{\mathrm{B}}}{p}\left[\ln\left(\frac{\overline{V}}{\Lambda^3}\frac{\overline{N}+1}{\overline{N}^2}\right) + \frac{5}{2}\right] = - \left(\frac{\partial \overline{V}}{\partial T}\right)_{p,\mu} \; ,

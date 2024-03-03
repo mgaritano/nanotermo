@@ -382,7 +382,7 @@ $$
 $$ (maxwell_nc3)
 
 
-Agerikoa da hiru adierazpenek era koadratikoan egiten dutela gora, tamaina handitu ahala. Hori dela eta, $T$ eta $p$ aldagaien \overline{N}-rekiko zein \overline{V}-rekiko deribatuek zerorantz egingo dute.
+Agerikoa da hiru adierazpenek era koadratikoan egiten dutela gora, tamaina handitu ahala. Hori dela eta, $T$ eta $p$ aldagaien $\overline{N}$-rekiko zein $\overline{V}$-rekiko deribatuek zerorantz egingo dute.
 
 ```
 

@@ -22,7 +22,7 @@ Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi
 Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hillen teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\overline{V}$ bolumena eta $\overline{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
 
 $$
-\mathrm{d}\mathscr{E}(T,p,\mu) = \color{red}{ \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}}\mathrm{d}T + \color{blue}{\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}}\mathrm{d}p + \color{teal}{\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}}\mathrm{d}\mu = \color{red}{ -S}\mathrm{d}T  \color{blue}{+\overline{V}}\mathrm{d}p + \color{teal}{-\overline{N}}\mathrm{d}\mu \; .
+\mathrm{d}\mathscr{E}(T,p,\mu) = \color{red}{ \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}}\color{black}{\mathrm{d}T} + \color{blue}{\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}}\color{black}{\mathrm{d}p} + \color{teal}{\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}}\color{black}{\mathrm{d}\mu} = \color{red}{ -S}\color{black}{\mathrm{d}T}  \color{blue}{+\overline{V}}\color{black}{\mathrm{d}p}  \color{teal}{-\overline{N}}\color{black}{\mathrm{d}\mu} \; .
  $$ (depsilonnew)
 
  Jarraian, Fisika Estatistikoarekin lotura ezartze aldera, $\Upsilon(T,p,\mu)$ hizkiaren bidez adieraziko dugun __partizio-funtzio nanokanonikoaren__ eta multzoaren izaeraren isla den banatze-potentzialaren arteko erlazioa idatziko dugu:

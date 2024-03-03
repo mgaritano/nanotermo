@@ -22,8 +22,19 @@ Ildo horretatik, {numref}`{number} <mupt_linagg>` eta {numref}`{number} <mupt_gi
 Aipatzekoa da multzo honi dagozkion adierazpen gehienak {numref}`{number} azpiatalean <hillteo>` eraiki ditugula, berori baita, hain zuzen, Hillen teoriari heltzeko abiapuntu aproposa. Bada, {eq}`h_g_d` ekuazioa berridatziz, $S$ entropia, $\overline{V}$ bolumena eta $\overline{N}$ partikula-kopuruaren erlazioetara iritsiko gara:
 
 $$
-\mathrm{d}\mathscr{E}(T,p,\mu) = \color{red}{ \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}}\color{black}{\mathrm{d}T} + \color{blue}{\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}}\color{black}{\mathrm{d}p} + \color{teal}{\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}}\color{black}{\mathrm{d}\mu} = \color{red}{ -S}\color{black}{\mathrm{d}T}  \color{blue}{+\overline{V}}\color{black}{\mathrm{d}p}  \color{teal}{-\overline{N}}\color{black}{\mathrm{d}\mu} \; .
+\mathrm{d}\mathscr{E}(T,p,\mu) = \color{red}{ \left(\frac{\partial \mathscr{E}}{\partial T}\right)_ {p,\mu}}\color{black}{\mathrm{d}T} + \color{blue}{\left(\frac{\partial \mathscr{E}}{\partial p}\right)_ {T,\mu}}\color{black}{\mathrm{d}p} + \color{teal}{\left(\frac{\partial \mathscr{E}}{\partial \mu}\right)_{T,p}}\color{black}{\mathrm{d}\mu} = \color{red}{ -S}\color{black}{\mathrm{d}T} \; \color{blue}{+\overline{V}}\color{black}{\mathrm{d}p}  \; \color{teal}{-\overline{N}}\color{black}{\mathrm{d}\mu} \; .
  $$ (depsilonnew)
+
+Banatze-potentziala $(T,p,\mu)$ aldagai-sortaren funtzioa denez gero, haien baitan zehaztuta egongo dira osagai bakarreko sistemaren $(S,\overline{V},\overline{N})$ aldagai estentsiboak, {eq}`depsilonnew` ekuazioak adierazi bezala. Nabarmendu beharrekoa da ezen limite termodinamikoan egoera oso bestelakoa dela; izan ere, bi aldagai estentsibo aske baino ez dugu definitzerik izango, eta haiek ez dute sistemaren tamaina finkatuko. 
+
+Horrekin batera, {eq}`depsilonnew` ekuazioak multzo nanokanonikoaren berariazko Maxwellen erlazioez hornituko gaitu; besteak beste,
+
+$$
+\left(\frac{\partial S}{\partial p}\right)_{T,\mu} =- \left(\frac{\partial \overline{V}}{\partial T}\right)_{p,\mu} \quad ; \quad \left(\frac{\partial S}{\partial \mu}\right)_{T,p} = \left(\frac{\partial \overline{N}}{\partial T}\right)_{p,\mu} \quad ; \quad \left(\frac{\partial \overline{V}}{\partial \mu}\right)_{T,p} = - \left(\frac{\partial \overline{N}}{\partial p}\right)_{T,\mu} \; .
+$$ (maxwell_nc)
+
+Oharteman dezagun ezen deribatu horiek guztiek limite termodinamikoan infinitura joko dutela; izan ere, haien alderantzizkoak (magnitude intentsiboen tamainarekiko deribatuak) limite horretan zero dira. Bada, aurrerago, gas ideal klasikoaren bigarren berrazterketan lortuko ditugun magnitudeen bitartez ({numref}`{number} azpiatala <mupt_gi>`), {eq}`maxwell_nc` erlazioen egiazkotasuna aztertuko dugu.
+
 
  Jarraian, Fisika Estatistikoarekin lotura ezartze aldera, $\Upsilon(T,p,\mu)$ hizkiaren bidez adieraziko dugun __partizio-funtzio nanokanonikoaren__ eta multzoaren izaeraren isla den banatze-potentzialaren arteko erlazioa idatziko dugu:
 
@@ -36,6 +47,8 @@ Partizio-funtzio orokortua gainontzekoei kasuan kasuko Legendreren transformazio
 $$
 \Upsilon(T,p,\mu) := \sum_{E,V,N}\Omega(E,V,N)e^{-E/k_{\mathrm{B}}T}e^{-pV/k_{\mathrm{B}}T}e^{\mu N/k_{\mathrm{B}}T} \equiv \sum_{N}\Delta(T,p,N)e^{\mu N/k_{\mathrm{B}}T} \; .
 $$ (upsilon_def)
+
+
 
 
 (mupt_linagg)=

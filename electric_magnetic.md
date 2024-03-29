@@ -143,7 +143,7 @@ dugu.
 Kontua da $\mathbf{p_0}$ bektorearen orientazioa hartu behar dugula aintzakotzat. Kanpo-eremurik jarri ezean, bektore horren edozein orientaziok probabilitate bera izango luke $(\theta,\varphi)$ koordenatuen espazioan. Hori dela eta, momentuaren orientazioa $\mathrm{d}\theta\;\mathrm{d}\varphi$ tartean aurkitzeko probabilitatea $\sin\theta\;\mathrm{d}\theta\;\mathrm{d}\varphi$ angelu solido diferentzialarekiko proportzionala da. Alabaina, kanpo-eremua ezarriz gero, $U_{p_0}(\theta)$ elkarrekintza-energia tarteko, orientazio jakin batzuk hobetsiko dira beste batzuen aldean. Hitzez esandakoa jarraian datorren partizio-funtzio normalizatuan islatuko dugu, hain zuzen, angelu solido diferentzialean zehar integratuz:
 
 $$
- Q_{p_0} = \frac{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \; e^{-U_{p_0}(\theta)/k_\mathrm{B}T}}{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta} = \frac{1}{2}\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \exp\left(\frac{Np_0\vert\mathbf{E}\vert \cos \theta}{k_\mathrm{B}T}\right) = \frac{\sinh (Ny)}{Ny} \; ,
+ Q_{p_0} = \frac{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \; e^{-U_{p_0}(\theta)/k_\mathrm{B}T}}{\int_0^{2\pi}\mathrm{d}\varphi\int_0^{\pi}\mathrm{d}\theta\;\sin \theta} = \frac{1}{2}\int_0^{\pi}\mathrm{d}\theta\;\sin \theta \; \exp\left(\frac{Np_0\vert\mathbf{E}\vert \cos \theta}{k_\mathrm{B}T}\right) = \frac{\sinh (Ny)}{Ny} \; ,
 $$ (agg_e_q_p0)
 
 non $y = p_0\vert\mathbf{E}\vert/(k_\mathrm{B}T)$ den.

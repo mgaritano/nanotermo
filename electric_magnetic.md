@@ -695,14 +695,26 @@ $$
 Q(T, N) = \sum_{n_+=0}^N \Omega(n_+,N)\;e^{-(N-2n_+)mB/k_{\mathrm{B}}T} = \left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]^N 
 $$ (ising_b_q)
 
-Bertatik, $A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right]$ eta $\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} $, eta, horien bidez,
+Bertatik, 
+
+$$
+A(T,N) = -Nk_{\mathrm{B}}T\ln\left[2\cosh\frac{mB}{k_{\mathrm{B}}T}\right] \; ,
+$$ (ising_b_A)
+
+eta,
+
+$$
+\overline{E} = -NmB\tanh\frac{mB}{k_{\mathrm{B}}T} \; .
+$$ (ising_b_Ebar)
+
+Horien bidez,
 
 $$
 \boxed{S(T,N)
  = N\left[k_{\mathrm{B}}\ln\left(2\cosh\frac{mB}{k_{\mathrm{B}}T}\right) - \frac{mB}{T}\tanh\frac{mB}{k_{\mathrm{B}}T}\right]} \; .
 $$ (ising_b_s_c)
 
-Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun $A(T, N)$ Helmholtzen energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
+Oraingo honetan, entropiaren gai guztiak $N$ magnitudearekiko linealak dira. Izan ere, {eq}`ising_b_q` ekuazioan mikroegoera guztietan zeharreko batukaria kalkulatzean, faktorialak desagerrarazi egin ditugu. Hori dela eta, goian definitu dugun {eq}`ising_b_A` ekuazioko $A(T, N)$ Helmholtzen energia askearen adierazpena lehen ordenako funtzio Euler-homogeneoa da (erabat zehatza), eta, hartara, $\mathscr{E}(T, N) = 0$ izango dugu.
 
 $$
 \\

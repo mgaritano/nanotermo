@@ -134,7 +134,7 @@ izango dugu partizio-funtzio orokortua.
 Abiatu gaitezen dagoeneko ezaguna dugun honako serie geometriko honetatik:
 
 $$
-\sum_{N=1}^{\infty}x^N = \frac{1}{1-x} \; , \; \vert x \vert < 1 \; .
+\sum_{N=1}^{\infty}x^N = \frac{1}{1-x} \; \; \; (\vert x \vert < 1) \; .
 $$
 
 Jarraian, bi aldeen $x$rekiko deribatuak kalkulatzeaz bat, $x$rekin biderkatuko ditugu.
@@ -340,7 +340,7 @@ $(a)$ Eraiki honako adierazpen hauek: $\Upsilon(T,p,\mu)$ partizio-funtzioa, $\m
  $\Delta(T,p,N)$ partizio-funtzioari askatasun-gradu kimikoa abiarazteak dakarren Legendreren transformazioa erantsiz,
 
 $$
-\Upsilon(T,p,\mu) = \sum_{N=0}^{\infty} \left(\frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right)^{N} = \frac{1}{1 - k_{\mathrm{B}}T\lambda/(p\Lambda^3)} \; , \; \left| \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3} \right| < 1
+\Upsilon(T,p,\mu) = \sum_{N=0}^{\infty} \left(\frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3}\right)^{N} = \frac{1}{1 - k_{\mathrm{B}}T\lambda/(p\Lambda^3)} \; \; \; \left(\left| \frac{k_{\mathrm{B}}T\lambda}{p\Lambda^3} \right| < 1 \right)
 $$ (upsilongi)
 izango dugu partizio-funtzio orokortua. Bertan $\lambda = e^{\mu/k_{\mathrm{B}}T}$ ordezkatu dugu. Hortaz,
 

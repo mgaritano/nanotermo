@@ -262,7 +262,7 @@ $$ (stn_agg_short)
 Beraz, $S^{(x)}(T,N) = 0$ da.
 
 $$
-\Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \; (x < 1) \; ,
+\Upsilon(T,\mu) = \frac{1-x+cx}{1-x} \;\;\; (x < 1) \; ,
 $$ (upsilon_agg_short)
 
 non $x(T,\mu)  =  j(T)e^{\left(\mu-\epsilon\right)/k_{\mathrm{B}}T}$ gaiak bere horretan dirauen, eta, $c = e^{\epsilon/k_{\mathrm{B}}T}$ dugun.
@@ -298,7 +298,7 @@ $$ (pn_aux)
 Serieak garatuz gero, 
 
 $$
-\sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \;\; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \;\; (x < 1) \; .
+\sum_{N=1}^{\infty}N x^N = \frac{x}{(x-1)^2} \;\;\; (x < 1) \quad , \quad  \sum_{N=1}^{\infty} x^N = \frac{x}{1-x} \;\;\; (x < 1) \; .
 $$
 
 Hortaz, {eq}`pn_aux` ekuazioa honela berridatziko dugu:
